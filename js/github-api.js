@@ -141,3 +141,4 @@ async function loadTopicQuestions(subject, topic) {
   return await fetch(path)
     .then(r => r.json())
     .catch(() => ({ questions: [] }));
+}
