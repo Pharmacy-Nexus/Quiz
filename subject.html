@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject - Pharmacy Nexus</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <h1>Pharmacy Nexus</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="question-bank.html">Question Bank</a></li>
+        <li><a href="final-exam.html">Final Exam</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>&gt;</span>
+      <span id="subjectTitle">Subject</span>
+    </div>
+
+    <section class="subject-header">
+      <h1 id="subjectName"></h1>
+    </section>
+
+    <section class="search-section">
+      <input
+        type="text"
+        id="topicSearch"
+        class="search-input"
+        placeholder="Search topics..."
+      >
+    </section>
+
+    <section class="topics-grid" id="topicsContainer">
+      <div class="loading">Loading topics...</div>
+    </section>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/github-api.js"></script>
+  <script src="js/subject.js"></script>
+</body>
+</html>
