@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Pharmacy Nexus</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    .admin-container {
+      padding: 2rem;
+    }
+
+    .admin-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--neutral-200);
+    }
+
+    .admin-tabs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid var(--neutral-200);
+    }
+
+    .admin-tab {
+      padding: 1rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--neutral-600);
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s;
+    }
+
+    .admin-tab.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px solid var(--neutral-200);
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      transition: all 0.3s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(0, 31, 84, 0.1);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .form-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 1px solid var(--neutral-200);
+      margin-bottom: 2rem;
+    }
+
+    .options-list {
+      margin-top: 1rem;
+    }
+
+    .option-item {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .option-item input {
+      flex: 1;
+    }
+
+    .option-item button {
+      padding: 0.5rem 1rem;
+      background: var(--error);
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    .data-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .data-item {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      border: 1px solid var(--neutral-200);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .data-item h4 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .data-actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .data-actions button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .btn-edit {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-delete {
+      background: var(--error);
+      color: white;
+    }
+
+    .login-screen {
+      max-width: 500px;
+      margin: 5rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .login-screen h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+    }
+
+    .success-message {
+      padding: 1rem;
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--easy);
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .error-message {
+      padding: 1rem;
+      background: rgba(239, 68, 68, 0.1);
+      color: var(--error);
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .admin-tabs {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loginScreen" class="login-screen">
+    <h2>Admin Login</h2>
+    <div class="form-group">
+      <label for="tokenInput">GitHub Personal Access Token (Classic):</label>
+      <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxxx">
+    </div>
+    <button class="btn btn-primary" onclick="loginAdmin()" style="width: 100%; margin-bottom: 1rem;">Login</button>
+    <p style="text-align: center; font-size: 0.9rem; color: var(--neutral-600);">
+      <a href="https://github.com/settings/tokens" target="_blank">Create a token here</a>
+    </p>
+  </div>
+
+  <div id="adminPanel" style="display: none;">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <h1>Pharmacy Nexus Admin</h1>
+        </div>
+        <button class="btn btn-outline" onclick="logoutAdmin()" style="color: white; border-color: white;">Logout</button>
+      </div>
+    </nav>
+
+    <div class="admin-container">
+      <div class="admin-header">
+        <h1>Admin Dashboard</h1>
+        <div id="syncStatus"></div>
+      </div>
+
+      <div class="admin-tabs">
+        <button class="admin-tab active" onclick="switchTab('subjects')">Subjects</button>
+        <button class="admin-tab" onclick="switchTab('topics')">Topics</button>
+        <button class="admin-tab" onclick="switchTab('questions')">Questions</button>
+        <button class="admin-tab" onclick="switchTab('quizzes')">Quiz Sets</button>
+      </div>
+
+      <div id="subjects" class="tab-content active">
+        <div class="form-section">
+          <h2>Add New Subject</h2>
+          <div class="form-group">
+            <label for="subjectName">Subject Name:</label>
+            <input type="text" id="subjectName" placeholder="e.g., Pharmacology">
+          </div>
+          <button class="btn btn-primary" onclick="addSubject()">Add Subject</button>
+        </div>
+
+        <h2>Existing Subjects</h2>
+        <div class="data-list" id="subjectsList"></div>
+      </div>
+
+      <div id="topics" class="tab-content">
+        <div class="form-section">
+          <h2>Add New Topic</h2>
+          <div class="form-group">
+            <label for="topicSubject">Subject:</label>
+            <select id="topicSubject"></select>
+          </div>
+          <div class="form-group">
+            <label for="topicName">Topic Name:</label>
+            <input type="text" id="topicName" placeholder="e.g., Sedatives & Hypnotics">
+          </div>
+          <button class="btn btn-primary" onclick="addTopic()">Add Topic</button>
+        </div>
+
+        <h2>Existing Topics</h2>
+        <div class="data-list" id="topicsList"></div>
+      </div>
+
+      <div id="questions" class="tab-content">
+        <div class="form-section">
+          <h2>Add New Question</h2>
+          <div class="form-group">
+            <label for="qSubject">Subject:</label>
+            <select id="qSubject" onchange="updateQTopicSelect()"></select>
+          </div>
+          <div class="form-group">
+            <label for="qTopic">Topic:</label>
+            <select id="qTopic"></select>
+          </div>
+          <div class="form-group">
+            <label for="qType">Question Type:</label>
+            <select id="qType">
+              <option value="MCQ">MCQ</option>
+              <option value="True/False">True/False</option>
+              <option value="Image Question">Image Question</option>
+              <option value="Clinical Case">Clinical Case</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="qText">Question Text:</label>
+            <textarea id="qText" rows="3" placeholder="Enter question..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Options:</label>
+            <div class="options-list" id="optionsList">
+              <div class="option-item">
+                <input type="text" placeholder="Option A" class="option-input">
+                <button onclick="removeOption(this)">Remove</button>
+              </div>
+              <div class="option-item">
+                <input type="text" placeholder="Option B" class="option-input">
+                <button onclick="removeOption(this)">Remove</button>
+              </div>
+              <div class="option-item">
+                <input type="text" placeholder="Option C" class="option-input">
+                <button onclick="removeOption(this)">Remove</button>
+              </div>
+              <div class="option-item">
+                <input type="text" placeholder="Option D" class="option-input">
+                <button onclick="removeOption(this)">Remove</button>
+              </div>
+            </div>
+            <button class="btn btn-secondary" onclick="addOption()" style="margin-top: 0.5rem;">Add Option</button>
+          </div>
+          <div class="form-group">
+            <label for="qCorrect">Correct Answer (A=0, B=1, etc.):</label>
+            <input type="number" id="qCorrect" min="0" max="10">
+          </div>
+          <div class="form-group">
+            <label for="qExplanation">Explanation:</label>
+            <textarea id="qExplanation" rows="3" placeholder="Explain the answer..."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="qDifficulty">Difficulty:</label>
+            <select id="qDifficulty">
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="qCase">Case Scenario (optional):</label>
+            <textarea id="qCase" rows="2" placeholder="Enter case scenario..."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="qImage">Image URL (optional):</label>
+            <input type="url" id="qImage" placeholder="https://...">
+          </div>
+          <button class="btn btn-primary" onclick="addQuestion()">Add Question</button>
+        </div>
+      </div>
+
+      <div id="quizzes" class="tab-content">
+        <div class="form-section">
+          <h2>Add New Quiz Set</h2>
+          <div class="form-group">
+            <label for="qzName">Quiz Name:</label>
+            <input type="text" id="qzName" placeholder="e.g., Sedatives Quiz 1">
+          </div>
+          <div class="form-group">
+            <label for="qzSubject">Subject:</label>
+            <select id="qzSubject" onchange="updateQzTopicSelect()"></select>
+          </div>
+          <div class="form-group">
+            <label for="qzTopic">Topic:</label>
+            <select id="qzTopic" onchange="loadTopicQuestionsForQuiz()"></select>
+          </div>
+          <div class="form-group">
+            <label>Select Questions:</label>
+            <div id="questionsForQuiz" style="border: 1px solid var(--neutral-200); border-radius: 0.5rem; padding: 1rem; max-height: 300px; overflow-y: auto;"></div>
+          </div>
+          <div class="form-group">
+            <label for="qzTime">Time Limit (minutes, 0 = no limit):</label>
+            <input type="number" id="qzTime" value="0" min="0">
+          </div>
+          <button class="btn btn-primary" onclick="addQuizSet()">Create Quiz Set</button>
+        </div>
+
+        <h2>Existing Quiz Sets</h2>
+        <div class="data-list" id="quizzesList"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/github-api.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
