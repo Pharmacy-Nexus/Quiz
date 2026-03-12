@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Mode - Pharmacy Nexus</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <h1>Pharmacy Nexus</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="question-bank.html">Question Bank</a></li>
+        <li><a href="final-exam.html">Final Exam</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container study-container">
+    <div class="study-header">
+      <div class="progress-info">
+        <h2 id="topicDisplay"></h2>
+        <p id="progressDisplay">Question 1 of 10</p>
+      </div>
+      <button class="btn btn-outline" onclick="window.history.back()">Exit Study</button>
+    </div>
+
+    <div class="study-card">
+      <div class="question-section">
+        <div class="question-metadata">
+          <span class="difficulty" id="difficultyBadge">Easy</span>
+          <span class="question-type" id="typeBadge">MCQ</span>
+        </div>
+        <h3 id="questionText"></h3>
+
+        <div id="caseScenarioContainer" style="display: none;">
+          <div class="case-scenario">
+            <h4>Case Scenario:</h4>
+            <p id="caseScenario"></p>
+          </div>
+        </div>
+
+        <div id="imageContainer" style="display: none;">
+          <img id="questionImage" alt="Question image" class="question-image">
+        </div>
+
+        <div class="options-container" id="optionsContainer"></div>
+      </div>
+
+      <div class="answer-section">
+        <button class="btn btn-secondary" id="revealBtn">Reveal Answer</button>
+        <div id="answerBlock" style="display: none;" class="answer-block">
+          <div class="correct-answer">
+            <h4>Correct Answer:</h4>
+            <p id="correctAnswerDisplay"></p>
+          </div>
+          <div class="explanation">
+            <h4>Explanation:</h4>
+            <p id="explanationDisplay"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="study-navigation">
+      <button class="btn btn-outline" id="prevBtn" onclick="previousQuestion()">Previous</button>
+      <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next</button>
+    </div>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/github-api.js"></script>
+  <script src="js/study.js"></script>
+</body>
+</html>
