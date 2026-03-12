@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topic - Pharmacy Nexus</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <h1>Pharmacy Nexus</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="question-bank.html">Question Bank</a></li>
+        <li><a href="final-exam.html">Final Exam</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>&gt;</span>
+      <a href="#" id="subjectBreadcrumb"></a>
+      <span>&gt;</span>
+      <span id="topicTitle">Topic</span>
+    </div>
+
+    <section class="topic-header">
+      <div>
+        <h1 id="topicName"></h1>
+        <p id="topicMetadata"></p>
+      </div>
+      <div class="difficulty-breakdown">
+        <div class="difficulty-item">
+          <span class="easy">Easy</span>
+          <span id="easyCount">0</span>
+        </div>
+        <div class="difficulty-item">
+          <span class="medium">Medium</span>
+          <span id="mediumCount">0</span>
+        </div>
+        <div class="difficulty-item">
+          <span class="hard">Hard</span>
+          <span id="hardCount">0</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="topic-actions">
+      <button class="btn btn-primary" id="studyBtn">Study Questions</button>
+      <button class="btn btn-secondary" id="quizBtn">Quiz Sets</button>
+    </section>
+
+    <section class="quizzes-section" id="quizzesSection" style="display: none;">
+      <h2>Available Quiz Sets</h2>
+      <div class="quizzes-grid" id="quizzesContainer"></div>
+    </section>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/github-api.js"></script>
+  <script src="js/topic.js"></script>
+</body>
+</html>
