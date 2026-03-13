@@ -21,115 +21,138 @@
             <nav class="nav-links" data-nav></nav>
         </div>
     </header>
-    <main class="section">
-        <div class="container">
-            <div class="section-head">
-                <div>
-                    <h1>Hidden Admin Panel</h1>
-                    <p>Access path is intentionally not included in public navigation. Use <span class="kbd">Ctrl</span>
-                        + <span class="kbd">Shift</span> + <span class="kbd">A</span>.</p>
+    <main class="admin-shell">
+        <section class="admin-login-wrap">
+            <div class="admin-login-card fade-in">
+                <div class="glow-line"></div><span class="badge">Restricted Access</span>
+                <h1>Admin Login</h1>
+                <p>Enter your GitHub Personal Access Token (Classic) to unlock the admin panel. The token is stored only
+                    in your browser localStorage.</p>
+                <div class="token-note">The admin UI should not open directly for editing without a token. After login,
+                    you can manage subjects, topics, questions, and quiz sets.</div>
+                <div class="row" style="margin-top:16px;">
+                    <div><label>GitHub PAT (Classic)</label><input id="adminLoginToken" class="input" type="password"
+                            placeholder="ghp_... or github_pat_..."></div>
                 </div>
+                <div class="actions" style="margin-top:14px;"><button id="adminLoginBtn" class="btn">Login to
+                        Admin</button><a class="btn-secondary" href="index.html">Back to Home</a></div>
+                <p id="adminLoginMessage" class="small muted" style="margin-top:12px;"></p>
             </div>
-            <div class="card">
-                <h2>GitHub Repository Connection</h2>
-                <div class="row">
-                    <div><label>GitHub Personal Access Token (Classic)</label><input id="githubToken" class="input"
-                            type="password" placeholder="ghp_..."></div>
-                    <div><label>Repository Owner</label><input id="repoOwner" class="input" type="text"
-                            placeholder="username"></div>
-                    <div><label>Repository Name</label><input id="repoName" class="input" type="text"
-                            placeholder="pharmacy-nexus"></div>
+        </section>
+        <section id="adminPanelWrap" class="admin-panel-wrap">
+            <div class="section">
+                <div class="container">
+                    <div class="section-head">
+                        <div>
+                            <h1>Hidden Admin Panel</h1>
+                            <p>Access is protected by token-based login and still not linked from the public site
+                                navigation.</p>
+                        </div><button id="adminLogoutBtn" class="btn-danger">Logout</button>
+                    </div>
+                    <div class="card">
+                        <h2>GitHub Repository Connection</h2>
+                        <div class="row">
+                            <div><label>GitHub Personal Access Token (Classic)</label><input id="githubToken"
+                                    class="input" type="password" placeholder="ghp_..."></div>
+                            <div><label>Repository Owner</label><input id="repoOwner" class="input" type="text"
+                                    placeholder="username"></div>
+                            <div><label>Repository Name</label><input id="repoName" class="input" type="text"
+                                    placeholder="pharmacy-nexus"></div>
+                        </div>
+                        <div class="actions"><button id="saveToken" class="btn-secondary">Update Saved
+                                Token</button><button id="saveToGithub" class="btn">Push JSON Updates to GitHub</button>
+                        </div>
+                    </div>
+                    <section class="section">
+                        <div class="card">
+                            <h2>Subjects</h2>
+                            <form id="addSubjectForm">
+                                <div class="row">
+                                    <div><label>Subject Name</label><input id="subjectName" class="input" type="text"
+                                            placeholder="Pharmacology"></div>
+                                </div>
+                                <div class="actions"><button class="btn" type="submit">Add Subject</button></div>
+                            </form><textarea id="subjectOutput" class="textarea" rows="6"
+                                placeholder="Generated subject JSON preview"></textarea>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="card">
+                            <h2>Topics</h2>
+                            <form id="addTopicForm">
+                                <div class="row">
+                                    <div><label>Subject</label><select id="topicSubject" class="select"></select></div>
+                                    <div><label>Topic Name</label><input id="topicName" class="input" type="text"
+                                            placeholder="Sedatives & Hypnotics"></div>
+                                </div>
+                                <div class="actions"><button class="btn" type="submit">Add Topic</button></div>
+                            </form><textarea id="topicOutput" class="textarea" rows="6"
+                                placeholder="Generated topic JSON preview"></textarea>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="card">
+                            <h2>Questions</h2>
+                            <form id="addQuestionForm">
+                                <div class="row">
+                                    <div><label>Subject</label><select id="questionSubject" class="select"></select>
+                                    </div>
+                                    <div><label>Topic</label><select id="questionTopic" class="select"></select></div>
+                                    <div><label>Question Type</label><select id="questionType" class="select">
+                                            <option>MCQ</option>
+                                            <option>True / False</option>
+                                            <option>Image Question</option>
+                                            <option>Clinical Case Question</option>
+                                        </select></div>
+                                </div>
+                                <div class="row">
+                                    <div><label>Question Text</label><textarea id="questionText" class="textarea"
+                                            rows="4"></textarea></div>
+                                </div>
+                                <div class="row">
+                                    <div><label>Options (one per line)</label><textarea id="questionOptions"
+                                            class="textarea" rows="5"></textarea></div>
+                                    <div><label>Correct Answer</label><input id="correctAnswer" class="input"
+                                            type="text"></div>
+                                    <div><label>Difficulty</label><select id="questionDifficulty" class="select">
+                                            <option>Easy</option>
+                                            <option>Medium</option>
+                                            <option>Hard</option>
+                                        </select></div>
+                                </div>
+                                <div><label>Explanation</label><textarea id="questionExplanation" class="textarea"
+                                        rows="5"></textarea></div>
+                                <div id="caseScenarioWrap" class="hidden"><label>Case Scenario</label><textarea
+                                        id="caseScenario" class="textarea" rows="4"></textarea></div>
+                                <div id="imageUrlWrap" class="hidden"><label>Image URL</label><input id="imageUrl"
+                                        class="input" type="url"></div>
+                                <div class="actions"><button class="btn" type="submit">Create Question</button></div>
+                            </form><textarea id="questionOutput" class="textarea" rows="10"
+                                placeholder="Generated topic questions JSON preview"></textarea>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="card">
+                            <h2>Quiz Sets</h2>
+                            <form id="addQuizForm">
+                                <div class="row">
+                                    <div><label>Quiz Name</label><input id="quizName" class="input" type="text"
+                                            placeholder="Sedatives Quiz 1"></div>
+                                    <div><label>Subject</label><select id="quizSubject" class="select"></select></div>
+                                    <div><label>Topic</label><select id="quizTopic" class="select"></select></div>
+                                    <div><label>Time Limit (minutes)</label><input id="quizTimeLimit" class="input"
+                                            type="number" value="10" min="1"></div>
+                                </div>
+                                <div class="actions"><button id="loadQuizQuestions" class="btn-secondary"
+                                        type="button">Load Topic Questions</button></div>
+                                <div id="quizQuestionIds"></div>
+                                <div class="actions"><button class="btn" type="submit">Create Quiz Set</button></div>
+                            </form><textarea id="quizOutput" class="textarea" rows="8"
+                                placeholder="Generated quiz JSON preview"></textarea>
+                        </div>
+                    </section>
                 </div>
-                <div class="actions"><button id="saveToken" class="btn-secondary">Save Token Locally</button><button
-                        id="saveToGithub" class="btn">Push JSON Updates to GitHub</button></div>
-            </div>
-            <section class="section">
-                <div class="card">
-                    <h2>Subjects</h2>
-                    <form id="addSubjectForm">
-                        <div class="row">
-                            <div><label>Subject Name</label><input id="subjectName" class="input" type="text"
-                                    placeholder="Pharmacology"></div>
-                        </div>
-                        <div class="actions"><button class="btn" type="submit">Add Subject</button></div>
-                    </form><textarea id="subjectOutput" class="textarea" rows="6"
-                        placeholder="Generated subject JSON preview"></textarea>
-                </div>
-            </section>
-            <section class="section">
-                <div class="card">
-                    <h2>Topics</h2>
-                    <form id="addTopicForm">
-                        <div class="row">
-                            <div><label>Subject</label><select id="topicSubject" class="select"></select></div>
-                            <div><label>Topic Name</label><input id="topicName" class="input" type="text"
-                                    placeholder="Sedatives & Hypnotics"></div>
-                        </div>
-                        <div class="actions"><button class="btn" type="submit">Add Topic</button></div>
-                    </form><textarea id="topicOutput" class="textarea" rows="6"
-                        placeholder="Generated topic JSON preview"></textarea>
-                </div>
-            </section>
-            <section class="section">
-                <div class="card">
-                    <h2>Questions</h2>
-                    <form id="addQuestionForm">
-                        <div class="row">
-                            <div><label>Subject</label><select id="questionSubject" class="select"></select></div>
-                            <div><label>Topic</label><select id="questionTopic" class="select"></select></div>
-                            <div><label>Question Type</label><select id="questionType" class="select">
-                                    <option>MCQ</option>
-                                    <option>True / False</option>
-                                    <option>Image Question</option>
-                                    <option>Clinical Case Question</option>
-                                </select></div>
-                        </div>
-                        <div class="row">
-                            <div><label>Question Text</label><textarea id="questionText" class="textarea"
-                                    rows="4"></textarea></div>
-                        </div>
-                        <div class="row">
-                            <div><label>Options (one per line)</label><textarea id="questionOptions" class="textarea"
-                                    rows="5"></textarea></div>
-                            <div><label>Correct Answer</label><input id="correctAnswer" class="input" type="text"></div>
-                            <div><label>Difficulty</label><select id="questionDifficulty" class="select">
-                                    <option>Easy</option>
-                                    <option>Medium</option>
-                                    <option>Hard</option>
-                                </select></div>
-                        </div>
-                        <div><label>Explanation</label><textarea id="questionExplanation" class="textarea"
-                                rows="5"></textarea></div>
-                        <div id="caseScenarioWrap" class="hidden"><label>Case Scenario</label><textarea
-                                id="caseScenario" class="textarea" rows="4"></textarea></div>
-                        <div id="imageUrlWrap" class="hidden"><label>Image URL</label><input id="imageUrl" class="input"
-                                type="url"></div>
-                        <div class="actions"><button class="btn" type="submit">Create Question</button></div>
-                    </form><textarea id="questionOutput" class="textarea" rows="10"
-                        placeholder="Generated topic questions JSON preview"></textarea>
-                </div>
-            </section>
-            <section class="section">
-                <div class="card">
-                    <h2>Quiz Sets</h2>
-                    <form id="addQuizForm">
-                        <div class="row">
-                            <div><label>Quiz Name</label><input id="quizName" class="input" type="text"
-                                    placeholder="Sedatives Quiz 1"></div>
-                            <div><label>Subject</label><select id="quizSubject" class="select"></select></div>
-                            <div><label>Topic</label><select id="quizTopic" class="select"></select></div>
-                            <div><label>Time Limit (minutes)</label><input id="quizTimeLimit" class="input"
-                                    type="number" value="10" min="1"></div>
-                        </div>
-                        <div class="actions"><button id="loadQuizQuestions" class="btn-secondary" type="button">Load
-                                Topic Questions</button></div>
-                        <div id="quizQuestionIds"></div>
-                        <div class="actions"><button class="btn" type="submit">Create Quiz Set</button></div>
-                    </form><textarea id="quizOutput" class="textarea" rows="8"
-                        placeholder="Generated quiz JSON preview"></textarea>
-                </div>
-            </section>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container footer-box">
