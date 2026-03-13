@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": "adp-001",
+      "type": "MCQ",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Which statement is most accurate regarding antidepressants concept 1?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 1. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-002",
+      "type": "True / False",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Antidepressants: statement 2 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 2. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-003",
+      "type": "Clinical Case Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "What is the best next step for this antidepressants case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 3. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to antidepressants and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-004",
+      "type": "Image Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Choose the best interpretation for this antidepressants image-based item 4.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 4. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    },
+    {
+      "id": "adp-005",
+      "type": "MCQ",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Which statement is most accurate regarding antidepressants concept 5?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 5. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-006",
+      "type": "True / False",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Antidepressants: statement 6 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 6. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-007",
+      "type": "Clinical Case Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "What is the best next step for this antidepressants case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 7. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to antidepressants and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-008",
+      "type": "Image Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Choose the best interpretation for this antidepressants image-based item 8.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 8. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    },
+    {
+      "id": "adp-009",
+      "type": "MCQ",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Which statement is most accurate regarding antidepressants concept 9?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 9. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-010",
+      "type": "True / False",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Antidepressants: statement 10 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 10. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-011",
+      "type": "Clinical Case Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "What is the best next step for this antidepressants case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 11. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to antidepressants and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "adp-012",
+      "type": "Image Question",
+      "subject": "pharmacology",
+      "topic": "antidepressants",
+      "question": "Choose the best interpretation for this antidepressants image-based item 12.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for antidepressants item 12. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    }
+  ]
+}
