@@ -479,3 +479,208 @@ textarea {
         flex-direction: column
     }
 }
+
+
+body {
+    background: linear-gradient(180deg, #f7faff 0%, #ffffff 28%, #f8fbff 100%)
+}
+
+.topbar {
+    background: rgba(255, 255, 255, .82);
+    box-shadow: 0 8px 30px rgba(15, 35, 71, .05)
+}
+
+.hero-card {
+    position: relative;
+    overflow: hidden
+}
+
+.hero-card::before {
+    content: "";
+    position: absolute;
+    inset: auto -40px -70px auto;
+    width: 220px;
+    height: 220px;
+    background: radial-gradient(circle, rgba(212, 175, 55, .28), transparent 65%);
+    pointer-events: none
+}
+
+.hero-card::after {
+    content: "";
+    position: absolute;
+    inset: 14px 14px auto auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, .18), transparent 70%);
+    filter: blur(2px);
+    pointer-events: none
+}
+
+.card {
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(15, 35, 71, .12);
+    border-color: #d5dded
+}
+
+.btn,
+.btn-secondary,
+.btn-danger,
+.nav-link {
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease, opacity .18s ease
+}
+
+.btn {
+    box-shadow: 0 12px 24px rgba(212, 175, 55, .18)
+}
+
+.btn:hover,
+.btn-secondary:hover,
+.btn-danger:hover {
+    box-shadow: 0 10px 24px rgba(15, 35, 71, .10)
+}
+
+.badge {
+    backdrop-filter: blur(6px)
+}
+
+.section-head h1,
+.section-head h2 {
+    color: var(--navy)
+}
+
+.meta-pill {
+    background: #fff
+}
+
+.question-card,
+.sidebar {
+    background: linear-gradient(180deg, #fff 0%, #fbfdff 100%)
+}
+
+.option-btn {
+    position: relative;
+    overflow: hidden
+}
+
+.option-btn::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background: linear-gradient(90deg, rgba(15, 35, 71, .03), rgba(212, 175, 55, .08));
+    transition: opacity .2s ease
+}
+
+.option-btn:hover::after,
+.option-btn.selected::after {
+    opacity: 1
+}
+
+.footer {
+    background: linear-gradient(180deg, rgba(15, 35, 71, .02), rgba(15, 35, 71, .04))
+}
+
+.admin-shell {
+    min-height: calc(100vh - 90px)
+}
+
+.admin-login-wrap {
+    display: grid;
+    place-items: center;
+    padding: 34px 0 46px
+}
+
+.admin-login-card {
+    width: min(520px, 100%);
+    padding: 28px;
+    border-radius: 24px;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+    box-shadow: 0 24px 60px rgba(15, 35, 71, .12);
+    border: 1px solid var(--border)
+}
+
+.admin-login-card h1 {
+    margin: 10px 0 8px;
+    color: var(--navy)
+}
+
+.admin-login-card p {
+    color: var(--muted)
+}
+
+.glow-line {
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--navy), var(--gold));
+    margin-bottom: 18px
+}
+
+.admin-panel-wrap {
+    display: none
+}
+
+.admin-panel-wrap.open {
+    display: block
+}
+
+.token-note {
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: #fff9ea;
+    border: 1px solid #f0df9f;
+    color: #7d5f0e;
+    font-size: .92rem
+}
+
+.fade-in {
+    animation: fadeUp .45s ease both
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.hero-kicker,
+.badge,
+.meta-pill {
+    animation: fadeUp .45s ease both
+}
+
+.card-grid .card:nth-child(1) {
+    animation: fadeUp .35s ease both
+}
+
+.card-grid .card:nth-child(2) {
+    animation: fadeUp .45s ease both
+}
+
+.card-grid .card:nth-child(3) {
+    animation: fadeUp .55s ease both
+}
+
+.card-grid .card:nth-child(4) {
+    animation: fadeUp .65s ease both
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important
+    }
+}
