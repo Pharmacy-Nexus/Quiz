@@ -1,0 +1,248 @@
+{
+  "questions": [
+    {
+      "id": "htn-001",
+      "type": "MCQ",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Which statement is most accurate regarding hypertension concept 1?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 1. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-002",
+      "type": "True / False",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Hypertension: statement 2 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 2. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-003",
+      "type": "Clinical Case Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "What is the best next step for this hypertension case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 3. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to hypertension and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-004",
+      "type": "Image Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Choose the best interpretation for this hypertension image-based item 4.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 4. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    },
+    {
+      "id": "htn-005",
+      "type": "MCQ",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Which statement is most accurate regarding hypertension concept 5?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 5. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-006",
+      "type": "True / False",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Hypertension: statement 6 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 6. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-007",
+      "type": "Clinical Case Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "What is the best next step for this hypertension case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 7. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to hypertension and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-008",
+      "type": "Image Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Choose the best interpretation for this hypertension image-based item 8.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 8. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    },
+    {
+      "id": "htn-009",
+      "type": "MCQ",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Which statement is most accurate regarding hypertension concept 9?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 9. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-010",
+      "type": "True / False",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Hypertension: statement 10 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 10. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-011",
+      "type": "Clinical Case Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "What is the best next step for this hypertension case?",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 11. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "A 58-year-old patient presents with a scenario relevant to hypertension and needs pharmacist-guided decision making.",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-012",
+      "type": "Image Question",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Choose the best interpretation for this hypertension image-based item 12.",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 12. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Hard",
+      "caseScenario": "",
+      "imageUrl": "https://via.placeholder.com/720x360?text=Pharmacy+Nexus+Image"
+    },
+    {
+      "id": "htn-013",
+      "type": "MCQ",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Which statement is most accurate regarding hypertension concept 13?",
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correctAnswer": "Choice A",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 13. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Easy",
+      "caseScenario": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "htn-014",
+      "type": "True / False",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "question": "Hypertension: statement 14 is correct.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This answer is correct because it matches the high-yield principle for hypertension item 14. Every study question displays its explanation directly in study mode.",
+      "difficulty": "Medium",
+      "caseScenario": "",
+      "imageUrl": ""
+    }
+  ]
+}
