@@ -1,0 +1,61 @@
+{
+  "subjects": [
+    {
+      "id": "pharmacology",
+      "name": "Pharmacology",
+      "topics": [
+        {
+          "id": "sedatives-hypnotics",
+          "name": "Sedatives & Hypnotics",
+          "file": "data/pharmacology/sedatives-hypnotics.json",
+          "questionCount": 34
+        },
+        {
+          "id": "antidepressants",
+          "name": "Antidepressants",
+          "file": "data/pharmacology/antidepressants.json",
+          "questionCount": 12
+        }
+      ]
+    },
+    {
+      "id": "pharmaceutics",
+      "name": "Pharmaceutics",
+      "topics": [
+        {
+          "id": "sterile-products",
+          "name": "Sterile Products",
+          "file": "data/pharmaceutics/sterile-products.json",
+          "questionCount": 10
+        }
+      ]
+    },
+    {
+      "id": "clinical-pharmacy",
+      "name": "Clinical Pharmacy",
+      "topics": [
+        {
+          "id": "hypertension",
+          "name": "Hypertension",
+          "file": "data/clinical-pharmacy/hypertension.json",
+          "questionCount": 14
+        }
+      ]
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "quiz-sedatives-1",
+      "name": "Sedatives & Hypnotics Quiz 1",
+      "subject": "pharmacology",
+      "topic": "sedatives-hypnotics",
+      "questionIds": ["sed-hyp-001", "sed-hyp-002", "sed-hyp-003", "sed-hyp-004", "sed-hyp-005"],
+      "timeLimit": 10
+    },
+    {
+      "id": "quiz-hypertension-1",
+      "name": "Hypertension Fundamentals",
+      "subject": "clinical-pharmacy",
+      "topic": "hypertension",
+      "questionIds": ["htn-001", "htn-002", "htn-003", "htn-004", "htn-005"],
+      "timeLimit": 12
