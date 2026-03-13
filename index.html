@@ -1,63 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharmacy Nexus</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <title>Pharmacy Nexus - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
 </head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Pharmacy Nexus</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="subjects.html">Subjects</a></li>
+      <li><a href="question-bank.html">Question Bank</a></li>
+      <li><a href="final-exam.html">Final Exam</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
 
-<body data-page="home">
-    <header class="topbar">
-        <div class="container nav"><a class="brand" href="index.html">
-                <div class="logo">PN</div>
-                <div>Pharmacy Nexus</div>
-            </a>
-            <nav class="nav-links" data-nav></nav>
-        </div>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-card">
-                    <div class="hero-kicker">Premium Pharmacy Education</div>
-                    <h1>Your Ultimate Pharmacy Learning Platform<br>Built for Future Pharmacists</h1>
-                    <p>Study smarter with structured subjects, focused topics, explanation-rich study sets, manually
-                        curated quizzes, and lightweight progress tracking designed for modern pharmacy students.</p>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="section-head">
-                    <div>
-                        <h2>Subjects</h2>
-                        <p>Browse your core pharmacy disciplines and open topic-based study pathways.</p>
-                    </div>
-                </div>
-                <div class="search-bar"><input id="subjectSearch" class="input" type="search"
-                        placeholder="Search subjects..."></div>
-                <div class="card-grid" id="subjectsGrid"></div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container footer-box">
-            <div><strong>Pharmacy Nexus</strong>
-                <p class="small">Professional learning platform for future pharmacists.</p>
-            </div>
-            <div><strong>Contact: pharmacynexusofficial@gmail.com</strong>
-                <p class="small">For feedback, collaboration, or educational contributions, feel free to contact us.</p>
-                <p class="small muted">© <span data-year></span> Pharmacy Nexus</p>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/app.js"></script>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Your Ultimate Pharmacy Learning Platform</h1>
+    <p>Built for Future Pharmacists</p>
+  </section>
+
+  <!-- Subjects Section -->
+  <section class="subjects">
+    <h2>Subjects</h2>
+    <input type="text" id="subjectSearch" placeholder="Search subjects...">
+    <div id="subjectCards" class="card-grid">
+      <!-- Subject cards will be loaded dynamically from data/index.json -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact: <a href="mailto:pharmacynexusofficial@gmail.com">pharmacynexusofficial@gmail.com</a></p>
+    <small>For feedback, collaboration, or educational contributions, feel free to contact us.</small>
+  </footer>
+
+  <script src="scripts/subjects.js"></script>
 </body>
-
 </html>
+
