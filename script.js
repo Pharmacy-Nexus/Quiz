@@ -5,6 +5,10 @@ const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 let appData = {};
 
+const byId = (id) => document.getElementById(id);
+const qs = (selector, root = document) => root.querySelector(selector);
+const qsa = (selector, root = document) => [...root.querySelectorAll(selector)];
+
 function slugify(text) {
   return String(text)
     .toLowerCase()
