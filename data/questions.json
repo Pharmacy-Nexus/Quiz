@@ -52,5 +52,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Benzodiazepines have largely replaced barbiturates for anxiety treatment because they are safer, have higher therapeutic index, and produce less severe respiratory and cardiovascular depression."
+  },
+  {
+    "id": "q-1773528025285",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which receptor mediates the effects of benzodiazepines and barbiturates?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "NMDA",
+      "GABA-A",
+      "Dopamine",
+      "Serotonin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both benzodiazepines and barbiturates act on the GABA-A receptor, enhancing the inhibitory effect of GABA in the CNS, leading to neuronal inhibition."
   }
 ]
