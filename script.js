@@ -1,20 +1,34 @@
-const SUPABASE_URL = "https://zvsiygerhkvlfaxfqtnn.supabase.co";
-const SUPABASE_KEY = "sb_publishable_K4a9xTaturguvQBe4y1_GQ_psFoRvCQ";
-
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-
-let appData = {
-  subjects: [],
-  topics: [],
-  questions: [],
-  quizsets: [],
-  settings: { owner: '', repo: '', branch: 'main', token: '' },
-  progress: { attempts: [], recent: [] }
+const STORAGE_KEYS = {
+  subjects: 'pn_subjects',
+  topics: 'pn_topics',
+  questions: 'pn_questions',
+  quizsets: 'pn_quizsets',
+  settings: 'pn_settings',
+  progress: 'pn_progress',
+  session: 'pn_exam_session'
 };
+
+const DATA_FILES = {
+  subjects: 'data/subjects.json',
+  topics: 'data/topics.json',
+  questions: 'data/questions.json',
+  quizsets: 'data/quizsets.json'
+};
+
+let appData = null;
 
 const byId = (id) => document.getElementById(id);
 const qs = (selector, root = document) => root.querySelector(selector);
 const qsa = (selector, root = document) => [...root.querySelectorAll(selector)];
+const readJson = async (path) => fetch(path).then((r) => r.json());
+const save = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+const load = (key, fallback) => {
+  try {
+    return JSON.parse(localStorage.getItem(key)) ?? fallback;
+  } catch {
+    return fallback;
+  }
+};
 
 function slugify(text) {
   return String(text)
