@@ -482,8 +482,142 @@ function fillSelect(select, items, placeholder = 'Select...') {
   select.innerHTML = items.map((item) => `<option value="${item.id}">${item.name}</option>`).join('') || `<option value="">${placeholder}</option>`;
 }
 
+
+const ADMIN_SECURITY = {
+  password: 'PharmacyNexusAdmin2026',
+  trustedDeviceKey: 'pn_admin_trusted_device',
+  sessionUnlockKey: 'pn_admin_session_unlock'
+};
+
+function hasGithubSettings() {
+  return Boolean(appData?.settings?.owner && appData?.settings?.repo && appData?.settings?.branch && appData?.settings?.token);
+}
+
+function encodeBase64Unicode(input) {
+  return btoa(unescape(encodeURIComponent(input)));
+}
+
+async function githubGetFile(path) {
+  const { owner, repo, branch, token } = appData.settings;
+  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`, {
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error(`GitHub read failed for ${path}`);
+  return response.json();
+}
+
+async function githubPutFile(path, data, message) {
+  const { owner, repo, branch, token } = appData.settings;
+  const existing = await githubGetFile(path);
+  const body = {
+    message,
+    branch,
+    content: encodeBase64Unicode(JSON.stringify(data, null, 2))
+  };
+  if (existing?.sha) body.sha = existing.sha;
+  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+    method: 'PUT',
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+  if (!response.ok) {
+    const payload = await response.text();
+    throw new Error(payload || `GitHub write failed for ${path}`);
+  }
+  return response.json();
+}
+
+async function syncGithubData(message = 'Update pharmacy nexus data') {
+  await githubPutFile('data/subjects.json', appData.subjects, `${message} • subjects`);
+  await githubPutFile('data/topics.json', appData.topics, `${message} • topics`);
+  await githubPutFile('data/questions.json', appData.questions, `${message} • questions`);
+  await githubPutFile('data/quizsets.json', appData.quizsets, `${message} • quizsets`);
+}
+
+async function persistAndMaybeSync(message) {
+  syncData();
+  const statusNode = byId('adminSyncStatus');
+  if (statusNode) {
+    statusNode.textContent = hasGithubSettings() ? 'Syncing to GitHub...' : 'Saved locally. Add GitHub settings to push live.';
+    statusNode.dataset.state = hasGithubSettings() ? 'loading' : 'local';
+  }
+  if (!hasGithubSettings()) return;
+  try {
+    await syncGithubData(message);
+    if (statusNode) {
+      statusNode.textContent = 'Synced to GitHub successfully.';
+      statusNode.dataset.state = 'success';
+    }
+  } catch (error) {
+    console.error(error);
+    if (statusNode) {
+      statusNode.textContent = 'GitHub sync failed. Local changes were saved in this browser only.';
+      statusNode.dataset.state = 'error';
+    }
+    alert('GitHub sync failed. Check token, repo, branch, and file permissions.');
+  }
+}
+
+
 function renderAdmin() {
-  const views = {
+  const gate = byId('adminGate');
+  const shell = byId('adminShell');
+  if (!gate || !shell) return;
+
+  const unlockStatus = byId('adminUnlockStatus');
+  const trustedDevice = localStorage.getItem(ADMIN_SECURITY.trustedDeviceKey) === 'trusted';
+  const sessionUnlocked = sessionStorage.getItem(ADMIN_SECURITY.sessionUnlockKey) === '1';
+
+  function revealShell() {
+    gate.classList.add('hidden');
+    shell.classList.remove('hidden');
+    initializeAdminInterface();
+  }
+
+  function lockShell() {
+    gate.classList.remove('hidden');
+    shell.classList.add('hidden');
+    sessionStorage.removeItem(ADMIN_SECURITY.sessionUnlockKey);
+  }
+
+  byId('adminUnlockForm')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const password = byId('adminPasswordInput').value;
+    if (password !== ADMIN_SECURITY.password) {
+      unlockStatus.textContent = 'Wrong password.';
+      unlockStatus.dataset.state = 'error';
+      return;
+    }
+    sessionStorage.setItem(ADMIN_SECURITY.sessionUnlockKey, '1');
+    if (byId('trustThisDeviceCheckbox')?.checked) localStorage.setItem(ADMIN_SECURITY.trustedDeviceKey, 'trusted');
+    unlockStatus.textContent = '';
+    revealShell();
+  });
+
+  byId('adminForgetDeviceBtn')?.addEventListener('click', () => {
+    localStorage.removeItem(ADMIN_SECURITY.trustedDeviceKey);
+    sessionStorage.removeItem(ADMIN_SECURITY.sessionUnlockKey);
+    unlockStatus.textContent = 'Trusted device removed.';
+    unlockStatus.dataset.state = 'local';
+  });
+
+  if (trustedDevice || sessionUnlocked) revealShell();
+  else lockShell();
+}
+
+function initializeAdminInterface() {
+  if (window.__pnAdminInitialized) return;
+  window.__pnAdminInitialized = true;
+
+  const viewMap = {
     subjects: byId('adminViewSubjects'),
     topics: byId('adminViewTopics'),
     questions: byId('adminViewQuestions'),
@@ -491,12 +625,23 @@ function renderAdmin() {
     settings: byId('adminViewSettings')
   };
 
-  const switchView = (name) => {
-    Object.entries(views).forEach(([key, el]) => el?.classList.toggle('hidden', key !== name));
-    qsa('.sidebar-link').forEach((btn) => btn.classList.toggle('active', btn.dataset.adminView === name));
+  const switchView = (key) => {
+    qsa('.sidebar-link').forEach((btn) => btn.classList.toggle('active', btn.dataset.adminView === key));
+    Object.entries(viewMap).forEach(([viewKey, panel]) => panel?.classList.toggle('hidden', viewKey !== key));
   };
-  qsa('.sidebar-link').forEach((btn) => btn.addEventListener('click', () => switchView(btn.dataset.adminView)));
-  qsa('[data-cancel-form]').forEach((btn) => btn.addEventListener('click', () => byId(btn.dataset.cancelForm).classList.add('hidden')));
+
+  qsa('.sidebar-link').forEach((btn) => {
+    btn.addEventListener('click', () => switchView(btn.dataset.adminView));
+  });
+
+  qsa('[data-cancel-form]').forEach((btn) => {
+    btn.addEventListener('click', () => byId(btn.dataset.cancelForm)?.classList.add('hidden'));
+  });
+
+  const fillSelect = (select, items) => {
+    if (!select) return;
+    select.innerHTML = items.map((item) => `<option value="${item.id}">${item.name}</option>`).join('');
+  };
 
   const renderSubjectsAdmin = () => {
     byId('adminSubjectsList').innerHTML = appData.subjects.map((subject) => {
@@ -514,12 +659,12 @@ function renderAdmin() {
         </article>
       `;
     }).join('');
-    qsa('[data-delete-subject]').forEach((btn) => btn.addEventListener('click', () => {
+    qsa('[data-delete-subject]').forEach((btn) => btn.addEventListener('click', async () => {
       const id = btn.dataset.deleteSubject;
       appData.subjects = appData.subjects.filter((s) => s.id !== id);
       appData.topics = appData.topics.filter((t) => t.subjectId !== id);
       appData.questions = appData.questions.filter((q) => q.subjectId !== id);
-      syncData();
+      await persistAndMaybeSync('Admin deleted a subject');
       refreshAllAdminLists();
     }));
   };
@@ -541,11 +686,11 @@ function renderAdmin() {
         </article>
       `;
     }).join('') || `<div class="notice-box">No topics for this subject yet.</div>`;
-    qsa('[data-delete-topic]').forEach((btn) => btn.addEventListener('click', () => {
+    qsa('[data-delete-topic]').forEach((btn) => btn.addEventListener('click', async () => {
       const id = btn.dataset.deleteTopic;
       appData.topics = appData.topics.filter((t) => t.id !== id);
       appData.questions = appData.questions.filter((q) => q.topicId !== id);
-      syncData();
+      await persistAndMaybeSync('Admin deleted a topic');
       refreshAllAdminLists();
     }));
   };
@@ -567,9 +712,9 @@ function renderAdmin() {
         <div class="stack-actions"><button class="icon-btn" data-delete-question="${q.id}">🗑</button></div>
       </article>
     `).join('') : `<div class="notice-box">Select a subject and topic to view questions.</div>`;
-    qsa('[data-delete-question]').forEach((btn) => btn.addEventListener('click', () => {
+    qsa('[data-delete-question]').forEach((btn) => btn.addEventListener('click', async () => {
       appData.questions = appData.questions.filter((q) => q.id !== btn.dataset.deleteQuestion);
-      syncData();
+      await persistAndMaybeSync('Admin deleted a question');
       refreshAllAdminLists();
     }));
   };
@@ -587,9 +732,9 @@ function renderAdmin() {
         <div class="stack-actions"><button class="icon-btn" data-delete-quizset="${set.id}">🗑</button></div>
       </article>
     `).join('');
-    qsa('[data-delete-quizset]').forEach((btn) => btn.addEventListener('click', () => {
+    qsa('[data-delete-quizset]').forEach((btn) => btn.addEventListener('click', async () => {
       appData.quizsets = appData.quizsets.filter((q) => q.id !== btn.dataset.deleteQuizset);
-      syncData();
+      await persistAndMaybeSync('Admin deleted a quiz set');
       refreshAllAdminLists();
     }));
   };
@@ -599,6 +744,11 @@ function renderAdmin() {
     byId('settingRepo').value = appData.settings.repo || '';
     byId('settingBranch').value = appData.settings.branch || 'main';
     byId('settingToken').value = appData.settings.token || '';
+    const statusNode = byId('adminSyncStatus');
+    if (statusNode) {
+      statusNode.textContent = hasGithubSettings() ? 'GitHub sync is configured.' : 'GitHub sync is not configured yet.';
+      statusNode.dataset.state = hasGithubSettings() ? 'success' : 'local';
+    }
   };
 
   function refreshAllAdminLists() {
@@ -612,20 +762,20 @@ function renderAdmin() {
   refreshAllAdminLists();
 
   byId('showAddSubjectBtn')?.addEventListener('click', () => byId('subjectForm').classList.toggle('hidden'));
-  byId('subjectForm')?.addEventListener('submit', (e) => {
+  byId('subjectForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = byId('subjectNameInput').value.trim();
     if (!name) return;
     appData.subjects.push({ id: slugify(name), name });
     byId('subjectNameInput').value = '';
     byId('subjectForm').classList.add('hidden');
-    syncData();
+    await persistAndMaybeSync('Admin added a subject');
     refreshAllAdminLists();
   });
 
   byId('adminTopicSubjectSelect')?.addEventListener('change', refreshAllAdminLists);
   byId('showAddTopicBtn')?.addEventListener('click', () => byId('topicForm').classList.toggle('hidden'));
-  byId('topicForm')?.addEventListener('submit', (e) => {
+  byId('topicForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = byId('topicNameInput').value.trim();
     const subjectId = byId('adminTopicSubjectSelect').value;
@@ -633,14 +783,14 @@ function renderAdmin() {
     appData.topics.push({ id: slugify(name), name, subjectId });
     byId('topicNameInput').value = '';
     byId('topicForm').classList.add('hidden');
-    syncData();
+    await persistAndMaybeSync('Admin added a topic');
     refreshAllAdminLists();
   });
 
   byId('adminQuestionSubjectSelect')?.addEventListener('change', refreshAllAdminLists);
   byId('adminQuestionTopicSelect')?.addEventListener('change', refreshAllAdminLists);
   byId('showAddQuestionBtn')?.addEventListener('click', () => byId('questionForm').classList.toggle('hidden'));
-  byId('questionForm')?.addEventListener('submit', (e) => {
+  byId('questionForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const subjectId = byId('adminQuestionSubjectSelect').value;
     const topicId = byId('adminQuestionTopicSelect').value;
@@ -659,13 +809,13 @@ function renderAdmin() {
     });
     e.target.reset();
     byId('questionForm').classList.add('hidden');
-    syncData();
+    await persistAndMaybeSync('Admin added a question');
     refreshAllAdminLists();
   });
 
   byId('quizsetSubjectSelect')?.addEventListener('change', refreshAllAdminLists);
   byId('showAddQuizsetBtn')?.addEventListener('click', () => byId('quizsetForm').classList.toggle('hidden'));
-  byId('quizsetForm')?.addEventListener('submit', (e) => {
+  byId('quizsetForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     appData.quizsets.push({
       id: `quiz-${Date.now()}`,
@@ -676,25 +826,32 @@ function renderAdmin() {
     });
     e.target.reset();
     byId('quizsetForm').classList.add('hidden');
-    syncData();
+    await persistAndMaybeSync('Admin added a quiz set');
     refreshAllAdminLists();
   });
 
-  byId('settingsForm')?.addEventListener('submit', (e) => {
+  byId('settingsForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     appData.settings = {
-      owner: byId('settingOwner').value,
-      repo: byId('settingRepo').value,
-      branch: byId('settingBranch').value,
-      token: byId('settingToken').value
+      owner: byId('settingOwner').value.trim(),
+      repo: byId('settingRepo').value.trim(),
+      branch: byId('settingBranch').value.trim() || 'main',
+      token: byId('settingToken').value.trim()
     };
     syncData();
-    alert('Settings saved locally.');
+    renderSettings();
+    if (hasGithubSettings()) {
+      await persistAndMaybeSync('Admin synced settings and data');
+    }
   });
+
   byId('disconnectBtn')?.addEventListener('click', () => {
     appData.settings = { owner: '', repo: '', branch: 'main', token: '' };
     syncData();
+    localStorage.removeItem(ADMIN_SECURITY.trustedDeviceKey);
+    sessionStorage.removeItem(ADMIN_SECURITY.sessionUnlockKey);
     renderSettings();
+    window.location.reload();
   });
 
   switchView('subjects');
