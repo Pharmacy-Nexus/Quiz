@@ -3,7 +3,14 @@ const SUPABASE_KEY = "sb_publishable_K4a9xTaturguvQBe4y1_GQ_psFoRvCQ";
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-let appData = {};
+let appData = {
+  subjects: [],
+  topics: [],
+  questions: [],
+  quizsets: [],
+  settings: { owner: '', repo: '', branch: 'main', token: '' },
+  progress: { attempts: [], recent: [] }
+};
 
 const byId = (id) => document.getElementById(id);
 const qs = (selector, root = document) => root.querySelector(selector);
