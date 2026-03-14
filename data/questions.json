@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "q-1773527840052",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which term describes a drug that reduces anxiety without necessarily causing sleep?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Hypnotic",
+      "Sedative",
+      "Anxiolytic",
+      "General anesthetic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Anxiolytics are drugs used primarily to reduce anxiety symptoms. They calm the patient without necessarily inducing sleep, although mild drowsiness may occur. Examples include benzodiazepines such as diazepam and alprazolam."
+  }
+]
