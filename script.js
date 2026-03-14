@@ -12,13 +12,6 @@ const STORAGE_KEYS = {
   session: 'pn_exam_session'
 };
 
-const DATA_FILES = {
-  subjects: 'data/subjects.json',
-  topics: 'data/topics.json',
-  questions: 'data/questions.json',
-  quizsets: 'data/quizsets.json'
-};
-
 let appData = null;
 
 const byId = (id) => document.getElementById(id);
