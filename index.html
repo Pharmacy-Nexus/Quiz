@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacy Nexus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Pharmacy Nexus home">
+        <span class="brand-logo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.75V6.5a1.5 1.5 0 0 1 1.5-1.5h9.879a1.5 1.5 0 0 1 1.06.44l2.121 2.121A1.5 1.5 0 0 1 19 8.621V17.5A1.5 1.5 0 0 1 17.5 19h-12A1.5 1.5 0 0 1 4 17.5v-1.75M9 8h4m-4 3h6m-6 3h4M2 12h6m-3-3v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="brand-text">Pharmacy Nexus</span>
+      </a>
+      <nav class="main-nav">
+        <a class="nav-link active" href="subjects.html">Subjects</a>
+        <a class="nav-link" href="final-exam.html">Final Exam</a>
+        <a class="nav-link" href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-grid">
+      <div class="hero-pattern"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Premium learning for pharmacy students</p>
+        <h1 class="hero-title">Your Ultimate Pharmacy <span>Learning Platform</span></h1>
+        <p class="hero-subtitle">Built for future pharmacists — master every subject with structured topics, focused quizzes, instant explanations, and smart exam practice.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="subjects.html">Start Studying</a>
+          <a class="btn btn-secondary light" href="final-exam.html">Take Final Exam</a>
+        </div>
+        <div class="search-shell hero-search-shell">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 18a7.5 7.5 0 1 1 5.304-2.196L21 21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <input id="heroSearch" type="text" placeholder="Search subjects..." />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title with-icon">
+            <span class="icon-accent">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7.5 12 4l7 3.5-7 3.5L5 7.5Zm0 4.5L12 15l7-3m-14 4L12 19l7-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Curriculum Subjects
+          </h2>
+        </div>
+        <div id="featuredSubjects" class="cards-grid cards-grid-4"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Pharmacy Nexus</h3>
+        <p>A premium educational platform built for future pharmacists. Study smarter, score higher.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="subjects.html">Subjects</a></li>
+          <li><a href="final-exam.html">Final Exam</a></li>
+          <li><a href="dashboard.html">My Dashboard</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>For feedback, collaboration, or educational contributions, feel free to contact us.</p>
+        <a class="footer-mail" href="mailto:pharmacynexusofficial@gmail.com">pharmacynexusofficial@gmail.com</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Pharmacy Nexus. Built for pharmacy students worldwide.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
