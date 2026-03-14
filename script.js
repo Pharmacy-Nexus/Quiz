@@ -1,3 +1,7 @@
+const SUPABASE_URL = "https://zvsiygerhkvlfaxfqtnn.supabase.co";
+const SUPABASE_KEY = "sb_publishable_K4a9xTaturguvQBe4y1_GQ_psFoRvCQ";
+
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const STORAGE_KEYS = {
   subjects: 'pn_subjects',
   topics: 'pn_topics',
