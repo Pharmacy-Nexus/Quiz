@@ -1,9 +1,52 @@
-const SUPABASE_URL = "https://zvsiygerhkvlfaxfqtnn.supabase.co";
-const SUPABASE_KEY = "sb_publishable_K4a9xTaturguvQBe4y1_GQ_psFoRvCQ";
+const DATA_FILES = {
+  subjects: 'data/subjects.json',
+  topics: 'data/topics.json',
+  questions: 'data/questions.json',
+  quizsets: 'data/quizsets.json'
+};
 
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const STORAGE_KEYS = {
+  subjects: 'pn_subjects',
+  topics: 'pn_topics',
+  questions: 'pn_questions',
+  quizsets: 'pn_quizsets',
+  settings: 'pn_settings',
+  progress: 'pn_progress',
+  session: 'pn_exam_session'
+};
 
-let appData = {};
+let appData = null;
+
+function byId(id) {
+  return document.getElementById(id);
+}
+
+function qs(selector, root = document) {
+  return root.querySelector(selector);
+}
+
+function qsa(selector, root = document) {
+  return [...root.querySelectorAll(selector)];
+}
+
+function save(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function load(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+async function readJson(path) {
+  const response = await fetch(path, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`Failed to read ${path}`);
+  return response.json();
+}
 
 function slugify(text) {
   return String(text)
@@ -24,7 +67,7 @@ function escapeHtml(value) {
 }
 
 async function initializeData() {
-  if (appData) return appData;
+  if (appData?.subjects) return appData;
 
   const embedded = window.PHARMACY_NEXUS_DATA || null;
   let seedSubjects = embedded?.subjects;
@@ -875,4 +918,3 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initializeData();
   pageRouter();
 });
-
