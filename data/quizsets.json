@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "quiz-1773528324015",
+    "name": "1",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "timeLimit": 10
+  }
+]
