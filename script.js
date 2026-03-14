@@ -1,45 +1,9 @@
+const SUPABASE_URL = "https://zvsiygerhkvlfaxfqtnn.supabase.co";
+const SUPABASE_KEY = "sb_publishable_K4a9xTaturguvQBe4y1_GQ_psFoRvCQ";
 
-const DATA_FILES = {
-  subjects: 'data/subjects.json',
-  topics: 'data/topics.json',
-  questions: 'data/questions.json',
-  quizsets: 'data/quizsets.json'
-};
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-const STORAGE_KEYS = {
-  subjects: 'pn_subjects',
-  topics: 'pn_topics',
-  questions: 'pn_questions',
-  quizsets: 'pn_quizsets',
-  settings: 'pn_settings',
-  progress: 'pn_progress',
-  session: 'pn_exam_session'
-};
-
-let appData = null;
-
-const byId = (id) => document.getElementById(id);
-const qs = (selector, root = document) => root.querySelector(selector);
-const qsa = (selector, root = document) => [...root.querySelectorAll(selector)];
-
-function save(key, value) {
-  localStorage.setItem(key, JSON.stringify(value));
-}
-
-function load(key, fallback) {
-  try {
-    const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-async function readJson(path) {
-  const response = await fetch(path, { cache: 'no-store' });
-  if (!response.ok) throw new Error(`Failed to load ${path}`);
-  return response.json();
-}
+let appData = {};
 
 function slugify(text) {
   return String(text)
@@ -48,6 +12,15 @@ function slugify(text) {
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
+}
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 async function initializeData() {
@@ -275,12 +248,8 @@ function createQuizState() {
   };
 }
 
-async function renderQuizPage() {
+function renderQuizPage() {
   const state = createQuizState();
-
-  if (state.mode !== 'exam' && state.subject?.id && state.topic?.id) {
-    state.questions = await fetchTopicQuestionsForStudy(state.subject.id, state.topic.id);
-  }
   const sidebarTitle = byId('quizTopicTitle');
   const modeLabel = byId('quizModeLabel');
   const metaText = byId('quizMetaText');
@@ -312,7 +281,10 @@ async function renderQuizPage() {
     const q = state.questions[state.currentIndex];
     state.selectedIndex = null;
     state.submitted = false;
-    questionText.textContent = q.question;
+    const imageMarkup = q.imageUrl
+      ? `<div class="question-image-wrap" style="margin-bottom:16px;"><img src="${escapeHtml(q.imageUrl)}" alt="Question image" style="max-width:100%; border-radius:16px; display:block;" loading="lazy"></div>`
+      : '';
+    questionText.innerHTML = `${imageMarkup}${escapeHtml(q.question)}`;
     subjectBadge.textContent = appData.subjects.find((s) => s.id === q.subjectId)?.name || 'Subject';
     topicBadge.textContent = appData.topics.find((t) => t.id === q.topicId)?.name || 'Topic';
     difficultyBadge.textContent = q.difficulty;
@@ -512,62 +484,6 @@ function encodeBase64Unicode(input) {
   return btoa(unescape(encodeURIComponent(input)));
 }
 
-
-function decodeBase64Unicode(input) {
-  return decodeURIComponent(escape(atob(input)));
-}
-
-function getTopicFilePath(subjectId, topicId) {
-  return `data/questions/${subjectId}/${topicId}.json`;
-}
-
-async function fetchTopicQuestionsForStudy(subjectId, topicId) {
-  const path = getTopicFilePath(subjectId, topicId);
-  try {
-    const response = await fetch(path, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Failed to load ${path}`);
-    const data = await response.json();
-    return Array.isArray(data) ? data : [];
-  } catch (error) {
-    console.warn('Falling back to questions.json for topic view.', error);
-    return appData.questions.filter((q) => q.subjectId === subjectId && q.topicId === topicId);
-  }
-}
-
-async function githubDeleteFile(path, message) {
-  const { owner, repo, branch, token } = appData.settings;
-  const existing = await githubGetFile(path);
-  if (!existing?.sha) return;
-  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
-    method: 'DELETE',
-    headers: {
-      'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ message, branch, sha: existing.sha })
-  });
-  if (!response.ok) {
-    const payload = await response.text();
-    throw new Error(payload || `GitHub delete failed for ${path}`);
-  }
-}
-
-async function syncTopicFile(subjectId, topicId, message) {
-  if (!hasGithubSettings()) return;
-  const topicQuestions = appData.questions.filter((q) => q.subjectId === subjectId && q.topicId === topicId);
-  const path = getTopicFilePath(subjectId, topicId);
-  if (!topicQuestions.length) {
-    try {
-      await githubDeleteFile(path, `${message} • remove empty topic file`);
-    } catch (error) {
-      console.warn('Topic file delete skipped.', error);
-    }
-    return;
-  }
-  await githubPutFile(path, topicQuestions, `${message} • ${path}`);
-}
-
 async function githubGetFile(path) {
   const { owner, repo, branch, token } = appData.settings;
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`, {
@@ -581,7 +497,7 @@ async function githubGetFile(path) {
   return response.json();
 }
 
-async function githubPutFile(path, data, message) {
+async function githubPutFile(path, data, message, retry = true) {
   const { owner, repo, branch, token } = appData.settings;
   const existing = await githubGetFile(path);
   const body = {
@@ -590,6 +506,7 @@ async function githubPutFile(path, data, message) {
     content: encodeBase64Unicode(JSON.stringify(data, null, 2))
   };
   if (existing?.sha) body.sha = existing.sha;
+
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
     method: 'PUT',
     headers: {
@@ -599,10 +516,16 @@ async function githubPutFile(path, data, message) {
     },
     body: JSON.stringify(body)
   });
+
+  if (response.status === 409 && retry) {
+    return githubPutFile(path, data, message, false);
+  }
+
   if (!response.ok) {
     const payload = await response.text();
     throw new Error(payload || `GitHub write failed for ${path}`);
   }
+
   return response.json();
 }
 
@@ -759,17 +682,9 @@ function initializeAdminInterface() {
     }).join('') || `<div class="notice-box">No topics for this subject yet.</div>`;
     qsa('[data-delete-topic]').forEach((btn) => btn.addEventListener('click', async () => {
       const id = btn.dataset.deleteTopic;
-      const topic = appData.topics.find((t) => t.id === id);
       appData.topics = appData.topics.filter((t) => t.id !== id);
       appData.questions = appData.questions.filter((q) => q.topicId !== id);
       await persistAndMaybeSync('Admin deleted a topic');
-      if (topic && hasGithubSettings()) {
-        try {
-          await githubDeleteFile(getTopicFilePath(topic.subjectId, topic.id), 'Admin deleted a topic file');
-        } catch (error) {
-          console.error(error);
-        }
-      }
       refreshAllAdminLists();
     }));
   };
@@ -786,22 +701,14 @@ function initializeAdminInterface() {
       <article class="stack-item">
         <div>
           <h4>${q.question.slice(0, 90)}${q.question.length > 90 ? '…' : ''}</h4>
-          <p>${q.type} • ${q.difficulty}</p>
+          <p>${q.type} • ${q.difficulty}${q.imageUrl ? ' • image' : ''}</p>
         </div>
         <div class="stack-actions"><button class="icon-btn" data-delete-question="${q.id}">🗑</button></div>
       </article>
     `).join('') : `<div class="notice-box">Select a subject and topic to view questions.</div>`;
     qsa('[data-delete-question]').forEach((btn) => btn.addEventListener('click', async () => {
-      const deletedQuestion = appData.questions.find((q) => q.id === btn.dataset.deleteQuestion);
       appData.questions = appData.questions.filter((q) => q.id !== btn.dataset.deleteQuestion);
       await persistAndMaybeSync('Admin deleted a question');
-      if (deletedQuestion && hasGithubSettings()) {
-        try {
-          await syncTopicFile(deletedQuestion.subjectId, deletedQuestion.topicId, 'Admin updated topic questions');
-        } catch (error) {
-          console.error(error);
-        }
-      }
       refreshAllAdminLists();
     }));
   };
@@ -867,18 +774,10 @@ function initializeAdminInterface() {
     const name = byId('topicNameInput').value.trim();
     const subjectId = byId('adminTopicSubjectSelect').value;
     if (!name || !subjectId) return;
-    const topicId = slugify(name);
-    appData.topics.push({ id: topicId, name, subjectId });
+    appData.topics.push({ id: slugify(name), name, subjectId });
     byId('topicNameInput').value = '';
     byId('topicForm').classList.add('hidden');
     await persistAndMaybeSync('Admin added a topic');
-    if (hasGithubSettings()) {
-      try {
-        await githubPutFile(getTopicFilePath(subjectId, topicId), [], 'Admin created a new topic file');
-      } catch (error) {
-        console.error(error);
-      }
-    }
     refreshAllAdminLists();
   });
 
@@ -889,31 +788,28 @@ function initializeAdminInterface() {
     e.preventDefault();
     const subjectId = byId('adminQuestionSubjectSelect').value;
     const topicId = byId('adminQuestionTopicSelect').value;
-    const options = [byId('option1Input').value, byId('option2Input').value, byId('option3Input').value, byId('option4Input').value];
-    const newQuestion = {
+    const options = [
+      byId('option1Input').value.trim(),
+      byId('option2Input').value.trim(),
+      byId('option3Input').value.trim(),
+      byId('option4Input').value.trim()
+    ];
+    appData.questions.push({
       id: `q-${Date.now()}`,
       subjectId,
       topicId,
       type: byId('questionTypeInput').value,
       difficulty: byId('questionDifficultyInput').value,
-      question: byId('questionTextInput').value,
-      caseScenario: byId('questionCaseInput').value,
+      question: byId('questionTextInput').value.trim(),
+      caseScenario: byId('questionCaseInput').value.trim(),
+      imageUrl: byId('questionImageInput')?.value.trim() || '',
       options,
       correctAnswer: Number(byId('correctAnswerInput').value),
-      explanation: byId('questionExplanationInput').value
-    };
-    appData.questions.push(newQuestion);
+      explanation: byId('questionExplanationInput').value.trim()
+    });
     e.target.reset();
     byId('questionForm').classList.add('hidden');
     await persistAndMaybeSync('Admin added a question');
-    if (hasGithubSettings()) {
-      try {
-        await syncTopicFile(subjectId, topicId, 'Admin updated topic questions');
-      } catch (error) {
-        console.error(error);
-        alert('Question was saved, but topic file sync failed.');
-      }
-    }
     refreshAllAdminLists();
   });
 
@@ -979,3 +875,4 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initializeData();
   pageRouter();
 });
+
