@@ -418,47 +418,129 @@ function renderQuizPage() {
 }
 
 function renderFinalExamPage() {
-  const subjectSelect = byId('examSubjectSelect');
 
-subjectSelect.addEventListener("change", () => {
-  renderTopicsChecklist();
-});
-  const mode1Card = document.getElementById("mode1Card");
-const mode2Card = document.getElementById("mode2Card");
-const targetedWrap = document.getElementById("targetedTopicsWrap");
+  const subjectSelect = byId("examSubjectSelect");
+  const mode1Card = byId("mode1Card");
+  const mode2Card = byId("mode2Card");
+  const targetedWrap = byId("targetedTopicsWrap");
+  const topicsWrap = byId("examTopicsChecklist");
 
-let examMode = "comprehensive";
+  let examMode = "comprehensive";
 
-mode1Card.onclick = function () {
-  examMode = "comprehensive";
+  // fill subjects
+  subjectSelect.innerHTML =
+    `<option value="all">All Available Subjects (Comprehensive)</option>` +
+    appData.subjects
+      .map(s => `<option value="${s.id}">${s.name}</option>`)
+      .join("");
 
-  mode1Card.classList.add("active");
-  mode2Card.classList.remove("active");
+  // MODE SWITCH
+  mode1Card.onclick = () => {
+    examMode = "comprehensive";
 
-  targetedWrap.classList.add("hidden");
-};
+    mode1Card.classList.add("active");
+    mode2Card.classList.remove("active");
 
-mode2Card.onclick = function () {
-  examMode = "targeted";
+    targetedWrap.classList.add("hidden");
+  };
 
-  mode2Card.classList.add("active");
-  mode1Card.classList.remove("active");
+  mode2Card.onclick = () => {
+    examMode = "targeted";
 
-  targetedWrap.classList.remove("hidden");
-};
-  subjectSelect.innerHTML = `<option value="all">All Available Subjects (Comprehensive)</option>` + appData.subjects.map((s) => `<option value="${s.id}">${s.name}</option>`).join('');
-  byId('generateExamBtn')?.addEventListener('click', () => {
-    const subjectId = subjectSelect.value;
-    const difficulty = byId('examDifficultySelect').value;
-    const count = Number(byId('examQuestionCount').value || 50);
-    const timeLimit = Number(byId('examTimeLimit').value || 60);
-    let questions = [...appData.questions];
-    if (subjectId !== 'all') questions = questions.filter((q) => q.subjectId === subjectId);
-    if (difficulty !== 'mixed') questions = questions.filter((q) => q.difficulty === difficulty);
-    questions = questions.sort(() => Math.random() - 0.5).slice(0, count);
-    save(STORAGE_KEYS.session, { questions: questions.map((q) => q.id), timeLimit, startedAt: Date.now() });
-    window.location.href = 'quiz.html?mode=exam';
+    mode2Card.classList.add("active");
+    mode1Card.classList.remove("active");
+
+    targetedWrap.classList.remove("hidden");
+
+    renderTopicsChecklist();
+  };
+
+  // subject change
+  subjectSelect.addEventListener("change", () => {
+    if (examMode === "targeted") {
+      renderTopicsChecklist();
+    }
   });
+
+  function renderTopicsChecklist() {
+
+    const subjectId = subjectSelect.value;
+
+    topicsWrap.innerHTML = "";
+
+    if (subjectId === "all") return;
+
+    const topics = appData.topics.filter(
+      t => t.subjectId === subjectId
+    );
+
+    topics.forEach(t => {
+
+      const row = document.createElement("label");
+
+      row.style.display = "block";
+      row.style.marginBottom = "6px";
+
+      row.innerHTML = `
+        <input type="checkbox" value="${t.id}">
+        ${t.name}
+      `;
+
+      topicsWrap.appendChild(row);
+
+    });
+  }
+
+  // generate exam
+  byId("generateExamBtn").addEventListener("click", () => {
+
+    const subjectId = subjectSelect.value;
+    const difficulty = byId("examDifficultySelect").value;
+    const count = Number(byId("examQuestionCount").value || 50);
+    const timelimit = Number(byId("examTimeLimit").value || 60);
+
+    let questions = [...appData.questions];
+
+    if (examMode === "targeted") {
+
+      const checked = [
+        ...topicsWrap.querySelectorAll("input:checked")
+      ].map(i => i.value);
+
+      questions = questions.filter(q =>
+        checked.includes(q.topicId)
+      );
+
+    } else {
+
+      if (subjectId !== "all") {
+        questions = questions.filter(
+          q => q.subjectId === subjectId
+        );
+      }
+
+    }
+
+    if (difficulty !== "mixed") {
+      questions = questions.filter(
+        q => q.difficulty === difficulty
+      );
+    }
+
+    questions = questions
+      .sort(() => Math.random() - 0.5)
+      .slice(0, count);
+
+    save(STORAGE_KEYS.session, {
+      questions: questions.map(q => q.id),
+      timelimit,
+      startedAt: Date.now()
+    });
+
+    window.location.href = "quiz.html?mode=exam";
+
+  });
+
 }
 
 function summarizeDashboard() {
