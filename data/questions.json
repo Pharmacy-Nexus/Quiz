@@ -178,5 +178,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Fluoxetine (Prozac) is one of the most commonly used SSRIs for depression treatment."
+  },
+  {
+    "id": "q-1773607948784",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which neurotransmitter is mainly increased by SSRIs?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Serotonin",
+      "Dopamine",
+      "Acetylcholine",
+      "GABA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Selective serotonin reuptake inhibitors increase serotonin levels by blocking its reuptake into presynaptic neurons, leading to improved mood and emotional stability."
   }
 ]
