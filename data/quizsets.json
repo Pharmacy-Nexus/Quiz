@@ -5,5 +5,12 @@
     "subjectId": "pharmacology",
     "topicId": "sedatives-and-hypnotic",
     "timeLimit": 10
+  },
+  {
+    "id": "quiz-1773614066157",
+    "name": "1",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "timeLimit": 15
   }
 ]
