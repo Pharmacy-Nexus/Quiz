@@ -574,5 +574,41 @@
     ],
     "correctAnswer": 0,
     "explanation": "SSRIs selectively block serotonin reuptake transporters, increasing serotonin levels."
+  },
+  {
+    "id": "q-1773616098545",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which antidepressant drug is most likely to cause sexual dysfunction?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Fluoxetine",
+      "Mirtazapine",
+      "Bupropion",
+      "Vortioxetine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSRIs frequently cause sexual dysfunction due to excessive serotonergic activity."
+  },
+  {
+    "id": "q-1773616163067",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant would be preferred in a patient with depression and minimal risk of sexual side effects?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Sertraline",
+      "Paroxetine",
+      "Mirtazapine",
+      "Fluoxetine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mirtazapine has minimal sexual side effects compared with SSRIs."
   }
 ]
