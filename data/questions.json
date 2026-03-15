@@ -214,5 +214,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "SNRIs increase both serotonin and norepinephrine levels by blocking their reuptake transporters."
+  },
+  {
+    "id": "q-1773609895049",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class blocks serotonin, α-adrenergic, histamine, and muscarinic receptors?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "TCAs",
+      "SNRIs",
+      "NRIs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tricyclic antidepressants inhibit reuptake of serotonin and norepinephrine but also block multiple receptors, leading to many side effects."
   }
 ]
