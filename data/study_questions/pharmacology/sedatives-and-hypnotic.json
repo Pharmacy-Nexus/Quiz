@@ -1,0 +1,74 @@
+[
+  {
+    "id": "q-1773527840052",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which term describes a drug that reduces anxiety without necessarily causing sleep?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Hypnotic",
+      "Sedative",
+      "Anxiolytic",
+      "General anesthetic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Anxiolytics are drugs used primarily to reduce anxiety symptoms. They calm the patient without necessarily inducing sleep, although mild drowsiness may occur. Examples include benzodiazepines such as diazepam and alprazolam."
+  },
+  {
+    "id": "q-1773527905100",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which of the following best describes hypnosis?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Temporary loss of awareness and sensation",
+      "Increased motor activity",
+      "Drowsiness with increased tendency to sleep",
+      "Complete coma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hypnosis refers to a pharmacologically induced sleep state characterized by drowsiness and increased sleep tendency. It is stronger than sedation but lighter than general anesthesia."
+  },
+  {
+    "id": "q-1773527953720",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which drug class is most widely used today for anxiety disorders?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Barbiturates",
+      "Benzodiazepines",
+      "Opioids",
+      "Antipsychotics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Benzodiazepines have largely replaced barbiturates for anxiety treatment because they are safer, have higher therapeutic index, and produce less severe respiratory and cardiovascular depression."
+  },
+  {
+    "id": "q-1773528025285",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which receptor mediates the effects of benzodiazepines and barbiturates?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "NMDA",
+      "GABA-A",
+      "Dopamine",
+      "Serotonin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both benzodiazepines and barbiturates act on the GABA-A receptor, enhancing the inhibitory effect of GABA in the CNS, leading to neuronal inhibition."
+  }
+]
