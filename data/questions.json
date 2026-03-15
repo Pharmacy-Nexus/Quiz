@@ -484,5 +484,23 @@
     ],
     "correctAnswer": 2,
     "explanation": "TCAs block muscarinic receptors, causing anticholinergic symptoms such as dry mouth, blurred vision, constipation, and urinary retention."
+  },
+  {
+    "id": "q-1773615701445",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which antidepressant class is most likely to cause anticholinergic side effects?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "NRIs",
+      "Tricyclic antidepressants",
+      "SNRIs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "TCAs block muscarinic receptors, causing anticholinergic symptoms such as dry mouth, blurred vision, constipation, and urinary retention."
   }
 ]
