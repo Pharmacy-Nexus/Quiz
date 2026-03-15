@@ -106,5 +106,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Depression is primarily a mood disorder characterized by persistent sadness, loss of interest, and emotional disturbances."
+  },
+  {
+    "id": "q-1773607389720",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which type of depression is characterized by both mania and depression?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Unipolar depression",
+      "Bipolar depression",
+      "Reactive depression",
+      "Seasonal depression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bipolar disorder involves alternating episodes of mania and depression due to fluctuations in monoamine levels."
   }
 ]
