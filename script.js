@@ -419,6 +419,10 @@ function renderQuizPage() {
 
 function renderFinalExamPage() {
   const subjectSelect = byId('examSubjectSelect');
+
+subjectSelect.addEventListener("change", () => {
+  renderTopicsChecklist();
+});
   const mode1Card = document.getElementById("mode1Card");
 const mode2Card = document.getElementById("mode2Card");
 const targetedWrap = document.getElementById("targetedTopicsWrap");
