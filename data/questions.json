@@ -198,7 +198,7 @@
     "explanation": "Selective serotonin reuptake inhibitors increase serotonin levels by blocking its reuptake into presynaptic neurons, leading to improved mood and emotional stability."
   },
   {
-    "id": "q-1773609768980",
+    "id": "q-1773609830382",
     "subjectId": "pharmacology",
     "topicId": "antidepressants",
     "type": "Standard MCQ",
@@ -212,7 +212,7 @@
       "NRIs",
       "MAOIs"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "SNRIs increase both serotonin and norepinephrine levels by blocking their reuptake transporters."
   }
 ]
