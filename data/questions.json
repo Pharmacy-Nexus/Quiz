@@ -268,5 +268,41 @@
     ],
     "correctAnswer": 2,
     "explanation": "MAO inhibitors are rarely used today because they interact with many drugs and tyramine-containing foods."
+  },
+  {
+    "id": "q-1773610013744",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which adverse effect is common to most antidepressants?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Orthostatic hypotension",
+      "Hyperglycemia",
+      "Tachycardia",
+      "Diarrhea"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Many antidepressants cause orthostatic hypotension due to their effects on autonomic receptors."
+  },
+  {
+    "id": "q-1773610066816",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Many antidepressants cause orthostatic hypotension due to their effects on autonomic receptors.",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "NRIs",
+      "MAOIs",
+      "SSRIs",
+      "TCAs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Norepinephrine reuptake inhibitors have fewer autonomic side effects compared with older antidepressants."
   }
 ]
