@@ -394,5 +394,41 @@
     ],
     "correctAnswer": 1,
     "explanation": "TCAs block histamine H1 receptors, which increases appetite and weight gain."
+  },
+  {
+    "id": "q-1773610387077",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which MAO enzyme metabolizes serotonin and norepinephrine?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "MAO-A",
+      "MAO-B",
+      "COMT",
+      "AChE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MAO-A metabolizes serotonin and norepinephrine in the brain and peripheral tissues."
+  },
+  {
+    "id": "q-1773611126920",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant would be preferred in a patient with major depressive disorder who also suffers from chronic neuropathic pain?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Fluoxetine",
+      "Sertraline",
+      "Duloxetine",
+      "Reboxetine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Duloxetine is an SNRI that increases both serotonin and norepinephrine levels. The increase in norepinephrine enhances descending inhibitory pain pathways in the spinal cord, making SNRIs particularly useful in depression associated with chronic pain conditions such as fibromyalgia or neuropathic pain."
   }
 ]
