@@ -538,5 +538,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "TCAs block histamine H1 receptors, producing sedation and weight gain."
+  },
+  {
+    "id": "q-1773615863022",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "TCAs block histamine H1 receptors, producing sedation and weight gain.",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "SNRIs",
+      "Tricyclic antidepressants",
+      "NRIs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "TCAs block cardiac sodium channels, causing conduction abnormalities and potentially fatal arrhythmias."
   }
 ]
