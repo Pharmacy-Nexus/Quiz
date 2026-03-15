@@ -70,43 +70,5 @@
     ],
     "correctAnswer": 0,
     "explanation": "Both benzodiazepines and barbiturates act on the GABA-A receptor, enhancing the inhibitory effect of GABA in the CNS, leading to neuronal inhibition."
-  },
-  {
-    "id": "study-q-1773600798870",
-    "subjectId": "pharmacology",
-    "topicId": "sedatives-and-hypnotic",
-    "bank": "study",
-    "type": "Standard MCQ",
-    "difficulty": "easy",
-    "question": "Which neurotransmitter deficiency is strongly associated with depression according to the monoamine theory?",
-    "caseScenario": "",
-    "imageUrl": "",
-    "options": [
-      "Serotonin",
-      "Dopamine",
-      "Norepinephrine",
-      "All of the above"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The monoamine theory states that depression occurs due to decreased levels of monoamines in the synaptic cleft, mainly serotonin, norepinephrine, and dopamine. Reduced neurotransmission of these monoamines contributes to depressive symptoms."
-  },
-  {
-    "id": "study-q-1773600851749",
-    "subjectId": "pharmacology",
-    "topicId": "sedatives-and-hypnotic",
-    "bank": "study",
-    "type": "Standard MCQ",
-    "difficulty": "easy",
-    "question": "Major depressive disorder is classified as a disorder of:",
-    "caseScenario": "",
-    "imageUrl": "",
-    "options": [
-      "Memory",
-      "Mood",
-      "Movement",
-      "Cognition"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Depression is primarily a mood disorder characterized by persistent sadness, loss of interest, and emotional disturbances."
   }
 ]
