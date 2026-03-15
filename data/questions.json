@@ -430,5 +430,23 @@
     ],
     "correctAnswer": 2,
     "explanation": "Duloxetine is an SNRI that increases both serotonin and norepinephrine levels. The increase in norepinephrine enhances descending inhibitory pain pathways in the spinal cord, making SNRIs particularly useful in depression associated with chronic pain conditions such as fibromyalgia or neuropathic pain."
+  },
+  {
+    "id": "q-1773613794429",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which pharmacological mechanism best explains the antidepressant effect of MAO inhibitors?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Inhibition of monoamine degradation leading to increased synaptic neurotransmitters",
+      "Direct stimulation of serotonin receptors",
+      "Blockade of dopamine receptors",
+      "Inhibition of GABA release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MAO inhibitors block monoamine oxidase enzymes responsible for metabolizing serotonin, norepinephrine, and dopamine. This increases monoamine levels in the synaptic cleft and improves depressive symptoms."
   }
 ]
