@@ -88,5 +88,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "The monoamine theory states that depression occurs due to decreased levels of monoamines in the synaptic cleft, mainly serotonin, norepinephrine, and dopamine. Reduced neurotransmission of these monoamines contributes to depressive symptoms."
+  },
+  {
+    "id": "q-1773605792103",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Major depressive disorder is classified as a disorder of:",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Memory",
+      "Mood",
+      "Movement",
+      "Cognition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Depression is primarily a mood disorder characterized by persistent sadness, loss of interest, and emotional disturbances."
   }
 ]
