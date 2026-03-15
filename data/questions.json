@@ -502,5 +502,41 @@
     ],
     "correctAnswer": 2,
     "explanation": "TCAs block muscarinic receptors, causing anticholinergic symptoms such as dry mouth, blurred vision, constipation, and urinary retention."
+  },
+  {
+    "id": "q-1773615744165",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which pharmacological property of TCAs explains their ability to treat neuropathic pain?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Enhancement of GABA activity",
+      "Blockade of dopamine receptors",
+      "Inhibition of serotonin and norepinephrine reuptake",
+      "Activation of melatonin receptors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Increasing serotonin and norepinephrine enhances descending inhibitory pain pathways in the spinal cord."
+  },
+  {
+    "id": "q-1773615795105",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which mechanism contributes to the sedative effect of tricyclic antidepressants?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Histamine H1 receptor blockade",
+      "Dopamine receptor stimulation",
+      "Serotonin receptor activation",
+      "Calcium channel blockade"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCAs block histamine H1 receptors, producing sedation and weight gain."
   }
 ]
