@@ -628,5 +628,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "SNRIs increase both neurotransmitters which modulate descending pain inhibitory pathways."
+  },
+  {
+    "id": "q-1773616338460",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which receptor blockade explains orthostatic hypotension seen with TCAs?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Alpha-1 adrenergic receptors",
+      "Histamine receptors",
+      "Dopamine receptors",
+      "Muscarinic receptors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Blocking α1 receptors reduces vascular tone causing orthostatic hypotension."
   }
 ]
