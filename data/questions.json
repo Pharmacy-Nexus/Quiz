@@ -160,5 +160,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "SSRIs selectively inhibit serotonin reuptake, increasing serotonin levels in the synaptic cleft."
+  },
+  {
+    "id": "q-1773607886692",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which drug is an example of an SSRI?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Fluoxetine",
+      "Amitriptyline",
+      "Phenelzine",
+      "Lithium"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fluoxetine (Prozac) is one of the most commonly used SSRIs for depression treatment."
   }
 ]
