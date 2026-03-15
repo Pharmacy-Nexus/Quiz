@@ -340,5 +340,41 @@
     ],
     "correctAnswer": 2,
     "explanation": "SSRIs have significantly lower cardiotoxicity compared with TCAs."
+  },
+  {
+    "id": "q-1773610235416",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class may cause atropine-like side effects?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "TCAs",
+      "MAOIs",
+      "NRIs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TCAs block muscarinic receptors causing anticholinergic symptoms such as dry mouth and blurred vision."
+  },
+  {
+    "id": "q-1773610278636",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which adverse effect may occur when MAO inhibitors are combined with SSRIs?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Hypertensive crisis",
+      "Serotonin syndrome",
+      "Hypoglycemia",
+      "Hypoglycemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Combining MAOIs with SSRIs can cause dangerously high serotonin levels."
   }
 ]
