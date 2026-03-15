@@ -466,5 +466,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "MAO inhibitors prevent breakdown of tyramine in the gut. Tyramine stimulates norepinephrine release, potentially causing severe hypertensive crisis."
+  },
+  {
+    "id": "q-1773615611510",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which antidepressant class is most likely to cause anticholinergic side effects?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "SNRIs",
+      "Tricyclic antidepressants",
+      "NRIs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "TCAs block muscarinic receptors, causing anticholinergic symptoms such as dry mouth, blurred vision, constipation, and urinary retention."
   }
 ]
