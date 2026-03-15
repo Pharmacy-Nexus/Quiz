@@ -304,5 +304,41 @@
     ],
     "correctAnswer": 1,
     "explanation": "Norepinephrine reuptake inhibitors have fewer autonomic side effects compared with older antidepressants."
+  },
+  {
+    "id": "q-1773610094148",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which drug is an SNRI used for depression and chronic pain?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Duloxetine",
+      "Sertraline",
+      "Fluoxetine",
+      "Phenelzine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Duloxetine increases serotonin and norepinephrine levels and is used for depression and chronic pain disorders such as fibromyalgia."
+  },
+  {
+    "id": "q-1773610199009",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class has the least cardiotoxicity?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "TCAs",
+      "MAOIs",
+      "SSRIs",
+      "NRIs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SSRIs have significantly lower cardiotoxicity compared with TCAs."
   }
 ]
