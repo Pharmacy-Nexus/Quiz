@@ -419,6 +419,29 @@ function renderQuizPage() {
 
 function renderFinalExamPage() {
   const subjectSelect = byId('examSubjectSelect');
+  const mode1Card = document.getElementById("mode1Card");
+const mode2Card = document.getElementById("mode2Card");
+const targetedWrap = document.getElementById("targetedTopicsWrap");
+
+let examMode = "comprehensive";
+
+mode1Card.onclick = function () {
+  examMode = "comprehensive";
+
+  mode1Card.classList.add("active");
+  mode2Card.classList.remove("active");
+
+  targetedWrap.classList.add("hidden");
+};
+
+mode2Card.onclick = function () {
+  examMode = "targeted";
+
+  mode2Card.classList.add("active");
+  mode1Card.classList.remove("active");
+
+  targetedWrap.classList.remove("hidden");
+};
   subjectSelect.innerHTML = `<option value="all">All Available Subjects (Comprehensive)</option>` + appData.subjects.map((s) => `<option value="${s.id}">${s.name}</option>`).join('');
   byId('generateExamBtn')?.addEventListener('click', () => {
     const subjectId = subjectSelect.value;
