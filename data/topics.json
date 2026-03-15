@@ -8,5 +8,10 @@
     "id": "antidepressants",
     "name": "Antidepressants",
     "subjectId": "pharmacology"
+  },
+  {
+    "id": "antipsychotics",
+    "name": "Antipsychotics",
+    "subjectId": "pharmacology"
   }
 ]
