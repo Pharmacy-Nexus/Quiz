@@ -108,21 +108,21 @@
     "explanation": "Depression is primarily a mood disorder characterized by persistent sadness, loss of interest, and emotional disturbances."
   },
   {
-    "id": "q-1773607389720",
+    "id": "q-1773607440104",
     "subjectId": "pharmacology",
     "topicId": "antidepressants",
     "type": "Standard MCQ",
     "difficulty": "easy",
-    "question": "Which type of depression is characterized by both mania and depression?",
+    "question": "Which enzyme metabolizes serotonin and norepinephrine?",
     "caseScenario": "",
     "imageUrl": "",
     "options": [
-      "Unipolar depression",
-      "Bipolar depression",
-      "Reactive depression",
-      "Seasonal depression"
+      "COMT",
+      "Monoamine oxidase",
+      "Acetylcholinesterase",
+      "Cyclooxygenase"
     ],
-    "correctAnswer": 0,
-    "explanation": "Bipolar disorder involves alternating episodes of mania and depression due to fluctuations in monoamine levels."
+    "correctAnswer": 1,
+    "explanation": "Monoamine oxidase breaks down monoamine neurotransmitters such as serotonin, norepinephrine, and dopamine."
   }
 ]
