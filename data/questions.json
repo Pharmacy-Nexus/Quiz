@@ -610,5 +610,23 @@
     ],
     "correctAnswer": 2,
     "explanation": "Mirtazapine has minimal sexual side effects compared with SSRIs."
+  },
+  {
+    "id": "q-1773616273941",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which antidepressant mechanism explains the therapeutic benefit of SNRIs in fibromyalgia?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Increased serotonin and norepinephrine transmission",
+      "Increased dopamine synthesis",
+      "Blockade of GABA receptors",
+      "Suppression of glutamate release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SNRIs increase both neurotransmitters which modulate descending pain inhibitory pathways."
   }
 ]
