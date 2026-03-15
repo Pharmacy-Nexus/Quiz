@@ -448,5 +448,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "MAO inhibitors block monoamine oxidase enzymes responsible for metabolizing serotonin, norepinephrine, and dopamine. This increases monoamine levels in the synaptic cleft and improves depressive symptoms."
+  },
+  {
+    "id": "q-1773615513357",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "hard",
+    "question": "Which adverse effect explains why MAO inhibitors are rarely used as first-line antidepressants?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Severe hepatotoxicity in all patients",
+      "Risk of hypertensive crisis with tyramine-containing foods",
+      "Complete suppression of dopamine transmission",
+      "High incidence of respiratory depression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MAO inhibitors prevent breakdown of tyramine in the gut. Tyramine stimulates norepinephrine release, potentially causing severe hypertensive crisis."
   }
 ]
