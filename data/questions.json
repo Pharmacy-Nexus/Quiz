@@ -232,5 +232,41 @@
     ],
     "correctAnswer": 1,
     "explanation": "Tricyclic antidepressants inhibit reuptake of serotonin and norepinephrine but also block multiple receptors, leading to many side effects."
+  },
+  {
+    "id": "q-1773609923387",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which drug is commonly used to treat nocturnal enuresis in children?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Imipramine",
+      "Sertraline",
+      "Fluoxetine",
+      "Duloxetine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Imipramine, a tricyclic antidepressant, is used in children to treat nocturnal enuresis due to its anticholinergic effects."
+  },
+  {
+    "id": "q-1773609955840",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class is considered last-line therapy due to food and drug interactions?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "TCAs",
+      "MAOIs",
+      "SNRIs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MAO inhibitors are rarely used today because they interact with many drugs and tyramine-containing foods."
   }
 ]
