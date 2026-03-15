@@ -556,5 +556,23 @@
     ],
     "correctAnswer": 2,
     "explanation": "TCAs block cardiac sodium channels, causing conduction abnormalities and potentially fatal arrhythmias."
+  },
+  {
+    "id": "q-1773616046573",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class selectively increases serotonin levels without significantly affecting norepinephrine?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "SNRIs",
+      "TCAs",
+      "MAOIs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSRIs selectively block serotonin reuptake transporters, increasing serotonin levels."
   }
 ]
