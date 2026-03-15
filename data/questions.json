@@ -124,5 +124,41 @@
     ],
     "correctAnswer": 1,
     "explanation": "Monoamine oxidase breaks down monoamine neurotransmitters such as serotonin, norepinephrine, and dopamine."
+  },
+  {
+    "id": "q-1773607540499",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "easy",
+    "question": "Which type of depression is characterized by both mania and depression?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Unipolar depression",
+      "Bipolar depression",
+      "Reactive depression",
+      "Seasonal depression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bipolar disorder involves alternating episodes of mania and depression due to fluctuations in monoamine levels."
+  },
+  {
+    "id": "q-1773607631464",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class selectively blocks serotonin reuptake?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "TCAs",
+      "MAOIs",
+      "NRIs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSRIs selectively inhibit serotonin reuptake, increasing serotonin levels in the synaptic cleft."
   }
 ]
