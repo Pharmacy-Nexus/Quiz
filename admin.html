@@ -88,7 +88,14 @@
             <h2>Manage Questions</h2>
             <button id="showAddQuestionBtn" class="btn btn-primary">+ Add Question</button>
           </div>
-          <div class="form-grid two-col">
+          <div class="form-grid three-col">
+            <label class="field">
+              <span>Question Bank</span>
+              <select id="adminQuestionBankFilter">
+                <option value="study">Study Questions</option>
+                <option value="quiz">Quiz Questions</option>
+              </select>
+            </label>
             <label class="field">
               <span>Subject</span>
               <select id="adminQuestionSubjectSelect"></select>
@@ -99,7 +106,8 @@
             </label>
           </div>
           <form id="questionForm" class="form-stack hidden">
-            <div class="form-grid two-col">
+            <div class="form-grid three-col">
+              <label class="field"><span>Save To</span><select id="questionBankInput"><option value="study">Study Bank</option><option value="quiz">Quiz Bank</option></select></label>
               <label class="field"><span>Question Type</span><select id="questionTypeInput"><option>Standard MCQ</option><option>Clinical Case</option></select></label>
               <label class="field"><span>Difficulty</span><select id="questionDifficultyInput"><option>easy</option><option selected>medium</option><option>hard</option></select></label>
             </div>
@@ -134,6 +142,10 @@
               <label class="field"><span>Topic</span><select id="quizsetTopicSelect"></select></label>
             </div>
             <label class="field"><span>Time Limit (minutes)</span><input id="quizsetTimeInput" type="number" min="1" value="10" required /></label>
+            <label class="field">
+              <span>Select Quiz Questions</span>
+              <div id="quizsetQuestionPicker" class="card" style="padding:14px; max-height:260px; overflow:auto;"></div>
+            </label>
             <div class="panel-actions">
               <button class="btn btn-primary" type="submit">Save Quiz Set</button>
               <button class="btn btn-ghost" type="button" data-cancel-form="quizsetForm">Cancel</button>
@@ -159,6 +171,10 @@
     </div>
   </main>
   
+  <script src="script.js"></script>
+</body>
+</html>
+
   <script src="script.js"></script>
 </body>
 </html>
