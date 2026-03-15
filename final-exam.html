@@ -33,13 +33,13 @@
           <p class="section-copy center">Customize your test parameters and simulate a real exam environment.</p>
         </div>
         <div class="cards-grid cards-grid-2 mode-cards">
-          <article class="card mode-card active">
+          <article id="mode1Card" class="card mode-card active" role="button" tabindex="0">
             <h3>Mode 1: Comprehensive</h3>
             <p>Test yourself across all subjects or a specific subject with random topics.</p>
           </article>
-          <article class="card mode-card">
+          <article id="mode2Card" class="card mode-card" role="button" tabindex="0">
             <h3>Mode 2: Targeted Topics</h3>
-            <p>Select a single subject and hand-pick exact topics to focus your exam on.</p>
+            <p>Select a single subject and hand-pick any number of topics to focus your exam on.</p>
           </article>
         </div>
         <div class="card panel-card form-panel">
@@ -48,6 +48,11 @@
               <span>Subject</span>
               <select id="examSubjectSelect"></select>
             </label>
+          </div>
+          <div id="targetedTopicsWrap" class="field hidden" style="margin-bottom:20px;">
+            <span>Topics for Mode 2</span>
+            <p id="targetedTopicsHint" class="small-note" style="margin:8px 0 12px;">Choose a subject, then hand-pick any number of topics.</p>
+            <div id="examTopicsChecklist" class="card" style="padding:16px; max-height:260px; overflow:auto;"></div>
           </div>
           <div class="form-grid three-col">
             <label class="field">
@@ -99,7 +104,6 @@
     <div class="container footer-bottom">© 2026 Pharmacy Nexus. Built for pharmacy students worldwide.</div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="script.js"></script>
 </body>
 </html>
