@@ -376,5 +376,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Combining MAOIs with SSRIs can cause dangerously high serotonin levels."
+  },
+  {
+    "id": "q-1773610341749",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "Which antidepressant class can cause weight gain due to histamine receptor blockade?",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "SSRIs",
+      "TCAs",
+      "SNRIs",
+      "NRIs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TCAs block histamine H1 receptors, which increases appetite and weight gain."
   }
 ]
