@@ -267,6 +267,11 @@ function createQuizState() {
     if (session?.questions?.length) {
       questions = session.questions.map((id) => appData.questions.find((q) => q.id === id)).filter(Boolean);
       title = 'Final Exam Session';
+      // === Study Sets (30 questions) ===
+if (mode === 'study') {
+  const set = Number(search.get('set') || 1);
+  const start = (set - 1) * 30;
+  questions = questions.slice(start, start + 30);
     }
   } else {
     const subjectId = search.get('subject');
