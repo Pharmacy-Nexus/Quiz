@@ -165,7 +165,6 @@ function renderTopicCard(topic) {
     </article>
   `;
 }
-}
 
 function activateHeroSearch() {
   const search = byId('heroSearch');
