@@ -121,7 +121,7 @@ style="padding:10px 15px; border:none; border-radius:8px; background:#22c55e; co
 
 <script>
 
-const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}")
+  const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}")
 
 const questions = data.questions || []
 const attempts = data.attempts || []
@@ -137,29 +137,19 @@ questions.forEach((q,i)=>{
   if(isCorrect) correctCount++
 
   document.getElementById("container").innerHTML += `
-
-  <div class="card">
-
-    <div class="question-title">
-      Question ${i+1}
+    <div class="card">
+      <div class="question-title">Question ${i+1}</div>
+      <p>${q.question}</p>
+      <div class="status ${isCorrect ? 'correct':'wrong'}">
+        ${isCorrect ? '✔ Correct' : '✖ Wrong'}
+      </div>
+      <div class="answer-box">
+        <strong>Correct Answer:</strong> ${q.options[q.correctAnswer]}
+      </div>
+      <div class="explanation">
+        ${q.explanation || ''}
+      </div>
     </div>
-
-    <p>${q.question}</p>
-
-    <div class="status ${isCorrect ? 'correct':'wrong'}">
-      ${isCorrect ? '✔ Correct' : '✖ Wrong'}
-    </div>
-
-    <div class="answer-box">
-      <strong>Correct Answer:</strong> ${q.options[q.correctAnswer]}
-    </div>
-
-    <div class="explanation">
-      ${q.explanation || ''}
-    </div>
-
-  </div>
-
   `
 })
 
@@ -171,8 +161,9 @@ document.getElementById("score").innerHTML =
 `Score: ${correctCount}/${questions.length} — ${percent}%`
 
 document.getElementById("progressFill").style.width = percent + "%"
-  
-</script>
+
+
+// ✅ هنا تحط الدالة
 function retrySet(){
   const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}");
   
@@ -181,6 +172,9 @@ function retrySet(){
   } else {
     alert("Error: original quiz not found");
   }
+}
+
+</script>
 }
 </body>
 </html>
