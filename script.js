@@ -1,3 +1,5 @@
+const correctSound = new Audio("https://www.soundjay.com/buttons/sounds/button-3.mp3");
+const wrongSound = new Audio("https://www.soundjay.com/buttons/sounds/button-10.mp3");
 byId('submitAnswerBtn')?.remove();
 const DATA_FILES = {
   subjects: 'data/subjects.json',
