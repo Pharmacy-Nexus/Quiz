@@ -677,3 +677,49 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
+#loader{
+  position:fixed;
+  inset:0;
+  background:#0b1b34;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+
+.loader-content{
+  text-align:center;
+}
+
+.loader-content .logo{
+  color:#fff;
+  font-size:22px;
+  font-weight:bold;
+  margin-bottom:20px;
+  letter-spacing:1px;
+}
+
+.bar{
+  width:200px;
+  height:4px;
+  background:rgba(255,255,255,0.1);
+  border-radius:10px;
+  overflow:hidden;
+  position:relative;
+}
+
+.bar::before{
+  content:"";
+  position:absolute;
+  left:-40%;
+  width:40%;
+  height:100%;
+  background:linear-gradient(90deg,#22c55e,#3b82f6);
+  animation:loading 1.2s infinite;
+}
+
+@keyframes loading{
+  100%{
+    left:100%;
+  }
+}
