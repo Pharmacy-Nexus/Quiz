@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Review</title>
+
+<style>
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+  padding:40px;
+}
+
+.card{
+  background:#1e293b;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:12px;
+}
+
+.correct{color:#22c55e;}
+.wrong{color:#ef4444;}
+</style>
+
+</head>
+
+<body>
+
+<h1>Set Review</h1>
+
+<div id="score"></div>
+<div id="container"></div>
+
+<script>
+
+const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}")
+
+const questions = data.questions || []
+const attempts = data.attempts || []
+
+let correctCount = 0
+
+questions.forEach((q,i)=>{
+
+  const attempt = attempts.find(a => a.questionId === q.id)
+
+  const isCorrect = attempt?.correct
+
+  if(isCorrect) correctCount++
+
+  document.getElementById("container").innerHTML += `
+
+  <div class="card">
+
+    <h3>Question ${i+1}</h3>
+
+    <p>${q.question}</p>
+
+    <p class="${isCorrect ? 'correct':'wrong'}">
+      ${isCorrect ? 'Correct ✅' : 'Wrong ❌'}
+    </p>
+
+    <p><strong>Correct Answer:</strong> ${q.options[q.correctAnswer]}</p>
+
+    <p>${q.explanation}</p>
+
+  </div>
+
+  `
+})
+
+let percent = Math.round((correctCount/questions.length)*100)
+
+document.getElementById("score").innerHTML =
+`Score: ${correctCount}/${questions.length} (${percent}%)`
+
+</script>
+
+</body>
+</html>
