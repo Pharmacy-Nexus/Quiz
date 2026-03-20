@@ -646,5 +646,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Blocking α1 receptors reduces vascular tone causing orthostatic hypotension."
+  },
+  {
+    "id": "q-1773979702171",
+    "subjectId": "pharmacology",
+    "topicId": "antidepressants",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "ىليىلابياىيفلي",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Hypnotic",
+      "Sedative",
+      "Norepinephrine",
+      "General anesthetic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ةابوةبغاءئوةغابئوةغفيثوة~’غ"
   }
 ]
