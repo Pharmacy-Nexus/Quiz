@@ -1,26 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Review</title>
+<title>Set Review</title>
 
 <style>
 body{
   background:#0f172a;
-  color:white;
-  font-family:Arial;
+  color:#e2e8f0;
+  font-family:'Inter', Arial;
   padding:40px;
+  max-width:900px;
+  margin:auto;
+}
+
+h1{
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+#score{
+  background:#1e293b;
+  padding:15px 20px;
+  border-radius:12px;
+  margin-bottom:20px;
+  font-size:18px;
+  font-weight:600;
+}
+
+.progress-bar{
+  height:8px;
+  background:#1e293b;
+  border-radius:10px;
+  overflow:hidden;
+  margin-bottom:25px;
+}
+
+.progress-fill{
+  height:100%;
+  background:#22c55e;
 }
 
 .card{
   background:#1e293b;
   padding:20px;
   margin-bottom:20px;
-  border-radius:12px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.05);
+  transition:0.2s;
 }
 
-.correct{color:#22c55e;}
-.wrong{color:#ef4444;}
+.card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.question-title{
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.status{
+  margin:10px 0;
+  font-weight:600;
+}
+
+.correct{
+  color:#22c55e;
+}
+
+.wrong{
+  color:#ef4444;
+}
+
+.answer-box{
+  background:#0f172a;
+  padding:10px 12px;
+  border-radius:8px;
+  margin-top:10px;
+  font-size:14px;
+}
+
+.explanation{
+  margin-top:10px;
+  font-size:14px;
+  line-height:1.6;
+  opacity:0.9;
+}
 </style>
 
 </head>
@@ -30,6 +96,11 @@ body{
 <h1>Set Review</h1>
 
 <div id="score"></div>
+
+<div class="progress-bar">
+  <div id="progressFill" class="progress-fill"></div>
+</div>
+
 <div id="container"></div>
 
 <script>
@@ -53,27 +124,37 @@ questions.forEach((q,i)=>{
 
   <div class="card">
 
-    <h3>Question ${i+1}</h3>
+    <div class="question-title">
+      Question ${i+1}
+    </div>
 
     <p>${q.question}</p>
 
-    <p class="${isCorrect ? 'correct':'wrong'}">
-      ${isCorrect ? 'Correct ✅' : 'Wrong ❌'}
-    </p>
+    <div class="status ${isCorrect ? 'correct':'wrong'}">
+      ${isCorrect ? '✔ Correct' : '✖ Wrong'}
+    </div>
 
-    <p><strong>Correct Answer:</strong> ${q.options[q.correctAnswer]}</p>
+    <div class="answer-box">
+      <strong>Correct Answer:</strong> ${q.options[q.correctAnswer]}
+    </div>
 
-    <p>${q.explanation}</p>
+    <div class="explanation">
+      ${q.explanation || ''}
+    </div>
 
   </div>
 
   `
 })
 
-let percent = Math.round((correctCount/questions.length)*100)
+let percent = questions.length
+  ? Math.round((correctCount/questions.length)*100)
+  : 0
 
 document.getElementById("score").innerHTML =
-`Score: ${correctCount}/${questions.length} (${percent}%)`
+`Score: ${correctCount}/${questions.length} — ${percent}%`
+
+document.getElementById("progressFill").style.width = percent + "%"
 
 </script>
 
