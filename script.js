@@ -147,19 +147,24 @@ function renderSubjectCard(subject) {
 
 function renderTopicCard(topic) {
   const qCount = appData.questions.filter((q) => q.topicId === topic.id).length;
+
   return `
     <article class="card topic-card">
       <h3>${topic.name}</h3>
+
       <div class="topic-meta">
-        <svg viewBox="0 0 24 24"><path d="M5 6.5A2.5 2.5 0 0 1 7.5 4H19v14.5a1.5 1.5 0 0 1-1.5 1.5H7.5A2.5 2.5 0 0 1 5 17.5v-11Zm0 0A2.5 2.5 0 0 0 7.5 9H19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>${qCount} Questions</span>
       </div>
-<div style="display:flex; gap:8px; flex-wrap:wrap;">
-  <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=1">Study 1</a>
-  <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=2">Study 2</a>
-  <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=3">Study 3</a>
-</div> 
-";
+
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=1">Study 1</a>
+        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=2">Study 2</a>
+        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=3">Study 3</a>
+      </div>
+
+    </article>
+  `;
+}
 }
 
 function activateHeroSearch() {
