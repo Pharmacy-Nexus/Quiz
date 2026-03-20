@@ -1,3 +1,4 @@
+byId('submitAnswerBtn')?.remove();
 const DATA_FILES = {
   subjects: 'data/subjects.json',
   topics: 'data/topics.json',
