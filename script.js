@@ -400,12 +400,29 @@ function renderQuizPage() {
 
   byId('submitAnswerBtn')?.addEventListener('click', applySubmission);
   byId('showExplanationBtn')?.addEventListener('click', () => explanationBox.classList.remove('hidden'));
-  byId('nextQuestionBtn')?.addEventListener('click', () => {
-    if (state.currentIndex < state.questions.length - 1) {
-      state.currentIndex += 1;
-      render();
-    }
-  });
+ byId('nextQuestionBtn')?.addEventListener('click', () => {
+
+  if (state.currentIndex < state.questions.length - 1) {
+    
+    state.currentIndex += 1;
+    render();
+
+  } else {
+
+    // ✅ وصلنا لنهاية الـ set
+
+    const reviewData = {
+      questions: state.questions,
+      attempts: appData.progress.attempts
+    };
+
+    localStorage.setItem("pn_review_data", JSON.stringify(reviewData));
+
+    window.location.href = "review.html";
+  }
+
+});
+  
   byId('prevQuestionBtn')?.addEventListener('click', () => {
     if (state.currentIndex > 0) {
       state.currentIndex -= 1;
