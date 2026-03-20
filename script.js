@@ -398,6 +398,12 @@ setTimeout(() => {
     if (state.selectedIndex === null) return;
     state.submitted = true;
     const correct = q.correctAnswer;
+    // ✅ sound
+if (state.selectedIndex === correct) {
+  correctSound.play();
+} else {
+  wrongSound.play();
+}
     qsa('.option-btn', optionsWrap).forEach((btn, idx) => {
       if (idx === correct) btn.classList.add('correct');
       if (idx === state.selectedIndex && idx !== correct) btn.classList.add('wrong');
