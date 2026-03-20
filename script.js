@@ -411,7 +411,22 @@ if (state.selectedIndex === correct) {
     explanationBox.classList.remove('hidden');
     updateProgress(q, state.selectedIndex, state.selectedIndex === correct, state.mode);
   };
+// ✅ auto next
+setTimeout(() => {
+  if (state.currentIndex < state.questions.length - 1) {
+    state.currentIndex++;
+    render();
+  } else {
+    // نهاية الـ set → review
+    const reviewData = {
+      questions: state.questions,
+      attempts: appData.progress.attempts
+    };
 
+    localStorage.setItem("pn_review_data", JSON.stringify(reviewData));
+    window.location.href = "review.html";
+  }
+}, 2000);
   byId('submitAnswerBtn')?.addEventListener('click', applySubmission);
   byId('showExplanationBtn')?.addEventListener('click', () => explanationBox.classList.remove('hidden'));
  byId('nextQuestionBtn')?.addEventListener('click', () => {
