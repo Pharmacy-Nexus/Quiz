@@ -174,6 +174,14 @@ document.getElementById("score").innerHTML =
 document.getElementById("progressFill").style.width = percent + "%"
   
 </script>
-
+function retrySet(){
+  const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}");
+  
+  if(data.url){
+    window.location.href = data.url;
+  } else {
+    alert("Error: original quiz not found");
+  }
+}
 </body>
 </html>
