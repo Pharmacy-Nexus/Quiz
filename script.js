@@ -423,11 +423,6 @@ setTimeout(() => {
       attempts: appData.progress.attempts
     };
     
-const reviewData = {
-  questions: state.questions,
-  attempts: appData.progress.attempts,
-  url: window.location.href // ✅ نحفظ اللينك
-};
     localStorage.setItem("pn_review_data", JSON.stringify(reviewData));
     window.location.href = "review.html";
   }
