@@ -367,7 +367,22 @@ function renderQuizPage() {
       </button>
     `).join('');
 
-  qsa('.option-btn', optionsWrap).forEach((btn) => {
+ qsa('.option-btn', optionsWrap).forEach((btn) => {
+  btn.addEventListener('click', () => {
+    if (state.submitted) return;
+
+    qsa('.option-btn', optionsWrap).forEach((item) =>
+      item.classList.remove('selected')
+    );
+
+    btn.classList.add('selected');
+
+    state.selectedIndex = Number(btn.dataset.optionIndex);
+
+    // ✅ AUTO SUBMIT
+    applySubmission();
+  });
+});
 
   const applySubmission = () => {
     const q = state.questions[state.currentIndex];
