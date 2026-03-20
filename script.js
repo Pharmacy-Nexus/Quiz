@@ -148,6 +148,16 @@ function renderSubjectCard(subject) {
 function renderTopicCard(topic) {
   const qCount = appData.questions.filter((q) => q.topicId === topic.id).length;
 
+  // ✅ عدد الـ sets (كل 30 سؤال)
+  const setsCount = Math.ceil(qCount / 30);
+
+  // ✅ إنشاء الأزرار بشكل ديناميك
+  const setsButtons = Array.from({ length: setsCount }, (_, i) => `
+    <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=${i + 1}">
+      Study ${i + 1}
+    </a>
+  `).join('');
+
   return `
     <article class="card topic-card">
       <h3>${topic.name}</h3>
@@ -157,9 +167,7 @@ function renderTopicCard(topic) {
       </div>
 
       <div style="display:flex; gap:8px; flex-wrap:wrap;">
-        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=1">Study 1</a>
-        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=2">Study 2</a>
-        <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=3">Study 3</a>
+        ${setsButtons}
       </div>
 
     </article>
