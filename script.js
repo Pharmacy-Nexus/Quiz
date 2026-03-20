@@ -383,6 +383,7 @@ function renderQuizPage() {
     applySubmission();
   });
 });
+    }
 
   const applySubmission = () => {
     const q = state.questions[state.currentIndex];
