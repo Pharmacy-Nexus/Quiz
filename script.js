@@ -159,6 +159,7 @@ function renderTopicCard(topic) {
   <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=2">Study 2</a>
   <a class="btn btn-primary" href="quiz.html?subject=${topic.subjectId}&topic=${topic.id}&mode=study&set=3">Study 3</a>
 </div> 
+";
 }
 
 function activateHeroSearch() {
