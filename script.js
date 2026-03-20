@@ -268,12 +268,7 @@ function createQuizState() {
       questions = session.questions.map((id) => appData.questions.find((q) => q.id === id)).filter(Boolean);
       title = 'Final Exam Session';
     }
-    // === Study Sets (30 questions) ===
-if (mode === 'study') {
-  const set = Number(search.get('set') || 1);
-  const start = (set - 1) * 30;
-  questions = questions.slice(start, start + 30);
-}
+  
   } else {
     const subjectId = search.get('subject');
     const topicId = search.get('topic');
@@ -283,6 +278,12 @@ if (mode === 'study') {
     title = topic?.name || subject?.name || 'Study Quiz';
   }
 
+  // ✅ Study Sets System (NEW - safe)
+if (mode === 'study') {
+  const set = Number(search.get('set') || 1);
+  const start = (set - 1) * 30;
+  questions = questions.slice(start, start + 30);
+}
   return {
     mode,
     title,
