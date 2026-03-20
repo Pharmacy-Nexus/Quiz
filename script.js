@@ -1138,6 +1138,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initializeData();
   pageRouter();
 });
+}
 function retrySet(){
   const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}");
   
