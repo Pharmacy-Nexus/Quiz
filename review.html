@@ -103,6 +103,21 @@ h1{
 
 <div id="container"></div>
 
+<!-- ✅ أزرار التحكم -->
+<div style="margin-top:30px; display:flex; gap:10px;">
+
+  <button onclick="location.reload()" 
+    style="padding:10px 15px; border:none; border-radius:8px; background:#22c55e; color:white; cursor:pointer;">
+    🔁 Retry Set
+  </button>
+
+  <a href="topics.html" 
+    style="padding:10px 15px; border-radius:8px; background:#3b82f6; color:white; text-decoration:none;">
+    ⬅ Back to Topics
+  </a>
+
+</div>
+
 <script>
 
 const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}")
@@ -156,24 +171,6 @@ document.getElementById("score").innerHTML =
 
 document.getElementById("progressFill").style.width = percent + "%"
   
-<div id="container"></div>
-
-<!-- ✅ أزرار التحكم -->
-<div style="margin-top:30px; display:flex; gap:10px;">
-
-  <button onclick="location.reload()" 
-    style="padding:10px 15px; border:none; border-radius:8px; background:#22c55e; color:white; cursor:pointer;">
-    🔁 Retry Set
-  </button>
-
-  <a href="topics.html" 
-    style="padding:10px 15px; border-radius:8px; background:#3b82f6; color:white; text-decoration:none;">
-    ⬅ Back to Topics
-  </a>
-
-</div>
-
-<script>
 </script>
 
 </body>
