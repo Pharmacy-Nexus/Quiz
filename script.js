@@ -1138,14 +1138,4 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initializeData();
   pageRouter();
 });
-}
-function retrySet(){
-  const data = JSON.parse(localStorage.getItem("pn_review_data") || "{}");
-  
-  if(data.url){
-    window.location.href = data.url;
-  } else {
-    alert("Error: original quiz not found");
-  }
-}
 
