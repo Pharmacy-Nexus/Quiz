@@ -10,23 +10,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-page="dashboard">
-<div id="loader-wrapper">
-    <div class="main-nexus-container">
-        <div class="nexus-gate">
-            <span class="gate-core">⚕️</span>
-            <div class="gate-ring"></div>
-        </div>
-
-        <div class="digital-snake">
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-            <div class="data-block"></div>
-        </div>
+<div class="blobs">
+	<div class="blob-center"></div>
+	<div class="blob"></div>
+	<div class="blob"></div>
+	<div class="blob"></div>
+	<div class="blob"></div>
+	<div class="blob"></div>
+	<div class="blob"></div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+      <feBlend in="SourceGraphic" in2="goo"></feBlend>
+  	</filter>
+  </defs>
+</svg>
     </div>
     <div class="brand-text">PHARMACY <span>NEXUS</span></div>
     <p class="status-text">Integrating Medical Knowledge...</p>
