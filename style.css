@@ -677,60 +677,128 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
+/* الخلفية ثابتة على الشاشة بالكامل */
 #loader-wrapper {
     position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: #0a0f1d; /* خلفية داكنة توحي بالذكاء الاصطناعي */
+    background: #050812; /* خلفية داكنة جداً عشان التوهج يبان */
     display: flex; flex-direction: column; justify-content: center; align-items: center;
     z-index: 9999;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-.digital-nexus {
+/* الحاوية الرئيسية - كبرنا حجمها */
+.main-nexus-container {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 250px; /* حجم كبير وواضح */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.center-icon {
+/* البوابة الرقمية في النص */
+.nexus-gate {
     position: absolute;
+    width: 100px; /* بوابة مركزية كبيرة */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gate-core {
+    font-size: 50px; /* أيقونة كبيرة */
+    filter: drop-shadow(0 0 15px #2ecc71);
+    z-index: 10;
+}
+
+.gate-ring {
+    position: absolute;
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #2ecc71;
+    border-bottom-color: #2ecc71;
+    animation: gate-pulse 2s infinite ease-in-out;
+}
+
+/* الثعبان الرقمي */
+.digital-snake {
+    position: absolute;
+    width: 100%; height: 100%;
+}
+
+/* مربعات البيانات - كبرنا الحجم وزودنا التوهج */
+.data-block {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #2ecc71;
+    box-shadow: 0 0 20px #2ecc71, 0 0 40px #2ecc71; /* توهج مزدوج قوي */
+    border-radius: 4px;
+    opacity: 0;
+    /* مسار دائري - البداية من البوابة */
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
-    filter: drop-shadow(0 0 10px #2ecc71);
+    animation: snake-orbit 3s infinite linear;
 }
 
-.pixel {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #2ecc71;
-    box-shadow: 0 0 15px #2ecc71; /* توهج رقمي */
-    border-radius: 2px;
-    animation: snake-run 2s infinite linear;
+/* توزيع مربعات البيانات (الـ 8 قطع) على المسار */
+.data-block:nth-child(1) { animation-delay: 0.0s; }
+.data-block:nth-child(2) { animation-delay: 0.2s; }
+.data-block:nth-child(3) { animation-delay: 0.4s; }
+.data-block:nth-child(4) { animation-delay: 0.6s; }
+.data-block:nth-child(5) { animation-delay: 0.8s; }
+.data-block:nth-child(6) { animation-delay: 1.0s; }
+.data-block:nth-child(7) { animation-delay: 1.2s; }
+.data-block:nth-child(8) { animation-delay: 1.4s; }
+
+/* حركة الثعبان في مسار دائري "مزدوج" يدخل ويخرج من النص */
+@keyframes snake-orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(0px);
+        opacity: 0;
+    }
+    10% { opacity: 1; } /* يظهر لما يخرج من البوابة */
+    40% {
+        transform: translate(-50%, -50%) rotate(180deg) translateX(110px); /* يوسع الدايرة */
+    }
+    60% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(110px);
+    }
+    90% { opacity: 1; }
+    100% {
+        transform: translate(-50%, -50%) rotate(720deg) translateX(0px); /* يرجع يختفي في البوابة */
+        opacity: 0;
+    }
 }
 
-/* توزيع القطع عشان يمشوا ورا بعض زي الثعبان */
-.pixel:nth-child(1) { animation-delay: 0s; }
-.pixel:nth-child(2) { animation-delay: 0.1s; }
-.pixel:nth-child(3) { animation-delay: 0.2s; }
-.pixel:nth-child(4) { animation-delay: 0.3s; }
-.pixel:nth-child(5) { animation-delay: 0.4s; }
-
-@keyframes snake-run {
-    0% { top: 0; left: 0; }
-    25% { top: 0; left: 100%; }
-    50% { top: 100%; left: 100%; }
-    75% { top: 100%; left: 0; }
-    100% { top: 0; left: 0; }
+/* نبض البوابة */
+@keyframes gate-pulse {
+    0%, 100% { transform: rotate(0deg) scale(1); opacity: 0.8; }
+    50% { transform: rotate(180deg) scale(1.1); opacity: 1; box-shadow: 0 0 30px #2ecc71; }
 }
 
-.brand-name {
-    margin-top: 40px;
+/* اسم البراند - أكبر وأوضح */
+.brand-text {
+    margin-top: 50px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 5px;
+    font-size: 32px; /* خط كبير */
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
-.brand-name span {
+.brand-text span {
     color: #2ecc71;
-    font-weight: bold;
+    text-shadow: 0 0 15px #2ecc71;
+}
+
+/* نص الحالة - أصغر ورقيق */
+.status-text {
+    margin-top: 15px;
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
