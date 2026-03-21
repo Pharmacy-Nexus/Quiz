@@ -677,10 +677,12 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
+/* ===== LOADER ===== */
+
 #loader{
   position:fixed;
   inset:0;
-  background:#0b1b34; /* نفس خلفية الموقع */
+  background:var(--navy);
   display:flex;
   align-items:center;
   justify-content:center;
@@ -689,39 +691,48 @@ img, svg { display: block; }
 
 .nexus-loader{
   position:relative;
-  width:100px;
-  height:100px;
+  width:110px;
+  height:110px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
 }
 
 .ring{
+  position:absolute;
   width:100%;
   height:100%;
-  border:3px solid rgba(255,255,255,0.1);
   border-radius:50%;
+  border:2px solid rgba(255,255,255,0.08);
 }
 
+/* Snake dot */
 .dot{
   position:absolute;
   width:12px;
   height:12px;
-  background:#22c55e; /* الأخضر بتاعك */
+  background:var(--green);
   border-radius:50%;
-  top:0;
-  left:50%;
-  transform:translateX(-50%);
+  box-shadow:0 0 12px var(--green);
   animation:snake 1.2s linear infinite;
-  box-shadow:0 0 10px #22c55e;
 }
 
+/* الحركة */
 @keyframes snake{
-  0%{ transform: rotate(0deg) translateX(50px) rotate(0deg); }
-  100%{ transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+  0%{
+    transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
 }
 
+/* النص */
 .loading-text{
-  margin-top:20px;
-  text-align:center;
-  font-size:14px;
-  color:#94a3b8;
+  position:absolute;
+  bottom:-30px;
+  font-size:13px;
+  color:var(--muted);
   letter-spacing:1px;
 }
