@@ -734,6 +734,6 @@ img, svg { display: block; }
   position:absolute;
   bottom:-30px;
   font-size:13px;
-  color:var(--muted);
+  color:var(--gold);
   letter-spacing:1px;
 }
