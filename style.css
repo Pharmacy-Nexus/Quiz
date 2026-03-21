@@ -677,66 +677,60 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
-/* ===== LOADER ===== */
-
-#loader{
-  position:fixed;
-  inset:0;
-  background:var(--navy);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  z-index:9999;
+#loader-wrapper {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: #0a0f1d; /* خلفية داكنة توحي بالذكاء الاصطناعي */
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    z-index: 9999;
 }
 
-.nexus-loader{
-  position:relative;
-  width:110px;
-  height:110px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
+.digital-nexus {
+    position: relative;
+    width: 80px;
+    height: 80px;
 }
 
-.ring{
-  position:absolute;
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  border:2px solid rgba(255,255,255,0.05);
-  box-shadow: inset 0 0 20px rgba(255,255,255,0.02);
+.center-icon {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    filter: drop-shadow(0 0 10px #2ecc71);
 }
 
-/* Snake dot */
-.dot{
-  position:absolute;
-  top:50%;
-  left:50%;
-  width:12px;
-  height:12px;
-  background:var(--green);
-  border-radius:50%;
-  box-shadow:0 0 12px var(--green);
-
-  transform-origin: center;
-  animation:snake 1.2s linear infinite;
-}
-/* الحركة */
-@keyframes snake{
-  0%{
-    transform: rotate(0deg) translateX(45px) rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg) translateX(45px) rotate(-360deg);
-  }
+.pixel {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #2ecc71;
+    box-shadow: 0 0 15px #2ecc71; /* توهج رقمي */
+    border-radius: 2px;
+    animation: snake-run 2s infinite linear;
 }
 
-/* النص */
-.loading-text{
-  position:absolute;
-  bottom:-30px;
-  font-size:13px;
-  color:var(--gold);
-  letter-spacing:1px;
+/* توزيع القطع عشان يمشوا ورا بعض زي الثعبان */
+.pixel:nth-child(1) { animation-delay: 0s; }
+.pixel:nth-child(2) { animation-delay: 0.1s; }
+.pixel:nth-child(3) { animation-delay: 0.2s; }
+.pixel:nth-child(4) { animation-delay: 0.3s; }
+.pixel:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes snake-run {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: 100%; }
+    50% { top: 100%; left: 100%; }
+    75% { top: 100%; left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+.brand-name {
+    margin-top: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+}
+
+.brand-name span {
+    color: #2ecc71;
+    font-weight: bold;
 }
