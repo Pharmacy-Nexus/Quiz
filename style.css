@@ -677,128 +677,156 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
-/* الخلفية ثابتة على الشاشة بالكامل */
-#loader-wrapper {
-    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: #050812; /* خلفية داكنة جداً عشان التوهج يبان */
-    display: flex; flex-direction: column; justify-content: center; align-items: center;
-    z-index: 9999;
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+.blobs {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 70px;
+  transform-style: preserve-3d;
 }
 
-/* الحاوية الرئيسية - كبرنا حجمها */
-.main-nexus-container {
-    position: relative;
-    width: 250px; /* حجم كبير وواضح */
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.blobs .blob-center {
+  transform-style: preserve-3d;
+  position: absolute;
+  background: #1d1d1d;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  transform-origin: left top;
+  transform: scale(0.9) translate(-50%, -50%);
+  animation: blob-grow_2 linear 3.4s infinite;
+  border-radius: 50%;
+  box-shadow: 0 -10px 40px -5px #1d1d1d;
 }
 
-/* البوابة الرقمية في النص */
-.nexus-gate {
-    position: absolute;
-    width: 100px; /* بوابة مركزية كبيرة */
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.blob {
+  position: absolute;
+  background: #1d1d1d;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: blobs_2 ease-out 3.4s infinite;
+  transform: scale(0.9) translate(-50%, -50%);
+  transform-origin: center top;
+  opacity: 0;
 }
 
-.gate-core {
-    font-size: 50px; /* أيقونة كبيرة */
-    filter: drop-shadow(0 0 15px #2ecc71);
-    z-index: 10;
+.blob:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
-.gate-ring {
-    position: absolute;
-    width: 100%; height: 100%;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #2ecc71;
-    border-bottom-color: #2ecc71;
-    animation: gate-pulse 2s infinite ease-in-out;
+.blob:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
-/* الثعبان الرقمي */
-.digital-snake {
-    position: absolute;
-    width: 100%; height: 100%;
+.blob:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
-/* مربعات البيانات - كبرنا الحجم وزودنا التوهج */
-.data-block {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    background: #2ecc71;
-    box-shadow: 0 0 20px #2ecc71, 0 0 40px #2ecc71; /* توهج مزدوج قوي */
-    border-radius: 4px;
+.blob:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.blob:nth-child(5) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes blobs_2 {
+  0% {
     opacity: 0;
-    /* مسار دائري - البداية من البوابة */
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    animation: snake-orbit 3s infinite linear;
+    transform: scale(0) translate(calc(-330px - 50%), -50%);
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  35%, 65% {
+    opacity: 1;
+    transform: scale(0.9) translate(-50%, -50%);
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(calc(330px - 50%), -50%);
+  }
 }
 
-/* توزيع مربعات البيانات (الـ 8 قطع) على المسار */
-.data-block:nth-child(1) { animation-delay: 0.0s; }
-.data-block:nth-child(2) { animation-delay: 0.2s; }
-.data-block:nth-child(3) { animation-delay: 0.4s; }
-.data-block:nth-child(4) { animation-delay: 0.6s; }
-.data-block:nth-child(5) { animation-delay: 0.8s; }
-.data-block:nth-child(6) { animation-delay: 1.0s; }
-.data-block:nth-child(7) { animation-delay: 1.2s; }
-.data-block:nth-child(8) { animation-delay: 1.4s; }
+@keyframes blob-grow_2 {
+  0%, 39% {
+    transform: scale(0) translate(-50%, -50%);
+  }
 
-/* حركة الثعبان في مسار دائري "مزدوج" يدخل ويخرج من النص */
-@keyframes snake-orbit {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg) translateX(0px);
-        opacity: 0;
-    }
-    10% { opacity: 1; } /* يظهر لما يخرج من البوابة */
-    40% {
-        transform: translate(-50%, -50%) rotate(180deg) translateX(110px); /* يوسع الدايرة */
-    }
-    60% {
-        transform: translate(-50%, -50%) rotate(360deg) translateX(110px);
-    }
-    90% { opacity: 1; }
-    100% {
-        transform: translate(-50%, -50%) rotate(720deg) translateX(0px); /* يرجع يختفي في البوابة */
-        opacity: 0;
-    }
-}
+  40%, 42% {
+    transform: scale(1, 0.9) translate(-50%, -50%);
+  }
 
-/* نبض البوابة */
-@keyframes gate-pulse {
-    0%, 100% { transform: rotate(0deg) scale(1); opacity: 0.8; }
-    50% { transform: rotate(180deg) scale(1.1); opacity: 1; box-shadow: 0 0 30px #2ecc71; }
-}
+  43%, 44% {
+    transform: scale(1.2, 1.1) translate(-50%, -50%);
+  }
 
-/* اسم البراند - أكبر وأوضح */
-.brand-text {
-    margin-top: 50px;
-    color: white;
-    font-size: 32px; /* خط كبير */
-    font-weight: bold;
-    letter-spacing: 6px;
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
-}
+  45%, 46% {
+    transform: scale(1.3, 1.2) translate(-50%, -50%);
+  }
 
-.brand-text span {
-    color: #2ecc71;
-    text-shadow: 0 0 15px #2ecc71;
-}
+  47%, 48% {
+    transform: scale(1.4, 1.3) translate(-50%, -50%);
+  }
 
-/* نص الحالة - أصغر ورقيق */
-.status-text {
-    margin-top: 15px;
-    color: rgba(255,255,255,0.7);
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 300;
+  52% {
+    transform: scale(1.5, 1.4) translate(-50%, -50%);
+  }
+
+  54% {
+    transform: scale(1.7, 1.6) translate(-50%, -50%);
+  }
+
+  58% {
+    transform: scale(1.8, 1.7) translate(-50%, -50%);
+  }
+
+  68%, 70% {
+    transform: scale(1.7, 1.5) translate(-50%, -50%);
+  }
+
+  78% {
+    transform: scale(1.6, 1.4) translate(-50%, -50%);
+  }
+
+  80%, 81% {
+    transform: scale(1.5, 1.4) translate(-50%, -50%);
+  }
+
+  82%, 83% {
+    transform: scale(1.4, 1.3) translate(-50%, -50%);
+  }
+
+  84%, 85% {
+    transform: scale(1.3, 1.2) translate(-50%, -50%);
+  }
+
+  86%, 87% {
+    transform: scale(1.2, 1.1) translate(-50%, -50%);
+  }
+
+  90%, 91% {
+    transform: scale(1, 0.9) translate(-50%, -50%);
+  }
+
+  92%, 100% {
+    transform: scale(0) translate(-50%, -50%);
+  }
 }
