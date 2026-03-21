@@ -677,4 +677,77 @@ img, svg { display: block; }
   .site-header .nav-link { width: 100%; text-align: center; }
   .quiz-actions-row, .pager-row { flex-direction: column; }
 }
+#loader-wrapper {
+    position: fixed;
+    inset: 0;
+    background: var(--navy);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
 
+/* الكونتينر */
+.digital-nexus {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+/* الأيقونة */
+.center-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    filter: drop-shadow(0 0 10px var(--green));
+}
+
+/* المسار الدائري */
+.snake {
+    position: absolute;
+    inset: 0;
+    animation: spin 2s linear infinite;
+}
+
+/* الجسم */
+.pixel {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--green);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--green);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* تأخير لكل نقطة */
+.pixel:nth-child(1) { opacity: 1; }
+.pixel:nth-child(2) { opacity: 0.7; }
+.pixel:nth-child(3) { opacity: 0.5; }
+.pixel:nth-child(4) { opacity: 0.3; }
+.pixel:nth-child(5) { opacity: 0.2; }
+
+/* الحركة الدائرية */
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* النص */
+.brand-name {
+    margin-top: 40px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 3px;
+}
+
+.brand-name span {
+    color: var(--green);
+    font-weight: 600;
+}
