@@ -1055,19 +1055,21 @@ function initializeAdminInterface() {
       byId('option3Input').value.trim(),
       byId('option4Input').value.trim()
     ];
-    appData.questions.push({
-      id: `q-${Date.now()}`,
-      subjectId,
-      topicId,
-      type: byId('questionTypeInput').value,
-      difficulty: byId('questionDifficultyInput').value,
-      question: byId('questionTextInput').value.trim(),
-      caseScenario: byId('questionCaseInput').value.trim(),
-      imageUrl: byId('questionImageInput')?.value.trim() || '',
-      options,
-      correctAnswer: Number(byId('correctAnswerInput').value),
-      explanation: byId('questionExplanationInput').value.trim()
-    });
+const question = {
+  id: `q-${Date.now()}`,
+  subjectId,
+  topicId,
+  type: byId('questionTypeInput').value,
+  difficulty: byId('questionDifficultyInput').value,
+  question: byId('questionTextInput').value.trim(),
+  caseScenario: byId('questionCaseInput').value.trim(),
+  imageUrl: byId('questionImageInput')?.value.trim() || '',
+  options,
+  correctAnswer: Number(byId('correctAnswerInput').value),
+  explanation: byId('questionExplanationInput').value.trim()
+};
+
+await saveQuestionGlobal(question);
     e.target.reset();
     byId('questionForm').classList.add('hidden');
     await persistAndMaybeSync('Admin added a question');
