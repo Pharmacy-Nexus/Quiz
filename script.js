@@ -108,11 +108,14 @@ async function initializeData() {
   appData = {
     subjects: load(STORAGE_KEYS.subjects, seedSubjects),
     topics: load(STORAGE_KEYS.topics, seedTopics),
-    questions: load(STORAGE_KEYS.questions, seedQuestions),
+    questions: [],
     quizsets: load(STORAGE_KEYS.quizsets, seedQuizsets),
     settings: load(STORAGE_KEYS.settings, defaultSettings),
     progress: load(STORAGE_KEYS.progress, defaultProgress)
   };
+  (async () => {
+  appData.questions = await loadAllQuestions();
+})();
 
   return appData;
 }
