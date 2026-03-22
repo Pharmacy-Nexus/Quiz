@@ -1154,3 +1154,31 @@ async function loadAllQuestions(){
 
   return all;
 }
+async function saveQuestionGlobal(question){
+
+  const meta = await getFileFromGitHub("data/questions_meta.json");
+
+  let parts = meta.data.parts;
+
+  let lastFile = await getFileFromGitHub(`data/questions_${parts}.json`);
+
+  let questions = lastFile.data || [];
+
+  if(questions.length >= 2000){
+    parts++;
+    questions = [];
+    await uploadToGitHub(`data/questions_${parts}.json`, questions);
+  }
+
+  questions.push(question);
+
+  await uploadToGitHub(
+    `data/questions_${parts}.json`,
+    questions,
+    lastFile.sha
+  );
+
+  meta.data.parts = parts;
+
+  await uploadToGitHub("data/questions_meta.json", meta.data, meta.sha);
+}
