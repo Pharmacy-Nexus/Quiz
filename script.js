@@ -1133,4 +1133,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initializeData();
   pageRouter();
 });
+// 🔥 تحميل كل الأسئلة من كل الملفات
+async function loadAllQuestions(){
 
+  const metaRes = await fetch("data/questions_meta.json");
+  const meta = await metaRes.json();
+
+  let all = [];
+
+  for(let i=1; i<=meta.parts; i++){
+    const res = await fetch(`data/questions_${i}.json`);
+    const part = await res.json();
+    all.push(...part);
+  }
+
+  return all;
+}
