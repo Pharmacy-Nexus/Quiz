@@ -936,7 +936,10 @@ function initializeAdminInterface() {
     }
 
     const topicId = topicSelect?.value || '';
-    const questions = await loadAllQuestions();.filter((q) => (!subjectId || q.subjectId === subjectId) && (!topicId || q.topicId === topicId));
+const questions = appData.questions.filter((q) =>
+  (!subjectId || q.subjectId === subjectId) &&
+  (!topicId || q.topicId === topicId)
+);
     byId('adminQuestionsList').innerHTML = questions.length ? questions.map((q) => `
       <article class="stack-item">
         <div>
