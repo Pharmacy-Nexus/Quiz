@@ -1153,29 +1153,39 @@ async function loadAllQuestions(){
 }
 async function saveQuestionGlobal(question){
 
-  const meta = await getFileFromGitHub("data/questions_meta.json");
+  const metaFile = await githubGetFile("data/questions_meta.json");
 
-  let parts = meta.data.parts;
+  let meta = metaFile?.content
+    ? JSON.parse(atob(metaFile.content))
+    : { parts: 1 };
 
-  let lastFile = await getFileFromGitHub(`data/questions_${parts}.json`);
+  let parts = meta.parts;
 
-  let questions = lastFile.data || [];
+  const lastFile = await githubGetFile(`data/questions_${parts}.json`);
+
+  let questions = lastFile?.content
+    ? JSON.parse(atob(lastFile.content))
+    : [];
 
   if(questions.length >= 2000){
     parts++;
     questions = [];
-    await uploadToGitHub(`data/questions_${parts}.json`, questions);
+    await githubPutFile(`data/questions_${parts}.json`, questions, "Create new part");
   }
 
   questions.push(question);
 
-  await uploadToGitHub(
+  await githubPutFile(
     `data/questions_${parts}.json`,
     questions,
-    lastFile.sha
+    "Add question"
   );
 
-  meta.data.parts = parts;
+  meta.parts = parts;
 
-  await uploadToGitHub("data/questions_meta.json", meta.data, meta.sha);
+  await githubPutFile(
+    "data/questions_meta.json",
+    meta,
+    "Update meta"
+  );
 }
