@@ -735,7 +735,7 @@ async function githubPutFile(path, data, message, retry = true, forcedSha = null
   };
  async function githubPutFile(path, data, message, retry = true, forcedSha = null)
 
-  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, 
+  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}  
     method: 'PUT',
     headers: {
       'Accept': 'application/vnd.github+json',
