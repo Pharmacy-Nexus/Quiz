@@ -1,17 +1,1 @@
-[
-  {
-    "id": "sedatives-and-hypnotic",
-    "name": "sedatives & hypnotic",
-    "subjectId": "pharmacology"
-  },
-  {
-    "id": "antidepressants",
-    "name": "Antidepressants",
-    "subjectId": "pharmacology"
-  },
-  {
-    "id": "antipsychotics",
-    "name": "Antipsychotics",
-    "subjectId": "pharmacology"
-  }
-]
+[]
