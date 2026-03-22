@@ -725,7 +725,7 @@ async function githubGetFile(path) {
   return response.json();
 }
 
-async function githubPutFile(path, data, message, retry = true) {
+async function githubPutFile(path, data, message, retry = true, forcedSha = null) {
   const { owner, repo, branch, token } = appData.settings;
   const existing = await githubGetFile(path);
   const body = {
@@ -733,7 +733,7 @@ async function githubPutFile(path, data, message, retry = true) {
     branch,
     content: encodeBase64Unicode(JSON.stringify(data, null, 2))
   };
-  if (existing?.sha) body.sha = existing.sha;
+ async function githubPutFile(path, data, message, retry = true, forcedSha = null)
 
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
     method: 'PUT',
@@ -746,8 +746,18 @@ async function githubPutFile(path, data, message, retry = true) {
   });
 
   if (response.status === 409 && retry) {
-    return githubPutFile(path, data, message, false);
-  }
+  console.log("Retrying with fresh SHA...");
+
+  const fresh = await githubGetFile(path);
+
+  return githubPutFile(
+    path,
+    data,
+    message,
+    false,
+    fresh?.sha // 👈 نبعت SHA الجديد
+  );
+}
 
   if (!response.ok) {
     const payload = await response.text();
