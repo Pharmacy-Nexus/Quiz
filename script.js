@@ -1072,7 +1072,6 @@ const question = {
 await saveQuestionGlobal(question);
     e.target.reset();
     byId('questionForm').classList.add('hidden');
-    await persistAndMaybeSync('Admin added a question');
     refreshAllAdminLists();
   });
 
