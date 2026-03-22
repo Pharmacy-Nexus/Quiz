@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "q-1774215326066",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "AAAAAA",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "Serotonin",
+      "Mood",
+      "Norepinephrine",
+      "NRIs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FGGDVFFVDFVDV"
+  }
+]
