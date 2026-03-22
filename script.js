@@ -106,16 +106,13 @@ async function initializeData() {
   if (!localStorage.getItem(STORAGE_KEYS.progress)) save(STORAGE_KEYS.progress, defaultProgress);
 
   appData = {
-    subjects: load(STORAGE_KEYS.subjects, seedSubjects),
-    topics: load(STORAGE_KEYS.topics, seedTopics),
-    questions: [],
-    quizsets: load(STORAGE_KEYS.quizsets, seedQuizsets),
-    settings: load(STORAGE_KEYS.settings, defaultSettings),
-    progress: load(STORAGE_KEYS.progress, defaultProgress)
-  };
-  (async () => {
-  appData.questions = await loadAllQuestions();
-})();
+  subjects: load(STORAGE_KEYS.subjects, seedSubjects),
+  topics: load(STORAGE_KEYS.topics, seedTopics),
+  questions: await loadAllQuestions(), // ✅ الصح
+  quizsets: load(STORAGE_KEYS.quizsets, seedQuizsets),
+  settings: load(STORAGE_KEYS.settings, defaultSettings),
+  progress: load(STORAGE_KEYS.progress, defaultProgress)
+};
 
   return appData;
 }
