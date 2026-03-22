@@ -16,5 +16,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "FGGDVFFVDFVDV"
+  },
+  {
+    "id": "q-1774215966292",
+    "subjectId": "pharmacology",
+    "topicId": "sedatives-and-hypnotic",
+    "type": "Standard MCQ",
+    "difficulty": "medium",
+    "question": "AXCSCXS",
+    "caseScenario": "",
+    "imageUrl": "",
+    "options": [
+      "XWSXWSX",
+      "WSXWSX",
+      "XWSXW",
+      "WSXWSX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DS CDX C"
   }
 ]
