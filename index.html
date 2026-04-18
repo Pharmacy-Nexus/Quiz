@@ -1147,6 +1147,13 @@ tailwind.config = {
 <!-- ===================== PAGE: FINAL EXAM ===================== -->
 <div id="page-finalexam" class="page fade-in">
   <div class="max-w-7xl mx-auto px-6 md:px-10 py-10">
+    <section class="mb-6 rounded-[2rem] border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-emerald-100/70 p-6 md:p-8 ambient-shadow">
+      <div class="max-w-4xl">
+        <span class="inline-flex items-center gap-2 rounded-full bg-emerald-600 text-white px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em] mb-4">Adaptive Exam Builder</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-primary mb-3" style="letter-spacing:-0.02em">Train the way real exam pressure feels — but with smarter control.</h2>
+        <p class="text-base md:text-lg text-on-surface-variant leading-relaxed">Build broad mixed exams or focused topic-based tests in seconds, then turn every attempt into a clearer dashboard, sharper weak-area recovery, and stronger final performance.</p>
+      </div>
+    </section>
     <div class="bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow border border-outline-variant/20">
       <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-primary mb-3" style="letter-spacing:-0.03em">Build Your Exam</h1>
       <p class="text-lg text-on-surface-variant leading-relaxed mb-8">Choose mode, difficulty, pool, and exam size before starting.</p>
@@ -1156,7 +1163,7 @@ tailwind.config = {
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-sm font-medium text-on-surface-variant mb-2">Exam mode</label>
-              <select id="exam-mode-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20">
+              <select id="exam-mode-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:ring-2 transition-colors" data-mode-theme="true">
                 <option value="multiple">Multiple Subjects</option>
                 <option value="single_topics">Single Subject + Selected Topics</option>
               </select>
@@ -1190,6 +1197,7 @@ tailwind.config = {
           </div>
 
           <div id="exam-multiple-subjects-panel" class="space-y-5">
+            <div id="exam-mode-badge" class="inline-flex items-center gap-2 rounded-full bg-tertiary-fixed/35 text-on-tertiary-fixed px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em]">Mode Accent</div>
             <div>
               <label class="block text-sm font-medium text-on-surface-variant mb-2">Subjects</label>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1226,7 +1234,16 @@ tailwind.config = {
               <select id="exam-topic-subject-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20"></select>
             </div>
             <div>
-              <label class="block text-sm font-medium text-on-surface-variant mb-3">Topics</label>
+              <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3 mb-3">
+                <div>
+                  <label class="block text-sm font-medium text-on-surface-variant mb-2">Topics</label>
+                  <p class="text-xs text-on-surface-variant">Search inside the selected subject before choosing topics.</p>
+                </div>
+                <div class="w-full md:w-[22rem] relative">
+                  <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">search</span>
+                  <input id="exam-topic-search" type="text" placeholder="Search topics…" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl pl-12 pr-4 py-4 text-primary text-base font-medium focus:outline-none focus:ring-2 transition-colors" />
+                </div>
+              </div>
               <div id="exam-topics-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
             </div>
           </div>
