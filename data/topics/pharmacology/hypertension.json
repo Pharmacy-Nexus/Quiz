@@ -2,6 +2,97 @@
   "subjectId": "pharmacology",
   "topicId": "hypertension",
   "topicName": "hypertension",
-  "updatedAt": "2026-04-18T20:02:53.319Z",
-  "questions": []
+  "updatedAt": "2026-04-18T20:47:43.507Z",
+  "questions": [
+    {
+      "id": "pharmacology-hypertension-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following side effects is most commonly associated with ACE inhibitors due to bradykinin accumulation?",
+      "options": [
+        "Peripheral edema",
+        "Dry cough",
+        "Hypokalemia",
+        "Tachycardia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ACE inhibitors prevent the breakdown of bradykinin, which can lead to a persistent dry cough in some patients.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-hypertension-002",
+      "type": "true_false",
+      "difficulty": "easy",
+      "questionText": "Spironolactone is classified as a potassium-sparing diuretic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. Spironolactone acts as an aldosterone antagonist, promoting sodium excretion while retaining potassium.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-hypertension-003",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "What is the primary mechanism of action of Benzodiazepines?",
+      "options": [
+        "Increasing the duration of chloride channel opening",
+        "Directly opening chloride channels without GABA",
+        "Increasing the frequency of chloride channel opening",
+        "Inhibiting GABA-transaminase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzodiazepines enhance the effect of GABA by increasing the frequency of chloride channel opening, unlike barbiturates which increase the duration.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-hypertension-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "questionText": "Tetracyclines are safe for use during pregnancy and for children under 8 years old.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "False. Tetracyclines can cause permanent tooth discoloration and affect bone growth in fetuses and young children.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-hypertension-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication is the drug of choice for treating a patient with an acute attack of gout?",
+      "options": [
+        "Allopurinol",
+        "NSAIDs or Colchicine",
+        "Probenecid",
+        "Febuxostat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NSAIDs or Colchicine are used for acute attacks, while Allopurinol is used for long-term prevention (chronic management).",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-hypertension-006",
+      "type": "true_false",
+      "difficulty": "hard",
+      "questionText": "Proton Pump Inhibitors (PPIs) should ideally be taken 30-60 minutes before the first meal of the day.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. PPIs work best when the proton pumps are most active, which occurs after a period of fasting (like breakfast).",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
