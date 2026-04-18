@@ -1189,7 +1189,7 @@ function applyExamModeTheme() {
   }
   const poolCard = document.getElementById('exam-pool-title')?.parentElement;
   if (poolCard) {
-    poolCard.classList.remove('bg-secondary-container/20','bg-emerald-50/80');
+    poolCard.classList.remove('bg-secondary-container/20','bg-primary-container/10');
     poolCard.classList.add(theme.poolCard);
   }
 }
@@ -1208,13 +1208,13 @@ function updateExamScopeButtons() {
     btn.classList.toggle('bg-surface-container-low', !active);
     btn.classList.toggle('bg-secondary-container/10', active && appState.examBuilder.mode !== 'single_topics');
     btn.classList.toggle('border-tertiary/30', active && appState.examBuilder.mode !== 'single_topics');
-    btn.classList.toggle('bg-emerald-50', active && appState.examBuilder.mode === 'single_topics');
-    btn.classList.toggle('border-emerald-300', active && appState.examBuilder.mode === 'single_topics');
+    btn.classList.toggle('bg-primary-container/10', active && appState.examBuilder.mode === 'single_topics');
+    btn.classList.toggle('border-secondary/35', active && appState.examBuilder.mode === 'single_topics');
     btn.querySelector('span')?.classList.toggle('border-outline', !active);
     btn.querySelector('span')?.classList.toggle('border-secondary', active && appState.examBuilder.mode !== 'single_topics');
-    btn.querySelector('span')?.classList.toggle('border-emerald-600', active && appState.examBuilder.mode === 'single_topics');
+    btn.querySelector('span')?.classList.toggle('border-secondary', active && appState.examBuilder.mode === 'single_topics');
     const dot = btn.querySelector('span span');
-    if (dot) dot.className = `w-2 h-2 rounded-full ${active ? (appState.examBuilder.mode === 'single_topics' ? 'bg-emerald-600' : 'bg-secondary') : 'bg-transparent'}`;
+    if (dot) dot.className = `w-2 h-2 rounded-full ${active ? 'bg-secondary' : 'bg-transparent'}`;
   });
 }
 
@@ -1232,7 +1232,7 @@ function renderExamTopicsGrid() {
     const id = topic.id || slugify(topic.name);
     const checked = eb.selectedTopicIds.includes(id);
     const count = getTopicQuestionCountByDifficulty(topic, eb.difficulty || 'all');
-    return `<label class="rounded-[1.75rem] border ${checked ? (isGreen ? 'bg-emerald-50 border-emerald-300' : 'bg-secondary-container/10 border-tertiary/30') : 'border-outline-variant/20 bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
+    return `<label class="rounded-[1.75rem] border ${checked ? (isGreen ? 'bg-primary-container/10 border-secondary/35' : 'bg-secondary-container/10 border-tertiary/30') : 'border-outline-variant/20 bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
   }).join('') || `<div class="text-on-surface-variant text-sm rounded-[1.5rem] border border-dashed border-outline-variant/30 bg-surface-container-low px-5 py-6">${searchTerm ? 'No topics matched your search in this subject.' : 'No topics available for this subject yet.'}</div>`;
 }
 
@@ -1248,10 +1248,10 @@ function renderExamFlagButtons() {
     if (!el) return;
     const active = !!flags[key];
     el.classList.toggle('bg-secondary-container/10', active && appState.examBuilder.mode !== 'single_topics');
-    el.classList.toggle('bg-emerald-50', active && appState.examBuilder.mode === 'single_topics');
+    el.classList.toggle('bg-primary-container/10', active && appState.examBuilder.mode === 'single_topics');
     el.classList.toggle('bg-surface-container-low', !active);
     el.classList.toggle('border-tertiary/30', active && appState.examBuilder.mode !== 'single_topics');
-    el.classList.toggle('border-emerald-300', active && appState.examBuilder.mode === 'single_topics');
+    el.classList.toggle('border-secondary/35', active && appState.examBuilder.mode === 'single_topics');
   });
 }
 
