@@ -1146,123 +1146,125 @@ tailwind.config = {
 
 <!-- ===================== PAGE: FINAL EXAM ===================== -->
 <div id="page-finalexam" class="page fade-in">
-  <!-- Hero -->
-  <section class="bg-gradient-to-br from-primary to-primary-container text-on-primary relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-1/2 h-full bg-white/5 backdrop-blur-2xl rounded-l-full mix-blend-overlay pointer-events-none"></div>
-    <div class="max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-16 relative z-10">
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.02em">Final Exam Builder</h1>
-      <p class="text-lg text-primary-fixed-dim leading-relaxed mb-6 max-w-2xl">Simulate real exam pressure with a timed, mixed-subject assessment. Configure your exam, then begin when ready.</p>
-      <div class="flex flex-wrap items-center gap-4">
-        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2.5 rounded-xl border border-white/20">
-          <span class="material-symbols-outlined text-tertiary-fixed-dim text-sm" style="font-variation-settings:'FILL' 1">timer</span>
-          <span class="font-bold text-sm uppercase tracking-wider">Timed Mode</span>
-        </div>
-        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2.5 rounded-xl border border-white/20">
-          <span class="material-symbols-outlined text-tertiary-fixed-dim text-sm" style="font-variation-settings:'FILL' 1">assignment</span>
-          <span class="font-bold text-sm uppercase tracking-wider">50 Questions</span>
-        </div>
-        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2.5 rounded-xl border border-white/20">
-          <span class="material-symbols-outlined text-tertiary-fixed-dim text-sm" style="font-variation-settings:'FILL' 1">lock</span>
-          <span class="font-bold text-sm uppercase tracking-wider">Hidden Answers</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Config + Exam Interface -->
-  <div class="max-w-6xl mx-auto px-6 md:px-12 py-10">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-      <!-- Config Form -->
-      <div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 ambient-shadow">
-        <h2 class="text-xl font-bold text-primary mb-6 tracking-tight">Configure Your Exam</h2>
-        <div class="space-y-6">
-          <!-- Subject Selection -->
-          <div>
-            <label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3">Subject</label>
-            <div class="flex flex-wrap gap-2">
-              <button class="px-4 py-2 bg-primary text-on-primary rounded-lg text-sm font-bold hover:opacity-90 transition-opacity">All Subjects</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15" onclick="navigateTo('study')">Pharmacology Only</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">Pharmaceutics Only</button>
+  <div class="max-w-7xl mx-auto px-6 md:px-10 py-10">
+    <div class="bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow border border-outline-variant/20">
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-primary mb-3" style="letter-spacing:-0.03em">Build Your Exam</h1>
+      <p class="text-lg text-on-surface-variant leading-relaxed mb-8">Choose mode, difficulty, pool, and exam size before starting.</p>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <div class="xl:col-span-8 space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Exam mode</label>
+              <select id="exam-mode-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20">
+                <option value="multiple">Multiple Subjects</option>
+                <option value="single_topics">Single Subject + Selected Topics</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Difficulty</label>
+              <select id="exam-difficulty-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20">
+                <option value="all">All difficulties</option>
+                <option value="easy">Easy only</option>
+                <option value="medium">Medium only</option>
+                <option value="hard">Hard only</option>
+              </select>
             </div>
           </div>
-          <!-- Number of Questions -->
-          <div>
-            <label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3">Number of Questions</label>
-            <div class="flex gap-3">
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">25</button>
-              <button class="px-4 py-2 bg-primary text-on-primary rounded-lg text-sm font-bold">50</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">75</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">100</button>
+
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-start">
+            <div class="md:col-span-4">
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Number of questions</label>
+              <input id="exam-question-count" type="number" min="5" max="100" step="5" value="20" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20"/>
+            </div>
+            <div class="md:col-span-4">
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Time limit (minutes)</label>
+              <input id="exam-time-limit" type="number" min="5" max="300" step="5" value="30" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20"/>
+            </div>
+            <div class="md:col-span-4">
+              <div class="bg-secondary-container/20 border border-outline-variant/20 rounded-[1.75rem] p-5 h-full">
+                <p class="text-2xl font-extrabold text-primary mb-2" id="exam-pool-title">Available pool: 0 questions</p>
+                <p class="text-on-surface-variant text-sm leading-relaxed" id="exam-pool-subtitle">You will get 20 questions with about 90 sec/question based on your current time limit.</p>
+              </div>
             </div>
           </div>
-          <!-- Difficulty -->
-          <div>
-            <label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3">Difficulty</label>
-            <div class="flex gap-3">
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">Easy</button>
-              <button class="px-4 py-2 bg-primary text-on-primary rounded-lg text-sm font-bold">Mixed</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold hover:bg-surface-container transition-colors border border-outline-variant/15">Hard</button>
+
+          <div id="exam-multiple-subjects-panel" class="space-y-5">
+            <div>
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Subjects</label>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <button type="button" id="exam-scope-all" class="exam-scope-btn text-left rounded-[1.75rem] border px-5 py-5 transition-all bg-secondary-container/10 border-outline-variant/20">
+                  <div class="flex items-start gap-3">
+                    <span class="mt-1 inline-flex w-4 h-4 rounded-full border-2 border-secondary items-center justify-center"><span class="w-2 h-2 rounded-full bg-secondary"></span></span>
+                    <div>
+                      <div class="font-extrabold text-primary text-sm md:text-base">All subjects</div>
+                      <div class="text-on-surface-variant text-sm">Pull questions from the whole available bank.</div>
+                    </div>
+                  </div>
+                </button>
+                <button type="button" id="exam-scope-single" class="exam-scope-btn text-left rounded-[1.75rem] border px-5 py-5 transition-all bg-surface-container-low border-outline-variant/20">
+                  <div class="flex items-start gap-3">
+                    <span class="mt-1 inline-flex w-4 h-4 rounded-full border-2 border-outline items-center justify-center"><span class="w-2 h-2 rounded-full bg-transparent"></span></span>
+                    <div>
+                      <div class="font-extrabold text-primary text-sm md:text-base">One subject only</div>
+                      <div class="text-on-surface-variant text-sm">Build a focused final exam from one subject.</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <div id="exam-subject-picker-wrap">
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Subject</label>
+              <select id="exam-subject-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20"></select>
             </div>
           </div>
-          <!-- Time Limit -->
-          <div>
-            <label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3">Time Limit</label>
-            <div class="flex gap-3 flex-wrap">
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold border border-outline-variant/15">60 min</button>
-              <button class="px-4 py-2 bg-primary text-on-primary rounded-lg text-sm font-bold">90 min</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold border border-outline-variant/15">120 min</button>
-              <button class="px-4 py-2 bg-surface-container-low text-primary rounded-lg text-sm font-bold border border-outline-variant/15">No Limit</button>
+
+          <div id="exam-topic-mode-panel" class="space-y-5 hidden">
+            <div>
+              <label class="block text-sm font-medium text-on-surface-variant mb-2">Subject</label>
+              <select id="exam-topic-subject-select" class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-5 py-4 text-primary text-base font-medium focus:outline-none focus:border-tertiary focus:ring-2 focus:ring-tertiary/20"></select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-on-surface-variant mb-3">Topics</label>
+              <div id="exam-topics-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
             </div>
           </div>
-          <!-- Toggles -->
-          <div class="space-y-3 pt-2">
-            <label class="flex items-center justify-between p-4 bg-surface-container-low rounded-xl cursor-pointer hover:bg-surface-container transition-colors">
-              <span class="font-medium text-sm text-primary">Hide answers until submission</span>
-              <div class="w-10 h-6 bg-primary rounded-full relative cursor-pointer flex-shrink-0">
-                <div class="w-4 h-4 bg-on-primary rounded-full absolute right-1 top-1"></div>
-              </div>
-            </label>
-            <label class="flex items-center justify-between p-4 bg-surface-container-low rounded-xl cursor-pointer hover:bg-surface-container transition-colors">
-              <span class="font-medium text-sm text-primary">Detailed review after finishing</span>
-              <div class="w-10 h-6 bg-primary rounded-full relative cursor-pointer flex-shrink-0">
-                <div class="w-4 h-4 bg-on-primary rounded-full absolute right-1 top-1"></div>
-              </div>
-            </label>
-            <label class="flex items-center justify-between p-4 bg-surface-container-low rounded-xl cursor-pointer hover:bg-surface-container transition-colors">
-              <span class="font-medium text-sm text-primary">Allow retry of wrong questions</span>
-              <div class="w-10 h-6 bg-surface-container-high rounded-full relative cursor-pointer flex-shrink-0">
-                <div class="w-4 h-4 bg-on-surface-variant rounded-full absolute left-1 top-1"></div>
-              </div>
-            </label>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+            <button type="button" id="exam-flag-timed" class="exam-flag-btn rounded-[1.35rem] border border-outline-variant/20 bg-secondary-container/10 text-primary px-4 py-4 text-left font-extrabold">Timed exam experience</button>
+            <button type="button" id="exam-flag-hidden" class="exam-flag-btn rounded-[1.35rem] border border-outline-variant/20 bg-secondary-container/10 text-primary px-4 py-4 text-left font-extrabold">Hidden answers until submission</button>
+            <button type="button" id="exam-flag-review" class="exam-flag-btn rounded-[1.35rem] border border-outline-variant/20 bg-secondary-container/10 text-primary px-4 py-4 text-left font-extrabold">Detailed review after finishing</button>
+            <button type="button" id="exam-flag-retry" class="exam-flag-btn rounded-[1.35rem] border border-outline-variant/20 bg-secondary-container/10 text-primary px-4 py-4 text-left font-extrabold">Retry wrong questions later</button>
           </div>
-          <!-- Launch -->
-          <button onclick="navigateTo('examlive')" class="w-full bg-tertiary text-on-tertiary py-4 rounded-xl font-extrabold text-sm tracking-widest uppercase hover:opacity-90 active:scale-[0.98] transition-all hover:shadow-[0_10px_20px_rgba(115,92,0,0.2)] mt-2">
-            Start Final Exam
-          </button>
+
+          <div class="flex flex-wrap gap-3 pt-2">
+            <button type="button" id="start-final-exam-btn" onclick="startConfiguredExam()" class="bg-primary text-on-primary px-7 py-4 rounded-2xl font-extrabold text-base hover:scale-[0.98] transition-transform shadow-[0_14px_28px_rgba(0,21,27,0.12)]">Start Final Exam</button>
+            <button type="button" id="refresh-final-preview-btn" onclick="refreshExamBuilderPreview()" class="bg-surface-container-lowest text-primary px-7 py-4 rounded-2xl font-extrabold text-base border border-outline-variant/25 hover:bg-surface-container-low transition-colors">Refresh Preview</button>
+          </div>
         </div>
-      </div>
-      <!-- Exam Snapshot -->
-      <div class="lg:col-span-5">
-        <div class="bg-surface-container-low rounded-xl p-7 ghost-border sticky top-24">
-          <h3 class="text-base font-bold text-primary mb-5">Exam Snapshot</h3>
-          <div class="space-y-4">
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Mode</span><span class="font-bold text-primary">Mixed Timed</span></div>
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Subject</span><span class="font-bold text-primary">All Subjects</span></div>
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Questions</span><span class="font-bold text-primary">50</span></div>
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Time Limit</span><span class="font-bold text-primary">90 minutes</span></div>
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Difficulty</span><span class="font-bold text-primary">Mixed</span></div>
-            <div class="flex justify-between text-sm"><span class="text-on-surface-variant font-medium">Answers</span><span class="font-bold text-primary">Hidden until submit</span></div>
-          </div>
-          <div class="mt-6 pt-5 border-t border-outline-variant/20">
-            <h4 class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3">Previous Exams</h4>
-            <div class="space-y-3">
-              <div class="flex justify-between items-center p-3 bg-surface-container-lowest rounded-lg ghost-border">
-                <div><p class="text-sm font-bold text-primary">Attempt #2</p><p class="text-xs text-on-surface-variant">50 questions • 90 min</p></div>
-                <span class="text-sm font-black text-tertiary">34%</span>
-              </div>
-              <div class="flex justify-between items-center p-3 bg-surface-container-lowest rounded-lg ghost-border">
-                <div><p class="text-sm font-bold text-primary">Attempt #1</p><p class="text-xs text-on-surface-variant">50 questions • 90 min</p></div>
-                <span class="text-sm font-black text-on-surface-variant">12%</span>
-              </div>
+
+        <div class="xl:col-span-4">
+          <div class="bg-surface-container-low rounded-[1.75rem] p-6 border border-outline-variant/20 sticky top-24 space-y-5">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">Live preview</p>
+              <h3 class="text-2xl font-extrabold text-primary tracking-tight" id="exam-preview-title">Mixed final exam</h3>
+              <p class="text-sm text-on-surface-variant mt-2 leading-relaxed" id="exam-preview-desc">Configure the builder to create a realistic final exam from your active bank.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-surface-container-lowest rounded-2xl p-4 border border-outline-variant/15"><p class="text-xs text-on-surface-variant mb-1">Mode</p><p class="text-sm font-extrabold text-primary" id="exam-preview-mode">Multiple Subjects</p></div>
+              <div class="bg-surface-container-lowest rounded-2xl p-4 border border-outline-variant/15"><p class="text-xs text-on-surface-variant mb-1">Difficulty</p><p class="text-sm font-extrabold text-primary" id="exam-preview-difficulty">All difficulties</p></div>
+              <div class="bg-surface-container-lowest rounded-2xl p-4 border border-outline-variant/15"><p class="text-xs text-on-surface-variant mb-1">Questions</p><p class="text-sm font-extrabold text-primary" id="exam-preview-questions">20</p></div>
+              <div class="bg-surface-container-lowest rounded-2xl p-4 border border-outline-variant/15"><p class="text-xs text-on-surface-variant mb-1">Time</p><p class="text-sm font-extrabold text-primary" id="exam-preview-time">30 min</p></div>
+            </div>
+            <div class="bg-surface-container-lowest rounded-2xl p-4 border border-outline-variant/15">
+              <p class="text-xs text-on-surface-variant mb-2">Selection summary</p>
+              <p class="text-sm font-extrabold text-primary mb-1" id="exam-preview-selection">All subjects</p>
+              <p class="text-sm text-on-surface-variant" id="exam-preview-topics">All available topics are eligible.</p>
+            </div>
+            <div class="bg-primary-container rounded-2xl p-5 text-primary-fixed">
+              <p class="text-xs uppercase tracking-widest text-primary-fixed-dim mb-2">Enabled rules</p>
+              <ul class="space-y-2 text-sm" id="exam-preview-flags"></ul>
             </div>
           </div>
         </div>
