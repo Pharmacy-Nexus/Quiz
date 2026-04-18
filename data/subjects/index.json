@@ -1,1 +1,38 @@
-
+{
+  "updatedAt": "2026-04-18T00:00:00Z",
+  "subjects": [
+    {
+      "id": "pharmacology",
+      "name": "Pharmacology",
+      "description": "Drug mechanisms, receptor interactions, and therapeutic effects.",
+      "icon": "science",
+      "theme": "primary",
+      "order": 1,
+      "topicsCount": 1,
+      "questionsCount": 2,
+      "file": "data/subjects/pharmacology.json"
+    },
+    {
+      "id": "pharmaceutics",
+      "name": "Pharmaceutics",
+      "description": "Formulation science, drug delivery, and compounding.",
+      "icon": "medication",
+      "theme": "surface",
+      "order": 2,
+      "topicsCount": 0,
+      "questionsCount": 0,
+      "file": "data/subjects/pharmaceutics.json"
+    },
+    {
+      "id": "clinical-pharmacy",
+      "name": "Clinical Pharmacy",
+      "description": "Applied patient care and optimizing medication therapy.",
+      "icon": "local_hospital",
+      "theme": "secondary",
+      "order": 3,
+      "topicsCount": 0,
+      "questionsCount": 0,
+      "file": "data/subjects/clinical-pharmacy.json"
+    }
+  ]
+}
