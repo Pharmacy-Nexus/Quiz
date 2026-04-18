@@ -20,7 +20,18 @@ const DEFAULT_STATE = {
   retryQuestionIds: [],
   attemptHistory: [],
   currentSessionId: null,
-  currentSessionLogged: false
+  currentSessionLogged: false,
+  examBuilder: {
+    mode: 'multiple',
+    scope: 'all',
+    difficulty: 'all',
+    questionCount: 20,
+    timeLimit: 30,
+    subjectId: null,
+    topicSubjectId: null,
+    selectedTopicIds: [],
+    flags: { timed: true, hidden: true, review: true, retry: true }
+  }
 };
 
 const PN_DATA = {
@@ -52,6 +63,7 @@ function navigateTo(pageId) {
   saveState();
   if (pageId === 'review') renderReviewPage();
   if (pageId === 'dashboard') renderDashboardPage();
+  if (pageId === 'finalexam') initFinalExamBuilder();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -1070,6 +1082,236 @@ async function selectTopic(subjectId, topicId) {
   navigateTo('sets');
 }
 window.selectTopic = selectTopic;
+
+
+function getTopicQuestionCountByDifficulty(topic, difficulty = 'all') {
+  if (!topic) return 0;
+  if (difficulty === 'easy') return Number(topic.difficultyBreakdown?.easy || 0);
+  if (difficulty === 'medium') return Number(topic.difficultyBreakdown?.medium || 0);
+  if (difficulty === 'hard') return Number(topic.difficultyBreakdown?.hard || 0);
+  return Number(topic.questionsCount || 0);
+}
+
+function ensureExamBuilderDefaults() {
+  appState.examBuilder = appState.examBuilder || {};
+  const eb = appState.examBuilder;
+  eb.mode = eb.mode || 'multiple';
+  eb.scope = eb.scope || 'all';
+  eb.difficulty = eb.difficulty || 'all';
+  eb.questionCount = Number(eb.questionCount || 20);
+  eb.timeLimit = Number(eb.timeLimit || 30);
+  eb.flags = { timed: true, hidden: true, review: true, retry: true, ...(eb.flags || {}) };
+
+  const subjects = PN_DATA.subjectsIndex?.subjects || [];
+  if (!eb.subjectId) eb.subjectId = subjects[0]?.id || null;
+  if (!eb.topicSubjectId) eb.topicSubjectId = eb.subjectId || subjects[0]?.id || null;
+
+  const topicSubject = PN_DATA.topicsMap.get(eb.topicSubjectId) || { topics: [] };
+  const allTopicIds = (topicSubject.topics || []).map(t => t.id || slugify(t.name));
+  if (!Array.isArray(eb.selectedTopicIds) || !eb.selectedTopicIds.length) eb.selectedTopicIds = allTopicIds;
+  else eb.selectedTopicIds = eb.selectedTopicIds.filter(id => allTopicIds.includes(id));
+  if (!eb.selectedTopicIds.length) eb.selectedTopicIds = allTopicIds;
+}
+
+function getExamPoolMeta() {
+  ensureExamBuilderDefaults();
+  const eb = appState.examBuilder;
+  let pool = 0;
+  let selectionTitle = 'All subjects';
+  let selectionTopics = 'All available topics are eligible.';
+
+  if (eb.mode === 'single_topics') {
+    const subject = PN_DATA.subjectsMap.get(eb.topicSubjectId);
+    const subjectData = PN_DATA.topicsMap.get(eb.topicSubjectId) || { topics: [] };
+    const selected = (subjectData.topics || []).filter(t => eb.selectedTopicIds.includes(t.id || slugify(t.name)));
+    pool = selected.reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+    selectionTitle = subject?.name || 'Single subject';
+    selectionTopics = selected.length ? `${selected.map(t => t.name).join(' • ')}` : 'Select at least one topic.';
+  } else if (eb.scope === 'single') {
+    const subject = PN_DATA.subjectsMap.get(eb.subjectId);
+    const subjectData = PN_DATA.topicsMap.get(eb.subjectId) || { topics: [] };
+    pool = (subjectData.topics || []).reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+    selectionTitle = subject?.name || 'Single subject';
+    selectionTopics = 'All topics inside this subject are eligible.';
+  } else {
+    pool = (PN_DATA.subjectsIndex?.subjects || []).reduce((sum, s) => {
+      const sd = PN_DATA.topicsMap.get(s.id) || { topics: [] };
+      return sum + (sd.topics || []).reduce((acc, t) => acc + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+    }, 0);
+    selectionTitle = 'All subjects';
+    selectionTopics = 'Questions are pulled from the whole available bank.';
+  }
+
+  return { pool, selectionTitle, selectionTopics };
+}
+
+function updateExamScopeButtons() {
+  const eb = appState.examBuilder;
+  const allBtn = document.getElementById('exam-scope-all');
+  const singleBtn = document.getElementById('exam-scope-single');
+  const config = [
+    [allBtn, eb.scope === 'all'],
+    [singleBtn, eb.scope === 'single']
+  ];
+  config.forEach(([btn, active]) => {
+    if (!btn) return;
+    btn.classList.toggle('bg-secondary-container/10', active);
+    btn.classList.toggle('bg-surface-container-low', !active);
+    btn.querySelector('span')?.classList.toggle('border-secondary', active);
+    btn.querySelector('span')?.classList.toggle('border-outline', !active);
+    const dot = btn.querySelector('span span');
+    if (dot) dot.className = `w-2 h-2 rounded-full ${active ? 'bg-secondary' : 'bg-transparent'}`;
+  });
+}
+
+function renderExamTopicsGrid() {
+  const grid = document.getElementById('exam-topics-grid');
+  if (!grid) return;
+  const eb = appState.examBuilder;
+  const subjectData = PN_DATA.topicsMap.get(eb.topicSubjectId) || { topics: [] };
+  const topics = (subjectData.topics || []).sort((a,b)=>(a.order||999)-(b.order||999));
+  grid.innerHTML = topics.map(topic => {
+    const id = topic.id || slugify(topic.name);
+    const checked = eb.selectedTopicIds.includes(id);
+    const count = getTopicQuestionCountByDifficulty(topic, eb.difficulty || 'all');
+    return `<label class="rounded-[1.75rem] border border-outline-variant/20 ${checked ? 'bg-secondary-container/10' : 'bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
+  }).join('') || '<div class="text-on-surface-variant text-sm">No topics available for this subject yet.</div>';
+}
+
+function renderExamFlagButtons() {
+  const flags = appState.examBuilder.flags || {};
+  [
+    ['exam-flag-timed','timed'],
+    ['exam-flag-hidden','hidden'],
+    ['exam-flag-review','review'],
+    ['exam-flag-retry','retry']
+  ].forEach(([id,key]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const active = !!flags[key];
+    el.classList.toggle('bg-secondary-container/10', active);
+    el.classList.toggle('bg-surface-container-low', !active);
+    el.classList.toggle('border-tertiary/30', active);
+  });
+}
+
+function refreshExamBuilderPreview() {
+  ensureExamBuilderDefaults();
+  const eb = appState.examBuilder;
+  const modeEl = document.getElementById('exam-mode-select');
+  const diffEl = document.getElementById('exam-difficulty-select');
+  const qEl = document.getElementById('exam-question-count');
+  const tEl = document.getElementById('exam-time-limit');
+  const subjectEl = document.getElementById('exam-subject-select');
+  const topicSubjectEl = document.getElementById('exam-topic-subject-select');
+  if (modeEl) eb.mode = modeEl.value;
+  if (diffEl) eb.difficulty = diffEl.value;
+  if (qEl) eb.questionCount = Math.max(5, Number(qEl.value || 20));
+  if (tEl) eb.timeLimit = Math.max(5, Number(tEl.value || 30));
+  if (subjectEl) eb.subjectId = subjectEl.value || eb.subjectId;
+  if (topicSubjectEl) eb.topicSubjectId = topicSubjectEl.value || eb.topicSubjectId;
+
+  const multiplePanel = document.getElementById('exam-multiple-subjects-panel');
+  const topicPanel = document.getElementById('exam-topic-mode-panel');
+  if (multiplePanel) multiplePanel.classList.toggle('hidden', eb.mode !== 'multiple');
+  if (topicPanel) topicPanel.classList.toggle('hidden', eb.mode !== 'single_topics');
+
+  updateExamScopeButtons();
+  renderExamTopicsGrid();
+  renderExamFlagButtons();
+
+  const { pool, selectionTitle, selectionTopics } = getExamPoolMeta();
+  const secPerQuestion = Math.round((eb.timeLimit * 60) / Math.max(1, eb.questionCount));
+  const humanDifficulty = eb.difficulty === 'all' ? 'All difficulties' : `${eb.difficulty[0].toUpperCase()}${eb.difficulty.slice(1)} only`;
+  document.getElementById('exam-pool-title') && (document.getElementById('exam-pool-title').textContent = `Available pool: ${pool} questions`);
+  document.getElementById('exam-pool-subtitle') && (document.getElementById('exam-pool-subtitle').textContent = `You will get ${eb.questionCount} questions with about ${secPerQuestion} sec/question based on your current time limit.`);
+  document.getElementById('exam-preview-title') && (document.getElementById('exam-preview-title').textContent = eb.mode === 'single_topics' ? 'Focused subject exam' : 'Mixed final exam');
+  document.getElementById('exam-preview-desc') && (document.getElementById('exam-preview-desc').textContent = pool ? 'The builder is ready with a live pool based on your current filters.' : 'Your current selection has no available questions yet.');
+  document.getElementById('exam-preview-mode') && (document.getElementById('exam-preview-mode').textContent = eb.mode === 'single_topics' ? 'Single Subject + Topics' : (eb.scope === 'single' ? 'One Subject Only' : 'Multiple Subjects'));
+  document.getElementById('exam-preview-difficulty') && (document.getElementById('exam-preview-difficulty').textContent = humanDifficulty);
+  document.getElementById('exam-preview-questions') && (document.getElementById('exam-preview-questions').textContent = String(eb.questionCount));
+  document.getElementById('exam-preview-time') && (document.getElementById('exam-preview-time').textContent = `${eb.timeLimit} min`);
+  document.getElementById('exam-preview-selection') && (document.getElementById('exam-preview-selection').textContent = selectionTitle);
+  document.getElementById('exam-preview-topics') && (document.getElementById('exam-preview-topics').textContent = selectionTopics);
+
+  const flagsWrap = document.getElementById('exam-preview-flags');
+  if (flagsWrap) {
+    const labels = [];
+    if (eb.flags.timed) labels.push('Timed exam experience');
+    if (eb.flags.hidden) labels.push('Hidden answers until submission');
+    if (eb.flags.review) labels.push('Detailed review after finishing');
+    if (eb.flags.retry) labels.push('Retry wrong questions later');
+    flagsWrap.innerHTML = labels.map(item => `<li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary-fixed text-base">check_small</span><span>${escapeHtml(item)}</span></li>`).join('');
+  }
+
+  saveState();
+}
+window.refreshExamBuilderPreview = refreshExamBuilderPreview;
+
+function toggleExamTopic(topicId) {
+  ensureExamBuilderDefaults();
+  const selected = new Set(appState.examBuilder.selectedTopicIds || []);
+  if (selected.has(topicId)) selected.delete(topicId);
+  else selected.add(topicId);
+  appState.examBuilder.selectedTopicIds = [...selected];
+  refreshExamBuilderPreview();
+}
+window.toggleExamTopic = toggleExamTopic;
+
+function initFinalExamBuilder() {
+  if (!PN_DATA.subjectsIndex?.subjects?.length) return;
+  ensureExamBuilderDefaults();
+  const eb = appState.examBuilder;
+  const subjects = PN_DATA.subjectsIndex.subjects;
+  const subjectOptions = subjects.map(s => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('');
+  const subjectEl = document.getElementById('exam-subject-select');
+  const topicSubjectEl = document.getElementById('exam-topic-subject-select');
+  if (subjectEl && !subjectEl.dataset.bound) {
+    subjectEl.innerHTML = subjectOptions;
+    topicSubjectEl.innerHTML = subjectOptions;
+    subjectEl.dataset.bound = 'true';
+    document.getElementById('exam-mode-select')?.addEventListener('change', refreshExamBuilderPreview);
+    document.getElementById('exam-difficulty-select')?.addEventListener('change', refreshExamBuilderPreview);
+    document.getElementById('exam-question-count')?.addEventListener('input', refreshExamBuilderPreview);
+    document.getElementById('exam-time-limit')?.addEventListener('input', refreshExamBuilderPreview);
+    subjectEl.addEventListener('change', refreshExamBuilderPreview);
+    topicSubjectEl?.addEventListener('change', () => {
+      appState.examBuilder.topicSubjectId = topicSubjectEl.value;
+      const subjectData = PN_DATA.topicsMap.get(appState.examBuilder.topicSubjectId) || { topics: [] };
+      appState.examBuilder.selectedTopicIds = (subjectData.topics || []).map(t => t.id || slugify(t.name));
+      refreshExamBuilderPreview();
+    });
+    document.getElementById('exam-scope-all')?.addEventListener('click', () => { appState.examBuilder.scope = 'all'; refreshExamBuilderPreview(); });
+    document.getElementById('exam-scope-single')?.addEventListener('click', () => { appState.examBuilder.scope = 'single'; refreshExamBuilderPreview(); });
+    ['timed','hidden','review','retry'].forEach(key => {
+      document.getElementById(`exam-flag-${key}`)?.addEventListener('click', () => {
+        appState.examBuilder.flags[key] = !appState.examBuilder.flags[key];
+        refreshExamBuilderPreview();
+      });
+    });
+  } else if (subjectEl) {
+    subjectEl.innerHTML = subjectOptions;
+    topicSubjectEl.innerHTML = subjectOptions;
+  }
+  if (subjectEl) subjectEl.value = eb.subjectId || subjects[0]?.id || '';
+  if (topicSubjectEl) topicSubjectEl.value = eb.topicSubjectId || subjects[0]?.id || '';
+  document.getElementById('exam-mode-select') && (document.getElementById('exam-mode-select').value = eb.mode);
+  document.getElementById('exam-difficulty-select') && (document.getElementById('exam-difficulty-select').value = eb.difficulty);
+  document.getElementById('exam-question-count') && (document.getElementById('exam-question-count').value = eb.questionCount);
+  document.getElementById('exam-time-limit') && (document.getElementById('exam-time-limit').value = eb.timeLimit);
+  refreshExamBuilderPreview();
+}
+
+function startConfiguredExam() {
+  refreshExamBuilderPreview();
+  const pool = getExamPoolMeta().pool;
+  if (!pool) {
+    window.alert('No questions are available for the current exam selection yet.');
+    return;
+  }
+  navigateTo('examlive');
+}
+window.startConfiguredExam = startConfiguredExam;
 
 async function loadSubjectsIndex() {
   const index = await fetchJson('data/subjects/index.json');
