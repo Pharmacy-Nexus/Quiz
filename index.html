@@ -1001,7 +1001,7 @@ tailwind.config = {
     <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8 lg:p-10 relative overflow-hidden mb-8">
       <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_right,rgba(215,177,75,0.09),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(0,21,27,0.05),transparent_28%)]"></div>
       <div class="relative z-10">
-        <span class="inline-flex items-center rounded-full bg-[#f8f1d8] text-primary px-4 py-2 text-xs font-bold tracking-wide mb-5">Student Dashboard</span>
+        <span class="inline-flex items-center rounded-full bg-tertiary-fixed/30 text-primary px-4 py-2 text-xs font-bold tracking-wide mb-5">Student Dashboard</span>
         <h1 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight mb-3" style="letter-spacing:-0.02em">Your performance at a glance</h1>
         <p class="text-on-surface-variant text-base md:text-lg max-w-3xl leading-relaxed mb-8">Provides continuous performance tracking, identifying core weaknesses and suggesting targeted interventions for optimization.</p>
 
@@ -1009,8 +1009,8 @@ tailwind.config = {
           <div class="lg:col-span-4 flex flex-col items-start gap-4">
             <div class="relative w-40 h-40">
               <svg viewBox="0 0 120 120" class="w-full h-full">
-                <circle cx="60" cy="60" r="48" stroke="#e6ebf2" stroke-width="10" fill="none"></circle>
-                <circle id="dashboard-overall-ring" cx="60" cy="60" r="48" stroke="#d7b14b" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="0 999" transform="rotate(-90 60 60)"></circle>
+                <circle cx="60" cy="60" r="48" stroke="#e1e3e4" stroke-width="10" fill="none"></circle>
+                <circle id="dashboard-overall-ring" cx="60" cy="60" r="48" stroke="#cba72f" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="0 999" transform="rotate(-90 60 60)"></circle>
               </svg>
               <div class="absolute inset-0 flex flex-col items-center justify-center">
                 <div id="dashboard-overall-value" class="text-5xl font-black text-primary leading-none">0%</div>
@@ -1026,12 +1026,12 @@ tailwind.config = {
               <span id="dashboard-overall-progress-label" class="text-lg font-bold text-primary">0%</span>
             </div>
             <div class="w-full h-3 bg-surface-container rounded-full overflow-hidden mb-3">
-              <div id="dashboard-overall-progress-bar" class="h-full rounded-full bg-gradient-to-r from-[#d7b14b] to-[#e8c765]" style="width:0%"></div>
+              <div id="dashboard-overall-progress-bar" class="h-full rounded-full bg-gradient-to-r from-tertiary-container to-tertiary-fixed-dim" style="width:0%"></div>
             </div>
             <p id="dashboard-overall-delta" class="text-sm md:text-base font-bold text-error mb-8">Build a few sessions to unlock trend tracking.</p>
 
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <button id="dashboard-resume-btn" onclick="dashboardResumeStudy()" class="bg-[#d7b14b] text-primary px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(215,177,75,0.25)] hover:scale-[0.99] transition-transform">Resume Study</button>
+              <button id="dashboard-resume-btn" onclick="dashboardResumeStudy()" class="bg-tertiary-container text-on-tertiary-container px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(203,167,47,0.22)] hover:scale-[0.99] transition-transform">Resume Study</button>
               <button id="dashboard-weakest-btn" onclick="dashboardOpenWeakest()" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Weakest Topic</button>
               <button onclick="navigateTo('saved')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Saved &amp; Notes</button>
             </div>
@@ -1047,7 +1047,7 @@ tailwind.config = {
           <p class="text-sm text-on-primary/75 mb-3">Recommended next move</p>
           <h2 id="dashboard-next-title" class="text-3xl font-extrabold tracking-tight mb-3">—</h2>
           <p id="dashboard-next-meta" class="text-on-primary/80 text-sm md:text-base leading-relaxed mb-6">No tracked topic yet.</p>
-          <button id="dashboard-next-action" onclick="dashboardOpenWeakest()" class="bg-[#16356f] text-white px-5 py-3 rounded-xl font-bold text-sm hover:opacity-95 transition-opacity">Open Topic</button>
+          <button id="dashboard-next-action" onclick="dashboardOpenWeakest()" class="bg-secondary text-on-secondary px-5 py-3 rounded-xl font-bold text-sm hover:opacity-95 transition-opacity">Open Topic</button>
         </div>
       </section>
 
@@ -1130,7 +1130,7 @@ tailwind.config = {
       <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Quick actions</h2>
       <p class="text-on-surface-variant text-base mb-6">Open the most useful next page in one tap.</p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <button onclick="dashboardResumeStudy()" class="bg-[#d7b14b] text-primary px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(215,177,75,0.25)] hover:scale-[0.99] transition-transform">Resume Study</button>
+        <button onclick="dashboardResumeStudy()" class="bg-tertiary-container text-on-tertiary-container px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(203,167,47,0.22)] hover:scale-[0.99] transition-transform">Resume Study</button>
         <button onclick="navigateTo('finalexam')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Start Final Exam</button>
         <button onclick="navigateTo('saved')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Open Saved Questions</button>
       </div>
