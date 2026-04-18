@@ -468,11 +468,14 @@ function renderStudyQuestion() {
 }
 
 function selectAnswer(optionIndex) {
+  const meta = appState.currentTopicMeta;
   const q = getCurrentSetQuestions()[appState.currentQuestionIndex];
-  if (!q) return;
-  if (!appState.studyResults[q.id]) {
+  if (!meta || !q) return;
+  appState.studyResults = appState.studyResults || {};
+  appState.studyResults[meta.id] = appState.studyResults[meta.id] || {};
+  if (appState.studyResults[meta.id][q.id] === undefined) {
     const isCorrect = Number(optionIndex) === Number(q.correctAnswer);
-    appState.studyResults[q.id] = isCorrect;
+    appState.studyResults[meta.id][q.id] = isCorrect;
     q.userChoice = Number(optionIndex);
     saveState();
     renderStudyQuestion();
