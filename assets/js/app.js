@@ -5,6 +5,9 @@ const DEFAULT_STATE = {
   currentPage: 'home',
   savedQuestion: false,
   notes: [],
+  savedItems: {},
+  notesByQuestion: {},
+  savedView: { tab: 'all', search: '', subject: 'all' },
   finalExamsDone: 2,
   accuracy: 6,
   savedQuestions: 12,
@@ -80,6 +83,7 @@ function loadState() {
 }
 
 let appState = loadState();
+syncSavedStats?.();
 
 function saveState() {
   try {
@@ -444,7 +448,21 @@ async function fetchJson(path) {
   return res.json();
 }
 
+function getSavedItemsList() {
+  return Object.values(appState.savedItems || {}).sort((a, b) => new Date(b.savedAt || 0) - new Date(a.savedAt || 0));
+}
+
+function getNotesList() {
+  return Object.values(appState.notesByQuestion || {}).sort((a, b) => new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0));
+}
+
+function syncSavedStats() {
+  appState.savedQuestions = getSavedItemsList().length;
+  appState.personalNotes = getNotesList().length;
+}
+
 function renderPersistentStats() {
+  syncSavedStats();
   document.getElementById('home-accuracy') && (document.getElementById('home-accuracy').textContent = `${appState.accuracy}%`);
   document.getElementById('home-saved-count') && (document.getElementById('home-saved-count').textContent = appState.savedQuestions);
   document.getElementById('home-notes-count') && (document.getElementById('home-notes-count').textContent = appState.personalNotes);
@@ -837,6 +855,14 @@ function renderStudyQuestion() {
     }).join('') + `<div id="study-explanation" class="${wasAnswered ? '' : 'hidden'} bg-surface-container-low rounded-xl p-6 relative overflow-hidden"><div class="absolute -right-8 -top-8 w-32 h-32 bg-tertiary-fixed/20 rounded-full blur-3xl pointer-events-none"></div><div class="flex items-center gap-2 mb-3"><span class="material-symbols-outlined text-tertiary text-lg">school</span><h3 class="text-xs font-bold text-primary uppercase tracking-widest">Clinical Rationale</h3></div><p class="text-sm text-on-surface-variant leading-relaxed mb-3">${escapeHtml(q.explanation || 'No explanation added yet.')}</p></div>`;
   }
 
+  updateSaveButtonState();
+  const noteBtn = document.getElementById('note-btn');
+  const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
+  if (noteBtn) {
+    noteBtn.classList.toggle('text-tertiary', noteExists);
+    noteBtn.classList.toggle('text-on-surface-variant', !noteExists);
+  }
+
   document.getElementById('study-prev-btn')?.toggleAttribute('disabled', appState.currentQuestionIndex === 0);
   document.getElementById('study-prev-btn')?.classList.toggle('opacity-50', appState.currentQuestionIndex === 0);
   document.getElementById('study-next-btn') && (document.getElementById('study-next-btn').innerHTML = `${appState.currentQuestionIndex === total - 1 ? 'Finish Set' : 'Next Question'} <span class="material-symbols-outlined text-sm">arrow_forward</span>`);
@@ -1004,58 +1030,280 @@ function previousQuestion() {
 }
 window.previousQuestion = previousQuestion;
 
-function toggleSave() {
-  appState.savedQuestion = !appState.savedQuestion;
-  appState.savedQuestions = appState.savedQuestion ? Math.max(appState.savedQuestions, DEFAULT_STATE.savedQuestions + 1) : Math.max(DEFAULT_STATE.savedQuestions, appState.savedQuestions - 1);
-  saveState();
+
+function getCurrentQuestionRecord() {
+  if (appState.currentPage === 'examlive' && appState.currentExamSession?.questions?.length) {
+    const session = appState.currentExamSession;
+    const q = session.questions[session.currentIndex];
+    if (!q) return null;
+    return {
+      id: q.id,
+      subjectId: q.subjectId || '',
+      subjectName: q.subjectName || '',
+      topicId: q.topicId || '',
+      topicName: q.topicName || '',
+      type: q.type || 'mcq',
+      difficulty: q.difficulty || 'easy',
+      questionText: q.questionText || '',
+      caseText: q.caseText || '',
+      imageUrl: q.imageUrl || '',
+      options: Array.isArray(q.options) ? q.options : [],
+      correctAnswer: Number(q.correctAnswer),
+      explanation: q.explanation || '',
+      userChoice: session.answers?.[q.id],
+      savedAt: new Date().toISOString()
+    };
+  }
+  if (appState.currentTopicMeta && Array.isArray(appState.currentTopicQuestions) && appState.currentTopicQuestions.length) {
+    const active = getActiveStudyQuestions();
+    const q = active[appState.currentQuestionIndex];
+    if (!q) return null;
+    return {
+      id: q.id,
+      subjectId: appState.currentTopicMeta.subjectId || '',
+      subjectName: appState.currentTopicMeta.subjectName || '',
+      topicId: appState.currentTopicMeta.id || '',
+      topicName: appState.currentTopicMeta.name || '',
+      type: q.type || 'mcq',
+      difficulty: q.difficulty || 'easy',
+      questionText: q.questionText || '',
+      caseText: q.caseText || '',
+      imageUrl: q.imageUrl || '',
+      options: Array.isArray(q.options) ? q.options : [],
+      correctAnswer: Number(q.correctAnswer),
+      explanation: q.explanation || '',
+      userChoice: Number.isFinite(Number(q.userChoice)) ? Number(q.userChoice) : undefined,
+      savedAt: new Date().toISOString()
+    };
+  }
+  return null;
+}
+
+function isQuestionSaved(questionId) {
+  return !!(appState.savedItems || {})[questionId];
+}
+
+function updateSaveButtonState() {
   const btn = document.getElementById('save-btn');
   const icon = btn?.querySelector('.material-symbols-outlined');
+  const record = getCurrentQuestionRecord();
+  const saved = record ? isQuestionSaved(record.id) : false;
+  appState.savedQuestion = saved;
   if (btn && icon) {
-    icon.style.fontVariationSettings = appState.savedQuestion ? "'FILL' 1" : "'FILL' 0";
-    btn.classList.toggle('text-tertiary', appState.savedQuestion);
-    btn.classList.toggle('text-on-surface-variant', !appState.savedQuestion);
+    icon.style.fontVariationSettings = saved ? "'FILL' 1" : "'FILL' 0";
+    btn.classList.toggle('text-tertiary', saved);
+    btn.classList.toggle('text-on-surface-variant', !saved);
   }
+}
+
+function toggleSave() {
+  const record = getCurrentQuestionRecord();
+  if (!record) return;
+  appState.savedItems = appState.savedItems || {};
+  if (appState.savedItems[record.id]) {
+    delete appState.savedItems[record.id];
+  } else {
+    const existingNote = appState.notesByQuestion?.[record.id]?.note || '';
+    appState.savedItems[record.id] = {
+      ...record,
+      savedAt: new Date().toISOString(),
+      hasNote: !!existingNote,
+      note: existingNote
+    };
+  }
+  updateSaveButtonState();
+  saveState();
   renderPersistentStats();
+  if (appState.currentPage === 'saved') renderSavedPage();
 }
 window.toggleSave = toggleSave;
 
-function filterSaved(type, btn) {
-  const buttons = btn.parentElement.querySelectorAll('button');
-  buttons.forEach(b => { b.className = 'px-4 py-2 rounded-lg text-on-surface-variant font-bold text-sm hover:bg-white/50 transition-colors'; });
-  btn.className = 'px-4 py-2 rounded-lg bg-primary text-on-primary font-bold text-sm';
+function setSavedTab(tab) {
+  appState.savedView = appState.savedView || { tab: 'all', search: '', subject: 'all' };
+  appState.savedView.tab = tab;
+  saveState();
+  renderSavedPage();
 }
-window.filterSaved = filterSaved;
+window.setSavedTab = setSavedTab;
+
+function setSavedSubjectFilter(value) {
+  appState.savedView = appState.savedView || { tab: 'all', search: '', subject: 'all' };
+  appState.savedView.subject = value || 'all';
+  saveState();
+  renderSavedPage();
+}
+window.setSavedSubjectFilter = setSavedSubjectFilter;
+
+function removeSavedQuestion(questionId) {
+  if (appState.savedItems?.[questionId]) delete appState.savedItems[questionId];
+  saveState();
+  renderPersistentStats();
+  renderSavedPage();
+  updateSaveButtonState();
+}
+window.removeSavedQuestion = removeSavedQuestion;
+
+function deleteQuestionNote(questionId) {
+  if (appState.notesByQuestion?.[questionId]) delete appState.notesByQuestion[questionId];
+  if (appState.savedItems?.[questionId]) {
+    appState.savedItems[questionId].hasNote = false;
+    appState.savedItems[questionId].note = '';
+  }
+  saveState();
+  renderPersistentStats();
+  renderSavedPage();
+}
+window.deleteQuestionNote = deleteQuestionNote;
+
+function saveNoteForRecord(record) {
+  if (!record) return;
+  const current = appState.notesByQuestion?.[record.id]?.note || '';
+  const note = window.prompt('Add or edit your personal note for this question:', current);
+  if (note === null) return;
+  appState.notesByQuestion = appState.notesByQuestion || {};
+  const trimmed = note.trim();
+  if (!trimmed) {
+    delete appState.notesByQuestion[record.id];
+    if (appState.savedItems?.[record.id]) {
+      appState.savedItems[record.id].hasNote = false;
+      appState.savedItems[record.id].note = '';
+    }
+  } else {
+    appState.notesByQuestion[record.id] = {
+      questionId: record.id,
+      note: trimmed,
+      updatedAt: new Date().toISOString(),
+      subjectId: record.subjectId,
+      subjectName: record.subjectName,
+      topicId: record.topicId,
+      topicName: record.topicName,
+      questionText: record.questionText
+    };
+    appState.savedItems = appState.savedItems || {};
+    if (!appState.savedItems[record.id]) {
+      appState.savedItems[record.id] = { ...record, savedAt: new Date().toISOString() };
+    }
+    appState.savedItems[record.id].hasNote = true;
+    appState.savedItems[record.id].note = trimmed;
+  }
+  saveState();
+  renderPersistentStats();
+  if (appState.currentPage === 'saved') renderSavedPage();
+}
+window.saveNoteForRecord = saveNoteForRecord;
+
+function editQuestionNote(questionId) {
+  const base = appState.savedItems?.[questionId] || appState.notesByQuestion?.[questionId];
+  if (!base) return;
+  saveNoteForRecord({
+    id: questionId,
+    subjectId: base.subjectId,
+    subjectName: base.subjectName,
+    topicId: base.topicId,
+    topicName: base.topicName,
+    questionText: base.questionText,
+    type: base.type,
+    difficulty: base.difficulty,
+    caseText: base.caseText || '',
+    imageUrl: base.imageUrl || '',
+    options: base.options || [],
+    correctAnswer: base.correctAnswer,
+    explanation: base.explanation || '',
+    userChoice: base.userChoice
+  });
+}
+window.editQuestionNote = editQuestionNote;
 
 function bindNotes() {
   const noteBtn = document.getElementById('note-btn');
   if (noteBtn && !noteBtn.dataset.bound) {
     noteBtn.dataset.bound = 'true';
-    noteBtn.addEventListener('click', () => {
-      const note = window.prompt('Add a quick note for this question:');
-      if (!note || !note.trim()) return;
-      appState.notes.push({ text: note.trim(), createdAt: new Date().toISOString() });
-      appState.personalNotes = Math.max(DEFAULT_STATE.personalNotes, appState.notes.length + DEFAULT_STATE.personalNotes);
-      saveState();
-      renderPersistentStats();
-      noteBtn.classList.add('text-tertiary');
-      noteBtn.classList.remove('text-on-surface-variant');
-    });
+    noteBtn.addEventListener('click', () => saveNoteForRecord(getCurrentQuestionRecord()));
   }
 }
 
-function bindSavedSearch() {
-  const input = document.getElementById('saved-search');
-  if (!input || input.dataset.bound) return;
-  input.dataset.bound = 'true';
-  input.addEventListener('input', (e) => {
-    const q = e.target.value.trim().toLowerCase();
-    document.querySelectorAll('[data-saved-item="true"]').forEach(card => {
-      const show = !q || card.textContent.toLowerCase().includes(q);
-      card.style.display = show ? '' : 'none';
+function openSavedQuestion(questionId) {
+  const item = appState.savedItems?.[questionId] || appState.notesByQuestion?.[questionId];
+  if (!item) return;
+  const meta = item.topicId ? (PN_DATA.topicsMap.get(item.subjectId)?.topics || []).find(t => (t.id || slugify(t.name)) === item.topicId) : null;
+  if (meta?.file) {
+    loadTopicQuestions(item.subjectId, item.topicId).then(() => {
+      const idx = (appState.currentTopicQuestions || []).findIndex(q => q.id === questionId);
+      appState.currentSetIndex = idx >= 0 ? Math.floor(idx / 30) : 0;
+      appState.currentQuestionIndex = idx >= 0 ? idx % 30 : 0;
+      saveState();
+      renderStudyQuestion();
+      navigateTo('study');
     });
-  });
+  }
+}
+window.openSavedQuestion = openSavedQuestion;
+
+function buildSavedCard(item) {
+  const noteObj = appState.notesByQuestion?.[item.id];
+  const noteText = noteObj?.note || item.note || '';
+  const hasNote = !!noteText;
+  const userAnswer = item.userChoice !== undefined ? (item.options?.[Number(item.userChoice)] ?? '—') : '';
+  const correctAnswer = item.options?.[Number(item.correctAnswer)] ?? '—';
+  const isCorrect = item.userChoice !== undefined ? Number(item.userChoice) === Number(item.correctAnswer) : null;
+  const answerBlock = userAnswer ? `<div class="bg-surface-container-low rounded-[1.5rem] p-4 border-l-4 ${isCorrect ? 'border-secondary/50' : 'border-error/30'}"><p class="text-xs font-bold ${isCorrect ? 'text-secondary' : 'text-on-surface-variant'} uppercase tracking-widest mb-1">Your Answer ${isCorrect === false ? '(Incorrect)' : ''}</p><p class="text-sm text-primary">${escapeHtml(userAnswer)}</p></div>` : '';
+  return `<article class="bg-surface-container-lowest rounded-[2rem] p-7 md:p-10 relative overflow-hidden flex flex-col lg:flex-row gap-8 group ambient-shadow ghost-border"><div class="lg:w-[220px] flex flex-col gap-4"><div><span class="inline-block px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-bold text-xs uppercase tracking-widest mb-2">${escapeHtml(item.topicName || item.subjectName || 'Question')}</span>${hasNote ? '<span class="block px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-bold text-xs uppercase tracking-widest w-fit">Has Note</span>' : ''}<p class="text-xs font-bold text-outline uppercase tracking-widest mt-2">ID: ${escapeHtml(item.id)}</p><p class="text-xs font-bold text-outline uppercase tracking-widest mt-0.5">Saved: ${escapeHtml(formatShortDate(item.savedAt || item.updatedAt || new Date().toISOString()))}</p></div><div class="flex gap-2"><button onclick="removeSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-tertiary hover:text-tertiary-container transition-colors"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">bookmark</span></button><button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors"><span class="material-symbols-outlined">edit_note</span></button><button onclick="openSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors"><span class="material-symbols-outlined">open_in_new</span></button></div></div><div class="flex-1 flex flex-col gap-5"><h2 class="font-extrabold text-xl md:text-2xl text-primary leading-tight tracking-tight">${escapeHtml(item.questionText || '')}</h2>${answerBlock}<div class="bg-surface-container-low rounded-[1.5rem] p-4 border-l-4 border-tertiary"><p class="text-xs font-bold text-tertiary uppercase tracking-widest mb-1">Correct Answer</p><p class="text-sm text-primary font-bold">${escapeHtml(correctAnswer)}</p></div><div class="pl-5 border-l-2 border-surface-variant"><h3 class="font-bold text-base text-primary mb-2">Clinical Rationale</h3><p class="text-sm text-on-surface-variant leading-relaxed">${escapeHtml(item.explanation || 'No explanation added yet.')}</p></div>${hasNote ? `<div class="bg-primary-container rounded-[1.75rem] p-5 relative overflow-hidden"><div class="text-xs font-bold text-primary-fixed uppercase tracking-widest mb-2 flex items-center gap-1"><span class="material-symbols-outlined text-sm">edit</span>Personal Note</div><p class="text-on-primary-container text-sm leading-relaxed italic">${escapeHtml(noteText)}</p></div>` : `<button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="border-2 border-dashed border-outline-variant/50 rounded-[1.5rem] p-5 hover:bg-surface-container-low transition-colors cursor-pointer flex items-center justify-center text-outline gap-2"><span class="material-symbols-outlined">add_circle</span><span class="text-sm font-bold uppercase tracking-widest">Add Clinical Insight Note</span></button>`}</div></article>`;
 }
 
+function renderSavedPage() {
+  const page = document.getElementById('page-saved');
+  if (!page) return;
+  appState.savedView = appState.savedView || { tab: 'all', search: '', subject: 'all' };
+  const savedItems = getSavedItemsList();
+  const notesMap = appState.notesByQuestion || {};
+  const mergedIds = new Set([...savedItems.map(i => i.id), ...Object.keys(notesMap)]);
+  const allItems = [...mergedIds].map(id => {
+    const base = savedItems.find(i => i.id === id) || {};
+    const note = notesMap[id];
+    return {
+      ...base,
+      id,
+      subjectId: base.subjectId || note?.subjectId || '',
+      subjectName: base.subjectName || note?.subjectName || '',
+      topicId: base.topicId || note?.topicId || '',
+      topicName: base.topicName || note?.topicName || '',
+      questionText: base.questionText || note?.questionText || '',
+      note: note?.note || base.note || '',
+      savedAt: base.savedAt || note?.updatedAt,
+      updatedAt: note?.updatedAt || base.savedAt
+    };
+  }).sort((a,b)=> new Date(b.updatedAt || b.savedAt || 0) - new Date(a.updatedAt || a.savedAt || 0));
+  const subjects = Array.from(new Set(allItems.map(i => i.subjectName).filter(Boolean)));
+  const q = String(appState.savedView.search || '').trim().toLowerCase();
+  let filtered = allItems.filter(item => {
+    const hasSaved = !!(appState.savedItems || {})[item.id];
+    const hasNote = !!(notesMap[item.id]?.note || item.note);
+    const tab = appState.savedView.tab;
+    if (tab === 'starred' && !hasSaved) return false;
+    if (tab === 'notes' && !hasNote) return false;
+    if (tab === 'both' && !(hasSaved && hasNote)) return false;
+    if (appState.savedView.subject !== 'all' && item.subjectName !== appState.savedView.subject) return false;
+    if (q && !`${item.questionText} ${item.subjectName} ${item.topicName} ${item.note || ''}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const tabBtn = (id, label) => `<button onclick="setSavedTab('${id}')" class="px-5 py-3 rounded-full font-bold text-sm transition-colors ${appState.savedView.tab===id ? 'bg-primary text-on-primary' : 'text-primary hover:bg-white/50'}">${label}</button>`;
+  page.innerHTML = `<div class="max-w-6xl mx-auto px-6 md:px-12 py-10"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5 mb-8"><div class="flex gap-2 bg-surface-container-low rounded-full p-1 flex-wrap w-fit">${tabBtn('all','All')}${tabBtn('starred','Starred')}${tabBtn('notes','Notes')}${tabBtn('both','Starred + Notes')}</div><div class="relative w-full lg:max-w-xl"><span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-sm">search</span><input id="saved-search-dynamic" value="${escapeHtml(appState.savedView.search || '')}" class="w-full pl-11 pr-4 py-4 bg-surface-container-low border-none rounded-full focus:ring-0 focus:bg-surface-container-lowest transition-all text-sm font-medium" placeholder="Search saved questions..." type="text"></div></div><div class="flex flex-wrap gap-4 mb-8"><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getSavedItemsList().length} Saved Questions</span><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getNotesList().length} Personal Notes</span><select onchange="setSavedSubjectFilter(this.value)" class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-sm font-bold text-primary border-none focus:ring-0"><option value="all">All Subjects</option>${subjects.map(s=>`<option value="${escapeHtml(s)}" ${appState.savedView.subject===s?'selected':''}>${escapeHtml(s)}</option>`).join('')}</select></div><div class="space-y-8">${filtered.length ? filtered.map(buildSavedCard).join('') : `<div class="bg-surface-container-lowest rounded-[2rem] p-10 ambient-shadow ghost-border text-center"><p class="text-2xl font-bold text-primary mb-2">Nothing here yet</p><p class="text-on-surface-variant">Save a question or add a personal note during study or final exam to build your review bank.</p></div>`}</div></div>`;
+  const input = document.getElementById('saved-search-dynamic');
+  if (input && !input.dataset.bound) {
+    input.dataset.bound = 'true';
+    input.addEventListener('input', e => {
+      appState.savedView.search = e.target.value;
+      saveState();
+      renderSavedPage();
+    });
+  }
+}
+window.renderSavedPage = renderSavedPage;
+
+function filterSaved() {}
+window.filterSaved = filterSaved;
+
+function bindSavedSearch() {}
 function openHiddenAdmin() {
   const pw = window.prompt('Enter admin password');
   const configured = window.PN_ADMIN_CONFIG?.adminPassword || 'changeme';
@@ -1669,7 +1917,7 @@ function renderExamLivePage() {
               <h2 class="text-2xl font-bold text-primary mb-1">${escapeHtml(q.topicName || 'Topic')}</h2>
               <p class="text-sm text-on-surface-variant uppercase tracking-wider font-semibold">${escapeHtml(q.subjectName || '')} • ${escapeHtml(String(q.difficulty || 'easy'))}</p>
             </div>
-            <button onclick="toggleExamFlagCurrent()" class="text-primary hover:bg-surface-container-low p-2 rounded-full transition-colors ${flagSet.has(q.id) ? 'text-tertiary' : ''}"><span class="material-symbols-outlined">flag</span></button>
+            <div class="flex items-center gap-2"><button onclick="toggleSave()" id="save-btn" class="text-on-surface-variant hover:bg-surface-container-low p-2 rounded-full transition-colors"><span class="material-symbols-outlined">bookmark</span></button><button onclick="saveNoteForRecord(getCurrentQuestionRecord())" id="note-btn" class="text-on-surface-variant hover:bg-surface-container-low p-2 rounded-full transition-colors"><span class="material-symbols-outlined">edit_note</span></button><button onclick="toggleExamFlagCurrent()" class="text-primary hover:bg-surface-container-low p-2 rounded-full transition-colors ${flagSet.has(q.id) ? 'text-tertiary' : ''}"><span class="material-symbols-outlined">flag</span></button></div>
           </div>
           ${caseBlock}
           ${imageBlock}
@@ -1687,6 +1935,13 @@ function renderExamLivePage() {
       <div class="lg:col-span-4"><div class="bg-surface-container-low rounded-xl p-7 sticky top-24"><div class="flex justify-between items-center mb-5"><h3 class="font-bold text-primary">Question Palette</h3><span class="text-xs font-bold text-primary bg-primary-fixed px-2 py-1 rounded">${currentNumber} / ${session.questions.length}</span></div><div class="grid grid-cols-5 gap-2 mb-5">${palette}</div><div class="flex flex-col gap-2 text-xs font-semibold text-on-surface-variant mb-6"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-surface-container-highest inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary inline-block"></span> Current</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span> Flagged</div></div><button onclick="submitCurrentExam()" class="w-full bg-tertiary text-on-tertiary py-4 rounded-xl font-extrabold text-sm tracking-widest uppercase hover:opacity-90 active:scale-[0.98] transition-all shadow-[0_10px_20px_rgba(115,92,0,0.2)]">Submit Exam</button></div></div>
     </div>
   </div>`;
+  updateSaveButtonState();
+  const noteBtn = document.getElementById('note-btn');
+  const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
+  if (noteBtn) {
+    noteBtn.classList.toggle('text-tertiary', noteExists);
+    noteBtn.classList.toggle('text-on-surface-variant', !noteExists);
+  }
   startExamTimer();
 }
 window.renderExamLivePage = renderExamLivePage;
@@ -1797,5 +2052,6 @@ const __oldNavigateTo = navigateTo;
 navigateTo = function(pageId) {
   __oldNavigateTo(pageId);
   if (pageId === 'examlive') renderExamLivePage();
+  if (pageId === 'saved') renderSavedPage();
 };
 window.navigateTo = navigateTo;
