@@ -17,7 +17,10 @@ const DEFAULT_STATE = {
   currentTopicMeta: null,
   studyResults: {},
   studyMode: 'set',
-  retryQuestionIds: []
+  retryQuestionIds: [],
+  attemptHistory: [],
+  currentSessionId: null,
+  currentSessionLogged: false
 };
 
 const PN_DATA = {
@@ -48,6 +51,7 @@ function navigateTo(pageId) {
   appState.currentPage = pageId;
   saveState();
   if (pageId === 'review') renderReviewPage();
+  if (pageId === 'dashboard') renderDashboardPage();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -66,6 +70,333 @@ function saveState() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(appState));
   } catch {}
+}
+
+function createSessionId() {
+  return `sess_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+function beginStudySession(mode = 'set') {
+  appState.studyMode = mode;
+  appState.currentQuestionIndex = 0;
+  appState.currentSessionId = createSessionId();
+  appState.currentSessionLogged = false;
+}
+
+function flattenAllTopics() {
+  const all = [];
+  PN_DATA.topicsMap.forEach((subjectJson, subjectId) => {
+    const subjectMeta = PN_DATA.subjectsMap.get(subjectId);
+    (subjectJson?.topics || []).forEach(topic => {
+      all.push({
+        ...topic,
+        id: topic.id || slugify(topic.name),
+        subjectId,
+        subjectName: subjectMeta?.name || ''
+      });
+    });
+  });
+  return all;
+}
+
+function getAggregateTopicStats(topicMeta) {
+  const results = appState.studyResults?.[topicMeta.id] || {};
+  const totalAnswered = Object.keys(results).length;
+  const correct = Object.values(results).filter(Boolean).length;
+  const totalQuestions = Number(topicMeta.questionsCount || 0) || totalAnswered;
+  const accuracy = totalAnswered ? Math.round((correct / totalAnswered) * 100) : 0;
+  return { totalAnswered, correct, totalQuestions, accuracy };
+}
+
+function getOverallResultStats() {
+  let totalAnswered = 0;
+  let correct = 0;
+  Object.values(appState.studyResults || {}).forEach(topicMap => {
+    Object.values(topicMap || {}).forEach(value => {
+      totalAnswered += 1;
+      if (value === true) correct += 1;
+    });
+  });
+  return {
+    totalAnswered,
+    correct,
+    accuracy: totalAnswered ? Math.round((correct / totalAnswered) * 100) : 0
+  };
+}
+
+function formatShortDate(isoString) {
+  try {
+    return new Date(isoString).toLocaleString(undefined, {
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+  } catch {
+    return '—';
+  }
+}
+
+function summarizeDashboard() {
+  const allTopics = flattenAllTopics();
+  const topicStats = allTopics.map(topic => ({ ...topic, ...getAggregateTopicStats(topic) }));
+  const attemptedTopics = topicStats.filter(t => t.totalAnswered > 0);
+  const weakestTopic = attemptedTopics.length
+    ? [...attemptedTopics].sort((a, b) => (a.accuracy - b.accuracy) || (a.correct - b.correct))[0]
+    : topicStats[0] || null;
+  const strongest = [...attemptedTopics].sort((a, b) => (b.accuracy - a.accuracy) || (b.correct - a.correct)).slice(0, 4);
+  const weakest = [...attemptedTopics].sort((a, b) => (a.accuracy - b.accuracy) || (a.correct - b.correct)).slice(0, 4);
+  const overall = getOverallResultStats();
+  const history = Array.isArray(appState.attemptHistory) ? [...appState.attemptHistory].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)) : [];
+  const studyHistory = history.filter(item => item.type === 'study');
+  const examHistory = history.filter(item => item.type === 'finalExam');
+  const last5 = studyHistory.slice(0, 5);
+  const avg = list => list.length ? Math.round(list.reduce((sum, item) => sum + Number(item.accuracy || 0), 0) / list.length) : 0;
+  const currentTopicMeta = appState.currentTopicMeta || null;
+  const currentSet = getCurrentSetQuestions ? getCurrentSetQuestions() : [];
+  const currentProgress = currentTopicMeta ? getTopicProgress(currentTopicMeta.id) : { answered: 0, correct: 0 };
+  return {
+    allTopics,
+    topicStats,
+    attemptedTopics,
+    weakestTopic,
+    strongest,
+    weakest,
+    overall,
+    history,
+    studyHistory,
+    examHistory,
+    currentTopicMeta,
+    currentSet,
+    currentProgress,
+    last5Avg: avg(last5),
+    studyAvg: avg(studyHistory),
+    finalAvg: avg(examHistory),
+    savedQuestions: Number(appState.savedQuestions || 0),
+    savedNotes: Number(appState.personalNotes || 0)
+  };
+}
+
+function buildDashboardTopicRow(topic, tone = 'secondary') {
+  const percent = Number(topic.accuracy || 0);
+  const barClass = tone === 'weak' ? 'bg-[#d69345]' : 'bg-[#c8a83d]';
+  return `<div class="pb-4 border-b border-outline-variant/15 last:border-b-0 last:pb-0">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <h4 class="text-xl font-extrabold text-primary leading-tight">${escapeHtml(topic.name)}</h4>
+        <p class="text-on-surface-variant text-base leading-relaxed">${escapeHtml(topic.subjectName || '')} • ${topic.correct}/${topic.totalAnswered} correct • ${topic.totalAnswered} answered</p>
+      </div>
+      <div class="min-w-[92px] text-right">
+        <div class="text-2xl font-black text-primary mb-2">${percent}%</div>
+        <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden"><div class="h-full ${barClass} rounded-full" style="width:${Math.max(percent, percent ? 4 : 0)}%"></div></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function buildDashboardRecentItem(item) {
+  const emoji = item.type === 'finalExam' ? '📝' : '📘';
+  const title = item.type === 'finalExam' ? 'Final Exam' : (item.topicName || 'Study Session');
+  const subtitle = item.type === 'finalExam'
+    ? `Mixed • ${formatShortDate(item.createdAt)}`
+    : `${escapeHtml(item.subjectName || '')} • ${formatShortDate(item.createdAt)}`;
+  return `<div class="rounded-[1.5rem] border border-outline-variant/20 bg-surface p-4 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-4 min-w-0">
+      <div class="w-12 h-12 rounded-2xl bg-[#fbf3d8] flex items-center justify-center text-xl flex-shrink-0">${emoji}</div>
+      <div class="min-w-0">
+        <h4 class="text-xl font-extrabold text-primary truncate">${escapeHtml(title)}</h4>
+        <p class="text-on-surface-variant text-base truncate">${subtitle}</p>
+      </div>
+    </div>
+    <div class="text-right flex-shrink-0">
+      <div class="inline-flex items-center justify-center min-w-[68px] px-3 py-1 rounded-full bg-surface-container text-primary text-xl font-black">${item.correct}/${item.total}</div>
+      <div class="text-on-surface-variant text-2xl font-bold mt-2">${item.accuracy}%</div>
+    </div>
+  </div>`;
+}
+
+function buildAchievementRow(label, detail, unlocked = false) {
+  return `<div class="rounded-[1.5rem] p-4 border ${unlocked ? 'border-[#ead9a1] bg-[#fffdf7]' : 'border-outline-variant/20 bg-surface'} flex items-center gap-4">
+    <div class="w-12 h-12 rounded-2xl flex items-center justify-center ${unlocked ? 'bg-[#fbf3d8]' : 'bg-surface-container'} text-2xl">${unlocked ? '🏅' : '⭕'}</div>
+    <div>
+      <h4 class="text-xl font-extrabold text-primary">${escapeHtml(label)}</h4>
+      <p class="text-on-surface-variant text-base">${escapeHtml(detail)}</p>
+    </div>
+  </div>`;
+}
+
+function renderDashboardChart(history = []) {
+  const wrap = document.getElementById('dashboard-chart-wrap');
+  if (!wrap) return;
+  const items = history.slice(0, 6).reverse();
+  if (!items.length) {
+    wrap.innerHTML = '<div class="h-[220px] flex items-center justify-center text-on-surface-variant text-sm">Complete a few study sessions to see your accuracy chart.</div>';
+    return;
+  }
+  const width = 420, height = 220, pad = 28;
+  const usableH = 150;
+  const barW = 38;
+  const gap = 22;
+  const startX = 34;
+  const bars = items.map((item, idx) => {
+    const x = startX + idx * (barW + gap);
+    const h = Math.max(8, (Number(item.accuracy || 0) / 100) * usableH);
+    const y = 175 - h;
+    const label = item.type === 'finalExam' ? 'Exam' : `S${items.length - idx}`;
+    return `<g>
+      <rect x="${x}" y="${y}" rx="10" ry="10" width="${barW}" height="${h}" fill="${item.type === 'finalExam' ? '#8da3c7' : '#d7b14b'}"></rect>
+      <text x="${x + barW/2}" y="${y - 8}" text-anchor="middle" font-size="12" fill="#0d2549" font-weight="700">${item.accuracy}%</text>
+      <text x="${x + barW/2}" y="198" text-anchor="middle" font-size="12" fill="#71787b">${label}</text>
+    </g>`;
+  }).join('');
+  wrap.innerHTML = `<svg viewBox="0 0 ${width} ${height}" class="w-full h-[220px]" aria-label="Recent performance chart">
+    <rect x="0" y="0" width="${width}" height="${height}" rx="24" fill="#f8f9fa"></rect>
+    <line x1="24" y1="175" x2="${width - 20}" y2="175" stroke="#d9dadb" stroke-width="2"></line>
+    <line x1="24" y1="28" x2="24" y2="175" stroke="#d9dadb" stroke-width="2"></line>
+    <text x="8" y="34" font-size="11" fill="#71787b">100</text>
+    <text x="12" y="102" font-size="11" fill="#71787b">50</text>
+    <text x="16" y="179" font-size="11" fill="#71787b">0</text>
+    ${bars}
+  </svg>`;
+}
+
+function renderDashboardPage() {
+  const page = document.getElementById('page-dashboard');
+  if (!page) return;
+  const summary = summarizeDashboard();
+  const overall = summary.overall;
+  appState.accuracy = overall.accuracy;
+  saveState();
+  renderPersistentStats();
+
+  const stage = overall.accuracy >= 80 ? 'Excellent momentum' : overall.accuracy >= 60 ? 'Building strong recovery' : overall.accuracy > 0 ? 'Just getting started' : 'No tracked accuracy yet';
+  const deltaText = summary.studyHistory.length >= 2
+    ? (() => {
+        const current = Number(summary.studyHistory[0]?.accuracy || 0);
+        const prev = Number(summary.studyHistory[1]?.accuracy || 0);
+        const diff = current - prev;
+        if (diff === 0) return 'No change from your previous session.';
+        return `${diff > 0 ? 'Up' : 'Down'} ${Math.abs(diff)}% from your previous session.`;
+      })()
+    : 'Build a few sessions to unlock trend tracking.';
+  const deltaTone = summary.studyHistory.length >= 2 && Number(summary.studyHistory[0]?.accuracy || 0) >= Number(summary.studyHistory[1]?.accuracy || 0) ? 'text-secondary' : 'text-error';
+
+  const ring = document.getElementById('dashboard-overall-ring');
+  if (ring) {
+    const circumference = 2 * Math.PI * 48;
+    ring.setAttribute('stroke-dasharray', `${(overall.accuracy / 100) * circumference} ${circumference}`);
+  }
+  const setText = (id,val) => { const el=document.getElementById(id); if(el) el.textContent=val; };
+  setText('dashboard-overall-value', `${overall.accuracy}%`);
+  setText('dashboard-overall-stage', stage);
+  setText('dashboard-overall-progress-label', `${overall.accuracy}%`);
+  const bar = document.getElementById('dashboard-overall-progress-bar'); if (bar) bar.style.width = `${overall.accuracy}%`;
+  const deltaEl = document.getElementById('dashboard-overall-delta'); if (deltaEl) { deltaEl.textContent = deltaText; deltaEl.className = `text-sm md:text-base font-bold mb-8 ${deltaTone}`; }
+
+  setText('dashboard-metric-success', `${overall.accuracy}%`);
+  setText('dashboard-metric-solved', String(overall.totalAnswered));
+  setText('dashboard-metric-sessions', String(summary.studyHistory.length));
+  setText('dashboard-metric-finals', String(summary.examHistory.length || appState.finalExamsDone || 0));
+
+  const next = summary.weakestTopic;
+  if (next) {
+    setText('dashboard-next-title', next.name);
+    setText('dashboard-next-meta', `${next.subjectName || ''} • ${next.accuracy}% accuracy • ${next.correct}/${next.totalAnswered} correct`);
+  }
+
+  if (summary.currentTopicMeta) {
+    setText('dashboard-resume-title', summary.currentTopicMeta.name);
+    setText('dashboard-resume-meta', `${summary.currentTopicMeta.subjectName} • Set ${Number(appState.currentSetIndex || 0) + 1} • Resume from question ${Math.min((appState.currentQuestionIndex || 0) + 1, Math.max(summary.currentSet.length,1))}`);
+  }
+
+  const strengthWrap = document.getElementById('dashboard-strength-list');
+  if (strengthWrap) strengthWrap.innerHTML = summary.strongest.length
+    ? summary.strongest.map(topic => buildDashboardTopicRow(topic, 'strength')).join('')
+    : '<div class="text-on-surface-variant text-sm">No solved topics yet.</div>';
+
+  const weakWrap = document.getElementById('dashboard-weak-list');
+  if (weakWrap) weakWrap.innerHTML = summary.weakest.length
+    ? summary.weakest.map(topic => buildDashboardTopicRow(topic, 'weak')).join('')
+    : '<div class="text-on-surface-variant text-sm">No weak areas yet.</div>';
+
+  const recentWrap = document.getElementById('dashboard-recent-list');
+  if (recentWrap) recentWrap.innerHTML = summary.history.length
+    ? summary.history.slice(0, 6).map(buildDashboardRecentItem).join('')
+    : '<div class="rounded-[1.5rem] border border-outline-variant/20 bg-surface p-5 text-on-surface-variant">No recent activity yet. Finish a study set and it will appear here.</div>';
+
+  renderDashboardChart(summary.history);
+  setText('dashboard-last5', `${summary.last5Avg}%`);
+  setText('dashboard-study-avg', `${summary.studyAvg}%`);
+  setText('dashboard-final-avg', `${summary.finalAvg || 0}%`);
+  setText('dashboard-saved-qs', String(summary.savedQuestions));
+  setText('dashboard-saved-notes', String(summary.savedNotes));
+
+  const achievements = [
+    buildAchievementRow('Studied 100 Questions', `${overall.totalAnswered >= 100 ? 'Unlocked' : 'In progress'} • ${overall.totalAnswered}/100`, overall.totalAnswered >= 100),
+    buildAchievementRow('Completed 5 Study Sessions', `${summary.studyHistory.length >= 5 ? 'Unlocked' : 'In progress'} • ${summary.studyHistory.length}/5`, summary.studyHistory.length >= 5),
+    buildAchievementRow('Completed 3 Final Exams', `${(summary.examHistory.length || appState.finalExamsDone || 0) >= 3 ? 'Unlocked' : 'In progress'} • ${(summary.examHistory.length || appState.finalExamsDone || 0)}/3`, (summary.examHistory.length || appState.finalExamsDone || 0) >= 3),
+    buildAchievementRow('Reached 80%+ Overall', `${overall.accuracy >= 80 ? 'Unlocked' : 'In progress'} • ${overall.accuracy}%`, overall.accuracy >= 80)
+  ];
+  const achWrap = document.getElementById('dashboard-achievements');
+  if (achWrap) achWrap.innerHTML = achievements.join('');
+}
+window.renderDashboardPage = renderDashboardPage;
+
+function dashboardResumeStudy() {
+  if (appState.currentTopicMeta && Array.isArray(appState.currentTopicQuestions) && appState.currentTopicQuestions.length) {
+    renderStudyQuestion();
+    navigateTo('study');
+    return;
+  }
+  if (appState.selectedSubjectId && appState.selectedTopicId) {
+    selectTopic(appState.selectedSubjectId, appState.selectedTopicId);
+    return;
+  }
+  navigateTo('subjects');
+}
+window.dashboardResumeStudy = dashboardResumeStudy;
+
+function dashboardOpenWeakest() {
+  const summary = summarizeDashboard();
+  const weakest = summary.weakestTopic;
+  if (!weakest) {
+    navigateTo('subjects');
+    return;
+  }
+  selectTopic(weakest.subjectId, weakest.id);
+}
+window.dashboardOpenWeakest = dashboardOpenWeakest;
+
+function logCurrentAttempt() {
+  const meta = appState.currentTopicMeta;
+  if (!meta || appState.currentSessionLogged) return;
+  const questions = getActiveStudyQuestions();
+  if (!questions.length) return;
+  const results = appState.studyResults?.[meta.id] || {};
+  const total = questions.length;
+  const correct = questions.filter(q => results[q.id] === true).length;
+  const wrong = questions.filter(q => results[q.id] === false).length;
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+  appState.attemptHistory = Array.isArray(appState.attemptHistory) ? appState.attemptHistory : [];
+  appState.attemptHistory.unshift({
+    id: appState.currentSessionId || createSessionId(),
+    type: 'study',
+    subjectId: meta.subjectId,
+    subjectName: meta.subjectName,
+    topicId: meta.id,
+    topicName: meta.name,
+    setIndex: appState.currentSetIndex,
+    mode: appState.studyMode,
+    total,
+    correct,
+    wrong,
+    accuracy,
+    createdAt: new Date().toISOString()
+  });
+  appState.attemptHistory = appState.attemptHistory.slice(0, 60);
+  appState.currentSessionLogged = true;
+  saveState();
 }
 
 function slugify(value = '') {
@@ -297,7 +628,7 @@ async function loadTopicQuestions(subjectId, topicId) {
   };
   appState.currentTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
   appState.currentSetIndex = 0;
-  appState.currentQuestionIndex = 0;
+  beginStudySession('set');
   if (!appState.studyResults[topicId]) appState.studyResults[topicId] = {};
   saveState();
   renderSetsPage();
@@ -390,9 +721,8 @@ function formatType(type = '') {
 
 function startSet(index = 0) {
   appState.currentSetIndex = index;
-  appState.currentQuestionIndex = 0;
-  appState.studyMode = 'set';
   appState.retryQuestionIds = [];
+  beginStudySession('set');
   saveState();
   renderStudyQuestion();
   navigateTo('study');
@@ -520,6 +850,7 @@ function nextQuestion() {
     saveState();
     renderStudyQuestion();
   } else {
+    logCurrentAttempt();
     saveState();
     renderReviewPage();
     navigateTo('review');
@@ -538,9 +869,8 @@ function retryWrongQuestions() {
     return;
   }
   resetQuestionsAttempt(wrongIds);
-  appState.studyMode = 'wrong';
   appState.retryQuestionIds = wrongIds;
-  appState.currentQuestionIndex = 0;
+  beginStudySession('wrong');
   saveState();
   renderStudyQuestion();
   navigateTo('study');
@@ -551,9 +881,8 @@ function retakeCurrentSet() {
   const setQuestions = getCurrentSetQuestions();
   if (!setQuestions.length) return;
   resetQuestionsAttempt(setQuestions.map(q => q.id));
-  appState.studyMode = 'set';
   appState.retryQuestionIds = [];
-  appState.currentQuestionIndex = 0;
+  beginStudySession('set');
   saveState();
   renderStudyQuestion();
   navigateTo('study');
@@ -794,4 +1123,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   if (appState.currentPage === 'sets') renderSetsPage();
   if (appState.currentPage === 'study') renderStudyQuestion();
   if (appState.currentPage === 'review') renderReviewPage();
+  if (appState.currentPage === 'dashboard') renderDashboardPage();
 });
