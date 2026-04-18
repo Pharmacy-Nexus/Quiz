@@ -51,10 +51,8 @@ async function getRepoFile(path) {
   const file = await gh(path);
   return {
     sha: file.sha,
-    json: JSON.parse(decodeBase64Unicode(file.content.replace(/
-/g, ''))),
-    raw: decodeBase64Unicode(file.content.replace(/
-/g, ''))
+    json: JSON.parse(decodeBase64Unicode(file.content.replace(/\n/g, ''))),
+    raw: decodeBase64Unicode(file.content.replace(/\n/g, ''))
   };
 }
 async function putRepoFile(path, contentObject, message, sha) {
