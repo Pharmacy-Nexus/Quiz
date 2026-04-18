@@ -995,125 +995,154 @@ tailwind.config = {
 </div>
 
 <!-- ===================== PAGE: DASHBOARD ===================== -->
+
 <div id="page-dashboard" class="page fade-in">
   <div class="max-w-7xl mx-auto px-6 md:px-12 md:py-12 py-8">
-    <!-- Header -->
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-5 mb-10">
-      <div>
-        <h1 class="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-2" style="letter-spacing:-0.02em">Student Dashboard</h1>
-        <p class="text-on-surface-variant text-base">Performance metrics and strategic study pathways.</p>
-      </div>
-      <div class="bg-surface-container-low px-5 py-2.5 rounded-full flex items-center gap-2">
-        <div class="w-2.5 h-2.5 rounded-full bg-secondary"></div>
-        <span class="text-xs font-bold text-on-surface uppercase tracking-widest">Term 3 Progress</span>
-      </div>
-    </div>
-    <!-- CTA Buttons -->
-    <div class="flex flex-wrap gap-3 mb-10">
-      <button onclick="navigateTo('study')" class="bg-primary text-on-primary px-6 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">
-        <span class="material-symbols-outlined text-base">play_arrow</span> Resume Study
-      </button>
-      <button class="bg-surface-container-lowest text-tertiary px-6 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors border border-outline-variant/15 flex items-center gap-2">
-        <span class="material-symbols-outlined text-base">report</span> Weakest Topic
-      </button>
-      <button onclick="navigateTo('saved')" class="bg-surface-container-lowest text-primary px-6 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors border border-outline-variant/15 flex items-center gap-2">
-        <span class="material-symbols-outlined text-base">bookmark</span> Saved & Notes
-      </button>
-    </div>
-    <!-- Bento Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-      <!-- Mastery KPI -->
-      <div class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-xl p-8 md:p-10 ambient-shadow ghost-border relative overflow-hidden flex flex-col justify-between">
-        <div class="absolute top-0 right-0 w-64 h-64 bg-primary-container opacity-10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
-        <div class="flex justify-between items-start mb-8 relative z-10">
-          <div>
-            <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Global Mastery Index</p>
-            <h2 class="text-7xl font-black text-primary leading-none">6<span class="text-3xl text-tertiary ml-1">%</span></h2>
+    <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8 lg:p-10 relative overflow-hidden mb-8">
+      <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_right,rgba(215,177,75,0.09),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(0,21,27,0.05),transparent_28%)]"></div>
+      <div class="relative z-10">
+        <span class="inline-flex items-center rounded-full bg-[#f8f1d8] text-primary px-4 py-2 text-xs font-bold tracking-wide mb-5">Student Dashboard</span>
+        <h1 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight mb-3" style="letter-spacing:-0.02em">Your performance at a glance</h1>
+        <p class="text-on-surface-variant text-base md:text-lg max-w-3xl leading-relaxed mb-8">Provides continuous performance tracking, identifying core weaknesses and suggesting targeted interventions for optimization.</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-4 flex flex-col items-start gap-4">
+            <div class="relative w-40 h-40">
+              <svg viewBox="0 0 120 120" class="w-full h-full">
+                <circle cx="60" cy="60" r="48" stroke="#e6ebf2" stroke-width="10" fill="none"></circle>
+                <circle id="dashboard-overall-ring" cx="60" cy="60" r="48" stroke="#d7b14b" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="0 999" transform="rotate(-90 60 60)"></circle>
+              </svg>
+              <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <div id="dashboard-overall-value" class="text-5xl font-black text-primary leading-none">0%</div>
+                <div class="text-xs font-bold uppercase tracking-[0.25em] text-on-surface-variant mt-2">Overall</div>
+              </div>
+            </div>
+            <div id="dashboard-overall-stage" class="inline-flex items-center rounded-full bg-surface-container-low px-4 py-2 text-sm font-bold text-primary">Just getting started</div>
           </div>
-          <div class="bg-tertiary/10 text-tertiary px-4 py-2 rounded-full font-bold text-sm flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1">trending_up</span> In Progress
-          </div>
-        </div>
-        <!-- Abstract bar chart -->
-        <div class="relative h-24 w-full flex items-end gap-2 z-10">
-          <div class="flex-1 bg-surface-container-high rounded-t-lg" style="height:40%"></div>
-          <div class="flex-1 bg-surface-container-high rounded-t-lg" style="height:55%"></div>
-          <div class="flex-1 bg-surface-container-high rounded-t-lg" style="height:35%"></div>
-          <div class="flex-1 bg-surface-container-high rounded-t-lg" style="height:70%"></div>
-          <div class="flex-1 bg-surface-container-high rounded-t-lg" style="height:50%"></div>
-          <div class="flex-1 bg-primary rounded-t-lg relative group" style="height:6%">
-            <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-surface text-primary px-2 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap ambient-shadow">Now: 6%</div>
+
+          <div class="lg:col-span-8">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-lg font-semibold text-primary">Overall mastery progress</span>
+              <span id="dashboard-overall-progress-label" class="text-lg font-bold text-primary">0%</span>
+            </div>
+            <div class="w-full h-3 bg-surface-container rounded-full overflow-hidden mb-3">
+              <div id="dashboard-overall-progress-bar" class="h-full rounded-full bg-gradient-to-r from-[#d7b14b] to-[#e8c765]" style="width:0%"></div>
+            </div>
+            <p id="dashboard-overall-delta" class="text-sm md:text-base font-bold text-error mb-8">Build a few sessions to unlock trend tracking.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <button id="dashboard-resume-btn" onclick="dashboardResumeStudy()" class="bg-[#d7b14b] text-primary px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(215,177,75,0.25)] hover:scale-[0.99] transition-transform">Resume Study</button>
+              <button id="dashboard-weakest-btn" onclick="dashboardOpenWeakest()" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Weakest Topic</button>
+              <button onclick="navigateTo('saved')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Saved &amp; Notes</button>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Priority Action -->
-      <div class="col-span-1 md:col-span-4 bg-primary text-on-primary rounded-xl p-8 relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-transform cursor-pointer" onclick="navigateTo('topics')">
-        <div class="absolute inset-0 bg-gradient-to-br from-primary-container to-primary opacity-80 pointer-events-none"></div>
+    </section>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
+      <section id="dashboard-next-card" class="lg:col-span-5 rounded-[2rem] bg-primary text-on-primary p-6 md:p-7 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-container/80 to-primary pointer-events-none"></div>
         <div class="relative z-10">
-          <div class="flex items-center gap-2 mb-5">
-            <span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings:'FILL' 1">vital_signs</span>
-            <span class="text-xs font-bold uppercase tracking-widest text-tertiary-fixed">Priority Action</span>
-          </div>
-          <h3 class="text-lg font-bold mb-3 leading-tight">Complete Antibiotics<br/>Study Set 2</h3>
-          <p class="text-sm text-on-primary/80 mb-6 leading-relaxed">Only 5 questions remain. Your current accuracy is 6% — focused review recommended.</p>
+          <p class="text-sm text-on-primary/75 mb-3">Recommended next move</p>
+          <h2 id="dashboard-next-title" class="text-3xl font-extrabold tracking-tight mb-3">—</h2>
+          <p id="dashboard-next-meta" class="text-on-primary/80 text-sm md:text-base leading-relaxed mb-6">No tracked topic yet.</p>
+          <button id="dashboard-next-action" onclick="dashboardOpenWeakest()" class="bg-[#16356f] text-white px-5 py-3 rounded-xl font-bold text-sm hover:opacity-95 transition-opacity">Open Topic</button>
         </div>
-        <div class="relative z-10 flex items-center justify-between text-tertiary-fixed font-bold">
-          <span class="text-sm">Begin Now</span>
-          <span class="material-symbols-outlined">arrow_forward</span>
-        </div>
+      </section>
+
+      <section id="dashboard-resume-card" class="lg:col-span-7 rounded-[2rem] bg-surface-container-lowest p-6 md:p-7 ambient-shadow ghost-border">
+        <p class="text-sm text-on-surface-variant mb-3">Continue where you left off</p>
+        <h2 id="dashboard-resume-title" class="text-3xl font-extrabold tracking-tight text-primary mb-3">No active topic yet</h2>
+        <p id="dashboard-resume-meta" class="text-on-surface-variant text-sm md:text-base leading-relaxed mb-6">Start any topic and your next resume point will appear here.</p>
+        <button onclick="dashboardResumeStudy()" class="bg-surface text-primary px-5 py-3 rounded-xl font-bold text-sm border border-outline-variant/20 hover:bg-surface-container transition-colors">Resume Now</button>
+      </section>
+    </div>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+      <div class="bg-surface-container-lowest rounded-[1.75rem] p-6 ambient-shadow ghost-border">
+        <p class="text-sm text-on-surface-variant mb-2">Overall Success Rate</p>
+        <p id="dashboard-metric-success" class="text-5xl font-black text-primary">0%</p>
+        <p class="text-xs text-on-surface-variant mt-3">Across all tracked study and exam attempts</p>
       </div>
-      <!-- Achievements -->
-      <div class="col-span-1 md:col-span-5 bg-surface-container-low rounded-xl p-8">
-        <h3 class="text-lg font-bold text-primary mb-5">Achievements</h3>
-        <div class="space-y-3">
-          <div class="bg-surface-container-lowest p-4 rounded-xl flex items-center gap-4 ghost-border">
-            <div class="bg-tertiary/10 p-3 rounded-full text-tertiary"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">workspace_premium</span></div>
-            <div><h4 class="font-bold text-primary text-sm">First Set Completed</h4><p class="text-xs text-on-surface-variant">Finished Antibiotics Set 1</p></div>
-          </div>
-          <div class="bg-surface-container-lowest p-4 rounded-xl flex items-center gap-4 ghost-border">
-            <div class="bg-primary-fixed/50 p-3 rounded-full text-on-primary-fixed"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">save</span></div>
-            <div><h4 class="font-bold text-primary text-sm">Knowledge Builder</h4><p class="text-xs text-on-surface-variant">Saved 12 questions</p></div>
-          </div>
-          <div class="bg-surface-container-lowest p-4 rounded-xl flex items-center gap-4 ghost-border opacity-50">
-            <div class="bg-surface-container-high p-3 rounded-full text-outline"><span class="material-symbols-outlined">emoji_events</span></div>
-            <div><h4 class="font-bold text-on-surface-variant text-sm">Master Pharmacologist</h4><p class="text-xs text-outline">Score 80%+ on Pharmacology</p></div>
-          </div>
-        </div>
+      <div class="bg-surface-container-lowest rounded-[1.75rem] p-6 ambient-shadow ghost-border">
+        <p class="text-sm text-on-surface-variant mb-2">Total Solved Questions</p>
+        <p id="dashboard-metric-solved" class="text-5xl font-black text-primary">0</p>
+        <p class="text-xs text-on-surface-variant mt-3">Questions answered inside study and retry flows</p>
       </div>
-      <!-- Discipline Breakdown -->
-      <div class="col-span-1 md:col-span-7 bg-surface-container-lowest rounded-xl p-8 ambient-shadow ghost-border">
-        <div class="flex justify-between items-center mb-6">
-          <h3 class="text-lg font-bold text-primary">Discipline Breakdown</h3>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="space-y-2">
-            <div class="flex justify-between text-sm font-bold text-primary"><span>Antibiotics</span><span>6%</span></div>
-            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden"><div class="bg-secondary h-full rounded-full" style="width:6%"></div></div>
-          </div>
-          <div class="space-y-2">
-            <div class="flex justify-between text-sm font-bold text-primary"><span>Sedatives</span><span>0%</span></div>
-            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden"><div class="bg-tertiary h-full rounded-full" style="width:0%"></div></div>
-          </div>
-          <div class="space-y-2">
-            <div class="flex justify-between text-sm font-bold text-primary"><span>Pharmacokinetics</span><span>0%</span></div>
-            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden"><div class="bg-primary-container h-full rounded-full" style="width:0%"></div></div>
-          </div>
-          <div class="space-y-2">
-            <div class="flex justify-between text-sm font-bold text-primary"><span>Final Exams</span><span>34%</span></div>
-            <div class="w-full bg-surface-container h-2 rounded-full overflow-hidden"><div class="bg-primary h-full rounded-full" style="width:34%"></div></div>
-          </div>
-        </div>
+      <div class="bg-surface-container-lowest rounded-[1.75rem] p-6 ambient-shadow ghost-border">
+        <p class="text-sm text-on-surface-variant mb-2">Study Sessions</p>
+        <p id="dashboard-metric-sessions" class="text-5xl font-black text-primary">0</p>
+        <p class="text-xs text-on-surface-variant mt-3">Focused practice sessions completed</p>
       </div>
-      <!-- Key Metrics -->
-      <div class="col-span-1 md:col-span-12 grid grid-cols-2 md:grid-cols-4 gap-5">
-        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow text-center"><p class="text-2xl font-black text-primary">6%</p><p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Success Rate</p></div>
-        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow text-center"><p class="text-2xl font-black text-primary">30</p><p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Questions Solved</p></div>
-        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow text-center"><p class="text-2xl font-black text-primary">2</p><p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Study Sessions</p></div>
-        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow text-center"><p class="text-2xl font-black text-tertiary">2</p><p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Final Exams Done</p></div>
+      <div class="bg-surface-container-lowest rounded-[1.75rem] p-6 ambient-shadow ghost-border">
+        <p class="text-sm text-on-surface-variant mb-2">Final Exams Completed</p>
+        <p id="dashboard-metric-finals" class="text-5xl font-black text-primary">0</p>
+        <p class="text-xs text-on-surface-variant mt-3">Timed mixed exams finished so far</p>
       </div>
     </div>
+
+    <section class="bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow ghost-border mb-8">
+      <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Performance breakdown</h2>
+      <p class="text-on-surface-variant text-base mb-8">A cleaner read on what is going well and what needs recovery.</p>
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+        <div class="rounded-[1.5rem] border border-outline-variant/20 p-5 bg-surface">
+          <h3 class="text-2xl font-bold text-primary mb-5">Strength Areas</h3>
+          <div id="dashboard-strength-list" class="space-y-4"></div>
+        </div>
+        <div class="rounded-[1.5rem] border border-outline-variant/20 p-5 bg-surface">
+          <h3 class="text-2xl font-bold text-primary mb-5">Weak Areas</h3>
+          <div id="dashboard-weak-list" class="space-y-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 mb-8">
+      <section class="xl:col-span-7 bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow ghost-border">
+        <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Recent activity</h2>
+        <p class="text-on-surface-variant text-base mb-6">Your latest study sessions and final exam attempts.</p>
+        <div id="dashboard-recent-list" class="space-y-4"></div>
+      </section>
+
+      <section class="xl:col-span-5 bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow ghost-border">
+        <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Smart insights</h2>
+        <p class="text-on-surface-variant text-base mb-6">Small signals that help you decide what to do next.</p>
+        <div id="dashboard-chart-wrap" class="rounded-[1.5rem] bg-surface p-4 border border-outline-variant/20 mb-5"></div>
+        <div class="space-y-4">
+          <div class="rounded-[1.25rem] bg-surface p-4 border border-outline-variant/20"><p class="text-sm text-on-surface-variant mb-1">Last 5 sessions average</p><p id="dashboard-last5" class="text-4xl font-black text-primary">0%</p></div>
+          <div class="rounded-[1.25rem] bg-surface p-4 border border-outline-variant/20"><p class="text-sm text-on-surface-variant mb-1">Study sessions average</p><p id="dashboard-study-avg" class="text-4xl font-black text-primary">0%</p></div>
+          <div class="rounded-[1.25rem] bg-surface p-4 border border-outline-variant/20"><p class="text-sm text-on-surface-variant mb-1">Final exams average</p><p id="dashboard-final-avg" class="text-4xl font-black text-primary">0%</p></div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-[1.25rem] bg-surface p-4 border border-outline-variant/20"><p class="text-sm text-on-surface-variant mb-1">Saved questions</p><p id="dashboard-saved-qs" class="text-4xl font-black text-primary">0</p></div>
+            <div class="rounded-[1.25rem] bg-surface p-4 border border-outline-variant/20"><p class="text-sm text-on-surface-variant mb-1">Saved notes</p><p id="dashboard-saved-notes" class="text-4xl font-black text-primary">0</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow ghost-border mb-8">
+      <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Achievements</h2>
+      <p class="text-on-surface-variant text-base mb-6">Visible milestones that make the progress feel rewarding.</p>
+      <div id="dashboard-achievements" class="space-y-4"></div>
+    </section>
+
+    <section class="bg-surface-container-lowest rounded-[2rem] p-6 md:p-8 ambient-shadow ghost-border mb-8">
+      <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Quick actions</h2>
+      <p class="text-on-surface-variant text-base mb-6">Open the most useful next page in one tap.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <button onclick="dashboardResumeStudy()" class="bg-[#d7b14b] text-primary px-6 py-4 rounded-2xl font-bold text-base shadow-[0_10px_24px_rgba(215,177,75,0.25)] hover:scale-[0.99] transition-transform">Resume Study</button>
+        <button onclick="navigateTo('finalexam')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Start Final Exam</button>
+        <button onclick="navigateTo('saved')" class="bg-surface text-primary px-6 py-4 rounded-2xl font-bold text-base border border-outline-variant/20 hover:bg-surface-container transition-colors">Open Saved Questions</button>
+      </div>
+    </section>
+
+    <footer class="border-t border-outline-variant/20 pt-8 text-sm text-on-surface-variant">
+      <p><span class="font-bold text-primary">Contact:</span> pharmacynexusofficial@gmail.com</p>
+      <p>For feedback, collaboration, or educational contributions, feel free to contact us.</p>
+    </footer>
   </div>
 </div>
+
 
 <!-- ===================== PAGE: FINAL EXAM ===================== -->
 <div id="page-finalexam" class="page fade-in">
