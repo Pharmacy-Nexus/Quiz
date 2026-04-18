@@ -534,9 +534,13 @@ tailwind.config = {
   <div class="max-w-6xl mx-auto px-6 md:px-12 py-10">
     <div class="flex justify-between items-center mb-6">
       <h2 class="text-2xl font-bold text-primary tracking-tight">Curriculum Modules</h2>
-      <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">8 Topics</span>
+      <span id="topics-available-count" class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">8 Topics</span>
     </div>
-    <div class="flex flex-col gap-5">
+    <div class="relative w-full md:w-96 mb-8 group">
+      <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline group-focus-within:text-tertiary transition-colors">search</span>
+      <input id="topic-search" class="w-full bg-surface-container-low hover:bg-surface-container-highest focus:bg-surface-container-lowest text-primary placeholder-outline border-none rounded-xl py-4 pl-12 pr-4 text-sm font-medium transition-all focus:ring-0 focus:border-b-2 focus:border-tertiary" placeholder="Search topics…" type="text"/>
+    </div>
+    <div id="topics-list" class="flex flex-col gap-5">
       <!-- Topic 1: Antibiotics (in progress) -->
       <article class="group bg-surface-container-lowest rounded-xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start relative overflow-hidden hover:shadow-[0_10px_30px_rgba(0,21,27,0.06)] transition-shadow cursor-pointer" onclick="navigateTo('sets')">
         <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary opacity-100 rounded-l-xl"></div>
@@ -643,36 +647,36 @@ tailwind.config = {
     <div class="bg-gradient-to-br from-primary to-primary-container rounded-xl p-8 md:p-12 text-on-primary mb-8 relative overflow-hidden flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
       <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none" style="background:radial-gradient(ellipse at top right,rgba(255,224,136,0.3),transparent)"></div>
       <div class="relative z-10 max-w-xl">
-        <span class="font-label text-xs uppercase tracking-widest text-primary-fixed mb-3 block">Pharmacology • Topic 1</span>
-        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-3" style="letter-spacing:-0.02em">Antibiotics</h1>
-        <p class="text-primary-fixed-dim text-base leading-relaxed">Mechanisms, spectrum, resistance patterns, and clinical indications for major antibiotic classes.</p>
+        <span id="sets-subject-topic-label" class="font-label text-xs uppercase tracking-widest text-primary-fixed mb-3 block">Pharmacology • Topic 1</span>
+        <h1 id="sets-topic-title" class="text-4xl md:text-5xl font-extrabold tracking-tight mb-3" style="letter-spacing:-0.02em">Antibiotics</h1>
+        <p id="sets-topic-description" class="text-primary-fixed-dim text-base leading-relaxed">Mechanisms, spectrum, resistance patterns, and clinical indications for major antibiotic classes.</p>
         <div class="flex flex-wrap gap-3 mt-5">
-          <span class="px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-bold text-tertiary-fixed border border-white/20">5% Accuracy</span>
-          <span class="px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-bold text-on-primary border border-white/20">100% Complete</span>
+          <span id="sets-accuracy-pill" class="px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-bold text-tertiary-fixed border border-white/20">5% Accuracy</span>
+          <span id="sets-complete-pill" class="px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-bold text-on-primary border border-white/20">100% Complete</span>
         </div>
       </div>
       <div class="relative z-10 bg-primary-container/50 backdrop-blur-md p-5 rounded-xl border border-white/15 text-right flex-shrink-0">
         <p class="text-xs text-primary-fixed uppercase tracking-widest mb-1">Overall Mastery</p>
-        <p class="text-4xl font-black text-tertiary-fixed">5%</p>
+        <p id="sets-mastery-score" class="text-4xl font-black text-tertiary-fixed">5%</p>
       </div>
     </div>
 
     <!-- Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
-        <p class="text-2xl font-black text-secondary">18</p>
+        <p id="sets-easy-count" class="text-2xl font-black text-secondary">18</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Easy</p>
       </div>
       <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
-        <p class="text-2xl font-black text-tertiary">10</p>
+        <p id="sets-medium-count" class="text-2xl font-black text-tertiary">10</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Medium</p>
       </div>
       <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
-        <p class="text-2xl font-black text-error">7</p>
+        <p id="sets-hard-count" class="text-2xl font-black text-error">7</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Hard</p>
       </div>
       <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
-        <p class="text-2xl font-black text-primary">35</p>
+        <p id="sets-total-count" class="text-2xl font-black text-primary">35</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Total Qs</p>
       </div>
     </div>
@@ -686,15 +690,15 @@ tailwind.config = {
             <path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
             <path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="8 92" stroke-width="3"></path>
           </svg>
-          <div class="absolute inset-0 flex items-center justify-center text-xs font-black text-primary">8%</div>
+          <div id="sets-resume-progress-text" class="absolute inset-0 flex items-center justify-center text-xs font-black text-primary">8%</div>
         </div>
         <div>
           <span class="inline-block px-2.5 py-0.5 bg-tertiary/10 text-tertiary rounded-full text-xs font-bold uppercase tracking-widest mb-1">In Progress</span>
-          <h3 class="text-lg font-bold text-primary">Resume from Question 8</h3>
-          <p class="text-sm text-on-surface-variant">Set 1 • 8 of 30 answered</p>
+          <h3 id="sets-resume-title" class="text-lg font-bold text-primary">Resume from Question 8</h3>
+          <p id="sets-resume-subtitle" class="text-sm text-on-surface-variant">Set 1 • 8 of 30 answered</p>
         </div>
       </div>
-      <button onclick="navigateTo('study')" class="bg-primary text-on-primary px-7 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">
+      <button id="sets-resume-btn" onclick="startSet(0)" class="bg-primary text-on-primary px-7 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">
         Resume Set <span class="material-symbols-outlined text-base">arrow_forward</span>
       </button>
     </div>
@@ -702,9 +706,9 @@ tailwind.config = {
     <!-- Study Sets -->
     <div class="flex justify-between items-center mb-5">
       <h2 class="text-xl font-bold text-primary tracking-tight">Study Sets</h2>
-      <span class="text-xs text-on-surface-variant font-bold uppercase tracking-widest">2 Sets</span>
+      <span id="sets-count-label" class="text-xs text-on-surface-variant font-bold uppercase tracking-widest">2 Sets</span>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
+    <div id="sets-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
       <!-- Set 1 -->
       <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow group cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('study')">
         <div class="flex justify-between items-start mb-4">
@@ -767,7 +771,7 @@ tailwind.config = {
           <span class="material-symbols-outlined">arrow_back</span>
         </button>
         <div class="h-4 w-px bg-outline-variant/30 mx-1"></div>
-        <span class="font-bold text-primary tracking-tight text-sm md:text-base">Antibiotics • Set 1</span>
+        <span id="study-header-topic" class="font-bold text-primary tracking-tight text-sm md:text-base">Antibiotics • Set 1</span>
       </div>
       <div class="flex items-center gap-4">
         <div class="text-right">
@@ -782,7 +786,7 @@ tailwind.config = {
       <div class="lg:col-span-7 flex flex-col gap-8">
         <!-- Progress Bar -->
         <div>
-          <div class="flex justify-between text-xs text-on-surface-variant mb-2"><span>Progress</span><span>27%</span></div>
+          <div class="flex justify-between text-xs text-on-surface-variant mb-2"><span>Progress</span><span id="study-progress-percent">27%</span></div>
           <div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
             <div id="study-progress" class="bg-primary h-2 rounded-full progress-bar" style="width:27%"></div>
           </div>
@@ -792,7 +796,7 @@ tailwind.config = {
           <div class="flex items-center justify-between">
             <div class="flex gap-2">
               <span class="px-3 py-1 rounded-full bg-error-container/40 text-on-error-container text-xs font-bold uppercase tracking-wider" id="study-difficulty">HARD</span>
-              <span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-wider">MCQ</span>
+              <span id="study-type" class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-wider">MCQ</span>
             </div>
             <div class="flex gap-2">
               <button id="save-btn" onclick="toggleSave()" class="p-2 rounded-full hover:bg-surface-container-low transition-colors text-on-surface-variant" title="Save question">
@@ -807,6 +811,8 @@ tailwind.config = {
             A 68-year-old male with CKD Stage 3 requires DOAC therapy for non-valvular atrial fibrillation. Which agent requires the most significant dose adjustment based on renal function?
           </h2>
         </article>
+        <div id="study-case" class="hidden bg-surface-container-low rounded-xl p-5 text-on-surface-variant text-sm leading-relaxed border border-outline-variant/10"></div>
+        <div id="study-image-wrap" class="hidden overflow-hidden rounded-xl border border-outline-variant/15 bg-surface-container-lowest"><img id="study-image" src="" alt="Question image" class="w-full h-auto object-contain max-h-[420px]"/></div>
         <!-- Options -->
         <div class="flex flex-col gap-3" id="study-options">
           <label class="answer-option answer-idle group relative flex items-start p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-lowest transition-all cursor-pointer border border-transparent" onclick="selectAnswer(this, false)">
@@ -843,10 +849,10 @@ tailwind.config = {
         </div>
         <!-- Navigation -->
         <div class="flex justify-between items-center mt-2">
-          <button class="flex items-center gap-2 text-on-surface-variant hover:text-primary font-bold text-sm transition-colors">
+          <button id="study-prev-btn" class="flex items-center gap-2 text-on-surface-variant hover:text-primary font-bold text-sm transition-colors">
             <span class="material-symbols-outlined">arrow_back</span> Previous
           </button>
-          <button onclick="nextQuestion()" class="bg-primary text-on-primary px-7 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">
+          <button id="study-next-btn" onclick="nextQuestion()" class="bg-primary text-on-primary px-7 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">
             Next Question <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
