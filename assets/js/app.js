@@ -30,7 +30,8 @@ const DEFAULT_STATE = {
     subjectId: null,
     topicSubjectId: null,
     selectedTopicIds: [],
-    flags: { timed: true, hidden: true, review: true, retry: true }
+    flags: { timed: true, hidden: true, review: true, retry: true },
+    topicSearch: ''
   }
 };
 
@@ -1145,6 +1146,54 @@ function getExamPoolMeta() {
   return { pool, selectionTitle, selectionTopics };
 }
 
+
+function getExamModeTheme(mode) {
+  return mode === 'single_topics'
+    ? {
+        badge: 'bg-emerald-100 text-emerald-800',
+        activeCard: 'bg-emerald-50 border-emerald-300',
+        activeDotBorder: 'border-emerald-600',
+        activeDot: 'bg-emerald-600',
+        focus: ['border-emerald-400', 'ring-emerald-200'],
+        poolCard: 'bg-emerald-50/80',
+        flag: 'bg-emerald-50 border-emerald-300'
+      }
+    : {
+        badge: 'bg-tertiary-fixed/35 text-on-tertiary-fixed',
+        activeCard: 'bg-secondary-container/10 border-tertiary/30',
+        activeDotBorder: 'border-secondary',
+        activeDot: 'bg-secondary',
+        focus: ['border-tertiary', 'ring-tertiary/20'],
+        poolCard: 'bg-secondary-container/20',
+        flag: 'bg-secondary-container/10 border-tertiary/30'
+      };
+}
+
+function applyExamModeTheme() {
+  const eb = appState.examBuilder;
+  const theme = getExamModeTheme(eb.mode);
+  const badge = document.getElementById('exam-mode-badge');
+  if (badge) {
+    badge.className = `inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em] ${theme.badge}`;
+    badge.textContent = eb.mode === 'single_topics' ? 'Single subject + selected topics' : 'Multiple subjects';
+  }
+  const modeSelect = document.getElementById('exam-mode-select');
+  if (modeSelect) {
+    modeSelect.classList.remove('focus:border-tertiary','focus:ring-tertiary/20','focus:border-emerald-400','focus:ring-emerald-200');
+    modeSelect.classList.add(`focus:${theme.focus[0]}`, `focus:${theme.focus[1]}`);
+  }
+  const topicSearch = document.getElementById('exam-topic-search');
+  if (topicSearch) {
+    topicSearch.classList.remove('focus:border-tertiary','focus:ring-tertiary/20','focus:border-emerald-400','focus:ring-emerald-200');
+    topicSearch.classList.add(`focus:${theme.focus[0]}`, `focus:${theme.focus[1]}`);
+  }
+  const poolCard = document.getElementById('exam-pool-title')?.parentElement;
+  if (poolCard) {
+    poolCard.classList.remove('bg-secondary-container/20','bg-emerald-50/80');
+    poolCard.classList.add(theme.poolCard);
+  }
+}
+
 function updateExamScopeButtons() {
   const eb = appState.examBuilder;
   const allBtn = document.getElementById('exam-scope-all');
@@ -1155,12 +1204,17 @@ function updateExamScopeButtons() {
   ];
   config.forEach(([btn, active]) => {
     if (!btn) return;
-    btn.classList.toggle('bg-secondary-container/10', active);
+    const theme = getExamModeTheme(appState.examBuilder.mode);
     btn.classList.toggle('bg-surface-container-low', !active);
-    btn.querySelector('span')?.classList.toggle('border-secondary', active);
+    btn.classList.toggle('bg-secondary-container/10', active && appState.examBuilder.mode !== 'single_topics');
+    btn.classList.toggle('border-tertiary/30', active && appState.examBuilder.mode !== 'single_topics');
+    btn.classList.toggle('bg-emerald-50', active && appState.examBuilder.mode === 'single_topics');
+    btn.classList.toggle('border-emerald-300', active && appState.examBuilder.mode === 'single_topics');
     btn.querySelector('span')?.classList.toggle('border-outline', !active);
+    btn.querySelector('span')?.classList.toggle('border-secondary', active && appState.examBuilder.mode !== 'single_topics');
+    btn.querySelector('span')?.classList.toggle('border-emerald-600', active && appState.examBuilder.mode === 'single_topics');
     const dot = btn.querySelector('span span');
-    if (dot) dot.className = `w-2 h-2 rounded-full ${active ? 'bg-secondary' : 'bg-transparent'}`;
+    if (dot) dot.className = `w-2 h-2 rounded-full ${active ? (appState.examBuilder.mode === 'single_topics' ? 'bg-emerald-600' : 'bg-secondary') : 'bg-transparent'}`;
   });
 }
 
@@ -1168,14 +1222,18 @@ function renderExamTopicsGrid() {
   const grid = document.getElementById('exam-topics-grid');
   if (!grid) return;
   const eb = appState.examBuilder;
+  const searchTerm = (eb.topicSearch || '').trim().toLowerCase();
   const subjectData = PN_DATA.topicsMap.get(eb.topicSubjectId) || { topics: [] };
-  const topics = (subjectData.topics || []).sort((a,b)=>(a.order||999)-(b.order||999));
+  const topics = (subjectData.topics || [])
+    .sort((a,b)=>(a.order||999)-(b.order||999))
+    .filter(topic => !searchTerm || String(topic.name || '').toLowerCase().includes(searchTerm));
+  const isGreen = eb.mode === 'single_topics';
   grid.innerHTML = topics.map(topic => {
     const id = topic.id || slugify(topic.name);
     const checked = eb.selectedTopicIds.includes(id);
     const count = getTopicQuestionCountByDifficulty(topic, eb.difficulty || 'all');
-    return `<label class="rounded-[1.75rem] border border-outline-variant/20 ${checked ? 'bg-secondary-container/10' : 'bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
-  }).join('') || '<div class="text-on-surface-variant text-sm">No topics available for this subject yet.</div>';
+    return `<label class="rounded-[1.75rem] border ${checked ? (isGreen ? 'bg-emerald-50 border-emerald-300' : 'bg-secondary-container/10 border-tertiary/30') : 'border-outline-variant/20 bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
+  }).join('') || `<div class="text-on-surface-variant text-sm rounded-[1.5rem] border border-dashed border-outline-variant/30 bg-surface-container-low px-5 py-6">${searchTerm ? 'No topics matched your search in this subject.' : 'No topics available for this subject yet.'}</div>`;
 }
 
 function renderExamFlagButtons() {
@@ -1189,9 +1247,11 @@ function renderExamFlagButtons() {
     const el = document.getElementById(id);
     if (!el) return;
     const active = !!flags[key];
-    el.classList.toggle('bg-secondary-container/10', active);
+    el.classList.toggle('bg-secondary-container/10', active && appState.examBuilder.mode !== 'single_topics');
+    el.classList.toggle('bg-emerald-50', active && appState.examBuilder.mode === 'single_topics');
     el.classList.toggle('bg-surface-container-low', !active);
-    el.classList.toggle('border-tertiary/30', active);
+    el.classList.toggle('border-tertiary/30', active && appState.examBuilder.mode !== 'single_topics');
+    el.classList.toggle('border-emerald-300', active && appState.examBuilder.mode === 'single_topics');
   });
 }
 
@@ -1216,6 +1276,7 @@ function refreshExamBuilderPreview() {
   if (multiplePanel) multiplePanel.classList.toggle('hidden', eb.mode !== 'multiple');
   if (topicPanel) topicPanel.classList.toggle('hidden', eb.mode !== 'single_topics');
 
+  applyExamModeTheme();
   updateExamScopeButtons();
   renderExamTopicsGrid();
   renderExamFlagButtons();
@@ -1277,12 +1338,20 @@ function initFinalExamBuilder() {
     subjectEl.addEventListener('change', refreshExamBuilderPreview);
     topicSubjectEl?.addEventListener('change', () => {
       appState.examBuilder.topicSubjectId = topicSubjectEl.value;
+      appState.examBuilder.topicSearch = '';
+      const searchEl = document.getElementById('exam-topic-search');
+      if (searchEl) searchEl.value = '';
       const subjectData = PN_DATA.topicsMap.get(appState.examBuilder.topicSubjectId) || { topics: [] };
       appState.examBuilder.selectedTopicIds = (subjectData.topics || []).map(t => t.id || slugify(t.name));
       refreshExamBuilderPreview();
     });
     document.getElementById('exam-scope-all')?.addEventListener('click', () => { appState.examBuilder.scope = 'all'; refreshExamBuilderPreview(); });
     document.getElementById('exam-scope-single')?.addEventListener('click', () => { appState.examBuilder.scope = 'single'; refreshExamBuilderPreview(); });
+    document.getElementById('exam-topic-search')?.addEventListener('input', (e) => {
+      appState.examBuilder.topicSearch = e.target.value || '';
+      renderExamTopicsGrid();
+      saveState();
+    });
     ['timed','hidden','review','retry'].forEach(key => {
       document.getElementById(`exam-flag-${key}`)?.addEventListener('click', () => {
         appState.examBuilder.flags[key] = !appState.examBuilder.flags[key];
@@ -1299,6 +1368,7 @@ function initFinalExamBuilder() {
   document.getElementById('exam-difficulty-select') && (document.getElementById('exam-difficulty-select').value = eb.difficulty);
   document.getElementById('exam-question-count') && (document.getElementById('exam-question-count').value = eb.questionCount);
   document.getElementById('exam-time-limit') && (document.getElementById('exam-time-limit').value = eb.timeLimit);
+  document.getElementById('exam-topic-search') && (document.getElementById('exam-topic-search').value = eb.topicSearch || '');
   refreshExamBuilderPreview();
 }
 
