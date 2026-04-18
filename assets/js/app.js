@@ -284,3 +284,43 @@ window.addEventListener('DOMContentLoaded', () => {
     originalNavigateTo(appState.currentPage);
   }
 });
+
+
+// ─── Hidden admin entry + lightweight data sync ─────────────────────────────
+const PN_DATA = {
+  subjectsIndex: null
+};
+
+async function loadSubjectsIndex() {
+  try {
+    const res = await fetch('data/subjects/index.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    PN_DATA.subjectsIndex = await res.json();
+    const count = PN_DATA.subjectsIndex.subjects?.length || 0;
+    const hero = document.getElementById('hero-subject-count');
+    const pageCount = document.getElementById('subjects-available-count');
+    if (hero) hero.textContent = count;
+    if (pageCount) pageCount.textContent = `${count} Subjects Available`;
+  } catch (e) {}
+}
+
+function openHiddenAdmin() {
+  const pw = window.prompt('Enter admin password');
+  const configured = window.PN_ADMIN_CONFIG?.adminPassword || 'changeme';
+  if (pw === configured) {
+    window.location.href = 'admin.html';
+  } else if (pw !== null) {
+    window.alert('Wrong password');
+  }
+}
+
+window.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && e.shiftKey && (e.key === '9' || e.code === 'Digit9')) {
+    e.preventDefault();
+    openHiddenAdmin();
+  }
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  loadSubjectsIndex();
+});
