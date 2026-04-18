@@ -1374,16 +1374,6 @@ function initFinalExamBuilder() {
   refreshExamBuilderPreview();
 }
 
-function startConfiguredExam() {
-  refreshExamBuilderPreview();
-  const pool = getExamPoolMeta().pool;
-  if (!pool) {
-    window.alert('No questions are available for the current exam selection yet.');
-    return;
-  }
-  navigateTo('examlive');
-}
-window.startConfiguredExam = startConfiguredExam;
 
 async function loadSubjectsIndex() {
   const index = await fetchJson('data/subjects/index.json');
