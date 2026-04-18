@@ -32,7 +32,9 @@ const DEFAULT_STATE = {
     selectedTopicIds: [],
     flags: { timed: true, hidden: true, review: true, retry: true },
     topicSearch: ''
-  }
+  },
+  currentExamSession: null,
+  reviewContext: 'study'
 };
 
 const PN_DATA = {
@@ -1437,3 +1439,373 @@ window.addEventListener('DOMContentLoaded', async () => {
   if (appState.currentPage === 'review') renderReviewPage();
   if (appState.currentPage === 'dashboard') renderDashboardPage();
 });
+
+
+function normalizeQuestionForExam(q, topicMeta = {}, subjectMeta = {}) {
+  const type = String(q.type || (Array.isArray(q.options) && q.options.length === 2 ? 'true_false' : 'mcq')).toLowerCase();
+  let options = Array.isArray(q.options) ? [...q.options] : [];
+  if (!options.length && (type === 'true_false' || type === 'truefalse' || type === 'tf')) options = ['True', 'False'];
+  return {
+    ...q,
+    id: q.id || `${topicMeta.id || slugify(topicMeta.name || 'topic')}-${Math.random().toString(36).slice(2,8)}`,
+    type,
+    options,
+    questionText: q.questionText || q.question || q.text || '',
+    caseText: q.caseText || q.case || '',
+    imageUrl: q.imageUrl || q.image || '',
+    explanation: q.explanation || '',
+    difficulty: String(q.difficulty || 'easy').toLowerCase(),
+    includeInFinal: q.includeInFinal !== false,
+    subjectId: subjectMeta.id || q.subjectId,
+    subjectName: subjectMeta.name || q.subjectName || '',
+    topicId: topicMeta.id || q.topicId,
+    topicName: topicMeta.name || q.topicName || ''
+  };
+}
+
+async function getTopicQuestionsForExam(subjectId, topicMeta) {
+  if (!topicMeta?.file) return [];
+  if (!PN_DATA.topicFilesCache.has(topicMeta.file)) {
+    PN_DATA.topicFilesCache.set(topicMeta.file, await fetchJson(topicMeta.file));
+  }
+  const raw = PN_DATA.topicFilesCache.get(topicMeta.file) || {};
+  const subjectMeta = PN_DATA.subjectsMap.get(subjectId) || {};
+  return Array.isArray(raw.questions) ? raw.questions.map(q => normalizeQuestionForExam(q, { ...topicMeta, id: topicMeta.id || slugify(topicMeta.name) }, subjectMeta)) : [];
+}
+
+function shuffleArray(arr = []) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+async function buildConfiguredExamQuestions() {
+  ensureExamBuilderDefaults();
+  const eb = appState.examBuilder;
+  const subjects = PN_DATA.subjectsIndex?.subjects || [];
+  let subjectIds = [];
+  if (eb.mode === 'single_topics') subjectIds = eb.topicSubjectId ? [eb.topicSubjectId] : [];
+  else if (eb.scope === 'single') subjectIds = eb.subjectId ? [eb.subjectId] : [];
+  else subjectIds = subjects.map(s => s.id);
+
+  let pool = [];
+  for (const subjectId of subjectIds) {
+    const subjectData = PN_DATA.topicsMap.get(subjectId) || { topics: [] };
+    let topicList = [...(subjectData.topics || [])];
+    if (eb.mode === 'single_topics') {
+      const allowed = new Set(eb.selectedTopicIds || []);
+      topicList = topicList.filter(t => allowed.has(t.id || slugify(t.name)));
+    }
+    for (const topic of topicList) {
+      const questions = await getTopicQuestionsForExam(subjectId, topic);
+      pool.push(...questions);
+    }
+  }
+
+  pool = pool.filter(q => q.includeInFinal !== false);
+  if (eb.difficulty !== 'all') pool = pool.filter(q => String(q.difficulty || '').toLowerCase() === eb.difficulty);
+  pool = shuffleArray(pool);
+  return pool.slice(0, Math.min(pool.length, Number(eb.questionCount || 20)));
+}
+
+function getExamSession() {
+  return appState.currentExamSession || null;
+}
+
+function getExamRemainingMs(session) {
+  if (!session) return 0;
+  return Math.max(0, Number(session.endsAt || 0) - Date.now());
+}
+
+let examTimerRef = null;
+function startExamTimer() {
+  clearInterval(examTimerRef);
+  examTimerRef = setInterval(() => {
+    const session = getExamSession();
+    if (!session) return clearInterval(examTimerRef);
+    const remaining = getExamRemainingMs(session);
+    const el = document.getElementById('exam-time-value');
+    if (el) el.textContent = formatExamTime(remaining);
+    if (remaining <= 0) {
+      clearInterval(examTimerRef);
+      submitCurrentExam(true);
+    }
+  }, 1000);
+}
+
+function formatExamTime(ms) {
+  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  const hrs = Math.floor(totalSec / 3600);
+  const mins = Math.floor((totalSec % 3600) / 60);
+  const secs = totalSec % 60;
+  return [hrs, mins, secs].map(v => String(v).padStart(2, '0')).join(':');
+}
+
+async function startConfiguredExam() {
+  refreshExamBuilderPreview();
+  const questions = await buildConfiguredExamQuestions();
+  if (!questions.length) {
+    window.alert('No questions are available for the current exam selection yet.');
+    return;
+  }
+  const eb = appState.examBuilder;
+  appState.currentExamSession = {
+    id: createSessionId(),
+    title: eb.mode === 'single_topics' ? 'Focused Final Exam' : 'Mixed Final Exam',
+    mode: eb.mode,
+    scope: eb.scope,
+    difficulty: eb.difficulty,
+    questionCount: questions.length,
+    requestedQuestionCount: eb.questionCount,
+    timeLimit: eb.timeLimit,
+    questions,
+    answers: {},
+    flagged: [],
+    currentIndex: 0,
+    startedAt: Date.now(),
+    endsAt: Date.now() + Number(eb.timeLimit || 30) * 60 * 1000,
+    hidden: !!eb.flags.hidden,
+    review: !!eb.flags.review,
+    retry: !!eb.flags.retry,
+    subjectLabel: eb.mode === 'single_topics' ? (PN_DATA.subjectsMap.get(eb.topicSubjectId)?.name || 'Single Subject') : (eb.scope === 'single' ? (PN_DATA.subjectsMap.get(eb.subjectId)?.name || 'One Subject') : 'Multiple Subjects'),
+    topicIds: [...(eb.selectedTopicIds || [])]
+  };
+  appState.reviewContext = 'finalExam';
+  saveState();
+  renderExamLivePage();
+  navigateTo('examlive');
+}
+window.startConfiguredExam = startConfiguredExam;
+
+function examSelectAnswer(optionIndex) {
+  const session = getExamSession();
+  if (!session) return;
+  const question = session.questions?.[session.currentIndex];
+  if (!question) return;
+  session.answers[question.id] = Number(optionIndex);
+  appState.currentExamSession = session;
+  saveState();
+  renderExamLivePage();
+}
+window.examSelectAnswer = examSelectAnswer;
+
+function examGoTo(index) {
+  const session = getExamSession();
+  if (!session) return;
+  if (index < 0 || index >= session.questions.length) return;
+  session.currentIndex = index;
+  appState.currentExamSession = session;
+  saveState();
+  renderExamLivePage();
+}
+window.examGoTo = examGoTo;
+
+function examNextQuestion() {
+  const session = getExamSession();
+  if (!session) return;
+  if (session.currentIndex < session.questions.length - 1) session.currentIndex += 1;
+  saveState();
+  renderExamLivePage();
+}
+window.examNextQuestion = examNextQuestion;
+
+function examPreviousQuestion() {
+  const session = getExamSession();
+  if (!session) return;
+  if (session.currentIndex > 0) session.currentIndex -= 1;
+  saveState();
+  renderExamLivePage();
+}
+window.examPreviousQuestion = examPreviousQuestion;
+
+function toggleExamFlagCurrent() {
+  const session = getExamSession();
+  if (!session) return;
+  const q = session.questions?.[session.currentIndex];
+  if (!q) return;
+  const flagged = new Set(session.flagged || []);
+  if (flagged.has(q.id)) flagged.delete(q.id); else flagged.add(q.id);
+  session.flagged = [...flagged];
+  saveState();
+  renderExamLivePage();
+}
+window.toggleExamFlagCurrent = toggleExamFlagCurrent;
+
+function renderExamLivePage() {
+  const page = document.getElementById('page-examlive');
+  const session = getExamSession();
+  if (!page || !session) return;
+  const q = session.questions[session.currentIndex];
+  if (!q) return;
+  const answeredCount = Object.keys(session.answers || {}).length;
+  const remainingCount = Math.max(0, session.questions.length - answeredCount);
+  const currentNumber = session.currentIndex + 1;
+  const remainingMs = getExamRemainingMs(session);
+  const options = Array.isArray(q.options) && q.options.length ? q.options : ['True', 'False'];
+  const selected = session.answers[q.id];
+  const flagSet = new Set(session.flagged || []);
+  const palette = session.questions.map((item, idx) => {
+    const answered = session.answers[item.id] !== undefined;
+    const current = idx === session.currentIndex;
+    const flagged = flagSet.has(item.id);
+    const base = current ? 'bg-primary text-on-primary scale-110' : (answered ? 'bg-primary-fixed text-primary' : 'bg-surface-container-highest text-on-surface-variant');
+    return `<button onclick="examGoTo(${idx})" class="w-10 h-10 rounded-lg ${base} font-bold text-xs flex items-center justify-center hover:opacity-90 relative transition-all">${idx + 1}${flagged ? '<span class="absolute top-0 right-0 w-2 h-2 bg-tertiary rounded-full -mt-0.5 -mr-0.5"></span>' : ''}</button>`;
+  }).join('');
+  const optionCards = options.map((opt, idx) => {
+    const active = Number(selected) === idx;
+    return `<label class="flex items-start gap-4 p-4 rounded-xl ${active ? 'bg-primary-fixed/20 border-2 border-primary' : 'bg-surface-container-lowest border border-outline-variant/15 hover:bg-surface'} cursor-pointer transition-colors"><input ${active ? 'checked' : ''} class="mt-1 text-primary focus:ring-primary" name="exam-q-${currentNumber}" type="radio" onchange="examSelectAnswer(${idx})"/><span class="text-sm ${active ? 'text-primary font-bold' : 'text-on-surface'}">${escapeHtml(opt)}</span></label>`;
+  }).join('');
+  const caseBlock = q.caseText ? `<div class="text-sm text-on-surface leading-relaxed mb-7 space-y-2"><p>${escapeHtml(q.caseText)}</p></div>` : '';
+  const imageBlock = q.imageUrl ? `<div class="mb-7"><img src="${escapeHtml(q.imageUrl)}" alt="Question image" class="w-full max-h-80 object-contain rounded-xl border border-outline-variant/15 bg-surface-container-low"></div>` : '';
+  page.innerHTML = `<div class="max-w-7xl mx-auto px-5 md:px-10 py-8">
+    <div class="flex justify-between items-center mb-8 bg-surface-container-lowest rounded-xl p-4 ambient-shadow">
+      <div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">school</span><span class="font-bold text-primary">${escapeHtml(session.title)} — ${escapeHtml(session.subjectLabel)}</span></div>
+      <div class="flex items-center gap-6">
+        <div class="text-center"><p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Answered</p><p class="font-black text-primary text-lg">${answeredCount}</p></div>
+        <div class="text-center"><p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Remaining</p><p class="font-black text-on-surface-variant text-lg">${remainingCount}</p></div>
+        <div class="bg-surface-container-low px-4 py-2 rounded-xl"><p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Time</p><p id="exam-time-value" class="font-mono font-black text-primary text-lg">${formatExamTime(remainingMs)}</p></div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-8">
+        <div class="bg-surface-container-lowest rounded-xl p-8 md:p-10 relative ambient-shadow">
+          <div class="absolute top-0 left-0 w-2 h-full bg-tertiary rounded-l-xl"></div>
+          <div class="flex justify-between items-start mb-7 gap-4">
+            <div>
+              <span class="uppercase tracking-widest text-xs font-bold text-tertiary bg-tertiary/10 px-3 py-1 rounded-full mb-3 inline-block">${escapeHtml(formatType(q.type || 'mcq'))} • ${currentNumber}</span>
+              <h2 class="text-2xl font-bold text-primary mb-1">${escapeHtml(q.topicName || 'Topic')}</h2>
+              <p class="text-sm text-on-surface-variant uppercase tracking-wider font-semibold">${escapeHtml(q.subjectName || '')} • ${escapeHtml(String(q.difficulty || 'easy'))}</p>
+            </div>
+            <button onclick="toggleExamFlagCurrent()" class="text-primary hover:bg-surface-container-low p-2 rounded-full transition-colors ${flagSet.has(q.id) ? 'text-tertiary' : ''}"><span class="material-symbols-outlined">flag</span></button>
+          </div>
+          ${caseBlock}
+          ${imageBlock}
+          <div class="bg-surface-container-low p-5 rounded-xl mb-7">
+            <h3 class="text-base font-bold text-primary mb-3">Question ${currentNumber} of ${session.questions.length}</h3>
+            <p class="text-sm font-medium text-on-surface">${escapeHtml(q.questionText || 'No question text')}</p>
+          </div>
+          <div class="space-y-3" id="exam-options">${optionCards}</div>
+          <div class="flex justify-between items-center mt-8 gap-4">
+            <button onclick="examPreviousQuestion()" class="flex items-center gap-2 text-on-surface-variant hover:text-primary font-bold text-sm ${session.currentIndex === 0 ? 'opacity-50 pointer-events-none' : ''}"><span class="material-symbols-outlined">arrow_back</span> Previous</button>
+            <button onclick="${session.currentIndex === session.questions.length - 1 ? 'submitCurrentExam()' : 'examNextQuestion()'}" class="bg-primary text-on-primary px-7 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">${session.currentIndex === session.questions.length - 1 ? 'Submit Exam' : 'Next Question'} <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-4"><div class="bg-surface-container-low rounded-xl p-7 sticky top-24"><div class="flex justify-between items-center mb-5"><h3 class="font-bold text-primary">Question Palette</h3><span class="text-xs font-bold text-primary bg-primary-fixed px-2 py-1 rounded">${currentNumber} / ${session.questions.length}</span></div><div class="grid grid-cols-5 gap-2 mb-5">${palette}</div><div class="flex flex-col gap-2 text-xs font-semibold text-on-surface-variant mb-6"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-surface-container-highest inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary inline-block"></span> Current</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span> Flagged</div></div><button onclick="submitCurrentExam()" class="w-full bg-tertiary text-on-tertiary py-4 rounded-xl font-extrabold text-sm tracking-widest uppercase hover:opacity-90 active:scale-[0.98] transition-all shadow-[0_10px_20px_rgba(115,92,0,0.2)]">Submit Exam</button></div></div>
+    </div>
+  </div>`;
+  startExamTimer();
+}
+window.renderExamLivePage = renderExamLivePage;
+
+function buildFinalExamReviewPage() {
+  const page = document.getElementById('page-review');
+  const session = getExamSession();
+  if (!page || !session) return;
+  clearInterval(examTimerRef);
+  const results = session.questions.map(q => ({ q, userChoice: session.answers[q.id], isCorrect: Number(session.answers[q.id]) === Number(q.correctAnswer) }));
+  const total = results.length;
+  const correct = results.filter(r => r.isCorrect).length;
+  const wrong = total - correct;
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+  const reviewCards = results.map((item, idx) => {
+    const q = item.q;
+    const userAnswer = item.userChoice !== undefined ? (q.options?.[item.userChoice] ?? '—') : 'Not answered';
+    const correctAnswer = q.options?.[Number(q.correctAnswer)] ?? '—';
+    return `<article class="bg-surface-container-lowest rounded-xl p-7 md:p-8 ambient-shadow relative"><div class="flex items-center justify-between mb-5 gap-3 flex-wrap"><div class="flex items-center gap-3 flex-wrap"><span class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-primary text-sm">${idx + 1}</span><span class="px-2.5 py-1 bg-surface-container-low text-on-surface-variant text-xs font-bold uppercase tracking-wider rounded-md">${escapeHtml(formatType(q.type || 'mcq'))}</span><span class="px-2.5 py-1 ${difficultyBadgeClass(q.difficulty)} text-xs font-bold uppercase tracking-wider rounded-md">${escapeHtml(String(q.difficulty || 'easy'))}</span>${item.isCorrect ? '<span class="px-2.5 py-1 bg-secondary-container/40 text-secondary text-xs font-bold uppercase tracking-wider rounded-md">Correct</span>' : '<span class="px-2.5 py-1 bg-error-container/40 text-on-error-container text-xs font-bold uppercase tracking-wider rounded-md">Wrong</span>'}</div></div>${q.caseText ? `<div class="mb-4 p-4 rounded-xl bg-surface-container-low text-sm text-on-surface-variant leading-relaxed"><span class="font-bold text-primary block mb-1">Case</span>${escapeHtml(q.caseText)}</div>` : ''}${q.imageUrl ? `<div class="mb-4"><img src="${escapeHtml(q.imageUrl)}" class="w-full max-h-72 object-contain rounded-xl border border-outline-variant/15 bg-surface-container-low"></div>` : ''}<p class="text-base leading-relaxed text-primary font-medium mb-6 max-w-4xl">${escapeHtml(q.questionText || '')}</p><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5"><div class="p-5 rounded-xl bg-error-container/15 border border-error/20"><span class="text-xs font-bold uppercase tracking-widest text-error block mb-2">Student Answer</span><p class="text-sm text-primary font-medium">${escapeHtml(userAnswer)}</p></div><div class="p-5 rounded-xl bg-secondary-container/20 border border-secondary/20"><span class="text-xs font-bold uppercase tracking-widest text-secondary block mb-2">Correct Answer</span><p class="text-sm text-primary font-medium">${escapeHtml(correctAnswer)}</p></div></div><div class="bg-surface-container-low rounded-xl p-5"><span class="text-xs font-bold uppercase tracking-widest text-primary block mb-2">Explanation</span><p class="text-sm text-on-surface-variant leading-relaxed">${escapeHtml(q.explanation || 'No explanation added yet.')}</p></div></article>`;
+  }).join('');
+  page.innerHTML = `<div class="max-w-5xl mx-auto px-6 md:px-12 py-10"><div class="absolute top-0 left-0 w-full h-80 bg-gradient-to-br from-primary-container/15 via-surface to-surface -z-10 pointer-events-none"></div><header class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-5"><div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-2 block">Post-Assessment Analysis</span><h1 class="text-4xl md:text-5xl font-extrabold text-primary tracking-tight" style="letter-spacing:-0.02em">Performance Review<br/><span class="text-on-surface-variant font-medium text-2xl">Final Exam • ${escapeHtml(session.subjectLabel)}</span></h1></div><p class="text-sm text-on-surface-variant max-w-sm">A detailed breakdown of your final exam performance with your selected answer, the correct answer, and the explanation for each question.</p></header><section class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10"><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow relative overflow-hidden group"><div class="absolute -right-3 -top-3 w-16 h-16 bg-tertiary/10 rounded-full blur-xl"></div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-base">workspace_premium</span>Score</span><div class="flex items-baseline gap-1"><span class="text-5xl font-black text-primary">${correct}</span><span class="text-xl text-on-surface-variant">/${total}</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-primary text-base">percent</span>Accuracy</span><div class="text-5xl font-black text-primary">${accuracy}<span class="text-2xl text-on-surface-variant font-medium">%</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-secondary"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>Correct</span><div class="text-5xl font-black text-secondary">${correct}</div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-error"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-error text-base">cancel</span>Wrong</span><div class="text-5xl font-black text-error">${wrong}</div></div></section><div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-10 p-5 bg-surface-container-low rounded-xl"><button onclick="retryWrongFinalExam()" class="py-4 bg-primary text-on-primary rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2 ${wrong === 0 ? 'opacity-50 cursor-not-allowed' : ''}" ${wrong === 0 ? 'disabled' : ''}><span class="material-symbols-outlined">restart_alt</span> Retry Wrong Questions</button><button onclick="retakeFinalExam()" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">replay</span> Retake Full Exam</button><button onclick="navigateTo('home')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">home</span> Back to Home</button><button onclick="navigateTo('dashboard')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">dashboard</span> Go to Dashboard</button></div><h2 class="text-xl font-bold text-primary mb-6 tracking-tight">Question Analysis</h2><div class="space-y-8">${reviewCards}</div></div>`;
+}
+
+function submitCurrentExam(autoSubmitted = false) {
+  const session = getExamSession();
+  if (!session) return;
+  clearInterval(examTimerRef);
+  const total = session.questions.length;
+  const correct = session.questions.filter(q => Number(session.answers[q.id]) === Number(q.correctAnswer)).length;
+  const wrong = total - correct;
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+  appState.attemptHistory = Array.isArray(appState.attemptHistory) ? appState.attemptHistory : [];
+  appState.attemptHistory.unshift({
+    id: session.id,
+    type: 'finalExam',
+    subjectName: session.subjectLabel,
+    topicName: session.mode === 'single_topics' ? 'Selected topics' : 'Mixed pool',
+    total,
+    correct,
+    wrong,
+    accuracy,
+    createdAt: new Date().toISOString(),
+    autoSubmitted
+  });
+  appState.attemptHistory = appState.attemptHistory.slice(0, 60);
+  appState.finalExamsDone = Number(appState.finalExamsDone || 0) + 1;
+  appState.reviewContext = 'finalExam';
+  saveState();
+  buildFinalExamReviewPage();
+  navigateTo('review');
+}
+window.submitCurrentExam = submitCurrentExam;
+
+async function retryWrongFinalExam() {
+  const session = getExamSession();
+  if (!session) return;
+  const wrongQuestions = session.questions.filter(q => Number(session.answers[q.id]) !== Number(q.correctAnswer));
+  if (!wrongQuestions.length) return;
+  appState.currentExamSession = {
+    ...session,
+    id: createSessionId(),
+    title: 'Final Exam Wrong Questions Retry',
+    questions: wrongQuestions,
+    questionCount: wrongQuestions.length,
+    requestedQuestionCount: wrongQuestions.length,
+    answers: {},
+    flagged: [],
+    currentIndex: 0,
+    startedAt: Date.now(),
+    endsAt: Date.now() + Number(session.timeLimit || 30) * 60 * 1000
+  };
+  saveState();
+  renderExamLivePage();
+  navigateTo('examlive');
+}
+window.retryWrongFinalExam = retryWrongFinalExam;
+
+async function retakeFinalExam() {
+  const questions = await buildConfiguredExamQuestions();
+  if (!questions.length) return;
+  const old = getExamSession() || {};
+  appState.currentExamSession = {
+    ...old,
+    id: createSessionId(),
+    questions,
+    questionCount: questions.length,
+    requestedQuestionCount: questions.length,
+    answers: {},
+    flagged: [],
+    currentIndex: 0,
+    startedAt: Date.now(),
+    endsAt: Date.now() + Number(old.timeLimit || appState.examBuilder.timeLimit || 30) * 60 * 1000
+  };
+  saveState();
+  renderExamLivePage();
+  navigateTo('examlive');
+}
+window.retakeFinalExam = retakeFinalExam;
+
+const __oldRenderReviewPage = renderReviewPage;
+renderReviewPage = function() {
+  if (appState.reviewContext === 'finalExam' && appState.currentExamSession) return buildFinalExamReviewPage();
+  return __oldRenderReviewPage();
+};
+window.renderReviewPage = renderReviewPage;
+
+const __oldNavigateTo = navigateTo;
+navigateTo = function(pageId) {
+  __oldNavigateTo(pageId);
+  if (pageId === 'examlive') renderExamLivePage();
+};
+window.navigateTo = navigateTo;
