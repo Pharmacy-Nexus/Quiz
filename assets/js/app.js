@@ -180,7 +180,7 @@ function summarizeDashboard() {
 
 function buildDashboardTopicRow(topic, tone = 'secondary') {
   const percent = Number(topic.accuracy || 0);
-  const barClass = tone === 'weak' ? 'bg-[#d69345]' : 'bg-[#c8a83d]';
+  const barClass = tone === 'weak' ? 'bg-tertiary-container' : 'bg-secondary';
   return `<div class="pb-4 border-b border-outline-variant/15 last:border-b-0 last:pb-0">
     <div class="flex items-start justify-between gap-4">
       <div>
@@ -203,7 +203,7 @@ function buildDashboardRecentItem(item) {
     : `${escapeHtml(item.subjectName || '')} • ${formatShortDate(item.createdAt)}`;
   return `<div class="rounded-[1.5rem] border border-outline-variant/20 bg-surface p-4 flex items-center justify-between gap-4">
     <div class="flex items-center gap-4 min-w-0">
-      <div class="w-12 h-12 rounded-2xl bg-[#fbf3d8] flex items-center justify-center text-xl flex-shrink-0">${emoji}</div>
+      <div class="w-12 h-12 rounded-2xl bg-tertiary-fixed/30 flex items-center justify-center text-xl flex-shrink-0">${emoji}</div>
       <div class="min-w-0">
         <h4 class="text-xl font-extrabold text-primary truncate">${escapeHtml(title)}</h4>
         <p class="text-on-surface-variant text-base truncate">${subtitle}</p>
@@ -217,8 +217,8 @@ function buildDashboardRecentItem(item) {
 }
 
 function buildAchievementRow(label, detail, unlocked = false) {
-  return `<div class="rounded-[1.5rem] p-4 border ${unlocked ? 'border-[#ead9a1] bg-[#fffdf7]' : 'border-outline-variant/20 bg-surface'} flex items-center gap-4">
-    <div class="w-12 h-12 rounded-2xl flex items-center justify-center ${unlocked ? 'bg-[#fbf3d8]' : 'bg-surface-container'} text-2xl">${unlocked ? '🏅' : '⭕'}</div>
+  return `<div class="rounded-[1.5rem] p-4 border ${unlocked ? 'border-tertiary-fixed/40 bg-surface-container-lowest' : 'border-outline-variant/20 bg-surface'} flex items-center gap-4">
+    <div class="w-12 h-12 rounded-2xl flex items-center justify-center ${unlocked ? 'bg-tertiary-fixed/30' : 'bg-surface-container'} text-2xl">${unlocked ? '🏅' : '⭕'}</div>
     <div>
       <h4 class="text-xl font-extrabold text-primary">${escapeHtml(label)}</h4>
       <p class="text-on-surface-variant text-base">${escapeHtml(detail)}</p>
@@ -245,8 +245,8 @@ function renderDashboardChart(history = []) {
     const y = 175 - h;
     const label = item.type === 'finalExam' ? 'Exam' : `S${items.length - idx}`;
     return `<g>
-      <rect x="${x}" y="${y}" rx="10" ry="10" width="${barW}" height="${h}" fill="${item.type === 'finalExam' ? '#8da3c7' : '#d7b14b'}"></rect>
-      <text x="${x + barW/2}" y="${y - 8}" text-anchor="middle" font-size="12" fill="#0d2549" font-weight="700">${item.accuracy}%</text>
+      <rect x="${x}" y="${y}" rx="10" ry="10" width="${barW}" height="${h}" fill="${item.type === 'finalExam' ? '#316574' : '#cba72f'}"></rect>
+      <text x="${x + barW/2}" y="${y - 8}" text-anchor="middle" font-size="12" fill="#00151b" font-weight="700">${item.accuracy}%</text>
       <text x="${x + barW/2}" y="198" text-anchor="middle" font-size="12" fill="#71787b">${label}</text>
     </g>`;
   }).join('');
