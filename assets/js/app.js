@@ -15,7 +15,9 @@ const DEFAULT_STATE = {
   currentQuestionIndex: 0,
   currentTopicQuestions: [],
   currentTopicMeta: null,
-  studyResults: {}
+  studyResults: {},
+  studyMode: 'set',
+  retryQuestionIds: []
 };
 
 const PN_DATA = {
@@ -45,6 +47,7 @@ function navigateTo(pageId) {
 
   appState.currentPage = pageId;
   saveState();
+  if (pageId === 'review') renderReviewPage();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -388,6 +391,8 @@ function formatType(type = '') {
 function startSet(index = 0) {
   appState.currentSetIndex = index;
   appState.currentQuestionIndex = 0;
+  appState.studyMode = 'set';
+  appState.retryQuestionIds = [];
   saveState();
   renderStudyQuestion();
   navigateTo('study');
@@ -399,9 +404,31 @@ function getCurrentSetQuestions() {
   return chunks[appState.currentSetIndex] || [];
 }
 
+function getActiveStudyQuestions() {
+  const setQuestions = getCurrentSetQuestions();
+  if (appState.studyMode === 'wrong' && Array.isArray(appState.retryQuestionIds) && appState.retryQuestionIds.length) {
+    const wanted = new Set(appState.retryQuestionIds);
+    const filtered = setQuestions.filter(q => wanted.has(q.id));
+    if (filtered.length) return filtered;
+  }
+  return setQuestions;
+}
+
+function resetQuestionsAttempt(questionIds = []) {
+  const meta = appState.currentTopicMeta;
+  if (!meta || !Array.isArray(questionIds) || !questionIds.length) return;
+  appState.studyResults = appState.studyResults || {};
+  appState.studyResults[meta.id] = appState.studyResults[meta.id] || {};
+  const idSet = new Set(questionIds);
+  questionIds.forEach(id => delete appState.studyResults[meta.id][id]);
+  (appState.currentTopicQuestions || []).forEach(q => {
+    if (idSet.has(q.id)) delete q.userChoice;
+  });
+}
+
 function renderStudyQuestion() {
   const meta = appState.currentTopicMeta;
-  const setQuestions = getCurrentSetQuestions();
+  const setQuestions = getActiveStudyQuestions();
   const q = setQuestions[appState.currentQuestionIndex];
   if (!meta || !q) {
     navigateTo('sets');
@@ -414,7 +441,10 @@ function renderStudyQuestion() {
   const correctCount = Object.values(results).filter(Boolean).length;
   const wrongCount = Object.values(results).filter(v => v === false).length;
 
-  document.getElementById('study-header-topic') && (document.getElementById('study-header-topic').textContent = `${meta.name} • Set ${appState.currentSetIndex + 1}`);
+  const studyHeader = document.getElementById('study-header-topic');
+  if (studyHeader) {
+    studyHeader.textContent = `${meta.name} • Set ${appState.currentSetIndex + 1}${appState.studyMode === 'wrong' ? ' • Wrong Questions Retry' : ''}`;
+  }
   document.getElementById('study-q-counter') && (document.getElementById('study-q-counter').textContent = `${humanIndex} of ${total}`);
   document.getElementById('study-progress') && (document.getElementById('study-progress').style.width = `${pct}%`);
   document.getElementById('study-progress-percent') && (document.getElementById('study-progress-percent').textContent = `${pct}%`);
@@ -469,7 +499,7 @@ function renderStudyQuestion() {
 
 function selectAnswer(optionIndex) {
   const meta = appState.currentTopicMeta;
-  const q = getCurrentSetQuestions()[appState.currentQuestionIndex];
+  const q = getActiveStudyQuestions()[appState.currentQuestionIndex];
   if (!meta || !q) return;
   appState.studyResults = appState.studyResults || {};
   appState.studyResults[meta.id] = appState.studyResults[meta.id] || {};
@@ -484,18 +514,142 @@ function selectAnswer(optionIndex) {
 window.selectAnswer = selectAnswer;
 
 function nextQuestion() {
-  const setQuestions = getCurrentSetQuestions();
+  const setQuestions = getActiveStudyQuestions();
   if (appState.currentQuestionIndex < setQuestions.length - 1) {
     appState.currentQuestionIndex += 1;
     saveState();
     renderStudyQuestion();
   } else {
-    window.alert('Set complete. Returning to topic sets.');
-    renderSetsPage();
-    navigateTo('sets');
+    saveState();
+    renderReviewPage();
+    navigateTo('review');
   }
 }
 window.nextQuestion = nextQuestion;
+
+function retryWrongQuestions() {
+  const meta = appState.currentTopicMeta;
+  const setQuestions = getCurrentSetQuestions();
+  if (!meta || !setQuestions.length) return;
+  const results = appState.studyResults?.[meta.id] || {};
+  const wrongIds = setQuestions.filter(q => results[q.id] === false).map(q => q.id);
+  if (!wrongIds.length) {
+    window.alert('No wrong questions in this set.');
+    return;
+  }
+  resetQuestionsAttempt(wrongIds);
+  appState.studyMode = 'wrong';
+  appState.retryQuestionIds = wrongIds;
+  appState.currentQuestionIndex = 0;
+  saveState();
+  renderStudyQuestion();
+  navigateTo('study');
+}
+window.retryWrongQuestions = retryWrongQuestions;
+
+function retakeCurrentSet() {
+  const setQuestions = getCurrentSetQuestions();
+  if (!setQuestions.length) return;
+  resetQuestionsAttempt(setQuestions.map(q => q.id));
+  appState.studyMode = 'set';
+  appState.retryQuestionIds = [];
+  appState.currentQuestionIndex = 0;
+  saveState();
+  renderStudyQuestion();
+  navigateTo('study');
+}
+window.retakeCurrentSet = retakeCurrentSet;
+
+function renderReviewPage() {
+  const page = document.getElementById('page-review');
+  const meta = appState.currentTopicMeta;
+  if (!page || !meta) return;
+  const questions = getActiveStudyQuestions();
+  const results = appState.studyResults?.[meta.id] || {};
+  const total = questions.length;
+  const correct = questions.filter(q => results[q.id] === true).length;
+  const wrong = questions.filter(q => results[q.id] === false).length;
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+  const modeLabel = appState.studyMode === 'wrong' ? 'Wrong Questions Retry' : `Set ${appState.currentSetIndex + 1}`;
+  const reviewCards = questions.map((q, idx) => {
+    const userChoiceIndex = Number.isFinite(Number(q.userChoice)) ? Number(q.userChoice) : null;
+    const correctIndex = Number(q.correctAnswer);
+    const userAnswer = userChoiceIndex !== null && Array.isArray(q.options) ? q.options[userChoiceIndex] : (userChoiceIndex !== null ? String(userChoiceIndex) : 'Not answered');
+    const correctAnswer = Array.isArray(q.options) ? (q.options[correctIndex] ?? '—') : '—';
+    const isCorrect = results[q.id] === true;
+    const statusPill = isCorrect
+      ? '<span class="px-2.5 py-1 bg-secondary-container/40 text-secondary text-xs font-bold uppercase tracking-wider rounded-md">Correct</span>'
+      : '<span class="px-2.5 py-1 bg-error-container/40 text-on-error-container text-xs font-bold uppercase tracking-wider rounded-md">Wrong</span>';
+    const caseBlock = q.caseText ? `<div class="mb-4 p-4 rounded-xl bg-surface-container-low text-sm text-on-surface-variant leading-relaxed"><span class="font-bold text-primary block mb-1">Case</span>${escapeHtml(q.caseText)}</div>` : '';
+    const imageBlock = q.imageUrl ? `<div class="mb-4"><img src="${escapeHtml(q.imageUrl)}" alt="Question image" class="w-full max-h-72 object-contain rounded-xl border border-outline-variant/15 bg-surface-container-low"></div>` : '';
+    return `<article class="bg-surface-container-lowest rounded-xl p-7 md:p-8 ambient-shadow relative">
+      <div class="flex items-center justify-between mb-5 gap-3 flex-wrap">
+        <div class="flex items-center gap-3 flex-wrap">
+          <span class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-primary text-sm">${idx + 1}</span>
+          <span class="px-2.5 py-1 bg-surface-container-low text-on-surface-variant text-xs font-bold uppercase tracking-wider rounded-md">${escapeHtml(formatType(q.type || 'mcq'))}</span>
+          <span class="px-2.5 py-1 ${difficultyBadgeClass(q.difficulty)} text-xs font-bold uppercase tracking-wider rounded-md">${escapeHtml(String(q.difficulty || 'easy'))}</span>
+          ${statusPill}
+        </div>
+      </div>
+      ${caseBlock}
+      ${imageBlock}
+      <p class="text-base leading-relaxed text-primary font-medium mb-6 max-w-4xl">${escapeHtml(q.questionText || 'No question text')}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+        <div class="p-5 rounded-xl bg-error-container/15 border border-error/20">
+          <span class="text-xs font-bold uppercase tracking-widest text-error block mb-2">Student Answer</span>
+          <p class="text-sm text-primary font-medium">${escapeHtml(userAnswer)}</p>
+        </div>
+        <div class="p-5 rounded-xl bg-secondary-container/20 border border-secondary/20">
+          <span class="text-xs font-bold uppercase tracking-widest text-secondary block mb-2">Correct Answer</span>
+          <p class="text-sm text-primary font-medium">${escapeHtml(correctAnswer)}</p>
+        </div>
+      </div>
+      <div class="bg-surface-container-low rounded-xl p-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-primary block mb-2">Explanation</span>
+        <p class="text-sm text-on-surface-variant leading-relaxed">${escapeHtml(q.explanation || 'No explanation added yet.')}</p>
+      </div>
+    </article>`;
+  }).join('');
+
+  page.innerHTML = `<div class="max-w-5xl mx-auto px-6 md:px-12 py-10">
+    <div class="absolute top-0 left-0 w-full h-80 bg-gradient-to-br from-primary-container/15 via-surface to-surface -z-10 pointer-events-none"></div>
+    <header class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-5">
+      <div>
+        <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-2 block">Post-Assessment Analysis</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-primary tracking-tight" style="letter-spacing:-0.02em">Performance Review<br/><span class="text-on-surface-variant font-medium text-2xl">${escapeHtml(meta.name)} • ${escapeHtml(modeLabel)}</span></h1>
+      </div>
+      <p class="text-sm text-on-surface-variant max-w-sm">A detailed breakdown of your session performance with your selected answer, the correct answer, and the explanation for each question.</p>
+    </header>
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10">
+      <div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow relative overflow-hidden group">
+        <div class="absolute -right-3 -top-3 w-16 h-16 bg-tertiary/10 rounded-full blur-xl"></div>
+        <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-base">workspace_premium</span>Score</span>
+        <div class="flex items-baseline gap-1"><span class="text-5xl font-black text-primary">${correct}</span><span class="text-xl text-on-surface-variant">/${total}</span></div>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow">
+        <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-primary text-base">percent</span>Accuracy</span>
+        <div class="text-5xl font-black text-primary">${accuracy}<span class="text-2xl text-on-surface-variant font-medium">%</span></div>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-secondary">
+        <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>Correct</span>
+        <div class="text-5xl font-black text-secondary">${correct}</div>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-error">
+        <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-error text-base">cancel</span>Wrong</span>
+        <div class="text-5xl font-black text-error">${wrong}</div>
+      </div>
+    </section>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-10 p-5 bg-surface-container-low rounded-xl">
+      <button onclick="retryWrongQuestions()" class="py-4 bg-primary text-on-primary rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2 ${wrong === 0 ? 'opacity-50 cursor-not-allowed' : ''}" ${wrong === 0 ? 'disabled' : ''}><span class="material-symbols-outlined">restart_alt</span> Retry Wrong Questions</button>
+      <button onclick="retakeCurrentSet()" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">replay</span> Retake Full Set</button>
+      <button onclick="navigateTo('home')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">home</span> Back to Home</button>
+      <button onclick="navigateTo('dashboard')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">dashboard</span> Go to Dashboard</button>
+    </div>
+    <h2 class="text-xl font-bold text-primary mb-6 tracking-tight">Question Analysis</h2>
+    <div class="space-y-8">${reviewCards || '<div class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow text-on-surface-variant">No review data available yet.</div>'}</div>
+  </div>`;
+}
+window.renderReviewPage = renderReviewPage;
 
 function previousQuestion() {
   if (appState.currentQuestionIndex > 0) {
@@ -639,4 +793,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   navigateTo(appState.currentPage || 'home');
   if (appState.currentPage === 'sets') renderSetsPage();
   if (appState.currentPage === 'study') renderStudyQuestion();
+  if (appState.currentPage === 'review') renderReviewPage();
 });
