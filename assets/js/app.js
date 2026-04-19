@@ -100,7 +100,26 @@ function beginStudySession(mode = 'set') {
   appState.currentQuestionIndex = 0;
   appState.currentSessionId = createSessionId();
   appState.currentSessionLogged = false;
+  appState.reviewContext = 'study';
 }
+
+function getStudyResultEntry(topicId, questionId) {
+  const entry = appState.studyResults?.[topicId]?.[questionId];
+  if (entry && typeof entry === 'object') return entry;
+  if (entry === true || entry === false) return { correct: entry, choice: undefined };
+  return null;
+}
+
+function getStudyResultCorrect(topicId, questionId) {
+  const entry = getStudyResultEntry(topicId, questionId);
+  return entry ? entry.correct === true : undefined;
+}
+
+function getStudyResultChoice(topicId, questionId) {
+  const entry = getStudyResultEntry(topicId, questionId);
+  return entry && entry.choice !== undefined ? Number(entry.choice) : undefined;
+}
+
 
 function flattenAllTopics() {
   const all = [];
@@ -120,8 +139,9 @@ function flattenAllTopics() {
 
 function getAggregateTopicStats(topicMeta) {
   const results = appState.studyResults?.[topicMeta.id] || {};
-  const totalAnswered = Object.keys(results).length;
-  const correct = Object.values(results).filter(Boolean).length;
+  const entries = Object.values(results).map(entry => (entry && typeof entry === 'object') ? entry : { correct: entry });
+  const totalAnswered = entries.length;
+  const correct = entries.filter(entry => entry.correct === true).length;
   const totalQuestions = Number(topicMeta.questionsCount || 0) || totalAnswered;
   const accuracy = totalAnswered ? Math.round((correct / totalAnswered) * 100) : 0;
   return { totalAnswered, correct, totalQuestions, accuracy };
@@ -392,10 +412,9 @@ function logCurrentAttempt() {
   if (!meta || appState.currentSessionLogged) return;
   const questions = getActiveStudyQuestions();
   if (!questions.length) return;
-  const results = appState.studyResults?.[meta.id] || {};
   const total = questions.length;
-  const correct = questions.filter(q => results[q.id] === true).length;
-  const wrong = questions.filter(q => results[q.id] === false).length;
+  const correct = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === true).length;
+  const wrong = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).length;
   const accuracy = total ? Math.round((correct / total) * 100) : 0;
   appState.attemptHistory = Array.isArray(appState.attemptHistory) ? appState.attemptHistory : [];
   appState.attemptHistory.unshift({
@@ -755,6 +774,12 @@ function formatType(type = '') {
 function startSet(index = 0) {
   appState.currentSetIndex = index;
   appState.retryQuestionIds = [];
+  const previewQuestions = (getCurrentTopicQuestionChunks()[index] || []);
+  const meta = appState.currentTopicMeta;
+  if (meta && previewQuestions.length) {
+    const fullyAnswered = previewQuestions.every(q => getStudyResultCorrect(meta.id, q.id) !== undefined);
+    if (fullyAnswered) resetQuestionsAttempt(previewQuestions.map(q => q.id));
+  }
   beginStudySession('set');
   saveState();
   renderStudyQuestion();
@@ -801,8 +826,9 @@ function renderStudyQuestion() {
   const humanIndex = appState.currentQuestionIndex + 1;
   const pct = Math.round((humanIndex / total) * 100);
   const results = appState.studyResults?.[meta.id] || {};
-  const correctCount = Object.values(results).filter(Boolean).length;
-  const wrongCount = Object.values(results).filter(v => v === false).length;
+  const resultEntries = Object.values(results).map(entry => (entry && typeof entry === 'object') ? entry : { correct: entry });
+  const correctCount = resultEntries.filter(entry => entry.correct === true).length;
+  const wrongCount = resultEntries.filter(entry => entry.correct === false).length;
 
   const studyHeader = document.getElementById('study-header-topic');
   if (studyHeader) {
@@ -842,13 +868,16 @@ function renderStudyQuestion() {
   }
 
   const options = Array.isArray(q.options) && q.options.length ? q.options : ['True', 'False'];
-  const wasAnswered = results[q.id] !== undefined;
+  const answerEntry = getStudyResultEntry(meta.id, q.id);
+  const wasAnswered = answerEntry !== null;
   const optionsWrap = document.getElementById('study-options');
   if (optionsWrap) {
     optionsWrap.innerHTML = options.map((opt, idx) => {
       const letter = String.fromCharCode(65 + idx);
       const isCorrect = idx === Number(q.correctAnswer);
-      const answeredClass = !wasAnswered ? '' : (isCorrect ? 'answer-correct' : (results[q.id] === false && idx === Number(q.userChoice) ? 'answer-wrong' : ''));
+      const userChoice = getStudyResultChoice(meta.id, q.id);
+      const wasWrong = getStudyResultCorrect(meta.id, q.id) === false;
+      const answeredClass = !wasAnswered ? '' : (isCorrect ? 'answer-correct' : (wasWrong && idx === Number(userChoice) ? 'answer-wrong' : ''));
       const pointerClass = wasAnswered ? 'pointer-events-none' : 'cursor-pointer';
       const check = wasAnswered && isCorrect ? `<div class="ml-3 flex items-center justify-center text-secondary mt-1"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">check_circle</span></div>` : '';
       return `<label class="answer-option answer-idle group relative flex items-start p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-lowest transition-all ${pointerClass} border border-transparent ${answeredClass}" onclick="selectAnswer(${idx})"><div class="flex items-center justify-center w-9 h-9 flex-shrink-0 rounded-lg bg-surface text-on-surface-variant font-headline font-bold mr-4 group-hover:bg-primary-fixed group-hover:text-primary transition-colors">${letter}</div><div class="flex-1 pt-1 text-on-surface leading-relaxed">${escapeHtml(opt)}</div>${check}</label>`;
@@ -874,9 +903,9 @@ function selectAnswer(optionIndex) {
   if (!meta || !q) return;
   appState.studyResults = appState.studyResults || {};
   appState.studyResults[meta.id] = appState.studyResults[meta.id] || {};
-  if (appState.studyResults[meta.id][q.id] === undefined) {
+  if (getStudyResultCorrect(meta.id, q.id) === undefined) {
     const isCorrect = Number(optionIndex) === Number(q.correctAnswer);
-    appState.studyResults[meta.id][q.id] = isCorrect;
+    appState.studyResults[meta.id][q.id] = { correct: isCorrect, choice: Number(optionIndex) };
     q.userChoice = Number(optionIndex);
     saveState();
     renderStudyQuestion();
@@ -891,6 +920,7 @@ function nextQuestion() {
     saveState();
     renderStudyQuestion();
   } else {
+    appState.reviewContext = 'study';
     logCurrentAttempt();
     saveState();
     renderReviewPage();
@@ -903,8 +933,7 @@ function retryWrongQuestions() {
   const meta = appState.currentTopicMeta;
   const setQuestions = getCurrentSetQuestions();
   if (!meta || !setQuestions.length) return;
-  const results = appState.studyResults?.[meta.id] || {};
-  const wrongIds = setQuestions.filter(q => results[q.id] === false).map(q => q.id);
+  const wrongIds = setQuestions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).map(q => q.id);
   if (!wrongIds.length) {
     window.alert('No wrong questions in this set.');
     return;
@@ -935,18 +964,18 @@ function renderReviewPage() {
   const meta = appState.currentTopicMeta;
   if (!page || !meta) return;
   const questions = getActiveStudyQuestions();
-  const results = appState.studyResults?.[meta.id] || {};
   const total = questions.length;
-  const correct = questions.filter(q => results[q.id] === true).length;
-  const wrong = questions.filter(q => results[q.id] === false).length;
+  const correct = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === true).length;
+  const wrong = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).length;
   const accuracy = total ? Math.round((correct / total) * 100) : 0;
   const modeLabel = appState.studyMode === 'wrong' ? 'Wrong Questions Retry' : `Set ${appState.currentSetIndex + 1}`;
   const reviewCards = questions.map((q, idx) => {
-    const userChoiceIndex = Number.isFinite(Number(q.userChoice)) ? Number(q.userChoice) : null;
+    const storedChoice = getStudyResultChoice(meta.id, q.id);
+    const userChoiceIndex = Number.isFinite(Number(storedChoice)) ? Number(storedChoice) : (Number.isFinite(Number(q.userChoice)) ? Number(q.userChoice) : null);
     const correctIndex = Number(q.correctAnswer);
     const userAnswer = userChoiceIndex !== null && Array.isArray(q.options) ? q.options[userChoiceIndex] : (userChoiceIndex !== null ? String(userChoiceIndex) : 'Not answered');
     const correctAnswer = Array.isArray(q.options) ? (q.options[correctIndex] ?? '—') : '—';
-    const isCorrect = results[q.id] === true;
+    const isCorrect = getStudyResultCorrect(meta.id, q.id) === true;
     const statusPill = isCorrect
       ? '<span class="px-2.5 py-1 bg-secondary-container/40 text-secondary text-xs font-bold uppercase tracking-wider rounded-md">Correct</span>'
       : '<span class="px-2.5 py-1 bg-error-container/40 text-on-error-container text-xs font-bold uppercase tracking-wider rounded-md">Wrong</span>';
