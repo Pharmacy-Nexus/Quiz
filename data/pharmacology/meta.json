@@ -10,12 +10,13 @@
       "description": "Mechanisms of action, spectrum, resistance patterns, and clinical use.",
       "order": 1,
       "difficultyBreakdown": {
-        "easy": 1,
-        "medium": 1,
-        "hard": 0
+        "easy": 6,
+        "medium": 8,
+        "hard": 4
       },
-      "questionsCount": 2,
+      "questionsCount": 18,
       "file": "data/pharmacology/antibiotics.json"
     }
-  ]
+  ],
+  "updatedAt": "2026-04-19T21:42:25.507Z"
 }
