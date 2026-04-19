@@ -1803,35 +1803,55 @@ function initFinalExamBuilder() {
   refreshExamBuilderPreview();
 }
 
-
 async function loadSubjectsIndex() {
   const index = await fetchJson('data/index.json');
-  const subjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
-  PN_DATA.subjectsIndex = { ...index, subjects };
-  subjects.forEach(subject => PN_DATA.subjectsMap.set(subject.id, subject));
+  const rawSubjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
 
-  await Promise.all(subjects.map(async subject => {
+  const validSubjects = [];
+
+  await Promise.all(rawSubjects.map(async subject => {
     try {
       const metaPath = `data/${subject.id}/meta.json`;
       const subjectJson = await fetchJson(metaPath);
-      PN_DATA.topicsMap.set(subject.id, subjectJson);
+
+      const cleanTopics = Array.isArray(subjectJson.topics) ? subjectJson.topics.filter(topic =>
+        topic &&
+        (topic.id || topic.name) &&
+        topic.file &&
+        String(topic.file).includes(`data/${subject.id}/`)
+      ) : [];
+
+      PN_DATA.topicsMap.set(subject.id, {
+        ...subjectJson,
+        topics: cleanTopics
+      });
+
       subject.metaFile = metaPath;
-      subject.topicsCount = (subjectJson.topics || []).length;
-      subject.questionsCount = (subjectJson.topics || []).reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
+      subject.topicsCount = cleanTopics.length;
+      subject.questionsCount = cleanTopics.reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
+
+      validSubjects.push(subject);
     } catch {
-      PN_DATA.topicsMap.set(subject.id, { subjectId: subject.id, topics: [] });
-      subject.topicsCount = 0;
-      subject.questionsCount = 0;
+      // تجاهل أي مادة قديمة أو broken
     }
   }));
 
-  setSubjectStats(subjects);
-  renderHomeSubjects(subjects);
-  renderSubjectsPage(subjects);
+  validSubjects.sort((a, b) => (a.order || 999) - (b.order || 999));
+
+  PN_DATA.subjectsIndex = {
+    ...index,
+    subjects: validSubjects
+  };
+
+  PN_DATA.subjectsMap.clear();
+  validSubjects.forEach(subject => PN_DATA.subjectsMap.set(subject.id, subject));
+
+  setSubjectStats(validSubjects);
+  renderHomeSubjects(validSubjects);
+  renderSubjectsPage(validSubjects);
   bindTopicSearch();
   renderTopicsPage();
 }
-
 window.addEventListener('DOMContentLoaded', async () => {
   renderPersistentStats();
   bindNotes();
