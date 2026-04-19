@@ -123,27 +123,29 @@ tailwind.config = {
 .shimmer-text {
   position: relative;
   display: inline-block;
+  color: #ffffff;
   background: linear-gradient(
-    115deg,
-    #ffffff 0%,
-    #f7fbfd 35%,
-    #ffe088 50%,
-    #ffffff 65%,
-    #dfeef5 100%
+    110deg,
+    rgba(255,255,255,0.92) 0%,
+    rgba(255,255,255,0.92) 38%,
+    rgba(255,224,136,0.95) 48%,
+    rgba(255,255,255,1) 52%,
+    rgba(255,255,255,0.92) 62%,
+    rgba(255,255,255,0.92) 100%
   );
-  background-size: 250% auto;
+  background-size: 220% auto;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: luxuryShimmer 6s ease-in-out infinite;
+  animation: textShimmer 4.5s linear infinite;
 }
 
-@keyframes luxuryShimmer {
+@keyframes textShimmer {
   0% {
-    background-position: 180% center;
+    background-position: 200% center;
   }
   100% {
-    background-position: -40% center;
+    background-position: -20% center;
   }
 }
 </style>
