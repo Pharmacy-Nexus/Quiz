@@ -118,8 +118,25 @@ async function deleteRepoFile(path, sha, message) {
 async function bootstrapData() {
   try {
     requireSession();
+
     const file = await getRepoFile(`${DATA_ROOT}/index.json`);
-    subjectsIndex = file.json;
+    const rawSubjects = Array.isArray(file.json.subjects) ? file.json.subjects : [];
+    const validSubjects = [];
+
+    for (const subject of rawSubjects) {
+      try {
+        const meta = await getSubjectFile(subject.id);
+        if (meta?.json) validSubjects.push(subject);
+      } catch {
+        // تجاهل المواد القديمة أو المكسورة
+      }
+    }
+
+    subjectsIndex = {
+      ...file.json,
+      subjects: validSubjects.sort((a, b) => (a.order || 999) - (b.order || 999))
+    };
+
     renderSubjectOptions();
     await loadTopicsForQuestionSubject();
     await syncTopicSelectors();
@@ -127,10 +144,15 @@ async function bootstrapData() {
     setMsg('connection-message', e.message, false);
   }
 }
+
 function renderSubjectOptions() {
-  const html = '<option value="">Select subject</option>' + (subjectsIndex?.subjects || [])
-    .sort((a,b)=>(a.order||0)-(b.order||0))
-    .map(s => `<option value="${s.id}">${s.name}</option>`).join('');
+  const html =
+    '<option value="">Select subject</option>' +
+    (subjectsIndex?.subjects || [])
+      .sort((a, b) => (a.order || 999) - (b.order || 999))
+      .map(s => `<option value="${s.id}">${s.name}</option>`)
+      .join('');
+
   ['topic-subject-select', 'question-subject-select', 'bulk-subject-select'].forEach(id => {
     if ($(id)) $(id).innerHTML = html;
   });
