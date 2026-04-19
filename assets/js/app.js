@@ -1,3 +1,83 @@
+
+
+function ensureOverlayUi() {
+  if (!document.getElementById('pn-toast-root')) {
+    const toastRoot = document.createElement('div');
+    toastRoot.id = 'pn-toast-root';
+    toastRoot.className = 'fixed top-5 right-5 z-[120] flex flex-col gap-3 pointer-events-none';
+    document.body.appendChild(toastRoot);
+  }
+}
+
+function showToast(message, type = 'info') {
+  ensureOverlayUi();
+  const root = document.getElementById('pn-toast-root');
+  if (!root) return;
+  const tone = type === 'success'
+    ? 'bg-primary text-on-primary border-white/10'
+    : type === 'error'
+      ? 'bg-error text-on-error border-error/30'
+      : 'bg-surface-container-lowest text-primary border-outline-variant/30';
+  const el = document.createElement('div');
+  el.className = `pointer-events-auto min-w-[260px] max-w-[360px] rounded-2xl border px-4 py-3 shadow-[0_18px_40px_rgba(0,21,27,0.18)] backdrop-blur-md transition-all duration-300 translate-y-2 opacity-0 ${tone}`;
+  el.innerHTML = `<div class="flex items-start gap-3"><span class="material-symbols-outlined text-base mt-0.5">${type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'info'}</span><div class="text-sm font-semibold leading-relaxed">${escapeHtml(String(message || 'Done'))}</div></div>`;
+  root.appendChild(el);
+  requestAnimationFrame(() => {
+    el.classList.remove('translate-y-2', 'opacity-0');
+  });
+  setTimeout(() => {
+    el.classList.add('translate-y-2', 'opacity-0');
+    setTimeout(() => el.remove(), 260);
+  }, 2600);
+}
+
+function ensureModalRoot() {
+  let root = document.getElementById('pn-modal-root');
+  if (!root) {
+    root = document.createElement('div');
+    root.id = 'pn-modal-root';
+    document.body.appendChild(root);
+  }
+  return root;
+}
+
+function closeModal() {
+  const root = document.getElementById('pn-modal-root');
+  if (root) root.innerHTML = '';
+  document.body.classList.remove('overflow-hidden');
+}
+
+function openConfirmDialog(message, options = {}) {
+  ensureOverlayUi();
+  const root = ensureModalRoot();
+  document.body.classList.add('overflow-hidden');
+  return new Promise(resolve => {
+    const confirmText = options.confirmText || 'Confirm';
+    const cancelText = options.cancelText || 'Cancel';
+    root.innerHTML = `<div class="fixed inset-0 z-[130] bg-primary/45 backdrop-blur-sm flex items-center justify-center px-4"><div class="w-full max-w-md rounded-[2rem] bg-surface-container-lowest p-7 ambient-shadow ghost-border"><div class="flex items-center gap-3 mb-4"><div class="w-11 h-11 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center"><span class="material-symbols-outlined">warning</span></div><div><p class="text-lg font-extrabold text-primary tracking-tight">Please confirm</p><p class="text-sm text-on-surface-variant">One quick check before we continue.</p></div></div><p class="text-sm text-on-surface-variant leading-relaxed mb-6">${escapeHtml(message)}</p><div class="flex gap-3 justify-end"><button id="pn-modal-cancel" class="px-5 py-3 rounded-xl bg-surface-container-low text-primary font-bold text-sm hover:bg-surface-container transition-colors">${cancelText}</button><button id="pn-modal-confirm" class="px-5 py-3 rounded-xl bg-primary text-on-primary font-bold text-sm hover:scale-[0.98] transition-transform">${confirmText}</button></div></div></div>`;
+    const cancel = () => { closeModal(); resolve(false); };
+    const confirm = () => { closeModal(); resolve(true); };
+    root.querySelector('#pn-modal-cancel')?.addEventListener('click', cancel);
+    root.querySelector('#pn-modal-confirm')?.addEventListener('click', confirm);
+    root.querySelector('.fixed')?.addEventListener('click', e => { if (e.target === e.currentTarget) cancel(); });
+  });
+}
+
+function openNoteModal(currentValue = '', options = {}) {
+  ensureOverlayUi();
+  const root = ensureModalRoot();
+  document.body.classList.add('overflow-hidden');
+  return new Promise(resolve => {
+    root.innerHTML = `<div class="fixed inset-0 z-[130] bg-primary/45 backdrop-blur-sm flex items-center justify-center px-4"><div class="w-full max-w-2xl rounded-[2rem] bg-surface-container-lowest p-7 ambient-shadow ghost-border"><div class="flex items-center justify-between gap-4 mb-5"><div><p class="text-xs font-bold text-tertiary uppercase tracking-widest mb-1">Personal Note</p><h3 class="text-2xl font-extrabold text-primary tracking-tight">Add a clinical insight</h3></div><button id="pn-modal-close" class="w-10 h-10 rounded-full hover:bg-surface-container-low transition-colors text-on-surface-variant"><span class="material-symbols-outlined">close</span></button></div><p class="text-sm text-on-surface-variant mb-4">Capture a quick pearl, reminder, or clinical caution for this question.</p><textarea id="pn-note-textarea" class="w-full min-h-[180px] rounded-[1.5rem] bg-surface-container-low border border-outline-variant/20 px-5 py-4 text-sm text-primary resize-y focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Type your note here...">${escapeHtml(currentValue)}</textarea><div class="mt-5 flex items-center justify-between gap-3 flex-wrap"><div class="text-xs text-on-surface-variant">Tip: leave it empty and press save to remove the current note.</div><div class="flex gap-3"><button id="pn-note-cancel" class="px-5 py-3 rounded-xl bg-surface-container-low text-primary font-bold text-sm hover:bg-surface-container transition-colors">Cancel</button><button id="pn-note-save" class="px-5 py-3 rounded-xl bg-primary text-on-primary font-bold text-sm hover:scale-[0.98] transition-transform">Save Note</button></div></div></div></div>`;
+    const textarea = root.querySelector('#pn-note-textarea');
+    setTimeout(() => textarea?.focus(), 30);
+    const finish = val => { closeModal(); resolve(val); };
+    root.querySelector('#pn-modal-close')?.addEventListener('click', () => finish(null));
+    root.querySelector('#pn-note-cancel')?.addEventListener('click', () => finish(null));
+    root.querySelector('#pn-note-save')?.addEventListener('click', () => finish(textarea?.value ?? ''));
+    root.querySelector('.fixed')?.addEventListener('click', e => { if (e.target === e.currentTarget) finish(null); });
+  });
+}
 const pages = ['home','subjects','topics','sets','study','review','dashboard','finalexam','examlive','saved'];
 const navIds = ['home','subjects','dashboard','saved','finalexam'];
 const STORAGE_KEY = 'pharmacyNexusState';
@@ -1005,7 +1085,7 @@ function retryWrongQuestions() {
   if (!meta || !setQuestions.length) return;
   const wrongIds = setQuestions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).map(q => q.id);
   if (!wrongIds.length) {
-    window.alert('No wrong questions in this set.');
+    showToast('No wrong questions in this set.', 'info');
     return;
   }
   resetQuestionsAttempt(wrongIds);
@@ -1222,6 +1302,7 @@ function toggleSave() {
   saveState();
   renderPersistentStats();
   if (appState.currentPage === 'saved') renderSavedPage();
+  showToast(appState.savedItems[record.id] ? 'Saved successfully' : 'Removed from saved', 'success');
 }
 window.toggleSave = toggleSave;
 
@@ -1241,16 +1322,21 @@ function setSavedSubjectFilter(value) {
 }
 window.setSavedSubjectFilter = setSavedSubjectFilter;
 
-function removeSavedQuestion(questionId) {
+async function removeSavedQuestion(questionId) {
+  const ok = await openConfirmDialog('Remove this question from your saved list?', { confirmText: 'Remove' });
+  if (!ok) return;
   if (appState.savedItems?.[questionId]) delete appState.savedItems[questionId];
   saveState();
   renderPersistentStats();
   renderSavedPage();
   updateSaveButtonState();
+  showToast('Removed from saved', 'success');
 }
 window.removeSavedQuestion = removeSavedQuestion;
 
-function deleteQuestionNote(questionId) {
+async function deleteQuestionNote(questionId) {
+  const ok = await openConfirmDialog('Delete this personal note?', { confirmText: 'Delete' });
+  if (!ok) return;
   if (appState.notesByQuestion?.[questionId]) delete appState.notesByQuestion[questionId];
   if (appState.savedItems?.[questionId]) {
     appState.savedItems[questionId].hasNote = false;
@@ -1259,13 +1345,14 @@ function deleteQuestionNote(questionId) {
   saveState();
   renderPersistentStats();
   renderSavedPage();
+  showToast('Note deleted', 'success');
 }
 window.deleteQuestionNote = deleteQuestionNote;
 
-function saveNoteForRecord(record) {
+async function saveNoteForRecord(record) {
   if (!record) return;
   const current = appState.notesByQuestion?.[record.id]?.note || '';
-  const note = window.prompt('Add or edit your personal note for this question:', current);
+  const note = await openNoteModal(current);
   if (note === null) return;
   appState.notesByQuestion = appState.notesByQuestion || {};
   const trimmed = note.trim();
@@ -1275,6 +1362,7 @@ function saveNoteForRecord(record) {
       appState.savedItems[record.id].hasNote = false;
       appState.savedItems[record.id].note = '';
     }
+    showToast('Note removed', 'success');
   } else {
     appState.notesByQuestion[record.id] = {
       questionId: record.id,
@@ -1292,6 +1380,7 @@ function saveNoteForRecord(record) {
     }
     appState.savedItems[record.id].hasNote = true;
     appState.savedItems[record.id].note = trimmed;
+    showToast(current ? 'Note updated' : 'Note saved', 'success');
   }
   saveState();
   renderPersistentStats();
@@ -1803,55 +1892,35 @@ function initFinalExamBuilder() {
   refreshExamBuilderPreview();
 }
 
+
 async function loadSubjectsIndex() {
   const index = await fetchJson('data/index.json');
-  const rawSubjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
+  const subjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
+  PN_DATA.subjectsIndex = { ...index, subjects };
+  subjects.forEach(subject => PN_DATA.subjectsMap.set(subject.id, subject));
 
-  const validSubjects = [];
-
-  await Promise.all(rawSubjects.map(async subject => {
+  await Promise.all(subjects.map(async subject => {
     try {
       const metaPath = `data/${subject.id}/meta.json`;
       const subjectJson = await fetchJson(metaPath);
-
-      const cleanTopics = Array.isArray(subjectJson.topics) ? subjectJson.topics.filter(topic =>
-        topic &&
-        (topic.id || topic.name) &&
-        topic.file &&
-        String(topic.file).includes(`data/${subject.id}/`)
-      ) : [];
-
-      PN_DATA.topicsMap.set(subject.id, {
-        ...subjectJson,
-        topics: cleanTopics
-      });
-
+      PN_DATA.topicsMap.set(subject.id, subjectJson);
       subject.metaFile = metaPath;
-      subject.topicsCount = cleanTopics.length;
-      subject.questionsCount = cleanTopics.reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
-
-      validSubjects.push(subject);
+      subject.topicsCount = (subjectJson.topics || []).length;
+      subject.questionsCount = (subjectJson.topics || []).reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
     } catch {
-      // تجاهل أي مادة قديمة أو broken
+      PN_DATA.topicsMap.set(subject.id, { subjectId: subject.id, topics: [] });
+      subject.topicsCount = 0;
+      subject.questionsCount = 0;
     }
   }));
 
-  validSubjects.sort((a, b) => (a.order || 999) - (b.order || 999));
-
-  PN_DATA.subjectsIndex = {
-    ...index,
-    subjects: validSubjects
-  };
-
-  PN_DATA.subjectsMap.clear();
-  validSubjects.forEach(subject => PN_DATA.subjectsMap.set(subject.id, subject));
-
-  setSubjectStats(validSubjects);
-  renderHomeSubjects(validSubjects);
-  renderSubjectsPage(validSubjects);
+  setSubjectStats(subjects);
+  renderHomeSubjects(subjects);
+  renderSubjectsPage(subjects);
   bindTopicSearch();
   renderTopicsPage();
 }
+
 window.addEventListener('DOMContentLoaded', async () => {
   renderPersistentStats();
   bindNotes();
@@ -2022,7 +2091,7 @@ async function startConfiguredExam() {
   refreshExamBuilderPreview();
   const questions = await buildConfiguredExamQuestions();
   if (!questions.length) {
-    window.alert('No questions are available for the current exam selection yet.');
+    showToast('No questions are available for the current exam selection yet.', 'error');
     return;
   }
   const eb = appState.examBuilder;
@@ -2201,9 +2270,16 @@ function buildFinalExamReviewPage() {
   page.innerHTML = `<div class="max-w-5xl mx-auto px-6 md:px-12 py-10"><div class="absolute top-0 left-0 w-full h-80 bg-gradient-to-br from-primary-container/15 via-surface to-surface -z-10 pointer-events-none"></div><header class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-5"><div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-2 block">Post-Assessment Analysis</span><h1 class="text-4xl md:text-5xl font-extrabold text-primary tracking-tight" style="letter-spacing:-0.02em">Performance Review<br/><span class="text-on-surface-variant font-medium text-2xl">Final Exam • ${escapeHtml(session.subjectLabel)}</span></h1></div><p class="text-sm text-on-surface-variant max-w-sm">A detailed breakdown of your final exam performance with your selected answer, the correct answer, and the explanation for each question.</p></header><section class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10"><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow relative overflow-hidden group"><div class="absolute -right-3 -top-3 w-16 h-16 bg-tertiary/10 rounded-full blur-xl"></div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-base">workspace_premium</span>Score</span><div class="flex items-baseline gap-1"><span class="text-5xl font-black text-primary">${correct}</span><span class="text-xl text-on-surface-variant">/${total}</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-primary text-base">percent</span>Accuracy</span><div class="text-5xl font-black text-primary">${accuracy}<span class="text-2xl text-on-surface-variant font-medium">%</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-secondary"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>Correct</span><div class="text-5xl font-black text-secondary">${correct}</div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-error"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-error text-base">cancel</span>Wrong</span><div class="text-5xl font-black text-error">${wrong}</div></div></section><div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-10 p-5 bg-surface-container-low rounded-xl"><button onclick="retryWrongFinalExam()" class="py-4 bg-primary text-on-primary rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2 ${wrong === 0 ? 'opacity-50 cursor-not-allowed' : ''}" ${wrong === 0 ? 'disabled' : ''}><span class="material-symbols-outlined">restart_alt</span> Retry Wrong Questions</button><button onclick="retakeFinalExam()" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">replay</span> Retake Full Exam</button><button onclick="navigateTo('home')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">home</span> Back to Home</button><button onclick="navigateTo('dashboard')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">dashboard</span> Go to Dashboard</button></div><h2 class="text-xl font-bold text-primary mb-6 tracking-tight">Question Analysis</h2><div class="space-y-8">${reviewCards}</div></div>`;
 }
 
-function submitCurrentExam(autoSubmitted = false) {
+async function submitCurrentExam(autoSubmitted = false) {
   const session = getExamSession();
   if (!session) return;
+  const unanswered = session.questions.filter(q => session.answers[q.id] === undefined).length;
+  if (!autoSubmitted) {
+    let message = 'Submit this final exam now?';
+    if (unanswered > 0) message = `You still have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. Submit anyway?`;
+    const ok = await openConfirmDialog(message, { confirmText: 'Submit Exam' });
+    if (!ok) return;
+  }
   clearInterval(examTimerRef);
   const total = session.questions.length;
   const correct = session.questions.filter(q => Number(session.answers[q.id]) === Number(q.correctAnswer)).length;
@@ -2228,6 +2304,7 @@ function submitCurrentExam(autoSubmitted = false) {
   saveState();
   buildFinalExamReviewPage();
   navigateTo('review');
+  showToast(autoSubmitted ? 'Exam auto-submitted' : 'Exam submitted', 'success');
 }
 window.submitCurrentExam = submitCurrentExam;
 
