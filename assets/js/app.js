@@ -825,6 +825,8 @@ async function loadTopicQuestions(subjectId, topicId) {
   const subjectData = PN_DATA.topicsMap.get(subjectId) || { topics: [] };
   const topicMeta = (subjectData.topics || []).find(t => (t.id || slugify(t.name)) === topicId);
   if (!topicMeta?.file) throw new Error('Topic file not found.');
+  const setGrid = document.getElementById('sets-grid');
+  if (setGrid && !PN_DATA.topicFilesCache.has(topicMeta.file)) renderPageSkeleton(setGrid, 2, true);
   if (!PN_DATA.topicFilesCache.has(topicMeta.file)) {
     PN_DATA.topicFilesCache.set(topicMeta.file, await fetchJson(topicMeta.file));
   }
@@ -1033,11 +1035,11 @@ function renderStudyQuestion() {
     const answerMap = setQuestions.map((sq, idx) => {
       const state = getStudyResultCorrect(meta.id, sq.id);
       const current = idx === appState.currentQuestionIndex;
-      return `<button onclick="jumpToStudyQuestion(${idx})" class="w-8 h-8 rounded-full text-[11px] font-bold transition-all ${current ? 'bg-primary text-on-primary' : state === true ? 'bg-primary-fixed text-primary' : state === false ? 'bg-error-container text-on-error-container' : 'bg-surface-container-high text-on-surface-variant hover:bg-surface-container'}">${idx + 1}</button>`;
+      return `<button onclick="jumpToStudyQuestion(${idx})" class="w-9 h-9 rounded-full text-[11px] font-bold transition-all shadow-sm ${current ? 'bg-primary text-on-primary scale-105 ring-4 ring-primary/10' : state === true ? 'bg-primary-fixed text-primary hover:scale-[1.03]' : state === false ? 'bg-error-container text-on-error-container hover:scale-[1.03]' : 'bg-surface-container-high text-on-surface-variant hover:bg-surface-container hover:scale-[1.03]'}">${idx + 1}</button>`;
     }).join('');
     const answeredTotal = setQuestions.filter(sq => getStudyResultCorrect(meta.id, sq.id) !== undefined).length;
     const unansweredTotal = setQuestions.length - answeredTotal;
-    optionsWrap.innerHTML = `<div class="mb-5 bg-surface-container-low rounded-[1.25rem] p-4 border border-outline-variant/15"><div class="flex flex-wrap items-center justify-between gap-3 mb-3"><div class="flex items-center gap-4 text-xs font-bold uppercase tracking-widest"><span class="text-primary">Answered ${answeredTotal}</span><span class="text-on-surface-variant">Unanswered ${unansweredTotal}</span><span class="text-tertiary">Current ${humanIndex}</span></div><label class="flex items-center gap-2 text-xs font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label></div><div class="flex flex-wrap gap-2">${answerMap}</div></div>` + options.map((opt, idx) => {
+    optionsWrap.innerHTML = `<div class="mb-5 rounded-[1.5rem] border border-outline-variant/15 bg-gradient-to-br from-surface-container-lowest to-surface-container-low p-4 shadow-[0_12px_28px_rgba(0,21,27,0.05)]"><div class="flex flex-wrap items-center justify-between gap-3 mb-3"><div class="flex flex-wrap items-center gap-2 text-[11px] font-bold uppercase tracking-[0.18em]"><span class="px-3 py-1 rounded-full bg-primary-fixed/35 text-primary">Answered ${answeredTotal}</span><span class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant">Unanswered ${unansweredTotal}</span><span class="px-3 py-1 rounded-full bg-tertiary/10 text-tertiary">Current ${humanIndex}</span></div><label class="flex items-center gap-2 text-xs font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label></div><div class="flex flex-wrap gap-2">${answerMap}</div></div>` + options.map((opt, idx) => {
       const letter = String.fromCharCode(65 + idx);
       const isCorrect = idx === Number(q.correctAnswer);
       const userChoice = getStudyResultChoice(meta.id, q.id);
@@ -1535,6 +1537,45 @@ async function ensurePdfLib() {
   return window.jspdf?.jsPDF;
 }
 
+async function ensureHtml2Canvas() {
+  if (window.html2canvas) return window.html2canvas;
+  await new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-pn-h2c="1"]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(), { once: true });
+      existing.addEventListener('error', () => reject(new Error('Canvas library failed to load.')), { once: true });
+      return;
+    }
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+    s.async = true;
+    s.dataset.pnH2c = '1';
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error('Canvas library failed to load.'));
+    document.head.appendChild(s);
+  });
+  return window.html2canvas;
+}
+
+function textLooksArabic(value) {
+  return /[؀-ۿݐ-ݿࢠ-ࣿ]/.test(String(value || ''));
+}
+
+function buildLoadingSkeleton(lines = 4, tall = false) {
+  const bars = Array.from({ length: lines }).map((_, idx) => {
+    const width = idx === lines - 1 ? '55%' : idx % 2 === 0 ? '100%' : '82%';
+    return `<div class="h-3 rounded-full bg-surface-container-high animate-pulse" style="width:${width}"></div>`;
+  }).join('');
+  return `<div class="rounded-[1.75rem] border border-outline-variant/15 bg-surface-container-lowest p-6 ambient-shadow"><div class="h-5 w-40 rounded-full bg-surface-container-high animate-pulse mb-5"></div><div class="space-y-3">${bars}</div>${tall ? '<div class="h-20 mt-5 rounded-[1.25rem] bg-surface-container-high animate-pulse"></div>' : ''}</div>`;
+}
+
+function renderPageSkeleton(target, count = 2, tall = false) {
+  const el = typeof target === 'string' ? document.getElementById(target) : target;
+  if (!el) return;
+  el.innerHTML = Array.from({ length: count }).map(() => buildLoadingSkeleton(4, tall)).join('');
+}
+
+
 async function exportNotesPdf() {
   const notes = getSavedItemsMerged().filter(item => item.note).sort((a, b) => {
     if (!!a.isPinned !== !!b.isPinned) return Number(b.isPinned) - Number(a.isPinned);
@@ -1544,81 +1585,78 @@ async function exportNotesPdf() {
   try {
     showToast('Preparing PDF...', 'info');
     const JsPDF = await ensurePdfLib();
-    if (!JsPDF) throw new Error('PDF library not ready.');
+    const html2canvas = await ensureHtml2Canvas();
+    if (!JsPDF || !html2canvas) throw new Error('PDF tools are not ready.');
+
+    const host = document.createElement('div');
+    host.style.position = 'fixed';
+    host.style.left = '-99999px';
+    host.style.top = '0';
+    host.style.width = '820px';
+    host.style.padding = '28px';
+    host.style.background = '#f8f9fa';
+    host.style.zIndex = '-1';
+    host.style.fontFamily = 'Manrope, Tahoma, Arial, sans-serif';
+
+    const joinedArabic = notes.map(n => `${n.note || ''} ${n.questionText || ''}`).join(' ');
+    const headerDate = new Date().toLocaleString(textLooksArabic(joinedArabic) ? 'ar-EG' : undefined);
+    host.innerHTML = `
+      <div style="background:linear-gradient(135deg,#00151b,#002b36); color:#fff; border-radius:32px; padding:28px 32px; margin-bottom:24px; box-shadow:0 20px 50px rgba(0,21,27,.18);">
+        <div style="font-size:26px; font-weight:800; letter-spacing:-0.02em; margin-bottom:8px;">Pharmacy Nexus Notes</div>
+        <div style="font-size:15px; opacity:.92;">Premium review export — your pinned notes appear first.</div>
+        <div style="font-size:12px; color:#a7ccda; margin-top:14px;">${escapeHtml(headerDate)}</div>
+      </div>
+      ${notes.map(item => {
+        const noteIsArabic = textLooksArabic(item.note);
+        const questionIsArabic = textLooksArabic(item.questionText);
+        const dirNote = noteIsArabic ? 'rtl' : 'ltr';
+        const dirQuestion = questionIsArabic ? 'rtl' : 'ltr';
+        return `
+          <div style="background:#fff; border:1px solid #e1e3e4; border-radius:28px; padding:24px; margin-bottom:22px; box-shadow:0 10px 24px rgba(0,21,27,.06); page-break-inside:avoid;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:16px; margin-bottom:16px;">
+              <div>
+                <div style="display:inline-block; padding:7px 16px; border-radius:999px; background:#316574; color:#fff; font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:.08em;">${escapeHtml(item.topicName || item.subjectName || 'Question')}</div>
+                <div style="font-size:15px; font-weight:800; color:#191c1d; margin-top:14px;">${escapeHtml(item.subjectName || 'Subject')}</div>
+                <div style="font-size:12px; color:#41484b; margin-top:4px;">${escapeHtml(item.topicName || 'Topic')} • ${escapeHtml(formatShortDate(item.updatedAt || item.savedAt || new Date().toISOString()))}</div>
+              </div>
+              ${item.isPinned ? '<div style="display:inline-block; padding:7px 14px; border-radius:999px; background:#735c00; color:#fff; font-size:12px; font-weight:800; text-transform:uppercase;">Pinned</div>' : ''}
+            </div>
+            <div style="font-size:12px; font-weight:800; color:#191c1d; margin-bottom:8px; text-transform:uppercase; letter-spacing:.08em;">Question</div>
+            <div dir="${dirQuestion}" style="font-size:15px; line-height:1.6; color:#191c1d; margin-bottom:18px; text-align:${dirQuestion === 'rtl' ? 'right' : 'left'}; unicode-bidi:plaintext;">${escapeHtml(item.questionText || '—')}</div>
+            <div style="background:#002b36; border-radius:24px; padding:18px 20px;">
+              <div style="font-size:12px; font-weight:800; color:#c3e8f7; margin-bottom:10px; text-transform:uppercase; letter-spacing:.08em;">Personal Note</div>
+              <div dir="${dirNote}" style="font-size:15px; line-height:1.8; color:#fff; text-align:${dirNote === 'rtl' ? 'right' : 'left'}; white-space:pre-wrap; unicode-bidi:plaintext;">${escapeHtml(item.note || '')}</div>
+            </div>
+          </div>`;
+      }).join('')}
+    `;
+    document.body.appendChild(host);
+    const canvas = await html2canvas(host, {
+      backgroundColor: '#f8f9fa',
+      scale: Math.min(2, window.devicePixelRatio || 1.5),
+      useCORS: true,
+      logging: false
+    });
+    host.remove();
+
     const doc = new JsPDF({ unit: 'pt', format: 'a4' });
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
-    const margin = 44;
-    let y = 54;
-    const addHeader = () => {
-      doc.setFillColor(0, 21, 27);
-      doc.roundedRect(margin, 24, pageWidth - margin * 2, 86, 24, 24, 'F');
-      doc.setTextColor(255,255,255);
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(22);
-      doc.text('Pharmacy Nexus Notes', margin + 22, 56);
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(10);
-      doc.text('Premium review export — your pinned notes appear first.', margin + 22, 76);
-      doc.setTextColor(167, 204, 218);
-      doc.text(new Date().toLocaleString(), pageWidth - margin - 120, 76);
-      y = 128;
-    };
-    const checkPage = (needed=80) => {
-      if (y + needed > pageHeight - 48) {
-        doc.addPage();
-        addHeader();
-      }
-    };
-    addHeader();
-    notes.forEach((item, idx) => {
-      const noteLines = doc.splitTextToSize(String(item.note || ''), pageWidth - margin * 2 - 32);
-      const questionLines = doc.splitTextToSize(String(item.questionText || ''), pageWidth - margin * 2 - 32);
-      const needed = 120 + noteLines.length * 14 + questionLines.length * 13;
-      checkPage(needed);
-      doc.setFillColor(248, 249, 250);
-      doc.setDrawColor(225, 227, 228);
-      doc.roundedRect(margin, y, pageWidth - margin * 2, needed - 14, 22, 22, 'FD');
-      doc.setFillColor(49, 101, 116);
-      doc.roundedRect(margin + 16, y + 16, 120, 20, 10, 10, 'F');
-      doc.setTextColor(255,255,255);
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(9);
-      doc.text((item.topicName || item.subjectName || 'Question').toUpperCase(), margin + 26, y + 30);
-      if (item.isPinned) {
-        doc.setFillColor(115, 92, 0);
-        doc.roundedRect(pageWidth - margin - 92, y + 16, 76, 20, 10, 10, 'F');
-        doc.setTextColor(255,255,255);
-        doc.text('PINNED', pageWidth - margin - 66, y + 30, { align: 'center' });
-      }
-      doc.setTextColor(25,28,29);
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(14);
-      doc.text(item.subjectName || 'Subject', margin + 16, y + 58);
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(10);
-      doc.setTextColor(65,72,75);
-      doc.text(`${item.topicName || 'Topic'} • ${formatShortDate(item.updatedAt || item.savedAt || new Date().toISOString())}`, margin + 16, y + 74);
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(11);
-      doc.setTextColor(25,28,29);
-      doc.text('Question', margin + 16, y + 98);
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(10);
-      doc.text(questionLines, margin + 16, y + 114);
-      const noteY = y + 114 + questionLines.length * 13 + 14;
-      doc.setFillColor(0, 43, 54);
-      doc.roundedRect(margin + 16, noteY, pageWidth - margin * 2 - 32, 28 + noteLines.length * 14, 18, 18, 'F');
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(10);
-      doc.setTextColor(195, 232, 247);
-      doc.text('PERSONAL NOTE', margin + 30, noteY + 18);
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(10);
-      doc.setTextColor(255,255,255);
-      doc.text(noteLines, margin + 30, noteY + 36);
-      y = noteY + 42 + noteLines.length * 14 + 20;
-    });
+    const imgWidth = pageWidth;
+    const imgHeight = canvas.height * imgWidth / canvas.width;
+    const imgData = canvas.toDataURL('image/png');
+    let heightLeft = imgHeight;
+    let position = 0;
+
+    doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight, undefined, 'FAST');
+    heightLeft -= pageHeight;
+    while (heightLeft > 0) {
+      position = heightLeft - imgHeight;
+      doc.addPage();
+      doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight, undefined, 'FAST');
+      heightLeft -= pageHeight;
+    }
+
     doc.save(`pharmacy-nexus-notes-${new Date().toISOString().slice(0,10)}.pdf`);
     showToast('Notes PDF downloaded', 'success');
   } catch (e) {
@@ -1652,13 +1690,20 @@ async function openSavedQuestion(questionId) {
   if (!targetSubjectId || !targetTopicId) return showToast('Question could not be located.', 'error');
   try {
     await loadTopicQuestions(targetSubjectId, targetTopicId);
-    const idx = (appState.currentTopicQuestions || []).findIndex(q => q.id === questionId);
-    appState.currentSetIndex = idx >= 0 ? Math.floor(idx / 30) : 0;
-    appState.currentQuestionIndex = idx >= 0 ? idx % 30 : 0;
+    const list = appState.currentTopicQuestions || [];
+    const idx = list.findIndex(q => q.id === questionId);
+    if (idx < 0) return showToast('Question could not be located inside this topic.', 'error');
+    appState.retryQuestionIds = [];
+    appState.studyMode = 'set';
+    appState.currentSetIndex = Math.floor(idx / 30);
+    appState.currentQuestionIndex = idx % 30;
+    appState.reviewContext = 'study';
+    appState.currentSessionLogged = false;
     saveState();
+    renderSetsPage();
     renderStudyQuestion();
     navigateTo('study');
-    showToast('Jumped to question', 'success');
+    showToast(`Jumped to ${item.topicName || 'question'}`, 'success');
   } catch {
     showToast('Question could not be opened.', 'error');
   }
@@ -2142,6 +2187,11 @@ function initFinalExamBuilder() {
 
 
 async function loadSubjectsIndex() {
+  renderPageSkeleton('home-subject-grid', 3, false);
+  renderPageSkeleton('subjects-grid', 3, true);
+  const topicsHost = document.getElementById('topics-list');
+  if (topicsHost) renderPageSkeleton(topicsHost, 2, true);
+
   const index = await fetchJson('data/index.json');
   const subjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
   PN_DATA.subjectsIndex = { ...index, subjects };
@@ -2156,9 +2206,7 @@ async function loadSubjectsIndex() {
       subject.topicsCount = (subjectJson.topics || []).length;
       subject.questionsCount = (subjectJson.topics || []).reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
     } catch {
-      PN_DATA.topicsMap.set(subject.id, { subjectId: subject.id, topics: [] });
-      subject.topicsCount = 0;
-      subject.questionsCount = 0;
+      PN_DATA.topicsMap.set(subject.id, { topics: [] });
     }
   }));
 
@@ -2445,8 +2493,8 @@ function renderExamLivePage() {
     const answered = session.answers[item.id] !== undefined;
     const current = idx === session.currentIndex;
     const flagged = flagSet.has(item.id);
-    const base = current ? 'bg-primary text-on-primary scale-110' : (answered ? 'bg-primary-fixed text-primary' : 'bg-surface-container-highest text-on-surface-variant');
-    return `<button onclick="examGoTo(${idx})" class="w-10 h-10 rounded-lg ${base} font-bold text-xs flex items-center justify-center hover:opacity-90 relative transition-all">${idx + 1}${flagged ? '<span class="absolute top-0 right-0 w-2 h-2 bg-tertiary rounded-full -mt-0.5 -mr-0.5"></span>' : ''}</button>`;
+    const base = current ? 'bg-primary text-on-primary scale-110 ring-4 ring-primary/10 shadow-[0_8px_20px_rgba(0,21,27,0.18)]' : (answered ? 'bg-primary-fixed text-primary shadow-sm' : 'bg-surface-container-highest text-on-surface-variant');
+    return `<button onclick="examGoTo(${idx})" class="w-10 h-10 rounded-xl ${base} font-bold text-xs flex items-center justify-center hover:opacity-90 relative transition-all">${idx + 1}${flagged ? '<span class="absolute top-0 right-0 w-2 h-2 bg-tertiary rounded-full -mt-0.5 -mr-0.5"></span>' : ''}</button>`;
   }).join('');
   const optionCards = options.map((opt, idx) => {
     const active = Number(selected) === idx;
