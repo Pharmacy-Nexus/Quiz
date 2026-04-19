@@ -120,7 +120,32 @@ tailwind.config = {
   html.dark .bg-error-container, html.dark .bg-error-container\/15, html.dark .bg-error-container\/40 { background: rgba(186,26,26,0.18) !important; }
   html.dark .bg-tertiary\/10, html.dark .bg-tertiary-fixed\/20, html.dark .bg-tertiary-fixed\/30 { background: rgba(233,195,73,0.18) !important; }
   body.exam-guard .answer-option, body.exam-guard #study-question, body.exam-guard #daily-question-preview, body.exam-guard #page-examlive, body.exam-guard #page-review { -webkit-user-select:none; user-select:none; }
+.shimmer-text {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    115deg,
+    #ffffff 0%,
+    #f7fbfd 35%,
+    #ffe088 50%,
+    #ffffff 65%,
+    #dfeef5 100%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: luxuryShimmer 6s ease-in-out infinite;
+}
 
+@keyframes luxuryShimmer {
+  0% {
+    background-position: 180% center;
+  }
+  100% {
+    background-position: -40% center;
+  }
+}
 </style>
 </head>
 <body class="min-h-screen flex">
