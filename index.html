@@ -104,6 +104,23 @@ tailwind.config = {
   .fade-in { animation: fadeIn 0.3s ease; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   .progress-bar { transition: width 0.4s ease; }
+
+  html.dark body { background:#11171a !important; color:#f0f1f2 !important; }
+  html.dark .bg-surface, html.dark .bg-surface-bright, html.dark .bg-background { background:#11171a !important; }
+  html.dark .bg-surface-container-lowest { background:#171d20 !important; }
+  html.dark .bg-surface-container-low { background:#1d2528 !important; }
+  html.dark .bg-surface-container, html.dark .bg-surface-container-high, html.dark .bg-surface-container-highest, html.dark .bg-surface-variant { background:#263135 !important; }
+  html.dark .text-primary, html.dark .text-on-surface, html.dark .text-on-background { color:#f0f1f2 !important; }
+  html.dark .text-on-surface-variant, html.dark .text-outline { color:#b9c4c8 !important; }
+  html.dark .border-outline-variant\/15, html.dark .border-outline-variant\/20, html.dark .ghost-border, html.dark .border-outline-variant\/30 { border-color: rgba(167,204,218,0.18) !important; }
+  html.dark .ambient-shadow { box-shadow: 0 20px 40px rgba(0,0,0,0.35) !important; }
+  html.dark .bg-primary-container { background:#12313a !important; }
+  html.dark .bg-primary { background:#00151b !important; }
+  html.dark .bg-secondary-container, html.dark .bg-secondary-container\/20, html.dark .bg-secondary-container\/40, html.dark .bg-secondary-container\/50, html.dark .bg-secondary-container\/60 { background: rgba(49,101,116,0.28) !important; }
+  html.dark .bg-error-container, html.dark .bg-error-container\/15, html.dark .bg-error-container\/40 { background: rgba(186,26,26,0.18) !important; }
+  html.dark .bg-tertiary\/10, html.dark .bg-tertiary-fixed\/20, html.dark .bg-tertiary-fixed\/30 { background: rgba(233,195,73,0.18) !important; }
+  body.exam-guard .answer-option, body.exam-guard #study-question, body.exam-guard #daily-question-preview, body.exam-guard #page-examlive, body.exam-guard #page-review { -webkit-user-select:none; user-select:none; }
+
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -140,6 +157,10 @@ tailwind.config = {
     <button onclick="navigateTo('finalexam')" class="w-full bg-primary text-on-primary py-3 rounded-xl font-bold text-sm tracking-wide hover:scale-[0.98] transition-transform hover:shadow-[0_0_16px_rgba(255,224,136,0.3)]">
       Start Final Exam
     </button>
+    <button onclick="toggleTheme()" class="w-full bg-surface-container-lowest text-primary py-3 rounded-xl font-bold text-sm tracking-wide border border-outline-variant/20 hover:bg-white transition-colors flex items-center justify-center gap-2">
+      <span data-theme-toggle-icon class="material-symbols-outlined text-base">dark_mode</span>
+      <span data-theme-toggle-label>Dark Mode</span>
+    </button>
     <div class="flex items-center gap-3 py-2 cursor-pointer hover:bg-white/40 rounded-xl px-2 transition-colors">
       <div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-primary-fixed text-sm font-bold flex-shrink-0">PN</div>
       <div>
@@ -154,6 +175,7 @@ tailwind.config = {
 <header class="md:hidden fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 py-4 bg-surface-container-low shadow-sm">
   <span class="text-base font-black text-primary tracking-tight">Pharmacy Nexus</span>
   <div class="flex gap-2">
+    <button onclick="toggleTheme()" class="p-2 text-on-surface-variant hover:text-primary transition-colors" aria-label="Toggle theme"><span data-theme-toggle-icon class="material-symbols-outlined text-xl">dark_mode</span></button>
     <button onclick="navigateTo('dashboard')" class="p-2 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-xl">dashboard</span></button>
     <button onclick="navigateTo('saved')" class="p-2 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-xl">bookmark</span></button>
   </div>
@@ -317,12 +339,10 @@ tailwind.config = {
             <div class="flex-1">
               <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest mb-2">Click the wheel to select a subject</p>
               <div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/15">
-                <p class="text-sm font-medium text-primary leading-relaxed">
-                  A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?
-                </p>
+                <p id="daily-question-preview" class="text-sm font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
               </div>
               <div class="flex gap-2 mt-3">
-                <button onclick="navigateTo('study')" class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
+                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
                 <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
               </div>
             </div>
@@ -1524,6 +1544,7 @@ tailwind.config = {
   </div>
 </div>
 
+<div id="copy-guard-message" class="hidden fixed bottom-24 md:bottom-6 left-1/2 -translate-x-1/2 z-[70] px-4 py-2 rounded-full bg-primary text-on-primary text-xs font-bold tracking-wide shadow-lg">Copy and paste are disabled during study and exam review.</div>
 </main>
 
 <script src="assets/js/admin-config.js"></script>
