@@ -157,11 +157,18 @@ function renderSubjectOptions() {
     if ($(id)) $(id).innerHTML = html;
   });
 }
-async function getSubjectFile(subjectId) { return getRepoFile(`${DATA_ROOT}/${subjectId}/meta.json`); }
-async function getTopicFile(subjectId, topicId) { return getRepoFile(`${DATA_ROOT}/${subjectId}/${topicId}.json`); }
+async function getSubjectFile(subjectId) {
+  return getRepoFile(`${DATA_ROOT}/${subjectId}/meta.json`);
+}
+
+async function getTopicFile(subjectId, topicId) {
+  return getRepoFile(`${DATA_ROOT}/${subjectId}/${topicId}.json`);
+}
+
 async function syncSubjectAndIndex(subjectId) {
   const subjectFile = await getSubjectFile(subjectId);
   let totalQuestions = 0;
+
   for (const topic of (subjectFile.json.topics || [])) {
     try {
       const topicFile = await getTopicFile(subjectId, topic.id);
@@ -170,27 +177,50 @@ async function syncSubjectAndIndex(subjectId) {
       totalQuestions += topic.questionsCount || 0;
     } catch (e) {
       topic.file = `${DATA_ROOT}/${subjectId}/${topic.id}.json`;
+      topic.questionsCount = topic.questionsCount || 0;
     }
   }
-  await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Sync subject metadata: ${subjectId}`, subjectFile.sha);
+
+  subjectFile.json.updatedAt = nowIso();
+
+  await putRepoJson(
+    `${DATA_ROOT}/${subjectId}/meta.json`,
+    subjectFile.json,
+    `Sync subject metadata: ${subjectId}`,
+    subjectFile.sha
+  );
 
   const indexFile = await getRepoFile(`${DATA_ROOT}/index.json`);
   const entry = (indexFile.json.subjects || []).find(s => s.id === subjectId);
+
   if (entry) {
     entry.topicsCount = (subjectFile.json.topics || []).length;
     entry.questionsCount = totalQuestions;
     entry.file = `${DATA_ROOT}/${subjectId}/meta.json`;
-    const meta = (subjectsIndex.subjects || []).find(s => s.id === subjectId);
-    if (meta) {
-      entry.name = meta.name || entry.name;
-      entry.description = meta.description || entry.description;
-      entry.icon = meta.icon || entry.icon;
-      entry.order = meta.order ?? entry.order;
+
+    const localMeta = (subjectsIndex?.subjects || []).find(s => s.id === subjectId);
+    if (localMeta) {
+      entry.name = localMeta.name || entry.name;
+      entry.description = localMeta.description || entry.description;
+      entry.icon = localMeta.icon || entry.icon;
+      entry.order = localMeta.order ?? entry.order;
+      entry.theme = localMeta.theme || entry.theme;
     }
   }
+
   indexFile.json.updatedAt = nowIso();
-  await putRepoJson(`${DATA_ROOT}/index.json`, indexFile.json, `Sync index: ${subjectId}`, indexFile.sha);
-  subjectsIndex = indexFile.json;
+
+  await putRepoJson(
+    `${DATA_ROOT}/index.json`,
+    indexFile.json,
+    `Sync index: ${subjectId}`,
+    indexFile.sha
+  );
+
+  subjectsIndex = {
+    ...indexFile.json,
+    subjects: [...(indexFile.json.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999))
+  };
 }
 async function syncTopicSelectors() {
   const subjectId = $('topic-subject-select').value || $('question-subject-select').value || $('bulk-subject-select').value || '';
