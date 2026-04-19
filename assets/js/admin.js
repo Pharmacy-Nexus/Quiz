@@ -118,7 +118,7 @@ async function deleteRepoFile(path, sha, message) {
 async function bootstrapData() {
   try {
     requireSession();
-    const file = await getRepoFile(`${DATA_ROOT}/subjects/index.json`);
+    const file = await getRepoFile(`${DATA_ROOT}/index.json`);
     subjectsIndex = file.json;
     renderSubjectOptions();
     await loadTopicsForQuestionSubject();
@@ -135,8 +135,8 @@ function renderSubjectOptions() {
     if ($(id)) $(id).innerHTML = html;
   });
 }
-async function getSubjectFile(subjectId) { return getRepoFile(`${DATA_ROOT}/subjects/${subjectId}.json`); }
-async function getTopicFile(subjectId, topicId) { return getRepoFile(`${DATA_ROOT}/topics/${subjectId}/${topicId}.json`); }
+async function getSubjectFile(subjectId) { return getRepoFile(`${DATA_ROOT}/${subjectId}/meta.json`); }
+async function getTopicFile(subjectId, topicId) { return getRepoFile(`${DATA_ROOT}/${subjectId}/${topicId}.json`); }
 async function syncSubjectAndIndex(subjectId) {
   const subjectFile = await getSubjectFile(subjectId);
   let totalQuestions = 0;
@@ -144,20 +144,20 @@ async function syncSubjectAndIndex(subjectId) {
     try {
       const topicFile = await getTopicFile(subjectId, topic.id);
       recomputeTopicMetaFromQuestions(topic, topicFile.json.questions || []);
-      topic.file = `${DATA_ROOT}/topics/${subjectId}/${topic.id}.json`;
+      topic.file = `${DATA_ROOT}/${subjectId}/${topic.id}.json`;
       totalQuestions += topic.questionsCount || 0;
     } catch (e) {
-      topic.file = `${DATA_ROOT}/topics/${subjectId}/${topic.id}.json`;
+      topic.file = `${DATA_ROOT}/${subjectId}/${topic.id}.json`;
     }
   }
-  await putRepoJson(`${DATA_ROOT}/subjects/${subjectId}.json`, subjectFile.json, `Sync subject metadata: ${subjectId}`, subjectFile.sha);
+  await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Sync subject metadata: ${subjectId}`, subjectFile.sha);
 
-  const indexFile = await getRepoFile(`${DATA_ROOT}/subjects/index.json`);
+  const indexFile = await getRepoFile(`${DATA_ROOT}/index.json`);
   const entry = (indexFile.json.subjects || []).find(s => s.id === subjectId);
   if (entry) {
     entry.topicsCount = (subjectFile.json.topics || []).length;
     entry.questionsCount = totalQuestions;
-    entry.file = `${DATA_ROOT}/subjects/${subjectId}.json`;
+    entry.file = `${DATA_ROOT}/${subjectId}/meta.json`;
     const meta = (subjectsIndex.subjects || []).find(s => s.id === subjectId);
     if (meta) {
       entry.name = meta.name || entry.name;
@@ -167,7 +167,7 @@ async function syncSubjectAndIndex(subjectId) {
     }
   }
   indexFile.json.updatedAt = nowIso();
-  await putRepoJson(`${DATA_ROOT}/subjects/index.json`, indexFile.json, `Sync index: ${subjectId}`, indexFile.sha);
+  await putRepoJson(`${DATA_ROOT}/index.json`, indexFile.json, `Sync index: ${subjectId}`, indexFile.sha);
   subjectsIndex = indexFile.json;
 }
 async function syncTopicSelectors() {
@@ -245,12 +245,12 @@ async function addSubject() {
     if ((subjectsIndex.subjects || []).some(s => s.id === id)) throw new Error('Subject already exists.');
 
     const subjectData = { id, name, description, order, topics: [] };
-    await putRepoJson(`${DATA_ROOT}/subjects/${id}.json`, subjectData, `Create subject: ${name}`);
+    await putRepoJson(`${DATA_ROOT}/${id}/meta.json`, subjectData, `Create subject: ${name}`);
 
-    const indexFile = await getRepoFile(`${DATA_ROOT}/subjects/index.json`);
+    const indexFile = await getRepoFile(`${DATA_ROOT}/index.json`);
     indexFile.json.updatedAt = nowIso();
-    indexFile.json.subjects.push({ id, name, description, icon, theme: 'primary', order, topicsCount: 0, questionsCount: 0, file: `${DATA_ROOT}/subjects/${id}.json` });
-    await putRepoJson(`${DATA_ROOT}/subjects/index.json`, indexFile.json, `Add subject to index: ${name}`, indexFile.sha);
+    indexFile.json.subjects.push({ id, name, description, icon, theme: 'primary', order, topicsCount: 0, questionsCount: 0, file: `${DATA_ROOT}/${id}/meta.json` });
+    await putRepoJson(`${DATA_ROOT}/index.json`, indexFile.json, `Add subject to index: ${name}`, indexFile.sha);
     subjectsIndex = indexFile.json;
     renderSubjectOptions();
     $('subject-name').value = '';
@@ -281,18 +281,18 @@ async function saveTopic() {
 
     if (!editing) {
       if (topics.some(t => t.id === id)) throw new Error('Topic already exists.');
-      const topicPath = `${DATA_ROOT}/topics/${subjectId}/${id}.json`;
+      const topicPath = `${DATA_ROOT}/${subjectId}/${id}.json`;
       const topicData = { subjectId, topicId: id, topicName: name, updatedAt: nowIso(), questions: [] };
       await putRepoJson(topicPath, topicData, `Create topic: ${name}`);
       topics.push(emptyTopicMeta(id, name, description, order, topicPath));
-      await putRepoJson(`${DATA_ROOT}/subjects/${subjectId}.json`, subjectFile.json, `Add topic: ${name}`, subjectFile.sha);
+      await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Add topic: ${name}`, subjectFile.sha);
       await syncSubjectAndIndex(subjectId);
       subjectsIndex.subjects = subjectsIndex.subjects.map(s => s.id === subjectId ? { ...s, topicsCount: topics.length } : s);
       setMsg('topic-message', `Topic created: ${name}`);
     } else {
       const originalId = editing.id;
-      const originalPath = `${DATA_ROOT}/topics/${subjectId}/${originalId}.json`;
-      const newPath = `${DATA_ROOT}/topics/${subjectId}/${id}.json`;
+      const originalPath = `${DATA_ROOT}/${subjectId}/${originalId}.json`;
+      const newPath = `${DATA_ROOT}/${subjectId}/${id}.json`;
       const topicFile = await getTopicFile(subjectId, originalId);
       topicFile.json.topicId = id;
       topicFile.json.topicName = name;
@@ -309,7 +309,7 @@ async function saveTopic() {
       editing.order = order;
       editing.file = newPath;
       recomputeTopicMetaFromQuestions(editing, topicFile.json.questions || []);
-      await putRepoJson(`${DATA_ROOT}/subjects/${subjectId}.json`, subjectFile.json, `Update topic meta: ${name}`, subjectFile.sha);
+      await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Update topic meta: ${name}`, subjectFile.sha);
       await syncSubjectAndIndex(subjectId);
       setMsg('topic-message', `Topic saved: ${name}`);
     }
@@ -347,9 +347,9 @@ async function deleteTopic() {
     const topicMeta = (subjectFile.json.topics || []).find(t => t.id === topicId);
     if (!topicMeta) throw new Error('Topic not found.');
     const topicFile = await getTopicFile(subjectId, topicId);
-    await deleteRepoFile(`${DATA_ROOT}/topics/${subjectId}/${topicId}.json`, topicFile.sha, `Delete topic: ${topicId}`);
+    await deleteRepoFile(`${DATA_ROOT}/${subjectId}/${topicId}.json`, topicFile.sha, `Delete topic: ${topicId}`);
     subjectFile.json.topics = (subjectFile.json.topics || []).filter(t => t.id !== topicId);
-    await putRepoJson(`${DATA_ROOT}/subjects/${subjectId}.json`, subjectFile.json, `Remove topic from subject: ${topicId}`, subjectFile.sha);
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Remove topic from subject: ${topicId}`, subjectFile.sha);
     await syncSubjectAndIndex(subjectId);
     await bootstrapData();
     $('topic-subject-select').value = subjectId;
@@ -449,7 +449,7 @@ async function saveQuestion() {
     }
     topicFile.json.questions = questions;
     topicFile.json.updatedAt = nowIso();
-    await putRepoJson(`${DATA_ROOT}/topics/${subjectId}/${topicId}.json`, topicFile.json, `${idx >= 0 ? 'Update' : 'Add'} question: ${question.id}`, topicFile.sha);
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/${topicId}.json`, topicFile.json, `${idx >= 0 ? 'Update' : 'Add'} question: ${question.id}`, topicFile.sha);
     await syncSubjectAndIndex(subjectId);
     await loadQuestionList();
     resetQuestionForm();
@@ -470,7 +470,7 @@ async function deleteQuestion(forcedId) {
     topicFile.json.questions = (topicFile.json.questions || []).filter(q => q.id !== qid);
     if (topicFile.json.questions.length === before) throw new Error('Question not found.');
     topicFile.json.updatedAt = nowIso();
-    await putRepoJson(`${DATA_ROOT}/topics/${subjectId}/${topicId}.json`, topicFile.json, `Delete question: ${qid}`, topicFile.sha);
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/${topicId}.json`, topicFile.json, `Delete question: ${qid}`, topicFile.sha);
     await syncSubjectAndIndex(subjectId);
     await loadQuestionList();
     resetQuestionForm();
@@ -499,7 +499,7 @@ async function bulkImportQuestions() {
     });
     topicFile.json.questions = questions.concat(prepared);
     topicFile.json.updatedAt = nowIso();
-    await putRepoJson(`${DATA_ROOT}/topics/${subjectId}/${topicId}.json`, topicFile.json, `Bulk import ${prepared.length} questions into ${topicId}`, topicFile.sha);
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/${topicId}.json`, topicFile.json, `Bulk import ${prepared.length} questions into ${topicId}`, topicFile.sha);
     await syncSubjectAndIndex(subjectId);
     if ($('question-subject-select').value === subjectId) {
       $('question-topic-select').value = topicId;
@@ -545,7 +545,7 @@ function unlock() {
 async function testConnection() {
   try {
     requireSession();
-    await gh(`${DATA_ROOT}/subjects/index.json`);
+    await gh(`${DATA_ROOT}/index.json`);
     setMsg('connection-message', 'GitHub connection is working.');
     await bootstrapData();
   } catch (e) {

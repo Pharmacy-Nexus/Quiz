@@ -1805,19 +1805,23 @@ function initFinalExamBuilder() {
 
 
 async function loadSubjectsIndex() {
-  const index = await fetchJson('data/subjects/index.json');
+  const index = await fetchJson('data/index.json');
   const subjects = [...(index.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
   PN_DATA.subjectsIndex = { ...index, subjects };
   subjects.forEach(subject => PN_DATA.subjectsMap.set(subject.id, subject));
 
   await Promise.all(subjects.map(async subject => {
     try {
-      const subjectJson = await fetchJson(subject.file);
+      const metaPath = `data/${subject.id}/meta.json`;
+      const subjectJson = await fetchJson(metaPath);
       PN_DATA.topicsMap.set(subject.id, subjectJson);
+      subject.metaFile = metaPath;
       subject.topicsCount = (subjectJson.topics || []).length;
       subject.questionsCount = (subjectJson.topics || []).reduce((sum, topic) => sum + Number(topic.questionsCount || 0), 0);
     } catch {
-      PN_DATA.topicsMap.set(subject.id, { topics: [] });
+      PN_DATA.topicsMap.set(subject.id, { subjectId: subject.id, topics: [] });
+      subject.topicsCount = 0;
+      subject.questionsCount = 0;
     }
   }));
 
