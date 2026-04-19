@@ -120,42 +120,30 @@ tailwind.config = {
   html.dark .bg-error-container, html.dark .bg-error-container\/15, html.dark .bg-error-container\/40 { background: rgba(186,26,26,0.18) !important; }
   html.dark .bg-tertiary\/10, html.dark .bg-tertiary-fixed\/20, html.dark .bg-tertiary-fixed\/30 { background: rgba(233,195,73,0.18) !important; }
   body.exam-guard .answer-option, body.exam-guard #study-question, body.exam-guard #daily-question-preview, body.exam-guard #page-examlive, body.exam-guard #page-review { -webkit-user-select:none; user-select:none; }
-.shimmer-wrap {
+.shimmer-text {
   position: relative;
   display: inline-block;
-}
-
-.shimmer-wrap .hero-title {
-  position: relative;
-  color: #ffffff;
-  z-index: 1;
-}
-
-.shimmer-wrap::after {
-  content: "";
-  position: absolute;
-  inset: -10% -20%;
   background: linear-gradient(
-    120deg,
-    transparent 35%,
-    rgba(255,255,255,0.00) 42%,
-    rgba(255,224,136,0.28) 50%,
-    rgba(255,255,255,0.45) 53%,
-    rgba(255,224,136,0.18) 57%,
-    transparent 65%
+    115deg,
+    #ffffff 0%,
+    #f7fbfd 35%,
+    #ffe088 50%,
+    #ffffff 65%,
+    #dfeef5 100%
   );
-  transform: translateX(-120%) skewX(-18deg);
-  animation: sweepLight 4.8s ease-in-out infinite;
-  pointer-events: none;
-  filter: blur(8px);
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: luxuryShimmer 6s ease-in-out infinite;
 }
 
-@keyframes sweepLight {
+@keyframes luxuryShimmer {
   0% {
-    transform: translateX(-140%) skewX(-18deg);
+    background-position: 180% center;
   }
   100% {
-    transform: translateX(140%) skewX(-18deg);
+    background-position: -40% center;
   }
 }
 </style>
