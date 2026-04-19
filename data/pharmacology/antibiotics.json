@@ -1,0 +1,38 @@
+{
+  "subjectId": "pharmacology",
+  "topicId": "antibiotics",
+  "topicName": "Antibiotics",
+  "updatedAt": "2026-04-18T00:00:00Z",
+  "questions": [
+    {
+      "id": "pharm-antibiotics-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antibiotic class inhibits bacterial cell wall synthesis by binding penicillin-binding proteins?",
+      "options": [
+        "Macrolides",
+        "Penicillins",
+        "Tetracyclines",
+        "Sulfonamides"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Penicillins are beta-lactam antibiotics that bind PBPs and inhibit transpeptidation during bacterial cell wall synthesis.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharm-antibiotics-002",
+      "type": "true_false",
+      "difficulty": "medium",
+      "questionText": "Vancomycin is generally active against methicillin-resistant Staphylococcus aureus (MRSA).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vancomycin remains a standard option for many MRSA infections, especially serious gram-positive infections.",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
+}
