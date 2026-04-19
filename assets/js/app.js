@@ -119,7 +119,8 @@ const DEFAULT_STATE = {
   currentExamSession: null,
   reviewContext: 'study',
   themeMode: 'light',
-  dailyChallenge: null
+  dailyChallenge: null,
+  studyUi: { autoNext: false }
 };
 
 const PN_DATA = {
@@ -166,7 +167,14 @@ function loadState() {
 
 
 let appState = loadState();
+ensureStudyUiDefaults();
 syncSavedStats?.();
+
+function ensureStudyUiDefaults() {
+  appState.studyUi = appState.studyUi || {};
+  if (typeof appState.studyUi.autoNext !== 'boolean') appState.studyUi.autoNext = false;
+}
+
 
 function getTodayKey() {
   const now = new Date();
@@ -1022,7 +1030,14 @@ function renderStudyQuestion() {
   const wasAnswered = answerEntry !== null;
   const optionsWrap = document.getElementById('study-options');
   if (optionsWrap) {
-    optionsWrap.innerHTML = options.map((opt, idx) => {
+    const answerMap = setQuestions.map((sq, idx) => {
+      const state = getStudyResultCorrect(meta.id, sq.id);
+      const current = idx === appState.currentQuestionIndex;
+      return `<button onclick="jumpToStudyQuestion(${idx})" class="w-8 h-8 rounded-full text-[11px] font-bold transition-all ${current ? 'bg-primary text-on-primary' : state === true ? 'bg-primary-fixed text-primary' : state === false ? 'bg-error-container text-on-error-container' : 'bg-surface-container-high text-on-surface-variant hover:bg-surface-container'}">${idx + 1}</button>`;
+    }).join('');
+    const answeredTotal = setQuestions.filter(sq => getStudyResultCorrect(meta.id, sq.id) !== undefined).length;
+    const unansweredTotal = setQuestions.length - answeredTotal;
+    optionsWrap.innerHTML = `<div class="mb-5 bg-surface-container-low rounded-[1.25rem] p-4 border border-outline-variant/15"><div class="flex flex-wrap items-center justify-between gap-3 mb-3"><div class="flex items-center gap-4 text-xs font-bold uppercase tracking-widest"><span class="text-primary">Answered ${answeredTotal}</span><span class="text-on-surface-variant">Unanswered ${unansweredTotal}</span><span class="text-tertiary">Current ${humanIndex}</span></div><label class="flex items-center gap-2 text-xs font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label></div><div class="flex flex-wrap gap-2">${answerMap}</div></div>` + options.map((opt, idx) => {
       const letter = String.fromCharCode(65 + idx);
       const isCorrect = idx === Number(q.correctAnswer);
       const userChoice = getStudyResultChoice(meta.id, q.id);
@@ -1042,10 +1057,20 @@ function renderStudyQuestion() {
     noteBtn.classList.toggle('text-on-surface-variant', !noteExists);
   }
 
+  const autoNextToggle = document.getElementById('study-auto-next-toggle');
+  if (autoNextToggle) autoNextToggle.onchange = () => { appState.studyUi.autoNext = !!autoNextToggle.checked; saveState(); };
+
   document.getElementById('study-prev-btn')?.toggleAttribute('disabled', appState.currentQuestionIndex === 0);
   document.getElementById('study-prev-btn')?.classList.toggle('opacity-50', appState.currentQuestionIndex === 0);
   document.getElementById('study-next-btn') && (document.getElementById('study-next-btn').innerHTML = `${appState.currentQuestionIndex === total - 1 ? 'Finish Set' : 'Next Question'} <span class="material-symbols-outlined text-sm">arrow_forward</span>`);
 }
+
+function jumpToStudyQuestion(index) {
+  appState.currentQuestionIndex = Number(index) || 0;
+  saveState();
+  renderStudyQuestion();
+}
+window.jumpToStudyQuestion = jumpToStudyQuestion;
 
 function selectAnswer(optionIndex) {
   const meta = appState.currentTopicMeta;
@@ -1059,6 +1084,18 @@ function selectAnswer(optionIndex) {
     q.userChoice = Number(optionIndex);
     saveState();
     renderStudyQuestion();
+    const toggle = document.getElementById('study-auto-next-toggle');
+    if (toggle) {
+      toggle.onchange = () => {
+        appState.studyUi.autoNext = !!toggle.checked;
+        saveState();
+      };
+    }
+    if (appState.studyUi?.autoNext) {
+      setTimeout(() => {
+        if (appState.currentPage === 'study') nextQuestion();
+      }, 500);
+    }
   }
 }
 window.selectAnswer = selectAnswer;
@@ -1213,6 +1250,18 @@ function previousQuestion() {
     appState.currentQuestionIndex -= 1;
     saveState();
     renderStudyQuestion();
+    const toggle = document.getElementById('study-auto-next-toggle');
+    if (toggle) {
+      toggle.onchange = () => {
+        appState.studyUi.autoNext = !!toggle.checked;
+        saveState();
+      };
+    }
+    if (appState.studyUi?.autoNext) {
+      setTimeout(() => {
+        if (appState.currentPage === 'study') nextQuestion();
+      }, 500);
+    }
   }
 }
 window.previousQuestion = previousQuestion;
@@ -1418,19 +1467,200 @@ function bindNotes() {
   }
 }
 
-function openSavedQuestion(questionId) {
+function togglePinnedNote(questionId) {
+  appState.notesByQuestion = appState.notesByQuestion || {};
+  const noteObj = appState.notesByQuestion?.[questionId];
+  if (!noteObj) return;
+  noteObj.isPinned = !noteObj.isPinned;
+  noteObj.updatedAt = new Date().toISOString();
+  saveState();
+  renderSavedPage();
+  showToast(noteObj.isPinned ? 'Note pinned' : 'Note unpinned', 'success');
+}
+window.togglePinnedNote = togglePinnedNote;
+
+async function copyQuestionNote(questionId) {
+  const noteObj = appState.notesByQuestion?.[questionId];
+  const textToCopy = noteObj?.note || '';
+  if (!textToCopy) return showToast('No note to copy.', 'info');
+  try {
+    await navigator.clipboard.writeText(textToCopy);
+    showToast('Note copied', 'success');
+  } catch {
+    showToast('Could not copy note', 'error');
+  }
+}
+window.copyQuestionNote = copyQuestionNote;
+
+function getSavedItemsMerged() {
+  const savedItems = getSavedItemsList();
+  const notesMap = appState.notesByQuestion || {};
+  const mergedIds = new Set([...savedItems.map(i => i.id), ...Object.keys(notesMap)]);
+  return [...mergedIds].map(id => {
+    const base = savedItems.find(i => i.id === id) || {};
+    const note = notesMap[id];
+    return {
+      ...base,
+      id,
+      subjectId: base.subjectId || note?.subjectId || '',
+      subjectName: base.subjectName || note?.subjectName || '',
+      topicId: base.topicId || note?.topicId || '',
+      topicName: base.topicName || note?.topicName || '',
+      questionText: base.questionText || note?.questionText || '',
+      note: note?.note || base.note || '',
+      isPinned: !!note?.isPinned,
+      savedAt: base.savedAt || note?.updatedAt,
+      updatedAt: note?.updatedAt || base.savedAt
+    };
+  });
+}
+
+async function ensurePdfLib() {
+  if (window.jspdf?.jsPDF) return window.jspdf.jsPDF;
+  await new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-pn-pdf="1"]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(), { once: true });
+      existing.addEventListener('error', () => reject(new Error('PDF library failed to load.')), { once: true });
+      return;
+    }
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js';
+    s.async = true;
+    s.dataset.pnPdf = '1';
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error('PDF library failed to load.'));
+    document.head.appendChild(s);
+  });
+  return window.jspdf?.jsPDF;
+}
+
+async function exportNotesPdf() {
+  const notes = getSavedItemsMerged().filter(item => item.note).sort((a, b) => {
+    if (!!a.isPinned !== !!b.isPinned) return Number(b.isPinned) - Number(a.isPinned);
+    return new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0);
+  });
+  if (!notes.length) return showToast('No notes to export yet.', 'info');
+  try {
+    showToast('Preparing PDF...', 'info');
+    const JsPDF = await ensurePdfLib();
+    if (!JsPDF) throw new Error('PDF library not ready.');
+    const doc = new JsPDF({ unit: 'pt', format: 'a4' });
+    const pageWidth = doc.internal.pageSize.getWidth();
+    const pageHeight = doc.internal.pageSize.getHeight();
+    const margin = 44;
+    let y = 54;
+    const addHeader = () => {
+      doc.setFillColor(0, 21, 27);
+      doc.roundedRect(margin, 24, pageWidth - margin * 2, 86, 24, 24, 'F');
+      doc.setTextColor(255,255,255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(22);
+      doc.text('Pharmacy Nexus Notes', margin + 22, 56);
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.text('Premium review export — your pinned notes appear first.', margin + 22, 76);
+      doc.setTextColor(167, 204, 218);
+      doc.text(new Date().toLocaleString(), pageWidth - margin - 120, 76);
+      y = 128;
+    };
+    const checkPage = (needed=80) => {
+      if (y + needed > pageHeight - 48) {
+        doc.addPage();
+        addHeader();
+      }
+    };
+    addHeader();
+    notes.forEach((item, idx) => {
+      const noteLines = doc.splitTextToSize(String(item.note || ''), pageWidth - margin * 2 - 32);
+      const questionLines = doc.splitTextToSize(String(item.questionText || ''), pageWidth - margin * 2 - 32);
+      const needed = 120 + noteLines.length * 14 + questionLines.length * 13;
+      checkPage(needed);
+      doc.setFillColor(248, 249, 250);
+      doc.setDrawColor(225, 227, 228);
+      doc.roundedRect(margin, y, pageWidth - margin * 2, needed - 14, 22, 22, 'FD');
+      doc.setFillColor(49, 101, 116);
+      doc.roundedRect(margin + 16, y + 16, 120, 20, 10, 10, 'F');
+      doc.setTextColor(255,255,255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(9);
+      doc.text((item.topicName || item.subjectName || 'Question').toUpperCase(), margin + 26, y + 30);
+      if (item.isPinned) {
+        doc.setFillColor(115, 92, 0);
+        doc.roundedRect(pageWidth - margin - 92, y + 16, 76, 20, 10, 10, 'F');
+        doc.setTextColor(255,255,255);
+        doc.text('PINNED', pageWidth - margin - 66, y + 30, { align: 'center' });
+      }
+      doc.setTextColor(25,28,29);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(14);
+      doc.text(item.subjectName || 'Subject', margin + 16, y + 58);
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.setTextColor(65,72,75);
+      doc.text(`${item.topicName || 'Topic'} • ${formatShortDate(item.updatedAt || item.savedAt || new Date().toISOString())}`, margin + 16, y + 74);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(11);
+      doc.setTextColor(25,28,29);
+      doc.text('Question', margin + 16, y + 98);
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.text(questionLines, margin + 16, y + 114);
+      const noteY = y + 114 + questionLines.length * 13 + 14;
+      doc.setFillColor(0, 43, 54);
+      doc.roundedRect(margin + 16, noteY, pageWidth - margin * 2 - 32, 28 + noteLines.length * 14, 18, 18, 'F');
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(10);
+      doc.setTextColor(195, 232, 247);
+      doc.text('PERSONAL NOTE', margin + 30, noteY + 18);
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.setTextColor(255,255,255);
+      doc.text(noteLines, margin + 30, noteY + 36);
+      y = noteY + 42 + noteLines.length * 14 + 20;
+    });
+    doc.save(`pharmacy-nexus-notes-${new Date().toISOString().slice(0,10)}.pdf`);
+    showToast('Notes PDF downloaded', 'success');
+  } catch (e) {
+    showToast(e.message || 'Could not export notes.', 'error');
+  }
+}
+window.exportNotesPdf = exportNotesPdf;
+
+async function openSavedQuestion(questionId) {
   const item = appState.savedItems?.[questionId] || appState.notesByQuestion?.[questionId];
   if (!item) return;
-  const meta = item.topicId ? (PN_DATA.topicsMap.get(item.subjectId)?.topics || []).find(t => (t.id || slugify(t.name)) === item.topicId) : null;
-  if (meta?.file) {
-    loadTopicQuestions(item.subjectId, item.topicId).then(() => {
-      const idx = (appState.currentTopicQuestions || []).findIndex(q => q.id === questionId);
-      appState.currentSetIndex = idx >= 0 ? Math.floor(idx / 30) : 0;
-      appState.currentQuestionIndex = idx >= 0 ? idx % 30 : 0;
-      saveState();
-      renderStudyQuestion();
-      navigateTo('study');
-    });
+  let targetSubjectId = item.subjectId;
+  let targetTopicId = item.topicId;
+  if (!targetSubjectId || !targetTopicId) {
+    for (const [subjectId, meta] of PN_DATA.topicsMap.entries()) {
+      const topics = meta?.topics || [];
+      for (const topic of topics) {
+        const tid = topic.id || slugify(topic.name);
+        try {
+          const topicFile = await loadTopicFile(subjectId, tid);
+          if ((topicFile.questions || []).some(q => q.id === questionId)) {
+            targetSubjectId = subjectId;
+            targetTopicId = tid;
+            break;
+          }
+        } catch {}
+      }
+      if (targetSubjectId && targetTopicId) break;
+    }
+  }
+  if (!targetSubjectId || !targetTopicId) return showToast('Question could not be located.', 'error');
+  try {
+    await loadTopicQuestions(targetSubjectId, targetTopicId);
+    const idx = (appState.currentTopicQuestions || []).findIndex(q => q.id === questionId);
+    appState.currentSetIndex = idx >= 0 ? Math.floor(idx / 30) : 0;
+    appState.currentQuestionIndex = idx >= 0 ? idx % 30 : 0;
+    saveState();
+    renderStudyQuestion();
+    navigateTo('study');
+    showToast('Jumped to question', 'success');
+  } catch {
+    showToast('Question could not be opened.', 'error');
   }
 }
 window.openSavedQuestion = openSavedQuestion;
@@ -1443,7 +1673,7 @@ function buildSavedCard(item) {
   const correctAnswer = item.options?.[Number(item.correctAnswer)] ?? '—';
   const isCorrect = item.userChoice !== undefined ? Number(item.userChoice) === Number(item.correctAnswer) : null;
   const answerBlock = userAnswer ? `<div class="bg-surface-container-low rounded-[1.5rem] p-4 border-l-4 ${isCorrect ? 'border-secondary/50' : 'border-error/30'}"><p class="text-xs font-bold ${isCorrect ? 'text-secondary' : 'text-on-surface-variant'} uppercase tracking-widest mb-1">Your Answer ${isCorrect === false ? '(Incorrect)' : ''}</p><p class="text-sm text-primary">${escapeHtml(userAnswer)}</p></div>` : '';
-  return `<article class="bg-surface-container-lowest rounded-[2rem] p-7 md:p-10 relative overflow-hidden flex flex-col lg:flex-row gap-8 group ambient-shadow ghost-border"><div class="lg:w-[220px] flex flex-col gap-4"><div><span class="inline-block px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-bold text-xs uppercase tracking-widest mb-2">${escapeHtml(item.topicName || item.subjectName || 'Question')}</span>${hasNote ? '<span class="block px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-bold text-xs uppercase tracking-widest w-fit">Has Note</span>' : ''}<p class="text-xs font-bold text-outline uppercase tracking-widest mt-2">ID: ${escapeHtml(item.id)}</p><p class="text-xs font-bold text-outline uppercase tracking-widest mt-0.5">Saved: ${escapeHtml(formatShortDate(item.savedAt || item.updatedAt || new Date().toISOString()))}</p></div><div class="flex gap-2"><button onclick="removeSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-tertiary hover:text-tertiary-container transition-colors"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">bookmark</span></button><button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors"><span class="material-symbols-outlined">edit_note</span></button><button onclick="openSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors"><span class="material-symbols-outlined">open_in_new</span></button></div></div><div class="flex-1 flex flex-col gap-5"><h2 class="font-extrabold text-xl md:text-2xl text-primary leading-tight tracking-tight">${escapeHtml(item.questionText || '')}</h2>${answerBlock}<div class="bg-surface-container-low rounded-[1.5rem] p-4 border-l-4 border-tertiary"><p class="text-xs font-bold text-tertiary uppercase tracking-widest mb-1">Correct Answer</p><p class="text-sm text-primary font-bold">${escapeHtml(correctAnswer)}</p></div><div class="pl-5 border-l-2 border-surface-variant"><h3 class="font-bold text-base text-primary mb-2">Clinical Rationale</h3><p class="text-sm text-on-surface-variant leading-relaxed">${escapeHtml(item.explanation || 'No explanation added yet.')}</p></div>${hasNote ? `<div class="bg-primary-container rounded-[1.75rem] p-5 relative overflow-hidden"><div class="text-xs font-bold text-primary-fixed uppercase tracking-widest mb-2 flex items-center gap-1"><span class="material-symbols-outlined text-sm">edit</span>Personal Note</div><p class="text-on-primary-container text-sm leading-relaxed italic">${escapeHtml(noteText)}</p></div>` : `<button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="border-2 border-dashed border-outline-variant/50 rounded-[1.5rem] p-5 hover:bg-surface-container-low transition-colors cursor-pointer flex items-center justify-center text-outline gap-2"><span class="material-symbols-outlined">add_circle</span><span class="text-sm font-bold uppercase tracking-widest">Add Clinical Insight Note</span></button>`}</div></article>`;
+  return `<article class="bg-surface-container-lowest rounded-[2rem] p-7 md:p-10 relative overflow-hidden flex flex-col lg:flex-row gap-8 group ambient-shadow ghost-border"><div class="lg:w-[230px] flex flex-col gap-4"><div><span class="inline-block px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-bold text-xs uppercase tracking-widest mb-2">${escapeHtml(item.topicName || item.subjectName || 'Question')}</span>${hasNote ? '<span class="block px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-bold text-xs uppercase tracking-widest w-fit">Has Note</span>' : ''}${item.isPinned ? '<span class="block mt-2 px-3 py-1 rounded-full bg-primary text-on-primary font-bold text-xs uppercase tracking-widest w-fit">Pinned</span>' : ''}<p class="text-xs font-bold text-outline uppercase tracking-widest mt-2">ID: ${escapeHtml(item.id)}</p><p class="text-xs font-bold text-outline uppercase tracking-widest mt-0.5">Saved: ${escapeHtml(formatShortDate(item.savedAt || item.updatedAt || new Date().toISOString()))}</p></div><div class="flex flex-wrap gap-2"><button onclick="removeSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-tertiary hover:text-tertiary-container transition-colors" title="Remove from saved"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">bookmark</span></button><button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors" title="Edit note"><span class="material-symbols-outlined">edit_note</span></button><button onclick="togglePinnedNote('${escapeHtml(item.id)}')" class="p-2 ${item.isPinned ? 'text-primary' : 'text-outline'} hover:text-primary transition-colors" title="Pin note"><span class="material-symbols-outlined">keep</span></button><button onclick="copyQuestionNote('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors" title="Copy note"><span class="material-symbols-outlined">content_copy</span></button><button onclick="openSavedQuestion('${escapeHtml(item.id)}')" class="p-2 text-outline hover:text-primary transition-colors" title="Jump to question"><span class="material-symbols-outlined">open_in_new</span></button></div></div><div class="flex-1 flex flex-col gap-5"><h2 class="font-extrabold text-xl md:text-2xl text-primary leading-tight tracking-tight">${escapeHtml(item.questionText || '')}</h2>${answerBlock}<div class="bg-surface-container-low rounded-[1.5rem] p-4 border-l-4 border-tertiary"><p class="text-xs font-bold text-tertiary uppercase tracking-widest mb-1">Correct Answer</p><p class="text-sm text-primary font-bold">${escapeHtml(correctAnswer)}</p></div><div class="pl-5 border-l-2 border-surface-variant"><h3 class="font-bold text-base text-primary mb-2">Clinical Rationale</h3><p class="text-sm text-on-surface-variant leading-relaxed">${escapeHtml(item.explanation || 'No explanation added yet.')}</p></div>${hasNote ? `<div class="bg-primary-container rounded-[1.75rem] p-5 relative overflow-hidden"><div class="text-xs font-bold text-primary-fixed uppercase tracking-widest mb-2 flex items-center gap-1"><span class="material-symbols-outlined text-sm">edit</span>Personal Note</div><p class="text-on-primary-container text-sm leading-relaxed italic whitespace-pre-wrap">${escapeHtml(noteText)}</p></div>` : `<button onclick="editQuestionNote('${escapeHtml(item.id)}')" class="border-2 border-dashed border-outline-variant/50 rounded-[1.5rem] p-5 hover:bg-surface-container-low transition-colors cursor-pointer flex items-center justify-center text-outline gap-2"><span class="material-symbols-outlined">add_circle</span><span class="text-sm font-bold uppercase tracking-widest">Add Clinical Insight Note</span></button>`}</div></article>`;
 }
 
 function renderSavedPage() {
@@ -1453,22 +1683,10 @@ function renderSavedPage() {
   const savedItems = getSavedItemsList();
   const notesMap = appState.notesByQuestion || {};
   const mergedIds = new Set([...savedItems.map(i => i.id), ...Object.keys(notesMap)]);
-  const allItems = [...mergedIds].map(id => {
-    const base = savedItems.find(i => i.id === id) || {};
-    const note = notesMap[id];
-    return {
-      ...base,
-      id,
-      subjectId: base.subjectId || note?.subjectId || '',
-      subjectName: base.subjectName || note?.subjectName || '',
-      topicId: base.topicId || note?.topicId || '',
-      topicName: base.topicName || note?.topicName || '',
-      questionText: base.questionText || note?.questionText || '',
-      note: note?.note || base.note || '',
-      savedAt: base.savedAt || note?.updatedAt,
-      updatedAt: note?.updatedAt || base.savedAt
-    };
-  }).sort((a,b)=> new Date(b.updatedAt || b.savedAt || 0) - new Date(a.updatedAt || a.savedAt || 0));
+  const allItems = getSavedItemsMerged().sort((a,b) => {
+    if (!!a.isPinned !== !!b.isPinned) return Number(b.isPinned) - Number(a.isPinned);
+    return new Date(b.updatedAt || b.savedAt || 0) - new Date(a.updatedAt || a.savedAt || 0);
+  });
   const subjects = Array.from(new Set(allItems.map(i => i.subjectName).filter(Boolean)));
   const q = String(appState.savedView.search || '').trim().toLowerCase();
   let filtered = allItems.filter(item => {
@@ -1483,7 +1701,7 @@ function renderSavedPage() {
     return true;
   });
   const tabBtn = (id, label) => `<button onclick="setSavedTab('${id}')" class="px-5 py-3 rounded-full font-bold text-sm transition-colors ${appState.savedView.tab===id ? 'bg-primary text-on-primary' : 'text-primary hover:bg-white/50'}">${label}</button>`;
-  page.innerHTML = `<div class="max-w-6xl mx-auto px-6 md:px-12 py-10"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5 mb-8"><div class="flex gap-2 bg-surface-container-low rounded-full p-1 flex-wrap w-fit">${tabBtn('all','All')}${tabBtn('starred','Starred')}${tabBtn('notes','Notes')}${tabBtn('both','Starred + Notes')}</div><div class="relative w-full lg:max-w-xl"><span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-sm">search</span><input id="saved-search-dynamic" value="${escapeHtml(appState.savedView.search || '')}" class="w-full pl-11 pr-4 py-4 bg-surface-container-low border-none rounded-full focus:ring-0 focus:bg-surface-container-lowest transition-all text-sm font-medium" placeholder="Search saved questions..." type="text"></div></div><div class="flex flex-wrap gap-4 mb-8"><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getSavedItemsList().length} Saved Questions</span><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getNotesList().length} Personal Notes</span><select onchange="setSavedSubjectFilter(this.value)" class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-sm font-bold text-primary border-none focus:ring-0"><option value="all">All Subjects</option>${subjects.map(s=>`<option value="${escapeHtml(s)}" ${appState.savedView.subject===s?'selected':''}>${escapeHtml(s)}</option>`).join('')}</select></div><div class="space-y-8">${filtered.length ? filtered.map(buildSavedCard).join('') : `<div class="bg-surface-container-lowest rounded-[2rem] p-10 ambient-shadow ghost-border text-center"><p class="text-2xl font-bold text-primary mb-2">Nothing here yet</p><p class="text-on-surface-variant">Save a question or add a personal note during study or final exam to build your review bank.</p></div>`}</div></div>`;
+  page.innerHTML = `<div class="max-w-6xl mx-auto px-6 md:px-12 py-10"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5 mb-8"><div class="flex gap-2 bg-surface-container-low rounded-full p-1 flex-wrap w-fit">${tabBtn('all','All')}${tabBtn('starred','Starred')}${tabBtn('notes','Notes')}${tabBtn('both','Starred + Notes')}</div><div class="relative w-full lg:max-w-xl"><span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-sm">search</span><input id="saved-search-dynamic" value="${escapeHtml(appState.savedView.search || '')}" class="w-full pl-11 pr-4 py-4 bg-surface-container-low border-none rounded-full focus:ring-0 focus:bg-surface-container-lowest transition-all text-sm font-medium" placeholder="Search saved questions..." type="text"></div></div><div class="flex flex-wrap gap-4 mb-8 items-center"><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getSavedItemsList().length} Saved Questions</span><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${getNotesList().length} Personal Notes</span><span class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-xs font-bold text-on-surface-variant uppercase tracking-widest">${allItems.filter(i => i.isPinned).length} Pinned Notes</span><select onchange="setSavedSubjectFilter(this.value)" class="px-4 py-3 bg-surface-container-lowest rounded-full ghost-border text-sm font-bold text-primary border-none focus:ring-0"><option value="all">All Subjects</option>${subjects.map(s=>`<option value="${escapeHtml(s)}" ${appState.savedView.subject===s?'selected':''}>${escapeHtml(s)}</option>`).join('')}</select><button onclick="exportNotesPdf()" class="px-5 py-3 rounded-full bg-primary text-on-primary text-sm font-bold hover:scale-[0.98] transition-transform flex items-center gap-2"><span class="material-symbols-outlined text-base">picture_as_pdf</span>Export Notes PDF</button></div><div class="space-y-8">${filtered.length ? filtered.map(buildSavedCard).join('') : `<div class="bg-surface-container-lowest rounded-[2rem] p-10 ambient-shadow ghost-border text-center"><p class="text-2xl font-bold text-primary mb-2">Nothing here yet</p><p class="text-on-surface-variant">Save a question or add a personal note during study or final exam to build your review bank.</p></div>`}</div></div>`;
   const input = document.getElementById('saved-search-dynamic');
   if (input && !input.dataset.bound) {
     input.dataset.bound = 'true';
@@ -1836,8 +2054,37 @@ function toggleExamTopic(topicId) {
   else selected.add(topicId);
   appState.examBuilder.selectedTopicIds = [...selected];
   refreshExamBuilderPreview();
+  injectFinalExamResumeBanner();
 }
 window.toggleExamTopic = toggleExamTopic;
+
+function hasResumableFinalExam() {
+  const s = appState.currentExamSession;
+  return !!(s && s.type === 'finalExam' && Array.isArray(s.questions) && s.questions.length && !s.submittedAt && getExamRemainingMs(s) > 0);
+}
+
+function injectFinalExamResumeBanner() {
+  const page = document.getElementById('page-finalexam');
+  if (!page) return;
+  const existing = document.getElementById('finalexam-resume-banner');
+  if (existing) existing.remove();
+  if (!hasResumableFinalExam()) return;
+  const s = appState.currentExamSession;
+  const answered = Object.keys(s.answers || {}).length;
+  const banner = document.createElement('div');
+  banner.id = 'finalexam-resume-banner';
+  banner.className = 'max-w-6xl mx-auto px-6 md:px-12 pt-8';
+  banner.innerHTML = `<div class="rounded-[2rem] bg-gradient-to-br from-primary to-primary-container p-6 md:p-7 text-on-primary ambient-shadow"><div class="flex flex-col md:flex-row md:items-center justify-between gap-5"><div><p class="text-xs font-bold uppercase tracking-widest text-tertiary-fixed mb-2">Resume available</p><h3 class="text-2xl font-extrabold tracking-tight mb-2">Your final exam is still active</h3><p class="text-on-primary/80 text-sm leading-relaxed">${answered} answered • ${Math.max(0, (s.questions?.length || 0) - answered)} remaining • ${formatExamTime(getExamRemainingMs(s))} left</p></div><button onclick="resumeFinalExamSession()" class="bg-surface-container-lowest text-primary px-6 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">Resume Final Exam <span class="material-symbols-outlined text-base">arrow_forward</span></button></div></div>`;
+  const first = page.firstElementChild;
+  page.insertBefore(banner, first);
+}
+
+function resumeFinalExamSession() {
+  if (!hasResumableFinalExam()) return showToast('No active final exam to resume.', 'info');
+  renderExamLivePage();
+  navigateTo('examlive');
+}
+window.resumeFinalExamSession = resumeFinalExamSession;
 
 function initFinalExamBuilder() {
   if (!PN_DATA.subjectsIndex?.subjects?.length) return;
@@ -1890,6 +2137,7 @@ function initFinalExamBuilder() {
   document.getElementById('exam-time-limit') && (document.getElementById('exam-time-limit').value = eb.timeLimit);
   document.getElementById('exam-topic-search') && (document.getElementById('exam-topic-search').value = eb.topicSearch || '');
   refreshExamBuilderPreview();
+  injectFinalExamResumeBanner();
 }
 
 
@@ -1981,6 +2229,8 @@ window.addEventListener('DOMContentLoaded', async () => {
   if (appState.currentPage === 'study') renderStudyQuestion();
   if (appState.currentPage === 'review') renderReviewPage();
   if (appState.currentPage === 'dashboard') renderDashboardPage();
+  if (appState.currentPage === 'finalexam') injectFinalExamResumeBanner();
+  if (appState.currentPage === 'examlive' && hasResumableFinalExam()) renderExamLivePage();
 });
 
 
@@ -2116,6 +2366,7 @@ async function startConfiguredExam() {
     subjectLabel: eb.mode === 'single_topics' ? (PN_DATA.subjectsMap.get(eb.topicSubjectId)?.name || 'Single Subject') : (eb.scope === 'single' ? (PN_DATA.subjectsMap.get(eb.subjectId)?.name || 'One Subject') : 'Multiple Subjects'),
     topicIds: [...(eb.selectedTopicIds || [])]
   };
+  if (appState.currentExamSession) appState.currentExamSession.submittedAt = new Date().toISOString();
   appState.reviewContext = 'finalExam';
   saveState();
   renderExamLivePage();
@@ -2237,7 +2488,7 @@ function renderExamLivePage() {
           </div>
         </div>
       </div>
-      <div class="lg:col-span-4"><div class="bg-surface-container-low rounded-xl p-7 sticky top-24"><div class="flex justify-between items-center mb-5"><h3 class="font-bold text-primary">Question Palette</h3><span class="text-xs font-bold text-primary bg-primary-fixed px-2 py-1 rounded">${currentNumber} / ${session.questions.length}</span></div><div class="grid grid-cols-5 gap-2 mb-5">${palette}</div><div class="flex flex-col gap-2 text-xs font-semibold text-on-surface-variant mb-6"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-surface-container-highest inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary inline-block"></span> Current</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span> Flagged</div></div><button onclick="submitCurrentExam()" class="w-full bg-tertiary text-on-tertiary py-4 rounded-xl font-extrabold text-sm tracking-widest uppercase hover:opacity-90 active:scale-[0.98] transition-all shadow-[0_10px_20px_rgba(115,92,0,0.2)]">Submit Exam</button></div></div>
+      <div class="lg:col-span-4"><div class="bg-surface-container-low rounded-xl p-7 sticky top-24"><div class="grid grid-cols-3 gap-2 mb-5"><div class="rounded-xl bg-surface-container-lowest p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Answered</p><p class="text-lg font-black text-primary">${answeredCount}</p></div><div class="rounded-xl bg-surface-container-lowest p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Unanswered</p><p class="text-lg font-black text-on-surface-variant">${remainingCount}</p></div><div class="rounded-xl bg-surface-container-lowest p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Flagged</p><p class="text-lg font-black text-tertiary">${flagSet.size}</p></div></div><div class="flex justify-between items-center mb-5"><h3 class="font-bold text-primary">Question Palette</h3><span class="text-xs font-bold text-primary bg-primary-fixed px-2 py-1 rounded">${currentNumber} / ${session.questions.length}</span></div><div class="grid grid-cols-5 gap-2 mb-5">${palette}</div><div class="flex flex-col gap-2 text-xs font-semibold text-on-surface-variant mb-6"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-surface-container-highest inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded bg-primary inline-block"></span> Current</div><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span> Flagged</div></div><button onclick="submitCurrentExam()" class="w-full bg-tertiary text-on-tertiary py-4 rounded-xl font-extrabold text-sm tracking-widest uppercase hover:opacity-90 active:scale-[0.98] transition-all shadow-[0_10px_20px_rgba(115,92,0,0.2)]">Submit Exam</button></div></div>
     </div>
   </div>`;
   updateSaveButtonState();
@@ -2300,6 +2551,7 @@ async function submitCurrentExam(autoSubmitted = false) {
   });
   appState.attemptHistory = appState.attemptHistory.slice(0, 60);
   appState.finalExamsDone = Number(appState.finalExamsDone || 0) + 1;
+  if (appState.currentExamSession) appState.currentExamSession.submittedAt = new Date().toISOString();
   appState.reviewContext = 'finalExam';
   saveState();
   buildFinalExamReviewPage();
