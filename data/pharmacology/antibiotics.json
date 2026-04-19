@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antibiotics",
   "topicName": "Antibiotics",
-  "updatedAt": "2026-04-18T00:00:00Z",
+  "updatedAt": "2026-04-19T21:42:23.876Z",
   "questions": [
     {
       "id": "pharm-antibiotics-001",
@@ -31,6 +31,252 @@
       ],
       "correctAnswer": 0,
       "explanation": "Vancomycin remains a standard option for many MRSA infections, especially serious gram-positive infections.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which mechanism of action is characteristic of Penicillins and Cephalosporins?",
+      "options": [
+        "Inhibition of protein synthesis (50S subunit)",
+        "Inhibition of bacterial cell wall synthesis",
+        "Inhibition of DNA gyrase",
+        "Alteration of cell membrane permeability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-lactam antibiotics like penicillins and cephalosporins act by inhibiting the cross-linking of peptidoglycan in the bacterial cell wall.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-004",
+      "type": "true_false",
+      "difficulty": "medium",
+      "questionText": "Aminoglycosides are primarily known for their potential to cause ototoxicity and nephrotoxicity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. Aminoglycosides require close monitoring of serum levels because of their narrow therapeutic index and risk of kidney and ear damage.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antibiotic is associated with the 'Gray Baby Syndrome' when administered to neonates?",
+      "options": [
+        "Tetracycline",
+        "Clindamycin",
+        "Chloramphenicol",
+        "Linezolid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chloramphenicol can cause Gray Baby Syndrome due to the neonate's inability to conjugate the drug in the liver (deficient glucuronyl transferase).",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following instructions should a pharmacist give to a patient prescribed Ciprofloxacin?",
+      "options": [
+        "Take it with a large glass of milk or antacids",
+        "Avoid taking it with dairy products or multivitamins containing iron/calcium",
+        "It is safe to use during the third trimester of pregnancy",
+        "Expect your urine to turn bright orange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluoroquinolones like ciprofloxacin can chelate with divalent and trivalent cations (Ca, Mg, Fe, Al), which significantly reduces their absorption.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-007",
+      "type": "true_false",
+      "difficulty": "easy",
+      "questionText": "Tetracyclines are contraindicated in children under 8 years old because they can cause permanent tooth discoloration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. Tetracyclines bind to calcium in developing teeth and bones, leading to permanent staining and enamel hypoplasia.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on Warfarin is started on Erythromycin. What is the most likely interaction?",
+      "options": [
+        "Decreased effect of Warfarin (risk of clots)",
+        "Increased effect of Warfarin (risk of bleeding)",
+        "No significant interaction",
+        "Erythromycin will become less effective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Macrolides like erythromycin are CYP450 inhibitors; they decrease the metabolism of Warfarin, leading to an increased INR and bleeding risk.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antibiotic is the drug of choice for treating pseudomembranous colitis caused by Clostridioides difficile?",
+      "options": [
+        "Oral Vancomycin",
+        "Intravenous Vancomycin",
+        "Oral Amoxicillin",
+        "Intravenous Gentamicin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oral vancomycin (not IV) is used for C. diff because it is not absorbed systemically and remains in the gut to fight the local infection.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-010",
+      "type": "true_false",
+      "difficulty": "medium",
+      "questionText": "Red Man Syndrome is an IgE-mediated allergic reaction to Vancomycin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "False. Red Man Syndrome is a non-allergic histamine release caused by rapid infusion; it can be prevented by slowing the infusion rate.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class of antibiotics is most frequently associated with tendon rupture, especially in elderly patients?",
+      "options": [
+        "Sulfonamides",
+        "Fluoroquinolones",
+        "Macrolides",
+        "Penicillins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluoroquinolones carry a black box warning for tendinitis and tendon rupture, particularly the Achilles tendon.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of these antibiotics is most effective specifically against anaerobic bacteria?",
+      "options": [
+        "Metronidazole",
+        "Azithromycin",
+        "Doxycycline",
+        "Cefixime"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metronidazole is highly effective against anaerobes and certain protozoa by disrupting their DNA structure.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-013",
+      "type": "true_false",
+      "difficulty": "hard",
+      "questionText": "Linezolid can cause Serotonin Syndrome when used with SSRI antidepressants.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. Linezolid is a weak non-selective MAO inhibitor, which can lead to dangerously high serotonin levels if combined with serotonergic drugs.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which side effect is expected and harmless for a patient taking Rifampin for tuberculosis?",
+      "options": [
+        "Severe joint pain",
+        "Orange-red discoloration of urine and tears",
+        "Peripheral neuropathy",
+        "Ringing in the ears"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rifampin is known to cause a benign orange-red discoloration of body fluids, which can even stain contact lenses.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-015",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which Carbapenem is most frequently associated with a risk of seizures, especially in patients with renal impairment?",
+      "options": [
+        "Meropenem",
+        "Ertapenem",
+        "Imipenem",
+        "Doripenem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Imipenem has a higher risk of causing seizures compared to other carbapenems, especially when doses are not adjusted for renal function.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-016",
+      "type": "true_false",
+      "difficulty": "easy",
+      "questionText": "Sulfonamides (Sulfa drugs) are commonly used to treat uncomplicated urinary tract infections.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True. Trimethoprim/Sulfamethoxazole (Bactrim) is a common first-line choice for UTIs, though resistance patterns vary.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antibiotic inhibits protein synthesis by binding to the 30S ribosomal subunit?",
+      "options": [
+        "Azithromycin",
+        "Clindamycin",
+        "Gentamicin",
+        "Chloramphenicol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aminoglycosides (like Gentamicin) and Tetracyclines bind to the 30S subunit, while Macrolides and Clindamycin bind to the 50S subunit.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antibiotics-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the most likely cross-sensitivity between Penicillins and Cephalosporins?",
+      "options": [
+        "0%",
+        "Approximately 3-10%",
+        "100%",
+        "50-60%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is a known cross-reactivity rate of about 3-10% between penicillins and cephalosporins (especially 1st generation) due to their similar beta-lactam ring.",
       "caseText": "",
       "imageUrl": ""
     }
