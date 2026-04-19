@@ -37,7 +37,9 @@ const DEFAULT_STATE = {
     topicSearch: ''
   },
   currentExamSession: null,
-  reviewContext: 'study'
+  reviewContext: 'study',
+  themeMode: 'light',
+  dailyChallenge: null
 };
 
 const PN_DATA = {
@@ -82,8 +84,74 @@ function loadState() {
   }
 }
 
+
 let appState = loadState();
 syncSavedStats?.();
+
+function getTodayKey() {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+}
+
+function getDailyChallengeState() {
+  const dc = appState.dailyChallenge || {};
+  if (dc.dateKey !== getTodayKey()) return null;
+  return dc;
+}
+
+function applyTheme(theme = 'light') {
+  const root = document.documentElement;
+  if (theme === 'dark') root.classList.add('dark');
+  else root.classList.remove('dark');
+  appState.themeMode = theme;
+  saveState();
+  const icon = theme === 'dark' ? 'light_mode' : 'dark_mode';
+  document.querySelectorAll('[data-theme-toggle-icon]').forEach(el => el.textContent = icon);
+  document.querySelectorAll('[data-theme-toggle-label]').forEach(el => el.textContent = theme === 'dark' ? 'Light Mode' : 'Dark Mode');
+}
+window.applyTheme = applyTheme;
+
+function toggleTheme() {
+  applyTheme(appState.themeMode === 'dark' ? 'light' : 'dark');
+}
+window.toggleTheme = toggleTheme;
+
+function canGuardExamInteractions() {
+  return ['study','examlive','review'].includes(appState.currentPage);
+}
+
+function showGuardMessage() {
+  const el = document.getElementById('copy-guard-message');
+  if (!el) return;
+  el.classList.remove('hidden');
+  clearTimeout(showGuardMessage._t);
+  showGuardMessage._t = setTimeout(() => el.classList.add('hidden'), 1500);
+}
+
+function buildDeterministicRandom(seedStr = '0') {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    h ^= seedStr.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return function() {
+    h += 0x6D2B79F5;
+    let t = h;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffleWithSeed(arr = [], seed = '0') {
+  const rand = buildDeterministicRandom(seed);
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
 
 function saveState() {
   try {
@@ -101,6 +169,8 @@ function beginStudySession(mode = 'set') {
   appState.currentSessionId = createSessionId();
   appState.currentSessionLogged = false;
   appState.reviewContext = 'study';
+  clearInterval(examTimerRef);
+  appState.currentExamSession = null;
 }
 
 function getStudyResultEntry(topicId, questionId) {
@@ -782,8 +852,8 @@ function startSet(index = 0) {
   }
   beginStudySession('set');
   saveState();
-  renderStudyQuestion();
   navigateTo('study');
+  renderStudyQuestion();
 }
 window.startSet = startSet;
 
@@ -794,9 +864,9 @@ function getCurrentSetQuestions() {
 
 function getActiveStudyQuestions() {
   const setQuestions = getCurrentSetQuestions();
-  if (appState.studyMode === 'wrong' && Array.isArray(appState.retryQuestionIds) && appState.retryQuestionIds.length) {
+  if ((appState.studyMode === 'wrong' || appState.studyMode === 'daily') && Array.isArray(appState.retryQuestionIds) && appState.retryQuestionIds.length) {
     const wanted = new Set(appState.retryQuestionIds);
-    const filtered = setQuestions.filter(q => wanted.has(q.id));
+    const filtered = (appState.currentTopicQuestions || setQuestions).filter(q => wanted.has(q.id));
     if (filtered.length) return filtered;
   }
   return setQuestions;
@@ -832,7 +902,7 @@ function renderStudyQuestion() {
 
   const studyHeader = document.getElementById('study-header-topic');
   if (studyHeader) {
-    studyHeader.textContent = `${meta.name} • Set ${appState.currentSetIndex + 1}${appState.studyMode === 'wrong' ? ' • Wrong Questions Retry' : ''}`;
+    studyHeader.textContent = appState.studyMode === 'daily' ? `Daily Challenge • ${meta.name}` : `${meta.name} • Set ${appState.currentSetIndex + 1}${appState.studyMode === 'wrong' ? ' • Wrong Questions Retry' : ''}`;
   }
   document.getElementById('study-q-counter') && (document.getElementById('study-q-counter').textContent = `${humanIndex} of ${total}`);
   document.getElementById('study-progress') && (document.getElementById('study-progress').style.width = `${pct}%`);
@@ -942,10 +1012,18 @@ function retryWrongQuestions() {
   appState.retryQuestionIds = wrongIds;
   beginStudySession('wrong');
   saveState();
-  renderStudyQuestion();
   navigateTo('study');
+  renderStudyQuestion();
 }
 window.retryWrongQuestions = retryWrongQuestions;
+
+function clearFinalExamRuntime() {
+  clearInterval(examTimerRef);
+  appState.currentExamSession = null;
+  if (appState.reviewContext === 'finalExam') appState.reviewContext = 'study';
+}
+window.clearFinalExamRuntime = clearFinalExamRuntime;
+
 
 function retakeCurrentSet() {
   const setQuestions = getCurrentSetQuestions();
@@ -954,8 +1032,8 @@ function retakeCurrentSet() {
   appState.retryQuestionIds = [];
   beginStudySession('set');
   saveState();
-  renderStudyQuestion();
   navigateTo('study');
+  renderStudyQuestion();
 }
 window.retakeCurrentSet = retakeCurrentSet;
 
@@ -1347,6 +1425,80 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
+
+async function buildDailyChallenge(forceRefresh = false) {
+  const existing = getDailyChallengeState();
+  if (existing && !forceRefresh) return existing;
+  const subjects = PN_DATA.subjectsIndex?.subjects || [];
+  if (!subjects.length) return null;
+  const dateKey = getTodayKey();
+  const seededSubjects = shuffleWithSeed(subjects.filter(s => Number(s.questionsCount || 0) > 0), `sub-${dateKey}`);
+  for (const subject of seededSubjects) {
+    const subjectData = PN_DATA.topicsMap.get(subject.id) || { topics: [] };
+    const topics = shuffleWithSeed((subjectData.topics || []).filter(t => t.file), `topic-${dateKey}-${subject.id}`);
+    for (const topic of topics) {
+      const questions = await getTopicQuestionsForExam(subject.id, topic);
+      if (!questions.length) continue;
+      const picked = shuffleWithSeed(questions, `q-${dateKey}-${subject.id}-${topic.id || slugify(topic.name)}`).slice(0, Math.min(5, questions.length));
+      const daily = {
+        dateKey,
+        subjectId: subject.id,
+        subjectName: subject.name,
+        topicId: topic.id || slugify(topic.name),
+        topicName: topic.name,
+        topicFile: topic.file,
+        questionIds: picked.map(q => q.id),
+        previewQuestion: picked[0]?.questionText || '',
+        luckyNumber: (picked[0]?.id || '').split('').reduce((s,ch)=>s+ch.charCodeAt(0),0)%97 + 3
+      };
+      appState.dailyChallenge = daily;
+      saveState();
+      return daily;
+    }
+  }
+  return null;
+}
+
+async function renderDailyChallenge(forceRefresh = false) {
+  const daily = await buildDailyChallenge(forceRefresh);
+  const subjectEl = document.getElementById('daily-subject');
+  const previewEl = document.getElementById('daily-question-preview');
+  const luckyEl = document.getElementById('lucky-n');
+  if (!subjectEl || !previewEl) return;
+  if (!daily) {
+    subjectEl.textContent = 'No challenge available yet';
+    previewEl.textContent = 'Add more topic data to unlock the daily challenge.';
+    if (luckyEl) luckyEl.textContent = '—';
+    return;
+  }
+  subjectEl.textContent = `${daily.subjectName.toUpperCase()} • ${daily.topicName.toUpperCase()}`;
+  previewEl.textContent = daily.previewQuestion || 'Your daily challenge is ready.';
+  if (luckyEl) luckyEl.textContent = String(daily.luckyNumber || 7);
+}
+window.renderDailyChallenge = renderDailyChallenge;
+
+async function spinWheel() {
+  const wheel = document.getElementById('daily-wheel');
+  wheel?.classList.remove('spin-animation');
+  void wheel?.offsetWidth;
+  wheel?.classList.add('spin-animation');
+  await renderDailyChallenge(true);
+  setTimeout(() => wheel?.classList.remove('spin-animation'), 2100);
+}
+window.spinWheel = spinWheel;
+
+async function startDailyChallenge() {
+  const daily = await buildDailyChallenge(false);
+  if (!daily) return;
+  await loadTopicQuestions(daily.subjectId, daily.topicId);
+  appState.retryQuestionIds = [...daily.questionIds];
+  beginStudySession('daily');
+  saveState();
+  navigateTo('study');
+  renderStudyQuestion();
+}
+window.startDailyChallenge = startDailyChallenge;
+
 function selectSubject(subjectId) {
   appState.selectedSubjectId = subjectId;
   appState.selectedTopicId = null;
@@ -1680,7 +1832,37 @@ window.addEventListener('DOMContentLoaded', async () => {
   renderPersistentStats();
   bindNotes();
   bindSavedSearch();
+  applyTheme(appState.themeMode || 'light');
   document.getElementById('study-prev-btn')?.addEventListener('click', previousQuestion);
+  document.addEventListener('copy', (e) => {
+    if (!canGuardExamInteractions()) return;
+    e.preventDefault();
+    showGuardMessage();
+  });
+  document.addEventListener('cut', (e) => {
+    if (!canGuardExamInteractions()) return;
+    e.preventDefault();
+    showGuardMessage();
+  });
+  document.addEventListener('paste', (e) => {
+    if (!canGuardExamInteractions()) return;
+    const t = e.target;
+    if (t && ['INPUT','TEXTAREA'].includes(t.tagName)) return;
+    e.preventDefault();
+    showGuardMessage();
+  });
+  document.addEventListener('contextmenu', (e) => {
+    if (!canGuardExamInteractions()) return;
+    e.preventDefault();
+    showGuardMessage();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (!canGuardExamInteractions()) return;
+    if ((e.ctrlKey || e.metaKey) && ['c','x','v'].includes(String(e.key).toLowerCase())) {
+      e.preventDefault();
+      showGuardMessage();
+    }
+  });
   if (appState.savedQuestion) {
     const btn = document.getElementById('save-btn');
     const icon = btn?.querySelector('.material-symbols-outlined');
@@ -1692,6 +1874,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
   try {
     await loadSubjectsIndex();
+    await renderDailyChallenge();
     if (appState.selectedSubjectId && appState.selectedTopicId) {
       try {
         await loadTopicQuestions(appState.selectedSubjectId, appState.selectedTopicId);
@@ -2031,6 +2214,7 @@ async function retryWrongFinalExam() {
   if (!wrongQuestions.length) return;
   appState.currentExamSession = {
     ...session,
+    type: 'finalExam',
     id: createSessionId(),
     title: 'Final Exam Wrong Questions Retry',
     questions: wrongQuestions,
@@ -2054,6 +2238,7 @@ async function retakeFinalExam() {
   const old = getExamSession() || {};
   appState.currentExamSession = {
     ...old,
+    type: 'finalExam',
     id: createSessionId(),
     questions,
     questionCount: questions.length,
@@ -2072,7 +2257,7 @@ window.retakeFinalExam = retakeFinalExam;
 
 const __oldRenderReviewPage = renderReviewPage;
 renderReviewPage = function() {
-  if (appState.reviewContext === 'finalExam' && appState.currentExamSession) return buildFinalExamReviewPage();
+  if (appState.reviewContext === 'finalExam' && appState.currentExamSession && appState.currentExamSession.type === 'finalExam') return buildFinalExamReviewPage();
   return __oldRenderReviewPage();
 };
 window.renderReviewPage = renderReviewPage;
@@ -2080,7 +2265,12 @@ window.renderReviewPage = renderReviewPage;
 const __oldNavigateTo = navigateTo;
 navigateTo = function(pageId) {
   __oldNavigateTo(pageId);
+  document.body.classList.toggle('exam-guard', canGuardExamInteractions());
   if (pageId === 'examlive') renderExamLivePage();
   if (pageId === 'saved') renderSavedPage();
+  if (pageId === 'home') renderDailyChallenge();
+  if ((pageId === 'study' || pageId === 'sets') && appState.reviewContext === 'study') {
+    clearInterval(examTimerRef);
+  }
 };
 window.navigateTo = navigateTo;
