@@ -974,6 +974,126 @@ function resetQuestionsAttempt(questionIds = []) {
   });
 }
 
+
+function setStudyAutoNextEnabled(enabled) {
+  appState.studyUi = appState.studyUi || {};
+  appState.studyUi.autoNext = !!enabled;
+  saveState();
+  renderStudyStatusPanel();
+}
+window.setStudyAutoNextEnabled = setStudyAutoNextEnabled;
+
+function setStudyAutoNextSeconds(value) {
+  appState.studyUi = appState.studyUi || {};
+  const seconds = Math.max(1, Math.min(10, Number(value || 2)));
+  appState.studyUi.autoNextSeconds = seconds;
+  saveState();
+  renderStudyStatusPanel();
+}
+window.setStudyAutoNextSeconds = setStudyAutoNextSeconds;
+
+function jumpToStudyQuestion(index) {
+  const questions = getActiveStudyQuestions();
+  const nextIndex = Number(index);
+  if (!questions.length) return;
+  if (Number.isNaN(nextIndex) || nextIndex < 0 || nextIndex >= questions.length) return;
+
+  clearTimeout(appState.studyUi?.autoNextTimer);
+  appState.currentQuestionIndex = nextIndex;
+  saveState();
+  renderStudyQuestion();
+}
+window.jumpToStudyQuestion = jumpToStudyQuestion;
+
+function renderStudyStatusPanel() {
+  const panel = document.getElementById('study-status-panel');
+  if (!panel) return;
+
+  const meta = appState.currentTopicMeta;
+  const questions = getActiveStudyQuestions();
+  if (!meta || !questions.length) {
+    panel.innerHTML = '';
+    return;
+  }
+
+  const currentIndex = Number(appState.currentQuestionIndex || 0);
+  const answeredCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) !== undefined).length;
+  const unansweredCount = Math.max(0, questions.length - answeredCount);
+  const autoNextEnabled = !!appState.studyUi?.autoNext;
+  const autoNextSeconds = Math.max(1, Math.min(10, Number(appState.studyUi?.autoNextSeconds || 2)));
+
+  const pills = questions.map((q, index) => {
+    const answered = getStudyResultCorrect(meta.id, q.id) !== undefined;
+    const isCurrent = index === currentIndex;
+
+    let cls = 'bg-surface-container-low text-on-surface-variant border border-outline-variant/20';
+    if (answered) cls = 'bg-secondary-container/60 text-on-secondary-container border border-secondary/20';
+    if (isCurrent) cls = 'bg-primary text-on-primary border border-primary shadow-[0_8px_18px_rgba(0,21,27,0.18)]';
+
+    return `
+      <button
+        type="button"
+        onclick="jumpToStudyQuestion(${index})"
+        class="w-9 h-9 rounded-lg text-xs font-bold transition-all ${cls}">
+        ${index + 1}
+      </button>
+    `;
+  }).join('');
+
+  panel.innerHTML = `
+    <section class="bg-surface-container-low rounded-xl p-4 border border-outline-variant/15">
+      <div class="flex items-center justify-between mb-3">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Question Status</h3>
+        <span class="text-xs font-bold text-primary">${currentIndex + 1} / ${questions.length}</span>
+      </div>
+
+      <div class="grid grid-cols-3 gap-2 mb-4">
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-secondary">${answeredCount}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Answered</div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-tertiary">${unansweredCount}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Unanswered</div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-primary">${currentIndex + 1}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Current</div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap gap-2 mb-4">
+        ${pills}
+      </div>
+
+      <div class="flex items-center justify-between gap-3 pt-3 border-t border-outline-variant/10">
+        <label class="flex items-center gap-2 text-sm font-medium text-primary">
+          <input
+            id="study-auto-next-toggle"
+            type="checkbox"
+            ${autoNextEnabled ? 'checked' : ''}
+            onchange="setStudyAutoNextEnabled(this.checked)"
+          />
+          Auto-next
+        </label>
+
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Seconds</span>
+          <input
+            id="study-auto-next-seconds"
+            type="number"
+            min="1"
+            max="10"
+            value="${autoNextSeconds}"
+            onchange="setStudyAutoNextSeconds(this.value)"
+            class="w-16 bg-surface-container-lowest border border-outline-variant/20 rounded-lg px-2 py-1.5 text-sm font-bold text-primary"
+          />
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 function renderStudyQuestion() {
   const meta = appState.currentTopicMeta;
   const setQuestions = getActiveStudyQuestions();
@@ -1066,26 +1186,7 @@ function renderStudyQuestion() {
     noteBtn.classList.toggle('text-on-surface-variant', !noteExists);
   }
 
-  const autoNextToggle = document.getElementById('study-auto-next-toggle');
-  const autoNextSecondsInput = document.getElementById('study-auto-next-seconds');
-  if (autoNextToggle) autoNextToggle.onchange = () => {
-    appState.studyUi = appState.studyUi || {};
-    appState.studyUi.autoNext = !!autoNextToggle.checked;
-    if (autoNextSecondsInput) {
-      const seconds = Math.max(1, Math.min(10, Number(autoNextSecondsInput.value || 2)));
-      appState.studyUi.autoNextSeconds = seconds;
-      autoNextSecondsInput.value = String(seconds);
-    }
-    saveState();
-  };
-  if (autoNextSecondsInput) autoNextSecondsInput.onchange = () => {
-    appState.studyUi = appState.studyUi || {};
-    const seconds = Math.max(1, Math.min(10, Number(autoNextSecondsInput.value || 2)));
-    appState.studyUi.autoNextSeconds = seconds;
-    autoNextSecondsInput.value = String(seconds);
-    saveState();
-  };
-
+  renderStudyStatusPanel();
   document.getElementById('study-prev-btn')?.toggleAttribute('disabled', appState.currentQuestionIndex === 0);
   document.getElementById('study-prev-btn')?.classList.toggle('opacity-50', appState.currentQuestionIndex === 0);
   document.getElementById('study-next-btn') && (document.getElementById('study-next-btn').innerHTML = `${appState.currentQuestionIndex === total - 1 ? 'Finish Set' : 'Next Question'} <span class="material-symbols-outlined text-sm">arrow_forward</span>`);
@@ -1102,31 +1203,35 @@ function selectAnswer(optionIndex) {
   const meta = appState.currentTopicMeta;
   const q = getActiveStudyQuestions()[appState.currentQuestionIndex];
   if (!meta || !q) return;
+
   appState.studyResults = appState.studyResults || {};
   appState.studyResults[meta.id] = appState.studyResults[meta.id] || {};
+
   if (getStudyResultCorrect(meta.id, q.id) === undefined) {
     const isCorrect = Number(optionIndex) === Number(q.correctAnswer);
-    appState.studyResults[meta.id][q.id] = { correct: isCorrect, choice: Number(optionIndex) };
+    appState.studyResults[meta.id][q.id] = {
+      correct: isCorrect,
+      choice: Number(optionIndex)
+    };
     q.userChoice = Number(optionIndex);
+
+    clearTimeout(appState.studyUi?.autoNextTimer);
     saveState();
     renderStudyQuestion();
-    const toggle = document.getElementById('study-auto-next-toggle');
-    if (toggle) {
-      toggle.onchange = () => {
-        appState.studyUi.autoNext = !!toggle.checked;
-        saveState();
-      };
-    }
+
     if (appState.studyUi?.autoNext) {
-      setTimeout(() => {
+      const delay = Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000;
+      appState.studyUi.autoNextTimer = setTimeout(() => {
         if (appState.currentPage === 'study') nextQuestion();
-      }, Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000);
+      }, delay);
     }
   }
 }
 window.selectAnswer = selectAnswer;
 
 function nextQuestion() {
+  clearTimeout(appState.studyUi?.autoNextTimer);
+
   const setQuestions = getActiveStudyQuestions();
   if (appState.currentQuestionIndex < setQuestions.length - 1) {
     appState.currentQuestionIndex += 1;
