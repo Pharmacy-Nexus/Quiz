@@ -121,6 +121,21 @@ tailwind.config = {
   html.dark .bg-tertiary\/10, html.dark .bg-tertiary-fixed\/20, html.dark .bg-tertiary-fixed\/30 { background: rgba(233,195,73,0.18) !important; }
   body.exam-guard .answer-option, body.exam-guard #study-question, body.exam-guard #daily-question-preview, body.exam-guard #page-examlive, body.exam-guard #page-review { -webkit-user-select:none; user-select:none; }
 
+
+#study-status-panel button:hover {
+  transform: translateY(-1px);
+}
+
+#study-status-panel input[type="number"]::-webkit-outer-spin-button,
+#study-status-panel input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#study-status-panel input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -1549,7 +1564,7 @@ tailwind.config = {
 </main>
 
 <script src="assets/js/admin-config.js"></script>
-<script src="assets/js/app.js?v=26"></script>
+<script src="assets/js/app.js?v=27"></script>
 
 <div id="pn-modal-root"></div>
 <div id="pn-toast-root" class="fixed top-5 right-5 z-[120] flex flex-col gap-3 pointer-events-none"></div>
