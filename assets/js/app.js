@@ -120,7 +120,7 @@ const DEFAULT_STATE = {
   reviewContext: 'study',
   themeMode: 'light',
   dailyChallenge: null,
-  studyUi: { autoNext: false }
+  studyUi: { autoNext: false, autoNextSeconds: 2 }
 };
 
 const PN_DATA = {
@@ -1053,7 +1053,8 @@ function renderStudyQuestion() {
 
   const statusWrap = document.getElementById('study-status-panel');
   if (statusWrap) {
-    statusWrap.innerHTML = `<div class="rounded-[1.35rem] border border-outline-variant/15 bg-surface-container-low p-4 shadow-[0_10px_24px_rgba(0,21,27,0.05)]"><div class="flex items-center justify-between gap-3 mb-3"><div class="min-w-0"><h3 class="text-[11px] font-bold uppercase tracking-[0.24em] text-on-surface-variant mb-1">Question Status</h3><p class="text-xs text-on-surface-variant leading-relaxed">A quick view of your set progress.</p></div><label class="flex items-center gap-2 text-[11px] font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer whitespace-nowrap"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label></div><div class="grid grid-cols-3 gap-2 mb-3"><div class="rounded-xl bg-primary-fixed/25 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Answered</p><p class="text-lg font-black text-primary">${answeredTotal}</p></div><div class="rounded-xl bg-surface-container-high p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Unanswered</p><p class="text-lg font-black text-on-surface">${unansweredTotal}</p></div><div class="rounded-xl bg-tertiary/10 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-tertiary mb-1">Current</p><p class="text-lg font-black text-tertiary">${humanIndex}</p></div></div><div class="flex flex-wrap gap-2 mb-3">${answerMap}</div><div class="flex flex-wrap gap-3 text-[11px] font-semibold text-on-surface-variant"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Current</div></div></div>`;
+    const autoNextSeconds = Number(appState.studyUi?.autoNextSeconds || 2);
+    statusWrap.innerHTML = `<div class="rounded-[1.35rem] border border-outline-variant/15 bg-surface-container-low p-4 shadow-[0_10px_24px_rgba(0,21,27,0.05)]"><div class="flex items-start justify-between gap-3 mb-3"><div class="min-w-0"><h3 class="text-[11px] font-bold uppercase tracking-[0.24em] text-on-surface-variant mb-1">Question Status</h3><p class="text-xs text-on-surface-variant leading-relaxed">A quick view of your set progress.</p></div><div class="flex items-center gap-2 rounded-xl bg-surface-container-high px-3 py-2"><label class="flex items-center gap-2 text-[11px] font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer whitespace-nowrap"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label><div class="flex items-center gap-1 text-[11px] text-on-surface-variant"><input id="study-auto-next-seconds" type="number" min="1" max="10" value="${autoNextSeconds}" class="w-14 rounded-lg border border-outline-variant/30 bg-surface-container-lowest px-2 py-1 text-center text-sm font-bold text-primary focus:border-primary focus:ring-primary"/><span class="font-semibold">sec</span></div></div></div><div class="grid grid-cols-3 gap-2 mb-3"><div class="rounded-xl bg-primary-fixed/25 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Answered</p><p class="text-lg font-black text-primary">${answeredTotal}</p></div><div class="rounded-xl bg-surface-container-high p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Unanswered</p><p class="text-lg font-black text-on-surface">${unansweredTotal}</p></div><div class="rounded-xl bg-tertiary/10 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-tertiary mb-1">Current</p><p class="text-lg font-black text-tertiary">${humanIndex}</p></div></div><div class="flex flex-wrap gap-2 mb-3">${answerMap}</div><div class="flex flex-wrap gap-3 text-[11px] font-semibold text-on-surface-variant"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Current</div></div></div>`;
     statusWrap.classList.remove('hidden');
   }
 
@@ -1066,7 +1067,24 @@ function renderStudyQuestion() {
   }
 
   const autoNextToggle = document.getElementById('study-auto-next-toggle');
-  if (autoNextToggle) autoNextToggle.onchange = () => { appState.studyUi.autoNext = !!autoNextToggle.checked; saveState(); };
+  const autoNextSecondsInput = document.getElementById('study-auto-next-seconds');
+  if (autoNextToggle) autoNextToggle.onchange = () => {
+    appState.studyUi = appState.studyUi || {};
+    appState.studyUi.autoNext = !!autoNextToggle.checked;
+    if (autoNextSecondsInput) {
+      const seconds = Math.max(1, Math.min(10, Number(autoNextSecondsInput.value || 2)));
+      appState.studyUi.autoNextSeconds = seconds;
+      autoNextSecondsInput.value = String(seconds);
+    }
+    saveState();
+  };
+  if (autoNextSecondsInput) autoNextSecondsInput.onchange = () => {
+    appState.studyUi = appState.studyUi || {};
+    const seconds = Math.max(1, Math.min(10, Number(autoNextSecondsInput.value || 2)));
+    appState.studyUi.autoNextSeconds = seconds;
+    autoNextSecondsInput.value = String(seconds);
+    saveState();
+  };
 
   document.getElementById('study-prev-btn')?.toggleAttribute('disabled', appState.currentQuestionIndex === 0);
   document.getElementById('study-prev-btn')?.classList.toggle('opacity-50', appState.currentQuestionIndex === 0);
@@ -1102,7 +1120,7 @@ function selectAnswer(optionIndex) {
     if (appState.studyUi?.autoNext) {
       setTimeout(() => {
         if (appState.currentPage === 'study') nextQuestion();
-      }, 500);
+      }, Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000);
     }
   }
 }
@@ -1268,7 +1286,7 @@ function previousQuestion() {
     if (appState.studyUi?.autoNext) {
       setTimeout(() => {
         if (appState.currentPage === 'study') nextQuestion();
-      }, 500);
+      }, Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000);
     }
   }
 }
