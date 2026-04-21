@@ -1,5 +1,3 @@
-
-
 function ensureOverlayUi() {
   if (!document.getElementById('pn-toast-root')) {
     const toastRoot = document.createElement('div');
@@ -1991,9 +1989,7 @@ async function buildDailyChallenge(forceRefresh = false) {
         topicName: topic.name,
         topicFile: topic.file,
         questionIds: picked.map(q => q.id),
-        questionCount: picked.length,
         previewQuestion: picked[0]?.questionText || '',
-        secondaryPreview: picked[1]?.questionText || '',
         luckyNumber: (picked[0]?.id || '').split('').reduce((s,ch)=>s+ch.charCodeAt(0),0)%97 + 3
       };
       appState.dailyChallenge = daily;
@@ -2004,72 +2000,118 @@ async function buildDailyChallenge(forceRefresh = false) {
   return null;
 }
 
+function getDailyWheelSubjects() {
+  return (PN_DATA.subjectsIndex?.subjects || []).filter(s => Number(s.questionsCount || 0) > 0);
+}
+
+function getDailyWheelPalette(length = 1) {
+  const palette = ['#00151b', '#0d3a47', '#316574', '#5b7f2b', '#735c00', '#9d7a12', '#3d4b87', '#6b3f78'];
+  return Array.from({ length }, (_, i) => palette[i % palette.length]);
+}
+
+function buildDailyWheelVisual(selectedSubjectId = null) {
+  const wheel = document.getElementById('daily-wheel');
+  const gradientEl = document.getElementById('daily-wheel-gradient');
+  const segmentsEl = document.getElementById('daily-wheel-segments');
+  if (!wheel || !gradientEl || !segmentsEl) return [];
+  const subjects = getDailyWheelSubjects();
+  if (!subjects.length) {
+    gradientEl.style.background = 'radial-gradient(circle at 30% 30%, rgba(255,255,255,0.18), rgba(0,21,27,0.06) 70%), linear-gradient(135deg, #0d2549 0%, #00151b 100%)';
+    segmentsEl.innerHTML = '';
+    return [];
+  }
+  const palette = getDailyWheelPalette(subjects.length);
+  const slice = 360 / subjects.length;
+  const chosenIndex = Math.max(0, subjects.findIndex(subject => subject.id === selectedSubjectId));
+  const gradientStops = subjects.map((subject, index) => {
+    const start = (index * slice).toFixed(2);
+    const end = ((index + 1) * slice).toFixed(2);
+    return `${palette[index]} ${start}deg ${end}deg`;
+  }).join(', ');
+  gradientEl.style.background = `radial-gradient(circle at 30% 30%, rgba(255,255,255,0.22), rgba(255,255,255,0.02) 34%, rgba(0,0,0,0.10) 100%), conic-gradient(from -90deg, ${gradientStops})`;
+  segmentsEl.innerHTML = subjects.map((subject, index) => {
+    const angle = -90 + (slice * index) + (slice / 2);
+    const isChosen = index === chosenIndex;
+    const label = escapeHtml(String(subject.name || '').slice(0, 10));
+    return `<div class="daily-wheel-segment-label" style="transform: translate(-50%, -50%) rotate(${angle}deg)"><span style="opacity:${isChosen ? '1' : '0.72'}">${label}</span></div>`;
+  }).join('');
+  return subjects;
+}
+
+function getDailyWheelTargetRotation(subjectId) {
+  const subjects = getDailyWheelSubjects();
+  if (!subjects.length) return 0;
+  const slice = 360 / subjects.length;
+  const index = Math.max(0, subjects.findIndex(subject => subject.id === subjectId));
+  const centerAngle = (index * slice) + (slice / 2);
+  const target = 360 - centerAngle;
+  return target;
+}
+
 async function renderDailyChallenge(forceRefresh = false) {
   const daily = await buildDailyChallenge(forceRefresh);
   const subjectEl = document.getElementById('daily-subject');
+  const topicEl = document.getElementById('daily-topic-pill');
+  const countEl = document.getElementById('daily-count-pill');
   const previewEl = document.getElementById('daily-question-preview');
   const luckyEl = document.getElementById('lucky-n');
-  const wheelResultEl = document.getElementById('daily-wheel-result');
-  const topicBadgeEl = document.getElementById('daily-topic-badge');
-  const countBadgeEl = document.getElementById('daily-count-badge');
+  const luckyWheelEl = document.getElementById('daily-wheel-lucky');
+  const statusEl = document.getElementById('daily-wheel-status');
+  buildDailyWheelVisual(daily?.subjectId || null);
   if (!subjectEl || !previewEl) return;
   if (!daily) {
     subjectEl.textContent = 'No challenge available yet';
     previewEl.textContent = 'Add more topic data to unlock the daily challenge.';
+    if (topicEl) { topicEl.textContent = ''; topicEl.classList.add('hidden'); }
+    if (countEl) { countEl.textContent = ''; countEl.classList.add('hidden'); }
     if (luckyEl) luckyEl.textContent = '—';
-    if (wheelResultEl) wheelResultEl.textContent = '—';
-    topicBadgeEl?.classList.add('hidden');
-    countBadgeEl?.classList.add('hidden');
+    if (luckyWheelEl) luckyWheelEl.textContent = '—';
+    if (statusEl) statusEl.textContent = 'Need more data';
     return;
   }
-  subjectEl.textContent = String(daily.subjectName || 'Daily Challenge').toUpperCase();
+  subjectEl.textContent = String(daily.subjectName || '').toUpperCase();
   previewEl.textContent = daily.previewQuestion || 'Your daily challenge is ready.';
-  previewEl.classList.remove('daily-flash');
-  void previewEl.offsetWidth;
-  previewEl.classList.add('daily-flash');
+  if (topicEl) {
+    topicEl.textContent = String(daily.topicName || '').toUpperCase();
+    topicEl.classList.remove('hidden');
+  }
+  if (countEl) {
+    countEl.textContent = `${Array.isArray(daily.questionIds) ? daily.questionIds.length : 0} Qs`;
+    countEl.classList.remove('hidden');
+  }
   if (luckyEl) luckyEl.textContent = String(daily.luckyNumber || 7);
-  if (wheelResultEl) wheelResultEl.textContent = String(daily.luckyNumber || 7);
-  if (topicBadgeEl) {
-    topicBadgeEl.textContent = String(daily.topicName || 'Topic');
-    topicBadgeEl.classList.remove('hidden');
-  }
-  if (countBadgeEl) {
-    countBadgeEl.textContent = `${Number(daily.questionCount || daily.questionIds?.length || 0)} Qs`;
-    countBadgeEl.classList.remove('hidden');
-  }
+  if (luckyWheelEl) luckyWheelEl.textContent = String(daily.luckyNumber || 7);
+  if (statusEl) statusEl.textContent = 'Ready to spin';
 }
 window.renderDailyChallenge = renderDailyChallenge;
 
-let dailyWheelSpinLock = false;
-
 async function spinWheel() {
   const wheel = document.getElementById('daily-wheel');
-  if (!wheel || dailyWheelSpinLock) return;
-  dailyWheelSpinLock = true;
-
+  const statusEl = document.getElementById('daily-wheel-status');
+  if (!wheel || wheel.dataset.spinning === '1') return;
+  wheel.dataset.spinning = '1';
+  if (statusEl) statusEl.textContent = 'Spinning...';
   const nextDaily = await buildDailyChallenge(true);
-  const lucky = Number(nextDaily?.luckyNumber || Math.floor(Math.random() * 90) + 10);
-  const extraTurns = 6 + Math.floor(Math.random() * 3);
-  const finalOffset = (lucky % 10) * 36;
-  const targetDeg = extraTurns * 360 + finalOffset;
-
-  wheel.classList.add('spinning');
-  wheel.style.transition = 'transform 2.2s cubic-bezier(0.16, 1, 0.3, 1)';
-  wheel.style.transform = `rotate(${targetDeg}deg)`;
-
+  buildDailyWheelVisual(nextDaily?.subjectId || null);
+  const currentRotation = Number(wheel.dataset.rotation || 0);
+  const target = getDailyWheelTargetRotation(nextDaily?.subjectId);
+  const fullTurns = 5 * 360;
+  const normalizedCurrent = ((currentRotation % 360) + 360) % 360;
+  const extra = ((target - normalizedCurrent) + 360) % 360;
+  const finalRotation = currentRotation + fullTurns + extra;
+  wheel.style.transform = `rotate(${finalRotation}deg)`;
+  wheel.dataset.rotation = String(finalRotation);
   setTimeout(async () => {
     await renderDailyChallenge(false);
-  }, 1550);
-
-  setTimeout(() => {
-    wheel.classList.remove('spinning');
-    wheel.style.transition = 'none';
-    wheel.style.transform = `rotate(${targetDeg % 360}deg)`;
-    requestAnimationFrame(() => {
-      wheel.style.transition = '';
-    });
-    dailyWheelSpinLock = false;
-  }, 2250);
+    wheel.classList.remove('daily-wheel-glow');
+    void wheel.offsetWidth;
+    wheel.classList.add('daily-wheel-glow');
+    if (statusEl) statusEl.textContent = 'Locked in';
+    setTimeout(() => {
+      if (statusEl) statusEl.textContent = 'Ready to spin';
+      wheel.dataset.spinning = '0';
+    }, 900);
+  }, 3250);
 }
 window.spinWheel = spinWheel;
 
