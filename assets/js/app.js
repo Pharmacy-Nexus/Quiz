@@ -1187,6 +1187,7 @@ function renderStudyStatusPanel() {
       </section>
     </section>
   `;
+  panel.classList.remove('hidden');
 }
 
 function renderStudyQuestion() {
@@ -1267,11 +1268,7 @@ function renderStudyQuestion() {
   }
 
   const statusWrap = document.getElementById('study-status-panel');
-  if (statusWrap) {
-    const autoNextSeconds = Number(appState.studyUi?.autoNextSeconds || 2);
-    statusWrap.innerHTML = `<div class="rounded-[1.35rem] border border-outline-variant/15 bg-surface-container-low p-4 shadow-[0_10px_24px_rgba(0,21,27,0.05)]"><div class="flex items-start justify-between gap-3 mb-3"><div class="min-w-0"><h3 class="text-[11px] font-bold uppercase tracking-[0.24em] text-on-surface-variant mb-1">Question Status</h3><p class="text-xs text-on-surface-variant leading-relaxed">A quick view of your set progress.</p></div><div class="flex items-center gap-2 rounded-xl bg-surface-container-high px-3 py-2"><label class="flex items-center gap-2 text-[11px] font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer whitespace-nowrap"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label><div class="flex items-center gap-1 text-[11px] text-on-surface-variant"><input id="study-auto-next-seconds" type="number" min="1" max="10" value="${autoNextSeconds}" class="w-14 rounded-lg border border-outline-variant/30 bg-surface-container-lowest px-2 py-1 text-center text-sm font-bold text-primary focus:border-primary focus:ring-primary"/><span class="font-semibold">sec</span></div></div></div><div class="grid grid-cols-3 gap-2 mb-3"><div class="rounded-xl bg-primary-fixed/25 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Answered</p><p class="text-lg font-black text-primary">${answeredTotal}</p></div><div class="rounded-xl bg-surface-container-high p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Unanswered</p><p class="text-lg font-black text-on-surface">${unansweredTotal}</p></div><div class="rounded-xl bg-tertiary/10 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-tertiary mb-1">Current</p><p class="text-lg font-black text-tertiary">${humanIndex}</p></div></div><div class="flex flex-wrap gap-2 mb-3">${answerMap}</div><div class="flex flex-wrap gap-3 text-[11px] font-semibold text-on-surface-variant"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Current</div></div></div>`;
-    statusWrap.classList.remove('hidden');
-  }
+  if (statusWrap) statusWrap.classList.remove('hidden');
 
   updateSaveButtonState();
   const noteBtn = document.getElementById('note-btn');
