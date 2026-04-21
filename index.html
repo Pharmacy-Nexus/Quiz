@@ -101,69 +101,6 @@ tailwind.config = {
     80% { transform: rotate(700deg); }
     100% { transform: rotate(720deg); }
   }
-  #daily-wheel {
-    position: relative;
-    background: conic-gradient(from 0deg, #00151b 0deg 72deg, #002b36 72deg 144deg, #316574 144deg 216deg, #735c00 216deg 288deg, #406370 288deg 360deg);
-    transition: box-shadow .25s ease, transform .25s ease;
-    transform: rotate(0deg);
-    will-change: transform;
-  }
-  #daily-wheel::before {
-    content: '';
-    position: absolute;
-    inset: 10px;
-    border-radius: 9999px;
-    background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.18), rgba(255,255,255,.04) 35%, rgba(0,0,0,.08) 100%);
-    border: 1px solid rgba(255,255,255,.12);
-  }
-  #daily-wheel::after {
-    content: '';
-    position: absolute;
-    inset: -8px;
-    border-radius: 9999px;
-    border: 1px dashed rgba(115,92,0,.22);
-    pointer-events: none;
-  }
-  #daily-wheel.spinning {
-    box-shadow: 0 18px 42px rgba(0,21,27,0.22), 0 0 0 8px rgba(203,167,47,0.08);
-  }
-  #daily-wheel-pointer {
-    filter: drop-shadow(0 4px 12px rgba(0,21,27,.18));
-  }
-  #daily-wheel-core {
-    position: relative;
-    z-index: 1;
-    width: 4.25rem;
-    height: 4.25rem;
-    border-radius: 9999px;
-    background: rgba(255,255,255,.12);
-    border: 1px solid rgba(255,255,255,.14);
-    backdrop-filter: blur(10px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffe088;
-    line-height: 1;
-  }
-  #daily-wheel-result {
-    font-size: 1.2rem;
-    font-weight: 900;
-    color: #ffe088;
-  }
-  #daily-wheel-label {
-    font-size: .48rem;
-    letter-spacing: .18em;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: rgba(255,255,255,.8);
-    margin-top: .18rem;
-  }
-  .daily-flash { animation: dailyFlash .45s ease; }
-  @keyframes dailyFlash {
-    0% { transform: translateY(4px); opacity: .6; }
-    100% { transform: translateY(0); opacity: 1; }
-  }
   .fade-in { animation: fadeIn 0.3s ease; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   .progress-bar { transition: width 0.4s ease; }
@@ -316,6 +253,60 @@ tailwind.config = {
 #study-status-panel input[type="number"] {
   -moz-appearance: textfield;
 }
+
+
+  .daily-wheel-core::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border-radius: 9999px;
+    border: 1px dashed rgba(255, 224, 136, 0.22);
+    pointer-events: none;
+  }
+
+  .daily-wheel-segment-label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 44%;
+    transform-origin: 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12px;
+    pointer-events: none;
+  }
+
+  .daily-wheel-segment-label span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    line-height: 1;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgba(255,255,255,0.88);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.24);
+    white-space: nowrap;
+    max-width: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #daily-wheel-shell:hover #daily-wheel {
+    filter: saturate(1.08) brightness(1.02);
+  }
+
+  .daily-wheel-glow {
+    animation: dailyWheelGlow 700ms ease;
+  }
+
+  @keyframes dailyWheelGlow {
+    0% { box-shadow: 0 0 0 rgba(233,195,73,0); }
+    40% { box-shadow: 0 0 0 10px rgba(233,195,73,0.08), 0 0 30px rgba(233,195,73,0.18); }
+    100% { box-shadow: 0 0 0 rgba(233,195,73,0); }
+  }
 
 </style>
 </head>
@@ -524,32 +515,38 @@ tailwind.config = {
             </div>
             <span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider">New</span>
           </div>
-          <!-- Wheel / Spinner -->
-          <div class="flex flex-col sm:flex-row gap-6 items-center mb-6">
-            <div class="relative flex-shrink-0">
-              <div class="absolute -top-2 left-1/2 -translate-x-1/2 z-10" id="daily-wheel-pointer">
-                <div class="w-0 h-0 border-l-[11px] border-r-[11px] border-t-0 border-b-[18px] border-l-transparent border-r-transparent border-b-tertiary"></div>
-              </div>
-              <div id="daily-wheel" class="w-28 h-28 rounded-full flex items-center justify-center cursor-pointer shadow-[0_10px_30px_rgba(0,21,27,0.15)] hover:scale-105" onclick="spinWheel()" aria-label="Spin daily challenge wheel" role="button">
-                <div id="daily-wheel-core">
-                  <span id="daily-wheel-result">7</span>
-                  <span id="daily-wheel-label">Lucky</span>
+          <div class="flex flex-col lg:flex-row gap-7 lg:items-center mb-2">
+            <div class="relative flex-shrink-0 self-center">
+              <button id="daily-wheel-shell" type="button" onclick="spinWheel()" class="relative block group focus:outline-none">
+                <div class="absolute left-1/2 -translate-x-1/2 -top-2 z-20 w-0 h-0 border-l-[11px] border-r-[11px] border-b-[18px] border-l-transparent border-r-transparent border-b-tertiary drop-shadow-[0_6px_12px_rgba(115,92,0,0.35)]"></div>
+                <div class="absolute inset-0 rounded-full blur-2xl bg-secondary/20 scale-110 pointer-events-none"></div>
+                <div class="relative w-[148px] h-[148px] rounded-full p-[7px] bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.95),rgba(255,255,255,0.35)_28%,rgba(193,199,203,0.16)_55%,rgba(0,21,27,0.10)_100%)] shadow-[0_22px_45px_rgba(0,21,27,0.18)]">
+                  <div id="daily-wheel" class="daily-wheel-core relative w-full h-full rounded-full overflow-hidden border border-white/40 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] transition-transform duration-[3200ms] [transition-timing-function:cubic-bezier(.12,.8,.18,1)]">
+                    <div id="daily-wheel-gradient" class="absolute inset-0 rounded-full"></div>
+                    <div id="daily-wheel-segments" class="absolute inset-0 rounded-full"></div>
+                    <div class="absolute inset-[22%] rounded-full border border-white/10 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.18),rgba(0,21,27,0.04)_70%)]"></div>
+                    <div id="daily-wheel-center" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[68px] h-[68px] rounded-full bg-primary/90 text-on-primary flex flex-col items-center justify-center border border-white/10 shadow-[0_12px_24px_rgba(0,21,27,0.28)] backdrop-blur-sm">
+                      <span class="text-[10px] font-black uppercase tracking-[0.3em] leading-none">Lucky</span>
+                      <span id="daily-wheel-lucky" class="text-2xl font-black leading-none mt-1">7</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-surface-container-lowest rounded-full px-3 py-0.5 text-[10px] font-bold text-tertiary uppercase tracking-widest border border-outline-variant/20">Spin</div>
+                <span class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-surface-container-lowest rounded-full px-4 py-1 text-[10px] font-bold text-tertiary uppercase tracking-[0.28em] border border-outline-variant/20 shadow-sm">Spin</span>
+              </button>
             </div>
-            <div class="flex-1">
-              <div class="flex flex-wrap items-center gap-2 mb-2">
+            <div class="flex-1 min-w-0">
+              <div class="flex flex-wrap items-center gap-2 mb-4">
                 <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest">Click the wheel to select a subject</p>
-                <span id="daily-topic-badge" class="hidden bg-secondary-container/60 text-on-secondary-container px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.18em]">Topic</span>
-                <span id="daily-count-badge" class="hidden bg-tertiary-fixed/30 text-on-tertiary-fixed px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.18em]">5 Qs</span>
+                <span id="daily-topic-pill" class="hidden bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-[0.24em]"></span>
+                <span id="daily-count-pill" class="hidden bg-tertiary-fixed/45 text-on-tertiary-fixed-variant px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-[0.24em]"></span>
               </div>
-              <div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/15">
-                <p id="daily-question-preview" class="text-sm font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
+              <div class="bg-surface-container-low rounded-[1.5rem] p-5 border border-outline-variant/15 min-h-[104px] flex items-center">
+                <p id="daily-question-preview" class="text-base font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
               </div>
-              <div class="flex gap-2 mt-3">
-                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
-                <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
+              <div class="flex flex-wrap gap-3 mt-4 items-center">
+                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-6 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
+                <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
+                <span id="daily-wheel-status" class="text-xs font-bold uppercase tracking-[0.22em] text-outline">Ready to spin</span>
               </div>
             </div>
           </div>
