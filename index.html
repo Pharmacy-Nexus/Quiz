@@ -105,124 +105,6 @@ tailwind.config = {
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   .progress-bar { transition: width 0.4s ease; }
 
-
-  /* Motion layer */
-  .motion-safe-card,
-  .motion-safe-stat,
-  .motion-safe-panel,
-  .motion-safe-chip,
-  .motion-safe-hero {
-    will-change: transform, opacity;
-  }
-
-  .page-enter {
-    animation: pageRise .5s cubic-bezier(.22,1,.36,1) both;
-  }
-
-  .stagger-in {
-    opacity: 0;
-    transform: translateY(18px) scale(.985);
-    animation: staggerIn .55s cubic-bezier(.22,1,.36,1) forwards;
-    animation-delay: var(--delay, 0ms);
-  }
-
-  .float-soft {
-    animation: floatSoft 7s ease-in-out infinite;
-  }
-
-  .glow-sweep::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(120deg, transparent 20%, rgba(255,255,255,.14) 48%, transparent 76%);
-    transform: translateX(-130%);
-    transition: transform .9s ease;
-    pointer-events: none;
-  }
-
-  .glow-sweep:hover::after {
-    transform: translateX(130%);
-  }
-
-  .lift-hover {
-    transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
-  }
-
-  .lift-hover:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 18px 40px rgba(0,21,27,.10);
-  }
-
-  .tilt-track {
-    transition: transform .18s ease, box-shadow .22s ease;
-    transform-style: preserve-3d;
-  }
-
-  .answer-pop {
-    animation: answerPop .38s cubic-bezier(.22,1,.36,1);
-  }
-
-  .correct-burst {
-    animation: correctBurst .5s cubic-bezier(.22,1,.36,1);
-  }
-
-  .status-pulse {
-    animation: statusPulse 1.3s ease-in-out 1;
-  }
-
-  @keyframes pageRise {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes staggerIn {
-    from { opacity: 0; transform: translateY(18px) scale(.985); }
-    to { opacity: 1; transform: translateY(0) scale(1); }
-  }
-
-  @keyframes floatSoft {
-    0%,100% { transform: translateY(0px); }
-    50% { transform: translateY(-8px); }
-  }
-
-  @keyframes answerPop {
-    0% { transform: scale(.985); }
-    55% { transform: scale(1.015); }
-    100% { transform: scale(1); }
-  }
-
-  @keyframes correctBurst {
-    0% { transform: scale(.82); opacity: 0; }
-    60% { transform: scale(1.12); opacity: 1; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-
-  @keyframes statusPulse {
-    0% { box-shadow: 0 0 0 rgba(215,177,75,0); }
-    40% { box-shadow: 0 0 0 10px rgba(215,177,75,.08); }
-    100% { box-shadow: 0 0 0 rgba(215,177,75,0); }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .page-enter,
-    .stagger-in,
-    .float-soft,
-    .answer-pop,
-    .correct-burst,
-    .status-pulse {
-      animation: none !important;
-    }
-    .lift-hover,
-    .tilt-track,
-    .progress-bar,
-    .answer-option,
-    .nav-link,
-    button,
-    a {
-      transition: none !important;
-    }
-  }
-
   html.dark body { background:#11171a !important; color:#f0f1f2 !important; }
   html.dark .bg-surface, html.dark .bg-surface-bright, html.dark .bg-background { background:#11171a !important; }
   html.dark .bg-surface-container-lowest { background:#171d20 !important; }
@@ -255,58 +137,23 @@ tailwind.config = {
 }
 
 
-  .daily-wheel-core::after {
-    content: "";
-    position: absolute;
-    inset: 6px;
-    border-radius: 9999px;
-    border: 1px dashed rgba(255, 224, 136, 0.22);
-    pointer-events: none;
+  .daily-wheel-shell { position: relative; width: 9.5rem; height: 9.5rem; display:flex; align-items:center; justify-content:center; }
+  .daily-wheel-pointer { position:absolute; top:-0.2rem; left:50%; transform:translateX(-50%); width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent; border-bottom:22px solid #8a6c05; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12)); z-index:3; }
+  .daily-wheel-ring { position:absolute; inset:0; border-radius:9999px; padding:7px; background:linear-gradient(145deg, rgba(255,255,255,0.95), rgba(237,238,239,0.95)); box-shadow:0 18px 44px rgba(0,21,27,0.14); }
+  .daily-wheel-ring::before { content:''; position:absolute; inset:7px; border-radius:9999px; border:1px dashed rgba(203,167,47,0.28); }
+  .daily-wheel-disc { position:relative; width:100%; height:100%; border-radius:9999px; overflow:hidden; cursor:pointer; transition:transform .25s ease, box-shadow .25s ease; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 12px 26px rgba(0,21,27,0.18); background:
+      radial-gradient(circle at 50% 50%, rgba(255,255,255,0.12) 0 17%, transparent 18%),
+      conic-gradient(from -90deg, #062f3a 0deg 60deg, #0b4453 60deg 120deg, #0d5868 120deg 180deg, #155f70 180deg 240deg, #7d6709 240deg 300deg, #9a7b08 300deg 360deg);
   }
-
-  .daily-wheel-segment-label {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 44%;
-    transform-origin: 0 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 12px;
-    pointer-events: none;
-  }
-
-  .daily-wheel-segment-label span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 9px;
-    line-height: 1;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: rgba(255,255,255,0.88);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.24);
-    white-space: nowrap;
-    max-width: 54px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  #daily-wheel-shell:hover #daily-wheel {
-    filter: saturate(1.08) brightness(1.02);
-  }
-
-  .daily-wheel-glow {
-    animation: dailyWheelGlow 700ms ease;
-  }
-
-  @keyframes dailyWheelGlow {
-    0% { box-shadow: 0 0 0 rgba(233,195,73,0); }
-    40% { box-shadow: 0 0 0 10px rgba(233,195,73,0.08), 0 0 30px rgba(233,195,73,0.18); }
-    100% { box-shadow: 0 0 0 rgba(233,195,73,0); }
-  }
+  .daily-wheel-disc:hover { transform:scale(1.03); }
+  .daily-wheel-center { position:absolute; inset:33px; border-radius:9999px; background: radial-gradient(circle at 35% 30%, #143f4a, #0a2630 72%); display:flex; flex-direction:column; align-items:center; justify-content:center; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 10px 24px rgba(0,21,27,0.18); z-index:2; }
+  .daily-wheel-center::after { content:''; position:absolute; inset:-7px; border-radius:9999px; border:1px solid rgba(255,255,255,0.06); }
+  .daily-wheel-count { font-size:2rem; line-height:1; font-weight:900; color:#ffffff; letter-spacing:-0.03em; }
+  .daily-wheel-label { font-size:.58rem; font-weight:800; letter-spacing:.35em; text-transform:uppercase; color:rgba(255,255,255,0.78); margin-bottom:.32rem; margin-left:.28rem; }
+  .daily-wheel-sub { font-size:.52rem; font-weight:800; letter-spacing:.28em; text-transform:uppercase; color:#cba72f; margin-top:.32rem; margin-left:.25rem; }
+  .daily-spin-btn { position:absolute; bottom:-0.3rem; left:50%; transform:translateX(-50%); background:#fff; color:#8a6c05; border:1px solid rgba(193,199,203,0.28); border-radius:9999px; padding:.34rem .95rem; font-size:.68rem; font-weight:900; letter-spacing:.28em; text-transform:uppercase; box-shadow:0 10px 22px rgba(0,21,27,0.10); z-index:3; }
+  .daily-wheel-disc.is-spinning { transition:transform 2.4s cubic-bezier(.12,.8,.16,1); }
+  .daily-result-pill { display:inline-flex; align-items:center; justify-content:center; padding:.48rem .9rem; border-radius:9999px; font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
 
 </style>
 </head>
@@ -396,7 +243,7 @@ tailwind.config = {
   <div class="max-w-7xl mx-auto px-6 md:px-12 py-10">
 
     <!-- Hero -->
-    <section class="relative rounded-xl bg-gradient-to-br from-primary to-primary-container p-8 md:p-14 overflow-hidden ambient-shadow mb-12 motion-safe-hero page-enter glow-sweep">
+    <section class="relative rounded-xl bg-gradient-to-br from-primary to-primary-container p-8 md:p-14 overflow-hidden ambient-shadow mb-12">
       <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-tertiary-fixed/10 rounded-full blur-3xl pointer-events-none"></div>
       <div class="absolute top-0 left-1/2 w-64 h-64 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
       <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -439,19 +286,19 @@ tailwind.config = {
 
     <!-- Quick Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
         <p id="home-accuracy" class="text-2xl font-black text-primary">6%</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Accuracy</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:140ms" onclick="navigateTo('saved')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('saved')">
         <p id="home-saved-count" class="text-2xl font-black text-tertiary">12</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Saved Qs</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:140ms" onclick="navigateTo('saved')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('saved')">
         <p id="home-notes-count" class="text-2xl font-black text-secondary">4</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Notes</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:200ms" onclick="navigateTo('dashboard')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('dashboard')">
         <p id="home-final-exams-count" class="text-2xl font-black text-primary">2</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Final Exams</p>
       </div>
@@ -511,42 +358,36 @@ tailwind.config = {
           <div class="flex justify-between items-start mb-5">
             <div>
               <h2 class="text-xl font-bold text-primary tracking-tight mb-1">Daily Challenge</h2>
-              <p class="text-sm text-on-surface-variant">Spin for a subject — tackle today's clinical dose</p>
+              <p class="text-sm text-on-surface-variant">Spin once — get a random subject and a random number of questions</p>
             </div>
             <span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider">New</span>
           </div>
-          <div class="flex flex-col lg:flex-row gap-7 lg:items-center mb-2">
-            <div class="relative flex-shrink-0 self-center">
-              <button id="daily-wheel-shell" type="button" onclick="spinWheel()" class="relative block group focus:outline-none">
-                <div class="absolute left-1/2 -translate-x-1/2 -top-2 z-20 w-0 h-0 border-l-[11px] border-r-[11px] border-b-[18px] border-l-transparent border-r-transparent border-b-tertiary drop-shadow-[0_6px_12px_rgba(115,92,0,0.35)]"></div>
-                <div class="absolute inset-0 rounded-full blur-2xl bg-secondary/20 scale-110 pointer-events-none"></div>
-                <div class="relative w-[148px] h-[148px] rounded-full p-[7px] bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.95),rgba(255,255,255,0.35)_28%,rgba(193,199,203,0.16)_55%,rgba(0,21,27,0.10)_100%)] shadow-[0_22px_45px_rgba(0,21,27,0.18)]">
-                  <div id="daily-wheel" class="daily-wheel-core relative w-full h-full rounded-full overflow-hidden border border-white/40 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] transition-transform duration-[3200ms] [transition-timing-function:cubic-bezier(.12,.8,.18,1)]">
-                    <div id="daily-wheel-gradient" class="absolute inset-0 rounded-full"></div>
-                    <div id="daily-wheel-segments" class="absolute inset-0 rounded-full"></div>
-                    <div class="absolute inset-[22%] rounded-full border border-white/10 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.18),rgba(0,21,27,0.04)_70%)]"></div>
-                    <div id="daily-wheel-center" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[68px] h-[68px] rounded-full bg-primary/90 text-on-primary flex flex-col items-center justify-center border border-white/10 shadow-[0_12px_24px_rgba(0,21,27,0.28)] backdrop-blur-sm">
-                      <span class="text-[10px] font-black uppercase tracking-[0.3em] leading-none">Lucky</span>
-                      <span id="daily-wheel-lucky" class="text-2xl font-black leading-none mt-1">7</span>
-                    </div>
-                  </div>
+          <div class="flex flex-col lg:flex-row gap-7 items-center mb-2">
+            <div class="daily-wheel-shell flex-shrink-0">
+              <div class="daily-wheel-pointer"></div>
+              <div class="daily-wheel-ring"></div>
+              <div id="daily-wheel" class="daily-wheel-disc" onclick="spinWheel()" role="button" aria-label="Spin daily challenge wheel" tabindex="0">
+                <div class="daily-wheel-center">
+                  <span class="daily-wheel-label">Today</span>
+                  <span id="daily-count" class="daily-wheel-count">5</span>
+                  <span class="daily-wheel-sub">Questions</span>
                 </div>
-                <span class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-surface-container-lowest rounded-full px-4 py-1 text-[10px] font-bold text-tertiary uppercase tracking-[0.28em] border border-outline-variant/20 shadow-sm">Spin</span>
-              </button>
-            </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex flex-wrap items-center gap-2 mb-4">
-                <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest">Click the wheel to select a subject</p>
-                <span id="daily-topic-pill" class="hidden bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-[0.24em]"></span>
-                <span id="daily-count-pill" class="hidden bg-tertiary-fixed/45 text-on-tertiary-fixed-variant px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-[0.24em]"></span>
               </div>
-              <div class="bg-surface-container-low rounded-[1.5rem] p-5 border border-outline-variant/15 min-h-[104px] flex items-center">
-                <p id="daily-question-preview" class="text-base font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
+              <button type="button" class="daily-spin-btn" onclick="spinWheel()">Spin</button>
+            </div>
+            <div class="flex-1 w-full">
+              <div class="flex flex-wrap items-center gap-2 mb-3">
+                <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest">Click spin to generate today’s set</p>
+                <span id="daily-topic-pill" class="daily-result-pill bg-secondary-container/70 text-on-secondary-container">Topic</span>
+                <span id="daily-count-pill" class="daily-result-pill bg-tertiary-fixed/45 text-on-tertiary-fixed">5 Questions</span>
+              </div>
+              <div class="bg-surface-container-low rounded-[1.4rem] p-5 border border-outline-variant/15 min-h-[116px] flex items-center">
+                <p id="daily-question-preview" class="text-base font-medium text-primary leading-relaxed">Spin the wheel and the app will choose a subject, a topic, and a random number of questions from 1 to 10.</p>
               </div>
               <div class="flex flex-wrap gap-3 mt-4 items-center">
-                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-6 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
-                <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
-                <span id="daily-wheel-status" class="text-xs font-bold uppercase tracking-[0.22em] text-outline">Ready to spin</span>
+                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
+                <button id="daily-reroll-btn" onclick="spinWheel()" class="bg-surface-container-low text-primary px-5 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors">Spin Again</button>
+                <span id="daily-status" class="text-xs font-bold uppercase tracking-[0.28em] text-outline">Ready to spin</span>
               </div>
             </div>
           </div>
@@ -555,7 +396,7 @@ tailwind.config = {
 
       <!-- Recent Activity -->
       <div class="lg:col-span-4">
-        <section class="bg-surface-container-low rounded-xl p-6 ghost-border h-full motion-safe-panel stagger-in lift-hover" style="--delay:300ms">
+        <section class="bg-surface-container-low rounded-xl p-6 ghost-border h-full">
           <div class="flex justify-between items-center mb-6">
             <h2 class="text-base font-bold text-primary tracking-tight">Recent Activity</h2>
             <button onclick="navigateTo('dashboard')" class="text-tertiary text-xs font-bold hover:underline">View All</button>
@@ -886,19 +727,19 @@ tailwind.config = {
 
     <!-- Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
         <p id="sets-easy-count" class="text-2xl font-black text-secondary">18</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Easy</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
         <p id="sets-medium-count" class="text-2xl font-black text-tertiary">10</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Medium</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
         <p id="sets-hard-count" class="text-2xl font-black text-error">7</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Hard</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
         <p id="sets-total-count" class="text-2xl font-black text-primary">35</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Total Qs</p>
       </div>
@@ -1081,7 +922,7 @@ tailwind.config = {
         </div>
       </div>
       <!-- Right: Info Panel -->
-      <aside class="lg:col-span-5 motion-safe-panel page-enter">
+      <aside class="lg:col-span-5">
         <div class="sticky top-24 bg-surface-container-lowest rounded-xl p-6 md:p-8 ambient-shadow flex flex-col gap-6">
           <div class="flex items-center gap-3 pb-5 border-b border-outline-variant/15">
             <span class="material-symbols-outlined text-secondary text-xl">info</span>
