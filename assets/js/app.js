@@ -78,8 +78,8 @@ function openNoteModal(currentValue = '', options = {}) {
     root.querySelector('.fixed')?.addEventListener('click', e => { if (e.target === e.currentTarget) finish(null); });
   });
 }
-const pages = ['home','subjects','topics','sets','study','review','dashboard','profile','finalexam','examlive','saved'];
-const navIds = ['home','subjects','dashboard','saved','finalexam'];
+const pages = ['home','subjects','topics','sets','study','review','dashboard','profile','about','finalexam','examlive','saved'];
+const navIds = ['home','subjects','dashboard','saved','finalexam','about'];
 const STORAGE_KEY = 'pharmacyNexusState';
 const DEFAULT_STATE = {
   currentPage: 'home',
@@ -2919,6 +2919,20 @@ function buildFinalExamReviewPage() {
   page.innerHTML = `<div class="max-w-5xl mx-auto px-6 md:px-12 py-10"><div class="absolute top-0 left-0 w-full h-80 bg-gradient-to-br from-primary-container/15 via-surface to-surface -z-10 pointer-events-none"></div><header class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-5"><div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-2 block">Post-Assessment Analysis</span><h1 class="text-4xl md:text-5xl font-extrabold text-primary tracking-tight" style="letter-spacing:-0.02em">Performance Review<br/><span class="text-on-surface-variant font-medium text-2xl">Final Exam • ${escapeHtml(session.subjectLabel)}</span></h1></div><p class="text-sm text-on-surface-variant max-w-sm">A detailed breakdown of your final exam performance with your selected answer, the correct answer, and the explanation for each question.</p></header><section class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10"><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow relative overflow-hidden group"><div class="absolute -right-3 -top-3 w-16 h-16 bg-tertiary/10 rounded-full blur-xl"></div><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-base">workspace_premium</span>Score</span><div class="flex items-baseline gap-1"><span class="text-5xl font-black text-primary">${correct}</span><span class="text-xl text-on-surface-variant">/${total}</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-primary text-base">percent</span>Accuracy</span><div class="text-5xl font-black text-primary">${accuracy}<span class="text-2xl text-on-surface-variant font-medium">%</span></div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-secondary"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>Correct</span><div class="text-5xl font-black text-secondary">${correct}</div></div><div class="bg-surface-container-lowest rounded-xl p-6 flex flex-col ambient-shadow border-l-4 border-error"><span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-4 flex items-center gap-1"><span class="material-symbols-outlined text-error text-base">cancel</span>Wrong</span><div class="text-5xl font-black text-error">${wrong}</div></div></section><div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-10 p-5 bg-surface-container-low rounded-xl"><button onclick="retryWrongFinalExam()" class="py-4 bg-primary text-on-primary rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2 ${wrong === 0 ? 'opacity-50 cursor-not-allowed' : ''}" ${wrong === 0 ? 'disabled' : ''}><span class="material-symbols-outlined">restart_alt</span> Retry Wrong Questions</button><button onclick="retakeFinalExam()" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">replay</span> Retake Full Exam</button><button onclick="navigateTo('home')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">home</span> Back to Home</button><button onclick="navigateTo('dashboard')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">dashboard</span> Go to Dashboard</button></div><h2 class="text-xl font-bold text-primary mb-6 tracking-tight">Question Analysis</h2><div class="space-y-8">${reviewCards}</div></div>`;
 }
 
+
+function renderAboutPage() {
+  const subjects = Array.isArray(PN_DATA.subjectsIndex?.subjects) ? PN_DATA.subjectsIndex.subjects : [];
+  const subjectCount = subjects.length;
+  const questionCount = subjects.reduce((sum, item) => sum + Number(item.questionsCount || 0), 0);
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = String(value);
+  };
+  setText('about-hero-subjects', subjectCount);
+  setText('about-hero-questions', questionCount);
+}
+window.renderAboutPage = renderAboutPage;
+
 async function submitCurrentExam(autoSubmitted = false) {
   const session = getExamSession();
   if (!session) return;
@@ -3020,8 +3034,11 @@ navigateTo = function(pageId) {
   if (pageId === 'examlive') renderExamLivePage();
   if (pageId === 'saved') renderSavedPage();
   if (pageId === 'home') renderDailyChallenge();
+  if (pageId === 'about') renderAboutPage();
   if ((pageId === 'study' || pageId === 'sets') && appState.reviewContext === 'study') {
     clearInterval(examTimerRef);
   }
 };
 window.navigateTo = navigateTo;
+
+renderAboutPage();
