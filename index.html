@@ -136,6 +136,21 @@ tailwind.config = {
   -moz-appearance: textfield;
 }
 
+
+.about-orb {
+  position:absolute;
+  border-radius:9999px;
+  filter: blur(10px);
+  opacity:.45;
+  pointer-events:none;
+}
+.about-grid-glow {
+  background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.about-card-hover { transition: transform .24s ease, box-shadow .24s ease; }
+.about-card-hover:hover { transform: translateY(-4px); box-shadow: 0 24px 44px rgba(0,21,27,.08); }
+
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -166,6 +181,10 @@ tailwind.config = {
     <a class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-white/50 transition-all cursor-pointer" onclick="navigateTo('finalexam')" id="nav-finalexam">
       <span class="material-symbols-outlined text-xl">school</span>
       <span class="text-sm font-semibold">Final Exam</span>
+    </a>
+    <a class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-white/50 transition-all cursor-pointer" onclick="navigateTo('about')" id="nav-about">
+      <span class="material-symbols-outlined text-xl">info</span>
+      <span class="text-sm font-semibold">About</span>
     </a>
   </nav>
   <div class="mt-auto flex flex-col gap-4 px-4">
@@ -213,6 +232,10 @@ tailwind.config = {
   <a onclick="navigateTo('finalexam')" class="flex flex-col items-center gap-0.5 p-2 cursor-pointer text-on-surface-variant hover:text-primary transition-colors">
     <span class="material-symbols-outlined text-xl">school</span>
     <span class="text-[9px] font-bold uppercase tracking-wider">Exam</span>
+  </a>
+  <a onclick="navigateTo('about')" class="flex flex-col items-center gap-0.5 p-2 cursor-pointer text-on-surface-variant hover:text-primary transition-colors">
+    <span class="material-symbols-outlined text-xl">info</span>
+    <span class="text-[9px] font-bold uppercase tracking-wider">About</span>
   </a>
 </nav>
 
@@ -1624,6 +1647,105 @@ tailwind.config = {
         </section>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- ===================== PAGE: ABOUT ===================== -->
+<div id="page-about" class="page fade-in">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 py-10">
+    <section class="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-primary to-primary-container text-on-primary p-8 md:p-12 ambient-shadow mb-8">
+      <div class="about-grid-glow absolute inset-0 opacity-30"></div>
+      <div class="about-orb w-72 h-72 bg-tertiary-fixed/40 -top-16 -right-12"></div>
+      <div class="about-orb w-64 h-64 bg-secondary-fixed/30 -bottom-16 left-8"></div>
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-7">
+          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/15 text-[11px] font-bold uppercase tracking-[0.25em] text-tertiary-fixed mb-5">Free learning platform</span>
+          <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mb-4">Built to support pharmacy students,<br/>interns, and licensure exam candidates.</h1>
+          <p class="text-base md:text-lg text-on-primary/80 leading-relaxed max-w-3xl mb-6">Pharmacy Nexus is a free study platform created to make pharmacy revision more structured, more practical, and more accessible. We are building it to help students and young pharmacists move through subjects with confidence, strengthen weak areas, and prepare for internship and licensure exams with better tools.</p>
+          <div class="flex flex-wrap gap-3">
+            <button onclick="navigateTo('subjects')" class="px-6 py-3 rounded-xl bg-surface-container-lowest text-primary font-bold text-sm hover:scale-[0.98] transition-transform">Explore Subjects</button>
+            <button onclick="navigateTo('finalexam')" class="px-6 py-3 rounded-xl bg-white/10 border border-white/15 font-bold text-sm hover:bg-white/15 transition-colors">Start Final Exam</button>
+          </div>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="rounded-[1.75rem] bg-white/10 border border-white/15 backdrop-blur-xl p-6">
+            <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary-fixed mb-4">Why Pharmacy Nexus?</p>
+            <div class="grid grid-cols-2 gap-3 text-sm">
+              <div class="rounded-2xl bg-black/10 px-4 py-4">
+                <div class="text-on-primary/70">Subjects</div>
+                <div id="about-hero-subjects" class="text-2xl font-black mt-1">0</div>
+              </div>
+              <div class="rounded-2xl bg-black/10 px-4 py-4">
+                <div class="text-on-primary/70">Questions</div>
+                <div id="about-hero-questions" class="text-2xl font-black mt-1">0</div>
+              </div>
+              <div class="rounded-2xl bg-black/10 px-4 py-4 col-span-2">
+                <div class="text-on-primary/70">Purpose</div>
+                <div class="font-bold mt-1">Free, structured pharmacy learning with real exam-focused practice.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+      <article class="rounded-[1.75rem] bg-surface-container-lowest p-6 ambient-shadow ghost-border about-card-hover">
+        <div class="w-12 h-12 rounded-2xl bg-primary-container text-primary-fixed flex items-center justify-center mb-4"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">school</span></div>
+        <h2 class="text-xl font-extrabold text-primary mb-3 tracking-tight">For students and interns</h2>
+        <p class="text-on-surface-variant leading-relaxed">Designed for pharmacy students, interns, and candidates preparing for internship, pre-registration, or licensure exams.</p>
+      </article>
+      <article class="rounded-[1.75rem] bg-surface-container-lowest p-6 ambient-shadow ghost-border about-card-hover">
+        <div class="w-12 h-12 rounded-2xl bg-secondary-container/40 text-secondary flex items-center justify-center mb-4"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">auto_stories</span></div>
+        <h2 class="text-xl font-extrabold text-primary mb-3 tracking-tight">Structured revision</h2>
+        <p class="text-on-surface-variant leading-relaxed">We focus on helping learners revise in a clean, organized way through subjects, topics, sets, saved questions, and practical review tools.</p>
+      </article>
+      <article class="rounded-[1.75rem] bg-surface-container-lowest p-6 ambient-shadow ghost-border about-card-hover">
+        <div class="w-12 h-12 rounded-2xl bg-tertiary-fixed/30 text-on-tertiary-fixed flex items-center justify-center mb-4"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">volunteer_activism</span></div>
+        <h2 class="text-xl font-extrabold text-primary mb-3 tracking-tight">Free by mission</h2>
+        <p class="text-on-surface-variant leading-relaxed">Our mission is to keep useful pharmacy learning support accessible. The platform is being built as a free resource for the community.</p>
+      </article>
+    </section>
+
+    <section class="grid grid-cols-1 xl:grid-cols-12 gap-8 mb-8">
+      <div class="xl:col-span-7 rounded-[2rem] bg-surface-container-lowest p-6 md:p-8 ambient-shadow ghost-border">
+        <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Our message</p>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-5">A student-first pharmacy platform</h2>
+        <div class="space-y-4 text-on-surface-variant leading-relaxed text-[15px] md:text-base">
+          <p>Pharmacy Nexus was created to give pharmacy learners a better study experience: one that feels focused, practical, and built around real academic progress instead of scattered revision.</p>
+          <p>We want students to have a place where they can practice questions, review important topics, track progress, and return to weak areas without feeling lost or overwhelmed.</p>
+          <p>Whether you are still in pharmacy school, preparing for internship, or studying for your licensure exam, Pharmacy Nexus is being built to support your journey with high-quality tools that stay clear, useful, and free.</p>
+        </div>
+      </div>
+      <div class="xl:col-span-5 rounded-[2rem] bg-surface-container-lowest p-6 md:p-8 ambient-shadow ghost-border">
+        <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Platform snapshot</p>
+        <h2 class="text-2xl md:text-3xl font-extrabold text-primary tracking-tight mb-6">What the platform is helping with</h2>
+        <div class="space-y-3 text-sm">
+          <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15 flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">check_circle</span><div><p class="font-bold text-primary">Subject-by-subject study flow</p><p class="text-on-surface-variant">Move through material in a clean and organized way.</p></div></div>
+          <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15 flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">check_circle</span><div><p class="font-bold text-primary">Set practice and review</p><p class="text-on-surface-variant">Practice repeatedly while building stronger retention.</p></div></div>
+          <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15 flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">check_circle</span><div><p class="font-bold text-primary">Internship and licensure preparation</p><p class="text-on-surface-variant">Useful for exam-focused revision and practical readiness.</p></div></div>
+          <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15 flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">check_circle</span><div><p class="font-bold text-primary">Free access</p><p class="text-on-surface-variant">Built to serve learners without putting a cost barrier in front of them.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rounded-[2rem] bg-gradient-to-br from-surface-container-lowest to-surface-container-low p-6 md:p-8 ambient-shadow ghost-border overflow-hidden relative">
+      <div class="absolute right-0 top-0 w-60 h-60 rounded-full bg-tertiary-fixed/20 blur-3xl pointer-events-none"></div>
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="lg:col-span-8">
+          <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Contact</p>
+          <h2 class="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-3">Let us hear from you</h2>
+          <p class="text-on-surface-variant leading-relaxed max-w-3xl">For questions, suggestions, feedback, or collaboration, you can contact the Pharmacy Nexus team anytime. We are always happy to hear ideas that can make the platform more useful for pharmacy students and interns.</p>
+        </div>
+        <div class="lg:col-span-4">
+          <div class="rounded-[1.75rem] bg-primary text-on-primary p-5 md:p-6 shadow-[0_24px_48px_rgba(0,21,27,0.18)]">
+            <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary-fixed mb-3">Contact email</p>
+            <a href="mailto:pharmacynexusofficial@gmail.com" class="text-lg md:text-xl font-extrabold break-all hover:underline">pharmacynexusofficial@gmail.com</a>
+            <p class="text-on-primary/75 text-sm mt-3">Feel free to reach out for support, ideas, or partnership inquiries.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 
