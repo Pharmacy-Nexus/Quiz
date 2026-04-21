@@ -150,6 +150,7 @@ function navigateTo(pageId) {
 
   appState.currentPage = pageId;
   saveState();
+  requestAnimationFrame(() => { runPageMotion(pageId); initTiltInteractions(target || document); });
   if (pageId === 'review') renderReviewPage();
   if (pageId === 'dashboard') renderDashboardPage();
   if (pageId === 'finalexam') initFinalExamBuilder();
@@ -203,6 +204,63 @@ function toggleTheme() {
   applyTheme(appState.themeMode === 'dark' ? 'light' : 'dark');
 }
 window.toggleTheme = toggleTheme;
+
+
+function runPageMotion(pageId) {
+  const page = document.getElementById('page-' + pageId);
+  if (!page) return;
+  page.classList.remove('page-enter');
+  void page.offsetWidth;
+  page.classList.add('page-enter');
+
+  const selectors = page.querySelectorAll('.motion-safe-card, .motion-safe-stat, .motion-safe-panel, .motion-safe-chip, .answer-option');
+  selectors.forEach((el, index) => {
+    el.classList.remove('stagger-in');
+    el.style.setProperty('--delay', `${Math.min(index * 55, 320)}ms`);
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      void el.offsetWidth;
+      el.classList.add('stagger-in');
+    }
+  });
+}
+
+function initTiltInteractions(scope = document) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  scope.querySelectorAll('.tilt-track').forEach(card => {
+    if (card.dataset.tiltBound === '1') return;
+    card.dataset.tiltBound = '1';
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const px = (e.clientX - rect.left) / rect.width;
+      const py = (e.clientY - rect.top) / rect.height;
+      const rx = (0.5 - py) * 5;
+      const ry = (px - 0.5) * 7;
+      card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+}
+
+function animateStudyFeedback(isCorrect, optionIndex) {
+  const options = [...document.querySelectorAll('#study-options .answer-option')];
+  const current = options[Number(optionIndex)];
+  current?.classList.add('answer-pop');
+  setTimeout(() => current?.classList.remove('answer-pop'), 420);
+  if (isCorrect) {
+    const checks = document.querySelectorAll('#study-options .material-symbols-outlined');
+    checks.forEach(icon => {
+      if ((icon.textContent || '').trim() === 'check_circle') {
+        icon.closest('div')?.classList.add('correct-burst');
+        setTimeout(() => icon.closest('div')?.classList.remove('correct-burst'), 520);
+      }
+    });
+  }
+  const panel = document.getElementById('study-status-panel')?.firstElementChild;
+  panel?.classList.add('status-pulse');
+  setTimeout(() => panel?.classList.remove('status-pulse'), 1350);
+}
 
 function canGuardExamInteractions() {
   return ['study','examlive','review'].includes(appState.currentPage);
@@ -663,7 +721,7 @@ function setSubjectStats(subjects = []) {
 function buildHomeSubjectCard(subject) {
   const theme = getThemeClasses(subject.theme);
   return `
-    <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow ghost-border group cursor-pointer hover:-translate-y-1 transition-transform" onclick="selectSubject('${escapeHtml(subject.id)}')">
+    <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow ghost-border group cursor-pointer hover:-translate-y-1 transition-transform motion-safe-card lift-hover tilt-track stagger-in" onclick="selectSubject('${escapeHtml(subject.id)}')">
       <div class="w-10 h-10 rounded-lg ${theme.iconWrap} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
         <span class="material-symbols-outlined text-lg" style="font-variation-settings:'FILL' 1">${escapeHtml(subject.icon || 'science')}</span>
       </div>
@@ -1179,6 +1237,7 @@ function renderStudyQuestion() {
   }
 
   updateSaveButtonState();
+  initTiltInteractions(document.getElementById('page-study') || document);
   const noteBtn = document.getElementById('note-btn');
   const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
   if (noteBtn) {
@@ -1218,6 +1277,7 @@ function selectAnswer(optionIndex) {
     clearTimeout(appState.studyUi?.autoNextTimer);
     saveState();
     renderStudyQuestion();
+    requestAnimationFrame(() => animateStudyFeedback(isCorrect, optionIndex));
 
     if (appState.studyUi?.autoNext) {
       const delay = Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000;
@@ -1479,6 +1539,7 @@ function toggleSave() {
     };
   }
   updateSaveButtonState();
+  initTiltInteractions(document.getElementById('page-study') || document);
   saveState();
   renderPersistentStats();
   if (appState.currentPage === 'saved') renderSavedPage();
@@ -1510,6 +1571,7 @@ async function removeSavedQuestion(questionId) {
   renderPersistentStats();
   renderSavedPage();
   updateSaveButtonState();
+  initTiltInteractions(document.getElementById('page-study') || document);
   showToast('Removed from saved', 'success');
 }
 window.removeSavedQuestion = removeSavedQuestion;
@@ -2402,6 +2464,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     console.error(error);
   }
   navigateTo(appState.currentPage || 'home');
+  initTiltInteractions(document);
   if (appState.currentPage === 'sets') renderSetsPage();
   if (appState.currentPage === 'study') renderStudyQuestion();
   if (appState.currentPage === 'review') renderReviewPage();
@@ -2669,6 +2732,7 @@ function renderExamLivePage() {
     </div>
   </div>`;
   updateSaveButtonState();
+  initTiltInteractions(document.getElementById('page-study') || document);
   const noteBtn = document.getElementById('note-btn');
   const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
   if (noteBtn) {
