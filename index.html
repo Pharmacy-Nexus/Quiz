@@ -136,25 +136,6 @@ tailwind.config = {
   -moz-appearance: textfield;
 }
 
-
-  .daily-wheel-shell { position: relative; width: 9.5rem; height: 9.5rem; display:flex; align-items:center; justify-content:center; }
-  .daily-wheel-pointer { position:absolute; top:-0.2rem; left:50%; transform:translateX(-50%); width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent; border-bottom:22px solid #8a6c05; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12)); z-index:3; }
-  .daily-wheel-ring { position:absolute; inset:0; border-radius:9999px; padding:7px; background:linear-gradient(145deg, rgba(255,255,255,0.95), rgba(237,238,239,0.95)); box-shadow:0 18px 44px rgba(0,21,27,0.14); }
-  .daily-wheel-ring::before { content:''; position:absolute; inset:7px; border-radius:9999px; border:1px dashed rgba(203,167,47,0.28); }
-  .daily-wheel-disc { position:relative; width:100%; height:100%; border-radius:9999px; overflow:hidden; cursor:pointer; transition:transform .25s ease, box-shadow .25s ease; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 12px 26px rgba(0,21,27,0.18); background:
-      radial-gradient(circle at 50% 50%, rgba(255,255,255,0.12) 0 17%, transparent 18%),
-      conic-gradient(from -90deg, #062f3a 0deg 60deg, #0b4453 60deg 120deg, #0d5868 120deg 180deg, #155f70 180deg 240deg, #7d6709 240deg 300deg, #9a7b08 300deg 360deg);
-  }
-  .daily-wheel-disc:hover { transform:scale(1.03); }
-  .daily-wheel-center { position:absolute; inset:33px; border-radius:9999px; background: radial-gradient(circle at 35% 30%, #143f4a, #0a2630 72%); display:flex; flex-direction:column; align-items:center; justify-content:center; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 10px 24px rgba(0,21,27,0.18); z-index:2; }
-  .daily-wheel-center::after { content:''; position:absolute; inset:-7px; border-radius:9999px; border:1px solid rgba(255,255,255,0.06); }
-  .daily-wheel-count { font-size:2rem; line-height:1; font-weight:900; color:#ffffff; letter-spacing:-0.03em; }
-  .daily-wheel-label { font-size:.58rem; font-weight:800; letter-spacing:.35em; text-transform:uppercase; color:rgba(255,255,255,0.78); margin-bottom:.32rem; margin-left:.28rem; }
-  .daily-wheel-sub { font-size:.52rem; font-weight:800; letter-spacing:.28em; text-transform:uppercase; color:#cba72f; margin-top:.32rem; margin-left:.25rem; }
-  .daily-spin-btn { position:absolute; bottom:-0.3rem; left:50%; transform:translateX(-50%); background:#fff; color:#8a6c05; border:1px solid rgba(193,199,203,0.28); border-radius:9999px; padding:.34rem .95rem; font-size:.68rem; font-weight:900; letter-spacing:.28em; text-transform:uppercase; box-shadow:0 10px 22px rgba(0,21,27,0.10); z-index:3; }
-  .daily-wheel-disc.is-spinning { transition:transform 2.4s cubic-bezier(.12,.8,.16,1); }
-  .daily-result-pill { display:inline-flex; align-items:center; justify-content:center; padding:.48rem .9rem; border-radius:9999px; font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
-
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -195,13 +176,13 @@ tailwind.config = {
       <span data-theme-toggle-icon class="material-symbols-outlined text-base">dark_mode</span>
       <span data-theme-toggle-label>Dark Mode</span>
     </button>
-    <div class="flex items-center gap-3 py-2 cursor-pointer hover:bg-white/40 rounded-xl px-2 transition-colors">
-      <div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-primary-fixed text-sm font-bold flex-shrink-0">PN</div>
+    <button onclick="navigateTo('profile')" id="sidebar-profile-trigger" class="w-full flex items-center gap-3 py-2 cursor-pointer hover:bg-white/40 rounded-xl px-2 transition-colors text-left">
+      <div id="sidebar-profile-avatar" class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-primary-fixed text-sm font-bold flex-shrink-0">PN</div>
       <div>
-        <p class="text-sm font-bold text-primary leading-tight">Pharmacy Student</p>
+        <p id="sidebar-profile-name" class="text-sm font-bold text-primary leading-tight">Pharmacy Student</p>
         <p class="text-xs text-on-surface-variant">View Profile</p>
       </div>
-    </div>
+    </button>
   </div>
 </aside>
 
@@ -358,36 +339,26 @@ tailwind.config = {
           <div class="flex justify-between items-start mb-5">
             <div>
               <h2 class="text-xl font-bold text-primary tracking-tight mb-1">Daily Challenge</h2>
-              <p class="text-sm text-on-surface-variant">Spin once — get a random subject and a random number of questions</p>
+              <p class="text-sm text-on-surface-variant">Spin for a subject — tackle today's clinical dose</p>
             </div>
             <span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider">New</span>
           </div>
-          <div class="flex flex-col lg:flex-row gap-7 items-center mb-2">
-            <div class="daily-wheel-shell flex-shrink-0">
-              <div class="daily-wheel-pointer"></div>
-              <div class="daily-wheel-ring"></div>
-              <div id="daily-wheel" class="daily-wheel-disc" onclick="spinWheel()" role="button" aria-label="Spin daily challenge wheel" tabindex="0">
-                <div class="daily-wheel-center">
-                  <span class="daily-wheel-label">Today</span>
-                  <span id="daily-count" class="daily-wheel-count">5</span>
-                  <span class="daily-wheel-sub">Questions</span>
-                </div>
+          <!-- Wheel / Spinner -->
+          <div class="flex flex-col sm:flex-row gap-6 items-center mb-6">
+            <div class="relative flex-shrink-0">
+              <div id="daily-wheel" class="w-28 h-28 rounded-full bg-gradient-to-br from-primary to-primary-container flex items-center justify-center cursor-pointer shadow-[0_10px_30px_rgba(0,21,27,0.15)] hover:scale-105 transition-transform" onclick="spinWheel()">
+                <span class="material-symbols-outlined text-tertiary-fixed text-4xl" style="font-variation-settings:'FILL' 1">casino</span>
               </div>
-              <button type="button" class="daily-spin-btn" onclick="spinWheel()">Spin</button>
+              <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-surface-container-lowest rounded-full px-3 py-0.5 text-[10px] font-bold text-tertiary uppercase tracking-widest border border-outline-variant/20">Spin</div>
             </div>
-            <div class="flex-1 w-full">
-              <div class="flex flex-wrap items-center gap-2 mb-3">
-                <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest">Click spin to generate today’s set</p>
-                <span id="daily-topic-pill" class="daily-result-pill bg-secondary-container/70 text-on-secondary-container">Topic</span>
-                <span id="daily-count-pill" class="daily-result-pill bg-tertiary-fixed/45 text-on-tertiary-fixed">5 Questions</span>
+            <div class="flex-1">
+              <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest mb-2">Click the wheel to select a subject</p>
+              <div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/15">
+                <p id="daily-question-preview" class="text-sm font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
               </div>
-              <div class="bg-surface-container-low rounded-[1.4rem] p-5 border border-outline-variant/15 min-h-[116px] flex items-center">
-                <p id="daily-question-preview" class="text-base font-medium text-primary leading-relaxed">Spin the wheel and the app will choose a subject, a topic, and a random number of questions from 1 to 10.</p>
-              </div>
-              <div class="flex flex-wrap gap-3 mt-4 items-center">
-                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
-                <button id="daily-reroll-btn" onclick="spinWheel()" class="bg-surface-container-low text-primary px-5 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors">Spin Again</button>
-                <span id="daily-status" class="text-xs font-bold uppercase tracking-[0.28em] text-outline">Ready to spin</span>
+              <div class="flex gap-2 mt-3">
+                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
+                <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
               </div>
             </div>
           </div>
@@ -1477,6 +1448,180 @@ tailwind.config = {
             Submit Exam
           </button>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================== PAGE: PROFILE ===================== -->
+<div id="page-profile" class="page fade-in">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 py-10">
+    <section class="rounded-[2rem] bg-gradient-to-br from-primary to-primary-container text-on-primary p-6 md:p-10 relative overflow-hidden mb-8 ambient-shadow">
+      <div class="absolute -top-16 -right-16 w-72 h-72 rounded-full bg-tertiary-fixed/10 blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-20 left-1/4 w-64 h-64 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-8 flex items-start gap-5">
+          <div id="profile-hero-avatar" class="w-20 h-20 md:w-24 md:h-24 rounded-[2rem] bg-white/10 border border-white/15 flex items-center justify-center text-2xl md:text-3xl font-black tracking-wide">PN</div>
+          <div>
+            <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary-fixed mb-3">Student Profile</p>
+            <h1 id="profile-hero-name" class="text-3xl md:text-5xl font-extrabold tracking-tight mb-2">Pharmacy Student</h1>
+            <p id="profile-hero-track" class="text-on-primary/80 text-base md:text-lg mb-4">Internship / Licensure Prep</p>
+            <div class="flex flex-wrap gap-2 text-xs font-bold uppercase tracking-widest">
+              <span id="profile-auth-pill" class="px-3 py-2 rounded-full bg-white/10 border border-white/15">Local Profile</span>
+              <span id="profile-email-pill" class="px-3 py-2 rounded-full bg-white/10 border border-white/15">No email linked yet</span>
+              <span id="profile-sync-pill" class="px-3 py-2 rounded-full bg-white/10 border border-white/15">Waiting for auth</span>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-4">
+          <div class="rounded-[1.75rem] bg-white/10 border border-white/15 p-5 backdrop-blur-xl">
+            <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary-fixed mb-3">Auth readiness</p>
+            <div class="grid grid-cols-2 gap-3 text-sm">
+              <div class="rounded-xl bg-black/10 px-4 py-3">
+                <div class="text-on-primary/70">User ID</div>
+                <div id="profile-auth-userid" class="font-bold mt-1">Pending</div>
+              </div>
+              <div class="rounded-xl bg-black/10 px-4 py-3">
+                <div class="text-on-primary/70">Provider</div>
+                <div id="profile-auth-provider" class="font-bold mt-1">local</div>
+              </div>
+              <div class="rounded-xl bg-black/10 px-4 py-3 col-span-2">
+                <div class="text-on-primary/70">Supabase sync state</div>
+                <div id="profile-auth-sync" class="font-bold mt-1">Ready for later connection</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div class="rounded-[1.5rem] bg-surface-container-lowest ambient-shadow ghost-border p-5">
+        <p class="text-xs uppercase tracking-[0.2em] font-bold text-on-surface-variant mb-2">Solved</p>
+        <p id="profile-stat-solved" class="text-3xl font-black text-primary">0</p>
+      </div>
+      <div class="rounded-[1.5rem] bg-surface-container-lowest ambient-shadow ghost-border p-5">
+        <p class="text-xs uppercase tracking-[0.2em] font-bold text-on-surface-variant mb-2">Accuracy</p>
+        <p id="profile-stat-accuracy" class="text-3xl font-black text-tertiary">0%</p>
+      </div>
+      <div class="rounded-[1.5rem] bg-surface-container-lowest ambient-shadow ghost-border p-5">
+        <p class="text-xs uppercase tracking-[0.2em] font-bold text-on-surface-variant mb-2">Saved</p>
+        <p id="profile-stat-saved" class="text-3xl font-black text-secondary">0</p>
+      </div>
+      <div class="rounded-[1.5rem] bg-surface-container-lowest ambient-shadow ghost-border p-5">
+        <p class="text-xs uppercase tracking-[0.2em] font-bold text-on-surface-variant mb-2">Final Exams</p>
+        <p id="profile-stat-finals" class="text-3xl font-black text-primary">0</p>
+      </div>
+    </section>
+
+    <div class="grid grid-cols-1 xl:grid-cols-12 gap-8">
+      <div class="xl:col-span-7 space-y-8">
+        <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8">
+          <div class="flex items-center justify-between gap-4 flex-wrap mb-6">
+            <div>
+              <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Profile Details</p>
+              <h2 class="text-2xl md:text-3xl font-extrabold text-primary tracking-tight">Local profile now, auth-ready later</h2>
+            </div>
+            <button onclick="resetProfileDraft()" class="px-4 py-3 rounded-xl bg-surface text-primary border border-outline-variant/20 font-bold text-sm hover:bg-surface-container transition-colors">Reset</button>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">Display name</label>
+              <input id="profile-input-name" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Pharmacy Student" />
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">Email</label>
+              <input id="profile-input-email" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Will sync from auth later" />
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">Track</label>
+              <input id="profile-input-track" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Internship / Licensure Prep" />
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">University</label>
+              <input id="profile-input-university" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Optional" />
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">Graduation year</label>
+              <input id="profile-input-year" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="Optional" />
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-primary mb-2">Daily goal</label>
+              <input id="profile-input-goal" type="number" min="5" max="200" class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="20" />
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <label class="block text-sm font-bold text-primary mb-2">Short bio</label>
+            <textarea id="profile-input-bio" class="w-full min-h-[130px] rounded-[1.5rem] bg-surface-container-low border border-outline-variant/20 px-4 py-4 text-primary resize-y focus:outline-none focus:ring-2 focus:ring-primary/15" placeholder="A short profile note for future account sync."></textarea>
+          </div>
+
+          <div class="flex flex-wrap gap-3 items-center">
+            <button onclick="saveProfileDraft()" class="px-5 py-3 rounded-xl bg-primary text-on-primary font-bold text-sm hover:scale-[0.98] transition-transform">Save Profile</button>
+            <span id="profile-save-message" class="text-sm font-bold text-on-surface-variant">Stored locally for now.</span>
+          </div>
+        </section>
+
+        <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8">
+          <div class="flex items-center justify-between gap-4 flex-wrap mb-6">
+            <div>
+              <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Recent Activity</p>
+              <h2 class="text-2xl md:text-3xl font-extrabold text-primary tracking-tight">Study trail</h2>
+            </div>
+            <button onclick="navigateTo('dashboard')" class="px-4 py-3 rounded-xl bg-surface text-primary border border-outline-variant/20 font-bold text-sm hover:bg-surface-container transition-colors">Open Dashboard</button>
+          </div>
+          <div id="profile-recent-activity" class="space-y-4"></div>
+        </section>
+      </div>
+
+      <div class="xl:col-span-5 space-y-8">
+        <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8">
+          <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Preferences</p>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-primary tracking-tight mb-6">Future account settings</h2>
+          <div class="space-y-4">
+            <label class="flex items-center justify-between gap-4 rounded-[1.5rem] bg-surface-container-low p-4 border border-outline-variant/15">
+              <div>
+                <p class="font-bold text-primary">Shuffle questions by default</p>
+                <p class="text-sm text-on-surface-variant">Ready to map to auth user settings later.</p>
+              </div>
+              <input id="profile-pref-shuffle-questions" type="checkbox" class="w-5 h-5 rounded border-outline-variant" />
+            </label>
+            <label class="flex items-center justify-between gap-4 rounded-[1.5rem] bg-surface-container-low p-4 border border-outline-variant/15">
+              <div>
+                <p class="font-bold text-primary">Shuffle answers by default</p>
+                <p class="text-sm text-on-surface-variant">Helps keep each new attempt fresh.</p>
+              </div>
+              <input id="profile-pref-shuffle-answers" type="checkbox" class="w-5 h-5 rounded border-outline-variant" />
+            </label>
+            <label class="flex items-center justify-between gap-4 rounded-[1.5rem] bg-surface-container-low p-4 border border-outline-variant/15">
+              <div>
+                <p class="font-bold text-primary">Enable auto-next</p>
+                <p class="text-sm text-on-surface-variant">Keeps the study flow faster for practice mode.</p>
+              </div>
+              <input id="profile-pref-autonext" type="checkbox" class="w-5 h-5 rounded border-outline-variant" />
+            </label>
+            <div class="rounded-[1.5rem] bg-surface-container-low p-4 border border-outline-variant/15">
+              <label class="block font-bold text-primary mb-2">Default study speed</label>
+              <input id="profile-pref-autonext-seconds" type="number" min="1" max="10" class="w-full rounded-xl bg-surface-container-lowest border border-outline-variant/20 px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-primary/15" />
+              <p class="text-xs text-on-surface-variant mt-2">Seconds before the next question when auto-next is enabled.</p>
+            </div>
+            <button onclick="saveProfilePreferences()" class="w-full px-5 py-3 rounded-xl bg-primary text-on-primary font-bold text-sm hover:scale-[0.98] transition-transform">Save Preferences</button>
+          </div>
+        </section>
+
+        <section class="rounded-[2rem] bg-surface-container-lowest ambient-shadow ghost-border p-6 md:p-8">
+          <p class="text-xs uppercase tracking-[0.25em] font-bold text-tertiary mb-2">Supabase Mapping</p>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-primary tracking-tight mb-6">Schema-ready fields</h2>
+          <div class="space-y-3 text-sm text-on-surface-variant">
+            <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15"><span class="font-bold text-primary">auth.users.id</span> → <span id="profile-map-userid">pending local id</span></div>
+            <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15"><span class="font-bold text-primary">profiles.display_name</span> → <span id="profile-map-display">Pharmacy Student</span></div>
+            <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15"><span class="font-bold text-primary">profiles.email</span> → <span id="profile-map-email">not linked</span></div>
+            <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15"><span class="font-bold text-primary">profiles.track</span> → <span id="profile-map-track">Internship / Licensure Prep</span></div>
+            <div class="rounded-[1.25rem] bg-surface-container-low p-4 border border-outline-variant/15"><span class="font-bold text-primary">profile_settings</span> → shuffle + auto-next + defaults</div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
