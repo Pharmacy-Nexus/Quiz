@@ -1,3 +1,5 @@
+
+
 function ensureOverlayUi() {
   if (!document.getElementById('pn-toast-root')) {
     const toastRoot = document.createElement('div');
@@ -148,7 +150,6 @@ function navigateTo(pageId) {
 
   appState.currentPage = pageId;
   saveState();
-  requestAnimationFrame(() => { runPageMotion(pageId); initTiltInteractions(target || document); });
   if (pageId === 'review') renderReviewPage();
   if (pageId === 'dashboard') renderDashboardPage();
   if (pageId === 'finalexam') initFinalExamBuilder();
@@ -202,63 +203,6 @@ function toggleTheme() {
   applyTheme(appState.themeMode === 'dark' ? 'light' : 'dark');
 }
 window.toggleTheme = toggleTheme;
-
-
-function runPageMotion(pageId) {
-  const page = document.getElementById('page-' + pageId);
-  if (!page) return;
-  page.classList.remove('page-enter');
-  void page.offsetWidth;
-  page.classList.add('page-enter');
-
-  const selectors = page.querySelectorAll('.motion-safe-card, .motion-safe-stat, .motion-safe-panel, .motion-safe-chip, .answer-option');
-  selectors.forEach((el, index) => {
-    el.classList.remove('stagger-in');
-    el.style.setProperty('--delay', `${Math.min(index * 55, 320)}ms`);
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      void el.offsetWidth;
-      el.classList.add('stagger-in');
-    }
-  });
-}
-
-function initTiltInteractions(scope = document) {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  scope.querySelectorAll('.tilt-track').forEach(card => {
-    if (card.dataset.tiltBound === '1') return;
-    card.dataset.tiltBound = '1';
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const px = (e.clientX - rect.left) / rect.width;
-      const py = (e.clientY - rect.top) / rect.height;
-      const rx = (0.5 - py) * 5;
-      const ry = (px - 0.5) * 7;
-      card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
-    });
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = '';
-    });
-  });
-}
-
-function animateStudyFeedback(isCorrect, optionIndex) {
-  const options = [...document.querySelectorAll('#study-options .answer-option')];
-  const current = options[Number(optionIndex)];
-  current?.classList.add('answer-pop');
-  setTimeout(() => current?.classList.remove('answer-pop'), 420);
-  if (isCorrect) {
-    const checks = document.querySelectorAll('#study-options .material-symbols-outlined');
-    checks.forEach(icon => {
-      if ((icon.textContent || '').trim() === 'check_circle') {
-        icon.closest('div')?.classList.add('correct-burst');
-        setTimeout(() => icon.closest('div')?.classList.remove('correct-burst'), 520);
-      }
-    });
-  }
-  const panel = document.getElementById('study-status-panel')?.firstElementChild;
-  panel?.classList.add('status-pulse');
-  setTimeout(() => panel?.classList.remove('status-pulse'), 1350);
-}
 
 function canGuardExamInteractions() {
   return ['study','examlive','review'].includes(appState.currentPage);
@@ -719,7 +663,7 @@ function setSubjectStats(subjects = []) {
 function buildHomeSubjectCard(subject) {
   const theme = getThemeClasses(subject.theme);
   return `
-    <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow ghost-border group cursor-pointer hover:-translate-y-1 transition-transform motion-safe-card lift-hover tilt-track stagger-in" onclick="selectSubject('${escapeHtml(subject.id)}')">
+    <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow ghost-border group cursor-pointer hover:-translate-y-1 transition-transform" onclick="selectSubject('${escapeHtml(subject.id)}')">
       <div class="w-10 h-10 rounded-lg ${theme.iconWrap} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
         <span class="material-symbols-outlined text-lg" style="font-variation-settings:'FILL' 1">${escapeHtml(subject.icon || 'science')}</span>
       </div>
@@ -1235,7 +1179,6 @@ function renderStudyQuestion() {
   }
 
   updateSaveButtonState();
-  initTiltInteractions(document.getElementById('page-study') || document);
   const noteBtn = document.getElementById('note-btn');
   const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
   if (noteBtn) {
@@ -1275,7 +1218,6 @@ function selectAnswer(optionIndex) {
     clearTimeout(appState.studyUi?.autoNextTimer);
     saveState();
     renderStudyQuestion();
-    requestAnimationFrame(() => animateStudyFeedback(isCorrect, optionIndex));
 
     if (appState.studyUi?.autoNext) {
       const delay = Math.max(1, Number(appState.studyUi?.autoNextSeconds || 2)) * 1000;
@@ -1537,7 +1479,6 @@ function toggleSave() {
     };
   }
   updateSaveButtonState();
-  initTiltInteractions(document.getElementById('page-study') || document);
   saveState();
   renderPersistentStats();
   if (appState.currentPage === 'saved') renderSavedPage();
@@ -1569,7 +1510,6 @@ async function removeSavedQuestion(questionId) {
   renderPersistentStats();
   renderSavedPage();
   updateSaveButtonState();
-  initTiltInteractions(document.getElementById('page-study') || document);
   showToast('Removed from saved', 'success');
 }
 window.removeSavedQuestion = removeSavedQuestion;
@@ -1970,27 +1910,38 @@ window.addEventListener('keydown', (e) => {
 async function buildDailyChallenge(forceRefresh = false) {
   const existing = getDailyChallengeState();
   if (existing && !forceRefresh) return existing;
-  const subjects = PN_DATA.subjectsIndex?.subjects || [];
+  const subjects = (PN_DATA.subjectsIndex?.subjects || []).filter(s => Number(s.questionsCount || 0) > 0);
   if (!subjects.length) return null;
-  const dateKey = getTodayKey();
-  const seededSubjects = shuffleWithSeed(subjects.filter(s => Number(s.questionsCount || 0) > 0), `sub-${dateKey}`);
-  for (const subject of seededSubjects) {
+
+  const spinSeed = String(Date.now()) + '-' + Math.random().toString(36).slice(2, 8);
+  const shuffledSubjects = shuffleWithSeed(subjects, `daily-sub-${spinSeed}`);
+
+  for (const subject of shuffledSubjects) {
     const subjectData = PN_DATA.topicsMap.get(subject.id) || { topics: [] };
-    const topics = shuffleWithSeed((subjectData.topics || []).filter(t => t.file), `topic-${dateKey}-${subject.id}`);
+    const topics = shuffleWithSeed((subjectData.topics || []).filter(t => t.file), `daily-topic-${spinSeed}-${subject.id}`);
+
     for (const topic of topics) {
       const questions = await getTopicQuestionsForExam(subject.id, topic);
       if (!questions.length) continue;
-      const picked = shuffleWithSeed(questions, `q-${dateKey}-${subject.id}-${topic.id || slugify(topic.name)}`).slice(0, Math.min(5, questions.length));
+
+      const shuffledQuestions = shuffleWithSeed(questions, `daily-q-${spinSeed}-${subject.id}-${topic.id || slugify(topic.name)}`);
+      const requestedCount = Math.floor(Math.random() * 10) + 1;
+      const finalCount = Math.min(requestedCount, shuffledQuestions.length);
+      const picked = shuffledQuestions.slice(0, finalCount);
+
       const daily = {
-        dateKey,
+        dateKey: getTodayKey(),
+        generatedAt: new Date().toISOString(),
         subjectId: subject.id,
         subjectName: subject.name,
         topicId: topic.id || slugify(topic.name),
         topicName: topic.name,
         topicFile: topic.file,
+        requestedCount,
+        finalCount,
         questionIds: picked.map(q => q.id),
         previewQuestion: picked[0]?.questionText || '',
-        luckyNumber: (picked[0]?.id || '').split('').reduce((s,ch)=>s+ch.charCodeAt(0),0)%97 + 3
+        previewQuestionId: picked[0]?.id || ''
       };
       appState.dailyChallenge = daily;
       saveState();
@@ -2000,118 +1951,60 @@ async function buildDailyChallenge(forceRefresh = false) {
   return null;
 }
 
-function getDailyWheelSubjects() {
-  return (PN_DATA.subjectsIndex?.subjects || []).filter(s => Number(s.questionsCount || 0) > 0);
-}
-
-function getDailyWheelPalette(length = 1) {
-  const palette = ['#00151b', '#0d3a47', '#316574', '#5b7f2b', '#735c00', '#9d7a12', '#3d4b87', '#6b3f78'];
-  return Array.from({ length }, (_, i) => palette[i % palette.length]);
-}
-
-function buildDailyWheelVisual(selectedSubjectId = null) {
-  const wheel = document.getElementById('daily-wheel');
-  const gradientEl = document.getElementById('daily-wheel-gradient');
-  const segmentsEl = document.getElementById('daily-wheel-segments');
-  if (!wheel || !gradientEl || !segmentsEl) return [];
-  const subjects = getDailyWheelSubjects();
-  if (!subjects.length) {
-    gradientEl.style.background = 'radial-gradient(circle at 30% 30%, rgba(255,255,255,0.18), rgba(0,21,27,0.06) 70%), linear-gradient(135deg, #0d2549 0%, #00151b 100%)';
-    segmentsEl.innerHTML = '';
-    return [];
-  }
-  const palette = getDailyWheelPalette(subjects.length);
-  const slice = 360 / subjects.length;
-  const chosenIndex = Math.max(0, subjects.findIndex(subject => subject.id === selectedSubjectId));
-  const gradientStops = subjects.map((subject, index) => {
-    const start = (index * slice).toFixed(2);
-    const end = ((index + 1) * slice).toFixed(2);
-    return `${palette[index]} ${start}deg ${end}deg`;
-  }).join(', ');
-  gradientEl.style.background = `radial-gradient(circle at 30% 30%, rgba(255,255,255,0.22), rgba(255,255,255,0.02) 34%, rgba(0,0,0,0.10) 100%), conic-gradient(from -90deg, ${gradientStops})`;
-  segmentsEl.innerHTML = subjects.map((subject, index) => {
-    const angle = -90 + (slice * index) + (slice / 2);
-    const isChosen = index === chosenIndex;
-    const label = escapeHtml(String(subject.name || '').slice(0, 10));
-    return `<div class="daily-wheel-segment-label" style="transform: translate(-50%, -50%) rotate(${angle}deg)"><span style="opacity:${isChosen ? '1' : '0.72'}">${label}</span></div>`;
-  }).join('');
-  return subjects;
-}
-
-function getDailyWheelTargetRotation(subjectId) {
-  const subjects = getDailyWheelSubjects();
-  if (!subjects.length) return 0;
-  const slice = 360 / subjects.length;
-  const index = Math.max(0, subjects.findIndex(subject => subject.id === subjectId));
-  const centerAngle = (index * slice) + (slice / 2);
-  const target = 360 - centerAngle;
-  return target;
-}
-
 async function renderDailyChallenge(forceRefresh = false) {
   const daily = await buildDailyChallenge(forceRefresh);
   const subjectEl = document.getElementById('daily-subject');
   const topicEl = document.getElementById('daily-topic-pill');
-  const countEl = document.getElementById('daily-count-pill');
+  const countEl = document.getElementById('daily-count');
+  const countPillEl = document.getElementById('daily-count-pill');
   const previewEl = document.getElementById('daily-question-preview');
-  const luckyEl = document.getElementById('lucky-n');
-  const luckyWheelEl = document.getElementById('daily-wheel-lucky');
-  const statusEl = document.getElementById('daily-wheel-status');
-  buildDailyWheelVisual(daily?.subjectId || null);
-  if (!subjectEl || !previewEl) return;
+  const statusEl = document.getElementById('daily-status');
+  if (!subjectEl || !previewEl || !countEl || !countPillEl) return;
+
   if (!daily) {
     subjectEl.textContent = 'No challenge available yet';
+    if (topicEl) topicEl.textContent = 'Topic';
+    countEl.textContent = '—';
+    countPillEl.textContent = 'No Questions';
     previewEl.textContent = 'Add more topic data to unlock the daily challenge.';
-    if (topicEl) { topicEl.textContent = ''; topicEl.classList.add('hidden'); }
-    if (countEl) { countEl.textContent = ''; countEl.classList.add('hidden'); }
-    if (luckyEl) luckyEl.textContent = '—';
-    if (luckyWheelEl) luckyWheelEl.textContent = '—';
     if (statusEl) statusEl.textContent = 'Need more data';
     return;
   }
-  subjectEl.textContent = String(daily.subjectName || '').toUpperCase();
+
+  subjectEl.textContent = daily.subjectName.toUpperCase();
+  if (topicEl) topicEl.textContent = (daily.topicName || 'Topic').toUpperCase();
+  countEl.textContent = String(daily.finalCount || 1);
+  countPillEl.textContent = `${daily.finalCount || 1} Question${Number(daily.finalCount || 1) === 1 ? '' : 's'}`;
   previewEl.textContent = daily.previewQuestion || 'Your daily challenge is ready.';
-  if (topicEl) {
-    topicEl.textContent = String(daily.topicName || '').toUpperCase();
-    topicEl.classList.remove('hidden');
-  }
-  if (countEl) {
-    countEl.textContent = `${Array.isArray(daily.questionIds) ? daily.questionIds.length : 0} Qs`;
-    countEl.classList.remove('hidden');
-  }
-  if (luckyEl) luckyEl.textContent = String(daily.luckyNumber || 7);
-  if (luckyWheelEl) luckyWheelEl.textContent = String(daily.luckyNumber || 7);
-  if (statusEl) statusEl.textContent = 'Ready to spin';
+  if (statusEl) statusEl.textContent = `Random set • ${daily.finalCount || 1} question${Number(daily.finalCount || 1) === 1 ? '' : 's'}`;
 }
 window.renderDailyChallenge = renderDailyChallenge;
 
 async function spinWheel() {
   const wheel = document.getElementById('daily-wheel');
-  const statusEl = document.getElementById('daily-wheel-status');
-  if (!wheel || wheel.dataset.spinning === '1') return;
+  const statusEl = document.getElementById('daily-status');
+  if (!wheel) return;
+  if (wheel.dataset.spinning === '1') return;
+
   wheel.dataset.spinning = '1';
   if (statusEl) statusEl.textContent = 'Spinning...';
-  const nextDaily = await buildDailyChallenge(true);
-  buildDailyWheelVisual(nextDaily?.subjectId || null);
+
+  const countEl = document.getElementById('daily-count');
+  if (countEl) countEl.textContent = '•';
+
+  const extraTurns = 5 + Math.floor(Math.random() * 3);
+  const extraDeg = Math.floor(Math.random() * 360);
   const currentRotation = Number(wheel.dataset.rotation || 0);
-  const target = getDailyWheelTargetRotation(nextDaily?.subjectId);
-  const fullTurns = 5 * 360;
-  const normalizedCurrent = ((currentRotation % 360) + 360) % 360;
-  const extra = ((target - normalizedCurrent) + 360) % 360;
-  const finalRotation = currentRotation + fullTurns + extra;
-  wheel.style.transform = `rotate(${finalRotation}deg)`;
-  wheel.dataset.rotation = String(finalRotation);
+  const nextRotation = currentRotation + (extraTurns * 360) + extraDeg;
+  wheel.classList.add('is-spinning');
+  wheel.style.transform = `rotate(${nextRotation}deg)`;
+  wheel.dataset.rotation = String(nextRotation);
+
   setTimeout(async () => {
-    await renderDailyChallenge(false);
-    wheel.classList.remove('daily-wheel-glow');
-    void wheel.offsetWidth;
-    wheel.classList.add('daily-wheel-glow');
-    if (statusEl) statusEl.textContent = 'Locked in';
-    setTimeout(() => {
-      if (statusEl) statusEl.textContent = 'Ready to spin';
-      wheel.dataset.spinning = '0';
-    }, 900);
-  }, 3250);
+    await renderDailyChallenge(true);
+    wheel.dataset.spinning = '0';
+    if (statusEl) statusEl.textContent = 'Ready';
+  }, 2450);
 }
 window.spinWheel = spinWheel;
 
@@ -2549,7 +2442,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     console.error(error);
   }
   navigateTo(appState.currentPage || 'home');
-  initTiltInteractions(document);
   if (appState.currentPage === 'sets') renderSetsPage();
   if (appState.currentPage === 'study') renderStudyQuestion();
   if (appState.currentPage === 'review') renderReviewPage();
@@ -2817,7 +2709,6 @@ function renderExamLivePage() {
     </div>
   </div>`;
   updateSaveButtonState();
-  initTiltInteractions(document.getElementById('page-study') || document);
   const noteBtn = document.getElementById('note-btn');
   const noteExists = !!(appState.notesByQuestion?.[q.id]?.note);
   if (noteBtn) {
