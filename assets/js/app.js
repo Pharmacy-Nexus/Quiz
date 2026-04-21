@@ -78,7 +78,7 @@ function openNoteModal(currentValue = '', options = {}) {
     root.querySelector('.fixed')?.addEventListener('click', e => { if (e.target === e.currentTarget) finish(null); });
   });
 }
-const pages = ['home','subjects','topics','sets','study','review','dashboard','finalexam','examlive','saved'];
+const pages = ['home','subjects','topics','sets','study','review','dashboard','profile','finalexam','examlive','saved'];
 const navIds = ['home','subjects','dashboard','saved','finalexam'];
 const STORAGE_KEY = 'pharmacyNexusState';
 const DEFAULT_STATE = {
@@ -121,8 +121,26 @@ const DEFAULT_STATE = {
   themeMode: 'light',
   dailyChallenge: null,
   studyUi: { autoNext: false, autoNextSeconds: 2 },
-  currentSetSessionQuestions: [],
-  questionOrderBySet: {}
+  profile: {
+    userId: null,
+    authProvider: 'local',
+    isAuthenticated: false,
+    displayName: 'Pharmacy Student',
+    email: '',
+    track: 'Internship / Licensure Prep',
+    university: '',
+    graduationYear: '',
+    bio: '',
+    dailyGoal: 20,
+    avatarText: 'PN',
+    lastSyncAt: null,
+    preferences: {
+      shuffleQuestions: true,
+      shuffleAnswers: true,
+      autoNext: false,
+      autoNextSeconds: 2
+    }
+  }
 };
 
 const PN_DATA = {
@@ -154,6 +172,7 @@ function navigateTo(pageId) {
   saveState();
   if (pageId === 'review') renderReviewPage();
   if (pageId === 'dashboard') renderDashboardPage();
+  if (pageId === 'profile') renderProfilePage();
   if (pageId === 'finalexam') initFinalExamBuilder();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -170,11 +189,41 @@ function loadState() {
 
 let appState = loadState();
 ensureStudyUiDefaults();
+ensureProfileDefaults();
 syncSavedStats?.();
 
 function ensureStudyUiDefaults() {
   appState.studyUi = appState.studyUi || {};
   if (typeof appState.studyUi.autoNext !== 'boolean') appState.studyUi.autoNext = false;
+}
+
+
+function ensureProfileDefaults() {
+  appState.profile = appState.profile || {};
+  const profile = appState.profile;
+  profile.userId = profile.userId || null;
+  profile.authProvider = profile.authProvider || 'local';
+  profile.isAuthenticated = Boolean(profile.isAuthenticated);
+  profile.displayName = String(profile.displayName || 'Pharmacy Student').trim() || 'Pharmacy Student';
+  profile.email = String(profile.email || '').trim();
+  profile.track = String(profile.track || 'Internship / Licensure Prep').trim() || 'Internship / Licensure Prep';
+  profile.university = String(profile.university || '').trim();
+  profile.graduationYear = String(profile.graduationYear || '').trim();
+  profile.bio = String(profile.bio || '').trim();
+  profile.dailyGoal = Math.max(5, Number(profile.dailyGoal || 20));
+  profile.avatarText = String(profile.avatarText || getInitials(profile.displayName || 'Pharmacy Student')).slice(0, 2).toUpperCase() || 'PN';
+  profile.lastSyncAt = profile.lastSyncAt || null;
+  profile.preferences = profile.preferences || {};
+  if (typeof profile.preferences.shuffleQuestions !== 'boolean') profile.preferences.shuffleQuestions = true;
+  if (typeof profile.preferences.shuffleAnswers !== 'boolean') profile.preferences.shuffleAnswers = true;
+  if (typeof profile.preferences.autoNext !== 'boolean') profile.preferences.autoNext = Boolean(appState.studyUi?.autoNext);
+  profile.preferences.autoNextSeconds = Math.max(1, Math.min(10, Number(profile.preferences.autoNextSeconds || appState.studyUi?.autoNextSeconds || 2)));
+}
+
+function getInitials(name = '') {
+  const parts = String(name || '').trim().split(/\s+/).filter(Boolean);
+  if (!parts.length) return 'PN';
+  return parts.slice(0, 2).map(part => part.charAt(0).toUpperCase()).join('');
 }
 
 
@@ -241,35 +290,6 @@ function shuffleWithSeed(arr = [], seed = '0') {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
-}
-
-function makeQuestionSessionCopy(question, seedBase = '') {
-  const sourceOptions = Array.isArray(question?.options) ? [...question.options] : [];
-  if (!sourceOptions.length) return { ...question };
-
-  const indexedOptions = sourceOptions.map((value, index) => ({ value, index }));
-  const shuffledOptions = shuffleWithSeed(indexedOptions, `${seedBase}-options-${question.id || question.questionText || ''}`);
-  const nextCorrectAnswer = shuffledOptions.findIndex(opt => Number(opt.index) === Number(question.correctAnswer));
-
-  return {
-    ...question,
-    options: shuffledOptions.map(opt => opt.value),
-    correctAnswer: nextCorrectAnswer >= 0 ? nextCorrectAnswer : Number(question.correctAnswer || 0),
-    userChoice: undefined
-  };
-}
-
-function buildFreshSetSessionQuestions(setIndex = 0) {
-  const chunks = getCurrentTopicQuestionChunks();
-  const originalSetQuestions = Array.isArray(chunks[setIndex]) ? chunks[setIndex] : [];
-  const meta = appState.currentTopicMeta || {};
-  const sessionSeed = `set-${meta.id || 'topic'}-${setIndex}-${Date.now()}`;
-  const shuffledQuestions = shuffleWithSeed(originalSetQuestions, `${sessionSeed}-questions`);
-  return shuffledQuestions.map((question, index) => makeQuestionSessionCopy(question, `${sessionSeed}-${index}`));
-}
-
-function clearCurrentSetSessionQuestions() {
-  appState.currentSetSessionQuestions = [];
 }
 
 function saveState() {
@@ -871,7 +891,6 @@ async function loadTopicQuestions(subjectId, topicId) {
   };
   appState.currentTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
   appState.currentSetIndex = 0;
-  clearCurrentSetSessionQuestions();
   beginStudySession('set');
   if (!appState.studyResults[topicId]) appState.studyResults[topicId] = {};
   saveState();
@@ -943,12 +962,9 @@ function renderSetsPage() {
           <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 ${started ? 'bg-tertiary/10 text-tertiary' : 'bg-surface-container text-on-surface-variant'} rounded-full text-xs font-bold uppercase tracking-wider">Set ${idx + 1} • ${started ? 'In Progress' : 'Not Started'}</span><span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">arrow_outward</span></div>
           <h3 class="text-lg font-bold text-primary mb-1">Questions ${start}–${end}</h3>
           <p class="text-sm text-on-surface-variant mb-5">${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this set.</p>
-          <div class="flex justify-between items-center gap-3 pt-4 border-t border-outline-variant/15">
+          <div class="flex justify-between items-center pt-4 border-t border-outline-variant/15">
             <div><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-32 bg-surface-container rounded-full h-1.5 overflow-hidden"><div class="bg-tertiary h-1.5 rounded-full" style="width:${pct}%"></div></div></div>
-            <div class="flex items-center gap-2">
-              ${started ? `<button onclick="event.stopPropagation(); startSet(${idx}, true);" class="bg-primary text-on-primary px-4 py-2 rounded-lg text-sm font-bold">Resume</button>` : ''}
-              <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Restart Fresh' : 'Start Set'}</button>
-            </div>
+            <button onclick="event.stopPropagation(); startSet(${idx});" class="${started ? 'bg-primary text-on-primary' : 'bg-surface-container-low text-primary border border-outline-variant/15'} px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Resume Set' : 'Start Set'}</button>
           </div>
         </div>`;
     }).join('');
@@ -966,23 +982,15 @@ function formatType(type = '') {
   return String(type).replace(/_/g, '/').toUpperCase();
 }
 
-function startSet(index = 0, resume = false) {
+function startSet(index = 0) {
   appState.currentSetIndex = index;
   appState.retryQuestionIds = [];
   const previewQuestions = (getCurrentTopicQuestionChunks()[index] || []);
   const meta = appState.currentTopicMeta;
-
-  if (!resume) {
-    clearCurrentSetSessionQuestions();
-    if (meta && previewQuestions.length) {
-      resetQuestionsAttempt(previewQuestions.map(q => q.id));
-    }
-    appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
-    appState.currentQuestionIndex = 0;
-  } else if (!Array.isArray(appState.currentSetSessionQuestions) || !appState.currentSetSessionQuestions.length) {
-    appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
+  if (meta && previewQuestions.length) {
+    const fullyAnswered = previewQuestions.every(q => getStudyResultCorrect(meta.id, q.id) !== undefined);
+    if (fullyAnswered) resetQuestionsAttempt(previewQuestions.map(q => q.id));
   }
-
   beginStudySession('set');
   saveState();
   navigateTo('study');
@@ -991,9 +999,6 @@ function startSet(index = 0, resume = false) {
 window.startSet = startSet;
 
 function getCurrentSetQuestions() {
-  if (Array.isArray(appState.currentSetSessionQuestions) && appState.currentSetSessionQuestions.length) {
-    return appState.currentSetSessionQuestions;
-  }
   const chunks = getCurrentTopicQuestionChunks();
   return chunks[appState.currentSetIndex] || [];
 }
@@ -1064,66 +1069,67 @@ function renderStudyStatusPanel() {
 
   const currentIndex = Number(appState.currentQuestionIndex || 0);
   const answeredCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) !== undefined).length;
-  const correctCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === true).length;
-  const wrongCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).length;
   const unansweredCount = Math.max(0, questions.length - answeredCount);
   const autoNextEnabled = !!appState.studyUi?.autoNext;
   const autoNextSeconds = Math.max(1, Math.min(10, Number(appState.studyUi?.autoNextSeconds || 2)));
 
   const pills = questions.map((q, index) => {
-    const state = getStudyResultCorrect(meta.id, q.id);
+    const answered = getStudyResultCorrect(meta.id, q.id) !== undefined;
     const isCurrent = index === currentIndex;
-    let cls = 'bg-surface-container-high text-on-surface-variant border border-outline-variant/20';
-    if (state === true) cls = 'bg-secondary-container/70 text-on-secondary-container border border-secondary/20';
-    if (state === false) cls = 'bg-error-container/55 text-on-error-container border border-error/20';
-    if (isCurrent) cls = 'bg-primary-fixed/35 text-primary border border-primary/25 shadow-[0_8px_18px_rgba(0,21,27,0.10)]';
+
+    let cls = 'bg-surface-container-low text-on-surface-variant border border-outline-variant/20';
+    if (answered) cls = 'bg-secondary-container/60 text-on-secondary-container border border-secondary/20';
+    if (isCurrent) cls = 'bg-primary text-on-primary border border-primary shadow-[0_8px_18px_rgba(0,21,27,0.18)]';
 
     return `
       <button
         type="button"
         onclick="jumpToStudyQuestion(${index})"
-        class="w-12 h-12 rounded-[1rem] text-sm font-extrabold transition-all ${cls}">
+        class="w-9 h-9 rounded-lg text-xs font-bold transition-all ${cls}">
         ${index + 1}
       </button>
     `;
   }).join('');
 
   panel.innerHTML = `
-    <section class="bg-surface-container-low rounded-[1.6rem] p-5 border border-outline-variant/15 shadow-[0_10px_24px_rgba(0,21,27,0.05)]">
-      <div class="mb-4">
-        <h3 class="text-[1.05rem] font-extrabold text-primary tracking-tight">Question Status</h3>
-        <p class="text-sm text-on-surface-variant mt-1">${answeredCount} of ${questions.length} answered</p>
+    <section class="bg-surface-container-low rounded-xl p-4 border border-outline-variant/15">
+      <div class="flex items-center justify-between mb-3">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Question Status</h3>
+        <span class="text-xs font-bold text-primary">${currentIndex + 1} / ${questions.length}</span>
       </div>
 
-      <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold text-on-surface-variant mb-4">
-        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Current</div>
-        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-secondary inline-block"></span> Correct</div>
-        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-error inline-block"></span> Wrong</div>
-        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-outline-variant inline-block"></span> Unanswered</div>
+      <div class="grid grid-cols-3 gap-2 mb-4">
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-secondary">${answeredCount}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Answered</div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-tertiary">${unansweredCount}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Unanswered</div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
+          <div class="text-lg font-black text-primary">${currentIndex + 1}</div>
+          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Current</div>
+        </div>
       </div>
 
-      <div class="grid grid-cols-5 gap-3 mb-4">
+      <div class="flex flex-wrap gap-2 mb-4">
         ${pills}
       </div>
 
-      <section class="rounded-[1.6rem] border border-outline-variant/15 bg-surface-container-lowest p-5">
-        <h4 class="text-[1.05rem] font-extrabold text-primary tracking-tight mb-4">Auto-next</h4>
-        <label class="flex items-start gap-3 text-primary font-bold leading-tight cursor-pointer mb-5">
+      <div class="flex items-center justify-between gap-3 pt-3 border-t border-outline-variant/10">
+        <label class="flex items-center gap-2 text-sm font-medium text-primary">
           <input
             id="study-auto-next-toggle"
             type="checkbox"
             ${autoNextEnabled ? 'checked' : ''}
             onchange="setStudyAutoNextEnabled(this.checked)"
-            class="mt-1 rounded border-outline-variant/40 text-primary focus:ring-primary"
           />
-          <span>Enable auto-next after answering</span>
+          Auto-next
         </label>
 
-        <div class="flex items-end justify-between gap-3">
-          <div>
-            <p class="text-sm text-on-surface-variant mb-2">Seconds</p>
-            <p class="text-xs text-on-surface-variant">Choose from 1 to 10 seconds.</p>
-          </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Seconds</span>
           <input
             id="study-auto-next-seconds"
             type="number"
@@ -1131,10 +1137,10 @@ function renderStudyStatusPanel() {
             max="10"
             value="${autoNextSeconds}"
             onchange="setStudyAutoNextSeconds(this.value)"
-            class="w-20 bg-surface-container-low border border-outline-variant/20 rounded-[1.15rem] px-3 py-3 text-center text-lg font-extrabold text-primary"
+            class="w-16 bg-surface-container-lowest border border-outline-variant/20 rounded-lg px-2 py-1.5 text-sm font-bold text-primary"
           />
         </div>
-      </section>
+      </div>
     </section>
   `;
 }
@@ -1217,7 +1223,11 @@ function renderStudyQuestion() {
   }
 
   const statusWrap = document.getElementById('study-status-panel');
-  if (statusWrap) statusWrap.classList.remove('hidden');
+  if (statusWrap) {
+    const autoNextSeconds = Number(appState.studyUi?.autoNextSeconds || 2);
+    statusWrap.innerHTML = `<div class="rounded-[1.35rem] border border-outline-variant/15 bg-surface-container-low p-4 shadow-[0_10px_24px_rgba(0,21,27,0.05)]"><div class="flex items-start justify-between gap-3 mb-3"><div class="min-w-0"><h3 class="text-[11px] font-bold uppercase tracking-[0.24em] text-on-surface-variant mb-1">Question Status</h3><p class="text-xs text-on-surface-variant leading-relaxed">A quick view of your set progress.</p></div><div class="flex items-center gap-2 rounded-xl bg-surface-container-high px-3 py-2"><label class="flex items-center gap-2 text-[11px] font-bold text-on-surface-variant uppercase tracking-widest cursor-pointer whitespace-nowrap"><input id="study-auto-next-toggle" type="checkbox" class="text-primary focus:ring-primary" ${appState.studyUi?.autoNext ? 'checked' : ''}/> Auto-next</label><div class="flex items-center gap-1 text-[11px] text-on-surface-variant"><input id="study-auto-next-seconds" type="number" min="1" max="10" value="${autoNextSeconds}" class="w-14 rounded-lg border border-outline-variant/30 bg-surface-container-lowest px-2 py-1 text-center text-sm font-bold text-primary focus:border-primary focus:ring-primary"/><span class="font-semibold">sec</span></div></div></div><div class="grid grid-cols-3 gap-2 mb-3"><div class="rounded-xl bg-primary-fixed/25 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Answered</p><p class="text-lg font-black text-primary">${answeredTotal}</p></div><div class="rounded-xl bg-surface-container-high p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Unanswered</p><p class="text-lg font-black text-on-surface">${unansweredTotal}</p></div><div class="rounded-xl bg-tertiary/10 p-3 text-center"><p class="text-[10px] font-bold uppercase tracking-widest text-tertiary mb-1">Current</p><p class="text-lg font-black text-tertiary">${humanIndex}</p></div></div><div class="flex flex-wrap gap-2 mb-3">${answerMap}</div><div class="flex flex-wrap gap-3 text-[11px] font-semibold text-on-surface-variant"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Answered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high inline-block"></span> Unanswered</div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Current</div></div></div>`;
+    statusWrap.classList.remove('hidden');
+  }
 
   updateSaveButtonState();
   const noteBtn = document.getElementById('note-btn');
@@ -2387,8 +2397,177 @@ async function loadSubjectsIndex() {
   renderTopicsPage();
 }
 
+
+function getProfileSummary() {
+  ensureProfileDefaults();
+  const profile = appState.profile;
+  const summary = summarizeDashboard();
+  const history = Array.isArray(appState.attemptHistory) ? [...appState.attemptHistory] : [];
+  const recent = history.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)).slice(0, 5);
+  const lastActivity = recent[0]?.createdAt || null;
+  return {
+    profile,
+    solved: Number(summary.overall?.totalAnswered || 0),
+    accuracy: Number(summary.overall?.accuracy || 0),
+    saved: Number(summary.savedQuestions || 0),
+    finals: Number(summary.examHistory?.length || appState.finalExamsDone || 0),
+    recent,
+    lastActivity,
+    strongest: summary.strongest?.[0] || null,
+    weakest: summary.weakest?.[0] || null
+  };
+}
+
+function formatActivityTitle(item = {}) {
+  if (item.type === 'finalExam') return 'Final Exam';
+  return item.topicName || 'Study Session';
+}
+
+function renderProfileRecentActivity(items = []) {
+  const wrap = document.getElementById('profile-recent-activity');
+  if (!wrap) return;
+  if (!items.length) {
+    wrap.innerHTML = '<div class="rounded-[1.5rem] border border-outline-variant/20 bg-surface p-5 text-on-surface-variant">No recent activity yet. Once the student starts studying, attempts will appear here automatically.</div>';
+    return;
+  }
+  wrap.innerHTML = items.map(item => {
+    const emoji = item.type === 'finalExam' ? '📝' : '📘';
+    const stamp = formatShortDate(item.createdAt);
+    const score = `${Number(item.correct || 0)}/${Number(item.total || 0)}`;
+    return `<div class="rounded-[1.5rem] border border-outline-variant/20 bg-surface p-4 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-4 min-w-0">
+        <div class="w-12 h-12 rounded-2xl bg-tertiary-fixed/30 flex items-center justify-center text-xl flex-shrink-0">${emoji}</div>
+        <div class="min-w-0">
+          <h4 class="text-lg font-extrabold text-primary truncate">${escapeHtml(formatActivityTitle(item))}</h4>
+          <p class="text-sm text-on-surface-variant truncate">${escapeHtml(item.subjectName || 'Pharmacy Nexus')} • ${escapeHtml(stamp)}</p>
+        </div>
+      </div>
+      <div class="text-right flex-shrink-0">
+        <div class="text-lg font-black text-primary">${escapeHtml(score)}</div>
+        <div class="text-sm font-bold text-on-surface-variant">${Number(item.accuracy || 0)}%</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function syncSidebarProfileUi() {
+  ensureProfileDefaults();
+  const profile = appState.profile;
+  const nameEl = document.getElementById('sidebar-profile-name');
+  const avatarEl = document.getElementById('sidebar-profile-avatar');
+  if (nameEl) nameEl.textContent = profile.displayName || 'Pharmacy Student';
+  if (avatarEl) avatarEl.textContent = getInitials(profile.displayName || 'Pharmacy Student');
+}
+
+function hydrateProfileForm() {
+  ensureProfileDefaults();
+  const profile = appState.profile;
+  const setVal = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.value = value ?? '';
+  };
+  setVal('profile-input-name', profile.displayName || 'Pharmacy Student');
+  setVal('profile-input-email', profile.email || '');
+  setVal('profile-input-track', profile.track || 'Internship / Licensure Prep');
+  setVal('profile-input-university', profile.university || '');
+  setVal('profile-input-year', profile.graduationYear || '');
+  setVal('profile-input-goal', profile.dailyGoal || 20);
+  setVal('profile-input-bio', profile.bio || '');
+  const sq = document.getElementById('profile-pref-shuffle-questions');
+  const sa = document.getElementById('profile-pref-shuffle-answers');
+  const an = document.getElementById('profile-pref-autonext');
+  const ans = document.getElementById('profile-pref-autonext-seconds');
+  if (sq) sq.checked = Boolean(profile.preferences?.shuffleQuestions);
+  if (sa) sa.checked = Boolean(profile.preferences?.shuffleAnswers);
+  if (an) an.checked = Boolean(profile.preferences?.autoNext);
+  if (ans) ans.value = Math.max(1, Math.min(10, Number(profile.preferences?.autoNextSeconds || 2)));
+}
+
+function renderProfilePage() {
+  ensureProfileDefaults();
+  const summary = getProfileSummary();
+  const profile = summary.profile;
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+  };
+  setText('profile-hero-name', profile.displayName || 'Pharmacy Student');
+  setText('profile-hero-track', profile.track || 'Internship / Licensure Prep');
+  setText('profile-auth-pill', profile.isAuthenticated ? 'Connected Account' : 'Local Profile');
+  setText('profile-email-pill', profile.email || 'No email linked yet');
+  setText('profile-sync-pill', profile.lastSyncAt ? `Synced ${formatShortDate(profile.lastSyncAt)}` : 'Waiting for auth');
+  setText('profile-auth-userid', profile.userId || 'Pending');
+  setText('profile-auth-provider', profile.authProvider || 'local');
+  setText('profile-auth-sync', profile.isAuthenticated ? 'Connected to auth layer' : 'Ready for later connection');
+  setText('profile-stat-solved', String(summary.solved));
+  setText('profile-stat-accuracy', `${summary.accuracy}%`);
+  setText('profile-stat-saved', String(summary.saved));
+  setText('profile-stat-finals', String(summary.finals));
+  setText('profile-map-userid', profile.userId || 'pending local id');
+  setText('profile-map-display', profile.displayName || 'Pharmacy Student');
+  setText('profile-map-email', profile.email || 'not linked');
+  setText('profile-map-track', profile.track || 'Internship / Licensure Prep');
+  const avatar = document.getElementById('profile-hero-avatar');
+  if (avatar) avatar.textContent = getInitials(profile.displayName || 'Pharmacy Student');
+  hydrateProfileForm();
+  renderProfileRecentActivity(summary.recent);
+  syncSidebarProfileUi();
+}
+window.renderProfilePage = renderProfilePage;
+
+function saveProfileDraft() {
+  ensureProfileDefaults();
+  const profile = appState.profile;
+  const readVal = id => String(document.getElementById(id)?.value || '').trim();
+  profile.displayName = readVal('profile-input-name') || 'Pharmacy Student';
+  profile.email = readVal('profile-input-email');
+  profile.track = readVal('profile-input-track') || 'Internship / Licensure Prep';
+  profile.university = readVal('profile-input-university');
+  profile.graduationYear = readVal('profile-input-year');
+  profile.bio = readVal('profile-input-bio');
+  profile.dailyGoal = Math.max(5, Number(readVal('profile-input-goal') || 20));
+  profile.avatarText = getInitials(profile.displayName);
+  saveState();
+  syncSidebarProfileUi();
+  renderProfilePage();
+  const msg = document.getElementById('profile-save-message');
+  if (msg) msg.textContent = 'Profile saved locally and ready for auth mapping.';
+  showToast('Profile saved', 'success');
+}
+window.saveProfileDraft = saveProfileDraft;
+
+function resetProfileDraft() {
+  appState.profile = JSON.parse(JSON.stringify(DEFAULT_STATE.profile));
+  appState.profile.preferences.autoNext = Boolean(appState.studyUi?.autoNext);
+  appState.profile.preferences.autoNextSeconds = Math.max(1, Math.min(10, Number(appState.studyUi?.autoNextSeconds || 2)));
+  saveState();
+  renderProfilePage();
+  const msg = document.getElementById('profile-save-message');
+  if (msg) msg.textContent = 'Profile reset to default local values.';
+  showToast('Profile reset', 'info');
+}
+window.resetProfileDraft = resetProfileDraft;
+
+function saveProfilePreferences() {
+  ensureProfileDefaults();
+  const profile = appState.profile;
+  profile.preferences.shuffleQuestions = Boolean(document.getElementById('profile-pref-shuffle-questions')?.checked);
+  profile.preferences.shuffleAnswers = Boolean(document.getElementById('profile-pref-shuffle-answers')?.checked);
+  profile.preferences.autoNext = Boolean(document.getElementById('profile-pref-autonext')?.checked);
+  profile.preferences.autoNextSeconds = Math.max(1, Math.min(10, Number(document.getElementById('profile-pref-autonext-seconds')?.value || 2)));
+  appState.studyUi = appState.studyUi || {};
+  appState.studyUi.autoNext = profile.preferences.autoNext;
+  appState.studyUi.autoNextSeconds = profile.preferences.autoNextSeconds;
+  saveState();
+  renderProfilePage();
+  showToast('Preferences saved', 'success');
+}
+window.saveProfilePreferences = saveProfilePreferences;
+
+
 window.addEventListener('DOMContentLoaded', async () => {
   renderPersistentStats();
+  syncSidebarProfileUi();
   bindNotes();
   bindSavedSearch();
   applyTheme(appState.themeMode || 'light');
@@ -2447,6 +2626,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   if (appState.currentPage === 'study') renderStudyQuestion();
   if (appState.currentPage === 'review') renderReviewPage();
   if (appState.currentPage === 'dashboard') renderDashboardPage();
+  if (appState.currentPage === 'profile') renderProfilePage();
   if (appState.currentPage === 'finalexam') injectFinalExamResumeBanner();
   if (appState.currentPage === 'examlive' && hasResumableFinalExam()) renderExamLivePage();
 });
