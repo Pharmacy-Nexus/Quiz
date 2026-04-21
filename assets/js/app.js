@@ -121,6 +121,7 @@ const DEFAULT_STATE = {
   themeMode: 'light',
   dailyChallenge: null,
   studyUi: { autoNext: false, autoNextSeconds: 2 },
+  currentSetSessionQuestions: [],
   profile: {
     userId: null,
     authProvider: 'local',
@@ -290,6 +291,35 @@ function shuffleWithSeed(arr = [], seed = '0') {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
+}
+
+function makeQuestionSessionCopy(question, seedBase = '') {
+  const sourceOptions = Array.isArray(question?.options) ? [...question.options] : [];
+  if (!sourceOptions.length) return { ...question };
+
+  const indexedOptions = sourceOptions.map((value, index) => ({ value, index }));
+  const shuffledOptions = shuffleWithSeed(indexedOptions, `${seedBase}-options-${question.id || question.questionText || ''}`);
+  const nextCorrectAnswer = shuffledOptions.findIndex(opt => Number(opt.index) === Number(question.correctAnswer));
+
+  return {
+    ...question,
+    options: shuffledOptions.map(opt => opt.value),
+    correctAnswer: nextCorrectAnswer >= 0 ? nextCorrectAnswer : Number(question.correctAnswer || 0),
+    userChoice: undefined
+  };
+}
+
+function buildFreshSetSessionQuestions(setIndex = 0) {
+  const chunks = getCurrentTopicQuestionChunks();
+  const originalSetQuestions = Array.isArray(chunks[setIndex]) ? chunks[setIndex] : [];
+  const meta = appState.currentTopicMeta || {};
+  const sessionSeed = `set-${meta.id || 'topic'}-${setIndex}-${Date.now()}`;
+  const shuffledQuestions = shuffleWithSeed(originalSetQuestions, `${sessionSeed}-questions`);
+  return shuffledQuestions.map((question, index) => makeQuestionSessionCopy(question, `${sessionSeed}-${index}`));
+}
+
+function clearCurrentSetSessionQuestions() {
+  appState.currentSetSessionQuestions = [];
 }
 
 function saveState() {
@@ -891,6 +921,7 @@ async function loadTopicQuestions(subjectId, topicId) {
   };
   appState.currentTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
   appState.currentSetIndex = 0;
+  clearCurrentSetSessionQuestions();
   beginStudySession('set');
   if (!appState.studyResults[topicId]) appState.studyResults[topicId] = {};
   saveState();
@@ -962,9 +993,12 @@ function renderSetsPage() {
           <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 ${started ? 'bg-tertiary/10 text-tertiary' : 'bg-surface-container text-on-surface-variant'} rounded-full text-xs font-bold uppercase tracking-wider">Set ${idx + 1} • ${started ? 'In Progress' : 'Not Started'}</span><span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">arrow_outward</span></div>
           <h3 class="text-lg font-bold text-primary mb-1">Questions ${start}–${end}</h3>
           <p class="text-sm text-on-surface-variant mb-5">${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this set.</p>
-          <div class="flex justify-between items-center pt-4 border-t border-outline-variant/15">
+          <div class="flex justify-between items-center gap-3 pt-4 border-t border-outline-variant/15">
             <div><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-32 bg-surface-container rounded-full h-1.5 overflow-hidden"><div class="bg-tertiary h-1.5 rounded-full" style="width:${pct}%"></div></div></div>
-            <button onclick="event.stopPropagation(); startSet(${idx});" class="${started ? 'bg-primary text-on-primary' : 'bg-surface-container-low text-primary border border-outline-variant/15'} px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Resume Set' : 'Start Set'}</button>
+            <div class="flex items-center gap-2">
+              ${started ? `<button onclick="event.stopPropagation(); startSet(${idx}, true);" class="bg-primary text-on-primary px-4 py-2 rounded-lg text-sm font-bold">Resume</button>` : ''}
+              <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Restart Fresh' : 'Start Set'}</button>
+            </div>
           </div>
         </div>`;
     }).join('');
@@ -982,15 +1016,23 @@ function formatType(type = '') {
   return String(type).replace(/_/g, '/').toUpperCase();
 }
 
-function startSet(index = 0) {
+function startSet(index = 0, resume = false) {
   appState.currentSetIndex = index;
   appState.retryQuestionIds = [];
   const previewQuestions = (getCurrentTopicQuestionChunks()[index] || []);
   const meta = appState.currentTopicMeta;
-  if (meta && previewQuestions.length) {
-    const fullyAnswered = previewQuestions.every(q => getStudyResultCorrect(meta.id, q.id) !== undefined);
-    if (fullyAnswered) resetQuestionsAttempt(previewQuestions.map(q => q.id));
+
+  if (!resume) {
+    clearCurrentSetSessionQuestions();
+    if (meta && previewQuestions.length) {
+      resetQuestionsAttempt(previewQuestions.map(q => q.id));
+    }
+    appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
+    appState.currentQuestionIndex = 0;
+  } else if (!Array.isArray(appState.currentSetSessionQuestions) || !appState.currentSetSessionQuestions.length) {
+    appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
   }
+
   beginStudySession('set');
   saveState();
   navigateTo('study');
@@ -999,6 +1041,9 @@ function startSet(index = 0) {
 window.startSet = startSet;
 
 function getCurrentSetQuestions() {
+  if (Array.isArray(appState.currentSetSessionQuestions) && appState.currentSetSessionQuestions.length) {
+    return appState.currentSetSessionQuestions;
+  }
   const chunks = getCurrentTopicQuestionChunks();
   return chunks[appState.currentSetIndex] || [];
 }
@@ -1069,67 +1114,66 @@ function renderStudyStatusPanel() {
 
   const currentIndex = Number(appState.currentQuestionIndex || 0);
   const answeredCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) !== undefined).length;
+  const correctCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === true).length;
+  const wrongCount = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).length;
   const unansweredCount = Math.max(0, questions.length - answeredCount);
   const autoNextEnabled = !!appState.studyUi?.autoNext;
   const autoNextSeconds = Math.max(1, Math.min(10, Number(appState.studyUi?.autoNextSeconds || 2)));
 
   const pills = questions.map((q, index) => {
-    const answered = getStudyResultCorrect(meta.id, q.id) !== undefined;
+    const state = getStudyResultCorrect(meta.id, q.id);
     const isCurrent = index === currentIndex;
-
-    let cls = 'bg-surface-container-low text-on-surface-variant border border-outline-variant/20';
-    if (answered) cls = 'bg-secondary-container/60 text-on-secondary-container border border-secondary/20';
-    if (isCurrent) cls = 'bg-primary text-on-primary border border-primary shadow-[0_8px_18px_rgba(0,21,27,0.18)]';
+    let cls = 'bg-surface-container-high text-on-surface-variant border border-outline-variant/20';
+    if (state === true) cls = 'bg-secondary-container/70 text-on-secondary-container border border-secondary/20';
+    if (state === false) cls = 'bg-error-container/55 text-on-error-container border border-error/20';
+    if (isCurrent) cls = 'bg-primary-fixed/35 text-primary border border-primary/25 shadow-[0_8px_18px_rgba(0,21,27,0.10)]';
 
     return `
       <button
         type="button"
         onclick="jumpToStudyQuestion(${index})"
-        class="w-9 h-9 rounded-lg text-xs font-bold transition-all ${cls}">
+        class="w-12 h-12 rounded-[1rem] text-sm font-extrabold transition-all ${cls}">
         ${index + 1}
       </button>
     `;
   }).join('');
 
   panel.innerHTML = `
-    <section class="bg-surface-container-low rounded-xl p-4 border border-outline-variant/15">
-      <div class="flex items-center justify-between mb-3">
-        <h3 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Question Status</h3>
-        <span class="text-xs font-bold text-primary">${currentIndex + 1} / ${questions.length}</span>
+    <section class="bg-surface-container-low rounded-[1.6rem] p-5 border border-outline-variant/15 shadow-[0_10px_24px_rgba(0,21,27,0.05)]">
+      <div class="mb-4">
+        <h3 class="text-[1.05rem] font-extrabold text-primary tracking-tight">Question Status</h3>
+        <p class="text-sm text-on-surface-variant mt-1">${answeredCount} of ${questions.length} answered</p>
       </div>
 
-      <div class="grid grid-cols-3 gap-2 mb-4">
-        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
-          <div class="text-lg font-black text-secondary">${answeredCount}</div>
-          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Answered</div>
-        </div>
-        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
-          <div class="text-lg font-black text-tertiary">${unansweredCount}</div>
-          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Unanswered</div>
-        </div>
-        <div class="bg-surface-container-lowest rounded-lg p-3 text-center border border-outline-variant/10">
-          <div class="text-lg font-black text-primary">${currentIndex + 1}</div>
-          <div class="text-[10px] uppercase tracking-wider font-bold text-on-surface-variant">Current</div>
-        </div>
+      <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold text-on-surface-variant mb-4">
+        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-primary-fixed inline-block"></span> Current</div>
+        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-secondary inline-block"></span> Correct</div>
+        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-error inline-block"></span> Wrong</div>
+        <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-outline-variant inline-block"></span> Unanswered</div>
       </div>
 
-      <div class="flex flex-wrap gap-2 mb-4">
+      <div class="grid grid-cols-5 gap-3 mb-4">
         ${pills}
       </div>
 
-      <div class="flex items-center justify-between gap-3 pt-3 border-t border-outline-variant/10">
-        <label class="flex items-center gap-2 text-sm font-medium text-primary">
+      <section class="rounded-[1.6rem] border border-outline-variant/15 bg-surface-container-lowest p-5">
+        <h4 class="text-[1.05rem] font-extrabold text-primary tracking-tight mb-4">Auto-next</h4>
+        <label class="flex items-start gap-3 text-primary font-bold leading-tight cursor-pointer mb-5">
           <input
             id="study-auto-next-toggle"
             type="checkbox"
             ${autoNextEnabled ? 'checked' : ''}
             onchange="setStudyAutoNextEnabled(this.checked)"
+            class="mt-1 rounded border-outline-variant/40 text-primary focus:ring-primary"
           />
-          Auto-next
+          <span>Enable auto-next after answering</span>
         </label>
 
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Seconds</span>
+        <div class="flex items-end justify-between gap-3">
+          <div>
+            <p class="text-sm text-on-surface-variant mb-2">Seconds</p>
+            <p class="text-xs text-on-surface-variant">Choose from 1 to 10 seconds.</p>
+          </div>
           <input
             id="study-auto-next-seconds"
             type="number"
@@ -1137,10 +1181,10 @@ function renderStudyStatusPanel() {
             max="10"
             value="${autoNextSeconds}"
             onchange="setStudyAutoNextSeconds(this.value)"
-            class="w-16 bg-surface-container-lowest border border-outline-variant/20 rounded-lg px-2 py-1.5 text-sm font-bold text-primary"
+            class="w-20 bg-surface-container-low border border-outline-variant/20 rounded-[1.15rem] px-3 py-3 text-center text-lg font-extrabold text-primary"
           />
         </div>
-      </div>
+      </section>
     </section>
   `;
 }
@@ -1961,27 +2005,38 @@ window.addEventListener('keydown', (e) => {
 async function buildDailyChallenge(forceRefresh = false) {
   const existing = getDailyChallengeState();
   if (existing && !forceRefresh) return existing;
-  const subjects = PN_DATA.subjectsIndex?.subjects || [];
+  const subjects = (PN_DATA.subjectsIndex?.subjects || []).filter(s => Number(s.questionsCount || 0) > 0);
   if (!subjects.length) return null;
-  const dateKey = getTodayKey();
-  const seededSubjects = shuffleWithSeed(subjects.filter(s => Number(s.questionsCount || 0) > 0), `sub-${dateKey}`);
-  for (const subject of seededSubjects) {
+
+  const spinSeed = String(Date.now()) + '-' + Math.random().toString(36).slice(2, 8);
+  const shuffledSubjects = shuffleWithSeed(subjects, `daily-sub-${spinSeed}`);
+
+  for (const subject of shuffledSubjects) {
     const subjectData = PN_DATA.topicsMap.get(subject.id) || { topics: [] };
-    const topics = shuffleWithSeed((subjectData.topics || []).filter(t => t.file), `topic-${dateKey}-${subject.id}`);
+    const topics = shuffleWithSeed((subjectData.topics || []).filter(t => t.file), `daily-topic-${spinSeed}-${subject.id}`);
+
     for (const topic of topics) {
       const questions = await getTopicQuestionsForExam(subject.id, topic);
       if (!questions.length) continue;
-      const picked = shuffleWithSeed(questions, `q-${dateKey}-${subject.id}-${topic.id || slugify(topic.name)}`).slice(0, Math.min(5, questions.length));
+
+      const shuffledQuestions = shuffleWithSeed(questions, `daily-q-${spinSeed}-${subject.id}-${topic.id || slugify(topic.name)}`);
+      const requestedCount = Math.floor(Math.random() * 10) + 1;
+      const finalCount = Math.min(requestedCount, shuffledQuestions.length);
+      const picked = shuffledQuestions.slice(0, finalCount);
+
       const daily = {
-        dateKey,
+        dateKey: getTodayKey(),
+        generatedAt: new Date().toISOString(),
         subjectId: subject.id,
         subjectName: subject.name,
         topicId: topic.id || slugify(topic.name),
         topicName: topic.name,
         topicFile: topic.file,
+        requestedCount,
+        finalCount,
         questionIds: picked.map(q => q.id),
         previewQuestion: picked[0]?.questionText || '',
-        luckyNumber: (picked[0]?.id || '').split('').reduce((s,ch)=>s+ch.charCodeAt(0),0)%97 + 3
+        previewQuestionId: picked[0]?.id || ''
       };
       appState.dailyChallenge = daily;
       saveState();
@@ -1994,28 +2049,57 @@ async function buildDailyChallenge(forceRefresh = false) {
 async function renderDailyChallenge(forceRefresh = false) {
   const daily = await buildDailyChallenge(forceRefresh);
   const subjectEl = document.getElementById('daily-subject');
+  const topicEl = document.getElementById('daily-topic-pill');
+  const countEl = document.getElementById('daily-count');
+  const countPillEl = document.getElementById('daily-count-pill');
   const previewEl = document.getElementById('daily-question-preview');
-  const luckyEl = document.getElementById('lucky-n');
-  if (!subjectEl || !previewEl) return;
+  const statusEl = document.getElementById('daily-status');
+  if (!subjectEl || !previewEl || !countEl || !countPillEl) return;
+
   if (!daily) {
     subjectEl.textContent = 'No challenge available yet';
+    if (topicEl) topicEl.textContent = 'Topic';
+    countEl.textContent = '—';
+    countPillEl.textContent = 'No Questions';
     previewEl.textContent = 'Add more topic data to unlock the daily challenge.';
-    if (luckyEl) luckyEl.textContent = '—';
+    if (statusEl) statusEl.textContent = 'Need more data';
     return;
   }
-  subjectEl.textContent = `${daily.subjectName.toUpperCase()} • ${daily.topicName.toUpperCase()}`;
+
+  subjectEl.textContent = daily.subjectName.toUpperCase();
+  if (topicEl) topicEl.textContent = (daily.topicName || 'Topic').toUpperCase();
+  countEl.textContent = String(daily.finalCount || 1);
+  countPillEl.textContent = `${daily.finalCount || 1} Question${Number(daily.finalCount || 1) === 1 ? '' : 's'}`;
   previewEl.textContent = daily.previewQuestion || 'Your daily challenge is ready.';
-  if (luckyEl) luckyEl.textContent = String(daily.luckyNumber || 7);
+  if (statusEl) statusEl.textContent = `Random set • ${daily.finalCount || 1} question${Number(daily.finalCount || 1) === 1 ? '' : 's'}`;
 }
 window.renderDailyChallenge = renderDailyChallenge;
 
 async function spinWheel() {
   const wheel = document.getElementById('daily-wheel');
-  wheel?.classList.remove('spin-animation');
-  void wheel?.offsetWidth;
-  wheel?.classList.add('spin-animation');
-  await renderDailyChallenge(true);
-  setTimeout(() => wheel?.classList.remove('spin-animation'), 2100);
+  const statusEl = document.getElementById('daily-status');
+  if (!wheel) return;
+  if (wheel.dataset.spinning === '1') return;
+
+  wheel.dataset.spinning = '1';
+  if (statusEl) statusEl.textContent = 'Spinning...';
+
+  const countEl = document.getElementById('daily-count');
+  if (countEl) countEl.textContent = '•';
+
+  const extraTurns = 5 + Math.floor(Math.random() * 3);
+  const extraDeg = Math.floor(Math.random() * 360);
+  const currentRotation = Number(wheel.dataset.rotation || 0);
+  const nextRotation = currentRotation + (extraTurns * 360) + extraDeg;
+  wheel.classList.add('is-spinning');
+  wheel.style.transform = `rotate(${nextRotation}deg)`;
+  wheel.dataset.rotation = String(nextRotation);
+
+  setTimeout(async () => {
+    await renderDailyChallenge(true);
+    wheel.dataset.spinning = '0';
+    if (statusEl) statusEl.textContent = 'Ready';
+  }, 2450);
 }
 window.spinWheel = spinWheel;
 
