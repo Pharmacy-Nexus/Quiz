@@ -151,6 +151,25 @@ tailwind.config = {
 .about-card-hover { transition: transform .24s ease, box-shadow .24s ease; }
 .about-card-hover:hover { transform: translateY(-4px); box-shadow: 0 24px 44px rgba(0,21,27,.08); }
 
+.daily-wheel-shell { position: relative; width: 9.5rem; height: 9.5rem; display:flex; align-items:center; justify-content:center; }
+  .daily-wheel-pointer { position:absolute; top:-0.2rem; left:50%; transform:translateX(-50%); width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent; border-bottom:22px solid #8a6c05; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12)); z-index:3; }
+  .daily-wheel-ring { position:absolute; inset:0; border-radius:9999px; padding:7px; background:linear-gradient(145deg, rgba(255,255,255,0.95), rgba(237,238,239,0.95)); box-shadow:0 18px 44px rgba(0,21,27,0.14); }
+  .daily-wheel-ring::before { content:''; position:absolute; inset:7px; border-radius:9999px; border:1px dashed rgba(203,167,47,0.28); }
+  .daily-wheel-disc { position:relative; width:100%; height:100%; border-radius:9999px; overflow:hidden; cursor:pointer; transition:transform .25s ease, box-shadow .25s ease; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 12px 26px rgba(0,21,27,0.18); background:
+      radial-gradient(circle at 50% 50%, rgba(255,255,255,0.12) 0 17%, transparent 18%),
+      conic-gradient(from -90deg, #062f3a 0deg 60deg, #0b4453 60deg 120deg, #0d5868 120deg 180deg, #155f70 180deg 240deg, #7d6709 240deg 300deg, #9a7b08 300deg 360deg);
+  }
+  .daily-wheel-disc:hover { transform:scale(1.03); }
+  .daily-wheel-center { position:absolute; inset:33px; border-radius:9999px; background: radial-gradient(circle at 35% 30%, #143f4a, #0a2630 72%); display:flex; flex-direction:column; align-items:center; justify-content:center; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 10px 24px rgba(0,21,27,0.18); z-index:2; }
+  .daily-wheel-center::after { content:''; position:absolute; inset:-7px; border-radius:9999px; border:1px solid rgba(255,255,255,0.06); }
+  .daily-wheel-count { font-size:2rem; line-height:1; font-weight:900; color:#ffffff; letter-spacing:-0.03em; }
+  .daily-wheel-label { font-size:.58rem; font-weight:800; letter-spacing:.35em; text-transform:uppercase; color:rgba(255,255,255,0.78); margin-bottom:.32rem; margin-left:.28rem; }
+  .daily-wheel-sub { font-size:.52rem; font-weight:800; letter-spacing:.28em; text-transform:uppercase; color:#cba72f; margin-top:.32rem; margin-left:.25rem; }
+  .daily-spin-btn { position:absolute; bottom:-0.3rem; left:50%; transform:translateX(-50%); background:#fff; color:#8a6c05; border:1px solid rgba(193,199,203,0.28); border-radius:9999px; padding:.34rem .95rem; font-size:.68rem; font-weight:900; letter-spacing:.28em; text-transform:uppercase; box-shadow:0 10px 22px rgba(0,21,27,0.10); z-index:3; }
+  .daily-wheel-disc.is-spinning { transition:transform 2.4s cubic-bezier(.12,.8,.16,1); }
+  .daily-result-pill { display:inline-flex; align-items:center; justify-content:center; padding:.48rem .9rem; border-radius:9999px; font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
+
+
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -362,26 +381,36 @@ tailwind.config = {
           <div class="flex justify-between items-start mb-5">
             <div>
               <h2 class="text-xl font-bold text-primary tracking-tight mb-1">Daily Challenge</h2>
-              <p class="text-sm text-on-surface-variant">Spin for a subject — tackle today's clinical dose</p>
+              <p class="text-sm text-on-surface-variant">Spin once — get a random subject and a random number of questions</p>
             </div>
             <span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider">New</span>
           </div>
-          <!-- Wheel / Spinner -->
-          <div class="flex flex-col sm:flex-row gap-6 items-center mb-6">
-            <div class="relative flex-shrink-0">
-              <div id="daily-wheel" class="w-28 h-28 rounded-full bg-gradient-to-br from-primary to-primary-container flex items-center justify-center cursor-pointer shadow-[0_10px_30px_rgba(0,21,27,0.15)] hover:scale-105 transition-transform" onclick="spinWheel()">
-                <span class="material-symbols-outlined text-tertiary-fixed text-4xl" style="font-variation-settings:'FILL' 1">casino</span>
+          <div class="flex flex-col lg:flex-row gap-7 items-center mb-2">
+            <div class="daily-wheel-shell flex-shrink-0">
+              <div class="daily-wheel-pointer"></div>
+              <div class="daily-wheel-ring"></div>
+              <div id="daily-wheel" class="daily-wheel-disc" onclick="spinWheel()" role="button" aria-label="Spin daily challenge wheel" tabindex="0">
+                <div class="daily-wheel-center">
+                  <span class="daily-wheel-label">Today</span>
+                  <span id="daily-count" class="daily-wheel-count">5</span>
+                  <span class="daily-wheel-sub">Questions</span>
+                </div>
               </div>
-              <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-surface-container-lowest rounded-full px-3 py-0.5 text-[10px] font-bold text-tertiary uppercase tracking-widest border border-outline-variant/20">Spin</div>
+              <button type="button" class="daily-spin-btn" onclick="spinWheel()">Spin</button>
             </div>
-            <div class="flex-1">
-              <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest mb-2">Click the wheel to select a subject</p>
-              <div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/15">
-                <p id="daily-question-preview" class="text-sm font-medium text-primary leading-relaxed">A 65-year-old patient with renal impairment (CrCl 25 mL/min) requires Digoxin. Which dosing strategy minimizes toxicity risk?</p>
+            <div class="flex-1 w-full">
+              <div class="flex flex-wrap items-center gap-2 mb-3">
+                <p id="daily-subject" class="text-sm font-bold text-on-surface-variant uppercase tracking-widest">Click spin to generate today’s set</p>
+                <span id="daily-topic-pill" class="daily-result-pill bg-secondary-container/70 text-on-secondary-container">Topic</span>
+                <span id="daily-count-pill" class="daily-result-pill bg-tertiary-fixed/45 text-on-tertiary-fixed">5 Questions</span>
               </div>
-              <div class="flex gap-2 mt-3">
-                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
-                <button id="lucky-num" class="bg-surface-container-low text-primary px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-surface-container transition-colors">Lucky #<span id="lucky-n">7</span></button>
+              <div class="bg-surface-container-low rounded-[1.4rem] p-5 border border-outline-variant/15 min-h-[116px] flex items-center">
+                <p id="daily-question-preview" class="text-base font-medium text-primary leading-relaxed">Spin the wheel and the app will choose a subject, a topic, and a random number of questions from 1 to 10.</p>
+              </div>
+              <div class="flex flex-wrap gap-3 mt-4 items-center">
+                <button onclick="startDailyChallenge()" class="bg-primary text-on-primary px-5 py-3 rounded-xl font-bold text-sm hover:scale-[0.98] transition-transform">Start Challenge</button>
+                <button id="daily-reroll-btn" onclick="spinWheel()" class="bg-surface-container-low text-primary px-5 py-3 rounded-xl font-bold text-sm hover:bg-surface-container transition-colors">Spin Again</button>
+                <span id="daily-status" class="text-xs font-bold uppercase tracking-[0.28em] text-outline">Ready to spin</span>
               </div>
             </div>
           </div>
