@@ -105,6 +105,124 @@ tailwind.config = {
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   .progress-bar { transition: width 0.4s ease; }
 
+
+  /* Motion layer */
+  .motion-safe-card,
+  .motion-safe-stat,
+  .motion-safe-panel,
+  .motion-safe-chip,
+  .motion-safe-hero {
+    will-change: transform, opacity;
+  }
+
+  .page-enter {
+    animation: pageRise .5s cubic-bezier(.22,1,.36,1) both;
+  }
+
+  .stagger-in {
+    opacity: 0;
+    transform: translateY(18px) scale(.985);
+    animation: staggerIn .55s cubic-bezier(.22,1,.36,1) forwards;
+    animation-delay: var(--delay, 0ms);
+  }
+
+  .float-soft {
+    animation: floatSoft 7s ease-in-out infinite;
+  }
+
+  .glow-sweep::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 20%, rgba(255,255,255,.14) 48%, transparent 76%);
+    transform: translateX(-130%);
+    transition: transform .9s ease;
+    pointer-events: none;
+  }
+
+  .glow-sweep:hover::after {
+    transform: translateX(130%);
+  }
+
+  .lift-hover {
+    transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+  }
+
+  .lift-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,21,27,.10);
+  }
+
+  .tilt-track {
+    transition: transform .18s ease, box-shadow .22s ease;
+    transform-style: preserve-3d;
+  }
+
+  .answer-pop {
+    animation: answerPop .38s cubic-bezier(.22,1,.36,1);
+  }
+
+  .correct-burst {
+    animation: correctBurst .5s cubic-bezier(.22,1,.36,1);
+  }
+
+  .status-pulse {
+    animation: statusPulse 1.3s ease-in-out 1;
+  }
+
+  @keyframes pageRise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes staggerIn {
+    from { opacity: 0; transform: translateY(18px) scale(.985); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  @keyframes floatSoft {
+    0%,100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  @keyframes answerPop {
+    0% { transform: scale(.985); }
+    55% { transform: scale(1.015); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes correctBurst {
+    0% { transform: scale(.82); opacity: 0; }
+    60% { transform: scale(1.12); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes statusPulse {
+    0% { box-shadow: 0 0 0 rgba(215,177,75,0); }
+    40% { box-shadow: 0 0 0 10px rgba(215,177,75,.08); }
+    100% { box-shadow: 0 0 0 rgba(215,177,75,0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page-enter,
+    .stagger-in,
+    .float-soft,
+    .answer-pop,
+    .correct-burst,
+    .status-pulse {
+      animation: none !important;
+    }
+    .lift-hover,
+    .tilt-track,
+    .progress-bar,
+    .answer-option,
+    .nav-link,
+    button,
+    a {
+      transition: none !important;
+    }
+  }
+
   html.dark body { background:#11171a !important; color:#f0f1f2 !important; }
   html.dark .bg-surface, html.dark .bg-surface-bright, html.dark .bg-background { background:#11171a !important; }
   html.dark .bg-surface-container-lowest { background:#171d20 !important; }
@@ -224,7 +342,7 @@ tailwind.config = {
   <div class="max-w-7xl mx-auto px-6 md:px-12 py-10">
 
     <!-- Hero -->
-    <section class="relative rounded-xl bg-gradient-to-br from-primary to-primary-container p-8 md:p-14 overflow-hidden ambient-shadow mb-12">
+    <section class="relative rounded-xl bg-gradient-to-br from-primary to-primary-container p-8 md:p-14 overflow-hidden ambient-shadow mb-12 motion-safe-hero page-enter glow-sweep">
       <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-tertiary-fixed/10 rounded-full blur-3xl pointer-events-none"></div>
       <div class="absolute top-0 left-1/2 w-64 h-64 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
       <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -267,19 +385,19 @@ tailwind.config = {
 
     <!-- Quick Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
         <p id="home-accuracy" class="text-2xl font-black text-primary">6%</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Accuracy</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('saved')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:140ms" onclick="navigateTo('saved')">
         <p id="home-saved-count" class="text-2xl font-black text-tertiary">12</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Saved Qs</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('saved')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:140ms" onclick="navigateTo('saved')">
         <p id="home-notes-count" class="text-2xl font-black text-secondary">4</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Notes</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="navigateTo('dashboard')">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center cursor-pointer hover:-translate-y-0.5 transition-transform motion-safe-stat stagger-in lift-hover" style="--delay:200ms" onclick="navigateTo('dashboard')">
         <p id="home-final-exams-count" class="text-2xl font-black text-primary">2</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Final Exams</p>
       </div>
@@ -367,7 +485,7 @@ tailwind.config = {
 
       <!-- Recent Activity -->
       <div class="lg:col-span-4">
-        <section class="bg-surface-container-low rounded-xl p-6 ghost-border h-full">
+        <section class="bg-surface-container-low rounded-xl p-6 ghost-border h-full motion-safe-panel stagger-in lift-hover" style="--delay:300ms">
           <div class="flex justify-between items-center mb-6">
             <h2 class="text-base font-bold text-primary tracking-tight">Recent Activity</h2>
             <button onclick="navigateTo('dashboard')" class="text-tertiary text-xs font-bold hover:underline">View All</button>
@@ -698,19 +816,19 @@ tailwind.config = {
 
     <!-- Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
         <p id="sets-easy-count" class="text-2xl font-black text-secondary">18</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Easy</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
         <p id="sets-medium-count" class="text-2xl font-black text-tertiary">10</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Medium</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
         <p id="sets-hard-count" class="text-2xl font-black text-error">7</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Hard</p>
       </div>
-      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center">
+      <div class="bg-surface-container-lowest rounded-xl p-5 ambient-shadow text-center motion-safe-stat stagger-in lift-hover" style="--delay:80ms">
         <p id="sets-total-count" class="text-2xl font-black text-primary">35</p>
         <p class="text-xs text-on-surface-variant font-bold uppercase tracking-wider mt-1">Total Qs</p>
       </div>
@@ -893,7 +1011,7 @@ tailwind.config = {
         </div>
       </div>
       <!-- Right: Info Panel -->
-      <aside class="lg:col-span-5">
+      <aside class="lg:col-span-5 motion-safe-panel page-enter">
         <div class="sticky top-24 bg-surface-container-lowest rounded-xl p-6 md:p-8 ambient-shadow flex flex-col gap-6">
           <div class="flex items-center gap-3 pb-5 border-b border-outline-variant/15">
             <span class="material-symbols-outlined text-secondary text-xl">info</span>
