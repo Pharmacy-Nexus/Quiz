@@ -1,0 +1,264 @@
+{
+  "topicId": "hypertension",
+  "title": "Hypertension",
+  "subtitle": "Smart Flow Revision",
+  "description": "Understand the topic as a guided story, then reveal the full map.",
+  "nodes": [
+    {
+      "id": "big-picture",
+      "type": "core",
+      "title": "Big Picture",
+      "summary": "Hypertension is common, often silent, and dangerous when uncontrolled.",
+      "bullets": [
+        "Affects a large number of adults",
+        "Usually asymptomatic",
+        "Raises risk of heart disease, stroke, and kidney disease"
+      ],
+      "memoryHint": "Remember it as common + silent + harmful.",
+      "next": [
+        "pharmacist-role"
+      ]
+    },
+    {
+      "id": "pharmacist-role",
+      "type": "core",
+      "title": "Why Pharmacists Matter",
+      "summary": "Pharmacists improve screening, monitoring, counseling, and adherence.",
+      "bullets": [
+        "Promote lifestyle modification",
+        "Support medication adherence",
+        "Encourage home blood pressure monitoring"
+      ],
+      "memoryHint": "Pharmacists improve follow-up and treatment success.",
+      "next": [
+        "types"
+      ]
+    },
+    {
+      "id": "types",
+      "type": "compare",
+      "title": "Main Types",
+      "summary": "Most cases are primary; secondary hypertension has an identifiable cause.",
+      "bullets": [
+        "Primary (essential): about 90% of cases",
+        "Secondary: due to renal disease, adrenal disease, OSA, or drugs"
+      ],
+      "memoryHint": "Primary = majority. Secondary = search for a cause.",
+      "next": [
+        "risk-factors",
+        "secondary-causes"
+      ]
+    },
+    {
+      "id": "risk-factors",
+      "type": "branch",
+      "title": "Risk Factors for Primary Hypertension",
+      "summary": "Primary hypertension usually develops in the presence of multiple risk factors.",
+      "bullets": [
+        "Obesity",
+        "Sedentary lifestyle",
+        "Excess salt intake",
+        "Smoking",
+        "Family history",
+        "Diabetes and dyslipidemia"
+      ],
+      "memoryHint": "Think lifestyle + genetics + metabolic disease.",
+      "next": [
+        "pathophysiology"
+      ]
+    },
+    {
+      "id": "secondary-causes",
+      "type": "branch",
+      "title": "Common Causes of Secondary Hypertension",
+      "summary": "Secondary hypertension has a clear underlying driver.",
+      "bullets": [
+        "Renal disease",
+        "Adrenal disease",
+        "Obstructive sleep apnea",
+        "Drug-induced causes"
+      ],
+      "memoryHint": "If the cause is identifiable, think secondary HTN.",
+      "next": [
+        "pathophysiology"
+      ]
+    },
+    {
+      "id": "pathophysiology",
+      "type": "core",
+      "title": "Core Pathophysiology",
+      "summary": "Hypertension is driven mainly by SNS and RAAS activation.",
+      "bullets": [
+        "Higher norepinephrine",
+        "Higher angiotensin II",
+        "Higher aldosterone"
+      ],
+      "memoryHint": "HTN = SNS + RAAS.",
+      "next": [
+        "raas",
+        "sns",
+        "formula"
+      ]
+    },
+    {
+      "id": "raas",
+      "type": "branch",
+      "title": "RAAS Branch",
+      "summary": "RAAS raises blood pressure through sodium retention and vasoconstriction.",
+      "bullets": [
+        "Angiotensinogen → renin → angiotensin I",
+        "ACE → angiotensin II",
+        "Aldosterone increases sodium and water reabsorption",
+        "Vasoconstriction increases SVR"
+      ],
+      "memoryHint": "RAAS mainly increases volume and vascular tone.",
+      "tags": [
+        "Renin inhibitors",
+        "ACE inhibitors",
+        "ARBs",
+        "Aldosterone antagonists",
+        "Thiazides",
+        "DHP CCBs"
+      ],
+      "next": [
+        "drugs-raise-bp"
+      ]
+    },
+    {
+      "id": "sns",
+      "type": "branch",
+      "title": "SNS Branch",
+      "summary": "SNS raises blood pressure through vessel constriction and heart stimulation.",
+      "bullets": [
+        "Norepinephrine stimulates alpha-1 receptors → vasoconstriction",
+        "Beta-1 stimulation increases heart rate and contractility",
+        "Higher SVR and cardiac output raise BP"
+      ],
+      "memoryHint": "SNS = tighter vessels + faster, stronger heart.",
+      "tags": [
+        "Alpha-2 agonists",
+        "Beta-blockers",
+        "Non-DHP CCBs"
+      ],
+      "next": [
+        "drugs-raise-bp"
+      ]
+    },
+    {
+      "id": "formula",
+      "type": "formula",
+      "title": "Hemodynamic Formula",
+      "summary": "Blood pressure depends on vascular resistance and cardiac output.",
+      "bullets": [
+        "BP = SVR × CO",
+        "CO = Stroke Volume × HR"
+      ],
+      "memoryHint": "Blood pressure = vessels + heart.",
+      "next": [
+        "drugs-raise-bp"
+      ]
+    },
+    {
+      "id": "drugs-raise-bp",
+      "type": "warning",
+      "title": "Drugs That Can Increase Blood Pressure",
+      "summary": "Some drugs and substances can worsen blood pressure control.",
+      "bullets": [
+        "Sympathomimetics: ADHD drugs, decongestants, cocaine, caffeine",
+        "Antidepressants: TCAs, SNRIs, MAOIs",
+        "Sodium/water retention: NSAIDs, cyclosporine, steroids",
+        "Other: oral contraceptives, VEGF inhibitors, ESAs"
+      ],
+      "memoryHint": "Always review the medication list in uncontrolled HTN.",
+      "next": [
+        "monitoring"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "type": "checklist",
+      "title": "Correct BP Monitoring",
+      "summary": "Good diagnosis starts with good measurement technique.",
+      "bullets": [
+        "Empty bladder and rest 5 minutes",
+        "Sit with back supported and feet on the floor",
+        "Use the correct cuff size",
+        "Support the arm at heart level",
+        "Avoid talking, smoking, caffeine, or exercise beforehand"
+      ],
+      "memoryHint": "Bad measurement gives bad decisions.",
+      "next": [
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "diagnosis",
+      "type": "checkpoint",
+      "title": "Screening and Diagnosis",
+      "summary": "Diagnosis requires repeated readings, not a single office value.",
+      "bullets": [
+        "Use an average of at least 2 readings",
+        "Readings should be obtained on at least 2 occasions",
+        "Out-of-office monitoring is preferred",
+        "White coat hypertension can mislead decisions"
+      ],
+      "memoryHint": "One reading is never enough.",
+      "checkpoint": {
+        "question": "Is one office blood pressure reading enough to diagnose hypertension?",
+        "answer": "No. Diagnosis should be based on repeated readings across separate occasions."
+      },
+      "next": [
+        "classification"
+      ]
+    },
+    {
+      "id": "classification",
+      "type": "ladder",
+      "title": "ACC/AHA BP Categories",
+      "summary": "Blood pressure is classified into four major categories.",
+      "bullets": [
+        "Normal: <120 / <80",
+        "Elevated: 120–129 and <80",
+        "Stage 1: 130–139 or 80–89",
+        "Stage 2: ≥140 or ≥90"
+      ],
+      "memoryHint": "Think: Normal → Elevated → Stage 1 → Stage 2.",
+      "next": [
+        "lifestyle"
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "type": "core",
+      "title": "Lifestyle Management",
+      "summary": "Lifestyle changes are essential in both prevention and treatment.",
+      "bullets": [
+        "Weight loss",
+        "DASH diet",
+        "Adequate potassium when appropriate",
+        "Reduce sodium",
+        "Exercise regularly",
+        "Limit alcohol",
+        "Stop smoking",
+        "Control glucose and cholesterol"
+      ],
+      "memoryHint": "Lifestyle is always part of hypertension management.",
+      "next": [
+        "natural-products"
+      ]
+    },
+    {
+      "id": "natural-products",
+      "type": "pearl",
+      "title": "Natural Products Pearl",
+      "summary": "Natural products are not guideline-recommended for BP lowering.",
+      "bullets": [
+        "Garlic",
+        "Fish oil",
+        "Both may increase bleeding risk"
+      ],
+      "memoryHint": "Natural does not always mean harmless.",
+      "next": []
+    }
+  ]
+}
