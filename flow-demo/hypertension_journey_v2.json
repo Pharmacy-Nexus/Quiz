@@ -1,0 +1,571 @@
+{
+  "topicId": "hypertension",
+  "title": "Hypertension",
+  "subtitle": "Learning Journey",
+  "description": "Master the complete path from mechanism to diagnosis, drug selection, and monitoring.",
+  "version": 2,
+  "theme": {
+    "bg": "#07182f",
+    "accent": "#d7b14b",
+    "secondary": "#2f6673"
+  },
+  "nodes": [
+    {
+      "id": "start",
+      "title": "The Beginning",
+      "type": "core",
+      "icon": "▶",
+      "summary": "Hypertension is a silent but high-impact disease best learned as a connected story.",
+      "hint": "Start with the big picture before details.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Often asymptomatic until damage develops",
+          "Major driver of cardiovascular and renal risk",
+          "Best learned in sequence, not as isolated facts"
+        ]
+      }
+    },
+    {
+      "id": "big-picture",
+      "title": "Big Picture",
+      "type": "core",
+      "icon": "🎯",
+      "summary": "Hypertension progressively injures target organs and raises long-term cardiovascular risk.",
+      "hint": "Common + silent + harmful.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Targets the heart, brain, kidneys, and vessels",
+          "Risk rises as blood pressure rises",
+          "Control reduces long-term complications"
+        ]
+      }
+    },
+    {
+      "id": "definition-types",
+      "title": "Definition & Types",
+      "type": "core",
+      "icon": "📐",
+      "summary": "Most cases are primary hypertension, while secondary hypertension has an identifiable cause.",
+      "hint": "Primary = common. Secondary = search for the cause.",
+      "contentStyle": "comparison_split",
+      "content": {
+        "left": {
+          "title": "Primary",
+          "items": [
+            "Accounts for most cases",
+            "No single identifiable cause",
+            "Usually linked to multiple risk factors"
+          ]
+        },
+        "right": {
+          "title": "Secondary",
+          "items": [
+            "Has a discoverable cause",
+            "Think renal, endocrine, sleep apnea, drugs",
+            "More suspicious in sudden or unusual cases"
+          ]
+        }
+      }
+    },
+    {
+      "id": "risk-factors",
+      "title": "Risk Factors",
+      "type": "checkpoint",
+      "icon": "⚠",
+      "summary": "Lifestyle and inherited factors work together to increase the chance of hypertension.",
+      "hint": "Think lifestyle + genetics + metabolic disease.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Obesity, high sodium intake, and low activity",
+          "Smoking, alcohol excess, diabetes, and dyslipidemia",
+          "Family history and increasing age"
+        ]
+      }
+    },
+    {
+      "id": "pathophysiology",
+      "title": "Pathophysiology Boss",
+      "type": "boss",
+      "icon": "⚡",
+      "summary": "Blood pressure rises when cardiac output, vascular resistance, or both are increased through neurohormonal dysregulation.",
+      "hint": "HTN = vessels + heart under SNS and RAAS control.",
+      "contentStyle": "formula_block",
+      "content": {
+        "formulas": [
+          "BP = SVR × CO",
+          "CO = Stroke Volume × HR"
+        ],
+        "notes": [
+          "SNS raises heart rate, contractility, and vessel tone",
+          "RAAS raises vasoconstriction and sodium/water retention",
+          "Most drug classes target one or both pathways"
+        ]
+      }
+    },
+    {
+      "id": "raas-branch",
+      "title": "RAAS Branch",
+      "type": "branch",
+      "icon": "🔄",
+      "summary": "RAAS drives vasoconstriction and volume expansion through angiotensin II and aldosterone.",
+      "hint": "RAAS mainly increases volume and vascular tone.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Renin activates the angiotensin cascade",
+          "Angiotensin II increases vasoconstriction",
+          "Aldosterone increases sodium and water retention"
+        ]
+      }
+    },
+    {
+      "id": "sns-branch",
+      "title": "SNS Branch",
+      "type": "branch",
+      "icon": "🔥",
+      "summary": "The sympathetic nervous system increases blood pressure through alpha and beta receptor stimulation.",
+      "hint": "SNS = tighter vessels + stronger heart.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Alpha-1 stimulation increases vasoconstriction",
+          "Beta-1 stimulation increases heart rate and contractility",
+          "Overall effect: higher SVR and cardiac output"
+        ]
+      }
+    },
+    {
+      "id": "diagnosis",
+      "title": "Diagnosis Gate",
+      "type": "checkpoint",
+      "icon": "🔍",
+      "summary": "Diagnosis needs repeated accurate readings and should not rely on one office value alone.",
+      "hint": "One office reading is never enough.",
+      "contentStyle": "monitoring_grid",
+      "content": {
+        "groups": [
+          {
+            "label": "Need",
+            "items": [
+              "Average at least 2 readings",
+              "Readings on at least 2 occasions"
+            ]
+          },
+          {
+            "label": "Better Accuracy",
+            "items": [
+              "Home monitoring",
+              "Ambulatory monitoring"
+            ]
+          },
+          {
+            "label": "Watch for",
+            "items": [
+              "White coat hypertension",
+              "Masked hypertension"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "classification",
+      "title": "Classification",
+      "type": "formula",
+      "icon": "📊",
+      "summary": "BP stage guides treatment intensity and urgency.",
+      "hint": "Normal → Elevated → Stage 1 → Stage 2.",
+      "contentStyle": "step_ladder",
+      "content": {
+        "steps": [
+          {
+            "title": "Normal",
+            "value": "<120 and <80"
+          },
+          {
+            "title": "Elevated",
+            "value": "120–129 and <80"
+          },
+          {
+            "title": "Stage 1",
+            "value": "130–139 or 80–89"
+          },
+          {
+            "title": "Stage 2",
+            "value": "≥140 or ≥90"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lifestyle",
+      "title": "Lifestyle First",
+      "type": "core",
+      "icon": "🌿",
+      "summary": "Lifestyle modification is foundational in prevention and treatment of hypertension.",
+      "hint": "Lifestyle is not optional; it is part of treatment.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Weight loss, DASH diet, and sodium reduction",
+          "Regular physical activity and limited alcohol",
+          "Smoking cessation and broader CV risk control"
+        ]
+      }
+    },
+    {
+      "id": "when-to-treat",
+      "title": "When to Start Drugs",
+      "type": "checkpoint",
+      "icon": "🚦",
+      "summary": "Drug therapy depends on BP stage, cardiovascular risk, and overall clinical context.",
+      "hint": "Higher stage = more likely to need medication.",
+      "contentStyle": "step_ladder",
+      "content": {
+        "steps": [
+          {
+            "title": "Elevated BP",
+            "value": "Lifestyle only"
+          },
+          {
+            "title": "Stage 1 HTN",
+            "value": "Lifestyle ± medication depending on overall risk"
+          },
+          {
+            "title": "Stage 2 HTN",
+            "value": "Lifestyle + medication"
+          },
+          {
+            "title": "Markedly High BP",
+            "value": "Often needs stronger or combination approach"
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-line-agents",
+      "title": "First-Line Agents",
+      "type": "core",
+      "icon": "🧭",
+      "summary": "Most patients begin therapy with one of the major first-line antihypertensive families.",
+      "hint": "Learn the big families first before the details.",
+      "contentStyle": "pearl_cards",
+      "content": {
+        "cards": [
+          "Thiazide diuretics",
+          "ACE inhibitors",
+          "ARBs",
+          "Calcium channel blockers"
+        ]
+      }
+    },
+    {
+      "id": "acei-arb",
+      "title": "ACEIs & ARBs",
+      "type": "branch",
+      "icon": "🛡",
+      "summary": "ACE inhibitors and ARBs block RAAS and are especially useful in selected kidney-related high-risk patients.",
+      "hint": "RAAS blockers = kidney protection in the right patient, but no pregnancy.",
+      "contentStyle": "drug_class_card",
+      "content": {
+        "snapshot": "Core RAAS blockers used widely in hypertension and kidney-protective settings.",
+        "sections": [
+          {
+            "label": "Mechanism",
+            "value": "Reduce angiotensin II signaling and lower vasoconstriction plus aldosterone effect."
+          },
+          {
+            "label": "Best Use Cases",
+            "items": [
+              "CKD with albuminuria",
+              "Selected diabetic kidney patients",
+              "Patients where RAAS blockade is preferred"
+            ]
+          },
+          {
+            "label": "Major Risks",
+            "items": [
+              "Hyperkalemia",
+              "Rise in serum creatinine",
+              "ACEI cough",
+              "Angioedema risk"
+            ]
+          },
+          {
+            "label": "Contraindications / Cautions",
+            "items": [
+              "Pregnancy",
+              "Use caution in renal artery stenosis"
+            ]
+          },
+          {
+            "label": "Monitoring",
+            "items": [
+              "Blood pressure",
+              "Potassium",
+              "Renal function"
+            ]
+          },
+          {
+            "label": "Pearl",
+            "value": "ARBs usually avoid the cough problem seen with ACE inhibitors."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thiazides",
+      "title": "Thiazides",
+      "type": "branch",
+      "icon": "💧",
+      "summary": "Thiazide-type diuretics are strong first-line options that lower BP mainly through sodium and water reduction.",
+      "hint": "Thiazides = volume down, potassium down.",
+      "contentStyle": "drug_class_card",
+      "content": {
+        "snapshot": "Common first-line drugs with strong BP-lowering value in many patients.",
+        "sections": [
+          {
+            "label": "Mechanism",
+            "value": "Promote sodium and water loss, lowering extracellular volume and contributing to lower blood pressure."
+          },
+          {
+            "label": "Best Use Cases",
+            "items": [
+              "Many uncomplicated hypertension cases",
+              "Often strong option in Black patients",
+              "Frequently part of combination therapy"
+            ]
+          },
+          {
+            "label": "Major Risks",
+            "items": [
+              "Hypokalemia",
+              "Hyperuricemia",
+              "Possible mild glucose effects"
+            ]
+          },
+          {
+            "label": "Monitoring",
+            "items": [
+              "Blood pressure",
+              "Potassium",
+              "Renal function when relevant"
+            ]
+          },
+          {
+            "label": "Pearl",
+            "value": "Chlorthalidone is often preferred over HCTZ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ccbs",
+      "title": "Calcium Channel Blockers",
+      "type": "branch",
+      "icon": "🫀",
+      "summary": "Calcium channel blockers lower pressure by reducing vascular tone or slowing cardiac conduction depending on subtype.",
+      "hint": "DHP = vessels. Non-DHP = heart.",
+      "contentStyle": "comparison_split",
+      "content": {
+        "left": {
+          "title": "DHP CCBs",
+          "items": [
+            "Main effect on vessels",
+            "Useful in hypertension",
+            "Peripheral edema is common"
+          ]
+        },
+        "right": {
+          "title": "Non-DHP CCBs",
+          "items": [
+            "More effect on heart rate and conduction",
+            "Different clinical role from DHP agents",
+            "Need more caution in some cardiac situations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "beta-blockers",
+      "title": "Beta-Blockers",
+      "type": "branch",
+      "icon": "🧱",
+      "summary": "Beta-blockers are not routine first-line drugs for uncomplicated hypertension but are useful in selected patients.",
+      "hint": "Special-situation drugs, not universal first-line.",
+      "contentStyle": "drug_class_card",
+      "content": {
+        "snapshot": "Useful when hypertension overlaps with other cardiovascular needs.",
+        "sections": [
+          {
+            "label": "Mechanism",
+            "value": "Reduce heart rate and contractility, lowering cardiac output."
+          },
+          {
+            "label": "Best Use Cases",
+            "items": [
+              "Coronary artery disease",
+              "Certain arrhythmias",
+              "Some heart failure settings"
+            ]
+          },
+          {
+            "label": "Major Risks",
+            "items": [
+              "Bradycardia",
+              "Fatigue",
+              "May mask hypoglycemia"
+            ]
+          },
+          {
+            "label": "Caution",
+            "items": [
+              "Do not stop abruptly",
+              "Use carefully in selected patients with reactive airway issues"
+            ]
+          },
+          {
+            "label": "Pearl",
+            "value": "Not usually first-line for uncomplicated hypertension alone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "combination-therapy",
+      "title": "Combination Therapy",
+      "type": "checkpoint",
+      "icon": "🔗",
+      "summary": "Many patients, especially with stage 2 hypertension, need more than one medication to reach target blood pressure.",
+      "hint": "Combine smart, not random.",
+      "contentStyle": "step_ladder",
+      "content": {
+        "steps": [
+          {
+            "title": "Need More Control",
+            "value": "Consider adding a second complementary agent"
+          },
+          {
+            "title": "Stage 2 HTN",
+            "value": "Often starts with a 2-drug strategy"
+          },
+          {
+            "title": "Adherence Support",
+            "value": "Fixed-dose combinations may help"
+          },
+          {
+            "title": "Avoid",
+            "value": "Do not combine ACEI with ARB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special-populations",
+      "title": "Special Populations",
+      "type": "boss",
+      "icon": "🧠",
+      "summary": "Drug choice should be individualized according to comorbidities, kidney status, ethnicity, and pregnancy status.",
+      "hint": "Treat the patient, not the number alone.",
+      "contentStyle": "monitoring_grid",
+      "content": {
+        "groups": [
+          {
+            "label": "CKD / Albuminuria",
+            "items": [
+              "ACEI or ARB often favored"
+            ]
+          },
+          {
+            "label": "Many Black Patients",
+            "items": [
+              "Thiazides and CCBs often respond well"
+            ]
+          },
+          {
+            "label": "Special Situations",
+            "items": [
+              "Pregnancy needs safer alternatives",
+              "CAD or arrhythmias may favor beta-blockers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "monitoring",
+      "title": "Monitoring",
+      "type": "checkpoint",
+      "icon": "🩺",
+      "summary": "Antihypertensive therapy needs follow-up for both effectiveness and safety.",
+      "hint": "Monitoring = BP + kidneys + potassium + side effects.",
+      "contentStyle": "monitoring_grid",
+      "content": {
+        "groups": [
+          {
+            "label": "Track",
+            "items": [
+              "Clinic BP",
+              "Home BP readings",
+              "Symptoms of control or under-treatment"
+            ]
+          },
+          {
+            "label": "Labs",
+            "items": [
+              "Potassium",
+              "Renal function",
+              "Electrolytes when relevant"
+            ]
+          },
+          {
+            "label": "Watch for",
+            "items": [
+              "Cough",
+              "Edema",
+              "Dizziness",
+              "Bradycardia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "drug-pearls",
+      "title": "Drug Pearls",
+      "type": "pearl",
+      "icon": "💎",
+      "summary": "A few medication pearls prevent many common hypertension mistakes.",
+      "hint": "Pearls protect you from common prescribing and counseling mistakes.",
+      "contentStyle": "pearl_cards",
+      "content": {
+        "cards": [
+          "Never combine ACEI with ARB",
+          "ACEIs and ARBs are contraindicated in pregnancy",
+          "Chlorthalidone is often preferred to HCTZ",
+          "DHP CCBs commonly cause edema",
+          "Do not stop beta-blockers abruptly"
+        ]
+      }
+    },
+    {
+      "id": "finish",
+      "title": "Mastery Achieved",
+      "type": "finish",
+      "icon": "👑",
+      "summary": "You now have the full hypertension journey from mechanism to personalized drug strategy.",
+      "hint": "Mechanism → diagnosis → stage → treatment → monitoring.",
+      "contentStyle": "simple_bullets",
+      "content": {
+        "bullets": [
+          "Recognize the major pathways",
+          "Choose drugs by mechanism and patient factors",
+          "Monitor response and adverse effects with purpose"
+        ]
+      }
+    }
+  ]
+}
