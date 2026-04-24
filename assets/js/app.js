@@ -735,6 +735,13 @@ function computeTotalQuestions(subjects = []) {
   return subjects.reduce((sum, subject) => sum + Number(subject.questionsCount || 0), 0);
 }
 
+function normalizeSubjectName(name = '') {
+  const value = String(name || '').trim();
+  const compact = value.toLowerCase().replace(/[\s_-]+/g, '');
+  if (compact === 'biochemictry' || compact === 'biochemstry' || compact === 'biochemitry') return 'Biochemistry';
+  return value;
+}
+
 function setSubjectStats(subjects = []) {
   const count = subjects.length;
   const totalQuestions = computeTotalQuestions(subjects);
@@ -760,46 +767,62 @@ function buildHomeSubjectCard(subject) {
 }
 
 function buildFeaturedSubjectCard(subject) {
-  const badge = getThemeClasses(subject.theme).pill;
+  const theme = getThemeClasses(subject.theme);
+  const name = normalizeSubjectName(subject.name);
+  const topicCount = Number(subject.topicsCount || 0);
+  const questionCount = Number(subject.questionsCount || 0);
   return `
-    <article class="md:col-span-8 bg-surface-container-lowest rounded-xl p-8 md:p-12 relative overflow-hidden group cursor-pointer ambient-shadow ghost-border flex flex-col justify-between min-h-[360px]" onclick="selectSubject('${escapeHtml(subject.id)}')">
-      <div class="absolute top-0 right-0 w-64 h-64 bg-primary-fixed-dim rounded-full blur-3xl opacity-20 -translate-y-1/2 translate-x-1/3 group-hover:opacity-40 transition-opacity duration-700"></div>
-      <div class="relative z-10 flex flex-col items-start gap-5">
-        <div class="${badge} px-4 py-1.5 rounded-full"><span class="text-xs font-bold tracking-widest uppercase">Foundational</span></div>
-        <div>
-          <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2" style="letter-spacing:-0.02em">${escapeHtml(subject.name)}</h2>
-          <p class="text-on-surface-variant text-base leading-relaxed max-w-lg">${escapeHtml(subject.description || '')}</p>
+    <article class="md:col-span-6 bg-surface-container-lowest rounded-[2.2rem] p-7 md:p-9 relative overflow-hidden group cursor-pointer ambient-shadow ghost-border flex flex-col justify-between min-h-[315px] hover:-translate-y-1 transition-all duration-300" onclick="selectSubject('${escapeHtml(subject.id)}')">
+      <div class="absolute -top-20 -right-20 w-72 h-72 bg-primary-fixed-dim rounded-full blur-3xl opacity-20 group-hover:opacity-35 transition-opacity duration-700"></div>
+      <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-tertiary-fixed/45 to-transparent"></div>
+      <div class="relative z-10 flex items-start justify-between gap-4 mb-8">
+        <div class="w-13 h-13 min-w-[3.25rem] rounded-[1.25rem] ${theme.iconWrap} flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+          <span class="material-symbols-outlined text-2xl" style="font-variation-settings:'FILL' 1">${escapeHtml(subject.icon || 'science')}</span>
         </div>
+        <div class="${theme.pill} px-4 py-1.5 rounded-full"><span class="text-[11px] font-black tracking-[0.2em] uppercase">Foundational</span></div>
       </div>
-      <div class="relative z-10 mt-10 flex items-center justify-between border-t border-surface-container-high pt-5">
-        <div class="flex items-center gap-8">
-          <div><span class="text-3xl font-light text-primary">${Number(subject.topicsCount || 0)}</span><span class="block text-xs font-bold tracking-wider text-outline uppercase mt-0.5">Topics</span></div>
-          <div><span class="text-3xl font-light text-primary">${Number(subject.questionsCount || 0)}</span><span class="block text-xs font-bold tracking-wider text-outline uppercase mt-0.5">Questions</span></div>
-          <div><span class="text-3xl font-light text-secondary">${appState.accuracy}%</span><span class="block text-xs font-bold tracking-wider text-outline uppercase mt-0.5">Accuracy</span></div>
+      <div class="relative z-10">
+        <h2 class="text-3xl md:text-4xl font-black text-primary tracking-tight mb-3 leading-tight" style="letter-spacing:-0.035em">${escapeHtml(name)}</h2>
+        <p class="text-on-surface-variant text-sm md:text-base leading-relaxed max-w-xl min-h-[3.2rem]">${escapeHtml(subject.description || 'Structured learning path with topics, sets, and exam-style practice.')}</p>
+      </div>
+      <div class="relative z-10 mt-8 pt-5 border-t border-outline-variant/15 flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+        <div class="flex items-center gap-7">
+          <div><span class="text-3xl font-light text-primary">${topicCount}</span><span class="block text-[11px] font-black tracking-[0.18em] text-outline uppercase mt-0.5">Topics</span></div>
+          <div><span class="text-3xl font-light ${theme.accent}">${questionCount}</span><span class="block text-[11px] font-black tracking-[0.18em] text-outline uppercase mt-0.5">Questions</span></div>
+          <div><span class="text-3xl font-light text-secondary">${appState.accuracy}%</span><span class="block text-[11px] font-black tracking-[0.18em] text-outline uppercase mt-0.5">Accuracy</span></div>
         </div>
-        <button class="flex items-center gap-2 text-tertiary font-bold hover:text-tertiary-container transition-colors group-hover:translate-x-1 duration-300">Open Topics <span class="material-symbols-outlined">arrow_forward</span></button>
+        <button class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-black text-sm hover:scale-[0.98] transition-transform shadow-sm">Open Topics <span class="material-symbols-outlined text-base">arrow_forward</span></button>
       </div>
     </article>`;
 }
 
 function buildCompactSubjectCard(subject) {
   const theme = getThemeClasses(subject.theme);
+  const name = normalizeSubjectName(subject.name);
+  const topicCount = Number(subject.topicsCount || 0);
+  const questionCount = Number(subject.questionsCount || 0);
+  const isEmpty = topicCount === 0 && questionCount === 0;
   return `
-    <article class="md:col-span-4 bg-surface-container-lowest rounded-xl p-8 relative overflow-hidden group cursor-pointer ambient-shadow ghost-border min-h-[360px] flex flex-col justify-between" onclick="selectSubject('${escapeHtml(subject.id)}')">
-      <div class="flex items-start justify-between mb-5">
-        <div class="w-11 h-11 rounded-full ${theme.iconWrap} flex items-center justify-center"><span class="material-symbols-outlined">${escapeHtml(subject.icon || 'science')}</span></div>
-        <span class="text-xs font-bold tracking-widest text-outline uppercase">Subject</span>
-      </div>
-      <div>
-        <h3 class="text-2xl font-bold tracking-tight mb-2 text-primary">${escapeHtml(subject.name)}</h3>
-        <p class="text-on-surface-variant text-sm leading-relaxed">${escapeHtml(subject.description || '')}</p>
-      </div>
-      <div class="mt-auto flex items-end justify-between pt-6">
-        <div>
-          <p class="text-2xl font-light text-primary">${Number(subject.topicsCount || 0)} <span class="text-sm text-on-surface-variant">Topics</span></p>
-          <p class="text-xl font-light ${theme.accent}">${Number(subject.questionsCount || 0)} <span class="text-sm text-on-surface-variant">Questions</span></p>
+    <article class="md:col-span-6 bg-surface-container-lowest rounded-[2.2rem] p-7 md:p-9 relative overflow-hidden group cursor-pointer ambient-shadow ghost-border min-h-[315px] flex flex-col justify-between hover:-translate-y-1 transition-all duration-300" onclick="selectSubject('${escapeHtml(subject.id)}')">
+      <div class="absolute -top-24 -right-24 w-64 h-64 ${isEmpty ? 'bg-surface-container' : 'bg-secondary-container'} rounded-full blur-3xl opacity-35 group-hover:opacity-55 transition-opacity duration-700"></div>
+      <div class="flex items-start justify-between gap-4 mb-8 relative z-10">
+        <div class="w-13 h-13 min-w-[3.25rem] rounded-[1.25rem] ${theme.iconWrap} flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+          <span class="material-symbols-outlined text-2xl" style="font-variation-settings:'FILL' 1">${escapeHtml(subject.icon || 'science')}</span>
         </div>
-        <span class="material-symbols-outlined text-tertiary text-3xl group-hover:scale-110 transition-transform">${escapeHtml(subject.icon || 'science')}</span>
+        <span class="text-[11px] font-black tracking-[0.22em] text-outline uppercase">Subject</span>
+      </div>
+      <div class="relative z-10">
+        <h3 class="text-2xl md:text-3xl font-black tracking-tight mb-3 text-primary leading-tight" style="letter-spacing:-0.03em">${escapeHtml(name)}</h3>
+        <p class="text-on-surface-variant text-sm leading-relaxed min-h-[3.1rem]">${escapeHtml(subject.description || 'More topics will be added soon.')}</p>
+      </div>
+      <div class="relative z-10 mt-8 pt-5 border-t border-outline-variant/15 flex items-center justify-between gap-4">
+        <div class="flex items-center gap-6">
+          <div><p class="text-2xl font-light text-primary">${topicCount}</p><p class="text-[11px] font-black tracking-[0.18em] text-outline uppercase">Topics</p></div>
+          <div><p class="text-2xl font-light ${theme.accent}">${questionCount}</p><p class="text-[11px] font-black tracking-[0.18em] text-outline uppercase">Questions</p></div>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-surface-container-low flex items-center justify-center text-tertiary group-hover:bg-tertiary-fixed group-hover:text-on-tertiary-fixed group-hover:translate-x-1 transition-all">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
       </div>
     </article>`;
 }
@@ -814,7 +837,7 @@ function renderSubjectsPage(subjects = []) {
   const grid = document.getElementById('subjects-grid');
   if (!grid) return;
   if (!subjects.length) {
-    grid.innerHTML = '<div class="md:col-span-12 bg-surface-container-lowest rounded-xl p-8 ambient-shadow ghost-border text-on-surface-variant">No subjects found yet.</div>';
+    grid.innerHTML = '<div class="md:col-span-12 bg-surface-container-lowest rounded-[2rem] p-8 ambient-shadow ghost-border text-on-surface-variant">No subjects found yet.</div>';
     return;
   }
   const sorted = [...subjects].sort((a, b) => (a.order || 999) - (b.order || 999));
@@ -823,14 +846,16 @@ function renderSubjectsPage(subjects = []) {
   let html = buildFeaturedSubjectCard(first);
   rest.forEach(subject => { html += buildCompactSubjectCard(subject); });
   html += `
-    <section class="md:col-span-12 mt-4 bg-primary-container rounded-xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 ghost-border ambient-shadow">
-      <div class="max-w-xl">
-        <h3 class="text-2xl font-bold text-primary-fixed tracking-tight mb-3">Pharmacy Nexus Library</h3>
-        <p class="text-on-primary-container text-sm leading-relaxed">Subjects, topics, and questions now load from JSON files so your public UI stays clean while your admin updates the content behind the scenes.</p>
+    <section class="md:col-span-12 mt-2 rounded-[2.4rem] bg-gradient-to-br from-primary to-primary-container p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6 ghost-border ambient-shadow overflow-hidden relative">
+      <div class="absolute -right-20 -bottom-20 w-72 h-72 rounded-full bg-tertiary-fixed/10 blur-3xl"></div>
+      <div class="max-w-2xl relative z-10">
+        <span class="text-[11px] font-black uppercase tracking-[0.24em] text-tertiary-fixed">Library status</span>
+        <h3 class="text-2xl md:text-3xl font-black text-on-primary tracking-tight mt-2 mb-3">Pharmacy Nexus Library</h3>
+        <p class="text-on-primary/75 text-sm leading-relaxed">Subjects, topics, and questions load from JSON files, so your public UI stays clean while the admin updates the content behind the scenes.</p>
       </div>
-      <div class="flex-shrink-0 bg-primary/40 backdrop-blur-md p-6 rounded-lg border border-white/10 font-mono text-primary-fixed-dim">
-        <div class="text-xs text-on-primary-container mb-2 uppercase tracking-wider">Live Subject Count</div>
-        <div class="text-lg">${sorted.length} subjects · ${computeTotalQuestions(sorted)} questions</div>
+      <div class="relative z-10 flex-shrink-0 bg-white/10 backdrop-blur-md p-6 rounded-[1.8rem] border border-white/10 font-mono text-primary-fixed-dim min-w-[250px]">
+        <div class="text-xs text-on-primary-container mb-2 uppercase tracking-wider">Live Content Count</div>
+        <div class="text-lg font-black">${sorted.length} subjects · ${computeTotalQuestions(sorted)} questions</div>
       </div>
     </section>`;
   grid.innerHTML = html;
