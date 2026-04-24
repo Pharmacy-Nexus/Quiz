@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T21:42:26.396Z",
+  "updatedAt": "2026-04-24T20:52:05.772Z",
   "subjects": [
     {
       "id": "pharmacology",
@@ -34,6 +34,17 @@
       "topicsCount": 0,
       "questionsCount": 0,
       "metaFile": "data/clinical-pharmacy/meta.json"
+    },
+    {
+      "id": "bio-chemictry",
+      "name": "Bio-chemictry",
+      "description": "",
+      "icon": "science",
+      "theme": "primary",
+      "order": 1,
+      "topicsCount": 0,
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/meta.json"
     }
   ]
 }
