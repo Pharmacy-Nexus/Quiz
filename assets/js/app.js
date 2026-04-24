@@ -80,6 +80,7 @@ function openNoteModal(currentValue = '', options = {}) {
 }
 const pages = ['home','subjects','topics','sets','study','review','dashboard','profile','about','finalexam','examlive','saved'];
 const navIds = ['home','subjects','dashboard','saved','finalexam','about'];
+const STUDY_SET_SIZE = 20;
 const STORAGE_KEY = 'pharmacyNexusState';
 const DEFAULT_STATE = {
   currentPage: 'home',
@@ -320,6 +321,7 @@ function buildFreshSetSessionQuestions(setIndex = 0) {
 
 function clearCurrentSetSessionQuestions() {
   appState.currentSetSessionQuestions = [];
+  appState.currentSetSessionIndex = null;
 }
 
 function saveState() {
@@ -931,8 +933,40 @@ async function loadTopicQuestions(subjectId, topicId) {
 function getCurrentTopicQuestionChunks() {
   const questions = appState.currentTopicQuestions || [];
   const chunks = [];
-  for (let i = 0; i < questions.length; i += 30) chunks.push(questions.slice(i, i + 30));
+  for (let i = 0; i < questions.length; i += STUDY_SET_SIZE) chunks.push(questions.slice(i, i + STUDY_SET_SIZE));
   return chunks.length ? chunks : [[]];
+}
+
+function getAnsweredState(questionId) {
+  const meta = appState.currentTopicMeta;
+  if (!meta || !questionId) return undefined;
+  return getStudyResultCorrect(meta.id, questionId);
+}
+
+function getAnsweredCountForQuestions(questions = []) {
+  return questions.filter(q => getAnsweredState(q.id) !== undefined).length;
+}
+
+function isSetCompleted(index = 0) {
+  const chunk = getCurrentTopicQuestionChunks()[index] || [];
+  return !!chunk.length && getAnsweredCountForQuestions(chunk) >= chunk.length;
+}
+
+function isSetUnlocked(index = 0) {
+  return index === 0 || isSetCompleted(index - 1);
+}
+
+function isTopicFullyAnswered() {
+  const questions = appState.currentTopicQuestions || [];
+  return !!questions.length && getAnsweredCountForQuestions(questions) >= questions.length;
+}
+
+function getWrongQuestionIdsForTopic() {
+  const meta = appState.currentTopicMeta;
+  if (!meta) return [];
+  return (appState.currentTopicQuestions || [])
+    .filter(q => getStudyResultCorrect(meta.id, q.id) === false)
+    .map(q => q.id);
 }
 
 function getDifficultyCounts(questions = []) {
@@ -982,29 +1016,59 @@ function renderSetsPage() {
 
   const setGrid = document.getElementById('sets-grid');
   if (setGrid) {
-    setGrid.innerHTML = chunks.map((chunk, idx) => {
-      const start = idx * 30 + 1;
+    const wrongIds = getWrongQuestionIdsForTopic();
+    const topicDone = isTopicFullyAnswered();
+    const normalCards = chunks.map((chunk, idx) => {
+      const start = idx * STUDY_SET_SIZE + 1;
       const end = start + chunk.length - 1;
-      const answeredInSet = chunk.filter(q => appState.studyResults?.[meta.id]?.[q.id] !== undefined).length;
+      const answeredInSet = getAnsweredCountForQuestions(chunk);
       const pct = chunk.length ? Math.round((answeredInSet / chunk.length) * 100) : 0;
       const started = answeredInSet > 0;
-      return `
-        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow group cursor-pointer hover:-translate-y-0.5 transition-transform" onclick="startSet(${idx})">
-          <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 ${started ? 'bg-tertiary/10 text-tertiary' : 'bg-surface-container text-on-surface-variant'} rounded-full text-xs font-bold uppercase tracking-wider">Set ${idx + 1} • ${started ? 'In Progress' : 'Not Started'}</span><span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">arrow_outward</span></div>
-          <h3 class="text-lg font-bold text-primary mb-1">Questions ${start}–${end}</h3>
-          <p class="text-sm text-on-surface-variant mb-5">${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this set.</p>
-          <div class="flex justify-between items-center gap-3 pt-4 border-t border-outline-variant/15">
-            <div><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-32 bg-surface-container rounded-full h-1.5 overflow-hidden"><div class="bg-tertiary h-1.5 rounded-full" style="width:${pct}%"></div></div></div>
-            <div class="flex items-center gap-2">
+      const completed = chunk.length > 0 && answeredInSet >= chunk.length;
+      const unlocked = isSetUnlocked(idx);
+      const statusText = completed ? 'Completed' : started ? 'In Progress' : unlocked ? 'Not Started' : 'Locked';
+      const statusClass = completed
+        ? 'bg-secondary-container/60 text-on-secondary-container'
+        : started
+          ? 'bg-tertiary/10 text-tertiary'
+          : unlocked
+            ? 'bg-surface-container text-on-surface-variant'
+            : 'bg-surface-container-high text-outline';
+      const cardStateClass = unlocked ? 'cursor-pointer hover:-translate-y-0.5' : 'opacity-60 cursor-not-allowed';
+      const actionHtml = unlocked
+        ? `<div class="flex items-center gap-2">
               ${started ? `<button onclick="event.stopPropagation(); startSet(${idx}, true);" class="bg-primary text-on-primary px-4 py-2 rounded-lg text-sm font-bold">Resume</button>` : ''}
               <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Restart Fresh' : 'Start Set'}</button>
-            </div>
+            </div>`
+        : `<button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-high text-outline border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold cursor-not-allowed">Locked</button>`;
+      return `
+        <div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow group transition-transform ${cardStateClass}" onclick="startSet(${idx})">
+          <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 ${statusClass} rounded-full text-xs font-bold uppercase tracking-wider">Set ${idx + 1} • ${statusText}</span><span class="material-symbols-outlined ${unlocked ? 'text-outline group-hover:text-tertiary' : 'text-outline'} transition-colors">${unlocked ? 'arrow_outward' : 'lock'}</span></div>
+          <h3 class="text-lg font-bold text-primary mb-1">Questions ${start}–${end}</h3>
+          <p class="text-sm text-on-surface-variant mb-5">${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this set.</p>
+          ${!unlocked ? `<p class="text-xs font-bold text-tertiary mb-4 flex items-center gap-2"><span class="material-symbols-outlined text-sm">lock</span>Finish Set ${idx} first to unlock this set.</p>` : ''}
+          <div class="flex justify-between items-center gap-3 pt-4 border-t border-outline-variant/15">
+            <div><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-32 bg-surface-container rounded-full h-1.5 overflow-hidden"><div class="bg-tertiary h-1.5 rounded-full" style="width:${pct}%"></div></div></div>
+            ${actionHtml}
           </div>
         </div>`;
     }).join('');
+
+    const wrongCard = `
+      <div class="bg-gradient-to-br from-primary to-primary-container rounded-xl p-6 ambient-shadow group transition-transform ${topicDone && wrongIds.length ? 'cursor-pointer hover:-translate-y-0.5' : 'opacity-80'} text-on-primary" onclick="startWrongQuestionSet()">
+        <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 bg-tertiary-fixed/20 text-tertiary-fixed rounded-full text-xs font-bold uppercase tracking-wider">Wrong Bank • ${wrongIds.length} Questions</span><span class="material-symbols-outlined text-tertiary-fixed">${topicDone ? 'restart_alt' : 'lock'}</span></div>
+        <h3 class="text-lg font-bold mb-1">Wrong Questions Set</h3>
+        <p class="text-sm text-on-primary/75 mb-5">This set automatically collects the questions you answered wrong across all sets in this topic.</p>
+        <div class="rounded-2xl bg-white/10 border border-white/15 p-4 mb-5">
+          <p class="text-xs font-bold uppercase tracking-widest text-tertiary-fixed mb-1">Study advice</p>
+          <p class="text-sm text-on-primary/85 leading-relaxed">Don’t open this set until you finish all questions first, so your weak-area bank becomes accurate.</p>
+        </div>
+        <button onclick="event.stopPropagation(); startWrongQuestionSet();" class="w-full bg-tertiary-fixed text-on-tertiary-fixed px-5 py-3 rounded-xl text-sm font-extrabold ${topicDone && wrongIds.length ? 'hover:scale-[0.98]' : 'opacity-60 cursor-not-allowed'} transition-transform">${!topicDone ? 'Locked Until Topic Is Complete' : wrongIds.length ? 'Start Wrong Set' : 'No Wrong Questions Yet'}</button>
+      </div>`;
+
+    setGrid.innerHTML = normalCards + wrongCard;
   }
 }
-
 function difficultyBadgeClass(difficulty) {
   const d = String(difficulty || 'easy').toLowerCase();
   if (d === 'hard') return 'bg-error-container/40 text-on-error-container';
@@ -1017,10 +1081,18 @@ function formatType(type = '') {
 }
 
 function startSet(index = 0, resume = false) {
+  const chunks = getCurrentTopicQuestionChunks();
+  const previewQuestions = (chunks[index] || []);
+  const meta = appState.currentTopicMeta;
+  if (!previewQuestions.length) return;
+
+  if (!isSetUnlocked(index)) {
+    showToast(`Finish Set ${index} first to unlock Set ${index + 1}.`, 'info');
+    return;
+  }
+
   appState.currentSetIndex = index;
   appState.retryQuestionIds = [];
-  const previewQuestions = (getCurrentTopicQuestionChunks()[index] || []);
-  const meta = appState.currentTopicMeta;
 
   if (!resume) {
     clearCurrentSetSessionQuestions();
@@ -1028,9 +1100,11 @@ function startSet(index = 0, resume = false) {
       resetQuestionsAttempt(previewQuestions.map(q => q.id));
     }
     appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
+    appState.currentSetSessionIndex = index;
     appState.currentQuestionIndex = 0;
-  } else if (!Array.isArray(appState.currentSetSessionQuestions) || !appState.currentSetSessionQuestions.length) {
+  } else if (appState.currentSetSessionIndex !== index || !Array.isArray(appState.currentSetSessionQuestions) || !appState.currentSetSessionQuestions.length) {
     appState.currentSetSessionQuestions = buildFreshSetSessionQuestions(index);
+    appState.currentSetSessionIndex = index;
   }
 
   beginStudySession('set');
@@ -1040,8 +1114,31 @@ function startSet(index = 0, resume = false) {
 }
 window.startSet = startSet;
 
+function startWrongQuestionSet() {
+  const meta = appState.currentTopicMeta;
+  if (!meta) return;
+  if (!isTopicFullyAnswered()) {
+    showToast('Finish all questions first before opening the Wrong Questions Set.', 'info');
+    return;
+  }
+  const wrongIds = getWrongQuestionIdsForTopic();
+  if (!wrongIds.length) {
+    showToast('Great work — no wrong questions in this topic yet.', 'success');
+    return;
+  }
+  resetQuestionsAttempt(wrongIds);
+  appState.retryQuestionIds = wrongIds;
+  appState.currentQuestionIndex = 0;
+  clearCurrentSetSessionQuestions();
+  beginStudySession('wrong');
+  saveState();
+  navigateTo('study');
+  renderStudyQuestion();
+}
+window.startWrongQuestionSet = startWrongQuestionSet;
+
 function getCurrentSetQuestions() {
-  if (Array.isArray(appState.currentSetSessionQuestions) && appState.currentSetSessionQuestions.length) {
+  if (appState.currentSetSessionIndex === appState.currentSetIndex && Array.isArray(appState.currentSetSessionQuestions) && appState.currentSetSessionQuestions.length) {
     return appState.currentSetSessionQuestions;
   }
   const chunks = getCurrentTopicQuestionChunks();
@@ -1208,7 +1305,7 @@ function renderStudyQuestion() {
 
   const studyHeader = document.getElementById('study-header-topic');
   if (studyHeader) {
-    studyHeader.textContent = appState.studyMode === 'daily' ? `Daily Challenge • ${meta.name}` : `${meta.name} • Set ${appState.currentSetIndex + 1}${appState.studyMode === 'wrong' ? ' • Wrong Questions Retry' : ''}`;
+    studyHeader.textContent = appState.studyMode === 'daily' ? `Daily Challenge • ${meta.name}` : (appState.studyMode === 'wrong' ? `${meta.name} • Wrong Questions Set` : `${meta.name} • Set ${appState.currentSetIndex + 1}`);
   }
   document.getElementById('study-q-counter') && (document.getElementById('study-q-counter').textContent = `${humanIndex} of ${total}`);
   document.getElementById('study-progress') && (document.getElementById('study-progress').style.width = `${pct}%`);
@@ -1386,7 +1483,7 @@ function renderReviewPage() {
   const correct = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === true).length;
   const wrong = questions.filter(q => getStudyResultCorrect(meta.id, q.id) === false).length;
   const accuracy = total ? Math.round((correct / total) * 100) : 0;
-  const modeLabel = appState.studyMode === 'wrong' ? 'Wrong Questions Retry' : `Set ${appState.currentSetIndex + 1}`;
+  const modeLabel = appState.studyMode === 'wrong' ? 'Wrong Questions Set' : `Set ${appState.currentSetIndex + 1}`;
   const reviewCards = questions.map((q, idx) => {
     const storedChoice = getStudyResultChoice(meta.id, q.id);
     const userChoiceIndex = Number.isFinite(Number(storedChoice)) ? Number(storedChoice) : (Number.isFinite(Number(q.userChoice)) ? Number(q.userChoice) : null);
