@@ -170,6 +170,181 @@ tailwind.config = {
   .daily-result-pill { display:inline-flex; align-items:center; justify-content:center; padding:.48rem .9rem; border-radius:9999px; font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
 
 
+
+
+/* ===================== Premium Hover Sidebar + Capsule Cursor ===================== */
+@media (min-width: 768px) {
+  #sidebar {
+    width: 5.6rem;
+    transition:
+      width 0.38s cubic-bezier(.22, 1, .36, 1),
+      box-shadow 0.38s ease,
+      background 0.38s ease;
+    overflow: hidden;
+    border-right: 1px solid rgba(193,199,203,0.22);
+  }
+
+  #sidebar:hover {
+    width: 16rem;
+    box-shadow: 18px 0 45px rgba(0,21,27,0.10);
+  }
+
+  main {
+    margin-left: 5.6rem !important;
+    transition: margin-left 0.38s cubic-bezier(.22, 1, .36, 1);
+  }
+
+  #sidebar:hover ~ main {
+    margin-left: 16rem !important;
+  }
+
+  #sidebar h1,
+  #sidebar p,
+  #sidebar .nav-link span:last-child,
+  #sidebar .sidebar-button-label,
+  #sidebar button span[data-theme-toggle-label],
+  #sidebar-profile-name,
+  #sidebar-profile-trigger p:last-child {
+    opacity: 0;
+    transform: translateX(-8px);
+    transition: opacity 0.24s ease, transform 0.24s ease;
+    white-space: nowrap;
+  }
+
+  #sidebar:hover h1,
+  #sidebar:hover p,
+  #sidebar:hover .nav-link span:last-child,
+  #sidebar:hover .sidebar-button-label,
+  #sidebar:hover button span[data-theme-toggle-label],
+  #sidebar:hover #sidebar-profile-name,
+  #sidebar:hover #sidebar-profile-trigger p:last-child {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  #sidebar .nav-link {
+    position: relative;
+    justify-content: flex-start;
+    min-height: 48px;
+    transition: background 0.25s ease, transform 0.25s ease, padding 0.25s ease;
+  }
+
+  #sidebar:not(:hover) .nav-link {
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  #sidebar:hover .nav-link:hover {
+    transform: translateX(3px);
+  }
+
+  #sidebar:not(:hover) .nav-link.active {
+    border-right: none;
+    background: rgba(255,255,255,0.65);
+  }
+
+  #sidebar:not(:hover) .nav-link.active::after {
+    content: "";
+    position: absolute;
+    right: 0.25rem;
+    top: 50%;
+    width: 4px;
+    height: 24px;
+    border-radius: 999px;
+    background: #735c00;
+    transform: translateY(-50%);
+  }
+
+  #sidebar:not(:hover) .mb-6,
+  #sidebar:not(:hover) .mt-auto {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #sidebar:not(:hover) .mb-6 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #sidebar:not(:hover) .mb-6::before {
+    content: "PN";
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    background: #00151b;
+    color: #ffe088;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    box-shadow: 0 12px 26px rgba(0,21,27,0.16);
+  }
+
+  #sidebar:not(:hover) .mb-6 > * {
+    display: none;
+  }
+
+  #sidebar:not(:hover) button {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 999px;
+    margin-inline: auto;
+    overflow: hidden;
+  }
+
+  #sidebar:not(:hover) #sidebar-profile-trigger {
+    justify-content: center;
+  }
+
+  #sidebar:not(:hover) #sidebar-profile-trigger > div:last-child {
+    display: none;
+  }
+
+  #sidebar .sidebar-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (pointer: fine) {
+  body { cursor: none; }
+
+  #pn-capsule-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 34px;
+    height: 18px;
+    border-radius: 999px;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 21, 27, 0.82);
+    border: 1px solid rgba(255, 224, 136, 0.65);
+    box-shadow: 0 8px 24px rgba(0,21,27,0.22), 0 0 0 4px rgba(255,224,136,0.08);
+    transition: width 0.18s ease, height 0.18s ease, background 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
+    opacity: 0;
+  }
+
+  #pn-capsule-cursor.is-visible { opacity: 1; }
+
+  #pn-capsule-cursor.is-hovering {
+    width: 46px;
+    height: 22px;
+    background: rgba(115, 92, 0, 0.9);
+    border-color: rgba(255,255,255,0.75);
+  }
+
+  a, button, .nav-link, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
+}
+
 </style>
 </head>
 <body class="min-h-screen flex">
@@ -189,6 +364,10 @@ tailwind.config = {
       <span class="material-symbols-outlined text-xl">menu_book</span>
       <span class="text-sm font-semibold">Subjects</span>
     </a>
+    <a class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-white/50 transition-all cursor-pointer" href="./intern/index.html" id="nav-intern">
+      <span class="material-symbols-outlined text-xl">badge</span>
+      <span class="text-sm font-semibold">Intern</span>
+    </a>
     <a class="nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-white/50 transition-all cursor-pointer" onclick="navigateTo('dashboard')" id="nav-dashboard">
       <span class="material-symbols-outlined text-xl">dashboard</span>
       <span class="text-sm font-semibold">Dashboard</span>
@@ -207,8 +386,9 @@ tailwind.config = {
     </a>
   </nav>
   <div class="mt-auto flex flex-col gap-4 px-4">
-    <button onclick="navigateTo('finalexam')" class="w-full bg-primary text-on-primary py-3 rounded-xl font-bold text-sm tracking-wide hover:scale-[0.98] transition-transform hover:shadow-[0_0_16px_rgba(255,224,136,0.3)]">
-      Start Final Exam
+    <button onclick="navigateTo('finalexam')" class="sidebar-icon-btn w-full bg-primary text-on-primary py-3 rounded-xl font-bold text-sm tracking-wide hover:scale-[0.98] transition-transform hover:shadow-[0_0_16px_rgba(255,224,136,0.3)]">
+      <span class="material-symbols-outlined text-base">school</span>
+      <span class="sidebar-button-label">Start Final Exam</span>
     </button>
     <button onclick="toggleTheme()" class="w-full bg-surface-container-lowest text-primary py-3 rounded-xl font-bold text-sm tracking-wide border border-outline-variant/20 hover:bg-white transition-colors flex items-center justify-center gap-2">
       <span data-theme-toggle-icon class="material-symbols-outlined text-base">dark_mode</span>
@@ -244,6 +424,10 @@ tailwind.config = {
     <span class="material-symbols-outlined text-xl">menu_book</span>
     <span class="text-[9px] font-bold uppercase tracking-wider">Subjects</span>
   </a>
+  <a href="./intern/index.html" id="mobile-intern-link" class="flex flex-col items-center gap-0.5 p-2 cursor-pointer text-on-surface-variant hover:text-primary transition-colors">
+    <span class="material-symbols-outlined text-xl">badge</span>
+    <span class="text-[9px] font-bold uppercase tracking-wider">Intern</span>
+  </a>
   <a onclick="navigateTo('dashboard')" class="flex flex-col items-center gap-0.5 p-2 cursor-pointer text-on-surface-variant hover:text-primary transition-colors">
     <span class="material-symbols-outlined text-xl">dashboard</span>
     <span class="text-[9px] font-bold uppercase tracking-wider">Dashboard</span>
@@ -259,7 +443,7 @@ tailwind.config = {
 </nav>
 
 <!-- ============================================================ MAIN ============================================================ -->
-<main class="flex-1 md:ml-64 min-h-screen pt-16 md:pt-0 pb-20 md:pb-0">
+<main class="flex-1 min-h-screen pt-16 md:pt-0 pb-20 md:pb-0">
 
 <!-- ===================== PAGE: HOME ===================== -->
 <div id="page-home" class="page active fade-in">
@@ -1893,5 +2077,54 @@ tailwind.config = {
 
 <div id="pn-modal-root"></div>
 <div id="pn-toast-root" class="fixed top-5 right-5 z-[120] flex flex-col gap-3 pointer-events-none"></div>
+
+<script>
+  (function () {
+    if (!window.matchMedia || !window.matchMedia('(pointer: fine)').matches) return;
+    if (document.getElementById('pn-capsule-cursor')) return;
+
+    const cursor = document.createElement('div');
+    cursor.id = 'pn-capsule-cursor';
+    document.body.appendChild(cursor);
+
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let currentX = mouseX;
+    let currentY = mouseY;
+
+    document.addEventListener('mousemove', function (e) {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursor.classList.add('is-visible');
+    });
+
+    document.addEventListener('mouseleave', function () {
+      cursor.classList.remove('is-visible');
+    });
+
+    document.addEventListener('mouseover', function (e) {
+      if (e.target.closest('a, button, .nav-link, input, textarea, select, [role="button"]')) {
+        cursor.classList.add('is-hovering');
+      }
+    });
+
+    document.addEventListener('mouseout', function (e) {
+      if (e.target.closest('a, button, .nav-link, input, textarea, select, [role="button"]')) {
+        cursor.classList.remove('is-hovering');
+      }
+    });
+
+    function animateCursor() {
+      currentX += (mouseX - currentX) * 0.22;
+      currentY += (mouseY - currentY) * 0.22;
+      cursor.style.left = currentX + 'px';
+      cursor.style.top = currentY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+
+    animateCursor();
+  })();
+</script>
+
 </body>
 </html>
