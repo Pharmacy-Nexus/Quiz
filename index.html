@@ -172,67 +172,80 @@ tailwind.config = {
 
 
 
-/* ===================== Premium Hover Sidebar + Capsule Cursor ===================== */
+/* ===================== Premium Hover Sidebar + Capsule Cursor — polished v2 ===================== */
 @media (min-width: 768px) {
   #sidebar {
-    width: 5.6rem;
+    width: 5.75rem !important;
+    padding-left: 0.9rem !important;
+    padding-right: 0.9rem !important;
     transition:
-      width 0.38s cubic-bezier(.22, 1, .36, 1),
-      box-shadow 0.38s ease,
-      background 0.38s ease;
+      width 0.42s cubic-bezier(.2, .9, .2, 1),
+      box-shadow 0.35s ease,
+      background 0.35s ease;
     overflow: hidden;
     border-right: 1px solid rgba(193,199,203,0.22);
   }
 
+  #sidebar::after {
+    content: "";
+    position: absolute;
+    top: 1.4rem;
+    right: -1px;
+    width: 3px;
+    height: calc(100% - 2.8rem);
+    border-radius: 999px;
+    background: linear-gradient(180deg, transparent, rgba(203,167,47,.65), transparent);
+    opacity: .35;
+    pointer-events: none;
+  }
+
   #sidebar:hover {
-    width: 16rem;
-    box-shadow: 18px 0 45px rgba(0,21,27,0.10);
+    width: 16rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-shadow: 18px 0 45px rgba(0,21,27,0.11);
   }
 
   main {
-    margin-left: 5.6rem !important;
-    transition: margin-left 0.38s cubic-bezier(.22, 1, .36, 1);
+    margin-left: 5.75rem !important;
+    transition: margin-left 0.42s cubic-bezier(.2, .9, .2, 1);
   }
 
   #sidebar:hover ~ main {
     margin-left: 16rem !important;
   }
 
-  #sidebar h1,
-  #sidebar p,
-  #sidebar .nav-link span:last-child,
-  #sidebar .sidebar-button-label,
-  #sidebar button span[data-theme-toggle-label],
-  #sidebar-profile-name,
-  #sidebar-profile-trigger p:last-child {
-    opacity: 0;
-    transform: translateX(-8px);
-    transition: opacity 0.24s ease, transform 0.24s ease;
-    white-space: nowrap;
+  #sidebar nav {
+    align-items: center;
   }
 
-  #sidebar:hover h1,
-  #sidebar:hover p,
-  #sidebar:hover .nav-link span:last-child,
-  #sidebar:hover .sidebar-button-label,
-  #sidebar:hover button span[data-theme-toggle-label],
-  #sidebar:hover #sidebar-profile-name,
-  #sidebar:hover #sidebar-profile-trigger p:last-child {
-    opacity: 1;
-    transform: translateX(0);
+  #sidebar:hover nav {
+    align-items: stretch;
   }
 
   #sidebar .nav-link {
     position: relative;
-    justify-content: flex-start;
+    width: 100%;
     min-height: 48px;
-    transition: background 0.25s ease, transform 0.25s ease, padding 0.25s ease;
+    transition:
+      background 0.25s ease,
+      transform 0.25s ease,
+      width 0.25s ease,
+      padding 0.25s ease;
   }
 
   #sidebar:not(:hover) .nav-link {
-    justify-content: center;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    width: 48px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    padding: 0 !important;
+    border-radius: 999px !important;
+    justify-content: center !important;
+    gap: 0 !important;
+  }
+
+  #sidebar:not(:hover) .nav-link span:not(.material-symbols-outlined) {
+    display: none !important;
   }
 
   #sidebar:hover .nav-link:hover {
@@ -240,17 +253,18 @@ tailwind.config = {
   }
 
   #sidebar:not(:hover) .nav-link.active {
-    border-right: none;
-    background: rgba(255,255,255,0.65);
+    border-right: none !important;
+    background: rgba(255,255,255,0.86) !important;
+    box-shadow: 0 12px 26px rgba(0,21,27,0.07);
   }
 
   #sidebar:not(:hover) .nav-link.active::after {
     content: "";
     position: absolute;
-    right: 0.25rem;
+    right: -0.62rem;
     top: 50%;
     width: 4px;
-    height: 24px;
+    height: 25px;
     border-radius: 999px;
     background: #735c00;
     transform: translateY(-50%);
@@ -258,19 +272,20 @@ tailwind.config = {
 
   #sidebar:not(:hover) .mb-6,
   #sidebar:not(:hover) .mt-auto {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   #sidebar:not(:hover) .mb-6 {
     display: flex;
     justify-content: center;
+    margin-bottom: 1.55rem !important;
   }
 
   #sidebar:not(:hover) .mb-6::before {
     content: "PN";
-    width: 42px;
-    height: 42px;
+    width: 46px;
+    height: 46px;
     border-radius: 999px;
     background: #00151b;
     color: #ffe088;
@@ -279,35 +294,58 @@ tailwind.config = {
     justify-content: center;
     font-weight: 900;
     letter-spacing: -0.03em;
-    box-shadow: 0 12px 26px rgba(0,21,27,0.16);
+    box-shadow: 0 14px 28px rgba(0,21,27,0.18);
   }
 
   #sidebar:not(:hover) .mb-6 > * {
-    display: none;
+    display: none !important;
+  }
+
+  #sidebar h1,
+  #sidebar p,
+  #sidebar .nav-link span:not(.material-symbols-outlined),
+  #sidebar .sidebar-button-label,
+  #sidebar button span[data-theme-toggle-label],
+  #sidebar-profile-name,
+  #sidebar-profile-trigger p:last-child {
+    white-space: nowrap;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+  }
+
+  #sidebar:not(:hover) .sidebar-button-label,
+  #sidebar:not(:hover) button span[data-theme-toggle-label],
+  #sidebar:not(:hover) #sidebar-profile-trigger > div:last-child {
+    display: none !important;
   }
 
   #sidebar:not(:hover) button {
-    width: 48px;
-    height: 48px;
-    padding: 0;
-    border-radius: 999px;
-    margin-inline: auto;
+    width: 48px !important;
+    height: 48px !important;
+    padding: 0 !important;
+    border-radius: 999px !important;
+    margin-inline: auto !important;
     overflow: hidden;
   }
 
   #sidebar:not(:hover) #sidebar-profile-trigger {
-    justify-content: center;
+    justify-content: center !important;
   }
 
-  #sidebar:not(:hover) #sidebar-profile-trigger > div:last-child {
-    display: none;
+  #sidebar:not(:hover) #sidebar-profile-avatar {
+    width: 42px !important;
+    height: 42px !important;
   }
 
-  #sidebar .sidebar-icon-btn {
+  #sidebar .sidebar-icon-btn,
+  #sidebar button {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+  }
+
+  html.dark #sidebar:not(:hover) .nav-link.active {
+    background: rgba(255,255,255,0.08) !important;
   }
 }
 
@@ -318,26 +356,52 @@ tailwind.config = {
     position: fixed;
     left: 0;
     top: 0;
-    width: 34px;
-    height: 18px;
+    width: 46px;
+    height: 24px;
     border-radius: 999px;
     pointer-events: none;
     z-index: 9999;
     transform: translate(-50%, -50%);
-    background: rgba(0, 21, 27, 0.82);
-    border: 1px solid rgba(255, 224, 136, 0.65);
-    box-shadow: 0 8px 24px rgba(0,21,27,0.22), 0 0 0 4px rgba(255,224,136,0.08);
-    transition: width 0.18s ease, height 0.18s ease, background 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
+    background: linear-gradient(135deg, rgba(255,224,136,0.98), rgba(203,167,47,0.96));
+    border: 2px solid rgba(0,21,27,0.88);
+    box-shadow:
+      0 12px 28px rgba(0,21,27,0.24),
+      0 0 0 5px rgba(203,167,47,0.14),
+      inset 0 2px 3px rgba(255,255,255,0.45);
+    transition:
+      width 0.18s ease,
+      height 0.18s ease,
+      background 0.18s ease,
+      border-color 0.18s ease,
+      opacity 0.18s ease;
     opacity: 0;
+  }
+
+  #pn-capsule-cursor::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(0,21,27,0.84);
+    transform: translateY(-50%);
+    box-shadow: 20px 0 0 rgba(0,21,27,0.30);
   }
 
   #pn-capsule-cursor.is-visible { opacity: 1; }
 
   #pn-capsule-cursor.is-hovering {
-    width: 46px;
-    height: 22px;
-    background: rgba(115, 92, 0, 0.9);
-    border-color: rgba(255,255,255,0.75);
+    width: 58px;
+    height: 28px;
+    background: linear-gradient(135deg, #00151b, #143d47);
+    border-color: rgba(255,224,136,0.95);
+  }
+
+  #pn-capsule-cursor.is-hovering::before {
+    background: rgba(255,224,136,0.95);
+    box-shadow: 27px 0 0 rgba(255,224,136,0.45);
   }
 
   a, button, .nav-link, input, textarea, select, [role="button"] {
