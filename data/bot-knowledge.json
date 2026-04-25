@@ -1,0 +1,310 @@
+{
+  "version": "1.0.0",
+  "language": "en",
+  "updatedAt": "2026-04-25",
+  "fallback": "I do not have a saved answer for that yet. Try asking about subjects, sets, wrong questions, final exams, saved notes, dashboard, or study tips.",
+  "medicalSafety": "I can help you study pharmacy concepts, but I cannot provide personal medical advice or treatment decisions. Please use trusted references or consult a qualified healthcare professional.",
+  "pageGreetings": {
+    "home": "Welcome to Pharmacy Nexus. I can guide you through subjects, exams, sets, saved notes, and study tips.",
+    "subjects": "Choose a subject to start. I can help you understand how subjects, topics, and sets work.",
+    "topics": "Pick a topic, then start with Set 1. Build progress step by step.",
+    "sets": "Each set contains 20 questions. Finish the previous set before unlocking the next one.",
+    "study": "Focus on the question first, then read the explanation carefully after answering.",
+    "review": "Review your mistakes carefully. Wrong answers are the fastest way to find weak points.",
+    "dashboard": "Your dashboard shows progress, accuracy, weak areas, recent activity, and achievements.",
+    "profile": "Use your profile to set your study goal and preferences.",
+    "finalexam": "Build a final exam by selecting scope, difficulty, question count, and time limit.",
+    "examlive": "Stay focused. Answer carefully and submit when you finish.",
+    "saved": "Saved questions and notes are your personal review bank.",
+    "about": "Pharmacy Nexus is built to help pharmacy students study smarter and review more effectively."
+  },
+  "quickActions": [
+    {
+      "label": "Study tips",
+      "query": "Give me study tips"
+    },
+    {
+      "label": "How sets work",
+      "query": "How do sets work?"
+    },
+    {
+      "label": "Review mistakes",
+      "query": "How do I review wrong questions?"
+    },
+    {
+      "label": "Final exam",
+      "query": "How does the final exam work?"
+    }
+  ],
+  "medicalKeywords": [
+    "dose",
+    "dosage",
+    "treatment",
+    "treat",
+    "diagnose",
+    "diagnosis",
+    "symptom",
+    "side effect",
+    "adverse effect",
+    "pregnant",
+    "pregnancy",
+    "interaction",
+    "contraindication",
+    "patient",
+    "prescription",
+    "medicine for",
+    "drug for",
+    "can i take",
+    "should i take"
+  ],
+  "intents": [
+    {
+      "id": "study_tips",
+      "category": "study",
+      "page_context": "all",
+      "priority": 9,
+      "keywords": [
+        "study",
+        "tips",
+        "learn",
+        "memorize",
+        "active recall",
+        "how to study",
+        "pharmacy study"
+      ],
+      "answer": "Use active recall: answer questions first, read the explanation, then write one short note about why the correct answer is correct. Review mistakes after every set, then repeat the topic after 24–48 hours."
+    },
+    {
+      "id": "sets_system",
+      "category": "practice",
+      "page_context": "sets",
+      "priority": 10,
+      "keywords": [
+        "set",
+        "sets",
+        "20 questions",
+        "locked",
+        "unlock",
+        "previous set"
+      ],
+      "answer": "Each set contains 20 questions. Finish the previous set before unlocking the next set. This keeps your progress structured and prevents random skipping."
+    },
+    {
+      "id": "wrong_questions",
+      "category": "review",
+      "page_context": "sets",
+      "priority": 10,
+      "keywords": [
+        "wrong",
+        "mistake",
+        "incorrect",
+        "wrong questions",
+        "review mistakes",
+        "wrong set",
+        "mistakes set"
+      ],
+      "answer": "The Wrong Questions Set collects questions you answered incorrectly across the topic. Do not open it until you finish all normal sets first, then use it as a focused revision session."
+    },
+    {
+      "id": "final_exam",
+      "category": "exam",
+      "page_context": "finalexam",
+      "priority": 8,
+      "keywords": [
+        "final exam",
+        "exam",
+        "timed exam",
+        "mixed exam",
+        "real exam",
+        "test"
+      ],
+      "answer": "Final Exam lets you build a mixed or focused exam. Choose the scope, difficulty, number of questions, and time limit, then review your score and mistakes after submission."
+    },
+    {
+      "id": "subjects",
+      "category": "navigation",
+      "page_context": "subjects",
+      "priority": 7,
+      "keywords": [
+        "subjects",
+        "subject",
+        "materials",
+        "pharmacology",
+        "pharmaceutics",
+        "clinical pharmacy",
+        "biochemistry"
+      ],
+      "answer": "Subjects are the main learning areas. Open a subject, choose a topic, then study through 20-question sets until you complete the topic."
+    },
+    {
+      "id": "topics",
+      "category": "navigation",
+      "page_context": "topics",
+      "priority": 7,
+      "keywords": [
+        "topic",
+        "topics",
+        "chapter",
+        "unit"
+      ],
+      "answer": "Topics divide each subject into smaller study areas. Choose one topic, start from Set 1, and continue until all sets are completed."
+    },
+    {
+      "id": "dashboard",
+      "category": "progress",
+      "page_context": "dashboard",
+      "priority": 7,
+      "keywords": [
+        "dashboard",
+        "progress",
+        "accuracy",
+        "weak areas",
+        "performance",
+        "stats",
+        "achievement"
+      ],
+      "answer": "The dashboard summarizes your progress: answered questions, accuracy, strong areas, weak areas, recent sessions, and achievements. Use it to decide what to revise next."
+    },
+    {
+      "id": "saved_notes",
+      "category": "review",
+      "page_context": "saved",
+      "priority": 7,
+      "keywords": [
+        "saved",
+        "saved questions",
+        "notes",
+        "bookmark",
+        "personal notes",
+        "save question"
+      ],
+      "answer": "Saved Questions and Notes act like your personal knowledge bank. Save important questions and write short clinical pearls or exam reminders for later revision."
+    },
+    {
+      "id": "profile",
+      "category": "settings",
+      "page_context": "profile",
+      "priority": 5,
+      "keywords": [
+        "profile",
+        "daily goal",
+        "goal",
+        "preferences",
+        "auto next",
+        "settings"
+      ],
+      "answer": "Your profile stores your study preferences, daily goal, and display information. A daily goal helps you stay consistent without overwhelming yourself."
+    },
+    {
+      "id": "daily_challenge",
+      "category": "practice",
+      "page_context": "home",
+      "priority": 6,
+      "keywords": [
+        "daily challenge",
+        "challenge",
+        "daily",
+        "random questions",
+        "wheel"
+      ],
+      "answer": "Daily Challenge gives you a quick study task for the day. Use it when you want light practice without choosing a full topic."
+    },
+    {
+      "id": "pharmacology_basic",
+      "category": "pharmacy_concept",
+      "page_context": "all",
+      "priority": 4,
+      "keywords": [
+        "what is pharmacology",
+        "pharmacology",
+        "pharmacodynamics",
+        "pharmacokinetics",
+        "adme"
+      ],
+      "answer": "Pharmacology studies how drugs affect the body and how the body handles drugs. Pharmacodynamics focuses on drug effects and receptors, while pharmacokinetics focuses on ADME: absorption, distribution, metabolism, and excretion."
+    },
+    {
+      "id": "pharmaceutics_basic",
+      "category": "pharmacy_concept",
+      "page_context": "all",
+      "priority": 4,
+      "keywords": [
+        "pharmaceutics",
+        "formulation",
+        "dosage form",
+        "bioavailability",
+        "dissolution"
+      ],
+      "answer": "Pharmaceutics focuses on dosage forms, formulation design, drug delivery, stability, dissolution, and bioavailability. It connects the drug substance to a usable medicine."
+    },
+    {
+      "id": "clinical_pharmacy_basic",
+      "category": "pharmacy_concept",
+      "page_context": "all",
+      "priority": 4,
+      "keywords": [
+        "clinical pharmacy",
+        "patient care",
+        "therapeutics",
+        "monitoring",
+        "counseling"
+      ],
+      "answer": "Clinical Pharmacy applies drug knowledge to patient care. It includes therapeutic selection, monitoring, interactions, dosing considerations, counseling, and safety review."
+    },
+    {
+      "id": "how_to_start",
+      "category": "onboarding",
+      "page_context": "home",
+      "priority": 8,
+      "keywords": [
+        "start",
+        "begin",
+        "what should i do",
+        "where do i start",
+        "new here"
+      ],
+      "answer": "Start with Subjects, choose one topic, complete Set 1, read every explanation, then continue to the next set. After finishing the topic, review the Wrong Questions Set."
+    },
+    {
+      "id": "why_locked_sets",
+      "category": "practice",
+      "page_context": "sets",
+      "priority": 9,
+      "keywords": [
+        "why locked",
+        "locked sets",
+        "cannot open set",
+        "set locked",
+        "unlock set"
+      ],
+      "answer": "Sets are locked to keep your learning sequence organized. Complete the current set first, then the next set will unlock automatically."
+    },
+    {
+      "id": "copy_guard",
+      "category": "exam_rules",
+      "page_context": "study",
+      "priority": 5,
+      "keywords": [
+        "copy",
+        "paste",
+        "screenshot",
+        "guard",
+        "cannot copy"
+      ],
+      "answer": "Copy protection helps keep exam-style practice focused. Use the explanation and notes system for revision instead of copying full questions."
+    },
+    {
+      "id": "fallback_help",
+      "category": "help",
+      "page_context": "all",
+      "priority": 1,
+      "keywords": [
+        "help",
+        "what can you do",
+        "commands",
+        "options"
+      ],
+      "answer": "I can help with: how to use subjects, how sets work, reviewing mistakes, final exams, saved notes, dashboard progress, and general study tips."
+    }
+  ]
+}
