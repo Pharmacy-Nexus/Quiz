@@ -669,51 +669,39 @@ const PNBot = {
   // Page explanations - contextual
   pageExplanations: {
     home: {
-      ar: 'Home page: مرحباً بك في Pharmacy Nexus. هنا تشوف إحصائياتك السريعة، تتصفح المواد، تجرب التحدي اليومي، وترجع تكمل من حيث وقفت.',
       en: 'Home page: Welcome to Pharmacy Nexus. Here you see quick stats, browse subjects, try the Daily Challenge, and resume where you left off.'
     },
     subjects: {
-      ar: 'Subjects page: هنا كل المواد الدراسية. Pharmacology للميكانيزمات، Pharmaceutics للتركيبات، Clinical Pharmacy للعلاج السريري. اختار مادة وادخل فيها.',
       en: 'Subjects page: All study disciplines are here. Pharmacology for mechanisms, Pharmaceutics for formulations, Clinical Pharmacy for therapy. Pick one and dive in.'
     },
     topics: {
-      ar: 'Topics page: المادة مقسمة لمواضيع فرعية. كل موضوع فيه sets من الأسئلة. اختار الموضوع اللي عايز تذاكره.',
       en: 'Topics page: The subject is divided into sub-topics. Each topic has question sets. Choose the topic you want to study.'
     },
     sets: {
-      ar: 'Sets page: كل Set فيه 20 سؤال. فيه progress bar يوريك وصلت لفين. لما تخلص كل الـ Sets، يفتحلك Wrong Questions Set.',
       en: 'Sets page: Each set has 20 questions. A progress bar shows how far you have reached. When you finish all sets, the Wrong Questions Set unlocks.'
     },
     study: {
-      ar: 'Study page: حل السؤال واختار الإجابة. لو غلطت، الشرح هيظهر فوراً. تقدر تحفظ السؤال أو تضيف ملاحظة شخصية.',
       en: 'Study page: Read the question and choose your answer. If wrong, the explanation appears instantly. You can save the question or add a personal note.'
     },
     review: {
-      ar: 'Review page: تحليل أدائك بعد كل session. شوف إجاباتك الصح والغلط، اقرأ الشرح لكل سؤال، وراجع الغلطات.',
       en: 'Review page: Performance analysis after each session. See your correct and wrong answers, read explanations, and review mistakes.'
     },
     dashboard: {
-      ar: 'Dashboard page: لوحة تحكمك الشخصية. Overall Score، المواد القوية والضعيفة، آخر نشاط، وإنجازاتك.',
       en: 'Dashboard page: Your personal command center. Overall Score, strong and weak areas, recent activity, and achievements.'
     },
     profile: {
-      ar: 'Profile page: بياناتك الشخصية. اسمك، جامعتك، هدفك اليومي، وتفضيلات الدراسة زي Shuffle و Auto-next.',
       en: 'Profile page: Your personal details. Name, university, daily goal, and study preferences like Shuffle and Auto-next.'
     },
     finalexam: {
-      ar: 'Final Exam page: ابني امتحانك المخصوص. اختار المواد، الصعوبة، عدد الأسئلة، والوقت. بعدين ابدأ وحل.',
       en: 'Final Exam page: Build your custom exam. Choose subjects, difficulty, question count, and time limit. Then start solving.'
     },
     examlive: {
-      ar: 'Live Exam page: الامتحان شغال دلوقتي. ركز في كل سؤال. لو محتاج تفتكر سؤال، علمه بـ Flag. ادوس Submit لما تخلص.',
       en: 'Live Exam page: The exam is running now. Focus on each question. Flag questions you want to revisit. Press Submit when done.'
     },
     saved: {
-      ar: 'Saved page: بنك معرفتك الشخصي. الأسئلة المحفوظة والملاحظات. تقدر تبحث، تفلتر، وتصدر ملاحظاتك PDF.',
       en: 'Saved page: Your personal knowledge bank. Saved questions and notes. You can search, filter, and export notes as PDF.'
     },
     about: {
-      ar: 'About page: تعرف على Pharmacy Nexus. منصة مجانية للصيادلة. بنساعد الطلاب وال interns والمرشحين لامتحان الترخيص.',
       en: 'About page: Learn about Pharmacy Nexus. A free platform for pharmacists. We help students, interns, and licensure exam candidates.'
     }
   },
@@ -937,9 +925,8 @@ const PNBot = {
     this.speechSynth.cancel();
     
     // Detect if text is mostly Arabic or English
-    const isArabic = /[\u0600-\u06FF]/.test(text);
-    const lang = isArabic ? 'ar-SA' : 'en-US';
-    const rate = isArabic ? 1 : 0.95;
+    const lang = 'en-US';
+const rate = 0.95;
     
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
