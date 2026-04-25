@@ -2236,32 +2236,6 @@ tailwind.config = {
     animateCursor();
   })();
 </script>
-<!-- Pharmacy Bot -->
-<div id="pn-bot-container"></div>
-<script>
-  fetch('pharmacy-bot.html')
-    .then(r => r.text())
-    .then(html => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      
-      // Append styles
-      const styles = doc.querySelectorAll('style');
-      styles.forEach(s => document.head.appendChild(s.cloneNode(true)));
-      
-      // Append HTML
-      const botHtml = doc.querySelector('.pn-bot-wrapper');
-      if (botHtml) document.getElementById('pn-bot-container').appendChild(botHtml);
-      
-      // Append script
-      const scripts = doc.querySelectorAll('script');
-      scripts.forEach(s => {
-        const newScript = document.createElement('script');
-        newScript.textContent = s.textContent;
-        document.body.appendChild(newScript);
-      });
-    });
-</script>
   <script src="./assets/js/pharmacy-bot.js"></script>
 </body>
 </html>
