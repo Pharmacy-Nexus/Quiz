@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-26T19:10:51.398Z",
+  "updatedAt": "2026-04-26T20:19:33.167Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -801,6 +801,725 @@
       ],
       "correctAnswer": 1,
       "explanation": "Alprazolam is a benzodiazepine. Flumazenil is the specific competitive antagonist at the benzodiazepine binding site and can reverse benzodiazepine toxicity. However, it should be used cautiously in chronic benzodiazepine users because it may precipitate withdrawal seizures.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-051",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypnotic drugs are primarily used for:",
+      "options": [
+        "Psychosis",
+        "Sleep disorders",
+        "Narcolepsy",
+        "Parkinsonian disorders",
+        "Acute mania"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hypnotic drugs are medications used primarily to induce and maintain sleep. Their main clinical use is in the treatment of insomnia and other sleep disturbances. They are not used as primary therapy for psychosis, narcolepsy, Parkinson's disease, or acute mania. Psychosis is treated mainly with antipsychotics. Narcolepsy is treated with wake-promoting agents such as modafinil or stimulants. Parkinsonian disorders are treated with dopaminergic drugs. Acute mania is treated with mood stabilizers and antipsychotics.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-052",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypnotic drugs should:",
+      "options": [
+        "Reduce anxiety and exert a calming effect",
+        "Induce absence of sensation",
+        "Produce drowsiness, encourage the onset and maintenance of sleep",
+        "Prevent mood swings in patients with bipolar affective disorders"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main pharmacological goal of a hypnotic drug is to promote sleep. A good hypnotic should help the patient fall asleep faster, maintain sleep for an adequate duration, and ideally produce minimal next-day sedation. Option A describes a sedative/anxiolytic effect more than a pure hypnotic effect. Sedatives reduce anxiety and calm the patient, while hypnotics specifically promote sleep. Option B describes anesthesia, not hypnosis. Option D describes the action of mood stabilizers used in bipolar disorder.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-053",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following chemical agents are used in the treatment of insomnia?",
+      "options": [
+        "Benzodiazepines",
+        "Imidazopyridines",
+        "Barbiturates",
+        "Antihistamines",
+        "All of the above"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Several drug classes can produce hypnotic effects and may be used, or have historically been used, in insomnia. Benzodiazepines such as temazepam, triazolam, and flurazepam are classic hypnotics. Imidazopyridines, especially zolpidem, are non-benzodiazepine hypnotics that act on benzodiazepine receptors. Barbiturates such as secobarbital and pentobarbital were previously used as hypnotics but are now rarely used because of toxicity, dependence, and overdose risk. Antihistamines such as diphenhydramine can cause sedation and are sometimes used for short-term insomnia, especially in over-the-counter preparations. So the best answer is all of the above.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-054",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the hypnotic drug which is a benzodiazepine derivative:",
+      "options": [
+        "Zolpidem",
+        "Flurazepam",
+        "Secobarbital",
+        "Phenobarbital",
+        "Diphenhydramine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flurazepam is a benzodiazepine hypnotic. Benzodiazepines act as positive allosteric modulators of the GABA-A receptor, increasing the frequency of chloride channel opening in response to GABA. Zolpidem is not a benzodiazepine chemically; it is an imidazopyridine. Secobarbital and phenobarbital are barbiturates. Diphenhydramine is a first-generation antihistamine with sedative properties.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-055",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick a hypnotic agent that is a barbituric acid derivative:",
+      "options": [
+        "Flurazepam",
+        "Zaleplon",
+        "Thiopental",
+        "Triazolam",
+        "Zolpidem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thiopental is a barbiturate, specifically an ultra-short-acting barbiturate commonly used intravenously for induction of anesthesia. Flurazepam and triazolam are benzodiazepines. Zaleplon is a non-benzodiazepine hypnotic from the pyrazolopyrimidine class. Zolpidem is an imidazopyridine hypnotic.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-056",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the hypnotic drug that is an imidazopyridine derivative:",
+      "options": [
+        "Pentobarbital",
+        "Temazepam",
+        "Zolpidem",
+        "Chloral hydrate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Zolpidem is an imidazopyridine derivative. It is classified as a non-benzodiazepine hypnotic, often called a Z-drug. Although zolpidem is not structurally a benzodiazepine, it binds to the benzodiazepine site on the GABA-A receptor, especially the BZ1/omega-1 receptor subtype, producing hypnotic effects with relatively limited anxiolytic, muscle-relaxant, and anticonvulsant effects. Pentobarbital is a barbiturate. Temazepam is a benzodiazepine. Chloral hydrate is an older sedative-hypnotic.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following hypnotic benzodiazepines is relatively slowly absorbed?",
+      "options": [
+        "Flurazepam",
+        "Triazolam",
+        "Temazepam",
+        "Diazepam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temazepam is relatively slower in absorption compared with some other benzodiazepine hypnotics. This gives it a slower onset of action compared with rapidly absorbed agents like triazolam. Temazepam is commonly used for insomnia, particularly when the problem is maintaining sleep rather than only difficulty falling asleep. It is also less likely than very long-acting benzodiazepines to cause prolonged residual sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-058",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following barbiturates is an ultra-short-acting drug?",
+      "options": [
+        "Secobarbital",
+        "Amobarbital",
+        "Thiopental",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thiopental is an ultra-short-acting barbiturate. It is highly lipid-soluble, so it rapidly enters the brain after intravenous administration and produces anesthesia quickly. However, its short duration of action after a single dose is mainly due to redistribution from the brain to other tissues, not because it is immediately eliminated from the body. Secobarbital and amobarbital are shorter/intermediate-acting barbiturates. Phenobarbital is long-acting.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tick the barbituric acid derivative which has a 4-5 day elimination half-life:",
+      "options": [
+        "Secobarbital",
+        "Thiopental",
+        "Phenobarbital",
+        "Amobarbital",
+        "Diazepam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenobarbital is a long-acting barbiturate with a very long elimination half-life, often around several days. Because of this long half-life, it can cause cumulative effects, especially with repeated dosing. Phenobarbital is used more commonly as an anticonvulsant than as a hypnotic today. Diazepam has a long half-life too, but it is a benzodiazepine, not a barbituric acid derivative.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tick the hypnotic benzodiazepine which has the shortest elimination half-life:",
+      "options": [
+        "Temazepam",
+        "Triazolam",
+        "Flurazepam",
+        "Diazepam",
+        "Nitrazepam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Triazolam is a short-acting benzodiazepine hypnotic. It has a short elimination half-life and is mainly useful for patients who have difficulty falling asleep. Because of its short duration, it is less likely to cause next-day sedation than long-acting benzodiazepines. However, it may be associated with rebound insomnia, anterograde amnesia, and withdrawal symptoms if used improperly or stopped abruptly after repeated use. Flurazepam and diazepam have long-acting metabolites and are more likely to cause residual effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following hypnotic drugs is more likely to cause cumulative and residual effects?",
+      "options": [
+        "Zolpidem",
+        "Temazepam",
+        "Phenobarbital",
+        "Triazolam",
+        "Secobarbital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenobarbital has a very long elimination half-life. With repeated administration, the drug may accumulate in the body and produce residual sedation, impaired coordination, mental slowing, and daytime drowsiness. This is especially important in elderly patients, patients with liver disease, or patients taking other CNS depressants. Shorter-acting drugs like triazolam or zolpidem are less likely to accumulate, although they can still cause adverse effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following hypnotic drugs increases the activity of hepatic drug-metabolizing enzyme systems?",
+      "options": [
+        "Phenobarbital",
+        "Zolpidem",
+        "Flurazepam",
+        "Zaleplon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital is a classic hepatic microsomal enzyme inducer. It increases the activity of cytochrome P450 enzymes and other drug-metabolizing systems in the liver. This can increase the metabolism of many drugs, reducing their plasma concentration and therapeutic effect. Examples include warfarin, corticosteroids, oral contraceptives, and many other drugs. Benzodiazepines and Z-drugs are not strong enzyme inducers like barbiturates.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hepatic microsomal drug-metabolizing enzyme induction leads to:",
+      "options": [
+        "Barbiturate tolerance",
+        "Cumulative effects",
+        "Development of physical dependence",
+        "\"Hangover\" effects",
+        "Development of psychological dependence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barbiturates such as phenobarbital can induce hepatic microsomal enzymes. This causes the liver to metabolize barbiturates and other drugs more rapidly. With repeated use, increased metabolism of the barbiturate contributes to pharmacokinetic tolerance. This means higher doses may be needed to produce the same effect, increasing the risk of toxicity and dependence. Cumulative effects are more related to long half-life and repeated dosing, not enzyme induction. Physical and psychological dependence are related to neuroadaptation and drug-seeking behavior, not directly to enzyme induction.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-064",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypnotic benzodiazepines are more powerful enzyme inducers than barbiturates.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barbiturates, especially phenobarbital, are well-known strong inducers of hepatic drug-metabolizing enzymes. Benzodiazepines are generally not significant enzyme inducers. They may be metabolized by hepatic enzymes, but they do not usually induce these enzymes strongly. Therefore, the statement is false.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tick the sedative-hypnotic drug that does not significantly change hepatic drug-metabolizing enzyme activity:",
+      "options": [
+        "Flurazepam",
+        "Zaleplon",
+        "Triazolam",
+        "Temazepam",
+        "All of the above"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Unlike barbiturates, benzodiazepines and Z-drugs generally do not significantly induce hepatic microsomal enzymes. Flurazepam, triazolam, and temazepam are benzodiazepines. Zaleplon is a non-benzodiazepine hypnotic. These drugs are not known for strong hepatic enzyme induction. This is one major reason benzodiazepines and Z-drugs are safer than barbiturates in terms of drug interactions.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Barbiturates increase the metabolic rate of:",
+      "options": [
+        "Anticoagulants",
+        "Digitalis compounds",
+        "Glucocorticoids",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Barbiturates, especially phenobarbital, induce hepatic drug-metabolizing enzymes. This can increase the metabolism of many drugs, including anticoagulants, glucocorticoids, and some cardiovascular drugs. This interaction can reduce the therapeutic effects of these medications. For example, increased warfarin metabolism may reduce anticoagulant activity and increase the risk of thrombosis. This makes barbiturates clinically problematic when used with other medications.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which of the following agents inhibits hepatic metabolism of hypnotics?",
+      "options": [
+        "Flumazenil",
+        "Cimetidine",
+        "Phenytoin",
+        "Theophylline",
+        "Naltrexone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cimetidine is an H2 receptor antagonist that can inhibit hepatic cytochrome P450 enzymes. As a result, it may decrease the metabolism of some hypnotics and increase their plasma concentration. This can increase the risk of sedation, confusion, respiratory depression, or other CNS adverse effects. Flumazenil is a benzodiazepine receptor antagonist, not a hepatic metabolism inhibitor. Phenytoin is often an enzyme inducer. Theophylline is a bronchodilator. Naltrexone is an opioid receptor antagonist.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-068",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following factors can influence the biodisposition of hypnotic agents?",
+      "options": [
+        "Alterations in hepatic function resulting from disease",
+        "Old age",
+        "Drug-induced increase or decrease in microsomal enzyme activity",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The biodisposition of hypnotic drugs includes their absorption, distribution, metabolism, and elimination. Liver disease can reduce metabolism and increase drug accumulation. Old age can change drug distribution and reduce hepatic and renal clearance. Enzyme induction or inhibition can significantly change plasma drug levels. Therefore, all of these factors can influence the clinical effect and toxicity of hypnotic drugs.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following hypnotics is preferred for elderly patients?",
+      "options": [
+        "Phenobarbital",
+        "Flurazepam",
+        "Temazepam",
+        "Secobarbital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temazepam is often preferred over long-acting hypnotics in elderly patients because it has a more predictable duration and does not have highly problematic long-acting active metabolites like flurazepam. Elderly patients are more sensitive to CNS depressants and are at higher risk of confusion, falls, fractures, impaired coordination, and next-day sedation. Phenobarbital and secobarbital are barbiturates and are generally avoided because of toxicity and dependence risk. Flurazepam has long-acting metabolites and can cause prolonged sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which benzodiazepine is preferred in patients with impaired hepatic oxidative metabolism?",
+      "options": [
+        "Diazepam",
+        "Flurazepam",
+        "Temazepam",
+        "Chlordiazepoxide",
+        "Nitrazepam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temazepam is preferred when hepatic oxidative metabolism is impaired because it undergoes mainly glucuronidation/conjugation, which is usually better preserved than oxidative metabolism in liver disease and old age. Diazepam, flurazepam, chlordiazepoxide, and nitrazepam depend more on hepatic oxidative pathways and/or active metabolites. This increases the risk of prolonged sedation in patients with impaired hepatic function. A useful clinical memory point is: LOT drugs: Lorazepam, Oxazepam, Temazepam. These benzodiazepines are safer choices when oxidative hepatic metabolism is reduced.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Indicate the mechanism of barbiturate action at hypnotic doses:",
+      "options": [
+        "Increase the duration of GABA-gated chloride channel opening",
+        "Direct activation of chloride channels",
+        "Increase the frequency of chloride channel opening events",
+        "Block chloride channel opening"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At sedative-hypnotic doses, barbiturates enhance the action of GABA at the GABA-A receptor by increasing the duration of chloride channel opening. This increases chloride influx into neurons, causing hyperpolarization and reduced neuronal excitability. This is different from benzodiazepines, which increase the frequency of chloride channel opening events. At high toxic doses, barbiturates may directly activate GABA-A receptors, which contributes to their greater overdose danger.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Imidazopyridines are:",
+      "options": [
+        "Partial agonists of the 5-HT1A brain receptors",
+        "Selective agonists of the BZ1/omega-1 subtype of benzodiazepine receptors",
+        "Competitive antagonists of benzodiazepine receptors",
+        "Nonselective agonists of both BZ1 and BZ2 receptor subtypes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zolpidem is an imidazopyridine hypnotic. It binds preferentially to the BZ1/omega-1 benzodiazepine receptor subtype on the GABA-A receptor complex. This selectivity explains why zolpidem has strong hypnotic activity but relatively weaker anxiolytic, muscle-relaxant, and anticonvulsant effects compared with classical benzodiazepines. It is not a serotonin receptor agonist and not a benzodiazepine receptor antagonist.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-073",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following hypnotic agents is a positive allosteric modulator of GABA-A receptor function?",
+      "options": [
+        "Zaleplon",
+        "Flurazepam",
+        "Zolpidem",
+        "Diazepam",
+        "All of the above"
+      ],
+      "correctAnswer": 4,
+      "explanation": "All listed drugs enhance GABA-A receptor activity. Diazepam and flurazepam are benzodiazepines. They bind to benzodiazepine sites on the GABA-A receptor and increase the frequency of chloride channel opening in response to GABA. Zolpidem and zaleplon are non-benzodiazepine hypnotics, but they also act at benzodiazepine receptor sites, especially BZ1/omega-1 receptor subtypes. Therefore, all of them function as positive modulators of GABAergic inhibition.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tick the hypnotic drug that is a selective agonist of the BZ1 receptor subtype:",
+      "options": [
+        "Flurazepam",
+        "Zolpidem",
+        "Triazolam",
+        "Flumazenil",
+        "Alprazolam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zolpidem selectively binds to the BZ1/omega-1 receptor subtype. This receptor subtype is associated mainly with hypnotic effects. Flurazepam, triazolam, and alprazolam are benzodiazepines that interact less selectively with benzodiazepine receptor subtypes. Flumazenil is a benzodiazepine receptor antagonist and is used to reverse benzodiazepine effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which of the following hypnotic agents is able to interact with both BZ1 and BZ2 receptor subtypes?",
+      "options": [
+        "Zaleplon",
+        "Phenobarbital",
+        "Flurazepam",
+        "Zolpidem",
+        "Diphenhydramine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flurazepam is a benzodiazepine hypnotic. Classical benzodiazepines generally interact with both BZ1 and BZ2 receptor subtypes. BZ1 receptor activation is associated mainly with sedation and hypnosis. BZ2 receptor activation contributes more to anxiolytic, muscle relaxant, and anticonvulsant effects. Zolpidem and zaleplon are more selective for BZ1 receptors. Phenobarbital acts at the barbiturate site of the GABA-A receptor, not the benzodiazepine receptor subtype system. Diphenhydramine is an H1 antihistamine.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-076",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the competitive antagonist of benzodiazepine receptors:",
+      "options": [
+        "Flumazenil",
+        "Picrotoxin",
+        "Zolpidem",
+        "Temazepam",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flumazenil is a competitive antagonist at benzodiazepine receptors. It can reverse the effects of benzodiazepines and some non-benzodiazepine hypnotics that act at benzodiazepine receptor sites. It is used clinically in selected cases of benzodiazepine overdose or excessive sedation. Picrotoxin blocks the chloride channel associated with the GABA-A receptor, but it is not a benzodiazepine receptor antagonist. Zolpidem and temazepam are agonist/modulator drugs. Phenobarbital acts at the barbiturate site.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Flumazenil blocks the actions of:",
+      "options": [
+        "Phenobarbital",
+        "Morphine",
+        "Diazepam",
+        "Ethanol",
+        "Amitriptyline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Diazepam is a benzodiazepine. Flumazenil blocks benzodiazepine effects by competitively antagonizing the benzodiazepine receptor site on the GABA-A receptor complex. Flumazenil does not reliably reverse respiratory depression caused by barbiturates, opioids, ethanol, or tricyclic antidepressants. This distinction is clinically important. For opioid overdose, naloxone is used. For benzodiazepine overdose, flumazenil may be used in selected cases, although it must be used carefully because it may precipitate seizures in dependent patients or mixed overdoses.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-078",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following agents is preferred in the treatment of insomnia?",
+      "options": [
+        "Barbiturates",
+        "Hypnotic benzodiazepines",
+        "Ethanol",
+        "Phenothiazide",
+        "Antihistaminic drugs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Among the options listed, hypnotic benzodiazepines are preferred over barbiturates, ethanol, phenothiazines, and sedating antihistamines. Benzodiazepines have a wider therapeutic index than barbiturates and are less likely to cause fatal respiratory depression when taken alone. They are also more predictable and generally safer. However, in modern practice, non-benzodiazepine hypnotics such as zolpidem and zaleplon are also commonly used because they may have less effect on sleep architecture and less next-day sedation. Ethanol is not appropriate for insomnia because it disrupts sleep architecture and can cause dependence. Phenothiazines are antipsychotics and not preferred for simple insomnia. Antihistamines can cause anticholinergic effects and next-day drowsiness.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-079",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Barbiturates are replaced by hypnotic benzodiazepines because of:",
+      "options": [
+        "Low therapeutic index",
+        "Suppression of REM sleep",
+        "High potential of physical dependence and abuse",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Barbiturates are no longer preferred as hypnotics because they are much more dangerous than benzodiazepines. They have a low therapeutic index, meaning the toxic dose is close to the effective dose. They strongly suppress REM sleep. They also have a high risk of tolerance, physical dependence, abuse, and potentially fatal overdose. Benzodiazepines largely replaced barbiturates because they are safer, especially in overdose when taken alone.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-080",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the main requirement for an ideal hypnotic agent:",
+      "options": [
+        "Rapid onset and sufficient duration of action",
+        "Minor effects on sleep patterns",
+        "Minimal \"hangover\" effects",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An ideal hypnotic should help the patient fall asleep quickly, maintain sleep for an appropriate duration, and avoid excessive next-day sedation. It should also preserve normal sleep architecture as much as possible, especially REM and slow-wave sleep. It should have minimal risk of tolerance, dependence, respiratory depression, cognitive impairment, and drug interactions. Therefore, all listed features are desirable.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-081",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which stage of sleep is responsible for the incidence of dreams?",
+      "options": [
+        "REM sleep",
+        "Slow-wave sleep",
+        "Stage 2 NREM sleep",
+        "All of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "REM sleep is strongly associated with vivid dreaming. During REM sleep, the brain is metabolically active, and skeletal muscles are inhibited, producing muscle atonia. Although some dreaming can occur in NREM sleep, vivid, story-like dreams are classically associated with REM sleep. REM sleep is also important for emotional processing and memory consolidation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During slow-wave sleep, stage 3 NREM sleep:",
+      "options": [
+        "Dreams commonly occur",
+        "The secretion of adrenal steroids is at its highest level",
+        "Somnambulism and night terrors may occur",
+        "The secretion of growth hormone is at its lowest level"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Slow-wave sleep corresponds mainly to deep NREM sleep, especially stage N3. It is associated with decreased brain activity, reduced responsiveness to external stimuli, and physical restoration. Certain parasomnias occur during slow-wave sleep, especially somnambulism, meaning sleepwalking, and night terrors. Growth hormone secretion is actually increased during slow-wave sleep, not decreased. Vivid dreams are more associated with REM sleep. Nightmares are also more classically associated with REM sleep, while night terrors are linked with NREM deep sleep.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Most classical sedative-hypnotics, especially barbiturates and benzodiazepines, tend to:",
+      "options": [
+        "Increase the duration of REM sleep",
+        "Decrease the duration of REM sleep",
+        "Produce no change in REM sleep",
+        "Increase slow-wave sleep markedly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Classical sedative-hypnotics such as barbiturates and benzodiazepines tend to alter normal sleep architecture. Barbiturates strongly suppress REM sleep. Benzodiazepines also decrease REM sleep to some extent and may reduce slow-wave sleep, especially at higher doses. This is clinically important because abrupt discontinuation after chronic use may cause REM rebound, leading to intense dreams or nightmares. Newer Z-drugs such as zolpidem and zaleplon usually have less effect on sleep architecture than barbiturates.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hypnotic drug causes less REM sleep suppression than barbiturates?",
+      "options": [
+        "Phenobarbital",
+        "Secobarbital",
+        "Flurazepam",
+        "Thiopental"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flurazepam is a benzodiazepine hypnotic. Benzodiazepines generally suppress REM sleep less than barbiturates. Phenobarbital, secobarbital, and thiopental are barbiturates. Barbiturates produce stronger REM sleep suppression and more disturbance of normal sleep architecture. This is one reason benzodiazepines became preferred over barbiturates for insomnia.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-085",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Although benzodiazepines continue to be agents used for insomnia, they have:",
+      "options": [
+        "Capacity for psychological and physiological dependence",
+        "Synergistic depression of the CNS with other drugs, especially alcohol",
+        "Residual drowsiness and daytime sedation",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Benzodiazepines are safer than barbiturates, but they are not free from risk. They may cause psychological and physical dependence, especially with long-term use. When combined with alcohol, opioids, antipsychotics, or other CNS depressants, they can produce dangerous additive or synergistic CNS depression. They may also cause residual daytime sedation, impaired memory, poor coordination, falls, and reduced alertness, especially with long-acting benzodiazepines or in elderly patients. Therefore, all listed adverse effects are possible.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hypnotic benzodiazepines can cause:",
+      "options": [
+        "A dose-dependent increase in both REM and slow-wave sleep",
+        "No change in sleep patterns",
+        "A dose-dependent decrease in both REM and slow-wave sleep",
+        "A dose-dependent increase in REM sleep and decrease in slow-wave sleep"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzodiazepines alter sleep architecture. They tend to decrease REM sleep and reduce slow-wave sleep, especially at higher doses. They often increase total sleep time and reduce sleep latency, but the sleep produced may not fully match normal physiological sleep. This is why long-term use may lead to dependence, tolerance, and rebound insomnia or REM rebound when stopped suddenly.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following hypnotic benzodiazepines is more likely to cause \"hangover\" effects such as drowsiness, dysphoria, and mental or motor depression the next day?",
+      "options": [
+        "Temazepam",
+        "Triazolam",
+        "Flurazepam",
+        "Lorazepam",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flurazepam is a long-acting benzodiazepine with active metabolites. Because of its prolonged action, it is more likely to cause next-day \"hangover\" effects. These effects include daytime drowsiness, impaired psychomotor performance, dysphoria, confusion, poor concentration, and increased fall risk. Triazolam is short-acting and less likely to cause prolonged next-day sedation, although it may cause rebound insomnia. Temazepam is intermediate-acting and generally causes less residual sedation than flurazepam.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-088",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the hypnotic drug which binds selectively to the BZ1 receptor subtype, facilitating GABAergic inhibition:",
+      "options": [
+        "Thiopental",
+        "Zolpidem",
+        "Flurazepam",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zolpidem binds selectively to the BZ1/omega-1 receptor subtype on the GABA-A receptor complex. This enhances GABAergic inhibition and produces hypnotic effects. Its selectivity explains why zolpidem is mainly hypnotic and has less prominent muscle-relaxant and anticonvulsant effects than classical benzodiazepines. Thiopental and phenobarbital are barbiturates. Flurazepam is a benzodiazepine that binds less selectively to benzodiazepine receptor subtypes.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following statements is correct for zolpidem?",
+      "options": [
+        "It causes minor effects on sleep patterns",
+        "The risk of development of tolerance and dependence is less than with hypnotic benzodiazepines",
+        "It has minimal muscle-relaxing and anticonvulsant effects",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Zolpidem is a non-benzodiazepine hypnotic that acts selectively at BZ1/omega-1 receptors. It generally has less effect on sleep architecture than barbiturates and many benzodiazepines. It has minimal muscle-relaxant and anticonvulsant effects because it is more selective for receptors involved in hypnosis. The risk of tolerance and dependence is generally considered lower than with classical benzodiazepines, although it is not zero. Misuse, dependence, complex sleep behaviors, and withdrawal can still occur, especially with prolonged or inappropriate use.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which agent has hypnotic activity with minimal muscle-relaxant and anticonvulsant effects?",
+      "options": [
+        "Flurazepam",
+        "Triazolam",
+        "Zaleplon",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Zaleplon is a non-benzodiazepine hypnotic, classified as a Z-drug. It acts mainly at the BZ1/omega-1 receptor subtype. Because of this selectivity, it produces hypnotic effects with relatively minimal muscle-relaxant and anticonvulsant activity compared with benzodiazepines. Zaleplon has a very short half-life, making it useful mainly for sleep-onset insomnia rather than sleep-maintenance insomnia.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Zolpidem and zaleplon have efficacy similar to that of hypnotic benzodiazepines in the management of sleep disorders.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zolpidem and zaleplon are effective hypnotics and have efficacy broadly comparable to benzodiazepine hypnotics for certain sleep disorders, especially insomnia. Their advantage is that they tend to produce fewer effects on sleep architecture and have less muscle-relaxant and anticonvulsant activity. However, they still act through the GABA-A receptor benzodiazepine site and can still cause CNS depression, impaired coordination, abnormal sleep behaviors, tolerance, or dependence in some patients.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following hypnotic drugs is used intravenously for anesthesia?",
+      "options": [
+        "Thiopental",
+        "Phenobarbital",
+        "Flurazepam",
+        "Zolpidem",
+        "Zaleplon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiopental is an ultra-short-acting barbiturate used intravenously for induction of anesthesia. Its rapid onset is due to high lipid solubility, allowing it to enter the brain quickly. Its short duration after a single dose is mainly due to redistribution from the brain into muscle and fat. Phenobarbital is mainly used as an anticonvulsant. Flurazepam, zolpidem, and zaleplon are hypnotics used orally for insomnia, not intravenous anesthesia induction.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-093",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tick the usual cause of death due to overdose of hypnotics:",
+      "options": [
+        "Depression of the medullary respiratory center",
+        "Hypothermia",
+        "Cerebral edema",
+        "Status epilepticus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Severe overdose with sedative-hypnotic drugs, especially barbiturates or combinations of CNS depressants, can cause fatal respiratory depression. The medullary respiratory center controls breathing. When this center is excessively depressed, ventilation becomes inadequate, leading to hypoxia, carbon dioxide retention, coma, and death. Benzodiazepines alone are less likely than barbiturates to cause fatal respiratory depression, but the risk increases greatly when combined with alcohol, opioids, or other CNS depressants.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-094",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Toxic doses of hypnotics may cause circulatory collapse as a result of:",
+      "options": [
+        "Blocking of alpha-adrenergic receptors",
+        "Increase of vagal tone",
+        "Action on the medullary vasomotor center",
+        "All of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At toxic doses, sedative-hypnotics can depress the central nervous system profoundly, including the medullary vasomotor center. The vasomotor center helps regulate blood vessel tone and blood pressure. Depression of this center can cause vasodilation, hypotension, poor tissue perfusion, shock, and circulatory collapse. This is especially important in severe barbiturate overdose, where both respiratory depression and cardiovascular collapse may occur.",
       "caseText": "",
       "imageUrl": ""
     }
