@@ -1122,28 +1122,39 @@ tailwind.config = {
       </div>
     </div>
 
-    <!-- Difficulty breakdown -->
-    <div class="bg-surface-container-low rounded-xl p-6">
-      <h3 class="text-base font-bold text-primary mb-5">Topic Complexity</h3>
-      <div class="space-y-5">
+    <!-- Study Snapshot -->
+    <div class="bg-surface-container-low rounded-xl p-6 md:p-8">
+      <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-7">
         <div>
-          <div class="flex justify-between text-sm mb-1.5"><span class="text-on-surface-variant font-medium">Foundational</span><span class="font-bold text-primary">18 Questions</span></div>
-          <div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-secondary h-1.5 rounded-full" style="width:80%"></div></div>
+          <p class="text-xs font-black uppercase tracking-[0.26em] text-tertiary mb-2">What’s Next</p>
+          <h3 class="text-2xl font-black text-primary tracking-tight">Study Snapshot</h3>
+          <p class="text-sm text-on-surface-variant mt-2 max-w-2xl">A quick plan for what to finish next, what to review, and whether extra practice is available.</p>
         </div>
-        <div>
-          <div class="flex justify-between text-sm mb-1.5"><span class="text-on-surface-variant font-medium">Clinical Application</span><span class="font-bold text-primary">10 Questions</span></div>
-          <div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-primary h-1.5 rounded-full" style="width:55%"></div></div>
+        <div class="rounded-[1.5rem] bg-surface-container-lowest border border-outline-variant/20 px-5 py-4 min-w-[170px] text-center">
+          <p class="text-xs font-black uppercase tracking-widest text-on-surface-variant mb-1">Final Readiness</p>
+          <div id="snapshot-readiness" class="text-4xl font-black text-tertiary">0%</div>
         </div>
-        <div>
-          <div class="flex justify-between text-sm mb-1.5"><span class="text-on-surface-variant font-medium">Advanced Synthesis</span><span class="font-bold text-primary">7 Questions</span></div>
-          <div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-tertiary h-1.5 rounded-full" style="width:25%"></div></div>
-        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-surface-container-lowest border border-outline-variant/20 rounded-[1.5rem] p-5"><p class="text-xs font-black uppercase tracking-widest text-on-surface-variant mb-2">Core Sets</p><div id="snapshot-core-sets" class="text-3xl font-black text-primary">0 / 5</div><p class="text-sm text-on-surface-variant mt-1">Completed from the first 5 sets.</p></div>
+        <div class="bg-surface-container-lowest border border-outline-variant/20 rounded-[1.5rem] p-5"><p class="text-xs font-black uppercase tracking-widest text-on-surface-variant mb-2">Wrong Questions</p><div id="snapshot-wrong-count" class="text-3xl font-black text-primary">0</div><p class="text-sm text-on-surface-variant mt-1">Collected for focused revision.</p></div>
+        <div class="bg-surface-container-lowest border border-outline-variant/20 rounded-[1.5rem] p-5"><p class="text-xs font-black uppercase tracking-widest text-on-surface-variant mb-2">Extra Practice</p><div id="snapshot-extra-count" class="text-3xl font-black text-primary">0</div><p class="text-sm text-on-surface-variant mt-1">Additional sets beyond the core plan.</p></div>
+      </div>
+      <div class="bg-surface-container-lowest border border-outline-variant/20 rounded-[1.5rem] p-5 mb-5">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4"><div><p class="text-xs font-black uppercase tracking-widest text-on-surface-variant mb-1">Next Recommended Step</p><div id="snapshot-next-step" class="text-xl font-black text-primary">Continue Set 1</div></div><div id="snapshot-main-progress-label" class="text-sm font-bold text-on-surface-variant">0% core completed</div></div>
+        <div class="w-full bg-surface-variant rounded-full h-2 overflow-hidden"><div id="snapshot-main-progress" class="bg-tertiary h-2 rounded-full transition-all duration-500" style="width:0%"></div></div>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <button onclick="startNextRecommendedSet()" class="bg-primary text-on-primary px-5 py-3 rounded-xl text-sm font-extrabold hover:scale-[0.98] transition-transform flex items-center gap-2"><span class="material-symbols-outlined text-base">play_arrow</span> Continue Recommended Step</button>
+        <button id="snapshot-wrong-btn" onclick="startWrongQuestionSet()" class="bg-tertiary-fixed text-on-tertiary-fixed px-5 py-3 rounded-xl text-sm font-extrabold hover:scale-[0.98] transition-transform flex items-center gap-2"><span class="material-symbols-outlined text-base">restart_alt</span> Review Wrong Questions</button>
+        <button id="snapshot-extra-btn" onclick="scrollToExtraSets()" class="bg-surface-container-lowest text-primary border border-outline-variant/20 px-5 py-3 rounded-xl text-sm font-extrabold hover:bg-surface-container transition-colors flex items-center gap-2"><span class="material-symbols-outlined text-base">extension</span> Open Extra Practice</button>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ===================== PAGE: STUDY SESSION ===================== -->
+<!-- ===================== PAGE: STUDY SESSION
+ ===================== -->
 <div id="page-study" class="page fade-in">
   <div class="max-w-7xl mx-auto px-5 md:px-12 py-8">
     <!-- Top bar -->
