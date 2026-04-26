@@ -81,6 +81,8 @@ function openNoteModal(currentValue = '', options = {}) {
 const pages = ['home','subjects','topics','sets','study','review','dashboard','profile','about','finalexam','examlive','saved'];
 const navIds = ['home','subjects','dashboard','saved','finalexam','about'];
 const STUDY_SET_SIZE = 20;
+const PRIMARY_STUDY_SET_COUNT = 5;
+const PRIMARY_STUDY_QUESTION_LIMIT = STUDY_SET_SIZE * PRIMARY_STUDY_SET_COUNT;
 const STORAGE_KEY = 'pharmacyNexusState';
 const DEFAULT_STATE = {
   currentPage: 'home',
@@ -94,6 +96,7 @@ const DEFAULT_STATE = {
   savedQuestions: 12,
   personalNotes: 4,
   selectedSubjectId: null,
+  selectedSectionId: 'all',
   selectedTopicId: null,
   currentSetIndex: 0,
   currentQuestionIndex: 0,
@@ -118,6 +121,7 @@ const DEFAULT_STATE = {
     topicSearch: ''
   },
   currentExamSession: null,
+  finalExamSeenIds: {},
   reviewContext: 'study',
   themeMode: 'light',
   dailyChallenge: null,
@@ -149,7 +153,9 @@ const PN_DATA = {
   subjectsIndex: null,
   subjectsMap: new Map(),
   topicsMap: new Map(),
-  topicFilesCache: new Map()
+  topicFilesCache: new Map(),
+  finalExamIndex: { pools: [] },
+  finalExamPoolCache: new Map()
 };
 
 function navigateTo(pageId) {
@@ -311,7 +317,7 @@ function makeQuestionSessionCopy(question, seedBase = '') {
 }
 
 function buildFreshSetSessionQuestions(setIndex = 0) {
-  const chunks = getCurrentTopicQuestionChunks();
+  const chunks = chunkQuestions(appState.currentTopicQuestions || []);
   const originalSetQuestions = Array.isArray(chunks[setIndex]) ? chunks[setIndex] : [];
   const meta = appState.currentTopicMeta || {};
   const sessionSeed = `set-${meta.id || 'topic'}-${setIndex}-${Date.now()}`;
@@ -708,6 +714,11 @@ async function fetchJson(path) {
   return res.json();
 }
 
+async function fetchJsonMaybe(path, fallback = null) {
+  try { return await fetchJson(path); }
+  catch (_) { return fallback; }
+}
+
 function getSavedItemsList() {
   return Object.values(appState.savedItems || {}).sort((a, b) => new Date(b.savedAt || 0) - new Date(a.savedAt || 0));
 }
@@ -877,15 +888,35 @@ function bindTopicSearch() {
   input.addEventListener('input', () => renderTopicsPage(input.value));
 }
 
+function getSubjectSections(subjectData = {}) {
+  const sections = Array.isArray(subjectData.sections) ? [...subjectData.sections] : [];
+  return sections.sort((a, b) => (a.order || 999) - (b.order || 999));
+}
+
+function getSectionName(sectionId, sections = []) {
+  if (!sectionId || sectionId === 'general') return 'General';
+  return sections.find(s => s.id === sectionId)?.name || sectionId;
+}
+
+function setTopicSection(sectionId = 'all') {
+  appState.selectedSectionId = sectionId || 'all';
+  saveState();
+  renderTopicsPage();
+}
+window.setTopicSection = setTopicSection;
+
 function renderTopicsPage(query = '') {
   const subjectId = appState.selectedSubjectId || PN_DATA.subjectsIndex?.subjects?.[0]?.id;
   if (!subjectId) return;
   const subjectMeta = PN_DATA.subjectsMap.get(subjectId);
-  const subjectData = PN_DATA.topicsMap.get(subjectId) || { topics: [] };
+  const subjectData = PN_DATA.topicsMap.get(subjectId) || { topics: [], sections: [] };
   if (!subjectMeta) return;
+  const sections = getSubjectSections(subjectData);
   const allTopics = [...(subjectData.topics || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
+  const activeSection = appState.selectedSectionId || 'all';
   const q = String(query || document.getElementById('topic-search')?.value || '').trim().toLowerCase();
-  const topics = !q ? allTopics : allTopics.filter(topic => `${topic.name} ${topic.description || ''}`.toLowerCase().includes(q));
+  let topics = activeSection === 'all' ? allTopics : allTopics.filter(topic => (topic.sectionId || 'general') === activeSection);
+  topics = !q ? topics : topics.filter(topic => `${topic.name} ${topic.description || ''} ${getSectionName(topic.sectionId, sections)}`.toLowerCase().includes(q));
 
   const breadcrumb = document.querySelector('#page-topics nav');
   if (breadcrumb) {
@@ -903,23 +934,39 @@ function renderTopicsPage(query = '') {
 
   const topicsWrapper = document.getElementById('topics-list');
   if (!topicsWrapper) return;
+  const sectionSummary = sections.length ? `
+    <aside class="rounded-[2rem] bg-surface-container-lowest p-5 md:p-6 ambient-shadow ghost-border mb-2">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5">
+        <div><p class="text-xs font-black uppercase tracking-[0.24em] text-tertiary mb-1">Sections</p><h3 class="text-2xl font-black text-primary tracking-tight">Choose a chapter</h3></div>
+        <span class="text-xs font-black uppercase tracking-[0.2em] text-on-surface-variant">${sections.length} sections • ${allTopics.length} topics</span>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <button onclick="setTopicSection('all')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === 'all' ? 'bg-primary text-on-primary border-primary' : 'bg-surface-container-low text-primary border-outline-variant/20'}">All Topics</button>
+        ${sections.map(section => {
+          const count = allTopics.filter(t => (t.sectionId || 'general') === section.id).length;
+          return `<button onclick="setTopicSection('${escapeHtml(section.id)}')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === section.id ? 'bg-tertiary-fixed text-on-tertiary-fixed border-tertiary-fixed' : 'bg-surface-container-low text-primary border-outline-variant/20 hover:bg-surface-container'}">${escapeHtml(section.name)} <span class="opacity-60">${count}</span></button>`;
+        }).join('')}
+      </div>
+    </aside>` : '';
+
   if (!topics.length) {
-    topicsWrapper.innerHTML = `<article class="group bg-surface-container-lowest rounded-xl p-6 md:p-8 flex flex-col gap-4 items-start relative overflow-hidden"><div class="flex items-center gap-3 mb-1"><span class="material-symbols-outlined text-outline text-base">info</span><span class="text-xs font-bold uppercase tracking-widest text-outline">No topics found</span></div><h3 class="text-xl font-extrabold text-primary mb-1">Nothing matches your search</h3><p class="text-on-surface-variant text-sm leading-relaxed">Try another keyword or add topics from the admin page.</p></article>`;
+    topicsWrapper.innerHTML = sectionSummary + `<article class="group bg-surface-container-lowest rounded-xl p-6 md:p-8 flex flex-col gap-4 items-start relative overflow-hidden"><div class="flex items-center gap-3 mb-1"><span class="material-symbols-outlined text-outline text-base">info</span><span class="text-xs font-bold uppercase tracking-widest text-outline">No topics found</span></div><h3 class="text-xl font-extrabold text-primary mb-1">Nothing matches your filter</h3><p class="text-on-surface-variant text-sm leading-relaxed">Try another keyword, choose All Topics, or add topics from the admin page.</p></article>`;
     return;
   }
 
-  topicsWrapper.innerHTML = topics.map((topic, index) => {
+  const cards = topics.map((topic, index) => {
     const easy = Number(topic.difficultyBreakdown?.easy || 0);
     const medium = Number(topic.difficultyBreakdown?.medium || 0);
     const hard = Number(topic.difficultyBreakdown?.hard || 0);
     const total = Number(topic.questionsCount || easy + medium + hard || 0);
+    const sectionName = getSectionName(topic.sectionId, sections);
     const statusLabel = index === 0 ? 'Available' : 'Topic';
     const statusAccent = index === 0 ? 'text-tertiary' : 'text-on-surface-variant';
     return `
       <article class="group bg-surface-container-lowest rounded-xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start relative overflow-hidden hover:bg-surface-bright transition-colors cursor-pointer" onclick="selectTopic('${escapeHtml(subjectId)}','${escapeHtml(topic.id || slugify(topic.name))}')">
         <div class="absolute left-0 top-0 bottom-0 w-1.5 ${index === 0 ? 'bg-tertiary' : 'bg-secondary'} opacity-80 rounded-l-xl"></div>
         <div class="flex-1 pl-2">
-          <div class="flex items-center gap-3 mb-3"><span class="material-symbols-outlined ${index === 0 ? 'text-secondary' : 'text-outline'} text-base" style="font-variation-settings:'FILL' 1">${index === 0 ? 'check_circle' : 'menu_book'}</span><span class="text-xs font-bold uppercase tracking-widest ${statusAccent}">${statusLabel}</span><span class="px-2.5 py-0.5 bg-surface-container rounded-full text-xs font-bold text-primary">${total} Questions</span></div>
+          <div class="flex items-center gap-3 mb-3 flex-wrap"><span class="material-symbols-outlined ${index === 0 ? 'text-secondary' : 'text-outline'} text-base" style="font-variation-settings:'FILL' 1">${index === 0 ? 'check_circle' : 'menu_book'}</span><span class="text-xs font-bold uppercase tracking-widest ${statusAccent}">${statusLabel}</span><span class="px-2.5 py-0.5 bg-tertiary-fixed/30 text-on-tertiary-fixed rounded-full text-xs font-bold">${escapeHtml(sectionName)}</span><span class="px-2.5 py-0.5 bg-surface-container rounded-full text-xs font-bold text-primary">${total} Questions</span></div>
           <h3 class="text-xl font-extrabold text-primary mb-2">${escapeHtml(topic.name)}</h3>
           <p class="text-on-surface-variant text-sm leading-relaxed mb-4">${escapeHtml(topic.description || '')}</p>
           <div class="flex flex-wrap gap-2"><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Easy ${easy}</span><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Medium ${medium}</span><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Hard ${hard}</span></div>
@@ -927,6 +974,7 @@ function renderTopicsPage(query = '') {
         <div class="w-full md:w-auto flex items-center md:items-end gap-4 pl-2"><button class="px-5 py-2.5 bg-primary text-on-primary rounded-xl font-bold text-sm hover:bg-on-primary-fixed transition-colors flex items-center gap-2">Open Topic <span class="material-symbols-outlined text-base">arrow_forward</span></button></div>
       </article>`;
   }).join('');
+  topicsWrapper.innerHTML = sectionSummary + cards;
 }
 
 async function loadTopicQuestions(subjectId, topicId) {
@@ -955,11 +1003,26 @@ async function loadTopicQuestions(subjectId, topicId) {
   renderSetsPage();
 }
 
-function getCurrentTopicQuestionChunks() {
-  const questions = appState.currentTopicQuestions || [];
+function chunkQuestions(questions = []) {
   const chunks = [];
   for (let i = 0; i < questions.length; i += STUDY_SET_SIZE) chunks.push(questions.slice(i, i + STUDY_SET_SIZE));
   return chunks.length ? chunks : [[]];
+}
+
+function getPrimaryStudyQuestions() {
+  return (appState.currentTopicQuestions || []).slice(0, PRIMARY_STUDY_QUESTION_LIMIT);
+}
+
+function getExtraPracticeQuestions() {
+  return (appState.currentTopicQuestions || []).slice(PRIMARY_STUDY_QUESTION_LIMIT);
+}
+
+function getCurrentTopicQuestionChunks() {
+  return chunkQuestions(getPrimaryStudyQuestions());
+}
+
+function getExtraPracticeQuestionChunks() {
+  return chunkQuestions(getExtraPracticeQuestions()).filter(chunk => chunk.length);
 }
 
 function getAnsweredState(questionId) {
@@ -973,7 +1036,7 @@ function getAnsweredCountForQuestions(questions = []) {
 }
 
 function isSetCompleted(index = 0) {
-  const chunk = getCurrentTopicQuestionChunks()[index] || [];
+  const chunk = chunkQuestions(appState.currentTopicQuestions || [])[index] || [];
   return !!chunk.length && getAnsweredCountForQuestions(chunk) >= chunk.length;
 }
 
@@ -982,14 +1045,14 @@ function isSetUnlocked(index = 0) {
 }
 
 function isTopicFullyAnswered() {
-  const questions = appState.currentTopicQuestions || [];
+  const questions = getPrimaryStudyQuestions();
   return !!questions.length && getAnsweredCountForQuestions(questions) >= questions.length;
 }
 
 function getWrongQuestionIdsForTopic() {
   const meta = appState.currentTopicMeta;
   if (!meta) return [];
-  return (appState.currentTopicQuestions || [])
+  return getPrimaryStudyQuestions()
     .filter(q => getStudyResultCorrect(meta.id, q.id) === false)
     .map(q => q.id);
 }
@@ -1013,12 +1076,15 @@ function getTopicProgress(topicId) {
 
 function renderSetsPage() {
   const meta = appState.currentTopicMeta;
-  const questions = appState.currentTopicQuestions || [];
+  const questions = getPrimaryStudyQuestions();
+  const extraQuestions = getExtraPracticeQuestions();
   if (!meta) return;
-  const counts = getDifficultyCounts(questions);
+  const counts = getDifficultyCounts(appState.currentTopicQuestions || []);
   const chunks = getCurrentTopicQuestionChunks();
+  const extraChunks = getExtraPracticeQuestionChunks();
   const progress = getTopicProgress(meta.id);
-  const progressPercent = questions.length ? Math.round((progress.answered / questions.length) * 100) : 0;
+  const primaryAnswered = getAnsweredCountForQuestions(questions);
+  const progressPercent = questions.length ? Math.round((primaryAnswered / questions.length) * 100) : 0;
 
   const crumbs = document.querySelector('#page-sets nav');
   if (crumbs) {
@@ -1037,7 +1103,7 @@ function renderSetsPage() {
   document.getElementById('sets-resume-progress-text') && (document.getElementById('sets-resume-progress-text').textContent = `${progressPercent}%`);
   document.getElementById('sets-resume-title') && (document.getElementById('sets-resume-title').textContent = progress.answered ? `Resume from Question ${Math.min(progress.answered + 1, questions.length)}` : 'Start from Question 1');
   document.getElementById('sets-resume-subtitle') && (document.getElementById('sets-resume-subtitle').textContent = `Set ${appState.currentSetIndex + 1} • ${progress.answered} of ${questions.length} answered`);
-  document.getElementById('sets-count-label') && (document.getElementById('sets-count-label').textContent = `${chunks.length} Sets`);
+  document.getElementById('sets-count-label') && (document.getElementById('sets-count-label').textContent = `${chunks.length} Core Sets${extraChunks.length ? ` + ${extraChunks.length} Extra` : ''}`);
 
   const setGrid = document.getElementById('sets-grid');
   if (setGrid) {
@@ -1091,7 +1157,30 @@ function renderSetsPage() {
         <button onclick="event.stopPropagation(); startWrongQuestionSet();" class="w-full bg-tertiary-fixed text-on-tertiary-fixed px-5 py-3 rounded-xl text-sm font-extrabold ${topicDone && wrongIds.length ? 'hover:scale-[0.98]' : 'opacity-60 cursor-not-allowed'} transition-transform">${!topicDone ? 'Locked Until Topic Is Complete' : wrongIds.length ? 'Start Wrong Set' : 'No Wrong Questions Yet'}</button>
       </div>`;
 
-    setGrid.innerHTML = normalCards + wrongCard;
+    const extraCards = extraChunks.length ? `
+      <div class="md:col-span-2 lg:col-span-3 my-2 flex items-center gap-4">
+        <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
+        <div class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-xs font-black uppercase tracking-[0.24em] text-on-surface-variant">Extra Practice Sets</div>
+        <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
+      </div>
+      ${extraChunks.map((chunk, extraIdx) => {
+        const idx = PRIMARY_STUDY_SET_COUNT + extraIdx;
+        const start = PRIMARY_STUDY_QUESTION_LIMIT + extraIdx * STUDY_SET_SIZE + 1;
+        const end = start + chunk.length - 1;
+        const answeredInSet = getAnsweredCountForQuestions(chunk);
+        const pct = chunk.length ? Math.round((answeredInSet / chunk.length) * 100) : 0;
+        return `<div class="bg-surface-container-lowest rounded-xl p-6 ambient-shadow group transition-transform cursor-pointer hover:-translate-y-0.5 border border-outline-variant/20" onclick="startSet(${idx})">
+          <div class="flex justify-between items-start mb-4"><span class="px-3 py-1 bg-primary-fixed/50 text-primary rounded-full text-xs font-bold uppercase tracking-wider">Extra Set ${extraIdx + 1}</span><span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">extension</span></div>
+          <h3 class="text-lg font-bold text-primary mb-1">Extra Questions ${start}–${end}</h3>
+          <p class="text-sm text-on-surface-variant mb-5">Additional practice beyond the first 5 core sets. These can also support the final pool fallback.</p>
+          <div class="flex justify-between items-center gap-3 pt-4 border-t border-outline-variant/15">
+            <div><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-32 bg-surface-container rounded-full h-1.5 overflow-hidden"><div class="bg-secondary h-1.5 rounded-full" style="width:${pct}%"></div></div></div>
+            <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">Start Extra</button>
+          </div>
+        </div>`;
+      }).join('')}` : '';
+
+    setGrid.innerHTML = normalCards + wrongCard + extraCards;
   }
 }
 function difficultyBadgeClass(difficulty) {
@@ -1106,7 +1195,7 @@ function formatType(type = '') {
 }
 
 function startSet(index = 0, resume = false) {
-  const chunks = getCurrentTopicQuestionChunks();
+  const chunks = chunkQuestions(appState.currentTopicQuestions || []);
   const previewQuestions = (chunks[index] || []);
   const meta = appState.currentTopicMeta;
   if (!previewQuestions.length) return;
@@ -1166,7 +1255,7 @@ function getCurrentSetQuestions() {
   if (appState.currentSetSessionIndex === appState.currentSetIndex && Array.isArray(appState.currentSetSessionQuestions) && appState.currentSetSessionQuestions.length) {
     return appState.currentSetSessionQuestions;
   }
-  const chunks = getCurrentTopicQuestionChunks();
+  const chunks = chunkQuestions(appState.currentTopicQuestions || []);
   return chunks[appState.currentSetIndex] || [];
 }
 
@@ -2236,6 +2325,7 @@ window.startDailyChallenge = startDailyChallenge;
 
 function selectSubject(subjectId) {
   appState.selectedSubjectId = subjectId;
+  appState.selectedSectionId = 'all';
   appState.selectedTopicId = null;
   saveState();
   renderTopicsPage();
@@ -2251,11 +2341,15 @@ async function selectTopic(subjectId, topicId) {
 window.selectTopic = selectTopic;
 
 
-function getTopicQuestionCountByDifficulty(topic, difficulty = 'all') {
+function getTopicQuestionCountByDifficulty(topic, difficulty = 'all', subjectId = '') {
   if (!topic) return 0;
-  if (difficulty === 'easy') return Number(topic.difficultyBreakdown?.easy || 0);
-  if (difficulty === 'medium') return Number(topic.difficultyBreakdown?.medium || 0);
-  if (difficulty === 'hard') return Number(topic.difficultyBreakdown?.hard || 0);
+  const finalCount = subjectId ? getFinalPoolCountByDifficulty(topic, subjectId, difficulty) : 0;
+  if (finalCount) return finalCount;
+  const extraCount = Math.max(0, Number(topic.questionsCount || 0) - PRIMARY_STUDY_QUESTION_LIMIT);
+  if (difficulty === 'all' && extraCount) return extraCount;
+  if (difficulty === 'easy') return Number(topic.finalDifficultyBreakdown?.easy || topic.extraDifficultyBreakdown?.easy || 0) || Number(topic.difficultyBreakdown?.easy || 0);
+  if (difficulty === 'medium') return Number(topic.finalDifficultyBreakdown?.medium || topic.extraDifficultyBreakdown?.medium || 0) || Number(topic.difficultyBreakdown?.medium || 0);
+  if (difficulty === 'hard') return Number(topic.finalDifficultyBreakdown?.hard || topic.extraDifficultyBreakdown?.hard || 0) || Number(topic.difficultyBreakdown?.hard || 0);
   return Number(topic.questionsCount || 0);
 }
 
@@ -2291,19 +2385,19 @@ function getExamPoolMeta() {
     const subject = PN_DATA.subjectsMap.get(eb.topicSubjectId);
     const subjectData = PN_DATA.topicsMap.get(eb.topicSubjectId) || { topics: [] };
     const selected = (subjectData.topics || []).filter(t => eb.selectedTopicIds.includes(t.id || slugify(t.name)));
-    pool = selected.reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+    pool = selected.reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty, eb.topicSubjectId), 0);
     selectionTitle = subject?.name || 'Single subject';
     selectionTopics = selected.length ? `${selected.map(t => t.name).join(' • ')}` : 'Select at least one topic.';
   } else if (eb.scope === 'single') {
     const subject = PN_DATA.subjectsMap.get(eb.subjectId);
     const subjectData = PN_DATA.topicsMap.get(eb.subjectId) || { topics: [] };
-    pool = (subjectData.topics || []).reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+    pool = (subjectData.topics || []).reduce((sum, t) => sum + getTopicQuestionCountByDifficulty(t, eb.difficulty, eb.subjectId), 0);
     selectionTitle = subject?.name || 'Single subject';
     selectionTopics = 'All topics inside this subject are eligible.';
   } else {
     pool = (PN_DATA.subjectsIndex?.subjects || []).reduce((sum, s) => {
       const sd = PN_DATA.topicsMap.get(s.id) || { topics: [] };
-      return sum + (sd.topics || []).reduce((acc, t) => acc + getTopicQuestionCountByDifficulty(t, eb.difficulty), 0);
+      return sum + (sd.topics || []).reduce((acc, t) => acc + getTopicQuestionCountByDifficulty(t, eb.difficulty, s.id), 0);
     }, 0);
     selectionTitle = 'All subjects';
     selectionTopics = 'Questions are pulled from the whole available bank.';
@@ -2397,7 +2491,7 @@ function renderExamTopicsGrid() {
   grid.innerHTML = topics.map(topic => {
     const id = topic.id || slugify(topic.name);
     const checked = eb.selectedTopicIds.includes(id);
-    const count = getTopicQuestionCountByDifficulty(topic, eb.difficulty || 'all');
+    const count = getTopicQuestionCountByDifficulty(topic, eb.difficulty || 'all', eb.topicSubjectId);
     return `<label class="rounded-[1.75rem] border ${checked ? (isGreen ? 'bg-primary-container/10 border-secondary/35' : 'bg-secondary-container/10 border-tertiary/30') : 'border-outline-variant/20 bg-surface-container-low'} px-5 py-5 flex items-start gap-4 cursor-pointer hover:border-tertiary/30 transition-colors"><input type="checkbox" class="mt-1 w-4 h-4" ${checked ? 'checked' : ''} onchange="toggleExamTopic('${escapeHtml(id)}')"><div><div class="font-extrabold text-primary text-sm md:text-base">${escapeHtml(topic.name)}</div><div class="text-on-surface-variant text-sm">${count} questions</div></div></label>`;
   }).join('') || `<div class="text-on-surface-variant text-sm rounded-[1.5rem] border border-dashed border-outline-variant/30 bg-surface-container-low px-5 py-6">${searchTerm ? 'No topics matched your search in this subject.' : 'No topics available for this subject yet.'}</div>`;
 }
@@ -2569,6 +2663,28 @@ function initFinalExamBuilder() {
 }
 
 
+
+async function loadFinalExamIndex() {
+  const index = await fetchJsonMaybe('data/final-exams/index.json', { pools: [] });
+  PN_DATA.finalExamIndex = { ...index, pools: Array.isArray(index?.pools) ? index.pools : [] };
+}
+
+function getFinalPoolsForTopic(subjectId, topicId) {
+  return (PN_DATA.finalExamIndex?.pools || []).filter(pool => pool.subjectId === subjectId && pool.topicId === topicId);
+}
+
+function getFinalPoolCountByDifficulty(topic, subjectId, difficulty = 'all') {
+  const topicId = topic?.id || slugify(topic?.name || '');
+  const pools = getFinalPoolsForTopic(subjectId, topicId);
+  if (!pools.length) return 0;
+  return pools.reduce((sum, pool) => {
+    if (difficulty === 'easy') return sum + Number(pool.difficultyBreakdown?.easy || 0);
+    if (difficulty === 'medium') return sum + Number(pool.difficultyBreakdown?.medium || 0);
+    if (difficulty === 'hard') return sum + Number(pool.difficultyBreakdown?.hard || 0);
+    return sum + Number(pool.questionsCount || 0);
+  }, 0);
+}
+
 async function loadSubjectsIndex() {
   renderPageSkeleton('home-subject-grid', 3, false);
   renderPageSkeleton('subjects-grid', 3, true);
@@ -2593,6 +2709,7 @@ async function loadSubjectsIndex() {
     }
   }));
 
+  await loadFinalExamIndex();
   setSubjectStats(subjects);
   renderHomeSubjects(subjects);
   renderSubjectsPage(subjects);
@@ -2835,6 +2952,54 @@ window.addEventListener('DOMContentLoaded', async () => {
 });
 
 
+
+async function getFinalPoolQuestionsForTopic(subjectId, topicMeta) {
+  const topicId = topicMeta.id || slugify(topicMeta.name || 'topic');
+  const pools = getFinalPoolsForTopic(subjectId, topicId);
+  const questions = [];
+  for (const pool of pools) {
+    if (!pool.file) continue;
+    if (!PN_DATA.finalExamPoolCache.has(pool.file)) PN_DATA.finalExamPoolCache.set(pool.file, await fetchJson(pool.file));
+    const raw = PN_DATA.finalExamPoolCache.get(pool.file) || {};
+    const subjectMeta = PN_DATA.subjectsMap.get(subjectId) || { id: subjectId, name: pool.subjectName || subjectId };
+    const normalizedTopic = { ...topicMeta, id: topicId, name: pool.topicName || topicMeta.name };
+    (raw.questions || []).forEach(q => questions.push(normalizeQuestionForExam(q, normalizedTopic, subjectMeta)));
+  }
+  return questions;
+}
+
+async function getFallbackExtraTopicQuestionsForExam(subjectId, topicMeta) {
+  const all = await getTopicQuestionsForExam(subjectId, topicMeta);
+  return all.slice(PRIMARY_STUDY_QUESTION_LIMIT).map(q => ({ ...q, finalFallback: true }));
+}
+
+function getFinalSeenKey(eb = appState.examBuilder) {
+  const topicPart = eb.mode === 'single_topics' ? (eb.selectedTopicIds || []).slice().sort().join(',') : '';
+  return `${eb.mode}|${eb.scope}|${eb.subjectId || ''}|${eb.topicSubjectId || ''}|${topicPart}|${eb.difficulty || 'all'}`;
+}
+
+function applyFinalNonRepeat(pool = [], requested = 20, key = 'global') {
+  appState.finalExamSeenIds = appState.finalExamSeenIds || {};
+  const seen = new Set(appState.finalExamSeenIds[key] || []);
+  const unseen = pool.filter(q => !seen.has(q.id));
+  if (!unseen.length && pool.length) {
+    appState.finalExamSeenIds[key] = [];
+    return pool;
+  }
+  return unseen;
+}
+
+function markFinalExamQuestionsSeen(session) {
+  if (!session || !Array.isArray(session.questions)) return;
+  const key = session.poolKey || 'global';
+  appState.finalExamSeenIds = appState.finalExamSeenIds || {};
+  const seen = new Set(appState.finalExamSeenIds[key] || []);
+  session.questions.forEach(q => {
+    if (session.answers && session.answers[q.id] !== undefined) seen.add(q.id);
+  });
+  appState.finalExamSeenIds[key] = [...seen].slice(-5000);
+}
+
 function normalizeQuestionForExam(q, topicMeta = {}, subjectMeta = {}) {
   const type = String(q.type || (Array.isArray(q.options) && q.options.length === 2 ? 'true_false' : 'mcq')).toLowerCase();
   let options = Array.isArray(q.options) ? [...q.options] : [];
@@ -2894,7 +3059,8 @@ async function buildConfiguredExamQuestions() {
       topicList = topicList.filter(t => allowed.has(t.id || slugify(t.name)));
     }
     for (const topic of topicList) {
-      const questions = await getTopicQuestionsForExam(subjectId, topic);
+      const finalPoolQuestions = await getFinalPoolQuestionsForTopic(subjectId, topic);
+      const questions = finalPoolQuestions.length ? finalPoolQuestions : await getFallbackExtraTopicQuestionsForExam(subjectId, topic);
       pool.push(...questions);
     }
   }
@@ -2902,7 +3068,11 @@ async function buildConfiguredExamQuestions() {
   pool = pool.filter(q => q.includeInFinal !== false);
   if (eb.difficulty !== 'all') pool = pool.filter(q => String(q.difficulty || '').toLowerCase() === eb.difficulty);
   pool = shuffleArray(pool);
-  return pool.slice(0, Math.min(pool.length, Number(eb.questionCount || 20)));
+  const key = getFinalSeenKey(eb);
+  const nonRepeated = applyFinalNonRepeat(pool, Number(eb.questionCount || 20), key);
+  const selected = nonRepeated.slice(0, Math.min(nonRepeated.length, Number(eb.questionCount || 20)));
+  selected.poolKey = key;
+  return selected;
 }
 
 function getExamSession() {
@@ -2941,6 +3111,7 @@ function formatExamTime(ms) {
 async function startConfiguredExam() {
   refreshExamBuilderPreview();
   const questions = await buildConfiguredExamQuestions();
+  const poolKey = questions.poolKey || getFinalSeenKey(appState.examBuilder);
   if (!questions.length) {
     showToast('No questions are available for the current exam selection yet.', 'error');
     return;
@@ -2965,9 +3136,9 @@ async function startConfiguredExam() {
     review: !!eb.flags.review,
     retry: !!eb.flags.retry,
     subjectLabel: eb.mode === 'single_topics' ? (PN_DATA.subjectsMap.get(eb.topicSubjectId)?.name || 'Single Subject') : (eb.scope === 'single' ? (PN_DATA.subjectsMap.get(eb.subjectId)?.name || 'One Subject') : 'Multiple Subjects'),
-    topicIds: [...(eb.selectedTopicIds || [])]
+    topicIds: [...(eb.selectedTopicIds || [])],
+    poolKey
   };
-  if (appState.currentExamSession) appState.currentExamSession.submittedAt = new Date().toISOString();
   appState.reviewContext = 'finalExam';
   saveState();
   renderExamLivePage();
@@ -3166,6 +3337,7 @@ async function submitCurrentExam(autoSubmitted = false) {
   });
   appState.attemptHistory = appState.attemptHistory.slice(0, 60);
   appState.finalExamsDone = Number(appState.finalExamsDone || 0) + 1;
+  markFinalExamQuestionsSeen(session);
   if (appState.currentExamSession) appState.currentExamSession.submittedAt = new Date().toISOString();
   appState.reviewContext = 'finalExam';
   saveState();
@@ -3202,6 +3374,7 @@ window.retryWrongFinalExam = retryWrongFinalExam;
 
 async function retakeFinalExam() {
   const questions = await buildConfiguredExamQuestions();
+  const poolKey = questions.poolKey || getFinalSeenKey(appState.examBuilder);
   if (!questions.length) return;
   const old = getExamSession() || {};
   appState.currentExamSession = {

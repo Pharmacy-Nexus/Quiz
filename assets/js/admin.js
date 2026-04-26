@@ -7,6 +7,7 @@ let subjectsIndex = { updatedAt: new Date().toISOString(), subjects: [] };
 let currentQuestions = [];
 let currentTopicFileSha = null;
 let currentEditingQuestionId = '';
+let currentEditingSectionId = '';
 
 function $(id) { return document.getElementById(id); }
 function slugify(value) {
@@ -31,13 +32,17 @@ function requireSession() {
   }
 }
 function nowIso() { return new Date().toISOString(); }
-function emptyTopicMeta(id, name, description = '', order = 1, file = '') {
+function emptyTopicMeta(id, name, description = '', order = 1, file = '', sectionId = 'general') {
   return {
     id, name, description, order,
+    sectionId: sectionId || 'general',
     difficultyBreakdown: { easy: 0, medium: 0, hard: 0 },
     questionsCount: 0,
     file
   };
+}
+function emptySectionMeta(id, name, description = '', order = 1) {
+  return { id, name, description, order };
 }
 function normalizeQuestion(raw, fallbackId = '') {
   const type = raw.type || 'mcq';
@@ -64,7 +69,12 @@ function normalizeQuestion(raw, fallbackId = '') {
     correctAnswer,
     explanation,
     caseText: String(raw.caseText || '').trim(),
-    imageUrl: String(raw.imageUrl || '').trim()
+    imageUrl: String(raw.imageUrl || '').trim(),
+    subjectId: String(raw.subjectId || '').trim(),
+    subjectName: String(raw.subjectName || '').trim(),
+    topicId: String(raw.topicId || '').trim(),
+    topicName: String(raw.topicName || '').trim(),
+    includeInFinal: raw.includeInFinal !== false
   };
 }
 function recomputeTopicMetaFromQuestions(topicMeta, questions) {
@@ -138,6 +148,7 @@ async function bootstrapData() {
     };
 
     renderSubjectOptions();
+    await syncSectionSelectors();
     await loadTopicsForQuestionSubject();
     await syncTopicSelectors();
   } catch (e) {
@@ -153,7 +164,7 @@ function renderSubjectOptions() {
       .map(s => `<option value="${s.id}">${s.name}</option>`)
       .join('');
 
-  ['topic-subject-select', 'question-subject-select', 'bulk-subject-select'].forEach(id => {
+  ['topic-subject-select', 'section-subject-select', 'question-subject-select', 'bulk-subject-select', 'final-subject-select'].forEach(id => {
     if ($(id)) $(id).innerHTML = html;
   });
 }
@@ -167,6 +178,7 @@ async function getTopicFile(subjectId, topicId) {
 
 async function syncSubjectAndIndex(subjectId) {
   const subjectFile = await getSubjectFile(subjectId);
+  subjectFile.json.sections = Array.isArray(subjectFile.json.sections) ? subjectFile.json.sections : [];
   let totalQuestions = 0;
 
   for (const topic of (subjectFile.json.topics || [])) {
@@ -252,7 +264,17 @@ function resetTopicForm() {
   $('topic-name').value = '';
   $('topic-slug').value = '';
   $('topic-order').value = '';
+  if ($('topic-section-select')) $('topic-section-select').value = 'general';
   $('topic-description').value = '';
+}
+
+function resetSectionForm() {
+  currentEditingSectionId = '';
+  if ($('section-edit-select')) $('section-edit-select').value = '';
+  if ($('section-name')) $('section-name').value = '';
+  if ($('section-slug')) $('section-slug').value = '';
+  if ($('section-order')) $('section-order').value = '';
+  if ($('section-description')) $('section-description').value = '';
 }
 function resetQuestionForm() {
   currentEditingQuestionId = '';
@@ -285,6 +307,78 @@ function buildQuestionFromForm(subjectId, topicId, fallbackId) {
     imageUrl: $('question-image').value.trim()
   }, fallbackId);
 }
+
+async function saveSection() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    if (!subjectId) throw new Error('Select a subject first.');
+    const subjectFile = await getSubjectFile(subjectId);
+    subjectFile.json.sections = Array.isArray(subjectFile.json.sections) ? subjectFile.json.sections : [];
+    const name = $('section-name').value.trim();
+    const id = slugify($('section-slug').value || name);
+    const order = Number($('section-order').value || subjectFile.json.sections.length + 1);
+    const description = $('section-description').value.trim();
+    if (!name || !id) throw new Error('Section name and slug are required.');
+    const editingId = $('section-edit-select')?.value || '';
+    if (editingId) {
+      const existing = subjectFile.json.sections.find(s => s.id === editingId);
+      if (!existing) throw new Error('Section not found.');
+      existing.name = name; existing.description = description; existing.order = order;
+      if (editingId !== id) {
+        if (subjectFile.json.sections.some(s => s.id === id)) throw new Error('Another section already has this slug.');
+        existing.id = id;
+        (subjectFile.json.topics || []).forEach(t => { if (t.sectionId === editingId) t.sectionId = id; });
+      }
+    } else {
+      if (subjectFile.json.sections.some(s => s.id === id)) throw new Error('Section already exists.');
+      subjectFile.json.sections.push(emptySectionMeta(id, name, description, order));
+    }
+    subjectFile.json.sections.sort((a,b)=>(a.order||999)-(b.order||999));
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Update sections for ${subjectId}`, subjectFile.sha);
+    await syncSectionSelectors();
+    await syncTopicSelectors();
+    resetSectionForm();
+    setMsg('section-message', `Section saved: ${name}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
+async function loadSectionIntoForm() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    const sid = $('section-edit-select').value;
+    resetSectionForm();
+    $('section-edit-select').value = sid;
+    if (!subjectId || !sid) return;
+    const subjectFile = await getSubjectFile(subjectId);
+    const section = (subjectFile.json.sections || []).find(s => s.id === sid);
+    if (!section) return;
+    currentEditingSectionId = section.id;
+    $('section-name').value = section.name || '';
+    $('section-slug').value = section.id || '';
+    $('section-order').value = section.order || '';
+    $('section-description').value = section.description || '';
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
+async function deleteSection() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    const sid = $('section-edit-select').value || currentEditingSectionId;
+    if (!subjectId || !sid) throw new Error('Select a section to delete.');
+    if (!confirm('Delete this section? Topics inside it will move to General.')) return;
+    const subjectFile = await getSubjectFile(subjectId);
+    subjectFile.json.sections = (subjectFile.json.sections || []).filter(s => s.id !== sid);
+    (subjectFile.json.topics || []).forEach(t => { if (t.sectionId === sid) t.sectionId = 'general'; });
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Delete section ${sid}`, subjectFile.sha);
+    await syncSectionSelectors();
+    await syncTopicSelectors();
+    resetSectionForm();
+    setMsg('section-message', `Section deleted: ${sid}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
 async function addSubject() {
   try {
     requireSession();
@@ -359,6 +453,7 @@ async function saveTopic() {
       editing.name = name;
       editing.description = description;
       editing.order = order;
+      editing.sectionId = sectionId;
       editing.file = newPath;
       recomputeTopicMetaFromQuestions(editing, topicFile.json.questions || []);
       await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Update topic meta: ${name}`, subjectFile.sha);
@@ -619,6 +714,12 @@ window.addEventListener('DOMContentLoaded', () => {
   $('reload-data-btn').addEventListener('click', bootstrapData);
   $('add-subject-btn').addEventListener('click', addSubject);
 
+  $('section-subject-select')?.addEventListener('change', async () => { await syncSectionSelectors(); resetSectionForm(); });
+  $('section-edit-select')?.addEventListener('change', loadSectionIntoForm);
+  $('save-section-btn')?.addEventListener('click', saveSection);
+  $('reset-section-btn')?.addEventListener('click', resetSectionForm);
+  $('delete-section-btn')?.addEventListener('click', deleteSection);
+
   $('topic-subject-select').addEventListener('change', async () => {
     await syncTopicSelectors();
     resetTopicForm();
@@ -646,4 +747,8 @@ window.addEventListener('DOMContentLoaded', () => {
   $('bulk-topic-select').addEventListener('change', () => {});
   $('bulk-import-btn').addEventListener('click', bulkImportQuestions);
   $('bulk-template-btn').addEventListener('click', insertBulkTemplate);
+  $('final-subject-select')?.addEventListener('change', syncTopicSelectors);
+  $('final-topic-select')?.addEventListener('change', () => {});
+  $('final-import-btn')?.addEventListener('click', bulkImportFinalQuestions);
+  $('final-template-btn')?.addEventListener('click', insertFinalBulkTemplate);
 });
