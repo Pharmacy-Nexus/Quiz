@@ -7,23 +7,29 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   <style>
-    body { font-family: 'Manrope', sans-serif; background:#f8f9fa; color:#191c1d; }
-    .card { background:white; border:1px solid rgba(193,199,203,.25); box-shadow:0 20px 40px rgba(0,21,27,.06); border-radius:1.5rem; }
-    .field { border:none; background:#f3f4f5; border-radius:1rem; padding:.9rem 1rem; width:100%; }
-    .btn { border-radius:1rem; padding:.85rem 1.1rem; font-weight:800; }
+    :root { --pn-primary:#00151b; --pn-secondary:#316574; --pn-gold:#cba72f; --pn-soft:#f3f4f5; --pn-line:#dce2e5; }
+    body { font-family: 'Manrope', sans-serif; background: radial-gradient(circle at top left, rgba(203,167,47,.12), transparent 30%), #f8f9fa; color:#191c1d; }
+    .card { background:rgba(255,255,255,.94); border:1px solid rgba(193,199,203,.34); box-shadow:0 20px 45px rgba(0,21,27,.07); border-radius:1.7rem; }
+    .admin-hero { background:linear-gradient(135deg,#00151b,#163b46); color:white; border-radius:2rem; padding:2rem; box-shadow:0 24px 60px rgba(0,21,27,.18); }
+    .section-title { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1rem; }
+    .field { border:1px solid transparent; background:#f3f4f5; border-radius:1rem; padding:.9rem 1rem; width:100%; outline:none; transition:.18s ease; }
+    .field:focus { background:#fff; border-color:rgba(203,167,47,.55); box-shadow:0 0 0 4px rgba(203,167,47,.12); }
+    .btn { border-radius:1rem; padding:.85rem 1.1rem; font-weight:900; transition:.18s ease; }
+    .btn:hover { transform:translateY(-1px); }
     .btn-ghost { background:#e8edf3; color:#111827; }
     .btn-danger { background:#7f1d1d; color:#fff; }
-    .mini-btn { border-radius:.8rem; padding:.55rem .8rem; font-weight:800; font-size:.9rem; }
+    .mini-btn { border-radius:.85rem; padding:.55rem .8rem; font-weight:900; font-size:.9rem; }
     .result-item { border:1px solid rgba(193,199,203,.35); border-radius:1rem; padding:1rem; background:#fff; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .pill { display:inline-flex; align-items:center; gap:.4rem; padding:.35rem .75rem; border-radius:999px; background:#eef3f5; color:#36545e; font-size:.75rem; font-weight:900; }
   </style>
 </head>
 <body>
   <main class="max-w-7xl mx-auto px-6 md:px-10 py-10">
-    <div class="mb-8 flex flex-col gap-2">
-      <span class="text-xs font-black uppercase tracking-[0.28em] text-amber-700">Hidden Admin</span>
-      <h1 class="text-4xl md:text-5xl font-black tracking-tight text-slate-900">Pharmacy Nexus Admin</h1>
-      <p class="text-slate-600 max-w-4xl">Public design stays untouched. This admin writes subjects, topics, and questions into JSON files directly in your GitHub repo. It now supports create, edit, delete, search, and bulk question import.</p>
+    <div class="admin-hero mb-8 flex flex-col gap-2">
+      <span class="text-xs font-black uppercase tracking-[0.28em] text-amber-200">Hidden Admin</span>
+      <h1 class="text-4xl md:text-5xl font-black tracking-tight text-white">Pharmacy Nexus Admin</h1>
+      <p class="text-white/75 max-w-4xl">Manage the learning library without touching the public UI. Create subjects, organize them into sections, add topics, import study questions, and maintain a separate Final Exam bank.</p>
     </div>
 
     <section id="gate" class="card p-6 md:p-8 max-w-xl">
@@ -85,6 +91,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <select id="topic-subject-select" class="field"></select>
               <select id="topic-edit-select" class="field"></select>
+              <select id="topic-section-select" class="field"></select>
               <input id="topic-name" class="field" placeholder="Topic name" />
               <input id="topic-slug" class="field" placeholder="Topic slug e.g. antibiotics" />
               <input id="topic-order" class="field" type="number" placeholder="Order" />
@@ -101,7 +108,7 @@
 
           <div class="card p-6">
             <div class="flex items-center justify-between gap-4 mb-4 flex-wrap">
-              <h2 class="text-lg font-black">3) Manage questions</h2>
+              <h2 class="text-lg font-black">4) Manage questions</h2>
               <div class="text-sm text-slate-500">Create, search, edit, and delete question</div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -150,7 +157,7 @@
 
           <div class="card p-6">
             <div class="flex items-center justify-between gap-4 mb-4 flex-wrap">
-              <h2 class="text-lg font-black">4) Bulk import questions</h2>
+              <h2 class="text-lg font-black">5) Bulk import study questions</h2>
               <div class="text-sm text-slate-500">Paste a JSON array with many questions at once</div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -173,6 +180,37 @@
             </div>
             <p id="bulk-message" class="mt-3 text-sm font-bold"></p>
           </div>
+
+
+          <div class="card p-6">
+            <div class="section-title">
+              <div>
+                <h2 class="text-lg font-black">6) Bulk import Final Exam bank</h2>
+                <div class="text-sm text-slate-500">Separate JSON files used by Final Exam. These questions do not appear in study sets.</div>
+              </div>
+              <span class="pill">Final-only</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <select id="final-subject-select" class="field"></select>
+              <select id="final-topic-select" class="field"></select>
+              <input id="final-pool-name" class="field md:col-span-2" placeholder="Pool name e.g. Pharmacology • Antibiotics Final Bank" />
+              <textarea id="final-json" class="field md:col-span-2 min-h-[280px] mono" placeholder='[
+  {
+    "difficulty": "medium",
+    "questionText": "...",
+    "options": ["...", "...", "...", "..."],
+    "correctAnswer": 1,
+    "explanation": "..."
+  }
+]'></textarea>
+            </div>
+            <div class="flex flex-wrap gap-3 mt-4">
+              <button id="final-import-btn" class="btn bg-slate-950 text-white">Import final questions</button>
+              <button id="final-template-btn" class="btn bg-slate-200 text-slate-900">Insert final template</button>
+            </div>
+            <p id="final-bulk-message" class="mt-3 text-sm font-bold"></p>
+          </div>
+
         </div>
       </div>
     </section>
