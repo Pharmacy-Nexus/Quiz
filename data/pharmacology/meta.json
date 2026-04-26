@@ -25,15 +25,15 @@
       "order": 2,
       "sectionId": "cns",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 50,
-        "hard": 0
+        "easy": 20,
+        "medium": 67,
+        "hard": 7
       },
-      "questionsCount": 50,
+      "questionsCount": 94,
       "file": "data/pharmacology/sedatives-hypnotics.json"
     }
   ],
-  "updatedAt": "2026-04-26T19:10:52.947Z",
+  "updatedAt": "2026-04-26T20:19:35.137Z",
   "sections": [
     {
       "id": "antimicrobials",
