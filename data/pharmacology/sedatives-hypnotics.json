@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-26T20:19:33.167Z",
+  "updatedAt": "2026-04-26T20:23:10.768Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1520,6 +1520,486 @@
       ],
       "correctAnswer": 2,
       "explanation": "At toxic doses, sedative-hypnotics can depress the central nervous system profoundly, including the medullary vasomotor center. The vasomotor center helps regulate blood vessel tone and blood pressure. Depression of this center can cause vasodilation, hypotension, poor tissue perfusion, shock, and circulatory collapse. This is especially important in severe barbiturate overdose, where both respiratory depression and cardiovascular collapse may occur.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a benzodiazepine commonly used for anxiety?",
+      "options": [
+        "Diazepam",
+        "Phenobarbital",
+        "Zolpidem",
+        "Promethazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diazepam is a benzodiazepine used for anxiety, muscle spasm, seizures, and alcohol withdrawal. It enhances the effect of GABA at the GABA-A receptor. Phenobarbital is a barbiturate, zolpidem is a Z-drug hypnotic, and promethazine is a sedating antihistamine/phenothiazine derivative.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the primary mechanism of action of benzodiazepines at the GABA-A receptor?",
+      "options": [
+        "Enhance GABA-A receptor-mediated chloride channel opening frequency",
+        "Directly open chloride channels independent of GABA",
+        "Block GABA uptake into synaptic cleft",
+        "Antagonize glutamate NMDA receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines are positive allosteric modulators of the GABA-A receptor. They increase the frequency of chloride channel opening events, but only in the presence of GABA. This leads to neuronal hyperpolarization and CNS depression. Barbiturates, not benzodiazepines, increase the duration of chloride channel opening and may directly activate GABA-A receptors at high concentrations.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-097",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is classified as a \"Z-drug\" hypnotic?",
+      "options": [
+        "Zolpidem",
+        "Alprazolam",
+        "Phenobarbital",
+        "Buspirone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zolpidem is a non-benzodiazepine hypnotic known as a Z-drug. Other examples include zaleplon and eszopiclone. These drugs act on the benzodiazepine binding site of the GABA-A receptor, especially the BZ1/omega-1 subtype. Alprazolam is a benzodiazepine, phenobarbital is a barbiturate, and buspirone is a 5-HT1A partial agonist.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which agent is a specific benzodiazepine receptor antagonist used in overdose?",
+      "options": [
+        "Flumazenil",
+        "Naloxone",
+        "Physostigmine",
+        "Atropine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flumazenil is a competitive antagonist at benzodiazepine receptors. It can reverse benzodiazepine-induced sedation or overdose in selected cases. Naloxone reverses opioid overdose. Physostigmine is an acetylcholinesterase inhibitor that may be used in severe anticholinergic toxicity. Atropine is an antimuscarinic drug. Important exam point: flumazenil can precipitate seizures in benzodiazepine-dependent patients or mixed overdoses.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which barbiturate has a long half-life and is commonly used as an anticonvulsant?",
+      "options": [
+        "Phenobarbital",
+        "Thiopental",
+        "Secobarbital",
+        "Meprobamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital is a long-acting barbiturate. It is used mainly as an anticonvulsant rather than a routine hypnotic. Its long half-life increases the risk of accumulation and residual sedation. Thiopental is ultra-short-acting and used IV for anesthesia induction. Secobarbital is shorter-acting. Meprobamate is an older anxiolytic/sedative, not a barbiturate.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class of sedatives can cause paradoxical agitation, especially in elderly or pediatric patients?",
+      "options": [
+        "Benzodiazepines, e.g., lorazepam",
+        "Z-drugs, e.g., zaleplon",
+        "Antihistamines, e.g., diphenhydramine",
+        "Barbiturates, e.g., phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines usually cause sedation, anxiolysis, and muscle relaxation. However, paradoxical reactions can occur, especially in children, elderly patients, or patients with certain psychiatric or neurological conditions. These paradoxical reactions may include agitation, aggression, irritability, disinhibition, restlessness, or confusion. Note: sedating antihistamines can also cause paradoxical excitation, especially in children, but benzodiazepines are classically tested for paradoxical disinhibition/agitation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Sedation from benzodiazepines is primarily associated with which GABA-A receptor alpha subunit?",
+      "options": [
+        "α1",
+        "α2",
+        "α3",
+        "γ2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The α1 subunit of the GABA-A receptor is mainly associated with sedation, hypnosis, and amnesia. The α2 and α3 subunits are more associated with anxiolytic and muscle-relaxant effects. The γ2 subunit is important for benzodiazepine sensitivity, but sedation is classically linked to α1-containing receptors.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which hypnotic has the shortest elimination half-life and minimal next-day residual effect?",
+      "options": [
+        "Zaleplon",
+        "Zolpidem",
+        "Eszopiclone",
+        "Temazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zaleplon has a very short half-life, approximately about 1 hour. It is useful for sleep-onset insomnia and is less likely to cause next-day residual sedation compared with longer-acting hypnotics. Zolpidem has a short half-life but longer than zaleplon. Eszopiclone has a longer duration and may help with sleep maintenance. Temazepam is an intermediate-acting benzodiazepine.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which benzodiazepine is commonly preferred for treating alcohol withdrawal because of its long duration and anticonvulsant effect?",
+      "options": [
+        "Chlordiazepoxide",
+        "Midazolam",
+        "Zolpidem",
+        "Buspirone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlordiazepoxide is commonly used in alcohol withdrawal because it is long-acting and provides smoother symptom control. It reduces the risk of withdrawal seizures and delirium tremens. Diazepam is another long-acting benzodiazepine used for alcohol withdrawal. Lorazepam may be preferred in liver impairment because it undergoes glucuronidation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which sedative-hypnotic barbiturate is classically used for intravenous induction of anesthesia due to ultra-short action?",
+      "options": [
+        "Thiopental",
+        "Phenobarbital",
+        "Secobarbital",
+        "Oxazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiopental is an ultra-short-acting barbiturate used intravenously for induction of anesthesia. It rapidly enters the brain because of high lipid solubility. Its short duration after a single dose is mainly due to redistribution from the brain to muscle and fat, not rapid elimination. Phenobarbital is long-acting. Secobarbital is shorter-acting but not the classic IV induction agent. Oxazepam is a benzodiazepine.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Barbiturates exert their sedative effects primarily by which mechanism?",
+      "options": [
+        "Prolong the duration of GABA-A receptor chloride channel opening and directly activate the receptor at high concentrations",
+        "Increase the frequency of channel opening only in presence of GABA",
+        "Block GABA synthesis",
+        "Antagonize benzodiazepine binding site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barbiturates enhance GABA-A receptor activity by increasing the duration of chloride channel opening. At high concentrations, they may directly activate the receptor even without GABA. This explains why barbiturates are more dangerous in overdose than benzodiazepines. Benzodiazepines require the presence of GABA and mainly increase channel opening frequency.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine is metabolized to the active metabolite desmethyldiazepam/nordiazepam, prolonging its effects?",
+      "options": [
+        "Diazepam",
+        "Lorazepam",
+        "Oxazepam",
+        "Midazolam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diazepam is metabolized to active metabolites, including desmethyldiazepam, also called nordiazepam. These active metabolites prolong its duration of action. Lorazepam and oxazepam undergo direct glucuronidation and do not form long-acting active metabolites. Midazolam is short-acting and commonly used for procedural sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hypnotic benzodiazepine is most associated with pronounced anterograde amnesia when used for insomnia?",
+      "options": [
+        "Triazolam",
+        "Clonazepam",
+        "Diazepam",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triazolam is a short-acting benzodiazepine hypnotic. It has been associated with anterograde amnesia, meaning difficulty forming new memories after taking the drug. This risk increases with higher doses, elderly patients, alcohol use, or inadequate sleep time after taking the medication. Clonazepam is used more for seizures and panic disorder. Diazepam is long-acting. Phenobarbital is a barbiturate.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-108",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is NOT a benzodiazepine but is a non-benzodiazepine hypnotic?",
+      "options": [
+        "Zolpidem",
+        "Lorazepam",
+        "Clonazepam",
+        "Temazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zolpidem is a non-benzodiazepine hypnotic, classified as a Z-drug. It acts at the benzodiazepine binding site of the GABA-A receptor but is not chemically a benzodiazepine. Lorazepam, clonazepam, and temazepam are benzodiazepines.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-109",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which over-the-counter antihistamine is commonly used for its sedative properties in mild insomnia?",
+      "options": [
+        "Diphenhydramine",
+        "Ranitidine",
+        "Ibuprofen",
+        "Cetirizine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diphenhydramine is a first-generation H1 antihistamine that crosses the blood-brain barrier and causes sedation. It is commonly found in OTC sleep aids. It can cause anticholinergic adverse effects such as dry mouth, urinary retention, constipation, blurred vision, and confusion, especially in elderly patients. Ranitidine is an H2 blocker, ibuprofen is an NSAID, and cetirizine is a second-generation antihistamine with less sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-110",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Concomitant use of benzodiazepines with opioids primarily increases the risk of which adverse outcome?",
+      "options": [
+        "Respiratory depression",
+        "Hepatic enzyme induction",
+        "Seizures",
+        "Hypertension"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines and opioids both depress the central nervous system. When taken together, they can produce additive or synergistic respiratory depression. This combination increases the risk of profound sedation, coma, overdose, and death. This is one of the most clinically important safety warnings involving benzodiazepines.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The functional GABA-A receptor is composed of how many subunits?",
+      "options": [
+        "Pentameric, five subunits",
+        "Tetrameric, four subunits",
+        "Hexameric, six subunits",
+        "Monomeric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The GABA-A receptor is a ligand-gated chloride channel composed of five subunits. Common subunits include α, β, and γ. The benzodiazepine binding site is typically located at the interface between an α subunit and a γ subunit. This receptor structure is important because different subunit combinations produce different pharmacological effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-112",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which benzodiazepine is commonly used IV for procedural sedation because of rapid onset and short duration?",
+      "options": [
+        "Midazolam",
+        "Clonazepam",
+        "Diazepam",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Midazolam is commonly used intravenously for procedural sedation because it has rapid onset and short duration. It also produces anxiolysis and anterograde amnesia, which are useful during procedures. Clonazepam is longer-acting and used mainly for seizures or panic disorder. Diazepam is longer-acting. Phenobarbital is a barbiturate.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-113",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which sedative is a well-known inducer of hepatic cytochrome P450 enzymes, affecting levels of other drugs?",
+      "options": [
+        "Phenobarbital",
+        "Oxazepam",
+        "Zolpidem",
+        "Flumazenil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital is a strong inducer of hepatic cytochrome P450 enzymes. It can increase the metabolism of many drugs and reduce their therapeutic effects. Examples include warfarin, oral contraceptives, corticosteroids, and some antiepileptics. Oxazepam undergoes glucuronidation and is not a strong enzyme inducer. Zolpidem is a hypnotic Z-drug. Flumazenil is a benzodiazepine receptor antagonist.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Abrupt discontinuation of long-term high-dose benzodiazepines may precipitate which dangerous withdrawal symptom?",
+      "options": [
+        "Seizures",
+        "Hyperprolactinemia",
+        "Blindness",
+        "Parkinsonism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abrupt withdrawal of long-term or high-dose benzodiazepines can cause anxiety, insomnia, tremor, irritability, autonomic symptoms, and in severe cases, seizures. This happens because chronic benzodiazepine use causes neuroadaptation. Sudden removal leads to excessive CNS excitability. Benzodiazepines should usually be tapered gradually rather than stopped abruptly.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which property distinguishes barbiturates from benzodiazepines at high concentrations?",
+      "options": [
+        "Barbiturates can directly activate GABA-A receptors in absence of GABA",
+        "Barbiturates only increase frequency of channel opening",
+        "Barbiturates block benzodiazepine binding site competitively",
+        "Barbiturates are 5-HT1A agonists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At high concentrations, barbiturates can directly activate GABA-A receptors even without GABA. This produces profound CNS depression and contributes to the high risk of fatal overdose. Benzodiazepines do not directly activate the receptor; they require GABA to exert their effect. This is why benzodiazepines have a wider therapeutic index than barbiturates.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-116",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anxiolytic is a non-sedating 5-HT1A partial agonist used for generalized anxiety rather than acute sedation?",
+      "options": [
+        "Buspirone",
+        "Diazepam",
+        "Phenobarbital",
+        "Zolpidem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Buspirone is a 5-HT1A partial agonist used for generalized anxiety disorder. It is non-sedating compared with benzodiazepines and does not cause significant dependence. However, it has a delayed onset of action, often taking 1-2 weeks or more to produce clinical benefit. Therefore, it is not useful for acute panic attacks or immediate sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine is often preferred for status epilepticus because of its efficacy and relatively prolonged anticonvulsant action?",
+      "options": [
+        "Lorazepam",
+        "Triazolam",
+        "Zaleplon",
+        "Promazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lorazepam is commonly preferred for status epilepticus because it has strong anticonvulsant activity and remains in the CNS longer than diazepam after IV administration. Diazepam has rapid onset but redistributes quickly, so its anticonvulsant effect may be shorter. Lorazepam is therefore often preferred for sustained seizure control. Triazolam is a hypnotic benzodiazepine, zaleplon is a Z-drug, and promazine is a phenothiazine antipsychotic.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-118",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which class of sedatives has the narrowest therapeutic index and highest risk of fatal overdose?",
+      "options": [
+        "Barbiturates",
+        "Benzodiazepines",
+        "Z-drugs",
+        "Antihistamines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barbiturates have a narrow therapeutic index and a high risk of fatal overdose. Toxicity can cause coma, respiratory depression, cardiovascular collapse, and death. Benzodiazepines are safer in overdose when taken alone, although they become dangerous when combined with alcohol, opioids, or other CNS depressants.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "For insomnia patients needing minimal next-day sedation and rapid sleep induction, which agent is most appropriate?",
+      "options": [
+        "Zaleplon",
+        "Flurazepam",
+        "Doxylamine",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zaleplon has a very short half-life and is useful for sleep-onset insomnia. Because it is cleared rapidly, it has minimal next-day residual sedation. Flurazepam is long-acting and may cause next-day hangover. Doxylamine is a sedating antihistamine that may cause anticholinergic effects and morning drowsiness. Phenobarbital is a barbiturate and is not appropriate for routine insomnia.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-120",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tolerance to hypnotic effects develops most rapidly with which class of drugs?",
+      "options": [
+        "Barbiturates",
+        "Antihistamines",
+        "SSRIs",
+        "Beta-blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barbiturates are strongly associated with tolerance, dependence, and withdrawal. Tolerance develops partly because barbiturates induce hepatic enzymes, increasing their own metabolism and the metabolism of other drugs. Pharmacodynamic tolerance also develops due to CNS adaptation. Antihistamines may show reduced sedative effect with repeated use, but barbiturates are classically associated with rapid and dangerous tolerance.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-121",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which benzodiazepine undergoes direct glucuronidation, phase II metabolism, and is thus preferred in hepatic impairment?",
+      "options": [
+        "Oxazepam",
+        "Diazepam",
+        "Flurazepam",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxazepam undergoes direct glucuronidation and does not depend heavily on hepatic oxidative metabolism. This makes it safer in elderly patients and patients with hepatic impairment. The classic benzodiazepines remembered as safer in liver impairment are: LOT: Lorazepam, Oxazepam, Temazepam. Diazepam, flurazepam, and chlordiazepoxide undergo oxidative metabolism and may have active metabolites, increasing the risk of prolonged sedation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-122",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sedative-hypnotic is classically associated with fetal/neonatal risk and neonatal withdrawal when used chronically during pregnancy?",
+      "options": [
+        "Phenobarbital",
+        "Zolpidem",
+        "Lorazepam",
+        "Buspirone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital crosses the placenta and chronic exposure during pregnancy may be associated with fetal and neonatal risks, including neonatal sedation, dependence, and withdrawal symptoms after birth. Barbiturates in general have greater concern than many newer sedative-hypnotics because of CNS depression, dependence, and withdrawal potential. Important note for students: many CNS-active drugs require careful risk-benefit assessment in pregnancy. The safest answer depends on the indication, dose, duration, and available alternatives.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-123",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Co-administration of benzodiazepines with ethanol most likely produces which pharmacodynamic interaction?",
+      "options": [
+        "Synergistic CNS depression",
+        "Reduced benzodiazepine clearance leading to hypertension",
+        "CYP450 inhibition with opioid antagonism",
+        "Reduced sedative effect due to receptor blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both benzodiazepines and ethanol enhance inhibitory CNS activity. Their combination can produce excessive sedation, impaired coordination, respiratory depression, coma, or death. This is a pharmacodynamic interaction because both drugs depress CNS function, even if they do not necessarily change each other's blood levels.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-124",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Long-term barbiturate therapy commonly leads to which effect on co-administered drugs?",
+      "options": [
+        "Increased hepatic metabolism of co-administered drugs via CYP450 induction",
+        "Reduced renal clearance of all drugs",
+        "Inhibition of phase II glucuronidation universally",
+        "Permanent blockade of CYP3A4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-term barbiturate therapy, especially with phenobarbital, induces hepatic CYP450 enzymes. This increases the metabolism of many co-administered drugs and can reduce their plasma concentrations and therapeutic effects. This is clinically important with drugs such as warfarin, oral contraceptives, corticosteroids, and other antiepileptic drugs.",
       "caseText": "",
       "imageUrl": ""
     }
