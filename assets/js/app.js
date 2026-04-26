@@ -982,245 +982,158 @@ async function loadTopicQuestions(subjectId, topicId) {
   const topicMeta = (subjectData.topics || []).find(t => (t.id || slugify(t.name)) === topicId);
   if (!topicMeta?.file) throw new Error('Topic file not found.');
   const setGrid = document.getElementById('sets-grid');
-  if (setGrid && !PN_DATA.topicFilesCache.has(topicMeta.file)) renderPageSkeleton(setGrid, 2, true);
-  if (!PN_DATA.topicFilesCache.has(topicMeta.file)) {
-    PN_DATA.topicFilesCache.set(topicMeta.file, await fetchJson(topicMeta.file));
-  }
-  const topicJson = PN_DATA.topicFilesCache.get(topicMeta.file);
-  appState.selectedSubjectId = subjectId;
-  appState.selectedTopicId = topicId;
-  appState.currentTopicMeta = {
-    ...topicMeta,
-    subjectName: PN_DATA.subjectsMap.get(subjectId)?.name || '',
-    subjectId
-  };
-  appState.currentTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
-  appState.currentSetIndex = 0;
-  clearCurrentSetSessionQuestions();
-  beginStudySession('set');
-  if (!appState.studyResults[topicId]) appState.studyResults[topicId] = {};
-  saveState();
-  renderSetsPage();
-}
-
-function chunkQuestions(questions = []) {
-  const chunks = [];
-  for (let i = 0; i < questions.length; i += STUDY_SET_SIZE) chunks.push(questions.slice(i, i + STUDY_SET_SIZE));
-  return chunks.length ? chunks : [[]];
-}
-
-function getPrimaryStudyQuestions() {
-  return (appState.currentTopicQuestions || []).slice(0, PRIMARY_STUDY_QUESTION_LIMIT);
-}
-
-function getExtraPracticeQuestions() {
-  return (appState.currentTopicQuestions || []).slice(PRIMARY_STUDY_QUESTION_LIMIT);
-}
-
-function getCurrentTopicQuestionChunks() {
-  return chunkQuestions(getPrimaryStudyQuestions());
-}
-
-function getExtraPracticeQuestionChunks() {
-  return chunkQuestions(getExtraPracticeQuestions()).filter(chunk => chunk.length);
-}
-
-function getAnsweredState(questionId) {
-  const meta = appState.currentTopicMeta;
-  if (!meta || !questionId) return undefined;
-  return getStudyResultCorrect(meta.id, questionId);
-}
-
-function getAnsweredCountForQuestions(questions = []) {
-  return questions.filter(q => getAnsweredState(q.id) !== undefined).length;
-}
-
-function isSetCompleted(index = 0) {
-  const chunk = chunkQuestions(appState.currentTopicQuestions || [])[index] || [];
-  return !!chunk.length && getAnsweredCountForQuestions(chunk) >= chunk.length;
-}
-
-function isSetUnlocked(index = 0) {
-  return index === 0 || isSetCompleted(index - 1);
-}
-
-function isTopicFullyAnswered() {
-  const questions = getPrimaryStudyQuestions();
-  return !!questions.length && getAnsweredCountForQuestions(questions) >= questions.length;
-}
-
-function getWrongQuestionIdsForTopic() {
-  const meta = appState.currentTopicMeta;
-  if (!meta) return [];
-  return getPrimaryStudyQuestions()
-    .filter(q => getStudyResultCorrect(meta.id, q.id) === false)
-    .map(q => q.id);
-}
-
-function getDifficultyCounts(questions = []) {
-  return questions.reduce((acc, q) => {
-    const key = String(q.difficulty || 'easy').toLowerCase();
-    if (key === 'hard') acc.hard += 1;
-    else if (key === 'medium') acc.medium += 1;
-    else acc.easy += 1;
-    return acc;
-  }, { easy: 0, medium: 0, hard: 0 });
-}
-
-function getTopicProgress(topicId) {
-  const results = appState.studyResults?.[topicId] || {};
-  const answered = Object.keys(results).length;
-  const correct = Object.values(results).filter(Boolean).length;
-  return { answered, correct };
-}
-
-function renderSetsPage() {
-  const meta = appState.currentTopicMeta;
-  const questions = getPrimaryStudyQuestions();
-  const allQuestions = appState.currentTopicQuestions || [];
-  const extraQuestions = getExtraPracticeQuestions();
-  if (!meta) return;
-
-  const counts = getDifficultyCounts(allQuestions);
-  const chunks = getCurrentTopicQuestionChunks();
-  const extraChunks = getExtraPracticeQuestionChunks();
-  const progress = getTopicProgress(meta.id);
-  const primaryAnswered = getAnsweredCountForQuestions(questions);
-  const progressPercent = questions.length ? Math.round((primaryAnswered / questions.length) * 100) : 0;
-
-  const crumbs = document.querySelector('#page-sets nav');
-  if (crumbs) {
-    crumbs.innerHTML = `<button onclick="navigateTo('subjects')" class="hover:text-primary transition-colors">Subjects</button><span class="material-symbols-outlined text-sm">chevron_right</span><button onclick="navigateTo('topics')" class="hover:text-primary transition-colors">${escapeHtml(meta.subjectName)}</button><span class="material-symbols-outlined text-sm">chevron_right</span><span class="text-primary font-bold">${escapeHtml(meta.name)}</span>`;
-  }
-
-  document.getElementById('sets-subject-topic-label') && (document.getElementById('sets-subject-topic-label').textContent = `${meta.subjectName} • Topic`);
-  document.getElementById('sets-topic-title') && (document.getElementById('sets-topic-title').textContent = meta.name);
-  document.getElementById('sets-topic-description') && (document.getElementById('sets-topic-description').textContent = meta.description || 'Topic questions loaded from JSON.');
-  document.getElementById('sets-accuracy-pill') && (document.getElementById('sets-accuracy-pill').textContent = `${appState.accuracy}% Accuracy`);
-  document.getElementById('sets-complete-pill') && (document.getElementById('sets-complete-pill').textContent = `${progressPercent}% Complete`);
-  document.getElementById('sets-mastery-score') && (document.getElementById('sets-mastery-score').textContent = `${progressPercent}%`);
-  document.getElementById('sets-easy-count') && (document.getElementById('sets-easy-count').textContent = counts.easy);
-  document.getElementById('sets-medium-count') && (document.getElementById('sets-medium-count').textContent = counts.medium);
-  document.getElementById('sets-hard-count') && (document.getElementById('sets-hard-count').textContent = counts.hard);
-  document.getElementById('sets-total-count') && (document.getElementById('sets-total-count').textContent = allQuestions.length);
-  document.getElementById('sets-resume-progress-text') && (document.getElementById('sets-resume-progress-text').textContent = `${progressPercent}%`);
-  document.getElementById('sets-resume-title') && (document.getElementById('sets-resume-title').textContent = primaryAnswered ? `Resume from Question ${Math.min(primaryAnswered + 1, questions.length)}` : 'Start from Question 1');
-  document.getElementById('sets-resume-subtitle') && (document.getElementById('sets-resume-subtitle').textContent = `Core plan • ${primaryAnswered} of ${questions.length} answered`);
-  document.getElementById('sets-count-label') && (document.getElementById('sets-count-label').textContent = `${chunks.length} Core Sets${extraChunks.length ? ` + ${extraChunks.length} Extra` : ''}`);
-
-  const setGrid = document.getElementById('sets-grid');
-  if (!setGrid) return;
-
   const wrongIds = getWrongQuestionIdsForTopic();
   const topicDone = isTopicFullyAnswered();
+  const coreCompleted = chunks.filter(chunk => chunk.length > 0 && getAnsweredCountForQuestions(chunk) >= chunk.length).length;
+  const totalCoreSets = chunks.length;
+  const nextCoreIndex = chunks.findIndex((chunk, idx) => isSetUnlocked(idx) && getAnsweredCountForQuestions(chunk) < chunk.length);
+  const nextStep = !questions.length
+    ? 'Add questions to this topic first.'
+    : nextCoreIndex >= 0
+      ? `Continue Set ${nextCoreIndex + 1}`
+      : wrongIds.length
+        ? 'Review your Wrong Questions Set'
+        : extraChunks.length
+          ? 'Open Extra Practice Sets'
+          : 'Topic core plan is complete';
+  const readiness = Math.min(100, Math.round((progressPercent * 0.75) + ((topicDone && !wrongIds.length) ? 25 : topicDone ? 12 : 0)));
 
-  setGrid.className = 'space-y-8 mb-10';
+  document.getElementById('snapshot-core-sets') && (document.getElementById('snapshot-core-sets').textContent = `${coreCompleted} / ${totalCoreSets || 0}`);
+  document.getElementById('snapshot-wrong-count') && (document.getElementById('snapshot-wrong-count').textContent = String(wrongIds.length));
+  document.getElementById('snapshot-extra-count') && (document.getElementById('snapshot-extra-count').textContent = String(extraChunks.length));
+  document.getElementById('snapshot-next-step') && (document.getElementById('snapshot-next-step').textContent = nextStep);
+  document.getElementById('snapshot-readiness') && (document.getElementById('snapshot-readiness').textContent = `${readiness}%`);
+  document.getElementById('snapshot-main-progress') && (document.getElementById('snapshot-main-progress').style.width = `${progressPercent}%`);
+  document.getElementById('snapshot-main-progress-label') && (document.getElementById('snapshot-main-progress-label').textContent = `${progressPercent}% core completed`);
+  const wrongBtn = document.getElementById('snapshot-wrong-btn');
+  if (wrongBtn) {
+    wrongBtn.disabled = !(topicDone && wrongIds.length);
+    wrongBtn.classList.toggle('opacity-50', !(topicDone && wrongIds.length));
+    wrongBtn.classList.toggle('cursor-not-allowed', !(topicDone && wrongIds.length));
+  }
+  const extraBtn = document.getElementById('snapshot-extra-btn');
+  if (extraBtn) {
+    extraBtn.disabled = !extraChunks.length;
+    extraBtn.classList.toggle('opacity-50', !extraChunks.length);
+    extraBtn.classList.toggle('cursor-not-allowed', !extraChunks.length);
+  }
 
-  const buildSetCard = (chunk, idx, options = {}) => {
-    const isExtra = options.isExtra === true;
-    const labelIndex = isExtra ? idx - PRIMARY_STUDY_SET_COUNT + 1 : idx + 1;
-    const start = isExtra
-      ? PRIMARY_STUDY_QUESTION_LIMIT + (labelIndex - 1) * STUDY_SET_SIZE + 1
-      : idx * STUDY_SET_SIZE + 1;
-    const end = start + chunk.length - 1;
-    const answeredInSet = getAnsweredCountForQuestions(chunk);
-    const pct = chunk.length ? Math.round((answeredInSet / chunk.length) * 100) : 0;
-    const started = answeredInSet > 0;
-    const completed = chunk.length > 0 && answeredInSet >= chunk.length;
-    const unlocked = isSetUnlocked(idx);
-    const statusText = completed ? 'Completed' : started ? 'In Progress' : unlocked ? 'Not Started' : 'Locked';
-    const statusClass = completed
-      ? 'bg-secondary-container/60 text-on-secondary-container'
-      : started
-        ? 'bg-tertiary/10 text-tertiary'
-        : unlocked
-          ? 'bg-surface-container text-on-surface-variant'
-          : 'bg-surface-container-high text-outline';
-    const cardStateClass = unlocked ? 'cursor-pointer hover:-translate-y-1 hover:shadow-[0_24px_50px_rgba(0,21,27,0.10)]' : 'opacity-60 cursor-not-allowed';
-    const icon = isExtra ? 'extension' : (unlocked ? 'arrow_outward' : 'lock');
-    const title = isExtra ? `Extra Questions ${start}–${end}` : `Questions ${start}–${end}`;
-    const label = isExtra ? `Extra Set ${labelIndex}` : `Set ${labelIndex} • ${statusText}`;
-    const desc = isExtra
-      ? 'Additional practice beyond the first 100-question core plan. Use it after the main sets and wrong-bank review.'
-      : `${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this structured set.`;
-    const buttonText = !unlocked ? 'Locked' : started ? 'Resume' : isExtra ? 'Start Extra' : 'Start Set';
-    const secondaryAction = unlocked && started
-      ? `<button onclick="event.stopPropagation(); startSet(${idx}, false);" class="px-4 py-2 rounded-xl bg-surface-container-low text-primary border border-outline-variant/20 text-xs font-black hover:bg-surface-container transition-colors">Restart</button>`
-      : '';
+  if (setGrid) {
+    setGrid.className = 'space-y-7 mb-10';
+    const normalCards = chunks.map((chunk, idx) => {
+      const start = idx * STUDY_SET_SIZE + 1;
+      const end = start + chunk.length - 1;
+      const answeredInSet = getAnsweredCountForQuestions(chunk);
+      const pct = chunk.length ? Math.round((answeredInSet / chunk.length) * 100) : 0;
+      const started = answeredInSet > 0;
+      const completed = chunk.length > 0 && answeredInSet >= chunk.length;
+      const unlocked = isSetUnlocked(idx);
+      const statusText = completed ? 'Completed' : started ? 'In Progress' : unlocked ? 'Not Started' : 'Locked';
+      const statusClass = completed
+        ? 'bg-secondary-container/60 text-on-secondary-container'
+        : started
+          ? 'bg-tertiary/10 text-tertiary'
+          : unlocked
+            ? 'bg-surface-container text-on-surface-variant'
+            : 'bg-surface-container-high text-outline';
+      const cardStateClass = unlocked ? 'cursor-pointer hover:-translate-y-0.5' : 'opacity-60 cursor-not-allowed';
+      const actionHtml = unlocked
+        ? `<div class="flex flex-wrap items-center gap-2">
+              ${started ? `<button onclick="event.stopPropagation(); startSet(${idx}, true);" class="bg-primary text-on-primary px-4 py-2 rounded-lg text-sm font-bold">Resume</button>` : ''}
+              <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">${started ? 'Restart Fresh' : 'Start Set'}</button>
+            </div>`
+        : `<button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-high text-outline border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold cursor-not-allowed">Locked</button>`;
+      return `
+        <div class="bg-surface-container-lowest rounded-[2rem] p-6 ambient-shadow group transition-transform ${cardStateClass} border border-outline-variant/15 min-h-[245px] flex flex-col" onclick="startSet(${idx})">
+          <div class="flex justify-between items-start mb-5"><span class="px-3 py-1 ${statusClass} rounded-full text-xs font-bold uppercase tracking-wider">Set ${idx + 1} • ${statusText}</span><span class="material-symbols-outlined ${unlocked ? 'text-outline group-hover:text-tertiary' : 'text-outline'} transition-colors">${unlocked ? 'arrow_outward' : 'lock'}</span></div>
+          <h3 class="text-xl font-black text-primary mb-2">Questions ${start}–${end}</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed mb-5 flex-1">${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this set.</p>
+          ${!unlocked ? `<p class="text-xs font-bold text-tertiary mb-4 flex items-center gap-2"><span class="material-symbols-outlined text-sm">lock</span>Finish Set ${idx} first to unlock this set.</p>` : ''}
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 pt-4 border-t border-outline-variant/15">
+            <div class="min-w-[150px]"><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-full bg-surface-container rounded-full h-2 overflow-hidden"><div class="bg-tertiary h-2 rounded-full" style="width:${pct}%"></div></div></div>
+            ${actionHtml}
+          </div>
+        </div>`;
+    }).join('');
 
-    return `
-      <article class="relative rounded-[1.7rem] bg-surface-container-lowest border border-outline-variant/20 p-5 md:p-6 ambient-shadow transition-all ${cardStateClass}" onclick="startSet(${idx})">
-        <div class="flex items-start justify-between gap-4 mb-5">
-          <span class="px-3 py-1 ${isExtra ? 'bg-primary-fixed/50 text-primary' : statusClass} rounded-full text-[11px] font-black uppercase tracking-wider">${label}</span>
-          <span class="material-symbols-outlined ${unlocked ? 'text-tertiary' : 'text-outline'}">${icon}</span>
-        </div>
-        <h3 class="text-xl font-extrabold text-primary mb-2 leading-tight">${title}</h3>
-        <p class="text-sm text-on-surface-variant leading-relaxed min-h-[48px] mb-5">${desc}</p>
-        ${!unlocked ? `<div class="mb-5 rounded-2xl bg-tertiary-fixed/20 border border-tertiary-fixed/30 px-4 py-3 text-xs font-bold text-tertiary flex items-center gap-2"><span class="material-symbols-outlined text-sm">lock</span>Finish Set ${idx} first to unlock this set.</div>` : ''}
-        <div class="pt-4 border-t border-outline-variant/15 flex flex-col gap-4">
+    const wrongCard = `
+      <div id="wrong-bank-card" class="bg-gradient-to-br from-primary to-primary-container rounded-[2rem] p-7 ambient-shadow group transition-transform ${topicDone && wrongIds.length ? 'cursor-pointer hover:-translate-y-0.5' : 'opacity-85'} text-on-primary" onclick="startWrongQuestionSet()">
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-6 items-center">
           <div>
-            <div class="flex justify-between text-xs mb-2 text-on-surface-variant font-bold"><span>Progress</span><span>${pct}%</span></div>
-            <div class="w-full bg-surface-container rounded-full h-2 overflow-hidden"><div class="${isExtra ? 'bg-secondary' : 'bg-tertiary'} h-2 rounded-full transition-all" style="width:${pct}%"></div></div>
+            <div class="flex flex-wrap items-center gap-3 mb-4"><span class="px-3 py-1 bg-tertiary-fixed/20 text-tertiary-fixed rounded-full text-xs font-bold uppercase tracking-wider">Wrong Bank • ${wrongIds.length} Questions</span><span class="px-3 py-1 bg-white/10 border border-white/15 rounded-full text-xs font-bold uppercase tracking-wider">After Core Sets</span></div>
+            <h3 class="text-2xl font-black mb-2">Wrong Questions Set</h3>
+            <p class="text-sm text-on-primary/80 leading-relaxed max-w-3xl">This set automatically collects the questions you answered wrong across the first 5 core sets. Use it after finishing the core plan so your weak-area bank becomes accurate.</p>
           </div>
-          <div class="flex flex-wrap items-center gap-2 justify-end">
-            ${secondaryAction}
-            <button onclick="event.stopPropagation(); startSet(${idx}, ${started ? 'true' : 'false'});" class="px-5 py-2.5 rounded-xl text-sm font-black ${unlocked ? 'bg-primary text-on-primary hover:scale-[0.98]' : 'bg-surface-container-high text-outline cursor-not-allowed'} transition-transform">${buttonText}</button>
+          <button onclick="event.stopPropagation(); startWrongQuestionSet();" class="bg-tertiary-fixed text-on-tertiary-fixed px-6 py-3 rounded-xl text-sm font-extrabold ${topicDone && wrongIds.length ? 'hover:scale-[0.98]' : 'opacity-60 cursor-not-allowed'} transition-transform min-w-[220px]">${!topicDone ? 'Locked Until Core Is Complete' : wrongIds.length ? 'Start Wrong Set' : 'No Wrong Questions Yet'}</button>
+        </div>
+      </div>`;
+
+    const extraCards = extraChunks.length ? `
+      <section id="extra-practice-section" class="space-y-5">
+        <div class="flex items-center gap-4">
+          <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
+          <div class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-xs font-black uppercase tracking-[0.24em] text-on-surface-variant">Extra Practice Sets</div>
+          <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+      ${extraChunks.map((chunk, extraIdx) => {
+        const idx = PRIMARY_STUDY_SET_COUNT + extraIdx;
+        const start = PRIMARY_STUDY_QUESTION_LIMIT + extraIdx * STUDY_SET_SIZE + 1;
+        const end = start + chunk.length - 1;
+        const answeredInSet = getAnsweredCountForQuestions(chunk);
+        const pct = chunk.length ? Math.round((answeredInSet / chunk.length) * 100) : 0;
+        return `<div class="bg-surface-container-lowest rounded-[2rem] p-6 ambient-shadow group transition-transform cursor-pointer hover:-translate-y-0.5 border border-outline-variant/20 min-h-[230px] flex flex-col" onclick="startSet(${idx})">
+          <div class="flex justify-between items-start mb-5"><span class="px-3 py-1 bg-primary-fixed/50 text-primary rounded-full text-xs font-bold uppercase tracking-wider">Extra Set ${extraIdx + 1}</span><span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">extension</span></div>
+          <h3 class="text-xl font-black text-primary mb-2">Extra Questions ${start}–${end}</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed mb-5 flex-1">Additional practice beyond the first 100-question core plan.</p>
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 pt-4 border-t border-outline-variant/15">
+            <div class="min-w-[150px]"><div class="flex justify-between text-xs mb-1 text-on-surface-variant"><span>Progress</span><span>${pct}%</span></div><div class="w-full bg-surface-container rounded-full h-2 overflow-hidden"><div class="bg-secondary h-2 rounded-full" style="width:${pct}%"></div></div></div>
+            <button onclick="event.stopPropagation(); startSet(${idx}, false);" class="bg-surface-container-low text-primary border border-outline-variant/15 px-5 py-2 rounded-lg text-sm font-bold">Start Extra</button>
           </div>
+        </div>`;
+      }).join('')}
         </div>
-      </article>`;
-  };
+      </section>` : '';
 
-  const coreCards = chunks.map((chunk, idx) => buildSetCard(chunk, idx)).join('');
-
-  const wrongCard = `
-    <section class="rounded-[2rem] bg-gradient-to-br from-primary to-primary-container p-6 md:p-7 ambient-shadow text-on-primary overflow-hidden relative">
-      <div class="absolute -right-16 -top-16 w-48 h-48 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
-      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-6 items-center">
-        <div>
-          <div class="flex flex-wrap items-center gap-3 mb-4">
-            <span class="px-3 py-1 bg-tertiary-fixed/20 text-tertiary-fixed rounded-full text-xs font-black uppercase tracking-wider">Wrong Bank • ${wrongIds.length} Questions</span>
-            <span class="px-3 py-1 bg-white/10 text-on-primary rounded-full text-xs font-bold border border-white/10">Unlocks after core completion</span>
-          </div>
-          <h3 class="text-2xl font-black mb-2">Wrong Questions Set</h3>
-          <p class="text-sm md:text-base text-on-primary/80 leading-relaxed max-w-2xl">This set automatically collects the questions you answered wrong across the first 5 core sets only, so your revision bank stays focused and accurate.</p>
-        </div>
-        <div class="rounded-[1.5rem] bg-white/10 border border-white/15 p-5">
-          <p class="text-xs font-black uppercase tracking-widest text-tertiary-fixed mb-2">Study Advice</p>
-          <p class="text-sm text-on-primary/85 leading-relaxed mb-4">Don’t open this set until you finish all core questions first.</p>
-          <button onclick="event.stopPropagation(); startWrongQuestionSet();" class="w-full bg-tertiary-fixed text-on-tertiary-fixed px-5 py-3 rounded-xl text-sm font-black ${topicDone && wrongIds.length ? 'hover:scale-[0.98]' : 'opacity-60 cursor-not-allowed'} transition-transform">${!topicDone ? 'Locked Until Core Sets Are Complete' : wrongIds.length ? 'Start Wrong Set' : 'No Wrong Questions Yet'}</button>
-        </div>
-      </div>
-    </section>`;
-
-  const extraSection = extraChunks.length ? `
-    <section class="space-y-5">
-      <div class="flex items-center gap-4">
-        <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
-        <div class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-xs font-black uppercase tracking-[0.22em] text-on-surface-variant whitespace-nowrap">Extra Practice Sets</div>
-        <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
-      </div>
-      <p class="text-sm text-on-surface-variant max-w-3xl mx-auto text-center leading-relaxed">Extra sets are separated from the main 100-question study plan. They are optional advanced practice and can support final-exam variety.</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-        ${extraChunks.map((chunk, extraIdx) => buildSetCard(chunk, PRIMARY_STUDY_SET_COUNT + extraIdx, { isExtra: true })).join('')}
-      </div>
-    </section>` : '';
-
-  setGrid.innerHTML = `
-    <section class="space-y-5">
-      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-2">
-        <div>
-          <p class="text-xs font-black uppercase tracking-[0.24em] text-tertiary mb-2">Core Study Plan</p>
-          <h3 class="text-2xl font-black text-primary tracking-tight">First 5 Sets</h3>
-        </div>
-        <p class="text-sm text-on-surface-variant font-semibold">${questions.length} core question${questions.length === 1 ? '' : 's'} • 20 questions per set</p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-        ${coreCards}
-      </div>
-    </section>
-    ${wrongCard}
-    ${extraSection}`;
+    setGrid.innerHTML = `
+      <section class="space-y-5">
+        <div class="flex items-center justify-between gap-4 flex-wrap"><h3 class="text-xl font-black text-primary">Core Study Sets</h3><span class="text-xs font-black uppercase tracking-[0.22em] text-on-surface-variant">First ${PRIMARY_STUDY_QUESTION_LIMIT} Questions</span></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">${normalCards}</div>
+      </section>
+      ${wrongCard}
+      ${extraCards}`;
+  }
 }
+
+function startNextRecommendedSet() {
+  const chunks = getCurrentTopicQuestionChunks();
+  const nextIndex = chunks.findIndex((chunk, idx) => isSetUnlocked(idx) && getAnsweredCountForQuestions(chunk) < chunk.length);
+  if (nextIndex >= 0) {
+    startSet(nextIndex, getAnsweredCountForQuestions(chunks[nextIndex]) > 0);
+    return;
+  }
+  if (isTopicFullyAnswered() && getWrongQuestionIdsForTopic().length) {
+    startWrongQuestionSet();
+    return;
+  }
+  const extraChunks = getExtraPracticeQuestionChunks();
+  if (extraChunks.length) {
+    startSet(PRIMARY_STUDY_SET_COUNT, false);
+    return;
+  }
+  showToast('This topic is complete. You can review your answers or move to another topic.', 'success');
+}
+window.startNextRecommendedSet = startNextRecommendedSet;
+
+function scrollToExtraSets() {
+  const target = document.getElementById('extra-practice-section');
+  if (!target) {
+    showToast('No extra practice sets are available for this topic yet.', 'info');
+    return;
+  }
+  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+window.scrollToExtraSets = scrollToExtraSets;
 
 function difficultyBadgeClass(difficulty) {
   const d = String(difficulty || 'easy').toLowerCase();
