@@ -7,6 +7,7 @@ let subjectsIndex = { updatedAt: new Date().toISOString(), subjects: [] };
 let currentQuestions = [];
 let currentTopicFileSha = null;
 let currentEditingQuestionId = '';
+let currentEditingSectionId = '';
 
 function $(id) { return document.getElementById(id); }
 function slugify(value) {
@@ -31,13 +32,17 @@ function requireSession() {
   }
 }
 function nowIso() { return new Date().toISOString(); }
-function emptyTopicMeta(id, name, description = '', order = 1, file = '', section = '') {
+function emptyTopicMeta(id, name, description = '', order = 1, file = '', sectionId = 'general') {
   return {
-    id, name, description, order, section,
+    id, name, description, order,
+    sectionId: sectionId || 'general',
     difficultyBreakdown: { easy: 0, medium: 0, hard: 0 },
     questionsCount: 0,
     file
   };
+}
+function emptySectionMeta(id, name, description = '', order = 1) {
+  return { id, name, description, order };
 }
 function normalizeQuestion(raw, fallbackId = '') {
   const type = raw.type || 'mcq';
@@ -64,7 +69,12 @@ function normalizeQuestion(raw, fallbackId = '') {
     correctAnswer,
     explanation,
     caseText: String(raw.caseText || '').trim(),
-    imageUrl: String(raw.imageUrl || '').trim()
+    imageUrl: String(raw.imageUrl || '').trim(),
+    subjectId: String(raw.subjectId || '').trim(),
+    subjectName: String(raw.subjectName || '').trim(),
+    topicId: String(raw.topicId || '').trim(),
+    topicName: String(raw.topicName || '').trim(),
+    includeInFinal: raw.includeInFinal !== false
   };
 }
 function recomputeTopicMetaFromQuestions(topicMeta, questions) {
@@ -138,6 +148,7 @@ async function bootstrapData() {
     };
 
     renderSubjectOptions();
+    await syncSectionSelectors();
     await loadTopicsForQuestionSubject();
     await syncTopicSelectors();
   } catch (e) {
@@ -153,9 +164,36 @@ function renderSubjectOptions() {
       .map(s => `<option value="${s.id}">${s.name}</option>`)
       .join('');
 
-  ['topic-subject-select', 'question-subject-select', 'bulk-subject-select'].forEach(id => {
+  ['topic-subject-select', 'section-subject-select', 'question-subject-select', 'bulk-subject-select', 'final-subject-select'].forEach(id => {
     if ($(id)) $(id).innerHTML = html;
   });
+}
+
+function getSectionOptionsHtml(sections = [], includeGeneral = true) {
+  const base = includeGeneral ? '<option value="general">General / No section</option>' : '<option value="">Select section</option>';
+  return base + (sections || [])
+    .sort((a, b) => (a.order || 999) - (b.order || 999))
+    .map(s => `<option value="${s.id}">${s.name}</option>`)
+    .join('');
+}
+
+async function syncSectionSelectors() {
+  const subjectId = $('section-subject-select')?.value || $('topic-subject-select')?.value || '';
+  const sectionEdit = $('section-edit-select');
+  const topicSection = $('topic-section-select');
+  if (!subjectId) {
+    if (sectionEdit) sectionEdit.innerHTML = '<option value="">Create new section</option>';
+    if (topicSection) topicSection.innerHTML = '<option value="general">General / No section</option>';
+    return;
+  }
+  const subjectFile = await getSubjectFile(subjectId);
+  subjectFile.json.sections = Array.isArray(subjectFile.json.sections) ? subjectFile.json.sections : [];
+  const editOptions = '<option value="">Create new section</option>' + subjectFile.json.sections
+    .sort((a, b) => (a.order || 999) - (b.order || 999))
+    .map(s => `<option value="${s.id}">${s.name}</option>`)
+    .join('');
+  if (sectionEdit) sectionEdit.innerHTML = editOptions;
+  if (topicSection) topicSection.innerHTML = getSectionOptionsHtml(subjectFile.json.sections, true);
 }
 async function getSubjectFile(subjectId) {
   return getRepoFile(`${DATA_ROOT}/${subjectId}/meta.json`);
@@ -167,6 +205,7 @@ async function getTopicFile(subjectId, topicId) {
 
 async function syncSubjectAndIndex(subjectId) {
   const subjectFile = await getSubjectFile(subjectId);
+  subjectFile.json.sections = Array.isArray(subjectFile.json.sections) ? subjectFile.json.sections : [];
   let totalQuestions = 0;
 
   for (const topic of (subjectFile.json.topics || [])) {
@@ -223,18 +262,26 @@ async function syncSubjectAndIndex(subjectId) {
   };
 }
 async function syncTopicSelectors() {
-  const subjectId = $('topic-subject-select').value || $('question-subject-select').value || $('bulk-subject-select').value || '';
-  if (!subjectId) {
-    ['topic-edit-select', 'question-topic-select', 'bulk-topic-select'].forEach(id => { if ($(id)) $(id).innerHTML = '<option value="">Select topic</option>'; });
-    return;
+  async function fillFor(subjectSelectId, topicSelectId) {
+    const subjectId = $(subjectSelectId)?.value || '';
+    const topicSelect = $(topicSelectId);
+    if (!topicSelect) return;
+    if (!subjectId) {
+      topicSelect.innerHTML = '<option value="">Select topic</option>';
+      return;
+    }
+    const subjectFile = await getSubjectFile(subjectId);
+    const options = '<option value="">Select topic</option>' + (subjectFile.json.topics || [])
+      .sort((a,b)=>(a.order||0)-(b.order||0))
+      .map(t => `<option value="${t.id}">${t.name}</option>`).join('');
+    topicSelect.innerHTML = options;
   }
-  const subjectFile = await getSubjectFile(subjectId);
-  const options = '<option value="">Select topic</option>' + (subjectFile.json.topics || [])
-    .sort((a,b)=>(a.order||0)-(b.order||0))
-    .map(t => `<option value="${t.id}">${t.name}</option>`).join('');
-  if ($('topic-subject-select').value === subjectId) $('topic-edit-select').innerHTML = options;
-  if ($('question-subject-select').value === subjectId) $('question-topic-select').innerHTML = options;
-  if ($('bulk-subject-select').value === subjectId) $('bulk-topic-select').innerHTML = options;
+  await Promise.all([
+    fillFor('topic-subject-select', 'topic-edit-select'),
+    fillFor('question-subject-select', 'question-topic-select'),
+    fillFor('bulk-subject-select', 'bulk-topic-select'),
+    fillFor('final-subject-select', 'final-topic-select')
+  ]);
 }
 async function loadTopicsForQuestionSubject() {
   await syncTopicSelectors();
@@ -251,9 +298,18 @@ function resetTopicForm() {
   $('topic-edit-select').value = '';
   $('topic-name').value = '';
   $('topic-slug').value = '';
-  if ($('topic-section')) $('topic-section').value = '';
   $('topic-order').value = '';
+  if ($('topic-section-select')) $('topic-section-select').value = 'general';
   $('topic-description').value = '';
+}
+
+function resetSectionForm() {
+  currentEditingSectionId = '';
+  if ($('section-edit-select')) $('section-edit-select').value = '';
+  if ($('section-name')) $('section-name').value = '';
+  if ($('section-slug')) $('section-slug').value = '';
+  if ($('section-order')) $('section-order').value = '';
+  if ($('section-description')) $('section-description').value = '';
 }
 function resetQuestionForm() {
   currentEditingQuestionId = '';
@@ -286,6 +342,78 @@ function buildQuestionFromForm(subjectId, topicId, fallbackId) {
     imageUrl: $('question-image').value.trim()
   }, fallbackId);
 }
+
+async function saveSection() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    if (!subjectId) throw new Error('Select a subject first.');
+    const subjectFile = await getSubjectFile(subjectId);
+    subjectFile.json.sections = Array.isArray(subjectFile.json.sections) ? subjectFile.json.sections : [];
+    const name = $('section-name').value.trim();
+    const id = slugify($('section-slug').value || name);
+    const order = Number($('section-order').value || subjectFile.json.sections.length + 1);
+    const description = $('section-description').value.trim();
+    if (!name || !id) throw new Error('Section name and slug are required.');
+    const editingId = $('section-edit-select')?.value || '';
+    if (editingId) {
+      const existing = subjectFile.json.sections.find(s => s.id === editingId);
+      if (!existing) throw new Error('Section not found.');
+      existing.name = name; existing.description = description; existing.order = order;
+      if (editingId !== id) {
+        if (subjectFile.json.sections.some(s => s.id === id)) throw new Error('Another section already has this slug.');
+        existing.id = id;
+        (subjectFile.json.topics || []).forEach(t => { if (t.sectionId === editingId) t.sectionId = id; });
+      }
+    } else {
+      if (subjectFile.json.sections.some(s => s.id === id)) throw new Error('Section already exists.');
+      subjectFile.json.sections.push(emptySectionMeta(id, name, description, order));
+    }
+    subjectFile.json.sections.sort((a,b)=>(a.order||999)-(b.order||999));
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Update sections for ${subjectId}`, subjectFile.sha);
+    await syncSectionSelectors();
+    await syncTopicSelectors();
+    resetSectionForm();
+    setMsg('section-message', `Section saved: ${name}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
+async function loadSectionIntoForm() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    const sid = $('section-edit-select').value;
+    resetSectionForm();
+    $('section-edit-select').value = sid;
+    if (!subjectId || !sid) return;
+    const subjectFile = await getSubjectFile(subjectId);
+    const section = (subjectFile.json.sections || []).find(s => s.id === sid);
+    if (!section) return;
+    currentEditingSectionId = section.id;
+    $('section-name').value = section.name || '';
+    $('section-slug').value = section.id || '';
+    $('section-order').value = section.order || '';
+    $('section-description').value = section.description || '';
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
+async function deleteSection() {
+  try {
+    const subjectId = $('section-subject-select').value;
+    const sid = $('section-edit-select').value || currentEditingSectionId;
+    if (!subjectId || !sid) throw new Error('Select a section to delete.');
+    if (!confirm('Delete this section? Topics inside it will move to General.')) return;
+    const subjectFile = await getSubjectFile(subjectId);
+    subjectFile.json.sections = (subjectFile.json.sections || []).filter(s => s.id !== sid);
+    (subjectFile.json.topics || []).forEach(t => { if (t.sectionId === sid) t.sectionId = 'general'; });
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Delete section ${sid}`, subjectFile.sha);
+    await syncSectionSelectors();
+    await syncTopicSelectors();
+    resetSectionForm();
+    setMsg('section-message', `Section deleted: ${sid}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
 async function addSubject() {
   try {
     requireSession();
@@ -325,8 +453,8 @@ async function saveTopic() {
     const name = $('topic-name').value.trim();
     const id = slugify($('topic-slug').value || name || selectedExistingId);
     const description = $('topic-description').value.trim();
-    const section = $('topic-section') ? $('topic-section').value.trim() : '';
     const order = Number($('topic-order').value || 1);
+    const sectionId = $('topic-section-select')?.value || 'general';
     if (!name || !id) throw new Error('Topic name and slug are required.');
 
     const subjectFile = await getSubjectFile(subjectId);
@@ -338,7 +466,7 @@ async function saveTopic() {
       const topicPath = `${DATA_ROOT}/${subjectId}/${id}.json`;
       const topicData = { subjectId, topicId: id, topicName: name, updatedAt: nowIso(), questions: [] };
       await putRepoJson(topicPath, topicData, `Create topic: ${name}`);
-      topics.push(emptyTopicMeta(id, name, description, order, topicPath, section));
+      topics.push({ ...emptyTopicMeta(id, name, description, order, topicPath), sectionId });
       await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Add topic: ${name}`, subjectFile.sha);
       await syncSubjectAndIndex(subjectId);
       subjectsIndex.subjects = subjectsIndex.subjects.map(s => s.id === subjectId ? { ...s, topicsCount: topics.length } : s);
@@ -360,8 +488,8 @@ async function saveTopic() {
       editing.id = id;
       editing.name = name;
       editing.description = description;
-      editing.section = section;
       editing.order = order;
+      editing.sectionId = sectionId;
       editing.file = newPath;
       recomputeTopicMetaFromQuestions(editing, topicFile.json.questions || []);
       await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Update topic meta: ${name}`, subjectFile.sha);
@@ -386,8 +514,8 @@ async function loadTopicIntoForm() {
     if (!meta) return;
     $('topic-name').value = meta.name || '';
     $('topic-slug').value = meta.id || '';
-    if ($('topic-section')) $('topic-section').value = meta.section || '';
     $('topic-order').value = meta.order ?? '';
+    if ($('topic-section-select')) $('topic-section-select').value = meta.sectionId || 'general';
     $('topic-description').value = meta.description || '';
   } catch (e) {
     setMsg('topic-message', e.message, false);
@@ -623,7 +751,14 @@ window.addEventListener('DOMContentLoaded', () => {
   $('reload-data-btn').addEventListener('click', bootstrapData);
   $('add-subject-btn').addEventListener('click', addSubject);
 
+  $('section-subject-select')?.addEventListener('change', async () => { await syncSectionSelectors(); resetSectionForm(); });
+  $('section-edit-select')?.addEventListener('change', loadSectionIntoForm);
+  $('save-section-btn')?.addEventListener('click', saveSection);
+  $('reset-section-btn')?.addEventListener('click', resetSectionForm);
+  $('delete-section-btn')?.addEventListener('click', deleteSection);
+
   $('topic-subject-select').addEventListener('change', async () => {
+    await syncSectionSelectors();
     await syncTopicSelectors();
     resetTopicForm();
   });
@@ -650,4 +785,8 @@ window.addEventListener('DOMContentLoaded', () => {
   $('bulk-topic-select').addEventListener('change', () => {});
   $('bulk-import-btn').addEventListener('click', bulkImportQuestions);
   $('bulk-template-btn').addEventListener('click', insertBulkTemplate);
+  $('final-subject-select')?.addEventListener('change', syncTopicSelectors);
+  $('final-topic-select')?.addEventListener('change', () => {});
+  $('final-import-btn')?.addEventListener('click', bulkImportFinalQuestions);
+  $('final-template-btn')?.addEventListener('click', insertFinalBulkTemplate);
 });
