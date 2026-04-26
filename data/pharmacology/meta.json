@@ -21,20 +21,19 @@
     {
       "id": "sedatives-hypnotics",
       "name": "Sedatives & Hypnotics",
-      "description": "",
-      "order": 1,
-      "sectionId": "general",
+      "description": "Benzodiazepines, barbiturates, Z-drugs, and hypnotic pharmacology.",
+      "order": 2,
+      "sectionId": "cns",
       "difficultyBreakdown": {
         "easy": 0,
         "medium": 0,
         "hard": 0
       },
       "questionsCount": 0,
-      "file": "data/pharmacology/sedatives-hypnotics.json",
-      "section": "CNS"
+      "file": "data/pharmacology/sedatives-hypnotics.json"
     }
   ],
-  "updatedAt": "2026-04-26T18:34:45.398Z",
+  "updatedAt": "2026-04-26T00:00:00.000Z",
   "sections": [
     {
       "id": "antimicrobials",
