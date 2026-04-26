@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
+<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pharmacy Nexus — Intern</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Pharmacy Nexus • Intern</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- نفس ستايل الموقع الأساسي -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <!-- ستايل إضافي خاص بالـ intern -->
+  <link rel="stylesheet" href="./css/intern.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="./js/core.js"></script>
+  <script defer src="./js/supabase-client.js"></script>
+  <script defer src="./js/api.js"></script>
+  <script defer src="./js/ui.js"></script>
 </head>
-<body class="min-h-screen bg-[#f8f9fa] text-[#00151b] flex items-center justify-center p-6">
-  <main class="max-w-xl w-full rounded-[2rem] bg-white border border-slate-200 shadow-xl p-8 text-center">
-    <p class="text-xs font-black uppercase tracking-[0.28em] text-amber-700 mb-3">Intern Section</p>
-    <h1 class="text-4xl font-black tracking-tight mb-4">Coming Soon</h1>
-    <p class="text-slate-600 leading-relaxed mb-6">This page is ready as a placeholder. You can connect it later to the full Intern module.</p>
-    <a href="../index.html" class="inline-flex items-center justify-center rounded-full bg-[#00151b] text-white px-6 py-3 font-bold">Back to Home</a>
-  </main>
+<body data-page="intern-home">
+  <div id="intern-shell"></div>
 </body>
 </html>
