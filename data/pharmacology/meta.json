@@ -15,8 +15,35 @@
         "hard": 4
       },
       "questionsCount": 18,
-      "file": "data/pharmacology/antibiotics.json"
+      "file": "data/pharmacology/antibiotics.json",
+      "sectionId": "antimicrobials"
     }
   ],
-  "updatedAt": "2026-04-19T21:42:25.507Z"
+  "updatedAt": "2026-04-19T21:42:25.507Z",
+  "sections": [
+    {
+      "id": "antimicrobials",
+      "name": "Antimicrobials",
+      "description": "Antibacterial, antiviral, antifungal, and antiparasitic agents.",
+      "order": 1
+    },
+    {
+      "id": "cns",
+      "name": "CNS",
+      "description": "Central nervous system pharmacology.",
+      "order": 2
+    },
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular",
+      "description": "Cardiovascular pharmacology and therapeutics.",
+      "order": 3
+    },
+    {
+      "id": "endocrine",
+      "name": "Endocrine",
+      "description": "Endocrine and metabolic pharmacotherapy.",
+      "order": 4
+    }
+  ]
 }
