@@ -30,7 +30,8 @@
         "hard": 0
       },
       "questionsCount": 0,
-      "file": "data/pharmacology/sedatives-hypnotics.json"
+      "file": "data/pharmacology/sedatives-hypnotics.json",
+      "section": "CNS"
     }
   ],
   "updatedAt": "2026-04-26T18:20:54.413Z",
