@@ -17,6 +17,20 @@
       "questionsCount": 18,
       "file": "data/pharmacology/antibiotics.json",
       "sectionId": "antimicrobials"
+    },
+    {
+      "id": "sedatives-hypnotics",
+      "name": "Sedatives & Hypnotics",
+      "description": "",
+      "order": 1,
+      "sectionId": "general",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/pharmacology/sedatives-hypnotics.json"
     }
   ],
   "updatedAt": "2026-04-19T21:42:25.507Z",
