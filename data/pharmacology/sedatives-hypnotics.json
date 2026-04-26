@@ -2,6 +2,807 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-26T00:00:00.000Z",
-  "questions": []
+  "updatedAt": "2026-04-26T19:10:51.398Z",
+  "questions": [
+    {
+      "id": "pharmacology-sedatives-hypnotics-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the difference between sedation and hypnosis?",
+      "options": [
+        "Sedation causes complete loss of consciousness, while hypnosis only reduces anxiety",
+        "Sedation calms the patient without necessarily inducing sleep, while hypnosis increases the tendency to sleep",
+        "Sedation is always deeper than hypnosis",
+        "Hypnosis is used only for general anesthesia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sedation means a decrease in anxiety, motor activity, and cognitive acuity without necessarily causing sleep. Hypnosis is a deeper CNS depressant state characterized by drowsiness and increased tendency to sleep. This distinction is important because the same CNS depressant drug may produce sedation at low doses and hypnosis at higher doses.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CNS depressant effects are generally described as dose-dependent. Which sequence best represents increasing CNS depression?",
+      "options": [
+        "Coma → anesthesia → hypnosis → sedation → anxiolysis",
+        "Anxiolysis → sedation → hypnosis → anesthesia → coma",
+        "Sedation → anxiolysis → coma → hypnosis → anesthesia",
+        "Hypnosis → anxiolysis → sedation → anesthesia → coma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As the dose of CNS depressants increases, the level of CNS depression becomes deeper. The usual sequence is anxiolysis, sedation, hypnosis, general anesthesia, and finally coma. Barbiturates are especially dangerous because increasing doses can progress to medullary depression and coma.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class of CNS depressants is generally considered safer and has largely replaced barbiturates for anxiety and insomnia?",
+      "options": [
+        "Barbiturates",
+        "Benzodiazepines",
+        "General anesthetics",
+        "Opioids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzodiazepines are preferred over barbiturates because they have a higher therapeutic index, less cardiovascular and respiratory depression, slower tolerance development, less severe dependence, fewer enzyme-induction interactions, and a specific antagonist, flumazenil.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which structural description is most closely associated with benzodiazepines?",
+      "options": [
+        "Barbituric acid ring",
+        "Benzene ring fused with a diazepine ring",
+        "Morphinan nucleus",
+        "Steroid nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzodiazepines contain a benzene ring fused to a diazepine ring. Barbiturates, in contrast, are based on the barbituric acid structure. This is a classic structural difference between the two sedative-hypnotic classes.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is classified as an ultra-short acting barbiturate used intravenously?",
+      "options": [
+        "Phenobarbital",
+        "Thiopental",
+        "Amobarbital",
+        "Secobarbital"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thiopental is an ultra-short acting barbiturate and is given IV only. It has been used for induction of anesthesia because of its rapid onset and redistribution to peripheral tissues, which contributes to its short duration of action.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine is listed as ultra-short acting with a duration around 30 minutes?",
+      "options": [
+        "Diazepam",
+        "Remimazolam",
+        "Lorazepam",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Remimazolam is an ultra-short acting benzodiazepine. It is used IV and has a very short duration, making it useful in procedural sedation contexts where rapid recovery is desired.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following benzodiazepines is short acting and commonly used as a hypnotic?",
+      "options": [
+        "Triazolam",
+        "Diazepam",
+        "Chlordiazepoxide",
+        "Clonazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triazolam is a short-acting benzodiazepine and is commonly used for sleep induction. Short-acting hypnotics reduce the risk of next-day sedation compared with long-acting drugs, though they may still cause adverse CNS effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine is intermediate acting?",
+      "options": [
+        "Alprazolam",
+        "Thiopental",
+        "Phenobarbital",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alprazolam is an intermediate-acting benzodiazepine. Other intermediate agents include lorazepam and temazepam. Chlordiazepoxide and diazepam are long acting, while thiopental and phenobarbital are barbiturates.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine is long acting and commonly associated with treatment of withdrawal symptoms?",
+      "options": [
+        "Diazepam",
+        "Midazolam",
+        "Triazolam",
+        "Oxazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diazepam is long acting and is useful in reducing withdrawal symptoms associated with alcohol withdrawal. Long-acting benzodiazepines provide smoother coverage and reduce severe withdrawal fluctuations.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which barbiturate is long acting and commonly used as an anticonvulsant?",
+      "options": [
+        "Phenobarbital",
+        "Thiopental",
+        "Secobarbital",
+        "Pentobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital is a long-acting barbiturate and is used as an anticonvulsant, especially in certain seizure settings. Its long duration allows sustained anticonvulsant activity, but it also carries risks of sedation, dependence, and enzyme induction.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the basic mechanism shared by benzodiazepines and barbiturates at the GABA-A receptor?",
+      "options": [
+        "They inhibit GABA release presynaptically",
+        "They antagonize GABA-A receptors",
+        "They allosterically enhance GABA-A receptor activity",
+        "They block chloride channels directly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both benzodiazepines and barbiturates bind to allosteric sites on the GABA-A receptor and enhance GABA-mediated chloride influx. This increases neuronal hyperpolarization and reduces neuronal excitability.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the immediate ionic event responsible for the inhibitory action of GABA-A receptor activation?",
+      "options": [
+        "Sodium influx",
+        "Potassium influx",
+        "Chloride influx",
+        "Calcium influx"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GABA-A receptor activation opens chloride channels, allowing chloride ions to enter the neuron. This causes hyperpolarization, making it harder for the neuron to generate action potentials.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Benzodiazepines enhance GABA-A receptor activity mainly by:",
+      "options": [
+        "Directly opening chloride channels without GABA",
+        "Increasing GABA-mediated chloride channel opening",
+        "Blocking chloride influx",
+        "Stimulating NMDA receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzodiazepines require GABA to exert their effect. They do not directly open chloride channels under normal therapeutic conditions. They enhance the effect of GABA at GABA-A receptors, increasing inhibitory neurotransmission.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are benzodiazepines generally safer than barbiturates in overdose?",
+      "options": [
+        "They strongly induce liver enzymes",
+        "They directly stimulate GABA-A receptors at high doses",
+        "Their action is more dependent on endogenous GABA and more selective",
+        "They cause stronger medullary depression"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzodiazepines act as allosteric modulators and generally require GABA to enhance chloride channel activity. Barbiturates at high doses can directly stimulate GABA-A receptors, causing non-selective CNS depression and medullary suppression, which makes them more dangerous.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-015",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "At high doses, barbiturates may become especially dangerous because they can:",
+      "options": [
+        "Act only as weak antihistamines",
+        "Directly stimulate GABA-A receptors and cause generalized CNS depression",
+        "Selectively block anxiety pathways only",
+        "Reverse respiratory depression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At increasing doses, barbiturates may displace GABA and directly stimulate GABA-A receptors. This non-selective action can lead to generalized CNS depression, medullary depression, coma, and death.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug class is more associated with strong hepatic CYP450 enzyme induction?",
+      "options": [
+        "Benzodiazepines",
+        "Barbiturates",
+        "Z-hypnotics",
+        "Melatonin receptor agonists"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barbiturates induce hepatic microsomal CYP450 enzymes. Chronic use can reduce the effect of many drugs metabolized by CYP450, causing clinically important drug interactions.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chronic barbiturate administration may reduce the action of other drugs mainly because barbiturates:",
+      "options": [
+        "Inhibit renal excretion",
+        "Induce CYP450 enzymes",
+        "Block plasma protein binding completely",
+        "Prevent oral absorption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barbiturates induce CYP450 microsomal enzymes in the liver. This increases metabolism of many drugs and may reduce their therapeutic effect, which is one reason barbiturates are less preferred clinically.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pharmacokinetic statement is correct regarding benzodiazepines and barbiturates?",
+      "options": [
+        "Both are poorly absorbed orally",
+        "Both are generally well absorbed orally, with specific IV-only exceptions",
+        "Neither crosses the blood-brain barrier",
+        "Both are excreted unchanged only by lungs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both classes are generally well absorbed orally, but there are exceptions. Thiopental is IV only among barbiturates, and remimazolam is IV only among benzodiazepines. Both classes distribute into tissues and can cross the blood-brain barrier.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about distribution of sedative-hypnotics is most accurate?",
+      "options": [
+        "They do not cross the placenta",
+        "They cannot enter breast milk",
+        "They can cross the BBB and placenta and may be secreted in breast milk",
+        "They remain only in plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sedative-hypnotics distribute widely, including to the CNS because they cross the blood-brain barrier. They may also cross the placenta and be secreted in breast milk, which is clinically important in pregnancy and lactation.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Redistribution is most relevant to the short duration of action of which highly lipid-soluble drug?",
+      "options": [
+        "Thiopental",
+        "Phenobarbital",
+        "Buspirone",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiopental is highly lipid soluble and rapidly enters the brain, producing fast anesthesia induction. Its effect ends quickly because it redistributes from the brain to peripheral tissues, not because it is immediately eliminated.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is a major pharmacological effect of benzodiazepines?",
+      "options": [
+        "Antihypertensive action",
+        "Anti-anxiety action",
+        "Strong analgesic action",
+        "Antibacterial action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzodiazepines are widely used as anxiolytics. They also have sedative-hypnotic, anticonvulsant, skeletal muscle relaxant, and anterograde amnesic effects. They do not have analgesic or antibacterial activity.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine-related effect is especially useful during procedures because the patient may not remember events afterward?",
+      "options": [
+        "Anterograde amnesia",
+        "Diuresis",
+        "Bronchodilation",
+        "Antipyresis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines can produce anterograde amnesia, meaning the patient has impaired formation of new memories after drug administration. This is useful in procedural sedation and pre-anesthetic medication.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepines are mentioned as anesthetic-related agents?",
+      "options": [
+        "Midazolam and remimazolam",
+        "Diazepam and buspirone",
+        "Lorazepam and melatonin",
+        "Alprazolam and phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Midazolam and remimazolam are benzodiazepines used in anesthesia or procedural sedation contexts. They have relatively short durations and are useful when rapid sedative effects are desired.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is specifically associated with induction of anesthesia among barbiturates?",
+      "options": [
+        "Thiopental",
+        "Oxazepam",
+        "Zaleplon",
+        "Buspirone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiopental is an ultra-short acting barbiturate historically used for induction of anesthesia. It is given IV and has rapid CNS penetration due to high lipid solubility.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which barbiturate is most associated with anticonvulsant use?",
+      "options": [
+        "Phenobarbital",
+        "Thiopental",
+        "Zolpidem",
+        "Ramelteon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital is a long-acting barbiturate with anticonvulsant activity. Barbiturates overall are no longer preferred for many sedative-hypnotic uses because of safety concerns, but phenobarbital remains important in seizure management.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine has anticonvulsant activity and has been used in absence/petit mal seizures?",
+      "options": [
+        "Clonazepam",
+        "Flurazepam",
+        "Oxazepam",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonazepam has anticonvulsant activity and has historically been used in absence/petit mal seizures. Benzodiazepines have anticonvulsant activity because they enhance GABAergic inhibition in the CNS.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is commonly associated with residual sedation or \"hangover\" after sedative-hypnotic use?",
+      "options": [
+        "Daytime drowsiness and confusion",
+        "Severe hypertension",
+        "Permanent hearing loss",
+        "Hyperglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Residual sedation may present as daytime drowsiness, confusion, memory impairment, loss of concentration, and ataxia. It is more likely with longer-acting sedative-hypnotics or excessive doses.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient wakes up feeling drowsy, confused, and unable to concentrate after taking a hypnotic. Which adverse effect best explains this?",
+      "options": [
+        "Serotonin syndrome",
+        "Residual sedation",
+        "Acute glaucoma",
+        "Enzyme inhibition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Residual sedation, also called hangover effect, occurs when the drug effect persists into the next day. It is especially problematic for students, drivers, workers, and elderly patients because it increases risk of cognitive impairment and accidents.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why should benzodiazepines be used cautiously in patients with liver disease?",
+      "options": [
+        "They are extensively metabolized by the liver",
+        "They are only eliminated through sweating",
+        "They cannot cross the BBB",
+        "They are strong renal toxins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many benzodiazepines undergo hepatic metabolism. In liver disease, metabolism may be impaired, leading to drug accumulation and increased sedation, confusion, respiratory depression, or prolonged CNS effects.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is most dangerous with high doses of sedative-hypnotics?",
+      "options": [
+        "Mild dry mouth",
+        "Respiratory suppression",
+        "Increased appetite",
+        "Skin darkening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High doses of CNS depressants may suppress respiration. This risk is especially severe with barbiturates and when sedative-hypnotics are combined with alcohol or other CNS depressants.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is a contraindication or major caution for benzodiazepines?",
+      "options": [
+        "Severe respiratory disease",
+        "Mild headache",
+        "Controlled seasonal allergy",
+        "Simple constipation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines can depress respiration, especially at higher doses or with other CNS depressants. They should be avoided or used very cautiously in severe respiratory disease and sleep apnea syndrome.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Benzodiazepines are contraindicated or avoided in sleep apnea mainly because they may:",
+      "options": [
+        "Increase insulin release",
+        "Worsen respiratory depression during sleep",
+        "Cause CYP450 induction",
+        "Increase gastric acid secretion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sleep apnea already involves episodes of impaired breathing during sleep. Benzodiazepines can further depress CNS respiratory drive and relax muscles, increasing the risk of dangerous breathing problems.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination is especially dangerous due to additive CNS depression?",
+      "options": [
+        "Benzodiazepine + alcohol",
+        "Benzodiazepine + vitamin C",
+        "Barbiturate + antacid",
+        "Zolpidem + paracetamol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alcohol is a CNS depressant. Combining it with benzodiazepines may produce excessive sedation, impaired coordination, respiratory depression, coma, or death. This warning applies broadly to sedative-hypnotics.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition requires caution or avoidance with benzodiazepines due to increased intraocular pressure concern?",
+      "options": [
+        "Acute narrow-angle glaucoma",
+        "Myopia",
+        "Cataract",
+        "Conjunctivitis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acute narrow-angle glaucoma is an important caution/avoidance point because increased intraocular pressure can be dangerous. Sedative-hypnotics should be carefully evaluated in patients with glaucoma history.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the specific antagonist used for benzodiazepine toxicity?",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Atropine",
+        "Physostigmine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flumazenil is a competitive antagonist at the benzodiazepine binding site. It can reverse benzodiazepine effects, but it must be used carefully because it may precipitate seizures, especially in chronic benzodiazepine users or mixed overdose cases.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which route is recommended for flumazenil according to the lecture?",
+      "options": [
+        "Oral only",
+        "Intranasal only",
+        "Intravenous",
+        "Topical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flumazenil undergoes extensive hepatic first-pass metabolism, so it should be administered IV. The lecture mentions an IV dose range of about 0.3-1 mg.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which treatment approach is appropriate in barbiturate toxicity?",
+      "options": [
+        "Flumazenil as specific antagonist",
+        "Mechanical ventilation, IV fluids, and urine alkalinization",
+        "Naloxone only",
+        "Immediate SSRI administration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barbiturate toxicity has no specific antagonist. Management is supportive and may include mechanical ventilation, IV fluids, and alkalization of urine to enhance elimination of certain barbiturates.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is there no flumazenil-like specific reversal agent for barbiturate toxicity in the lecture?",
+      "options": [
+        "Barbiturates have no CNS action",
+        "Barbiturate toxicity is treated mainly by supportive care because no antagonist is listed",
+        "Barbiturates are always harmless in overdose",
+        "Barbiturates are reversed by melatonin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unlike benzodiazepines, barbiturates do not have a specific clinical antagonist in the lecture. Toxicity management focuses on supporting respiration and circulation and enhancing elimination when possible.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement explains rebound insomnia after stopping sedative-hypnotics?",
+      "options": [
+        "Sudden increase in inhibitory neurotransmission only",
+        "Increased excitatory neurotransmission after stopping CNS depression",
+        "Permanent destruction of GABA receptors",
+        "Acute infection of the CNS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With continuous sedative-hypnotic exposure, the body may compensate by increasing excitatory mechanisms. When the drug is stopped suddenly, excitatory neurotransmission may dominate, causing rebound insomnia, anxiety, or withdrawal symptoms.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tolerance to sedative-hypnotics may occur because:",
+      "options": [
+        "Receptors become more sensitive with continuous binding",
+        "Receptors lose sensitivity and the body develops compensatory excitation",
+        "The drug becomes an antibiotic",
+        "The kidney stops filtering glucose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tolerance occurs when receptors become less responsive after repeated exposure. The body also develops excitatory compensatory mechanisms to overcome chronic CNS depression, making the same dose less effective over time.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Benzodiazepine treatment for anxiety is generally limited to short-term use mainly because of:",
+      "options": [
+        "Immediate permanent organ failure",
+        "Tolerance and dependence risk",
+        "Lack of CNS effect",
+        "Strong antibacterial resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lecture notes benzodiazepine treatment should not exceed around 6-8 weeks because tolerance can develop. Longer use also increases risk of dependence, withdrawal symptoms, and rebound insomnia.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In chronic generalized anxiety disorder lasting more than 6 weeks, which option is more appropriate than long-term benzodiazepine use?",
+      "options": [
+        "SSRI or SNRI",
+        "Thiopental",
+        "Phenobarbital for all patients",
+        "Flumazenil daily"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For chronic anxiety such as GAD lasting more than 6 weeks, antidepressants such as SSRIs and SNRIs are preferred long-term options. Buspirone and some antihistamines may also be used depending on the clinical scenario.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Buspirone is best described as:",
+      "options": [
+        "Hypnotic drug only acting on GABA-A receptors",
+        "An anxiolytic acting mainly as a partial 5-HT1A agonist",
+        "Barbiturate enzyme inducer",
+        "Benzodiazepine antagonist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Buspirone is an anxiolytic, not a hypnotic. It acts mainly as a partial agonist at 5-HT1A receptors, which have inhibitory effects in the CNS. It does not act through the benzodiazepine GABA-A site.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which important interaction concern is associated with buspirone in the lecture?",
+      "options": [
+        "Risk of serotonin syndrome when combined with serotonergic drugs such as SSRIs",
+        "Complete loss of renal function with antacids",
+        "Severe CYP450 induction like barbiturates",
+        "Immediate reversal by naloxone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Buspirone acts on serotonergic pathways. When combined with SSRIs or other serotonergic agents, there is a risk of serotonin syndrome. This is uncommon but clinically important and requires awareness.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Z-hypnotics such as zolpidem, zaleplon, zopiclone, and eszopiclone are best described as:",
+      "options": [
+        "Structurally identical to benzodiazepines",
+        "Acting like benzodiazepines at GABA-A but structurally different",
+        "Pure opioid agonists",
+        "Melatonin receptor antagonists"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Z-hypnotics have a similar functional mechanism to benzodiazepines through the benzodiazepine receptor/GABA-A complex, but they are structurally different. They are mainly used as hypnotics, not broad anxiolytics.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which Z-hypnotic is most suitable for a patient with difficulty falling asleep who wants minimal next-day sedation?",
+      "options": [
+        "Zaleplon",
+        "Phenobarbital",
+        "Flurazepam",
+        "Chlordiazepoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zaleplon has a very short half-life and is useful for sleep-onset insomnia. Because it wears off quickly, it has a lower risk of next-day sedation compared with longer-acting hypnotics.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug acts as a selective agonist at MT1 and MT2 melatonin receptors?",
+      "options": [
+        "Ramelteon",
+        "Buspirone",
+        "Diazepam",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ramelteon and tasimelteon are synthetic melatonin receptor agonists. MT1 is associated with sleep promotion, while MT2 helps regulate circadian rhythm. These drugs are useful for insomnia and circadian rhythm problems.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about melatonin receptor agonists is correct?",
+      "options": [
+        "They cause strong GABA dependence and severe withdrawal",
+        "They act through MT1/MT2 receptors and have no GABA mechanism",
+        "They are barbiturate antagonists",
+        "They are mainly used for seizure emergencies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Melatonin receptor agonists act on MT1 and MT2 receptors, not GABA-A receptors. They are considered safer in many patients, including elderly patients, because they have minimal dependence risk compared with benzodiazepines.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sedative-hypnotic option is generally safer for elderly patients because it lacks GABA-dependent CNS depressant effects?",
+      "options": [
+        "Melatonin or melatonin receptor agonists",
+        "Thiopental",
+        "Phenobarbital",
+        "Secobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Melatonin and melatonin receptor agonists do not act via GABA and are not associated with the same dependence risk as benzodiazepines or barbiturates. This makes them generally safer choices for certain elderly patients with sleep problems, although patient-specific assessment is still required.",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-sedatives-hypnotics-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient overdosed on alprazolam and is unconscious. Which drug can reverse the benzodiazepine effect?",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Ramelteon",
+        "Buspirone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alprazolam is a benzodiazepine. Flumazenil is the specific competitive antagonist at the benzodiazepine binding site and can reverse benzodiazepine toxicity. However, it should be used cautiously in chronic benzodiazepine users because it may precipitate withdrawal seizures.",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
