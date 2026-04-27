@@ -31,6 +31,20 @@
       },
       "questionsCount": 124,
       "file": "data/pharmacology/sedatives-hypnotics.json"
+    },
+    {
+      "id": "antidepressant",
+      "name": "Antidepressant",
+      "description": "",
+      "order": 2,
+      "sectionId": "cns",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/pharmacology/antidepressant.json"
     }
   ],
   "updatedAt": "2026-04-26T20:23:13.288Z",
