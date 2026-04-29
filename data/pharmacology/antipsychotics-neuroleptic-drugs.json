@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antipsychotics-neuroleptic-drugs",
   "topicName": "Antipsychotics / Neuroleptic Drugs",
-  "updatedAt": "2026-04-29T19:10:53.428Z",
+  "updatedAt": "2026-04-29T19:11:22.181Z",
   "questions": [
     {
       "id": "pharmacology-antipsychotics-neuroleptic-drugs-001",
@@ -839,6 +839,601 @@
     },
     {
       "id": "pharmacology-antipsychotics-neuroleptic-drugs-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best summarizes the therapeutic trade-off between typical and atypical antipsychotics?",
+      "options": [
+        "Typical agents are stronger for positive symptoms but more EPS-prone; atypical agents are better for negative symptoms with lower EPS risk but more weight gain and specific serious toxicities such as clozapine agranulocytosis",
+        "Typical agents have no adverse effects, while atypical agents only cause EPS",
+        "Atypical agents are never used first-line",
+        "Typical agents mainly treat negative symptoms through 5-HT2A blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the key clinical comparison. Typical antipsychotics mainly block D2 receptors and are effective for positive symptoms but carry higher EPS risk. Atypicals block D2 and 5-HT2A receptors, tend to improve negative symptoms more, and have lower EPS risk. However, atypicals are not harmless: weight gain is more common, and clozapine can cause agranulocytosis and seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient improves in hallucinations after haloperidol but develops rigidity and bradykinesia. Which explanation best connects both outcomes?",
+      "options": [
+        "Mesolimbic D2 blockade improves positive symptoms, while nigrostriatal D2 blockade causes parkinsonism",
+        "H1 blockade improves positive symptoms, while D2 blockade causes sedation",
+        "5-HT2A blockade improves rigidity, while D2 blockade causes hallucinations",
+        "Muscarinic blockade improves hallucinations, while alpha-1 blockade causes bradykinesia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The therapeutic and adverse effects depend on where dopamine blockade occurs. D2 blockade in the mesolimbic pathway reduces positive symptoms, while D2 blockade in the nigrostriatal pathway can produce parkinsonian symptoms such as tremor, rigidity, and bradykinesia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "An adolescent with schizophrenia has prominent apathy, social withdrawal, and lack of energy. Which pharmacological profile is more likely to help these symptoms?",
+      "options": [
+        "Strong D2 blockade only",
+        "Greater 5-HT2A blockade with lower D2 affinity",
+        "Pure muscarinic blockade",
+        "Alpha-1 blockade only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negative symptoms are more likely to improve with atypical antipsychotics, which tend to have higher affinity for 5-HT2A receptors than D2 receptors. Typical antipsychotics mainly improve positive symptoms and are less effective for negative symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are second-generation antipsychotics often preferred as first-line therapy in schizophrenia?",
+      "options": [
+        "They have no adverse effects at all",
+        "They reduce EPS risk while improving negative symptoms more than typical agents",
+        "They are always cheaper",
+        "They only act as antiemetics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atypical antipsychotics generally produce fewer extrapyramidal symptoms because they have lower D2 affinity and stronger serotonergic activity. They also tend to have better effects on negative symptoms compared with typical antipsychotics. However, they are not free from adverse effects; weight gain, metabolic issues, and clozapine-related agranulocytosis remain important concerns.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking antipsychotic therapy develops restlessness and an inability to sit still after several weeks. Which adverse effect is most likely?",
+      "options": [
+        "Acute dystonia",
+        "Akathisia",
+        "Tardive dyskinesia",
+        "Agranulocytosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Akathisia is a subjective and objective feeling of motor restlessness. It often appears weeks to months after treatment initiation. It is different from dystonia, which involves sustained muscle contraction, and tardive dyskinesia, which occurs after long-term exposure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient receiving a high-potency typical antipsychotic develops fever, severe rigidity, confusion, and unstable blood pressure. What is the most appropriate first step?",
+      "options": [
+        "Increase the antipsychotic dose",
+        "Stop the antipsychotic and provide supportive therapy",
+        "Add another D2 antagonist",
+        "Ignore symptoms because this is expected sedation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This presentation strongly suggests neuroleptic malignant syndrome. NMS is life-threatening and requires immediate discontinuation of the antipsychotic, supportive care, and sometimes dantrolene or bromocriptine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient develops gynecomastia and galactorrhea during antipsychotic therapy. Which mechanism best explains this adverse effect?",
+      "options": [
+        "D2 blockade removes dopamine inhibition of prolactin release",
+        "H1 blockade increases prolactin secretion directly",
+        "Alpha-1 blockade stimulates breast tissue directly",
+        "Muscarinic blockade increases dopamine release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine inhibits prolactin secretion. Blocking D2 receptors in the tuberoinfundibular pathway reduces dopamine's inhibitory effect, causing hyperprolactinemia. This can lead to gynecomastia, galactorrhea, menstrual changes, infertility, and sexual dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Atypical antipsychotics are less likely to cause EPS mainly because they:",
+      "options": [
+        "Have lower D2 affinity and stronger 5-HT2A receptor activity",
+        "Have stronger nigrostriatal D2 blockade than typical agents",
+        "Never enter the brain",
+        "Act only on acetylcholine receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Atypical antipsychotics generally have lower affinity for D2 receptors and higher affinity for 5-HT2A receptors. This receptor profile reduces the risk of motor pathway dopamine blockade and therefore lowers EPS risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with resistant schizophrenia has failed multiple antipsychotics. Which drug is most appropriate to consider despite the need for strict blood monitoring?",
+      "options": [
+        "Clozapine",
+        "Haloperidol",
+        "Promethazine",
+        "Chlorpromazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clozapine is effective in treatment-resistant schizophrenia and has minimal EPS risk. However, its use is limited by serious adverse effects, especially agranulocytosis, seizures, and bone marrow suppression. Frequent white blood cell monitoring is required.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which receptor profile best explains clozapine's lower EPS risk despite antipsychotic efficacy?",
+      "options": [
+        "Strong D2 blockade only",
+        "Weak D2 antagonism with high affinity for D1, D4, 5-HT2, muscarinic, and alpha-adrenergic receptors",
+        "Pure H1 blockade",
+        "Pure alpha-1 blockade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clozapine is a weak D2 antagonist but has high affinity for several other receptors, including D1, D4, 5-HT2, muscarinic, and alpha-adrenergic receptors. Its weak D2 blockade helps explain the relatively low EPS risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why haloperidol is more likely than chlorpromazine to cause EPS?",
+      "options": [
+        "Haloperidol has stronger D2 receptor binding",
+        "Haloperidol blocks H1 receptors more strongly",
+        "Chlorpromazine is a pure serotonin antagonist",
+        "Chlorpromazine does not enter the CNS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High-potency typical antipsychotics such as haloperidol bind strongly to D2 receptors and therefore produce more EPS. Low-potency agents tend to have more anticholinergic, sedative, and alpha-blocking effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient treated with a neuroleptic develops nausea improvement at a low dose. Which receptor-location combination explains this effect?",
+      "options": [
+        "D2 blockade in the CTZ of the medulla",
+        "D2 blockade in the nigrostriatal pathway",
+        "H1 blockade in the cortex",
+        "5-HT2A blockade in the frontal cortex only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The antiemetic effect of some neuroleptics is due to D2 blockade in the chemoreceptor trigger zone of the medulla. This effect is separate from antipsychotic action, which depends more on D2 blockade in the mesolimbic pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect-time relationship is most accurate?",
+      "options": [
+        "Acute dystonia: months to years",
+        "Akathisia: weeks to months",
+        "Tardive dyskinesia: first few hours only",
+        "Parkinsonism: only after decades"
+      ],
+      "correctAnswer": 1,
+      "explanation": "EPS timing is high-yield. Acute dystonia usually appears days to weeks after initiation. Akathisia and tremors may appear weeks to months. Tardive dyskinesia develops after months to years of treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient develops sustained contraction of neck muscles shortly after starting antipsychotic therapy. Which intervention is most pharmacologically rational?",
+      "options": [
+        "Anticholinergic therapy",
+        "Sodium nitroprusside",
+        "Insulin therapy",
+        "An SSRI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acute dystonia is an extrapyramidal effect related to dopamine blockade and relative cholinergic overactivity in motor pathways. Anticholinergic agents can help restore the dopamine-acetylcholine balance and relieve dystonic reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has prominent negative symptoms and cognitive impairment in addition to hallucinations. Which theory best accounts for both positive and negative symptoms?",
+      "options": [
+        "Glutamate hypofunction theory",
+        "Pure histamine excess theory",
+        "Pure acetylcholine deficiency theory",
+        "GABA excess theory only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The glutamate theory suggests decreased glutamate activity in the brain and is linked to both positive and negative symptoms. Dopamine theory mainly explains positive symptoms, while serotonin theory is more associated with negative symptoms in this framework.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which comparison between typical and atypical antipsychotics is most accurate?",
+      "options": [
+        "Typical agents mainly block D2 and reduce positive symptoms; atypical agents block D2 and 5-HT2A and are better for negative symptoms",
+        "Typical agents mainly block 5-HT2A and have no EPS risk",
+        "Atypical agents are always free from weight gain",
+        "Typical agents are used only for itching"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Typical antipsychotics mainly produce therapeutic benefit through D2 receptor blockade and primarily reduce positive symptoms. Atypical agents combine D2 and 5-HT2A receptor blockade and tend to improve negative symptoms more effectively with less EPS risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A neuroleptic causes sedation, dry mouth, urinary retention, and postural hypotension. Which receptor-blocking profile best explains this combination?",
+      "options": [
+        "H1, muscarinic, and alpha-1 blockade",
+        "D2 blockade only",
+        "5-HT2A blockade only",
+        "NMDA receptor blockade only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sedation is linked to H1 blockade, dry mouth and urinary retention to muscarinic blockade, and postural hypotension to alpha-1 blockade. This question tests the ability to connect adverse effects to receptor pharmacology rather than memorizing isolated side effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking an antipsychotic gains significant weight. Which class is more commonly associated with this issue?",
+      "options": [
+        "Atypical antipsychotics",
+        "High-potency typical antipsychotics only",
+        "Dopamine agonists",
+        "Antiemetics without CNS action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weight gain is more common with atypical antipsychotics, especially drugs with strong histaminic and serotonergic effects. This is clinically important because weight gain may reduce adherence and increase metabolic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with schizophrenia has hallucinations and delusions but no significant social withdrawal or lack of energy. Which drug effect is most directly needed?",
+      "options": [
+        "Mesolimbic D2 blockade",
+        "Pure muscarinic blockade",
+        "Alpha-1 stimulation",
+        "Increased prolactin release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hallucinations and delusions are positive symptoms. The most direct antipsychotic strategy for positive symptoms is reducing excessive dopamine activity in the mesolimbic pathway through D2 receptor blockade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can antipsychotics produce both therapeutic effects and movement disorders through D2 blockade?",
+      "options": [
+        "D2 receptors are found in multiple pathways with different functions",
+        "D2 receptors exist only in the CTZ",
+        "D2 blockade affects only serotonin transmission",
+        "D2 blockade is always beneficial in all brain regions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D2 receptors are involved in several pathways. In the mesolimbic pathway, D2 blockade reduces positive symptoms. In the nigrostriatal pathway, D2 blockade disrupts movement control and causes EPS. In the tuberoinfundibular pathway, D2 blockade increases prolactin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on long-term typical antipsychotic therapy develops repetitive involuntary lip-smacking and tongue movements. Which statement is most accurate?",
+      "options": [
+        "This is usually acute dystonia and is always immediately reversible",
+        "This suggests tardive dyskinesia, which may be irreversible",
+        "This is caused by H1 blockade only",
+        "This indicates improved negative symptoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tardive dyskinesia appears after months to years of exposure and presents with involuntary movements, especially of the face and tongue. It can be difficult to treat and may be irreversible, making long-term monitoring important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why clozapine is not used routinely for all patients despite strong efficacy in resistant schizophrenia?",
+      "options": [
+        "It has no antipsychotic efficacy",
+        "It can cause serious adverse effects such as agranulocytosis and seizures",
+        "It causes the highest EPS risk of all antipsychotics",
+        "It only treats nausea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clozapine is effective in resistant schizophrenia and has a low EPS risk, but its use is limited because it can cause agranulocytosis, bone marrow suppression, and seizures. This is why blood monitoring is required.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient treated with a neuroleptic develops infertility and impotence. Which pharmacological action may contribute?",
+      "options": [
+        "Alpha-1 blocking action and endocrine effects",
+        "Selective beta-2 activation",
+        "NMDA receptor activation",
+        "Increased dopamine inhibition of prolactin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neuroleptics can cause sexual dysfunction through endocrine effects such as hyperprolactinemia and through alpha-1 blocking effects. These adverse effects can affect quality of life and adherence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which clinical scenario most strongly suggests a need to evaluate for clozapine therapy?",
+      "options": [
+        "First episode psychosis with mild symptoms",
+        "Treatment-resistant schizophrenia after inadequate response to other antipsychotics",
+        "Simple nausea after eating",
+        "Mild itching with no psychiatric symptoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clozapine is generally reserved for resistant patients who do not respond adequately to first- and second-generation antipsychotics. It is not first-line for routine cases because of serious toxicity risks and monitoring requirements.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is dose-independent and can occur as a life-threatening emergency during antipsychotic treatment?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Simple sedation",
+        "Mild dry mouth",
+        "Mild nausea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NMS is described as a dose-independent phenomenon and is a life-threatening emergency. It is most often associated with high-potency first-generation antipsychotics such as haloperidol and fluphenazine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair correctly matches symptom type with a neurochemical theory?",
+      "options": [
+        "Positive symptoms — increased mesolimbic dopamine at D2 receptors",
+        "Negative symptoms — increased dopamine only in the CTZ",
+        "EPS — increased serotonin in the gut",
+        "Antiemesis — alpha-1 blockade in the hypothalamus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive symptoms are strongly linked to excessive dopamine activity at D2 receptors in the mesolimbic pathway. Negative symptoms are linked in the file to increased serotonin activity at 5-HT2A receptors, while glutamate hypofunction may explain both positive and negative symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on antipsychotic therapy develops tremor, rigidity, and bradykinesia. Another patient develops inability to remain seated and pacing. Which distinction is most accurate?",
+      "options": [
+        "The first has parkinsonism-like EPS; the second has akathisia",
+        "The first has akathisia; the second has tardive dyskinesia",
+        "Both have agranulocytosis",
+        "Both are symptoms of serotonin syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parkinsonism-like EPS includes tremor, rigidity, and bradykinesia due to D2 blockade in the nigrostriatal pathway. Akathisia is a feeling of inner restlessness and motor inability to stay still. Distinguishing these matters because management differs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with schizophrenia has persistent social withdrawal and lack of pleasure despite improvement in hallucinations on a typical antipsychotic. What is the most rational pharmacological interpretation?",
+      "options": [
+        "D2 blockade improved positive symptoms, but negative symptoms may require stronger serotonergic modulation",
+        "The patient is cured and needs no further assessment",
+        "Negative symptoms are caused only by CTZ dopamine excess",
+        "Muscarinic blockade is the main treatment for negative symptoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Typical antipsychotics are effective mainly against positive symptoms through D2 blockade. Negative symptoms such as lack of interest, anhedonia, social isolation, and lack of energy are more responsive to atypical antipsychotics, which have stronger 5-HT2A receptor blockade and lower D2 affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug reduces hallucinations but also increases prolactin and causes parkinsonism-like symptoms. Which receptor and pathway combination explains the adverse effects?",
+      "options": [
+        "D2 blockade in tuberoinfundibular and nigrostriatal pathways",
+        "H1 blockade in the cortex and alpha-1 blockade in vessels",
+        "5-HT2A blockade in the mesolimbic pathway only",
+        "Muscarinic activation in the basal ganglia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D2 blockade in different pathways produces different outcomes. In the mesolimbic pathway, it reduces positive symptoms. In the tuberoinfundibular pathway, it increases prolactin. In the nigrostriatal pathway, it causes EPS such as parkinsonism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which clinical feature best helps differentiate neuroleptic malignant syndrome from ordinary extrapyramidal symptoms?",
+      "options": [
+        "Presence of fever, altered mental status, autonomic instability, and severe rigidity",
+        "Mild dry mouth after treatment",
+        "Gradual weight gain only",
+        "Social isolation before treatment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EPS can involve movement disorders, but NMS is a systemic life-threatening emergency. The red flags are fever, severe muscle rigidity, altered mental status, unstable blood pressure, possible myoglobinemia, and convulsions. Immediate discontinuation of the antipsychotic is required.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on clozapine presents with fever and signs of infection. Which monitoring concern is most urgent?",
+      "options": [
+        "White blood cell count because of agranulocytosis risk",
+        "Serum serotonin because of serotonin syndrome",
+        "Blood glucose only because all clozapine toxicity is metabolic",
+        "Serum potassium because of hyperkalemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clozapine can cause agranulocytosis, meaning a severe reduction in circulating neutrophils. Fever or infection symptoms in a clozapine-treated patient should raise concern for neutropenia or agranulocytosis, requiring urgent evaluation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug has high 5-HT2A affinity greater than D2 affinity and improves social withdrawal more than hallucinations. Which statement is most accurate?",
+      "options": [
+        "It behaves like an atypical antipsychotic",
+        "It behaves like a pure typical antipsychotic",
+        "It should have the highest EPS risk",
+        "It acts only in the CTZ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Atypical antipsychotics have higher affinity for 5-HT2A receptors than D2 receptors and tend to improve negative symptoms more than typical antipsychotics. They also generally carry a lower EPS risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has antipsychotic-induced dystonia. Why is anticholinergic treatment rational?",
+      "options": [
+        "D2 blockade in the nigrostriatal pathway creates relative cholinergic dominance",
+        "Dystonia is caused by low histamine activity only",
+        "Anticholinergics directly block dopamine receptors more strongly",
+        "Dystonia results from alpha-1 stimulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the basal ganglia, dopamine and acetylcholine balance each other. D2 blockade reduces dopaminergic tone, leaving relatively increased cholinergic influence, which contributes to dystonic reactions. Anticholinergics help correct this imbalance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient profile creates the strongest concern for using a high-potency typical antipsychotic without careful monitoring?",
+      "options": [
+        "A patient with high risk for movement disorders and prior severe EPS",
+        "A patient who needs only mild antihistamine action for itching",
+        "A patient with no psychotic symptoms and mild nausea only",
+        "A patient with isolated constipation but no psychiatric condition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High-potency typical antipsychotics such as haloperidol and fluphenazine are strongly associated with EPS due to tight D2 binding. A patient with previous severe EPS would require careful selection, monitoring, and consideration of lower-EPS alternatives.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has schizophrenia with hallucinations, social withdrawal, and cognitive problems. Which theory best provides a broad explanation for mixed positive and negative symptoms?",
+      "options": [
+        "Glutamate hypofunction theory",
+        "Pure H1 blockade theory",
+        "Alpha-1 excess theory",
+        "Dopamine inhibition in the pituitary only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The glutamate theory links decreased glutamate activity in the brain to both positive and negative symptoms. This helps explain symptom patterns that are not fully captured by dopamine excess alone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-085",
       "type": "mcq",
       "difficulty": "hard",
       "questionText": "Which statement best summarizes the therapeutic trade-off between typical and atypical antipsychotics?",
