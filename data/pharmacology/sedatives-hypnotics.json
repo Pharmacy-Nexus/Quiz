@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:33:46.716Z",
+  "updatedAt": "2026-04-29T04:33:52.202Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1162,23 +1162,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Zolpidem is an imidazopyridine hypnotic. It binds preferentially to the BZ1/omega-1 benzodiazepine receptor subtype on the GABA-A receptor complex. This selectivity explains why zolpidem has strong hypnotic activity but relatively weaker anxiolytic, muscle-relaxant, and anticonvulsant effects compared with classical benzodiazepines. It is not a serotonin receptor agonist and not a benzodiazepine receptor antagonist.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-073",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which of the following hypnotic agents is a positive allosteric modulator of GABA-A receptor function?",
-      "options": [
-        "Zaleplon",
-        "Flurazepam",
-        "Zolpidem",
-        "Diazepam",
-        "All of the above"
-      ],
-      "correctAnswer": 4,
-      "explanation": "All listed drugs enhance GABA-A receptor activity. Diazepam and flurazepam are benzodiazepines. They bind to benzodiazepine sites on the GABA-A receptor and increase the frequency of chloride channel opening in response to GABA. Zolpidem and zaleplon are non-benzodiazepine hypnotics, but they also act at benzodiazepine receptor sites, especially BZ1/omega-1 receptor subtypes. Therefore, all of them function as positive modulators of GABAergic inhibition.",
       "caseText": "",
       "imageUrl": ""
     },
