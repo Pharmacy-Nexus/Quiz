@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-28T22:36:32.149Z",
+  "updatedAt": "2026-04-29T04:41:53.541Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -668,27 +668,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "TCAs have quinidine-like effects on cardiac conduction. This is why TCA overdose is a medical emergency and can cause fatal arrhythmias.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-033",
-      "type": "mcq",
-      "difficulty": "medium",
-      "questionText": "Which adverse effect of TCAs is mainly related to H1 receptor blockade?",
-      "options": [
-        "Weight gain and sedation",
-        "Hypertensive crisis",
-        "Serotonin syndrome only",
-        "Urinary alkalinization"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Histamine H1 blockade commonly causes sedation and weight gain. This is seen with several older antidepressants, especially TCAs.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
