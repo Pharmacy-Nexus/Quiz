@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:41:53.541Z",
+  "updatedAt": "2026-04-29T04:44:08.447Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -38,27 +38,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Loss of pleasure anhedonia, apathy, low self-esteem, loss of motivation, and suicidal tendency are emotional symptoms of depression. Biological symptoms are more like sleep disturbance, loss of appetite, loss of libido, and chronic pain.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-003",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "A patient with depression also complains of sleep disturbance, reduced appetite, loss of libido, and chronic body pain. These features are mainly:",
-      "options": [
-        "Biological symptoms of depression",
-        "Symptoms of mania",
-        "Pure anticholinergic adverse effects",
-        "Symptoms of serotonin syndrome"
-      ],
-      "correctAnswer": 0,
-      "explanation": "These are biological symptoms of depression. The lecture links biological symptoms more strongly with decreased norepinephrine, while emotional symptoms are linked more with decreased serotonin.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
