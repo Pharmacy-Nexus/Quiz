@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:33:52.202Z",
+  "updatedAt": "2026-04-29T04:34:23.660Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1031,23 +1031,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Barbiturates, especially phenobarbital, are well-known strong inducers of hepatic drug-metabolizing enzymes. Benzodiazepines are generally not significant enzyme inducers. They may be metabolized by hepatic enzymes, but they do not usually induce these enzymes strongly. Therefore, the statement is false.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-065",
-      "type": "mcq",
-      "difficulty": "medium",
-      "questionText": "Tick the sedative-hypnotic drug that does not significantly change hepatic drug-metabolizing enzyme activity:",
-      "options": [
-        "Flurazepam",
-        "Zaleplon",
-        "Triazolam",
-        "Temazepam",
-        "All of the above"
-      ],
-      "correctAnswer": 4,
-      "explanation": "Unlike barbiturates, benzodiazepines and Z-drugs generally do not significantly induce hepatic microsomal enzymes. Flurazepam, triazolam, and temazepam are benzodiazepines. Zaleplon is a non-benzodiazepine hypnotic. These drugs are not known for strong hepatic enzyme induction. This is one major reason benzodiazepines and Z-drugs are safer than barbiturates in terms of drug interactions.",
       "caseText": "",
       "imageUrl": ""
     },
