@@ -1774,6 +1774,7 @@ function renderReviewPage() {
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-10 p-5 bg-surface-container-low rounded-xl">
       <button onclick="retryWrongQuestions()" class="py-4 bg-primary text-on-primary rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2 ${wrong === 0 ? 'opacity-50 cursor-not-allowed' : ''}" ${wrong === 0 ? 'disabled' : ''}><span class="material-symbols-outlined">restart_alt</span> Retry Wrong Questions</button>
       <button onclick="retakeCurrentSet()" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">replay</span> Retake Full Set</button>
+      <button onclick="returnToTopicSets()" class="py-4 bg-tertiary-fixed text-on-tertiary-fixed rounded-xl font-bold text-base hover:scale-[0.98] transition-transform flex items-center justify-center gap-2"><span class="material-symbols-outlined">view_module</span> Back to Sets</button>
       <button onclick="navigateTo('home')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">home</span> Back to Home</button>
       <button onclick="navigateTo('dashboard')" class="py-4 bg-surface-container-lowest text-primary rounded-xl font-bold text-base hover:bg-surface-variant transition-colors border border-outline-variant/15 flex items-center justify-center gap-2"><span class="material-symbols-outlined">dashboard</span> Go to Dashboard</button>
     </div>
@@ -2989,6 +2990,51 @@ function saveProfilePreferences() {
 window.saveProfilePreferences = saveProfilePreferences;
 
 
+
+
+const QUICK_FACT_INTERVAL_MS = 3000;
+const QUICK_FACT_FALLBACK = [
+  { category: 'Pharmacokinetics', title: 'Bioavailability', text: 'Bioavailability is the fraction of an administered dose that reaches systemic circulation unchanged.' },
+  { category: 'Clinical Pearl', title: 'Warfarin Monitoring', text: 'INR is used to monitor warfarin therapy and guide dose adjustment.' },
+  { category: 'Drug Safety', title: 'Abrupt Withdrawal', text: 'Some drugs, such as beta blockers and corticosteroids, should not be stopped suddenly without a proper plan.' }
+];
+let quickFacts = [];
+let quickFactIndex = 0;
+let quickFactPaused = false;
+let quickFactTimer = null;
+let quickFactProgressTimer = null;
+let quickFactStartedAt = 0;
+
+async function loadQuickFacts() {
+  const data = await fetchJsonMaybe('data/quick-facts.json', QUICK_FACT_FALLBACK);
+  quickFacts = Array.isArray(data) && data.length ? data : QUICK_FACT_FALLBACK;
+}
+function renderQuickFact(index = quickFactIndex) {
+  if (!quickFacts.length) quickFacts = QUICK_FACT_FALLBACK;
+  quickFactIndex = ((Number(index) || 0) + quickFacts.length) % quickFacts.length;
+  const fact = quickFacts[quickFactIndex] || QUICK_FACT_FALLBACK[0];
+  const box = document.getElementById('quick-fact-content');
+  const category = document.getElementById('quick-fact-category');
+  const title = document.getElementById('quick-fact-title');
+  const text = document.getElementById('quick-fact-text');
+  if (category) category.textContent = fact.category || 'Pharmacy Pearl';
+  if (title) title.textContent = fact.title || 'Quick Insight';
+  if (text) text.textContent = fact.text || '';
+  if (box) { box.classList.remove('pn-fact-reveal'); void box.offsetWidth; box.classList.add('pn-fact-reveal'); }
+  resetQuickFactProgress();
+}
+function resetQuickFactProgress() { quickFactStartedAt = Date.now(); const bar = document.getElementById('quick-fact-progress'); if (bar) bar.style.width = '0%'; }
+function updateQuickFactProgress() { const bar = document.getElementById('quick-fact-progress'); if (!bar || quickFactPaused) return; const elapsed = Date.now() - quickFactStartedAt; const percent = Math.max(0, Math.min(100, (elapsed / QUICK_FACT_INTERVAL_MS) * 100)); bar.style.width = `${percent}%`; }
+function nextQuickFact() { renderQuickFact(quickFactIndex + 1); }
+window.nextQuickFact = nextQuickFact;
+function previousQuickFact() { renderQuickFact(quickFactIndex - 1); }
+window.previousQuickFact = previousQuickFact;
+function toggleQuickFactPause() { quickFactPaused = !quickFactPaused; const btn = document.getElementById('quick-fact-pause-btn'); if (btn) btn.textContent = quickFactPaused ? 'Resume' : 'Pause'; if (!quickFactPaused) resetQuickFactProgress(); }
+window.toggleQuickFactPause = toggleQuickFactPause;
+async function initQuickFacts() { await loadQuickFacts(); renderQuickFact(0); clearInterval(quickFactTimer); clearInterval(quickFactProgressTimer); quickFactTimer = setInterval(() => { if (!quickFactPaused) nextQuickFact(); }, QUICK_FACT_INTERVAL_MS); quickFactProgressTimer = setInterval(updateQuickFactProgress, 160); }
+function returnToTopicSets() { if (appState.currentTopicMeta && Array.isArray(appState.currentTopicQuestions) && appState.currentTopicQuestions.length) { renderSetsPage(); navigateTo('sets'); return; } navigateTo('subjects'); }
+window.returnToTopicSets = returnToTopicSets;
+
 window.addEventListener('DOMContentLoaded', async () => {
   renderPersistentStats();
   syncSidebarProfileUi();
@@ -3037,6 +3083,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   try {
     await loadSubjectsIndex();
     await renderDailyChallenge();
+    await initQuickFacts();
     if (appState.selectedSubjectId && appState.selectedTopicId) {
       try {
         await loadTopicQuestions(appState.selectedSubjectId, appState.selectedTopicId);
