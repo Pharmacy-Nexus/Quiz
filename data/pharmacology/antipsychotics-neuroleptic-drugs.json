@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antipsychotics-neuroleptic-drugs",
   "topicName": "Antipsychotics / Neuroleptic Drugs",
-  "updatedAt": "2026-04-29T19:11:22.181Z",
+  "updatedAt": "2026-04-29T19:16:07.404Z",
   "questions": [
     {
       "id": "pharmacology-antipsychotics-neuroleptic-drugs-001",
@@ -1445,6 +1445,455 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is the key clinical comparison. Typical antipsychotics mainly block D2 receptors and are effective for positive symptoms but carry higher EPS risk. Atypicals block D2 and 5-HT2A receptors, tend to improve negative symptoms more, and have lower EPS risk. However, atypicals are not harmless: weight gain is more common, and clozapine can cause agranulocytosis and seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient who recently started clozapine reports troublesome dry mouth, difficulty passing stool, and blurred near vision. These adverse effects are best explained by antagonism of which receptor?",
+      "options": [
+        "5-HT2 receptor",
+        "Alpha-1 adrenergic receptor",
+        "H1 histamine receptor",
+        "Nicotinic cholinergic receptor",
+        "M3 muscarinic receptor"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Dry mouth, constipation, and blurred vision are classic antimuscarinic effects. Clozapine can block muscarinic receptors, especially producing effects related to M3 blockade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A healthy volunteer receives an experimental antipsychotic drug that blocks D2, H1, and 5-HT2A receptors. Shortly after administration, which subjective effects would be most expected?",
+      "options": [
+        "Euphoria and excessive confidence",
+        "Increased alertness and racing thoughts",
+        "Low mood and drowsiness",
+        "Irritability and severe restlessness",
+        "Delusional thinking and perseveration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "D2 blockade may reduce reward-related dopamine signaling and cause dysphoria. H1 blockade commonly causes sedation and sleepiness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A young male with violent psychotic behavior is treated with repeated intramuscular injections of an antipsychotic. Within two days, he develops tongue protrusion, facial spasms, and painful neck twisting. Which drug is the most likely cause?",
+      "options": [
+        "Haloperidol",
+        "Lorazepam",
+        "Buspirone",
+        "Ethanol",
+        "Fluoxetine",
+        "Clozapine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Haloperidol is a high-potency typical antipsychotic. It strongly blocks D2 receptors in the nigrostriatal pathway and can cause acute dystonia early in treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A woman receiving long-term antipsychotic therapy collapses while exercising outdoors on a very hot day. She is diagnosed with heat stroke. Which antipsychotic could have contributed by impairing sweating and heat regulation?",
+      "options": [
+        "Amitriptyline",
+        "Clozapine",
+        "Buspirone",
+        "Diazepam",
+        "Lithium",
+        "Fluoxetine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clozapine has significant anticholinergic properties. Antimuscarinic effects can reduce sweating and impair thermoregulation, increasing the risk of heat stroke.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A psychiatric inpatient becomes mute, immobile, and resists attempts to move her. She also has brief periods of agitation. Which drug should be avoided initially because it may worsen the condition or increase the risk of neuroleptic malignant syndrome?",
+      "options": [
+        "Lorazepam",
+        "Haloperidol",
+        "Carbamazepine",
+        "Olanzapine",
+        "Dantrolene",
+        "Valproic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presentation suggests catatonia. Benzodiazepines such as lorazepam are preferred initially. High-potency antipsychotics like haloperidol may worsen catatonia or precipitate neuroleptic malignant syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A man is admitted with hallucinations, bizarre thoughts, disorganized behavior, and threats of violence. Which medication is most appropriate among the following options to control the psychotic symptoms?",
+      "options": [
+        "Lithium",
+        "Imipramine",
+        "Risperidone",
+        "Fluoxetine",
+        "Zolpidem",
+        "Morphine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Risperidone is an antipsychotic and is appropriate for schizophrenia-related psychosis and agitation. The other choices do not directly treat acute psychosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient with schizophrenia has persistent negative symptoms and has shown only partial improvement with several antipsychotics, including haloperidol, chlorpromazine, and risperidone. Which drug is most appropriate to try next?",
+      "options": [
+        "Fluphenazine",
+        "Thioridazine",
+        "Fluoxetine",
+        "Clozapine",
+        "Lithium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Clozapine is used for treatment-resistant schizophrenia after inadequate response to other antipsychotics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A man diagnosed with Huntington disease has involuntary choreiform movements and behavioral agitation. Which drug can help reduce the movements and agitation?",
+      "options": [
+        "Imipramine",
+        "Buspirone",
+        "Trazodone",
+        "Lithium",
+        "Triazolam",
+        "Haloperidol"
+      ],
+      "correctAnswer": 5,
+      "explanation": "Haloperidol blocks D2 receptors and can suppress choreic movements in Huntington disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-094",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman with a history of generalized tonic-clonic seizures presents with severe psychosis and violent behavior after stopping her antiepileptic therapy. Which combination is most appropriate?",
+      "options": [
+        "Haloperidol and clonazepam",
+        "Chlorpromazine and lamotrigine",
+        "Clozapine and ethosuximide",
+        "Thioridazine and ethosuximide",
+        "Fluphenazine and gabapentin",
+        "Clozapine and clonazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Haloperidol can control acute psychosis and aggression. Clonazepam can help with generalized seizures. Clozapine and chlorpromazine are less preferred because they can lower the seizure threshold.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A man with chronic schizophrenia repeatedly relapses because he stops taking his oral medication. During a previous admission, his symptoms were well controlled with fluphenazine and he had no major adverse effects. Which treatment is most suitable?",
+      "options": [
+        "Intramuscular thioridazine",
+        "Oral haloperidol",
+        "Intramuscular fluphenazine decanoate",
+        "Oral risperidone",
+        "Intramuscular olanzapine",
+        "Rectal chlorpromazine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Long-acting injectable antipsychotics are useful in patients with poor medication adherence. Fluphenazine decanoate is a depot formulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with schizophrenia is admitted after a suicide attempt. He has hallucinations, persecutory delusions, flat affect, and social withdrawal. Which antipsychotic is especially appropriate because of its benefit in reducing suicidal behavior in schizophrenia?",
+      "options": [
+        "Amitriptyline",
+        "Lorazepam",
+        "Fluoxetine",
+        "Lithium",
+        "Clozapine",
+        "Thioridazine"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Clozapine is useful in treatment-resistant schizophrenia and is associated with reduced suicidal behavior in schizophrenic patients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient recently started on olanzapine develops severe constipation. This adverse effect is most closely related to blockade of which receptor group?",
+      "options": [
+        "Nicotinic and dopaminergic receptors",
+        "GABAergic and muscarinic receptors",
+        "Nicotinic and alpha-1 receptors",
+        "Dopaminergic and alpha-1 receptors",
+        "Muscarinic and serotonergic receptors"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Olanzapine has antimuscarinic properties, which reduce gastrointestinal motility and cause constipation. Serotonergic effects may also contribute.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The antipsychotic effect of aripiprazole in schizophrenia is mainly related to modulation of dopamine activity in which pathway?",
+      "options": [
+        "Tuberoinfundibular pathway",
+        "Locus ceruleus",
+        "Mesolimbic-mesocortical pathway",
+        "Nigrostriatal pathway",
+        "Nucleus basalis of Meynert"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antipsychotic benefit is mainly due to reduced excessive dopamine signaling in the mesolimbic pathway, which is strongly linked to positive psychotic symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A woman treated with haloperidol develops amenorrhea and milky breast discharge. Which mechanism best explains these findings?",
+      "options": [
+        "Dopamine receptor blockade in the hypothalamus",
+        "Increased serotonin activity in the pituitary",
+        "Increased serotonin activity in the striatum",
+        "Dopamine receptor blockade in the pituitary",
+        "Adrenergic receptor blockade in the locus ceruleus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dopamine normally inhibits prolactin release. D2 blockade in the tuberoinfundibular/pituitary pathway increases prolactin, causing galactorrhea and amenorrhea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-100",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient begins fluphenazine therapy and soon becomes intensely restless. He constantly paces and says he feels unable to remain seated. Which adverse effect is most likely?",
+      "options": [
+        "Acute dystonia",
+        "Complex partial seizure",
+        "Parkinsonism",
+        "Akathisia",
+        "Catatonia",
+        "Tardive dyskinesia"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Akathisia is an extrapyramidal adverse effect characterized by inner restlessness and inability to sit still.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-101",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient treated for schizophrenia develops bradykinesia, cogwheel rigidity, resting tremor, stooped posture, and shuffling gait. Which drug is the most likely cause?",
+      "options": [
+        "Clozapine",
+        "Haloperidol",
+        "Metoclopramide",
+        "Olanzapine",
+        "Aripiprazole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haloperidol is a high-potency typical antipsychotic and commonly causes extrapyramidal symptoms, including drug-induced parkinsonism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "An elderly hospitalized patient suddenly becomes confused, disoriented, paranoid, and tries to remove his IV line. He had no psychiatric symptoms before admission. Which medication is most appropriate for short-term control of severe agitation?",
+      "options": [
+        "Clozapine",
+        "Haloperidol",
+        "Diazepam",
+        "Lithium",
+        "Trazodone",
+        "Paroxetine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is acute delirium with dangerous agitation. Low-dose haloperidol is commonly used when immediate control is needed. Benzodiazepines can worsen delirium unless the cause is alcohol or sedative withdrawal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A woman recently started an antipsychotic and now has high fever, confusion, muscle rigidity, diaphoresis, tachycardia, and unstable blood pressure. Which drug is the most likely cause?",
+      "options": [
+        "Imipramine",
+        "Temazepam",
+        "Haloperidol",
+        "Fluoxetine",
+        "Lithium",
+        "Venlafaxine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The findings are classic for neuroleptic malignant syndrome: hyperthermia, rigidity, autonomic instability, and altered mental status. Haloperidol is a common cause.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with schizophrenia increases the dose of her antipsychotic and later develops palpitations, dizziness, and polymorphic ventricular tachycardia. Which drug is most strongly associated with this complication?",
+      "options": [
+        "Trazodone",
+        "Thioridazine",
+        "Amitriptyline",
+        "Paroxetine",
+        "Lithium",
+        "Lorazepam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thioridazine can prolong the QT interval and cause torsades de pointes, especially at high doses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A woman recently started treatment for psychotic delusions and later complains of dizziness when standing quickly. Which drug most likely caused this adverse effect?",
+      "options": [
+        "Haloperidol",
+        "Risperidone",
+        "Amitriptyline",
+        "Buspirone",
+        "Lithium",
+        "Trazodone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Risperidone can block alpha-1 adrenergic receptors, causing orthostatic hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A man with schizophrenia is switched from haloperidol because of extrapyramidal symptoms. After starting the new drug, he develops erectile difficulty and delayed ejaculation. Which drug most likely caused this?",
+      "options": [
+        "Fluphenazine",
+        "Amitriptyline",
+        "Paroxetine",
+        "Thioridazine",
+        "Fluoxetine",
+        "Trazodone"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Thioridazine is associated with sexual dysfunction, including erectile and ejaculatory problems, due to autonomic and anticholinergic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A man with schizophrenia and benign prostatic hyperplasia develops acute urinary retention shortly after being switched to a new antipsychotic. Which medication most likely contributed?",
+      "options": [
+        "Fluphenazine",
+        "Haloperidol",
+        "Olanzapine",
+        "Venlafaxine",
+        "Benztropine",
+        "Amitriptyline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Olanzapine has antimuscarinic activity, which can worsen urinary retention in patients with prostatic enlargement.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-108",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A man treated for paranoid schizophrenia develops breast enlargement after several months of therapy. Which medication is the most likely cause?",
+      "options": [
+        "Clozapine",
+        "Amitriptyline",
+        "Haloperidol",
+        "Venlafaxine",
+        "Diazepam",
+        "Fluoxetine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Haloperidol blocks D2 receptors in the tuberoinfundibular pathway, increasing prolactin. Chronic hyperprolactinemia can cause gynecomastia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-109",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient with schizophrenia fails several antipsychotics and is started on a new medication. One week later, his blood count shows severe leukopenia and neutropenia. Which drug was most likely started?",
+      "options": [
+        "Clozapine",
+        "Fluphenazine",
+        "Haloperidol",
+        "Chlorpromazine",
+        "Diazepam",
+        "Fluoxetine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clozapine can cause severe neutropenia or agranulocytosis, so regular blood monitoring is required during treatment.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
