@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:33:01.915Z",
+  "updatedAt": "2026-04-29T04:33:29.008Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1392,22 +1392,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Flurazepam is a long-acting benzodiazepine with active metabolites. Because of its prolonged action, it is more likely to cause next-day \"hangover\" effects. These effects include daytime drowsiness, impaired psychomotor performance, dysphoria, confusion, poor concentration, and increased fall risk. Triazolam is short-acting and less likely to cause prolonged next-day sedation, although it may cause rebound insomnia. Temazepam is intermediate-acting and generally causes less residual sedation than flurazepam.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-088",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Tick the hypnotic drug which binds selectively to the BZ1 receptor subtype, facilitating GABAergic inhibition:",
-      "options": [
-        "Thiopental",
-        "Zolpidem",
-        "Flurazepam",
-        "Phenobarbital"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Zolpidem binds selectively to the BZ1/omega-1 receptor subtype on the GABA-A receptor complex. This enhances GABAergic inhibition and produces hypnotic effects. Its selectivity explains why zolpidem is mainly hypnotic and has less prominent muscle-relaxant and anticonvulsant effects than classical benzodiazepines. Thiopental and phenobarbital are barbiturates. Flurazepam is a benzodiazepine that binds less selectively to benzodiazepine receptor subtypes.",
       "caseText": "",
       "imageUrl": ""
     },
