@@ -39,15 +39,15 @@
       "order": 2,
       "sectionId": "cns",
       "difficultyBreakdown": {
-        "easy": 74,
+        "easy": 73,
         "medium": 75,
         "hard": 16
       },
-      "questionsCount": 165,
+      "questionsCount": 164,
       "file": "data/pharmacology/antidepressant.json"
     }
   ],
-  "updatedAt": "2026-04-29T04:46:38.865Z",
+  "updatedAt": "2026-04-29T04:50:11.056Z",
   "sections": [
     {
       "id": "antimicrobials",
