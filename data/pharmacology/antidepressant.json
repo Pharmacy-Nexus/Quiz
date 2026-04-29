@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:50:08.283Z",
+  "updatedAt": "2026-04-29T04:50:32.940Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1757,27 +1757,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Maprotiline mainly inhibits norepinephrine reuptake. It is a tetracyclic/heterocyclic antidepressant. Fluvoxamine is an SSRI. Amitriptyline inhibits both serotonin and norepinephrine reuptake but is not selective. Tranylcypromine is an MAO inhibitor.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-087",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which of the listed antidepressants exerts its therapeutic effect by simultaneously blocking both serotonin and norepinephrine reuptake transporters?",
-      "options": [
-        "Amitriptyline",
-        "Fluoxetine",
-        "Maprotiline",
-        "Phenelzine"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Amitriptyline is a TCA that inhibits reuptake of both serotonin and norepinephrine. This dual reuptake inhibition contributes to antidepressant efficacy. However, amitriptyline also blocks muscarinic, histamine H1, and alpha1 receptors, which causes adverse effects such as sedation, dry mouth, constipation, urinary retention, blurred vision, and orthostatic hypotension. Fluoxetine mainly blocks serotonin reuptake. Maprotiline mainly blocks norepinephrine reuptake. Phenelzine inhibits monoamine oxidase.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
