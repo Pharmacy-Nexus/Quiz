@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:50:32.940Z",
+  "updatedAt": "2026-04-29T04:51:26.914Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1504,27 +1504,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Cheese reaction is due to tyramine-containing food in a patient taking MAOIs. It leads to norepinephrine release and hypertensive crisis.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-075",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which scenario best represents SSRI discontinuation syndrome?",
-      "options": [
-        "Patient abruptly stops SSRI and develops withdrawal-like symptoms and relapse risk",
-        "Patient eats tyramine while taking MAOI",
-        "Patient overdoses on amitriptyline and develops arrhythmia",
-        "Patient takes lithium and develops toxicity"
-      ],
-      "correctAnswer": 0,
-      "explanation": "SSRIs should be stopped gradually. Abrupt discontinuation can lead to discontinuation syndrome and acute relapse.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
