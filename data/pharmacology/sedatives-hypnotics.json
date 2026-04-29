@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:33:29.008Z",
+  "updatedAt": "2026-04-29T04:33:39.901Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1230,23 +1230,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Diazepam is a benzodiazepine. Flumazenil blocks benzodiazepine effects by competitively antagonizing the benzodiazepine receptor site on the GABA-A receptor complex. Flumazenil does not reliably reverse respiratory depression caused by barbiturates, opioids, ethanol, or tricyclic antidepressants. This distinction is clinically important. For opioid overdose, naloxone is used. For benzodiazepine overdose, flumazenil may be used in selected cases, although it must be used carefully because it may precipitate seizures in dependent patients or mixed overdoses.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-078",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which of the following agents is preferred in the treatment of insomnia?",
-      "options": [
-        "Barbiturates",
-        "Hypnotic benzodiazepines",
-        "Ethanol",
-        "Phenothiazide",
-        "Antihistaminic drugs"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Among the options listed, hypnotic benzodiazepines are preferred over barbiturates, ethanol, phenothiazines, and sedating antihistamines. Benzodiazepines have a wider therapeutic index than barbiturates and are less likely to cause fatal respiratory depression when taken alone. They are also more predictable and generally safer. However, in modern practice, non-benzodiazepine hypnotics such as zolpidem and zaleplon are also commonly used because they may have less effect on sleep architecture and less next-day sedation. Ethanol is not appropriate for insomnia because it disrupts sleep architecture and can cause dependence. Phenothiazines are antipsychotics and not preferred for simple insomnia. Antihistamines can cause anticholinergic effects and next-day drowsiness.",
       "caseText": "",
       "imageUrl": ""
     },
