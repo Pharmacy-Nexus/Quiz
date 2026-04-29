@@ -7,31 +7,33 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   <style>
-    body { font-family: 'Manrope', sans-serif; background:#f8f9fa; color:#191c1d; }
-    .card { background:white; border:1px solid rgba(193,199,203,.25); box-shadow:0 20px 40px rgba(0,21,27,.06); border-radius:1.5rem; }
-    .field { border:none; background:#f3f4f5; border-radius:1rem; padding:.9rem 1rem; width:100%; }
-    .btn { border-radius:1rem; padding:.85rem 1.1rem; font-weight:800; }
-    .btn-ghost { background:#e8edf3; color:#111827; }
-    .btn-danger { background:#7f1d1d; color:#fff; }
-    .mini-btn { border-radius:.8rem; padding:.55rem .8rem; font-weight:800; font-size:.9rem; }
-    .result-item { border:1px solid rgba(193,199,203,.35); border-radius:1rem; padding:1rem; background:#fff; }
-    .result-item.is-active { border-color:#cba72f; box-shadow:0 0 0 3px rgba(203,167,47,.18); }
-    .option-pill { display:block; padding:.45rem .65rem; border-radius:.75rem; background:#f8fafc; border:1px solid rgba(193,199,203,.35); font-size:.78rem; color:#334155; }
-    .option-pill.correct { background:#ecfdf5; border-color:#86efac; color:#065f46; font-weight:800; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    :root{--navy:#00151b;--gold:#cba72f}
+    body{font-family:'Manrope',sans-serif;background:radial-gradient(circle at top left,rgba(203,167,47,.08),transparent 28%),linear-gradient(180deg,#f8f9fa,#eef2f4);color:#191c1d}
+    .card{background:rgba(255,255,255,.94);border:1px solid rgba(193,199,203,.42);box-shadow:0 22px 46px rgba(0,21,27,.07);border-radius:1.75rem}
+    .field{border:1px solid rgba(193,199,203,.6);background:#f8fafb;border-radius:1rem;padding:.95rem 1rem;width:100%;outline:none;transition:.18s ease}
+    .field:focus{border-color:rgba(49,101,116,.5);box-shadow:0 0 0 4px rgba(180,232,249,.32);background:#fff}
+    .btn{border-radius:1rem;padding:.9rem 1.15rem;font-weight:900;transition:.18s ease}.btn:hover{transform:translateY(-1px)}
+    .btn-ghost{background:#e8edf3;color:#111827}.btn-danger{background:#7f1d1d;color:#fff}.mini-btn{border-radius:.85rem;padding:.58rem .85rem;font-weight:900;font-size:.9rem}
+    .admin-section-title{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}.admin-section-title h2{font-size:1.1rem;font-weight:900;color:#0f172a}.admin-section-title p{color:#64748b;font-size:.9rem;margin-top:.25rem}
+    .result-item{border:1px solid rgba(193,199,203,.42);border-radius:1.25rem;padding:1.05rem;background:#fff;box-shadow:0 10px 24px rgba(0,21,27,.04)}.result-item.is-active{border-color:rgba(203,167,47,.7);box-shadow:0 0 0 4px rgba(203,167,47,.12),0 14px 28px rgba(0,21,27,.06)}
+    .option-pill{display:inline-flex;border-radius:999px;padding:.45rem .7rem;background:#eef2f6;color:#334155;font-size:.78rem;font-weight:800}.option-pill.correct{background:#dcfce7;color:#166534}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .soft-panel{border:1px solid rgba(193,199,203,.45);background:linear-gradient(180deg,#fbfcfd,#f3f6f7);border-radius:1.4rem;padding:1rem}.sticky-note{background:#fff8df;border:1px solid rgba(203,167,47,.35);border-radius:1.2rem;padding:1rem;color:#4e3d00}
+    .admin-layout{display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:1.5rem;align-items:start}.admin-main{display:grid;gap:1.5rem}.question-tools-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.question-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.questions-list-shell{margin-top:1.25rem;border-top:1px solid rgba(193,199,203,.45);padding-top:1.25rem}.question-results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;max-height:none;overflow:visible;padding-right:0}.hidden{display:none!important}
+    .step-badge{display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:999px;background:var(--navy);color:#ffe088;font-weight:900;margin-right:.6rem}
+    @media(max-width:1100px){.admin-layout{grid-template-columns:1fr}.question-tools-row,.question-form-grid{grid-template-columns:1fr}.question-results-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-  <main class="max-w-7xl mx-auto px-6 md:px-10 py-10">
+  <main class="max-w-[1500px] mx-auto px-5 md:px-10 py-10">
     <div class="mb-8 flex flex-col gap-2">
       <span class="text-xs font-black uppercase tracking-[0.28em] text-amber-700">Hidden Admin</span>
       <h1 class="text-4xl md:text-5xl font-black tracking-tight text-slate-900">Pharmacy Nexus Admin</h1>
-      <p class="text-slate-600 max-w-4xl">Public design stays untouched. This admin writes subjects, topics, and questions into JSON files directly in your GitHub repo. It now supports create, edit, delete, search, and bulk question import.</p>
+      <p class="text-slate-600 max-w-5xl">Spacious control panel for subjects, sections, topics, JSON question editing, search, delete, and bulk import. Nothing is removed.</p>
     </div>
 
     <section id="gate" class="card p-6 md:p-8 max-w-xl">
       <h2 class="text-xl font-black mb-3">Enter admin password</h2>
-      <p class="text-sm text-slate-600 mb-5">This is only a light front-end gate. It hides the admin from normal visitors, but it is not real server-side security.</p>
+      <p class="text-sm text-slate-600 mb-5">This is a light front-end gate only. Keep the admin local/private.</p>
       <div class="flex flex-col gap-4">
         <input id="admin-password-input" type="password" class="field" placeholder="Admin password" />
         <button id="unlock-btn" class="btn bg-slate-950 text-white">Unlock admin</button>
@@ -40,8 +42,8 @@
     </section>
 
     <section id="admin-shell" class="hidden flex-col gap-8">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
-        <div class="card p-6 lg:col-span-1">
+      <div class="admin-layout mt-8">
+        <aside class="card p-6 sticky top-6">
           <h2 class="text-lg font-black mb-4">GitHub connection</h2>
           <div class="space-y-3">
             <label class="block text-sm font-bold text-slate-700">Owner / username</label>
@@ -52,47 +54,55 @@
             <input id="repo-branch" class="field" placeholder="main" value="main" />
             <label class="block text-sm font-bold text-slate-700">GitHub token</label>
             <input id="github-token" class="field" type="password" placeholder="Paste token here" />
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <button id="save-session-btn" class="btn bg-slate-950 text-white w-full">Save session</button>
-              <button id="test-connection-btn" class="btn bg-slate-200 text-slate-900 w-full">Test connection</button>
-            </div>
-            <div class="text-sm text-slate-600 leading-6 pt-2">
-              <p>Token needs repository contents write permission. Session is stored only in this browser tab.</p>
-            </div>
+            <button id="save-session-btn" class="btn bg-slate-950 text-white w-full">Save session</button>
+            <button id="test-connection-btn" class="btn bg-slate-200 text-slate-900 w-full">Test connection + Load data</button>
             <p id="connection-message" class="text-sm font-bold"></p>
           </div>
-        </div>
+          <div class="sticky-note mt-6 text-sm leading-6"><strong>Workflow:</strong><br/>1) Subject → 2) Sections → 3) Topics → 4) Questions → 5) Bulk.</div>
+        </aside>
 
-        <div class="lg:col-span-2 space-y-6">
-          <div class="card p-6">
-            <h2 class="text-lg font-black mb-4">1) Add subject</h2>
+        <div class="admin-main">
+          <div class="card p-6 md:p-7">
+            <div class="admin-section-title"><div><h2><span class="step-badge">1</span>Add subject</h2><p>Create a new subject and its meta JSON.</p></div><button id="reload-data-btn" class="mini-btn btn-ghost">Reload lists</button></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input id="subject-name" class="field" placeholder="Subject name" />
               <input id="subject-slug" class="field" placeholder="Subject slug e.g. pharmacology" />
-              <input id="subject-icon" class="field" placeholder="Material icon name e.g. science" />
+              <input id="subject-icon" class="field" placeholder="Material icon e.g. science" />
               <input id="subject-order" class="field" type="number" placeholder="Order" />
               <textarea id="subject-description" class="field md:col-span-2 min-h-[120px]" placeholder="Subject description"></textarea>
             </div>
-            <div class="mt-4 flex gap-3 flex-wrap">
-              <button id="add-subject-btn" class="btn bg-slate-950 text-white">Create subject</button>
-              <button id="reload-data-btn" class="btn bg-slate-200 text-slate-900">Reload lists</button>
-            </div>
+            <div class="mt-4 flex gap-3 flex-wrap"><button id="add-subject-btn" class="btn bg-slate-950 text-white">Create subject</button></div>
             <p id="subject-message" class="mt-3 text-sm font-bold"></p>
           </div>
 
-          <div class="card p-6">
-            <div class="flex items-center justify-between gap-4 mb-4 flex-wrap">
-              <h2 class="text-lg font-black">2) Manage topics</h2>
-              <div class="text-sm text-slate-500">Create, edit, or delete topic</div>
+          <div class="card p-6 md:p-7">
+            <div class="admin-section-title"><div><h2><span class="step-badge">2</span>Manage sections</h2><p>You control sections manually: CNS, Cardiovascular, Antimicrobials, etc.</p></div></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <select id="section-subject-select" class="field"></select>
+              <select id="section-edit-select" class="field"></select>
+              <input id="section-name" class="field" placeholder="Section name e.g. CNS" />
+              <input id="section-slug" class="field" placeholder="Section slug e.g. cns" />
+              <input id="section-order" class="field" type="number" placeholder="Order" />
+              <textarea id="section-description" class="field md:col-span-2 min-h-[110px]" placeholder="Section description"></textarea>
             </div>
+            <div class="mt-4 flex gap-3 flex-wrap">
+              <button id="save-section-btn" class="btn bg-slate-950 text-white">Save section</button>
+              <button id="reset-section-btn" class="btn bg-slate-200 text-slate-900">Reset section form</button>
+              <button id="delete-section-btn" class="btn btn-danger">Delete section</button>
+            </div>
+            <p id="section-message" class="mt-3 text-sm font-bold"></p>
+          </div>
+
+          <div class="card p-6 md:p-7">
+            <div class="admin-section-title"><div><h2><span class="step-badge">3</span>Manage topics</h2><p>Create topics and attach each topic to any section you want.</p></div></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <select id="topic-subject-select" class="field"></select>
               <select id="topic-edit-select" class="field"></select>
+              <select id="topic-section-select" class="field"></select>
+              <input id="topic-section" class="field" placeholder="Or type new section name manually" />
               <input id="topic-name" class="field" placeholder="Topic name" />
-              <input id="topic-section" class="field" placeholder="Section name e.g. CNS, Cardiovascular, Antimicrobials" />
               <input id="topic-slug" class="field" placeholder="Topic slug e.g. antibiotics" />
               <input id="topic-order" class="field" type="number" placeholder="Order" />
-              <div class="field flex items-center text-sm text-slate-500">Select existing topic above to edit it, or leave empty to create new.</div>
               <textarea id="topic-description" class="field md:col-span-2 min-h-[120px]" placeholder="Topic description"></textarea>
             </div>
             <div class="mt-4 flex gap-3 flex-wrap">
@@ -103,81 +113,60 @@
             <p id="topic-message" class="mt-3 text-sm font-bold"></p>
           </div>
 
-          <div class="card p-6">
-            <div class="flex items-center justify-between gap-4 mb-4 flex-wrap">
-              <h2 class="text-lg font-black">3) Manage questions</h2>
-              <div class="text-sm text-slate-500">Create, search, edit, and delete question</div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="card p-6 md:p-7">
+            <div class="admin-section-title"><div><h2><span class="step-badge">4</span>Question manager</h2><p>Load questions from topic JSON, search, edit as a normal form, delete, import local JSON, and save back.</p></div></div>
+            <div class="question-tools-row mb-4">
               <select id="question-subject-select" class="field"></select>
               <select id="question-topic-select" class="field"></select>
-              <input id="question-search" class="field md:col-span-2" placeholder="Search by ID, question, option, answer, explanation, difficulty..." />
+              <input id="question-search" class="field md:col-span-2" placeholder="Search by question, ID, option, explanation, difficulty..." />
             </div>
-
-            <div class="mt-4 rounded-2xl bg-slate-50 border border-slate-200 p-4">
+            <div class="soft-panel mb-5">
               <div class="flex items-center justify-between gap-3 flex-wrap">
-                <div>
-                  <h3 class="font-black text-slate-900">JSON Question File Tools</h3>
-                  <p class="text-sm text-slate-600 mt-1">Load the selected topic JSON, import a local JSON file, edit questions as normal forms, then save back to the topic JSON.</p>
-                </div>
+                <div><h3 class="font-black text-slate-900">JSON Topic Tools</h3><p class="text-sm text-slate-600 mt-1">Load and manage questions from topic JSON files.</p></div>
                 <div class="flex gap-2 flex-wrap">
                   <button id="load-topic-json-btn" class="mini-btn bg-slate-950 text-white" type="button">Load selected topic JSON</button>
                   <button id="choose-question-json-btn" class="mini-btn btn-ghost" type="button">Import local JSON</button>
                   <button id="save-question-json-btn" class="mini-btn bg-emerald-700 text-white" type="button">Save current list to topic JSON</button>
-                  <button id="export-question-json-btn" class="mini-btn btn-ghost" type="button">Export current topic JSON</button>
+                  <button id="export-question-json-btn" class="mini-btn btn-ghost" type="button">Export backup</button>
                   <input id="question-json-file" type="file" accept="application/json,.json" class="hidden" />
                 </div>
               </div>
               <p id="question-json-message" class="mt-3 text-sm font-bold"></p>
             </div>
-            <div class="mt-4 grid grid-cols-1 lg:grid-cols-5 gap-4">
-              <div class="lg:col-span-2 space-y-3">
-                <div id="question-results" class="space-y-3 max-h-[520px] overflow-auto pr-1"></div>
+
+            <div class="soft-panel">
+              <h3 class="font-black text-slate-900 mb-3">Question form</h3>
+              <div class="question-form-grid">
+                <input id="question-id" class="field" placeholder="Question ID auto" readonly />
+                <select id="question-type" class="field"><option value="mcq">MCQ</option><option value="true_false">True / False</option><option value="case">Case</option><option value="image">Image</option></select>
+                <select id="question-difficulty" class="field"><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select>
+                <div class="field flex items-center text-sm text-slate-500">Edit selected question or add a new one.</div>
+                <textarea id="question-text" class="field md:col-span-2 min-h-[130px]" placeholder="Question text"></textarea>
+                <textarea id="question-case" class="field md:col-span-2 min-h-[100px]" placeholder="Case text optional"></textarea>
+                <input id="question-image" class="field md:col-span-2" placeholder="Image URL optional" />
+                <input id="option-1" class="field" placeholder="Option 1" />
+                <input id="option-2" class="field" placeholder="Option 2" />
+                <input id="option-3" class="field" placeholder="Option 3" />
+                <input id="option-4" class="field" placeholder="Option 4" />
+                <input id="correct-answer" class="field" type="number" min="1" max="4" placeholder="Correct option number 1-4" />
+                <textarea id="question-explanation" class="field md:col-span-2 min-h-[150px]" placeholder="Explanation"></textarea>
               </div>
-              <div class="lg:col-span-3 space-y-4">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <input id="question-id" class="field" placeholder="Question ID auto" readonly />
-                  <select id="question-type" class="field">
-                    <option value="mcq">MCQ</option>
-                    <option value="true_false">True / False</option>
-                    <option value="case">Case</option>
-                    <option value="image">Image</option>
-                  </select>
-                  <select id="question-difficulty" class="field">
-                    <option value="easy">Easy</option>
-                    <option value="medium">Medium</option>
-                    <option value="hard">Hard</option>
-                  </select>
-                  <div class="field flex items-center text-sm text-slate-500">Choose a result on the left to edit it, or keep blank to add a new one.</div>
-                  <textarea id="question-text" class="field md:col-span-2 min-h-[120px]" placeholder="Question text"></textarea>
-                  <textarea id="question-case" class="field md:col-span-2 min-h-[120px]" placeholder="Case text (only if needed)"></textarea>
-                  <input id="question-image" class="field md:col-span-2" placeholder="Image URL (only if needed)" />
-                  <input id="option-1" class="field" placeholder="Option 1" />
-                  <input id="option-2" class="field" placeholder="Option 2" />
-                  <input id="option-3" class="field" placeholder="Option 3" />
-                  <input id="option-4" class="field" placeholder="Option 4" />
-                  <input id="correct-answer" class="field" type="number" min="1" max="4" placeholder="Correct option number" />
-                  <textarea id="question-explanation" class="field md:col-span-2 min-h-[140px]" placeholder="Explanation"></textarea>
-                </div>
-                <div class="flex gap-3 flex-wrap">
-                  <button id="add-question-btn" class="btn bg-slate-950 text-white">Save question</button>
-                  <button id="reset-question-btn" class="btn bg-slate-200 text-slate-900">Reset question form</button>
-                  <button id="delete-question-btn" class="btn btn-danger">Delete question</button>
-                </div>
-                <p id="question-message" class="text-sm font-bold"></p>
-              </div>
+              <div class="flex gap-3 flex-wrap mt-4"><button id="add-question-btn" class="btn bg-slate-950 text-white">Save question</button><button id="reset-question-btn" class="btn bg-slate-200 text-slate-900">Reset question form</button><button id="delete-question-btn" class="btn btn-danger">Delete selected question</button></div>
+              <p id="question-message" class="mt-3 text-sm font-bold"></p>
+            </div>
+
+            <div class="questions-list-shell">
+              <div class="flex items-center justify-between gap-3 flex-wrap mb-3"><h3 class="font-black text-slate-900">Loaded questions list</h3><p class="text-sm text-slate-500">Appears below the form so the page stays wide and comfortable.</p></div>
+              <div id="question-results" class="question-results-grid"></div>
             </div>
           </div>
 
-          <div class="card p-6">
-            <div class="flex items-center justify-between gap-4 mb-4 flex-wrap">
-              <h2 class="text-lg font-black">4) Bulk import questions</h2>
-              <div class="text-sm text-slate-500">Paste a JSON array with many questions at once</div>
-            </div>
+          <div class="card p-6 md:p-7">
+            <div class="admin-section-title"><div><h2><span class="step-badge">5</span>Bulk import questions</h2><p>Bulk upload is still here. Paste a JSON array and append many questions to a topic.</p></div></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <select id="bulk-subject-select" class="field"></select>
               <select id="bulk-topic-select" class="field"></select>
-              <textarea id="bulk-json" class="field md:col-span-2 min-h-[280px] mono" placeholder='[
+              <textarea id="bulk-json" class="field md:col-span-2 min-h-[330px] mono" placeholder='[
   {
     "type": "mcq",
     "difficulty": "easy",
@@ -188,10 +177,7 @@
   }
 ]'></textarea>
             </div>
-            <div class="mt-4 flex gap-3 flex-wrap">
-              <button id="bulk-import-btn" class="btn bg-slate-950 text-white">Import questions</button>
-              <button id="bulk-template-btn" class="btn bg-slate-200 text-slate-900">Insert template</button>
-            </div>
+            <div class="mt-4 flex gap-3 flex-wrap"><button id="bulk-import-btn" class="btn bg-slate-950 text-white">Import questions in bulk</button><button id="bulk-template-btn" class="btn bg-slate-200 text-slate-900">Insert template</button></div>
             <p id="bulk-message" class="mt-3 text-sm font-bold"></p>
           </div>
         </div>
