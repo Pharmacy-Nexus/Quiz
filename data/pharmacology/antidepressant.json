@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:51:46.569Z",
+  "updatedAt": "2026-04-29T04:51:58.251Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1315,27 +1315,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Mirtazapine is noted for minimal sexual dysfunction, and bupropion is commonly associated with less sexual dysfunction because it does not act primarily through serotonin reuptake inhibition. SSRIs and TCAs are more likely to cause sexual dysfunction.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-066",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Lithium is used in bipolar disorder because it is a:",
-      "options": [
-        "Mood stabilizer",
-        "SSRI",
-        "MAOI",
-        "TCA"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Lithium is a mood stabilizer used acutely and prophylactically for bipolar disorder. It is not a standard antidepressant for unipolar depression.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
