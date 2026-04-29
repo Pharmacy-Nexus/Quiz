@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T04:46:39.814Z",
+  "updatedAt": "2026-04-29T04:50:12.161Z",
   "subjects": [
     {
       "id": "pharmacology",
@@ -9,7 +9,7 @@
       "theme": "primary",
       "order": 1,
       "topicsCount": 3,
-      "questionsCount": 300,
+      "questionsCount": 299,
       "metaFile": "data/pharmacology/meta.json",
       "file": "data/pharmacology/meta.json"
     },
