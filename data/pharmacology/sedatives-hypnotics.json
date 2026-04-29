@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-26T20:23:10.768Z",
+  "updatedAt": "2026-04-29T04:33:01.915Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1196,23 +1196,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Zolpidem selectively binds to the BZ1/omega-1 receptor subtype. This receptor subtype is associated mainly with hypnotic effects. Flurazepam, triazolam, and alprazolam are benzodiazepines that interact less selectively with benzodiazepine receptor subtypes. Flumazenil is a benzodiazepine receptor antagonist and is used to reverse benzodiazepine effects.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-075",
-      "type": "mcq",
-      "difficulty": "hard",
-      "questionText": "Which of the following hypnotic agents is able to interact with both BZ1 and BZ2 receptor subtypes?",
-      "options": [
-        "Zaleplon",
-        "Phenobarbital",
-        "Flurazepam",
-        "Zolpidem",
-        "Diphenhydramine"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Flurazepam is a benzodiazepine hypnotic. Classical benzodiazepines generally interact with both BZ1 and BZ2 receptor subtypes. BZ1 receptor activation is associated mainly with sedation and hypnosis. BZ2 receptor activation contributes more to anxiolytic, muscle relaxant, and anticonvulsant effects. Zolpidem and zaleplon are more selective for BZ1 receptors. Phenobarbital acts at the barbiturate site of the GABA-A receptor, not the benzodiazepine receptor subtype system. Diphenhydramine is an H1 antihistamine.",
       "caseText": "",
       "imageUrl": ""
     },
