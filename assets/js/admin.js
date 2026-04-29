@@ -141,6 +141,7 @@ async function bootstrapData() {
     };
 
     renderSubjectOptions();
+    await syncSectionSelectors();
     await loadTopicsForQuestionSubject();
     await syncTopicSelectors();
   } catch (e) {
@@ -156,7 +157,7 @@ function renderSubjectOptions() {
       .map(s => `<option value="${s.id}">${s.name}</option>`)
       .join('');
 
-  ['topic-subject-select', 'question-subject-select', 'bulk-subject-select'].forEach(id => {
+  ['topic-subject-select', 'question-subject-select', 'bulk-subject-select', 'section-subject-select'].forEach(id => {
     if ($(id)) $(id).innerHTML = html;
   });
 }
@@ -225,10 +226,130 @@ async function syncSubjectAndIndex(subjectId) {
     subjects: [...(indexFile.json.subjects || [])].sort((a, b) => (a.order || 999) - (b.order || 999))
   };
 }
+
+function normalizeSections(list = []) {
+  return (Array.isArray(list) ? list : [])
+    .map((s, index) => ({
+      id: slugify(s.id || s.slug || s.name || s.title || `section-${index + 1}`),
+      name: String(s.name || s.title || s.id || '').trim(),
+      description: String(s.description || '').trim(),
+      order: Number(s.order || index + 1)
+    }))
+    .filter(s => s.id && s.name)
+    .sort((a, b) => (a.order || 999) - (b.order || 999) || a.name.localeCompare(b.name));
+}
+function topicSectionValue(topic = {}) {
+  return String(topic.section || topic.sectionId || '').trim();
+}
+function makeSectionFromName(name, order = 999) {
+  const clean = String(name || '').trim();
+  return clean ? { id: slugify(clean), name: clean, description: '', order } : null;
+}
+function getMergedSections(subjectJson = {}) {
+  const map = new Map();
+  normalizeSections(subjectJson.sections || []).forEach(s => map.set(s.id, s));
+  (subjectJson.topics || []).forEach((topic) => {
+    const raw = topicSectionValue(topic);
+    if (!raw) return;
+    const id = slugify(raw);
+    if (!map.has(id)) map.set(id, makeSectionFromName(raw, map.size + 1));
+  });
+  return [...map.values()].filter(Boolean).sort((a, b) => (a.order || 999) - (b.order || 999) || a.name.localeCompare(b.name));
+}
+async function syncSectionSelectors() {
+  const subjectId = $('section-subject-select')?.value || $('topic-subject-select')?.value || '';
+  if (!subjectId) {
+    if ($('section-edit-select')) $('section-edit-select').innerHTML = '<option value="">Select section</option>';
+    if ($('topic-section-select')) $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>';
+    return;
+  }
+  try {
+    const subjectFile = await getSubjectFile(subjectId);
+    const sections = getMergedSections(subjectFile.json);
+    if ($('section-edit-select') && $('section-subject-select')?.value === subjectId) {
+      $('section-edit-select').innerHTML = '<option value="">Create new section</option>' + sections.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
+    }
+    if ($('topic-section-select') && $('topic-subject-select')?.value === subjectId) {
+      $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>' + sections.map(s => `<option value="${s.name}">${s.name}</option>`).join('');
+    }
+  } catch (e) {
+    setMsg('section-message', e.message, false);
+  }
+}
+function resetSectionForm() {
+  if ($('section-edit-select')) $('section-edit-select').value = '';
+  if ($('section-name')) $('section-name').value = '';
+  if ($('section-slug')) $('section-slug').value = '';
+  if ($('section-order')) $('section-order').value = '';
+  if ($('section-description')) $('section-description').value = '';
+}
+async function loadSectionIntoForm() {
+  try {
+    const subjectId = $('section-subject-select')?.value;
+    const sectionId = $('section-edit-select')?.value;
+    if (!subjectId || !sectionId) { resetSectionForm(); return; }
+    const subjectFile = await getSubjectFile(subjectId);
+    const section = getMergedSections(subjectFile.json).find(s => s.id === sectionId);
+    if (!section) return;
+    $('section-name').value = section.name || '';
+    $('section-slug').value = section.id || '';
+    $('section-order').value = section.order ?? '';
+    $('section-description').value = section.description || '';
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+async function saveSection() {
+  try {
+    requireSession();
+    const subjectId = $('section-subject-select')?.value;
+    if (!subjectId) throw new Error('Select a subject first.');
+    const name = $('section-name').value.trim();
+    const id = slugify($('section-slug').value || name);
+    const description = $('section-description').value.trim();
+    const order = Number($('section-order').value || 1);
+    if (!name || !id) throw new Error('Section name and slug are required.');
+    const subjectFile = await getSubjectFile(subjectId);
+    const current = getMergedSections(subjectFile.json);
+    const targetId = $('section-edit-select')?.value || id;
+    const idx = current.findIndex(s => s.id === targetId || s.id === id);
+    const sectionObj = { id, name, description, order };
+    if (idx >= 0) current[idx] = sectionObj;
+    else current.push(sectionObj);
+    subjectFile.json.sections = current.sort((a,b)=>(a.order||999)-(b.order||999));
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Save section: ${name}`, subjectFile.sha);
+    await syncSubjectAndIndex(subjectId);
+    await syncSectionSelectors();
+    if ($('topic-subject-select')) { $('topic-subject-select').value = subjectId; await syncSectionSelectors(); }
+    resetSectionForm();
+    setMsg('section-message', `Section saved: ${name}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+async function deleteSection() {
+  try {
+    requireSession();
+    const subjectId = $('section-subject-select')?.value;
+    const sectionId = $('section-edit-select')?.value;
+    if (!subjectId || !sectionId) throw new Error('Select a section to delete.');
+    const subjectFile = await getSubjectFile(subjectId);
+    const section = getMergedSections(subjectFile.json).find(s => s.id === sectionId);
+    if (!section) throw new Error('Section not found.');
+    const used = (subjectFile.json.topics || []).some(t => slugify(topicSectionValue(t)) === sectionId);
+    if (used) throw new Error('This section has topics under it. Move/delete those topics first.');
+    subjectFile.json.sections = normalizeSections(subjectFile.json.sections || []).filter(s => s.id !== sectionId);
+    subjectFile.json.updatedAt = nowIso();
+    await putRepoJson(`${DATA_ROOT}/${subjectId}/meta.json`, subjectFile.json, `Delete section: ${section.name}`, subjectFile.sha);
+    await syncSubjectAndIndex(subjectId);
+    resetSectionForm();
+    await syncSectionSelectors();
+    setMsg('section-message', `Section deleted: ${section.name}`);
+  } catch (e) { setMsg('section-message', e.message, false); }
+}
+
 async function syncTopicSelectors() {
   const subjectId = $('topic-subject-select').value || $('question-subject-select').value || $('bulk-subject-select').value || '';
   if (!subjectId) {
     ['topic-edit-select', 'question-topic-select', 'bulk-topic-select'].forEach(id => { if ($(id)) $(id).innerHTML = '<option value="">Select topic</option>'; });
+    if ($('topic-section-select')) $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>';
     return;
   }
   const subjectFile = await getSubjectFile(subjectId);
@@ -238,6 +359,7 @@ async function syncTopicSelectors() {
   if ($('topic-subject-select').value === subjectId) $('topic-edit-select').innerHTML = options;
   if ($('question-subject-select').value === subjectId) $('question-topic-select').innerHTML = options;
   if ($('bulk-subject-select').value === subjectId) $('bulk-topic-select').innerHTML = options;
+  await syncSectionSelectors();
 }
 async function loadTopicsForQuestionSubject() {
   await syncTopicSelectors();
@@ -255,6 +377,7 @@ function resetTopicForm() {
   $('topic-name').value = '';
   $('topic-slug').value = '';
   if ($('topic-section')) $('topic-section').value = '';
+  if ($('topic-section-select')) $('topic-section-select').value = '';
   $('topic-order').value = '';
   $('topic-description').value = '';
 }
@@ -300,7 +423,7 @@ async function addSubject() {
     if (!name || !id) throw new Error('Subject name and slug are required.');
     if ((subjectsIndex.subjects || []).some(s => s.id === id)) throw new Error('Subject already exists.');
 
-    const subjectData = { id, name, description, order, topics: [] };
+    const subjectData = { id, name, description, order, sections: [], topics: [] };
     await putRepoJson(`${DATA_ROOT}/${id}/meta.json`, subjectData, `Create subject: ${name}`);
 
     const indexFile = await getRepoFile(`${DATA_ROOT}/index.json`);
@@ -333,6 +456,13 @@ async function saveTopic() {
     if (!name || !id) throw new Error('Topic name and slug are required.');
 
     const subjectFile = await getSubjectFile(subjectId);
+    subjectFile.json.sections = getMergedSections(subjectFile.json);
+    if (section) {
+      const sectionId = slugify(section);
+      if (!subjectFile.json.sections.some(s => s.id === sectionId || String(s.name || '').toLowerCase() === section.toLowerCase())) {
+        subjectFile.json.sections.push({ id: sectionId, name: section, description: '', order: subjectFile.json.sections.length + 1 });
+      }
+    }
     const topics = subjectFile.json.topics || [];
     const editing = topics.find(t => t.id === selectedExistingId);
 
@@ -390,6 +520,7 @@ async function loadTopicIntoForm() {
     $('topic-name').value = meta.name || '';
     $('topic-slug').value = meta.id || '';
     if ($('topic-section')) $('topic-section').value = meta.section || '';
+    if ($('topic-section-select')) $('topic-section-select').value = meta.section || '';
     $('topic-order').value = meta.order ?? '';
     $('topic-description').value = meta.description || '';
   } catch (e) {
@@ -751,10 +882,18 @@ window.addEventListener('DOMContentLoaded', () => {
   $('reload-data-btn').addEventListener('click', bootstrapData);
   $('add-subject-btn').addEventListener('click', addSubject);
 
+  $('section-subject-select')?.addEventListener('change', async () => { await syncSectionSelectors(); resetSectionForm(); });
+  $('section-edit-select')?.addEventListener('change', loadSectionIntoForm);
+  $('save-section-btn')?.addEventListener('click', saveSection);
+  $('reset-section-btn')?.addEventListener('click', resetSectionForm);
+  $('delete-section-btn')?.addEventListener('click', deleteSection);
+
   $('topic-subject-select').addEventListener('change', async () => {
     await syncTopicSelectors();
+    await syncSectionSelectors();
     resetTopicForm();
   });
+  $('topic-section-select')?.addEventListener('change', () => { if ($('topic-section-select').value) $('topic-section').value = $('topic-section-select').value; });
   $('topic-edit-select').addEventListener('change', loadTopicIntoForm);
   $('add-topic-btn').addEventListener('click', saveTopic);
   $('reset-topic-btn').addEventListener('click', resetTopicForm);
