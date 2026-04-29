@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:44:08.447Z",
+  "updatedAt": "2026-04-29T04:45:17.358Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1890,28 +1890,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "MAO-A preferentially metabolizes serotonin, norepinephrine, and tyramine. This is why MAO-A inhibition is more relevant to antidepressant effects and tyramine-related hypertensive crisis. MAO-B is more associated with dopamine metabolism, especially in certain brain regions, and is targeted by drugs like selegiline in Parkinson's disease.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-093",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "In the pathophysiology of major depressive disorder, which of the following synaptic neurotransmitter systems have been implicated?",
-      "options": [
-        "Dopaminergic synapses",
-        "Serotonergic synapses",
-        "Cholinergic synapses",
-        "Adrenergic/noradrenergic synapses",
-        "All of the above"
-      ],
-      "correctAnswer": 4,
-      "explanation": "Depression involves complex changes in multiple neurotransmitter systems. The most important systems for antidepressant pharmacology are serotonergic pathways, noradrenergic pathways, and dopaminergic pathways. Cholinergic systems may also influence mood, cognition, and sleep, although they are not the main target of most antidepressants. Because mood regulation is not controlled by one neurotransmitter alone, the broad answer is all of the above.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
