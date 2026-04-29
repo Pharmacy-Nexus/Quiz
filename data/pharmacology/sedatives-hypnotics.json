@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:33:39.901Z",
+  "updatedAt": "2026-04-29T04:33:46.716Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -1196,23 +1196,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Zolpidem selectively binds to the BZ1/omega-1 receptor subtype. This receptor subtype is associated mainly with hypnotic effects. Flurazepam, triazolam, and alprazolam are benzodiazepines that interact less selectively with benzodiazepine receptor subtypes. Flumazenil is a benzodiazepine receptor antagonist and is used to reverse benzodiazepine effects.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-076",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Tick the competitive antagonist of benzodiazepine receptors:",
-      "options": [
-        "Flumazenil",
-        "Picrotoxin",
-        "Zolpidem",
-        "Temazepam",
-        "Phenobarbital"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Flumazenil is a competitive antagonist at benzodiazepine receptors. It can reverse the effects of benzodiazepines and some non-benzodiazepine hypnotics that act at benzodiazepine receptor sites. It is used clinically in selected cases of benzodiazepine overdose or excessive sedation. Picrotoxin blocks the chloride channel associated with the GABA-A receptor, but it is not a benzodiazepine receptor antagonist. Zolpidem and temazepam are agonist/modulator drugs. Phenobarbital acts at the barbiturate site.",
       "caseText": "",
       "imageUrl": ""
     },
