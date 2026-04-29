@@ -448,6 +448,11 @@ tailwind.config = {
   }
 }
 
+
+  .pn-fact-reveal { animation: pnFactReveal .42s ease both; }
+  @keyframes pnFactReveal { from { opacity: 0; transform: translateY(10px); filter: blur(4px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+  #quick-fact-progress { transition: width .2s linear; }
+
 </style>
   <link rel="stylesheet" href="./assets/css/pharmacy-bot.css">
 </head>
@@ -992,22 +997,32 @@ tailwind.config = {
       </article>
     </div>
 
-    <!-- Sidebar Reference -->
-    <div class="mt-10 bg-primary-container text-primary-fixed rounded-xl p-6">
-      <h4 class="text-base font-bold text-surface-container-lowest mb-4">Quick Clinical Reference</h4>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-mono">
-        <div class="bg-primary/30 p-3 rounded-lg">
-          <p class="text-xs text-on-primary-container uppercase tracking-widest mb-1">Bioavailability</p>
-          <p class="text-primary-fixed-dim text-xs break-all">F = (AUC_oral × Dose_IV) / (AUC_IV × Dose_oral)</p>
+    <!-- Rotating Pharmacy Insights -->
+    <div id="quick-insight-box" class="mt-10 bg-primary-container text-primary-fixed rounded-xl p-6 md:p-8 relative overflow-hidden">
+      <div class="absolute -right-16 -top-16 w-48 h-48 rounded-full bg-tertiary-fixed/10 blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-16 -bottom-16 w-48 h-48 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+      <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div class="max-w-3xl">
+          <div class="flex items-center gap-3 flex-wrap mb-4">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/10 text-tertiary-fixed text-xs font-black uppercase tracking-widest">
+              <span class="material-symbols-outlined text-base">tips_and_updates</span>
+              Quick Pharmacy Insight
+            </span>
+            <span id="quick-fact-category" class="inline-flex px-3 py-1 rounded-full bg-primary/30 text-primary-fixed-dim text-xs font-black uppercase tracking-widest">Loading</span>
+          </div>
+          <div id="quick-fact-content" class="pn-fact-reveal">
+            <h4 id="quick-fact-title" class="text-2xl md:text-3xl font-black text-surface-container-lowest tracking-tight mb-3">Preparing insight...</h4>
+            <p id="quick-fact-text" class="text-primary-fixed-dim text-sm md:text-base leading-relaxed max-w-3xl">A rotating study pearl will appear here every few seconds.</p>
+          </div>
         </div>
-        <div class="bg-primary/30 p-3 rounded-lg">
-          <p class="text-xs text-on-primary-container uppercase tracking-widest mb-1">Volume of Distribution</p>
-          <p class="text-primary-fixed-dim text-xs">Vd = Dose / C₀</p>
+        <div class="flex lg:flex-col gap-2 lg:min-w-[148px]">
+          <button type="button" onclick="previousQuickFact()" class="px-4 py-2 rounded-xl bg-white/10 text-primary-fixed font-black text-sm border border-white/10 hover:bg-white/15 transition-colors flex items-center justify-center gap-1"><span class="material-symbols-outlined text-base">chevron_left</span> Prev</button>
+          <button type="button" onclick="toggleQuickFactPause()" id="quick-fact-pause-btn" class="px-4 py-2 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed font-black text-sm hover:scale-[0.98] transition-transform">Pause</button>
+          <button type="button" onclick="nextQuickFact()" class="px-4 py-2 rounded-xl bg-white/10 text-primary-fixed font-black text-sm border border-white/10 hover:bg-white/15 transition-colors flex items-center justify-center gap-1">Next <span class="material-symbols-outlined text-base">chevron_right</span></button>
         </div>
-        <div class="bg-primary/30 p-3 rounded-lg">
-          <p class="text-xs text-on-primary-container uppercase tracking-widest mb-1">Clearance</p>
-          <p class="text-primary-fixed-dim text-xs">Cl = Rate of elimination / Plasma conc.</p>
-        </div>
+      </div>
+      <div class="relative z-10 mt-6 h-1.5 rounded-full bg-primary/40 overflow-hidden">
+        <div id="quick-fact-progress" class="h-full rounded-full bg-tertiary-fixed" style="width:0%"></div>
       </div>
     </div>
   </div>
