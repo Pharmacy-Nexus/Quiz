@@ -53,15 +53,15 @@
       "order": 3,
       "section": "CNS",
       "difficultyBreakdown": {
-        "easy": 15,
-        "medium": 50,
-        "hard": 20
+        "easy": 27,
+        "medium": 61,
+        "hard": 21
       },
-      "questionsCount": 85,
+      "questionsCount": 109,
       "file": "data/pharmacology/antipsychotics-neuroleptic-drugs.json"
     }
   ],
-  "updatedAt": "2026-04-29T19:11:26.420Z",
+  "updatedAt": "2026-04-29T19:16:10.374Z",
   "sections": [
     {
       "id": "antimicrobials",
