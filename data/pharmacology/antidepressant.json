@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:45:17.358Z",
+  "updatedAt": "2026-04-29T04:46:09.914Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -17,13 +17,9 @@
       ],
       "correctAnswer": 1,
       "explanation": "The monoamine theory explains depression as a state of reduced monoamine neurotransmitters in the synapse, mainly serotonin, norepinephrine, and dopamine. This theory is the basis for most antidepressant drugs, because they either prevent monoamine breakdown, block reuptake, or modulate receptors to increase monoaminergic activity.",
+      "summary": "",
       "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
+      "imageUrl": ""
     },
     {
       "id": "pharmacology-antidepressant-002",
