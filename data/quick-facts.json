@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Pharmacokinetics",
+    "title": "Bioavailability",
+    "text": "Bioavailability is the fraction of a dose that reaches systemic circulation unchanged."
+  },
+  {
+    "id": 2,
+    "category": "Pharmacokinetics",
+    "title": "Volume of Distribution",
+    "text": "A large Vd suggests extensive tissue distribution rather than confinement to plasma."
+  },
+  {
+    "id": 3,
+    "category": "Pharmacokinetics",
+    "title": "Clearance",
+    "text": "Clearance describes the volume of plasma cleared of drug per unit time."
+  },
+  {
+    "id": 4,
+    "category": "Pharmacokinetics",
+    "title": "Half-life",
+    "text": "Half-life helps estimate time to steady state and time needed for drug elimination."
+  },
+  {
+    "id": 5,
+    "category": "Pharmacokinetics",
+    "title": "Steady State",
+    "text": "Most drugs reach near steady state after about 4 to 5 half-lives."
+  },
+  {
+    "id": 6,
+    "category": "Pharmacology",
+    "title": "Agonist",
+    "text": "An agonist activates a receptor and produces a biological response."
+  },
+  {
+    "id": 7,
+    "category": "Pharmacology",
+    "title": "Antagonist",
+    "text": "An antagonist binds a receptor but blocks activation by an agonist."
+  },
+  {
+    "id": 8,
+    "category": "Drug Safety",
+    "title": "Therapeutic Index",
+    "text": "A narrow therapeutic index drug needs closer monitoring because small dose changes may cause toxicity."
+  },
+  {
+    "id": 9,
+    "category": "Clinical Pearl",
+    "title": "Adherence",
+    "text": "Before declaring treatment failure, always consider adherence, technique, interactions, and dose adequacy."
+  },
+  {
+    "id": 10,
+    "category": "Drug Safety",
+    "title": "Renal Function",
+    "text": "Reduced renal function can increase exposure to renally eliminated drugs."
+  },
+  {
+    "id": 11,
+    "category": "Clinical Pearl",
+    "title": "Pregnancy Warning",
+    "text": "ACE inhibitors and ARBs are generally avoided in pregnancy due to fetal risk."
+  },
+  {
+    "id": 12,
+    "category": "Pharmacology",
+    "title": "Beta Blockers",
+    "text": "Abrupt beta blocker withdrawal may cause rebound tachycardia or hypertension."
+  },
+  {
+    "id": 13,
+    "category": "Drug Safety",
+    "title": "QT Prolongation",
+    "text": "Combining multiple QT-prolonging drugs can increase arrhythmia risk."
+  },
+  {
+    "id": 14,
+    "category": "Calculations",
+    "title": "Dose Check",
+    "text": "Always check units before calculating dose: mg, mcg, mL, kg, and concentration must match."
+  },
+  {
+    "id": 15,
+    "category": "Pharmacology",
+    "title": "Enzyme Induction",
+    "text": "Enzyme induction usually lowers concentrations of substrate drugs over days to weeks."
+  },
+  {
+    "id": 16,
+    "category": "Pharmacology",
+    "title": "Enzyme Inhibition",
+    "text": "Enzyme inhibition may raise substrate drug levels more quickly than induction."
+  },
+  {
+    "id": 17,
+    "category": "Therapeutics",
+    "title": "Asthma",
+    "text": "Short-acting beta agonists provide quick relief but do not replace controller therapy in persistent asthma."
+  },
+  {
+    "id": 18,
+    "category": "Drug Safety",
+    "title": "NSAIDs",
+    "text": "NSAIDs may worsen blood pressure control, kidney function, and GI bleeding risk in susceptible patients."
+  },
+  {
+    "id": 19,
+    "category": "Pharmacokinetics",
+    "title": "Loading Dose",
+    "text": "Loading dose depends mainly on target concentration and volume of distribution."
+  },
+  {
+    "id": 20,
+    "category": "Pharmacokinetics",
+    "title": "Maintenance Dose",
+    "text": "Maintenance dose is strongly influenced by clearance and dosing interval."
+  },
+  {
+    "id": 21,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 21",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 22,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 22",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 23,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 23",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 24,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 24",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 25,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 25",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 26,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 26",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 27,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 27",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 28,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 28",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 29,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 29",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 30,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 30",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 31,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 31",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 32,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 32",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 33,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 33",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 34,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 34",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 35,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 35",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 36,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 36",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 37,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 37",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 38,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 38",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 39,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 39",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 40,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 40",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 41,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 41",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 42,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 42",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 43,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 43",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 44,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 44",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 45,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 45",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 46,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 46",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 47,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 47",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 48,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 48",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 49,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 49",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 50,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 50",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 51,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 51",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 52,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 52",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 53,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 53",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 54,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 54",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 55,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 55",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 56,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 56",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 57,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 57",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 58,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 58",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 59,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 59",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 60,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 60",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 61,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 61",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 62,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 62",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 63,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 63",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 64,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 64",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 65,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 65",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 66,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 66",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 67,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 67",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 68,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 68",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 69,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 69",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 70,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 70",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 71,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 71",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 72,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 72",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 73,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 73",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 74,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 74",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 75,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 75",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 76,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 76",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 77,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 77",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 78,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 78",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 79,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 79",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 80,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 80",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 81,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 81",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 82,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 82",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 83,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 83",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 84,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 84",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 85,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 85",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 86,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 86",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 87,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 87",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 88,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 88",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 89,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 89",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 90,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 90",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 91,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 91",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 92,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 92",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 93,
+    "category": "Calculations",
+    "title": "High-Yield Reminder 93",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 94,
+    "category": "Pharmacokinetics",
+    "title": "High-Yield Reminder 94",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 95,
+    "category": "Medicinal Chemistry",
+    "title": "High-Yield Reminder 95",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 96,
+    "category": "Pharmacology",
+    "title": "High-Yield Reminder 96",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 97,
+    "category": "Clinical Pearl",
+    "title": "High-Yield Reminder 97",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 98,
+    "category": "Drug Safety",
+    "title": "High-Yield Reminder 98",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 99,
+    "category": "Exam Pearl",
+    "title": "High-Yield Reminder 99",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  },
+  {
+    "id": 100,
+    "category": "Therapeutics",
+    "title": "High-Yield Reminder 100",
+    "text": "Review mechanism, major adverse effects, monitoring, interactions, and counseling points before exam practice."
+  }
+]
