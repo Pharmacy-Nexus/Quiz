@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:46:36.953Z",
+  "updatedAt": "2026-04-29T04:50:08.283Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1928,28 +1928,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "MAO inhibitors block the enzyme monoamine oxidase, which normally degrades monoamine neurotransmitters. As a result, serotonin, norepinephrine, and dopamine are less degraded and can accumulate in presynaptic neurons. More neurotransmitter becomes available for release into the synapse. This is different from TCAs and SSRIs, which mainly block reuptake pumps.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-096",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Patients receiving irreversible MAO inhibitors are at significantly elevated risk of developing which serious adverse reaction following dietary tyramine intake?",
-      "options": [
-        "Respiratory depression",
-        "Cardiovascular collapse and CNS depression",
-        "Hypertensive reactions to tyramine ingested in food",
-        "Potentially fatal agranulocytosis",
-        "Tolerance"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Irreversible MAO inhibitors can cause dangerous hypertensive crisis when combined with tyramine-rich foods. Tyramine is normally metabolized by MAO in the gut and liver. If MAO is inhibited, tyramine enters the circulation and triggers massive norepinephrine release. Foods classically associated with tyramine include aged cheese, cured meats, fermented products, some wines, and certain preserved foods. This is known as the cheese reaction.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
