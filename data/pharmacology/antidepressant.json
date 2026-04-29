@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antidepressant",
   "topicName": "Antidepressant",
-  "updatedAt": "2026-04-29T04:51:26.914Z",
+  "updatedAt": "2026-04-29T04:51:46.569Z",
   "questions": [
     {
       "id": "pharmacology-antidepressant-001",
@@ -1336,27 +1336,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Lithium is a mood stabilizer used acutely and prophylactically for bipolar disorder. It is not a standard antidepressant for unipolar depression.",
-      "caseText": "",
-      "imageUrl": "",
-      "subjectId": "",
-      "subjectName": "",
-      "topicId": "",
-      "topicName": "",
-      "includeInFinal": true
-    },
-    {
-      "id": "pharmacology-antidepressant-067",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which statement about lithium is correct?",
-      "options": [
-        "It has a low therapeutic index and can be very toxic",
-        "It is completely safe without monitoring",
-        "It is used mainly for OCD",
-        "It is given only IV"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Lithium has a low therapeutic index, meaning the toxic dose is close to the therapeutic dose. Monitoring is important to avoid toxicity.",
       "caseText": "",
       "imageUrl": "",
       "subjectId": "",
