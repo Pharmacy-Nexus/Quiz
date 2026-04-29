@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "sedatives-hypnotics",
   "topicName": "Sedatives & Hypnotics",
-  "updatedAt": "2026-04-29T04:34:23.660Z",
+  "updatedAt": "2026-04-29T04:34:30.564Z",
   "questions": [
     {
       "id": "pharmacology-sedatives-hypnotics-001",
@@ -834,23 +834,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "The main pharmacological goal of a hypnotic drug is to promote sleep. A good hypnotic should help the patient fall asleep faster, maintain sleep for an adequate duration, and ideally produce minimal next-day sedation. Option A describes a sedative/anxiolytic effect more than a pure hypnotic effect. Sedatives reduce anxiety and calm the patient, while hypnotics specifically promote sleep. Option B describes anesthesia, not hypnosis. Option D describes the action of mood stabilizers used in bipolar disorder.",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-sedatives-hypnotics-053",
-      "type": "mcq",
-      "difficulty": "easy",
-      "questionText": "Which of the following chemical agents are used in the treatment of insomnia?",
-      "options": [
-        "Benzodiazepines",
-        "Imidazopyridines",
-        "Barbiturates",
-        "Antihistamines",
-        "All of the above"
-      ],
-      "correctAnswer": 4,
-      "explanation": "Several drug classes can produce hypnotic effects and may be used, or have historically been used, in insomnia. Benzodiazepines such as temazepam, triazolam, and flurazepam are classic hypnotics. Imidazopyridines, especially zolpidem, are non-benzodiazepine hypnotics that act on benzodiazepine receptors. Barbiturates such as secobarbital and pentobarbital were previously used as hypnotics but are now rarely used because of toxicity, dependence, and overdose risk. Antihistamines such as diphenhydramine can cause sedation and are sometimes used for short-term insomnia, especially in over-the-counter preparations. So the best answer is all of the above.",
       "caseText": "",
       "imageUrl": ""
     },
