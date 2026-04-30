@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antipsychotics-neuroleptic-drugs",
   "topicName": "Antipsychotics / Neuroleptic Drugs",
-  "updatedAt": "2026-04-30T20:14:31.367Z",
+  "updatedAt": "2026-04-30T21:55:34.881Z",
   "questions": [
     {
       "id": "pharmacology-antipsychotics-neuroleptic-drugs-001",
@@ -1894,6 +1894,691 @@
       ],
       "correctAnswer": 0,
       "explanation": "Clozapine can cause severe neutropenia or agranulocytosis, so regular blood monitoring is required during treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-110",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Anti-seizure medications may reduce seizure activity through which general mechanism?",
+      "options": [
+        "Enhancement of inhibitory GABAergic transmission",
+        "Reduction of excitatory glutamatergic transmission",
+        "Modification of neuronal ion channel conductance",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Anti-seizure drugs work through several mechanisms. Some enhance inhibitory GABAergic transmission, some reduce excitatory glutamatergic activity, and others stabilize neuronal membranes by modifying sodium, calcium, or chloride channel conductance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-111",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure drug enhances GABA-mediated inhibition?",
+      "options": [
+        "Ethosuximide",
+        "Carbamazepine",
+        "Phenobarbital",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenobarbital is a barbiturate that enhances GABA-A receptor activity by increasing the duration of chloride channel opening. This increases neuronal inhibition and reduces seizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-112",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure drug primarily reduces absence seizures by blocking T-type calcium channels in thalamic neurons?",
+      "options": [
+        "Carbamazepine",
+        "Lamotrigine",
+        "Ethosuximide",
+        "Phenytoin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethosuximide blocks T-type calcium channels in thalamic neurons. These channels are important in the thalamocortical rhythms responsible for absence seizures, making ethosuximide a classic drug for uncomplicated absence epilepsy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure drugs reduce repetitive neuronal firing by promoting voltage-dependent inactivation of sodium channels?",
+      "options": [
+        "Lamotrigine",
+        "Carbamazepine",
+        "Phenytoin",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phenytoin, carbamazepine, and lamotrigine all reduce high-frequency neuronal firing mainly by affecting voltage-gated sodium channels. This stabilizes neuronal membranes and helps prevent seizure propagation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure drug can reduce excitatory amino acid transmission, especially glutamate release?",
+      "options": [
+        "Ethosuximide",
+        "Lamotrigine",
+        "Diazepam",
+        "Tiagabine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lamotrigine blocks voltage-gated sodium channels and reduces glutamate release. This decreases excitatory neurotransmission and contributes to its anti-seizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following drugs can be used for focal seizures and generalized tonic-clonic seizures?",
+      "options": [
+        "Carbamazepine",
+        "Valproate",
+        "Phenytoin",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Carbamazepine and phenytoin are effective for focal and generalized tonic-clonic seizures. Valproate is a broad-spectrum anti-seizure medication and is also effective for generalized tonic-clonic seizures, as well as absence and myoclonic seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is useful for absence seizures, especially when absence seizures coexist with generalized tonic-clonic or myoclonic seizures?",
+      "options": [
+        "Valproate",
+        "Phenobarbital",
+        "Carbamazepine",
+        "Phenytoin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproate is effective in absence seizures and is particularly useful when absence seizures occur with generalized tonic-clonic or myoclonic seizures. For uncomplicated absence-only epilepsy, ethosuximide is usually preferred because it is more targeted and avoids many valproate-related systemic toxicities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medication is useful in myoclonic seizures?",
+      "options": [
+        "Primidone",
+        "Carbamazepine",
+        "Clonazepam",
+        "Phenytoin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clonazepam is a benzodiazepine with anti-seizure activity and can be used in myoclonic seizures. However, long-term use may be limited by sedation, tolerance, dependence, and withdrawal concerns.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-118",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which medication can be used for rapid initial termination of generalized tonic-clonic status epilepticus?",
+      "options": [
+        "Lamotrigine",
+        "Ethosuximide",
+        "Diazepam",
+        "Zonisamide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzodiazepines are first-line emergency drugs for status epilepticus because they rapidly enhance GABA-A receptor activity. Diazepam can quickly terminate seizures, but a longer-acting anti-seizure medication is often added afterward to prevent recurrence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-119",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement correctly describes phenytoin's mechanism of action?",
+      "options": [
+        "It blocks voltage-gated sodium channels",
+        "It prolongs GABA-A chloride channel opening",
+        "It blocks T-type calcium channels",
+        "It inhibits GABA transaminase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin blocks voltage-gated sodium channels in a use-dependent manner, reducing repetitive high-frequency neuronal firing. It is useful for focal and generalized tonic-clonic seizures but not for absence seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-120",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phenytoin is mainly used in the treatment of:",
+      "options": [
+        "Absence seizures",
+        "Generalized tonic-clonic seizures",
+        "Myoclonic seizures",
+        "All seizure types equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenytoin is effective for generalized tonic-clonic and focal seizures. It is not useful for absence seizures and may worsen some generalized seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-121",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is classically associated with chronic phenytoin therapy?",
+      "options": [
+        "Physical and psychological dependence",
+        "Exacerbation of generalized tonic-clonic epilepsy",
+        "Gingival hyperplasia",
+        "Extrapyramidal symptoms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gingival hyperplasia is a classic long-term adverse effect of phenytoin. Other important adverse effects include hirsutism, coarsening of facial features, osteopenia, peripheral neuropathy, and dose-related nystagmus or ataxia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-122",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Granulocytopenia, gastrointestinal irritation, gingival hyperplasia, and facial hirsutism are adverse effects most associated with:",
+      "options": [
+        "Phenobarbital",
+        "Carbamazepine",
+        "Valproate",
+        "Phenytoin",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phenytoin is associated with gingival hyperplasia and hirsutism. It can also cause gastrointestinal irritation and rare hematologic toxicity. These adverse effects are important counseling and monitoring points.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-123",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medication is a hepatic microsomal enzyme inducer?",
+      "options": [
+        "Lamotrigine",
+        "Phenytoin",
+        "Valproate",
+        "None of the above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenytoin is a strong hepatic enzyme inducer. It can increase the metabolism of many medications, including oral contraceptives, warfarin, corticosteroids, and other anti-seizure medications.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-124",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is commonly considered a drug of choice for focal seizures?",
+      "options": [
+        "Carbamazepine",
+        "Ethosuximide",
+        "Diazepam",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbamazepine is highly effective for focal seizures and generalized tonic-clonic seizures. It works mainly by blocking voltage-gated sodium channels.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-125",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The mechanism of carbamazepine is most similar to which drug?",
+      "options": [
+        "Benzodiazepines",
+        "Valproate",
+        "Phenytoin",
+        "Ethosuximide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carbamazepine and phenytoin both reduce repetitive neuronal firing by blocking voltage-gated sodium channels. This makes them useful in focal and generalized tonic-clonic seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-126",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure drug is also effective for trigeminal neuralgia?",
+      "options": [
+        "Primidone",
+        "Topiramate",
+        "Carbamazepine",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carbamazepine is a classic first-line option for trigeminal neuralgia. Its sodium channel-blocking action helps reduce abnormal nerve firing responsible for paroxysmal facial pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-127",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects are commonly dose-related with carbamazepine?",
+      "options": [
+        "Diplopia, ataxia, and nausea",
+        "Gingival hyperplasia and hirsutism",
+        "Sedation with physical and psychological dependence",
+        "Hemeralopia and myasthenic syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbamazepine commonly causes dose-related CNS effects such as dizziness, diplopia, ataxia, and nausea. It can also cause hyponatremia, rash, and rare serious blood dyscrasias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-128",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug has historically been used for neonatal or pediatric seizures/status epilepticus because of strong GABAergic anticonvulsant activity?",
+      "options": [
+        "Phenobarbital sodium",
+        "Clonazepam",
+        "Ethosuximide",
+        "Phenytoin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital has historically been used in neonatal and pediatric seizures, including some status epilepticus contexts. It enhances GABAergic inhibition and has strong anticonvulsant activity, but sedation, respiratory depression, and hypotension are important risks.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-129",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why may barbiturates be useful in severe emergency seizure control?",
+      "options": [
+        "They suppress neuronal activity and reduce cerebral metabolic demand",
+        "They have no respiratory depressive effect",
+        "They do not affect sleep architecture",
+        "They are free from CNS toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barbiturates can suppress neuronal activity and reduce cerebral metabolic demand. This may be useful in severe seizures, but they can also cause significant sedation, respiratory depression, hypotension, and require careful monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-130",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug binds to the GABA-A receptor complex and increases the duration of chloride channel opening?",
+      "options": [
+        "Diazepam",
+        "Valproate",
+        "Phenobarbital",
+        "Topiramate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenobarbital increases the duration of GABA-A chloride channel opening. Benzodiazepines such as diazepam increase the frequency of channel opening, which is a key distinction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-131",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects may occur with phenobarbital?",
+      "options": [
+        "Physical and psychological dependence",
+        "Worsening of absence seizures",
+        "Sedation",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phenobarbital is a barbiturate and can cause sedation, tolerance, dependence, and withdrawal symptoms. It may also worsen absence seizures and is not preferred for them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-132",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which anti-seizure medication is a phenyltriazine derivative?",
+      "options": [
+        "Phenobarbital",
+        "Clonazepam",
+        "Lamotrigine",
+        "Carbamazepine",
+        "Valproate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lamotrigine is a phenyltriazine derivative. Clinically, the more important point is that it blocks sodium channels, reduces glutamate release, and requires slow titration due to the risk of serious rash.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-133",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lamotrigine is best described as which type of anti-seizure medication?",
+      "options": [
+        "A sodium-channel blocker with broad anti-seizure activity",
+        "A pure GABA transaminase inhibitor",
+        "A T-type calcium channel blocker only",
+        "A barbiturate that prolongs chloride channel opening"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lamotrigine mainly blocks voltage-gated sodium channels and reduces glutamate release. It has broad anti-seizure activity, but the old wording \"used for all seizure types\" can be misleading because lamotrigine may worsen myoclonic seizures in some patients. It also requires slow titration due to rash risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-134",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the main mechanism of vigabatrin?",
+      "options": [
+        "Direct activation of the GABA receptor-chloride channel complex",
+        "Inhibition of GABA aminotransferase",
+        "NMDA receptor blockade at the glycine site",
+        "Inhibition of GABA reuptake"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vigabatrin irreversibly inhibits GABA aminotransferase, the enzyme responsible for GABA breakdown. This increases GABA levels in the CNS, but its use is limited by the risk of permanent visual field defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-135",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug irreversibly inhibits GABA aminotransferase?",
+      "options": [
+        "Diazepam",
+        "Phenobarbital",
+        "Vigabatrin",
+        "Felbamate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vigabatrin irreversibly inhibits GABA-T, increasing GABA availability. This mechanism is different from tiagabine, which blocks GABA reuptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-136",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tiagabine increases synaptic GABA mainly by:",
+      "options": [
+        "Blocking neuronal and glial GABA reuptake",
+        "Inhibiting GABA aminotransferase",
+        "Blocking T-type calcium channels",
+        "Blocking AMPA/kainate receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tiagabine inhibits GAT-1, the GABA reuptake transporter. This increases synaptic GABA and enhances inhibitory neurotransmission.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-137",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Topiramate and felbamate share which broad pharmacologic actions?",
+      "options": [
+        "Reduction of excitatory glutamatergic neurotransmission",
+        "Inhibition of voltage-sensitive sodium channels",
+        "Potentiation of GABAergic transmission",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Topiramate and felbamate have multiple mechanisms, including sodium channel effects, enhancement of inhibitory transmission, and reduction of excitatory glutamatergic activity. Felbamate use is restricted due to the risk of aplastic anemia and hepatic failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-138",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is classically considered first-line for uncomplicated absence seizures?",
+      "options": [
+        "Phenytoin",
+        "Ethosuximide",
+        "Phenobarbital",
+        "Carbamazepine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethosuximide is the classic drug of choice for uncomplicated absence seizures because it selectively blocks T-type calcium channels in thalamic neurons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-139",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects may occur with ethosuximide?",
+      "options": [
+        "GI upset such as anorexia, abdominal pain, nausea, and vomiting",
+        "Worsening of generalized tonic-clonic seizures",
+        "Transient lethargy or fatigue",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ethosuximide commonly causes gastrointestinal adverse effects and fatigue. Because it is mainly useful for absence seizures, it may not protect against generalized tonic-clonic seizures in patients who have mixed seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-140",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Valproate is effective against which seizure types?",
+      "options": [
+        "Absence seizures",
+        "Myoclonic seizures",
+        "Generalized tonic-clonic seizures",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Valproate is a broad-spectrum anti-seizure medication effective in absence, myoclonic, generalized tonic-clonic, and some focal seizures. Its use is limited by hepatotoxicity, pancreatitis, thrombocytopenia, weight gain, and teratogenicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-141",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is classically considered a drug of choice for myoclonic seizures?",
+      "options": [
+        "Valproate",
+        "Phenobarbital",
+        "Phenytoin",
+        "Felbamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproate is highly effective for myoclonic seizures and is considered a classic drug of choice. However, it should be avoided whenever possible in pregnancy and in many females of childbearing potential because of its high teratogenic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-142",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is ethosuximide often preferred over valproate for uncomplicated absence seizures?",
+      "options": [
+        "It is always more effective than valproate",
+        "It avoids valproate's risk of serious hepatotoxicity and broader systemic toxicity",
+        "It causes greater CNS depression",
+        "All of the above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethosuximide is preferred for uncomplicated absence seizures because it is targeted and generally avoids many serious valproate-related toxicities. Valproate is useful when absence seizures coexist with generalized tonic-clonic or myoclonic seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-143",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mechanism contributes to valproate's broad anti-seizure activity?",
+      "options": [
+        "Increased GABA availability",
+        "Inhibition of voltage-sensitive sodium channels",
+        "Inhibition of low-threshold T-type calcium channels",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Valproate has multiple mechanisms. It increases GABA availability, inhibits voltage-sensitive sodium channels, and affects low-threshold T-type calcium currents. This explains its broad-spectrum use across several generalized seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-144",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure drug is a benzodiazepine receptor agonist?",
+      "options": [
+        "Phenobarbital",
+        "Phenytoin",
+        "Carbamazepine",
+        "Lorazepam",
+        "Valproate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lorazepam is a benzodiazepine. It enhances GABA-A activity by increasing the frequency of chloride channel opening and is commonly used in acute seizure management, especially status epilepticus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-145",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug acts directly on the GABA-A receptor-chloride channel complex?",
+      "options": [
+        "Vigabatrin",
+        "Diazepam",
+        "Gabapentin",
+        "Valproate",
+        "Phenytoin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diazepam is a benzodiazepine that acts on the GABA-A receptor complex. It increases the frequency of chloride channel opening in the presence of GABA, rapidly enhancing inhibitory neurotransmission.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-146",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The long-term usefulness of benzodiazepines in epilepsy is often limited by:",
+      "options": [
+        "Tolerance",
+        "Atropine-like symptoms",
+        "Psychotic episodes",
+        "Myasthenic syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines are effective anticonvulsants, especially acutely, but chronic use may lead to tolerance, sedation, dependence, and withdrawal issues. This limits their long-term role.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-147",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which long-acting benzodiazepine can be useful in absence and myoclonic seizures, although chronic use is limited by sedation and tolerance?",
+      "options": [
+        "Primidone",
+        "Carbamazepine",
+        "Clonazepam",
+        "Phenytoin",
+        "Valproate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clonazepam is a long-acting benzodiazepine with activity in absence and myoclonic seizures. However, it is not always preferred for long-term therapy because sedation and tolerance may develop.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-148",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medications may be associated with teratogenic risk?",
+      "options": [
+        "Phenytoin",
+        "Valproate",
+        "Topiramate",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Several anti-seizure drugs carry teratogenic risk. Valproate is especially high-risk and is one of the most important drugs to avoid when possible in pregnancy or in females of childbearing potential. Phenytoin and topiramate are also associated with fetal harm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antipsychotics-neuroleptic-drugs-149",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the most dangerous effect after a significant overdose of many anti-seizure medications?",
+      "options": [
+        "Respiratory depression",
+        "Gastrointestinal irritation",
+        "Alopecia",
+        "Mild sedation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many anti-seizure medications, especially sedative agents such as benzodiazepines and barbiturates, can depress the CNS in overdose. Severe overdose may cause coma, respiratory depression, and hemodynamic instability.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
