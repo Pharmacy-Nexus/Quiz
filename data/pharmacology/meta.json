@@ -73,20 +73,6 @@
       },
       "questionsCount": 110,
       "file": "data/pharmacology/antiepileptic-drugs-epilepsy.json"
-    },
-    {
-      "id": "fdgfdb",
-      "name": "fdgfdb",
-      "description": "",
-      "order": 1,
-      "section": "CNS",
-      "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
-      },
-      "questionsCount": 0,
-      "file": "data/pharmacology/fdgfdb.json"
     }
   ],
   "updatedAt": "2026-04-30T21:08:41.134Z",
