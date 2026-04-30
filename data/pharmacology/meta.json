@@ -56,11 +56,11 @@
       "order": 3,
       "section": "cns",
       "difficultyBreakdown": {
-        "easy": 27,
-        "medium": 61,
-        "hard": 21
+        "easy": 42,
+        "medium": 83,
+        "hard": 24
       },
-      "questionsCount": 109,
+      "questionsCount": 149,
       "file": "data/pharmacology/antipsychotics-neuroleptic-drugs.json",
       "sectionId": "cns"
     },
@@ -95,7 +95,7 @@
       "file": "data/pharmacology/antiparkinsonian.json"
     }
   ],
-  "updatedAt": "2026-04-30T21:47:52.137Z",
+  "updatedAt": "2026-04-30T21:55:38.571Z",
   "sections": [
     {
       "id": "antimicrobials",
