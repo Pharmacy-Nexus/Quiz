@@ -2,6 +2,1873 @@
   "subjectId": "pharmacology",
   "topicId": "antiepileptic-drugs-epilepsy",
   "topicName": "Antiepileptic Drugs-Epilepsy",
-  "updatedAt": "2026-04-30T21:07:11.841Z",
-  "questions": []
+  "updatedAt": "2026-04-30T21:07:25.757Z",
+  "questions": [
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which ion channel is commonly inhibited by classic anti-seizure drugs such as phenytoin and carbamazepine?",
+      "options": [
+        "Voltage-gated potassium channels",
+        "T-type calcium channels",
+        "Voltage-gated sodium channels",
+        "Ligand-gated chloride channels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenytoin and carbamazepine mainly act by blocking voltage-gated sodium channels, especially in rapidly firing neurons. This reduces repetitive neuronal firing and helps stabilize hyperexcitable neuronal membranes, which is important in controlling focal and generalized tonic-clonic seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Benzodiazepines control seizures by modifying GABA-A receptor activity. What is their main effect on the chloride channel?",
+      "options": [
+        "They increase the duration of chloride channel opening",
+        "They increase the frequency of chloride channel opening when GABA is present",
+        "They directly block chloride influx",
+        "They inhibit GABA reuptake from the synaptic cleft"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzodiazepines are positive allosteric modulators of the GABA-A receptor. They do not directly open the chloride channel by themselves; instead, they enhance the effect of GABA by increasing how often the channel opens. This increases chloride influx, hyperpolarizes neurons, and suppresses seizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ethosuximide is particularly useful in absence seizures because it primarily inhibits which channel?",
+      "options": [
+        "Voltage-gated sodium channels",
+        "L-type calcium channels",
+        "T-type calcium channels",
+        "GABA-A receptors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Absence seizures are associated with abnormal thalamocortical rhythmic activity. Ethosuximide blocks low-threshold T-type calcium channels in thalamic neurons, making it especially effective for absence seizures. This is why ethosuximide is classically linked to absence seizure treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In status epilepticus, why is an IV benzodiazepine usually given first, followed by a longer-acting anti-seizure medication?",
+      "options": [
+        "The benzodiazepine rapidly stops the seizure, while the second agent prevents recurrence",
+        "The second agent reverses benzodiazepine toxicity",
+        "Benzodiazepines are used only for sedation, not seizure control",
+        "This sequence is avoided in current management"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines such as lorazepam or diazepam act quickly and are useful for emergency seizure termination. However, their duration may not be enough to prevent seizure recurrence. A longer-acting agent such as fosphenytoin, valproate, levetiracetam, or phenobarbital is then used to maintain seizure control.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Phenytoin displays saturable Michaelis-Menten pharmacokinetics. What is the clinical significance of this property?",
+      "options": [
+        "Its half-life remains constant at all concentrations",
+        "A small dose increase may produce a disproportionately large rise in serum level",
+        "Therapeutic drug monitoring is unnecessary",
+        "Phenytoin is not metabolized by the liver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenytoin metabolism can become saturated within or near the therapeutic range. Once hepatic enzymes are saturated, the drug shifts from first-order to near zero-order elimination. This means that even a small increase in dose can cause a large and potentially toxic increase in serum concentration, so careful monitoring is essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Levetiracetam has a distinctive mechanism involving binding to which target?",
+      "options": [
+        "Alpha-2-delta calcium channel subunit",
+        "GABA-A receptor",
+        "Synaptic vesicle protein 2A",
+        "NMDA receptor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Levetiracetam binds to synaptic vesicle protein 2A, usually abbreviated as SV2A. This protein is involved in neurotransmitter release. By modulating synaptic vesicle function, levetiracetam reduces abnormal neuronal synchronization and helps control seizures. It is also valued clinically because it has relatively few drug interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Valproic acid is considered a broad-spectrum anti-seizure drug partly because it has multiple mechanisms. In addition to sodium channel effects, it can:",
+      "options": [
+        "Increase GABA availability in the CNS",
+        "Selectively inhibit dopamine reuptake",
+        "Stimulate NMDA receptors",
+        "Block only T-type calcium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid has several mechanisms, including increasing GABA levels, blocking sodium channels, and affecting calcium currents. This multi-mechanistic action explains why it is useful in several seizure types, including generalized and focal seizures. However, its adverse effect profile and teratogenic risk must always be considered.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenobarbital enhances GABA-A receptor activity mainly by:",
+      "options": [
+        "Increasing the frequency of chloride channel opening",
+        "Reducing GABA binding affinity",
+        "Increasing the duration of chloride channel opening",
+        "Blocking chloride movement through the channel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barbiturates such as phenobarbital increase the duration of GABA-A chloride channel opening. This differs from benzodiazepines, which increase the frequency of channel opening. Phenobarbital produces strong CNS depression, which explains both its anticonvulsant activity and its sedative adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Carbamazepine often requires dose reassessment after the first few weeks because it:",
+      "options": [
+        "Has completely non-linear kinetics",
+        "Induces its own metabolism",
+        "Is eliminated unchanged by the kidney",
+        "Has no hepatic metabolism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbamazepine undergoes autoinduction, meaning it stimulates the enzymes responsible for its own metabolism, especially CYP enzymes. Over time, the drug may be cleared faster, reducing serum concentrations. This can require dose adjustment after therapy begins to maintain seizure control.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Gabapentin and pregabalin are structurally related to GABA but do not directly stimulate GABA receptors. Their main binding site is:",
+      "options": [
+        "Voltage-gated sodium channels",
+        "SV2A protein",
+        "Alpha-2-delta subunit of voltage-gated calcium channels",
+        "T-type calcium channels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gabapentin and pregabalin bind to the alpha-2-delta subunit of voltage-gated calcium channels. This decreases excitatory neurotransmitter release. Although they resemble GABA structurally, they do not directly activate GABA-A or GABA-B receptors. They are also commonly used in neuropathic pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which group of anti-seizure medications is classically associated with more complex pharmacokinetic monitoring?",
+      "options": [
+        "Levetiracetam, lamotrigine, lacosamide",
+        "Phenytoin, phenobarbital, valproic acid",
+        "Ethosuximide, zonisamide, topiramate",
+        "Gabapentin, pregabalin, vigabatrin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Older anti-seizure medications such as phenytoin, phenobarbital, and valproic acid often require closer monitoring because of narrow therapeutic ranges, protein binding issues, enzyme induction or inhibition, and clinically important drug interactions. Phenytoin is especially important because of its non-linear kinetics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-012",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Lacosamide differs from many traditional sodium channel blockers because it mainly enhances:",
+      "options": [
+        "Fast inactivation of sodium channels",
+        "Slow inactivation of sodium channels",
+        "Potassium channel opening",
+        "Sodium channel activation in resting neurons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many sodium channel blockers act by stabilizing the fast-inactivated state of sodium channels. Lacosamide is different because it enhances slow inactivation of voltage-gated sodium channels. This helps reduce pathologic repetitive firing while having a somewhat distinct pharmacologic profile.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is commonly dose-related across many anti-seizure medications?",
+      "options": [
+        "CNS depression such as dizziness, drowsiness, or ataxia",
+        "Severe hypertension",
+        "Increased alertness",
+        "Persistent hyperactivity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many anti-seizure medications reduce neuronal excitability, so CNS-related adverse effects are common. These include dizziness, sedation, impaired coordination, diplopia, and ataxia. These effects are often dose-related and may improve with dose adjustment or slower titration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-014",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receiving phenytoin has hypoalbuminemia. What is the most important clinical concern?",
+      "options": [
+        "Total phenytoin concentration will always increase",
+        "Free phenytoin fraction may increase, causing toxicity despite a normal total level",
+        "Phenytoin will become inactive",
+        "Phenytoin metabolism will completely stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenytoin is highly protein-bound, mainly to albumin. Low albumin means less binding capacity, increasing the free active fraction of phenytoin. A patient may therefore show toxicity even when the total phenytoin level appears therapeutic. In such cases, corrected or free phenytoin levels are more clinically meaningful.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What distinguishes generalized seizures from focal seizures in terms of onset?",
+      "options": [
+        "Generalized seizures begin in one localized cortical area",
+        "Generalized seizures involve both cerebral hemispheres from the onset",
+        "Generalized seizures originate only in the cerebellum",
+        "Generalized seizures begin only in the brainstem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Focal seizures begin in one area or network within one cerebral hemisphere. Generalized seizures involve both hemispheres from the start. This distinction is clinically important because seizure type strongly affects drug selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vigabatrin increases CNS GABA levels by:",
+      "options": [
+        "Blocking voltage-gated sodium channels",
+        "Irreversibly inhibiting GABA transaminase",
+        "Blocking T-type calcium channels",
+        "Activating NMDA receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GABA transaminase is the enzyme responsible for breaking down GABA. Vigabatrin irreversibly inhibits this enzyme, increasing GABA availability in the CNS. This enhances inhibitory neurotransmission, but vigabatrin has important safety concerns, especially visual field defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Therapeutic drug monitoring is especially important for phenytoin mainly because it has:",
+      "options": [
+        "A wide therapeutic index and predictable kinetics",
+        "No meaningful adverse effects",
+        "A narrow therapeutic index and variable pharmacokinetics",
+        "No hepatic metabolism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenytoin has a narrow margin between therapeutic and toxic concentrations. Its non-linear kinetics, protein binding, and interaction potential make serum level monitoring important. Toxicity may present with nystagmus, ataxia, confusion, or severe CNS depression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Topiramate weakly inhibits carbonic anhydrase. Which adverse effects can this contribute to?",
+      "options": [
+        "Weight gain and severe sedation",
+        "Metabolic acidosis and kidney stones",
+        "Gingival hyperplasia",
+        "Aplastic anemia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbonic anhydrase inhibition can reduce bicarbonate levels and promote metabolic acidosis. It can also increase the risk of nephrolithiasis. Patients on topiramate should be counseled about hydration and monitored if symptoms suggest acidosis or renal stones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medication is a sulfonamide derivative and may be problematic in patients with sulfonamide hypersensitivity?",
+      "options": [
+        "Topiramate",
+        "Zonisamide",
+        "Felbamate",
+        "Lacosamide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zonisamide is a sulfonamide derivative. While not every sulfa allergy automatically predicts a reaction, caution is needed in patients with serious sulfonamide hypersensitivity history. Zonisamide can also cause rash, kidney stones, metabolic acidosis, and CNS adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "When implementing a care plan for a patient starting a new anti-seizure medication, which action best represents the \"Implement\" step of the PPCP?",
+      "options": [
+        "Identifying the seizure type",
+        "Counseling the patient about adherence and expected adverse effects",
+        "Choosing the initial therapeutic plan",
+        "Collecting the medication history"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The \"Implement\" step focuses on putting the care plan into action. For a new anti-seizure medication, this includes counseling about adherence, what to do if a dose is missed, common adverse effects, serious warning signs, and the importance of not stopping therapy abruptly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Compared with many older anti-seizure medications, newer agents often have which advantage?",
+      "options": [
+        "More severe toxicity in all patients",
+        "Fewer drug interactions and generally better tolerability",
+        "A much narrower therapeutic spectrum",
+        "More complicated pharmacokinetics in every case"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many newer anti-seizure medications, such as levetiracetam and lacosamide, tend to have fewer enzyme-related interactions than older drugs like phenytoin, carbamazepine, and phenobarbital. This can make them easier to use, especially in patients taking multiple medications.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure medication is classically associated with gingival hyperplasia during long-term therapy?",
+      "options": [
+        "Valproic acid",
+        "Phenytoin",
+        "Levetiracetam",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenytoin is well known for causing gingival hyperplasia, especially with chronic use and poor oral hygiene. Other classic long-term adverse effects include hirsutism, coarsening of facial features, osteopenia, and peripheral neuropathy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Understanding the pharmacology of anti-seizure medications is clinically important because these drugs require careful selection based on seizure type, patient factors, and safety profile.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anti-seizure medication choice is not random. The clinician must consider seizure type, age, pregnancy potential, comorbidities, adverse effect profile, interactions, monitoring requirements, and patient adherence. Wrong selection can worsen seizures or increase toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-024",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient taking carbamazepine starts an oral contraceptive. What is the expected interaction?",
+      "options": [
+        "Increased contraceptive level and toxicity",
+        "Reduced contraceptive effectiveness due to enzyme induction",
+        "No clinically relevant interaction",
+        "Increased carbamazepine concentration causing toxicity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbamazepine is a strong enzyme inducer, especially CYP3A4. Many oral contraceptive hormones are CYP3A4 substrates. Enzyme induction can lower hormone levels and increase the risk of contraceptive failure and unintended pregnancy. Alternative or additional contraception should be considered.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nystagmus is a classic early sign of toxicity with which anti-seizure medication?",
+      "options": [
+        "Gabapentin",
+        "Levetiracetam",
+        "Phenytoin",
+        "Pregabalin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenytoin toxicity commonly begins with neurologic signs. Nystagmus is often an early sign, followed by ataxia, slurred speech, confusion, and severe CNS depression at higher levels. This is another reason phenytoin requires careful dosing and monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "When an anti-seizure medication is described as \"broad-spectrum,\" this means it is effective against:",
+      "options": [
+        "Absence seizures only",
+        "Focal seizures only",
+        "Focal seizures and several types of generalized seizures",
+        "Tonic-clonic seizures only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Broad-spectrum anti-seizure medications can treat multiple seizure types. Examples include valproic acid, levetiracetam, lamotrigine, and topiramate. This is clinically useful when seizure classification is uncertain or when the patient has multiple seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why may IV fosphenytoin be preferred over IV phenytoin in some acute settings?",
+      "options": [
+        "It is completely free from adverse effects",
+        "It has weaker seizure control",
+        "It causes fewer infusion-related reactions and less local tissue injury",
+        "It produces more cognitive slowing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fosphenytoin is a prodrug of phenytoin and is generally better tolerated intravenously. IV phenytoin can cause hypotension, arrhythmias, and local tissue injury such as purple glove syndrome. Fosphenytoin can usually be infused more safely, although monitoring is still required.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tiagabine increases GABAergic activity by:",
+      "options": [
+        "Binding to SV2A",
+        "Blocking GABA reuptake through GAT-1 inhibition",
+        "Blocking voltage-gated sodium channels",
+        "Blocking T-type calcium channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tiagabine inhibits the GABA transporter GAT-1, reducing GABA reuptake into neurons and glial cells. This increases synaptic GABA levels and enhances inhibitory neurotransmission. It is a good example of an anti-seizure drug that works by modifying neurotransmitter availability rather than ion channels.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A phenytoin level is reported as 15 mcg/mL, and the usual reference range is 10–20 mcg/mL. How should this total level be interpreted in a patient with normal albumin?",
+      "options": [
+        "Subtherapeutic",
+        "Therapeutic",
+        "Toxic",
+        "Critically elevated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For total phenytoin, the commonly used therapeutic range is 10–20 mcg/mL. A level of 15 mcg/mL is within that range. However, interpretation changes if albumin is low, renal failure is present, or the patient has signs of toxicity, because free phenytoin may be elevated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Felbamate use is limited because it can rarely cause which serious toxicities?",
+      "options": [
+        "Gingival hyperplasia and hirsutism",
+        "Aplastic anemia and hepatic failure",
+        "Weight gain and edema",
+        "Word-finding difficulty only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Felbamate has anti-seizure activity but is rarely used because of severe idiosyncratic adverse reactions, especially aplastic anemia and hepatic failure. Because these toxicities can be life-threatening, felbamate is generally reserved for refractory cases when benefits outweigh risks.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why should anti-seizure medications generally be tapered rather than stopped suddenly?",
+      "options": [
+        "To reduce the risk of withdrawal seizures",
+        "To prevent drug interactions",
+        "To avoid immediate liver failure",
+        "To increase drug absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abrupt discontinuation of anti-seizure medications can lead to seizure recurrence or withdrawal seizures, particularly in patients with epilepsy. Gradual tapering allows the CNS to adjust and reduces the risk of rebound seizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares benzodiazepines and barbiturates at the GABA-A receptor?",
+      "options": [
+        "Benzodiazepines increase duration; barbiturates increase frequency",
+        "Benzodiazepines increase frequency; barbiturates increase duration",
+        "Both increase sodium channel opening",
+        "Both directly block chloride channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a classic pharmacology distinction. Benzodiazepines increase the frequency of chloride channel opening in the presence of GABA, while barbiturates increase the duration of chloride channel opening. Both enhance inhibitory GABAergic signaling but differ in their receptor modulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medication is commonly associated with behavioral adverse effects such as irritability, mood changes, or aggression?",
+      "options": [
+        "Phenytoin",
+        "Carbamazepine",
+        "Levetiracetam",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Levetiracetam is often well tolerated and has few drug interactions, but it may cause neuropsychiatric adverse effects in some patients. These can include irritability, mood changes, anxiety, agitation, depression, or aggression. Counseling and monitoring are important, especially in patients with psychiatric history.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-034",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Before starting carbamazepine in certain high-risk populations, testing for which allele is clinically important?",
+      "options": [
+        "CYP2C192",
+        "HLA-B1502",
+        "VKORC1",
+        "MTHFR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HLA-B*1502 is associated with a markedly increased risk of severe cutaneous adverse reactions, including Stevens-Johnson syndrome and toxic epidermal necrolysis, with carbamazepine in certain populations, especially many Asian ancestry groups. Screening helps reduce the risk of life-threatening reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-035",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A CYP2C19 poor metabolizer taking phenytoin is prescribed fluconazole, a CYP inhibitor. What is the main concern?",
+      "options": [
+        "Reduced phenytoin level and seizure failure",
+        "Increased phenytoin exposure and toxicity risk",
+        "Complete loss of fluconazole activity",
+        "No possible interaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is an example of a drug-drug-gene interaction. If the patient already has reduced metabolic capacity due to genetics, adding an enzyme inhibitor such as fluconazole can further reduce phenytoin clearance. This may raise phenytoin levels and increase toxicity risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "For a patient receiving valproic acid, appropriate follow-up monitoring should include:",
+      "options": [
+        "Seizure frequency only",
+        "Seizure control, adverse effects, liver function tests, and CBC",
+        "Drug cost only",
+        "Refill date only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Valproic acid can cause hepatotoxicity, thrombocytopenia, pancreatitis, weight gain, tremor, and teratogenicity. Monitoring should include seizure frequency, adverse effects, adherence, liver function tests, and CBC/platelets. Patient-specific risk factors must also be reviewed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anti-seizure medication is also frequently used for neuropathic pain?",
+      "options": [
+        "Ethosuximide",
+        "Phenytoin",
+        "Gabapentin",
+        "Lamotrigine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gabapentin is used for seizures but is also widely used for neuropathic pain conditions. Its action at the alpha-2-delta calcium channel subunit reduces excitatory neurotransmitter release, which helps explain its benefit in neuropathic pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most anti-seizure medications ultimately aim to produce which overall CNS effect?",
+      "options": [
+        "Increase neuronal excitability",
+        "Decrease neuronal excitability and increase seizure threshold",
+        "Eliminate all neuronal signaling",
+        "Increase nerve conduction speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Seizures result from excessive, abnormal neuronal firing. Anti-seizure medications work by stabilizing neuronal membranes, enhancing inhibition, reducing excitation, or modifying neurotransmitter release. The overall goal is to reduce hyperexcitability and prevent seizure propagation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-039",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is high plasma protein binding clinically important for drugs such as phenytoin and valproic acid?",
+      "options": [
+        "It guarantees safety",
+        "Only the unbound fraction is pharmacologically active",
+        "It prevents entry into the CNS",
+        "It eliminates all drug interactions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Highly protein-bound drugs exist in bound and unbound forms. The unbound form is active, distributes into tissues, and can cause both therapeutic and toxic effects. Changes in albumin or displacement interactions can increase the free fraction, even if total drug concentration appears unchanged.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "For a newly diagnosed epilepsy patient, what is usually a major pharmacologic treatment goal?",
+      "options": [
+        "Use the strongest drug regardless of tolerability",
+        "Achieve seizure control with monotherapy when possible",
+        "Begin with multiple anti-seizure drugs in all patients",
+        "Select the drug with the most complex kinetics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monotherapy is preferred when possible because it reduces adverse effects, interactions, cost, and complexity. The selected drug should match the seizure type and patient-specific factors. Polytherapy is usually reserved for patients who do not respond adequately to appropriate monotherapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The ketogenic diet may help some pediatric epilepsy patients by:",
+      "options": [
+        "Increasing neuronal excitability",
+        "Changing brain energy metabolism in a way that reduces seizure tendency",
+        "Directly blocking sodium channels",
+        "Directly stimulating NMDA receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ketogenic diet is a non-pharmacologic approach used in selected epilepsy cases, particularly refractory pediatric epilepsy. It shifts metabolism toward ketone utilization and may alter neurotransmitter balance, mitochondrial function, and neuronal excitability, producing an anticonvulsant effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-042",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In drug safety, teratogenicity refers to the ability of a drug to cause:",
+      "options": [
+        "Liver injury",
+        "Kidney injury",
+        "Birth defects",
+        "Malignancy only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Teratogenicity means a drug can harm fetal development and cause congenital abnormalities. This is very important with anti-seizure medications because some agents, especially valproic acid, carry significant teratogenic risk. Pregnancy potential must always be considered during drug selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anti-seizure medication is also used as a mood stabilizer and requires slow titration because of rash risk?",
+      "options": [
+        "Phenytoin",
+        "Carbamazepine",
+        "Lamotrigine",
+        "Levetiracetam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lamotrigine is used in epilepsy and bipolar disorder. It must be titrated slowly because rapid dose escalation increases the risk of serious skin reactions, including Stevens-Johnson syndrome. The risk is higher when combined with valproic acid, which inhibits lamotrigine metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking phenobarbital may need higher doses of some other medications because phenobarbital:",
+      "options": [
+        "Inhibits all drug metabolism",
+        "Induces hepatic drug-metabolizing enzymes",
+        "Prevents renal elimination",
+        "Blocks protein binding completely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenobarbital is an enzyme inducer. It can increase the metabolism of other medications, lowering their concentrations and possibly reducing therapeutic effect. This is clinically important with drugs such as anticoagulants, contraceptives, and many other CYP-metabolized medications.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-045",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best differentiates a seizure from epilepsy?",
+      "options": [
+        "They are identical terms",
+        "A seizure is a single abnormal electrical event, while epilepsy is a chronic tendency to recurrent seizures",
+        "Epilepsy is a single event, while seizure means chronic disease",
+        "Epilepsy only occurs in children"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A seizure is an episode of abnormal excessive neuronal activity. Epilepsy is a disorder characterized by an enduring predisposition to generate recurrent unprovoked seizures. A single provoked seizure does not necessarily mean the patient has epilepsy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Benzodiazepines are useful for acute seizure control but are generally not preferred as long-term monotherapy mainly because:",
+      "options": [
+        "They have no anticonvulsant activity",
+        "They are always ineffective orally",
+        "Tolerance can develop to their anticonvulsant effects",
+        "They cannot cross the blood-brain barrier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzodiazepines work quickly and are very useful in acute seizures and status epilepticus. However, with chronic use, tolerance, sedation, dependence, and withdrawal concerns limit their role as long-term monotherapy. They are usually reserved for acute management or selected adjunctive uses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenobarbital has a very long half-life. What does this imply clinically?",
+      "options": [
+        "It must be dosed every few hours",
+        "It reaches steady state very rapidly",
+        "It takes a long time to reach steady state and a long time to clear",
+        "It has no risk of accumulation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Drugs with long half-lives take longer to reach steady state and longer to be eliminated after discontinuation. Phenobarbital can accumulate, and dose changes may take days to fully reflect in serum concentration. This is important when monitoring response and toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why may a corrected or free phenytoin level be needed in a patient with low albumin?",
+      "options": [
+        "Total phenytoin always perfectly reflects active drug",
+        "Total phenytoin may appear normal while free active phenytoin is elevated",
+        "Low albumin prevents phenytoin from entering the brain",
+        "Low albumin makes phenytoin ineffective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total phenytoin level includes bound and unbound drug. In hypoalbuminemia, less drug is bound, so the free active concentration rises. A normal total level may therefore hide toxicity. Corrected phenytoin equations or direct free phenytoin measurement can better reflect the true clinical risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During the \"Assess\" step for a patient taking carbamazepine, which information is most clinically relevant?",
+      "options": [
+        "Seizure diary, adverse effects, CBC, and liver function tests",
+        "Patient name only",
+        "Medication cost only",
+        "Pharmacy staffing schedule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbamazepine can cause dizziness, diplopia, hyponatremia, blood dyscrasias, hepatic enzyme changes, rash, and drug interactions. Assessment should include seizure control, adherence, adverse effects, CBC, LFTs, sodium when appropriate, and interacting medications.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-050",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why is understanding anti-seizure medication pharmacology important in patient care?",
+      "options": [
+        "To memorize drug names only",
+        "To select and monitor therapy rationally to improve seizure control and quality of life",
+        "To focus only on the newest drugs",
+        "To avoid considering patient-specific factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anti-seizure medication therapy requires matching the drug to seizure type, comorbidities, pregnancy risk, interactions, monitoring needs, adverse effects, and patient preferences. The goal is not just to stop seizures, but to improve overall quality of life safely.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-051",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An ICU patient receiving meropenem for pneumonia requires an anti-epileptic drug. Which AED should generally be avoided because meropenem can markedly reduce its serum concentration?",
+      "options": [
+        "Sodium valproate",
+        "Levetiracetam",
+        "Lacosamide",
+        "Midazolam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbapenem antibiotics, especially meropenem, can cause a rapid and significant reduction in valproic acid/valproate serum levels. This may lead to loss of seizure control or breakthrough seizures. The interaction is clinically important and difficult to overcome by simply increasing the valproate dose. In ICU patients on meropenem, alternative AEDs such as levetiracetam are often preferred.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which one of the following anti-epileptic drugs is not considered an enzyme-inducing AED?",
+      "options": [
+        "Phenytoin",
+        "Carbamazepine",
+        "Primidone",
+        "Sodium valproate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Classic enzyme-inducing AEDs include phenytoin, carbamazepine, phenobarbital, and primidone. These drugs induce hepatic enzymes and can reduce the effectiveness of other medications such as oral contraceptives, warfarin, and some antivirals. Valproate is not an enzyme inducer; instead, it is more commonly associated with enzyme inhibition and increased levels of some drugs, such as lamotrigine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the proposed mechanism of action of levetiracetam?",
+      "options": [
+        "Modulation of synaptic release of glutamate and GABA through effects on synaptic vesicle function",
+        "Enhancement of slow inactivation of voltage-gated sodium channels",
+        "Inhibition of carbonic anhydrase",
+        "Irreversible inhibition of GABA aminotransferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levetiracetam binds to synaptic vesicle protein 2A, SV2A, which is involved in neurotransmitter release. By modulating vesicular neurotransmitter release, levetiracetam helps reduce abnormal neuronal synchronization. It is commonly used because it has a broad spectrum of activity, few drug interactions, and does not require hepatic enzyme monitoring like older AEDs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Rufinamide is mainly used as adjunctive therapy for which epilepsy syndrome?",
+      "options": [
+        "Focal epilepsy",
+        "Lennox-Gastaut syndrome",
+        "Generalized tonic-clonic seizures",
+        "Status epilepticus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rufinamide is primarily indicated as adjunctive treatment for seizures associated with Lennox-Gastaut syndrome, a severe childhood-onset epileptic encephalopathy characterized by multiple seizure types and difficult-to-control seizures. It is not a first-line emergency drug for status epilepticus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-055",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is classically associated with topiramate?",
+      "options": [
+        "Nephrolithiasis",
+        "Gingival hyperplasia",
+        "Hemorrhagic pancreatitis",
+        "Weight gain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Topiramate can inhibit carbonic anhydrase, which increases the risk of metabolic acidosis and kidney stones/nephrolithiasis. It is also associated with cognitive slowing, paresthesia, weight loss, and ocular adverse effects such as acute angle-closure glaucoma. Gingival hyperplasia is more typical of phenytoin, while pancreatitis is more associated with valproate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-056",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Fatal cases of aplastic anemia have been reported with which pair of anti-epileptic drugs?",
+      "options": [
+        "Levetiracetam and pregabalin",
+        "Carbamazepine and felbamate",
+        "Lacosamide and tiagabine",
+        "Phenytoin and phenobarbital"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Felbamate is strongly associated with rare but life-threatening aplastic anemia and hepatic failure, which severely limits its use. Carbamazepine can also cause serious hematologic toxicity, including aplastic anemia and agranulocytosis, although these are uncommon. Because of these risks, monitoring for blood dyscrasias and warning symptoms is important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-057",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ethosuximide is mainly indicated for which seizure type?",
+      "options": [
+        "Focal epilepsy",
+        "Generalized tonic-clonic seizures",
+        "Generalized non-motor absence seizures",
+        "Unclassified epilepsy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethosuximide is a classic first-line drug for absence seizures. It works mainly by blocking T-type calcium channels in thalamic neurons, which are involved in the abnormal thalamocortical rhythms seen in absence epilepsy. It is not used for focal seizures or status epilepticus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is not typically considered an idiosyncratic reaction of valproate?",
+      "options": [
+        "Hepatotoxicity",
+        "Pancreatitis",
+        "Thrombocytopenia",
+        "Psychosis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Valproate can cause serious idiosyncratic reactions such as hepatotoxicity and pancreatitis. It can also cause thrombocytopenia, although this is often dose-related rather than purely idiosyncratic. Psychosis is not a classic idiosyncratic adverse reaction of valproate. Important valproate toxicities also include teratogenicity, hyperammonemia, tremor, and weight gain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is not a typical chronic dose-related adverse effect of valproate?",
+      "options": [
+        "Weight gain",
+        "Hair loss",
+        "Peripheral neuropathy",
+        "Endocrine and metabolic changes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chronic valproate therapy can cause weight gain, hair loss, tremor, sedation, and endocrine/metabolic effects such as menstrual irregularities or features related to polycystic ovary syndrome in some patients. Peripheral neuropathy is not a classic chronic dose-related adverse effect of valproate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vigabatrin is indicated for the treatment of myoclonic epilepsy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vigabatrin irreversibly inhibits GABA transaminase, increasing GABA levels in the CNS. It is mainly used in selected refractory seizure disorders, especially infantile spasms and some refractory focal seizures. It is not classically indicated for myoclonic epilepsy and may worsen certain generalized seizure types. Its use is limited by visual field defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-061",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient has a sudden episode of altered consciousness with abnormal motor activity due to abnormal neuronal firing. Which term best describes this event?",
+      "options": [
+        "Epilepsy",
+        "Seizure",
+        "Convulsion only",
+        "Syncope"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A seizure is a sudden disturbance of brain electrical activity caused by abnormal neuronal firing. It may affect consciousness, motor activity, sensation, or behavior. Epilepsy refers to a neurological disorder characterized by recurrent seizures, while convulsions specifically refer to violent involuntary skeletal muscle spasms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-062",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best differentiates epilepsy from a single seizure?",
+      "options": [
+        "Epilepsy means repeated seizure occurrence, while a seizure is a single abnormal electrical event",
+        "Epilepsy always means convulsions only",
+        "Seizure means chronic disease, while epilepsy means one event",
+        "Convulsions and epilepsy are identical terms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A seizure is an episode of abnormal neuronal firing. Epilepsy is the chronic tendency to have recurrent seizures. Convulsion is only one possible motor manifestation of a seizure and does not describe all seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-063",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The general pathophysiology of many epileptic seizures involves:",
+      "options": [
+        "Increased GABA and decreased glutamate",
+        "Decreased inhibitory neurotransmission and increased excitatory neurotransmission",
+        "Complete inhibition of sodium channels in all neurons",
+        "Decreased neuronal firing only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Epilepsy commonly involves reduced inhibitory neurotransmission, especially GABA, and increased excitatory neurotransmission, especially glutamate and aspartate. Increased excitation activates receptors such as NMDA or AMPA, promotes sodium channel activation, and increases neuronal firing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-064",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which neurotransmitter is the main inhibitory neurotransmitter targeted by several antiepileptic drugs?",
+      "options": [
+        "Glutamate",
+        "Aspartate",
+        "GABA",
+        "Dopamine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GABA is the major inhibitory neurotransmitter in the CNS. Many antiepileptic drugs enhance GABA activity to reduce neuronal excitability and prevent seizure propagation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-065",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Absence seizures differ mechanistically from many other seizure types because they are strongly associated with abnormal activation of:",
+      "options": [
+        "T-type calcium channels",
+        "Beta-1 receptors",
+        "Histamine H1 receptors",
+        "Muscarinic receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absence seizures involve abnormal functioning of thalamic relay neurons due to abnormal T-type calcium channel activation. This disrupts thalamocortical communication and produces brief episodes of impaired awareness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-066",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A child has brief episodes of staring and \"blanking out\" without major muscle movements. Which seizure type is most likely?",
+      "options": [
+        "Tonic-clonic seizure",
+        "Absence seizure",
+        "Status epilepticus",
+        "Febrile seizure only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Absence seizures are brief episodes of impaired awareness without major motor activity. They are often described as daydreaming or blanking out and are linked to abnormal T-type calcium channel activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-067",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which seizure type is characterized by sudden loss of consciousness followed by tonic extension and rhythmic clonic contractions?",
+      "options": [
+        "Absence seizure",
+        "Myoclonic seizure",
+        "Tonic-clonic seizure",
+        "Focal aware seizure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tonic-clonic seizures, also called grand mal seizures, involve sudden loss of consciousness, tonic extension, and rhythmic clonic contractions of major muscle groups. They usually last about 1–3 minutes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-068",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A focal seizure with preserved awareness is best described as:",
+      "options": [
+        "Abnormal sensation or movement without alteration in consciousness",
+        "A generalized seizure involving the whole brain from onset",
+        "A seizure that always causes coma",
+        "A fever-related childhood event only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A simple focal seizure, now often described as a focal aware seizure, occurs without impaired consciousness. The patient may experience abnormal sensations or uncontrolled movement in part of the body while remaining aware.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-069",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A focal seizure that begins locally and then spreads to involve the whole brain is called:",
+      "options": [
+        "Absence seizure",
+        "Secondarily generalized seizure",
+        "Febrile seizure",
+        "Myoclonic seizure only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A secondarily generalized seizure begins as a focal seizure and then spreads to involve both hemispheres or the entire brain. This explains why a patient may first show localized symptoms and then develop generalized convulsions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-070",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Status epilepticus is clinically important because it is:",
+      "options": [
+        "A harmless seizure type in children",
+        "A severe sustained seizure without recovery and may cause brain damage or death",
+        "Always caused by fever and never dangerous",
+        "The same as absence seizure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Status epilepticus is a medical emergency. The file describes it as severe sustained seizures lasting more than 20 minutes without a period of recovery. It may cause brain damage and death if not treated urgently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-071",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which diagnostic test records brain electrical activity and is commonly used in epilepsy assessment?",
+      "options": [
+        "ECG",
+        "EEG",
+        "Spirometry",
+        "Pulse oximetry only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An electroencephalogram \"EEG\" records brain electrical activity and helps evaluate seizure patterns. It may show different patterns in focal and generalized seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-072",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiepileptic mechanism is most directly useful in absence seizures?",
+      "options": [
+        "Blocking T-type calcium channels",
+        "Blocking beta receptors",
+        "Increasing dopamine release",
+        "Blocking histamine receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absence seizures are linked to abnormal T-type calcium channel activation in thalamic relay neurons. Drugs such as ethosuximide target these channels and are especially useful in absence seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-073",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is considered first-line for absence seizures in the provided material?",
+      "options": [
+        "Ethosuximide",
+        "Phenytoin",
+        "Gabapentin",
+        "Vigabatrin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethosuximide inhibits T-type calcium channels and is considered first-line for absence seizures. It has relatively few side effects and is described as safe for children.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-074",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse-effect cluster is commonly associated with first-generation AEDs such as phenytoin and carbamazepine?",
+      "options": [
+        "Nystagmus, diplopia, and ataxia",
+        "Severe cough and bronchospasm",
+        "Miosis and respiratory depression only",
+        "Hyperkalemia and edema"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file summarizes common CNS adverse effects of first-generation AEDs as \"NDA\": nystagmus, diplopia, and ataxia. These effects reflect CNS toxicity and are important in dose monitoring and patient counseling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-075",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which phenytoin adverse effect is especially associated with gum overgrowth?",
+      "options": [
+        "Gingival hyperplasia",
+        "Agranulocytosis",
+        "Visual field loss",
+        "Pancreatitis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin can cause gingival hyperplasia, especially in children. Good oral hygiene and dental monitoring are important counseling points for patients taking phenytoin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with epilepsy is treated with phenytoin and later develops nystagmus, diplopia, and ataxia. What is the best pharmacological interpretation?",
+      "options": [
+        "These are expected CNS toxicity signs of first-generation AEDs",
+        "These symptoms prove absence seizure control",
+        "They occur because phenytoin blocks T-type calcium channels only",
+        "They indicate serotonin syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nystagmus, diplopia, and ataxia are classic CNS adverse effects summarized as \"NDA.\" Recognizing this pattern is clinically useful because it suggests CNS drug toxicity and may require dose reassessment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A pregnant patient requires an AED, and the goal is to minimize teratogenic risk. Which drug is highlighted as preferred in pregnancy due to low teratogenicity?",
+      "options": [
+        "Lamotrigine",
+        "Valproic acid",
+        "Phenytoin",
+        "Carbamazepine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lamotrigine is described as preferred in pregnancy because of its lower teratogenic risk compared with several older AEDs. This is an important drug-selection point because phenytoin and valproate are associated with significant teratogenic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on valproic acid develops abdominal pain and elevated pancreatic enzymes. Which serious adverse effect should be suspected?",
+      "options": [
+        "Pancreatitis",
+        "Gingival hyperplasia",
+        "Visual field loss",
+        "Hyperprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid can cause pancreatitis and hepatotoxicity. Abdominal pain in a patient receiving valproate should not be dismissed, especially if associated with biochemical evidence of pancreatic or liver injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which AED has broad-spectrum activity because it blocks sodium channels, increases GABA activity, and inhibits T-type calcium channels?",
+      "options": [
+        "Valproic acid",
+        "Ethosuximide",
+        "Gabapentin",
+        "Vigabatrin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid has multiple mechanisms: sodium channel blockade, increased GABA activity by increasing synthesis and inhibiting GABA transaminase, and inhibition of T-type calcium channels. This broad mechanism explains its activity against many seizure types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient is taking phenytoin and has reduced effectiveness of oral contraceptives and warfarin. Which mechanism best explains this interaction?",
+      "options": [
+        "Phenytoin induces hepatic microsomal enzymes",
+        "Phenytoin inhibits CYP enzymes completely",
+        "Phenytoin blocks T-type calcium channels",
+        "Phenytoin increases insulin release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin is an enzyme inducer. It increases metabolism of several drugs, including other AEDs, oral contraceptives, theophylline, and warfarin. This can reduce therapeutic efficacy and cause clinically important interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why should phenytoin generally not be given intramuscularly?",
+      "options": [
+        "It can cause tissue damage and necrosis",
+        "It has no antiepileptic effect by this route",
+        "It becomes inactive in muscle",
+        "It causes immediate hypoglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin should not be given IM because it can cause tissue damage and necrosis. Fosphenytoin, a prodrug converted to phenytoin in blood, can be given IM and is used to avoid this problem.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient needs an injectable alternative related to phenytoin that can be given IM. Which option is most appropriate?",
+      "options": [
+        "Fosphenytoin",
+        "Ethosuximide",
+        "Pregabalin",
+        "Tiagabine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fosphenytoin is a prodrug that is metabolized in blood to phenytoin. Unlike phenytoin, it can be given intramuscularly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Carbamazepine is first-line in focal seizures and is also useful in:",
+      "options": [
+        "Trigeminal neuralgia",
+        "Acute asthma",
+        "Hypertension",
+        "Peptic ulcer disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbamazepine blocks sodium channels and is first-line for focal seizures. It is also used in trigeminal neuralgia, making it valuable when neuropathic facial pain is present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on carbamazepine develops fluid retention and hyponatremia. Which mechanism is most consistent with this adverse effect?",
+      "options": [
+        "Increased ADH effect",
+        "Insulin inhibition",
+        "GABA transaminase inhibition",
+        "T-type calcium channel blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbamazepine can increase ADH effect, leading to water retention and hyponatremia. This is a high-yield adverse effect, especially in patients at risk for electrolyte disturbances.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Oxcarbazepine is related to carbamazepine. What is the main advantage described?",
+      "options": [
+        "It is less toxic and a less potent hepatic enzyme inducer",
+        "It is more teratogenic",
+        "It has no antiepileptic activity",
+        "It must only be used in absence seizures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxcarbazepine is related to carbamazepine but is described as less toxic and a less potent inducer of hepatic microsomal enzymes. This can reduce some interaction concerns compared with carbamazepine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect makes valproic acid especially concerning in pregnancy?",
+      "options": [
+        "Spina bifida",
+        "Gingival hyperplasia",
+        "Visual field loss",
+        "Insomnia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid is associated with teratogenic effects, especially neural tube defects such as spina bifida. This makes valproate a major concern in women of childbearing potential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Divalproex sodium was developed mainly to improve:",
+      "options": [
+        "Gastrointestinal tolerability of valproic acid",
+        "Visual field monitoring",
+        "Gingival hyperplasia",
+        "Sodium channel selectivity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Divalproex sodium is a combination of sodium valproate and valproic acid. It was developed to improve gastrointestinal tolerability compared with valproic acid alone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which AED is strongly associated with visual field loss and therefore requires careful counseling and monitoring?",
+      "options": [
+        "Vigabatrin",
+        "Ethosuximide",
+        "Phenytoin",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vigabatrin irreversibly inhibits GABA transaminase, increasing GABA activity. It is used for focal epilepsy only in the file, but it is associated with visual field loss that may range from mild to severe.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vigabatrin increases GABA activity mainly by:",
+      "options": [
+        "Irreversibly inhibiting GABA transaminase",
+        "Blocking T-type calcium channels",
+        "Inhibiting sodium channels in the heart only",
+        "Blocking NMDA receptors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GABA transaminase normally breaks down GABA. Vigabatrin inhibits this enzyme irreversibly, increasing GABA levels and enhancing inhibitory neurotransmission.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lamotrigine is useful in different seizure types because it:",
+      "options": [
+        "Blocks sodium channels and decreases glutamate release",
+        "Blocks dopamine receptors",
+        "Stimulates T-type calcium channels",
+        "Irreversibly inhibits acetylcholinesterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lamotrigine blocks sodium channels and decreases glutamate release. This dual action helps reduce neuronal excitability and explains its usefulness in focal, generalized, and absence seizures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which serious skin reactions are associated with lamotrigine, especially with increased risk when combined with valproic acid?",
+      "options": [
+        "Stevens-Johnson syndrome and toxic epidermal necrolysis",
+        "Gingival hyperplasia and hirsutism",
+        "Visual field loss and cataract",
+        "Osteomalacia and cleft lip"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lamotrigine can rarely cause Stevens-Johnson syndrome and toxic epidermal necrolysis. The risk increases when used with valproic acid, making dose titration and rash monitoring important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Topiramate is useful in epilepsy and migraine prevention partly because it:",
+      "options": [
+        "Blocks voltage-dependent sodium channels and inhibits glutamate/NMDA sites",
+        "Increases insulin release",
+        "Blocks prolactin release",
+        "Acts only as a GABA receptor antagonist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Topiramate has multiple mechanisms, including sodium channel blockade and inhibition of glutamate at NMDA sites. It is used in focal and primary generalized epilepsy and is approved for migraine prevention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse-effect profile is most consistent with topiramate?",
+      "options": [
+        "Renal stones, glaucoma, oligohidrosis, hyperthermia, and weight loss",
+        "Gingival hyperplasia, hirsutism, and lymphadenopathy",
+        "Severe visual field loss only",
+        "Hyperprolactinemia and galactorrhea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Topiramate can cause renal stones, glaucoma due to increased intraocular pressure, oligohidrosis, hyperthermia, and reduced body fat. These adverse effects are important counseling points.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Levetiracetam has a favorable interaction profile mainly because it:",
+      "options": [
+        "Has no significant drug interactions in the file",
+        "Strongly induces hepatic enzymes",
+        "Strongly inhibits hepatic enzymes",
+        "Requires activation by CYP2D6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levetiracetam inhibits synaptic vesicle protein SV2A, reducing glutamate release. It is described as broad spectrum, with low side effects, favorable pharmacokinetics, and no drug interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Levetiracetam reduces seizure activity mainly by inhibiting:",
+      "options": [
+        "Synaptic vesicle protein SV2A and glutamate release",
+        "T-type calcium channels only",
+        "Muscarinic receptors",
+        "Alpha-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levetiracetam binds/inhibits SV2A, a synaptic vesicle protein, thereby reducing neurotransmitter release, especially glutamate. This contributes to its broad-spectrum antiseizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which benzodiazepine-related mechanism explains its antiseizure activity?",
+      "options": [
+        "Increasing the frequency of chloride channel opening through GABA receptor modulation",
+        "Blocking T-type calcium channels only",
+        "Inhibiting folic acid metabolism",
+        "Increasing glutamate release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines bind to GABA receptors and increase the frequency of chloride channel opening. This enhances inhibitory neurotransmission and is useful in seizure emergencies such as status epilepticus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is prolonged benzodiazepine use limited in epilepsy management?",
+      "options": [
+        "Memory disturbance and learning defects may occur, especially in children",
+        "They have no effect on GABA",
+        "They only treat absence seizures",
+        "They always cause visual field loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines can be useful acutely, including IV use in status epilepticus, but prolonged use is limited due to adverse effects such as memory disturbance and learning defects in children.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has focal seizures and also neuropathic pain. Which adjuvant drug may be useful mainly because of its pain benefit?",
+      "options": [
+        "Gabapentin",
+        "Ethosuximide",
+        "Phenytoin",
+        "Fosphenytoin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gabapentin is listed as an adjuvant drug in focal seizures and is used mainly in neuropathic pain. It acts by increasing GABA release in the CNS in the file.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tiagabine reduces seizures mainly by:",
+      "options": [
+        "Blocking GABA reuptake into neurons",
+        "Blocking dopamine receptors",
+        "Inhibiting insulin secretion",
+        "Increasing glutamate release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tiagabine blocks GABA reuptake into neurons, increasing GABA availability and enhancing inhibitory neurotransmission.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with focal-onset, myoclonic, and primary generalized tonic-clonic seizures needs a broad-spectrum AED with low interaction risk. Which option fits best?",
+      "options": [
+        "Levetiracetam",
+        "Carbamazepine only",
+        "Ethosuximide only",
+        "Vigabatrin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levetiracetam is used for focal onset, myoclonic, and primary generalized tonic-clonic seizures in adults and children. It has a broad spectrum, favorable pharmacokinetics, low side effects, and no major drug interactions in the file.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with generalized tonic-clonic seizures is controlled on phenytoin but develops megaloblastic anemia. Which mechanism best explains this adverse effect?",
+      "options": [
+        "Increased folic acid metabolism and decreased intestinal absorption",
+        "Direct inhibition of T-type calcium channels",
+        "Increased insulin secretion",
+        "Enhanced GABA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First-generation AEDs may cause megaloblastic anemia by increasing metabolism of folic acid and decreasing its intestinal absorption. This explains why hematologic monitoring and folate-related considerations matter during long-term therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on phenytoin develops hyperglycemia. Which explanation is most appropriate?",
+      "options": [
+        "Phenytoin decreases insulin release",
+        "Phenytoin increases insulin release",
+        "Phenytoin blocks glucose absorption completely",
+        "Phenytoin stimulates GLP-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin may cause hyperglycemia by decreasing insulin secretion. This is a specific phenytoin adverse effect and is clinically relevant in patients with diabetes or impaired glucose control.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child with brief absence episodes is treated with ethosuximide. Why is phenytoin not the most mechanism-focused choice for this seizure type?",
+      "options": [
+        "Absence seizures depend strongly on T-type calcium channel dysfunction rather than classic sodium-channel-mediated repetitive firing",
+        "Phenytoin has no CNS activity",
+        "Absence seizures are caused by muscarinic excess only",
+        "Ethosuximide works by blocking dopamine receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absence seizures are mechanistically distinct from many other seizures. They involve abnormal T-type calcium channel activity in thalamic relay neurons. Ethosuximide specifically inhibits T-type calcium channels, making it a better mechanism-based choice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman of childbearing potential needs antiseizure therapy. Which pairing represents the strongest teratogenic concern from the file?",
+      "options": [
+        "Valproic acid — spina bifida",
+        "Ethosuximide — visual field loss",
+        "Levetiracetam — cleft lip as main toxicity",
+        "Gabapentin — fetal hydantoin syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid is associated with teratogenic effects, especially spina bifida. Phenytoin is associated with fetal hydantoin syndrome, including cleft lip/palate, congenital heart disease, growth retardation, and mental deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient taking lamotrigine is started on valproic acid. Which risk becomes especially important?",
+      "options": [
+        "Severe rash such as Stevens-Johnson syndrome or toxic epidermal necrolysis",
+        "Immediate gingival hyperplasia",
+        "Visual field loss in 30% or more of patients",
+        "Hyperglycemia due to reduced insulin release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lamotrigine can cause serious skin reactions such as Stevens-Johnson syndrome and toxic epidermal necrolysis. The risk increases when used with valproic acid, so this combination requires special caution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient is on multiple drugs including warfarin, oral contraceptives, and theophylline. Which AED creates the highest interaction concern due to enzyme induction?",
+      "options": [
+        "Phenytoin",
+        "Ethosuximide",
+        "Levetiracetam",
+        "Gabapentin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenytoin induces hepatic enzymes and increases the metabolism of multiple drugs, including oral contraceptives, theophylline, warfarin, and other AEDs. This can reduce efficacy and cause clinically significant interaction problems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug best fits this combined profile: broad-spectrum antiseizure activity, increased GABA activity, T-type calcium channel inhibition, sodium channel blockade, but risk of hepatotoxicity, pancreatitis, and spina bifida?",
+      "options": [
+        "Valproic acid",
+        "Ethosuximide",
+        "Vigabatrin",
+        "Phenytoin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valproic acid has several mechanisms and broad activity across seizure types. However, it has important toxicities, including hepatotoxicity, pancreatitis, neutropenia, hair loss, menstrual irregularities, and teratogenicity such as spina bifida.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has focal epilepsy and is prescribed vigabatrin. Which counseling point is most important?",
+      "options": [
+        "Report visual changes because visual field loss can occur",
+        "Expect gingival hyperplasia as the main limiting toxicity",
+        "Avoid all calcium-containing foods due to hypertensive crisis",
+        "It is safest in pregnancy due to low teratogenicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vigabatrin is associated with visual field loss that may be mild to severe. Patients should be counseled to report visual symptoms and may require monitoring depending on clinical protocols.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which AED choice is most rational for a patient with epilepsy who also needs migraine prevention and would benefit from weight reduction, but must be warned about renal stones and reduced sweating?",
+      "options": [
+        "Topiramate",
+        "Carbamazepine",
+        "Ethosuximide",
+        "Phenobarbital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Topiramate is used for focal and primary generalized epilepsy and is approved for migraine prevention. It may reduce body fat, but it can also cause renal stones, glaucoma, oligohidrosis, and hyperthermia. This makes patient counseling essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiepileptic-drugs-epilepsy-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with status epilepticus needs rapid emergency seizure control. Which statement best reflects the role of benzodiazepines?",
+      "options": [
+        "They are useful IV because they enhance GABA-mediated chloride channel opening",
+        "They are avoided because they increase glutamate release",
+        "They are first-line only for chronic absence seizures",
+        "They work by blocking T-type calcium channels only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzodiazepines enhance GABA activity by increasing the frequency of chloride channel opening. They are useful by IV injection in status epilepticus because they rapidly enhance inhibitory neurotransmission and suppress seizure activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
