@@ -889,13 +889,34 @@ function bindTopicSearch() {
 }
 
 function getSubjectSections(subjectData = {}) {
-  const sections = Array.isArray(subjectData.sections) ? [...subjectData.sections] : [];
-  return sections.sort((a, b) => (a.order || 999) - (b.order || 999));
+  const map = new Map();
+  const baseSections = Array.isArray(subjectData.sections) ? subjectData.sections : [];
+  baseSections.forEach((section, index) => {
+    const id = normalizeSectionKey(section.id || section.slug || section.name || section.title || `section-${index + 1}`);
+    const name = String(section.name || section.title || section.id || id || '').trim();
+    if (id && name) map.set(id, { ...section, id, name, order: Number(section.order || index + 1) });
+  });
+  (subjectData.topics || []).forEach((topic) => {
+    const id = getTopicSectionId(topic);
+    if (!id || id === 'general' || map.has(id)) return;
+    const name = String(topic.section || topic.sectionId || id).trim();
+    map.set(id, { id, name, description: '', order: map.size + 1 });
+  });
+  return [...map.values()].sort((a, b) => (a.order || 999) - (b.order || 999));
 }
 
 function getSectionName(sectionId, sections = []) {
   if (!sectionId || sectionId === 'general') return 'General';
   return sections.find(s => s.id === sectionId)?.name || sectionId;
+}
+
+function normalizeSectionKey(value = '') {
+  return String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function getTopicSectionId(topic = {}) {
+  const raw = topic.sectionId || topic.section || '';
+  return normalizeSectionKey(raw) || 'general';
 }
 
 function setTopicSection(sectionId = 'all') {
@@ -915,8 +936,8 @@ function renderTopicsPage(query = '') {
   const allTopics = [...(subjectData.topics || [])].sort((a, b) => (a.order || 999) - (b.order || 999));
   const activeSection = appState.selectedSectionId || 'all';
   const q = String(query || document.getElementById('topic-search')?.value || '').trim().toLowerCase();
-  let topics = activeSection === 'all' ? allTopics : allTopics.filter(topic => (topic.sectionId || 'general') === activeSection);
-  topics = !q ? topics : topics.filter(topic => `${topic.name} ${topic.description || ''} ${getSectionName(topic.sectionId, sections)}`.toLowerCase().includes(q));
+  let topics = activeSection === 'all' ? allTopics : allTopics.filter(topic => getTopicSectionId(topic) === activeSection);
+  topics = !q ? topics : topics.filter(topic => `${topic.name} ${topic.description || ''} ${getSectionName(getTopicSectionId(topic), sections)}`.toLowerCase().includes(q));
 
   const breadcrumb = document.querySelector('#page-topics nav');
   if (breadcrumb) {
@@ -943,7 +964,7 @@ function renderTopicsPage(query = '') {
       <div class="flex flex-wrap gap-3">
         <button onclick="setTopicSection('all')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === 'all' ? 'bg-primary text-on-primary border-primary' : 'bg-surface-container-low text-primary border-outline-variant/20'}">All Topics</button>
         ${sections.map(section => {
-          const count = allTopics.filter(t => (t.sectionId || 'general') === section.id).length;
+          const count = allTopics.filter(t => getTopicSectionId(t) === section.id).length;
           return `<button onclick="setTopicSection('${escapeHtml(section.id)}')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === section.id ? 'bg-tertiary-fixed text-on-tertiary-fixed border-tertiary-fixed' : 'bg-surface-container-low text-primary border-outline-variant/20 hover:bg-surface-container'}">${escapeHtml(section.name)} <span class="opacity-60">${count}</span></button>`;
         }).join('')}
       </div>
@@ -959,7 +980,7 @@ function renderTopicsPage(query = '') {
     const medium = Number(topic.difficultyBreakdown?.medium || 0);
     const hard = Number(topic.difficultyBreakdown?.hard || 0);
     const total = Number(topic.questionsCount || easy + medium + hard || 0);
-    const sectionName = getSectionName(topic.sectionId, sections);
+    const sectionName = getSectionName(getTopicSectionId(topic), sections);
     const statusLabel = index === 0 ? 'Available' : 'Topic';
     const statusAccent = index === 0 ? 'text-tertiary' : 'text-on-surface-variant';
     return `
