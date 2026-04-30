@@ -34,8 +34,9 @@ function requireSession() {
 }
 function nowIso() { return new Date().toISOString(); }
 function emptyTopicMeta(id, name, description = '', order = 1, file = '', section = '') {
+  const sectionId = slugify(section);
   return {
-    id, name, description, order, section,
+    id, name, description, order, section, sectionId,
     difficultyBreakdown: { easy: 0, medium: 0, hard: 0 },
     questionsCount: 0,
     file
@@ -177,9 +178,15 @@ async function syncSubjectAndIndex(subjectId) {
     try {
       const topicFile = await getTopicFile(subjectId, topic.id);
       recomputeTopicMetaFromQuestions(topic, topicFile.json.questions || []);
+      if (topic.section && !topic.sectionId) topic.sectionId = slugify(topic.section);
+      if (topic.sectionId && !topic.section) {
+        const section = getMergedSections(subjectFile.json).find(s => s.id === topic.sectionId);
+        topic.section = section?.name || topic.sectionId;
+      }
       topic.file = `${DATA_ROOT}/${subjectId}/${topic.id}.json`;
       totalQuestions += topic.questionsCount || 0;
     } catch (e) {
+      if (topic.section && !topic.sectionId) topic.sectionId = slugify(topic.section);
       topic.file = `${DATA_ROOT}/${subjectId}/${topic.id}.json`;
       topic.questionsCount = topic.questionsCount || 0;
     }
@@ -452,13 +459,13 @@ async function saveTopic() {
     const id = slugify($('topic-slug').value || name || selectedExistingId);
     const description = $('topic-description').value.trim();
     const section = $('topic-section') ? $('topic-section').value.trim() : '';
+    const sectionId = slugify(section);
     const order = Number($('topic-order').value || 1);
     if (!name || !id) throw new Error('Topic name and slug are required.');
 
     const subjectFile = await getSubjectFile(subjectId);
     subjectFile.json.sections = getMergedSections(subjectFile.json);
     if (section) {
-      const sectionId = slugify(section);
       if (!subjectFile.json.sections.some(s => s.id === sectionId || String(s.name || '').toLowerCase() === section.toLowerCase())) {
         subjectFile.json.sections.push({ id: sectionId, name: section, description: '', order: subjectFile.json.sections.length + 1 });
       }
@@ -494,6 +501,7 @@ async function saveTopic() {
       editing.name = name;
       editing.description = description;
       editing.section = section;
+      editing.sectionId = sectionId;
       editing.order = order;
       editing.file = newPath;
       recomputeTopicMetaFromQuestions(editing, topicFile.json.questions || []);
@@ -519,8 +527,9 @@ async function loadTopicIntoForm() {
     if (!meta) return;
     $('topic-name').value = meta.name || '';
     $('topic-slug').value = meta.id || '';
-    if ($('topic-section')) $('topic-section').value = meta.section || '';
-    if ($('topic-section-select')) $('topic-section-select').value = meta.section || '';
+    const metaSection = meta.section || meta.sectionId || '';
+    if ($('topic-section')) $('topic-section').value = metaSection;
+    if ($('topic-section-select')) $('topic-section-select').value = metaSection;
     $('topic-order').value = meta.order ?? '';
     $('topic-description').value = meta.description || '';
   } catch (e) {
