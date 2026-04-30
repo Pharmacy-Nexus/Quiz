@@ -16,7 +16,8 @@
       },
       "questionsCount": 18,
       "file": "data/pharmacology/antibiotics.json",
-      "sectionId": "antimicrobials"
+      "sectionId": "antimicrobials",
+      "section": "Antimicrobials"
     },
     {
       "id": "sedatives-hypnotics",
@@ -30,7 +31,8 @@
         "hard": 10
       },
       "questionsCount": 117,
-      "file": "data/pharmacology/sedatives-hypnotics.json"
+      "file": "data/pharmacology/sedatives-hypnotics.json",
+      "section": "CNS"
     },
     {
       "id": "antidepressant",
@@ -44,7 +46,8 @@
         "hard": 16
       },
       "questionsCount": 160,
-      "file": "data/pharmacology/antidepressant.json"
+      "file": "data/pharmacology/antidepressant.json",
+      "section": "CNS"
     },
     {
       "id": "antipsychotics-neuroleptic-drugs",
@@ -58,7 +61,8 @@
         "hard": 21
       },
       "questionsCount": 109,
-      "file": "data/pharmacology/antipsychotics-neuroleptic-drugs.json"
+      "file": "data/pharmacology/antipsychotics-neuroleptic-drugs.json",
+      "sectionId": "cns"
     },
     {
       "id": "antiepileptic-drugs-epilepsy",
@@ -72,10 +76,11 @@
         "hard": 21
       },
       "questionsCount": 110,
-      "file": "data/pharmacology/antiepileptic-drugs-epilepsy.json"
+      "file": "data/pharmacology/antiepileptic-drugs-epilepsy.json",
+      "sectionId": "cns"
     }
   ],
-  "updatedAt": "2026-04-30T21:08:41.134Z",
+  "updatedAt": "2026-04-30T21:21:23.349Z",
   "sections": [
     {
       "id": "antimicrobials",
