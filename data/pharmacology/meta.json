@@ -87,15 +87,15 @@
       "section": "CNS",
       "sectionId": "cns",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
       },
-      "questionsCount": 0,
+      "questionsCount": 50,
       "file": "data/pharmacology/antiparkinsonian.json"
     }
   ],
-  "updatedAt": "2026-04-30T21:39:51.877Z",
+  "updatedAt": "2026-04-30T21:40:39.392Z",
   "sections": [
     {
       "id": "antimicrobials",
