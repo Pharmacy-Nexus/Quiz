@@ -2,6 +2,857 @@
   "subjectId": "pharmacology",
   "topicId": "antiparkinsonian",
   "topicName": "ِِAntiparkinsonian",
-  "updatedAt": "2026-04-30T21:39:47.577Z",
-  "questions": []
+  "updatedAt": "2026-04-30T21:40:37.614Z",
+  "questions": [
+    {
+      "id": "pharmacology-antiparkinsonian-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient develops tremor, muscular rigidity, bradykinesia, and postural instability. Which neurochemical change best explains these motor manifestations?",
+      "options": [
+        "Increased dopamine activity in the mesocortical pathway",
+        "Decreased dopamine activity in the nigrostriatal pathway",
+        "Increased dopamine activity in the vomiting center",
+        "Decreased acetylcholine activity in the corpus striatum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parkinsonism results from destruction of nigrostriatal dopaminergic neurons, leading to reduced dopamine levels in the corpus striatum. Because dopamine normally balances cholinergic activity in the basal ganglia, dopamine deficiency allows cholinergic activity to become relatively dominant, producing tremor, rigidity, bradykinesia, and gait/postural abnormalities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why does cholinergic activity become functionally dominant in Parkinson's disease?",
+      "options": [
+        "Dopamine increases excessively in the vomiting center",
+        "Dopamine decreases in the nigrostriatal pathway, disturbing the dopamine–acetylcholine balance",
+        "Acetylcholine receptors are completely destroyed",
+        "Dopamine directly blocks all muscarinic receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parkinsonism is not simply an absolute excess of acetylcholine. The key issue is relative cholinergic dominance because dopamine is reduced in the nigrostriatal pathway. This explains why anticholinergic drugs may help tremor and rigidity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which symptom is most characteristic of Parkinsonian motor dysfunction?",
+      "options": [
+        "Bradykinesia",
+        "Productive cough",
+        "Diarrhea",
+        "Hyperprolactinemia alone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bradykinesia means slow movement and is one of the classic motor manifestations of Parkinsonism. Other major motor features include tremor, muscular rigidity, postural instability, and gait abnormalities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a non-motor manifestation of Parkinson's disease?",
+      "options": [
+        "Depression",
+        "Tonic-clonic seizure",
+        "Gingival hyperplasia",
+        "Hyperthyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parkinson's disease can produce non-motor manifestations, including depression, dementia, and sleep disturbance. These symptoms may significantly affect quality of life and are not explained only by movement pathway dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why is dopamine itself not given orally to treat Parkinson's disease?",
+      "options": [
+        "Dopamine cannot cross the blood-brain barrier effectively",
+        "Dopamine is inactive in the peripheral circulation",
+        "Dopamine only works on muscarinic receptors",
+        "Dopamine is converted into acetylcholine before absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine cannot effectively cross the blood-brain barrier, so it cannot be given directly to restore CNS dopamine. Instead, levodopa, an immediate dopamine precursor, is transported into the CNS and then converted to dopamine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Levodopa is converted into dopamine by which enzyme?",
+      "options": [
+        "Dopa decarboxylase",
+        "Monoamine oxidase-A only",
+        "COMT only",
+        "Acetylcholinesterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa is converted into dopamine by dopa decarboxylase. This conversion can occur both centrally and peripherally, which is why carbidopa is added to reduce peripheral conversion and increase CNS availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why is carbidopa combined with levodopa?",
+      "options": [
+        "To increase peripheral breakdown of levodopa",
+        "To inhibit peripheral dopa decarboxylase and reduce peripheral adverse effects",
+        "To block dopamine receptors in the brain",
+        "To increase pyridoxine metabolism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbidopa inhibits peripheral dopa decarboxylase, reducing peripheral conversion of levodopa to dopamine. This allows more levodopa to reach the CNS and reduces peripheral adverse effects such as nausea, vomiting, arrhythmia, and postural hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is considered the most effective drug for Parkinsonism in the provided material?",
+      "options": [
+        "Levodopa",
+        "Benztropine",
+        "Amantadine",
+        "Tolcapone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa is described as the most effective drug for Parkinsonism. It acts as a dopamine precursor that can enter the CNS and be converted to dopamine, thereby correcting dopamine deficiency in the nigrostriatal pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect of levodopa is caused by stimulation of the chemoreceptor trigger zone?",
+      "options": [
+        "Nausea and vomiting",
+        "Xerostomia",
+        "Constipation",
+        "Pyloric stenosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa can cause nausea and vomiting due to dopamine stimulation of the chemoreceptor trigger zone. Domperidone can be used because it acts peripherally, while metoclopramide is avoided because dopamine blockade can worsen Parkinsonism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiemetic is preferred for levodopa-induced vomiting according to the material?",
+      "options": [
+        "Domperidone",
+        "Metoclopramide",
+        "Haloperidol",
+        "Chlorpromazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Domperidone can be used for levodopa-induced vomiting because it does not significantly worsen central Parkinsonian symptoms. Metoclopramide blocks dopamine receptors and may worsen Parkinsonism, so it should be avoided.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which vitamin can reduce levodopa effectiveness by increasing its peripheral breakdown?",
+      "options": [
+        "Vitamin B6 \"pyridoxine\"",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyridoxine \"vitamin B6\" increases peripheral breakdown of levodopa, reducing its effectiveness. This is especially relevant when levodopa is used without adequate peripheral decarboxylase inhibition.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which interaction can produce hypertensive crisis when combined with levodopa?",
+      "options": [
+        "Nonselective MAOIs such as phenelzine",
+        "Domperidone",
+        "Carbidopa",
+        "Benztropine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa combined with nonselective MAOIs can produce excessive catecholaminergic activity and hypertensive crisis. This is a serious contraindication requiring careful medication history.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug class is contraindicated with levodopa because it can oppose dopaminergic therapy?",
+      "options": [
+        "Antipsychotic dopamine receptor blockers",
+        "COMT inhibitors",
+        "MAO-B inhibitors",
+        "Dopamine agonists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Antipsychotic drugs that block dopamine receptors can antagonize levodopa's therapeutic effect and worsen Parkinsonian symptoms. This is especially important when managing psychosis in Parkinson's disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is associated with long-term high-dose levodopa therapy?",
+      "options": [
+        "Dyskinesia",
+        "Agranulocytosis",
+        "Gingival hyperplasia",
+        "Visual field loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prolonged high-dose levodopa therapy can cause dyskinesia, which involves abnormal involuntary movements of the limbs, trunk, or tongue. This is a major limitation of long-term levodopa use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which anticholinergic drug is used as an adjuvant therapy to improve tremor and rigidity in Parkinsonism?",
+      "options": [
+        "Benztropine",
+        "Entacapone",
+        "Rasagiline",
+        "Domperidone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benztropine is an anticholinergic drug that blocks M1 receptors and reduces the excitatory actions of cholinergic neurons. It can improve tremor and rigidity but has antimuscarinic adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking levodopa experiences fluctuating mobility during the day due to the drug's short half-life. Which phenomenon best describes this?",
+      "options": [
+        "On-off phenomenon",
+        "Serotonin syndrome",
+        "Cholinergic crisis",
+        "Cheese reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa has a very short half-life of about 1–2 hours. This can lead to fluctuations in motor control, called the \"on-off\" phenomenon, where the patient alternates between improved mobility and poor mobility. Carbidopa can help reduce peripheral metabolism and improve levodopa availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient is instructed to take levodopa 30 minutes before meals. What is the best reason?",
+      "options": [
+        "Levodopa is absorbed rapidly from the small intestine when the stomach is empty",
+        "Food permanently inactivates dopamine receptors",
+        "Food increases levodopa entry into the CNS",
+        "Levodopa is only absorbed in the colon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa is absorbed rapidly from the small intestine, especially when the stomach is empty. Taking it before food can improve absorption and reduce variability in response.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects of levodopa are best explained by peripheral dopamine receptor activation?",
+      "options": [
+        "Postural hypotension and arrhythmias",
+        "Xerostomia and constipation",
+        "Pulmonary fibrosis and retroperitoneal fibrosis",
+        "Visual problems and pyloric stenosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peripheral conversion of levodopa to dopamine can stimulate dopamine receptors in blood vessels and the heart, causing postural hypotension and arrhythmias. Carbidopa reduces peripheral levodopa metabolism and helps reduce these adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on levodopa develops hallucinations, vivid dreams, sleep disturbances, and psychosis. Which mechanism best explains these CNS adverse effects?",
+      "options": [
+        "Excess dopaminergic stimulation in CNS pathways",
+        "Complete muscarinic blockade in the gut",
+        "Peripheral COMT inhibition only",
+        "Decreased dopamine in the mesocortical tract"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increasing dopamine in the CNS can improve Parkinsonian motor symptoms, but excessive dopaminergic stimulation may cause psychiatric effects such as hallucinations, vivid dreams, sleep disturbance, and psychosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why carbidopa reduces levodopa adverse effects?",
+      "options": [
+        "It decreases peripheral dopamine formation while allowing more levodopa to reach the CNS",
+        "It blocks central dopamine receptors",
+        "It increases pyridoxine activity",
+        "It inhibits acetylcholine receptors directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbidopa does not cross the blood-brain barrier significantly. It inhibits peripheral dopa decarboxylase, decreasing peripheral dopamine formation and reducing nausea, vomiting, postural hypotension, and cardiac effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is metoclopramide avoided for levodopa-induced vomiting?",
+      "options": [
+        "It blocks dopamine receptors and can worsen Parkinsonism",
+        "It increases levodopa absorption excessively",
+        "It blocks COMT in the liver",
+        "It directly causes levodopa conversion to serotonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metoclopramide is a dopamine receptor antagonist. Because Parkinsonism involves dopamine deficiency in the nigrostriatal pathway, dopamine blockade can worsen motor symptoms and oppose levodopa therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on levodopa notices brownish discoloration of saliva and urine. What is the best explanation?",
+      "options": [
+        "Melanin pigment produced from catecholamine oxidation",
+        "Acute renal failure",
+        "Severe hemolysis",
+        "Bile duct obstruction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-term levodopa use may cause saliva and urine to turn brownish due to melanin pigment formed from catecholamine oxidation. This can be alarming to patients but is a known effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Selegiline enhances levodopa action mainly by:",
+      "options": [
+        "Inhibiting MAO-B, which degrades dopamine in the CNS",
+        "Blocking peripheral dopamine receptors",
+        "Increasing acetylcholine release in the striatum",
+        "Inhibiting COMT only in the liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Selegiline and rasagiline inhibit MAO-B, the enzyme responsible for dopamine degradation in the CNS. When combined with levodopa, selegiline enhances levodopa's effects and can reduce the required levodopa dose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can MAO-B inhibitors lose selectivity at higher-than-recommended doses?",
+      "options": [
+        "They may begin inhibiting MAO-A, increasing risk of norepinephrine and serotonin-related adverse effects",
+        "They become anticholinergic drugs",
+        "They stop entering the CNS",
+        "They block dopamine receptors directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At recommended doses, selegiline and rasagiline selectively inhibit MAO-B. At higher doses, they may lose selectivity and inhibit MAO-A, which metabolizes norepinephrine and serotonin, increasing the risk of adverse interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "COMT inhibitors improve levodopa therapy because they:",
+      "options": [
+        "Inhibit conversion of L-dopa to O-methyldopa in the GIT and liver",
+        "Block central dopamine receptors",
+        "Directly stimulate M1 receptors",
+        "Increase peripheral dopamine breakdown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "COMT metabolizes levodopa in the gastrointestinal tract and liver into O-methyldopa, which competes with levodopa for CNS uptake. Inhibiting COMT increases levodopa availability and improves motor response.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which COMT inhibitor requires hepatic function monitoring due to risk of fulminant hepatic necrosis?",
+      "options": [
+        "Tolcapone",
+        "Entacapone",
+        "Domperidone",
+        "Benztropine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tolcapone is associated with fulminant hepatic necrosis and requires hepatic monitoring. Entacapone is not associated with this severe hepatic toxicity to the same degree in the provided material.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking levodopa has wearing-off symptoms. Which adjunct can reduce O-methyldopa formation and improve levodopa delivery to the CNS?",
+      "options": [
+        "Entacapone",
+        "Chlorpromazine",
+        "Pyridoxine alone",
+        "Trihexyphenidyl only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Entacapone is a COMT inhibitor. By reducing levodopa metabolism to O-methyldopa, it improves levodopa availability for CNS uptake and can help reduce wearing-off symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Bromocriptine is useful in Parkinsonism and hyperprolactinemia because it:",
+      "options": [
+        "Is a D2 receptor agonist and inhibits prolactin release",
+        "Blocks D2 receptors in the pituitary",
+        "Inhibits COMT in the liver",
+        "Blocks M1 receptors in the striatum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bromocriptine is a potent D2 receptor agonist. It stimulates dopamine receptors and inhibits prolactin release from the pituitary, explaining its use in Parkinsonism, hyperprolactinemia, galactorrhea, infertility, and acromegaly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which serious adverse effects are specifically linked to bromocriptine because it is an ergot derivative?",
+      "options": [
+        "Pulmonary and retroperitoneal fibrosis",
+        "Gingival hyperplasia and hirsutism",
+        "Visual field loss",
+        "Agranulocytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bromocriptine is an ergot derivative and can cause ergot-related fibrotic complications, including pulmonary and retroperitoneal fibrosis. It can also produce dopaminergic adverse effects such as sedation, hallucinations, confusion, nausea, and hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect cluster is most consistent with dopaminergic agonist therapy?",
+      "options": [
+        "Sedation, hallucinations, confusion, nausea, and hypotension",
+        "Dry mouth, constipation, and urinary retention only",
+        "Severe gingival hyperplasia and osteomalacia",
+        "Visual field loss and glaucoma only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine agonists can produce dopaminergic adverse effects. These include sedation, hallucinations, confusion, nausea, and hypotension, reflecting dopamine receptor stimulation in central and peripheral sites.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Apomorphine is best described as useful for:",
+      "options": [
+        "Acute management of hypomobility \"off\" episodes in advanced Parkinson's disease",
+        "Long-term treatment of hyperprolactinemia only",
+        "Treating levodopa-induced vomiting by dopamine blockade",
+        "Treating Parkinsonism by blocking acetylcholinesterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apomorphine is a non-ergot dopamine agonist used for acute management of hypomobility \"off\" phenomenon in advanced Parkinson's disease. It rapidly stimulates dopamine receptors to rescue mobility.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Rotigotine is clinically useful because it:",
+      "options": [
+        "Provides even drug levels over 24 hours as a once-daily transdermal patch",
+        "Is a peripheral dopamine receptor blocker",
+        "Prevents all levodopa adverse effects permanently",
+        "Is used only to treat vomiting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rotigotine is administered as a once-daily transdermal patch, providing stable drug levels over 24 hours. This may help reduce fluctuations and improve adherence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amantadine may improve Parkinsonian symptoms by:",
+      "options": [
+        "Increasing dopamine release, decreasing dopamine uptake, and increasing dopamine receptor sensitivity",
+        "Blocking dopamine receptors in the nigrostriatal pathway",
+        "Increasing peripheral levodopa breakdown",
+        "Inhibiting COMT only in the liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amantadine enhances dopaminergic function by increasing dopamine release, decreasing dopamine uptake, and increasing dopamine receptor sensitivity. It also has anticholinergic and antiglutamatergic \"NMDA-blocking\" activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amantadine is not usually used alone in Parkinsonism because it is mainly:",
+      "options": [
+        "An adjuvant drug that can ameliorate dyskinesia associated with chronic levodopa therapy",
+        "A curative monotherapy for all Parkinsonian symptoms",
+        "A dopamine receptor blocker",
+        "A COMT inhibitor with hepatic toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amantadine is used as an adjunctive drug rather than as sole therapy. It may help improve dyskinesia associated with chronic levodopa therapy, likely related to its dopaminergic and NMDA-blocking effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse-effect pair is most characteristic of amantadine in the provided material?",
+      "options": [
+        "Ankle edema and livedo reticularis",
+        "Agranulocytosis and seizures",
+        "Gingival hyperplasia and cleft lip",
+        "Pulmonary fibrosis and retroperitoneal fibrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amantadine can cause dopaminergic effects, ankle edema, and livedo reticularis, a mottled skin discoloration. Recognizing livedo reticularis is useful because it is a distinctive adverse effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Anticholinergic drugs improve Parkinsonian tremor and rigidity mainly by:",
+      "options": [
+        "Blocking M1 receptors and reducing excitatory cholinergic activity",
+        "Increasing dopamine metabolism in the periphery",
+        "Blocking D2 receptors in the pituitary",
+        "Inhibiting MAO-A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Parkinsonism, dopamine deficiency makes cholinergic activity relatively dominant. Anticholinergics such as benztropine and trihexyphenidyl block M1 receptors, reducing cholinergic overactivity and improving tremor and rigidity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which patient should avoid anticholinergic therapy for Parkinsonism?",
+      "options": [
+        "Patient with glaucoma or prostatic hyperplasia",
+        "Patient with mild tremor only",
+        "Patient taking carbidopa",
+        "Patient with low dopamine in the nigrostriatal pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anticholinergic drugs can worsen glaucoma and urinary retention due to prostatic hyperplasia. They are also contraindicated in pyloric stenosis. Their adverse effects include xerostomia, constipation, and visual problems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse-effect cluster best matches anticholinergic anti-Parkinsonian drugs?",
+      "options": [
+        "Xerostomia, constipation, and visual problems",
+        "Hallucinations, vomiting, and hypertensive crisis only",
+        "Hepatic necrosis and O-methyldopa formation",
+        "Pulmonary fibrosis and retroperitoneal fibrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anticholinergic drugs block muscarinic receptors and can produce dry mouth, constipation, blurred vision, urinary retention, and worsening of glaucoma. These effects are important when selecting therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which etiology can cause drug-induced Parkinsonism by blocking dopamine receptors?",
+      "options": [
+        "Chlorpromazine",
+        "Entacapone",
+        "Domperidone",
+        "Rasagiline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlorpromazine is a dopamine receptor-blocking antipsychotic and can cause Parkinsonism by reducing dopaminergic signaling. Other causes include age, brain tumors, head injury, genetic factors, reserpine, and toxins such as insecticides and herbicides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug can cause Parkinsonism by depleting dopamine stores?",
+      "options": [
+        "Reserpine",
+        "Rotigotine",
+        "Apomorphine",
+        "Bromocriptine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reserpine can deplete dopamine stores, leading to decreased dopaminergic signaling and Parkinsonian symptoms. This is different from dopamine receptor blockers, which prevent dopamine action at the receptor level.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with Parkinson's disease has improved mobility on levodopa but develops psychosis and hallucinations. Which therapeutic conflict best explains the problem?",
+      "options": [
+        "Increasing CNS dopamine improves motor symptoms but can worsen psychosis-related pathways",
+        "Levodopa blocks dopamine receptors in the mesocortical tract",
+        "Carbidopa directly causes acetylcholine excess in the basal ganglia",
+        "Parkinsonism is caused by excess serotonin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parkinsonism results from low dopamine in the nigrostriatal pathway, so increasing dopamine improves motor function. However, increased dopamine in other CNS pathways, such as mesocortical/psychosis-related pathways, can produce hallucinations, vivid dreams, sleep disturbance, and psychosis. This creates a common therapeutic trade-off.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A Parkinson's patient on levodopa develops nausea. Which option is most rational and why?",
+      "options": [
+        "Domperidone, because it treats vomiting without central dopamine blockade",
+        "Metoclopramide, because it blocks central dopamine and improves Parkinsonism",
+        "Haloperidol, because it enhances levodopa activity",
+        "Chlorpromazine, because dopamine blockade improves motor symptoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Levodopa-induced nausea and vomiting result from dopamine stimulation of the CTZ. Domperidone can help because it acts peripherally and does not significantly worsen Parkinsonian motor symptoms. Metoclopramide and antipsychotic dopamine blockers may worsen Parkinsonism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on levodopa develops wearing-off despite adherence. Which combination of mechanisms would most logically prolong levodopa benefit?",
+      "options": [
+        "Add carbidopa to reduce peripheral decarboxylation and consider COMT/MAO-B inhibition to reduce levodopa/dopamine metabolism",
+        "Add chlorpromazine to block dopamine receptors",
+        "Add pyridoxine to increase peripheral breakdown of levodopa",
+        "Add metoclopramide to block dopamine in the CNS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wearing-off relates to levodopa's short half-life and metabolism. Carbidopa reduces peripheral decarboxylation, COMT inhibitors reduce levodopa metabolism to O-methyldopa, and MAO-B inhibitors reduce CNS dopamine breakdown. These strategies can prolong dopaminergic benefit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient profile creates the strongest concern for anticholinergic anti-Parkinsonian therapy?",
+      "options": [
+        "Elderly patient with glaucoma, constipation, urinary retention, and cognitive vulnerability",
+        "Young patient with tremor and no urinary or eye disease",
+        "Patient taking levodopa 30 minutes before meals",
+        "Patient with dopamine deficiency and no comorbidities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anticholinergic drugs can worsen glaucoma, urinary retention, constipation, and visual problems. In older patients, anticholinergic burden can also worsen confusion and cognitive problems. Therefore, careful selection is important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on bromocriptine develops dyspnea and signs suggestive of pulmonary fibrosis. Which property of bromocriptine explains this risk?",
+      "options": [
+        "It is an ergot derivative",
+        "It is a COMT inhibitor",
+        "It blocks M1 receptors",
+        "It inhibits pyridoxine metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bromocriptine is an ergot derivative. Ergot derivatives can cause fibrotic complications, including pulmonary and retroperitoneal fibrosis. This is separate from its dopaminergic adverse effects such as hallucinations, nausea, hypotension, and confusion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why levodopa is combined with carbidopa rather than giving a higher dose of levodopa alone?",
+      "options": [
+        "Carbidopa reduces peripheral levodopa conversion, increasing CNS delivery while lowering peripheral toxicity",
+        "Carbidopa blocks dopamine receptors and prevents psychosis completely",
+        "Carbidopa increases pyridoxine-induced levodopa breakdown",
+        "Carbidopa converts dopamine back into levodopa in the CNS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Giving higher levodopa alone increases peripheral dopamine formation, causing nausea, vomiting, hypotension, and arrhythmia. Carbidopa prevents peripheral conversion, so more levodopa reaches the brain and fewer peripheral side effects occur.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug best matches this clinical use: rescue treatment for acute hypomobility \"off\" episodes in advanced Parkinson's disease?",
+      "options": [
+        "Apomorphine",
+        "Tolcapone",
+        "Benztropine",
+        "Pyridoxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apomorphine is a non-ergot dopamine agonist used for acute management of \"off\" episodes in advanced Parkinson's disease. It provides rapid dopaminergic stimulation when mobility suddenly worsens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on tolcapone develops signs of liver injury. Which explanation is most accurate?",
+      "options": [
+        "Tolcapone is associated with fulminant hepatic necrosis and requires hepatic monitoring",
+        "Tolcapone causes liver injury by blocking dopamine receptors in the pituitary",
+        "Entacapone and tolcapone have identical severe hepatic risk",
+        "Tolcapone is an anticholinergic drug contraindicated only in glaucoma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tolcapone, a COMT inhibitor, is associated with fulminant hepatic necrosis and should be used with hepatic function monitoring. Entacapone is generally preferred when hepatic safety is a concern.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A Parkinson's patient has tremor-dominant disease but also has benign prostatic hyperplasia and narrow-angle glaucoma. Which therapeutic concern is most important?",
+      "options": [
+        "Anticholinergics may improve tremor but can worsen urinary retention and glaucoma",
+        "Levodopa is absolutely contraindicated because it improves movement",
+        "COMT inhibitors directly worsen glaucoma through M1 blockade",
+        "MAO-B inhibitors always cause urinary retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anticholinergics can reduce tremor and rigidity by blocking M1 receptors, but they can worsen glaucoma, urinary retention from prostatic hyperplasia, constipation, and visual problems. This question tests clinical trade-off rather than simple mechanism recall.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiparkinsonian-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best summarizes the main therapeutic strategy in Parkinson's disease?",
+      "options": [
+        "Restore dopaminergic activity and/or reduce relative cholinergic dominance while balancing adverse effects from excessive dopamine or anticholinergic burden",
+        "Block dopamine receptors in all CNS pathways",
+        "Increase peripheral levodopa breakdown to reduce CNS dopamine",
+        "Treat all patients only with anticholinergic monotherapy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parkinsonism results from dopamine deficiency in the nigrostriatal pathway with relative cholinergic dominance. Therapy aims to increase dopaminergic activity using levodopa, dopamine agonists, MAO-B inhibitors, COMT inhibitors, or amantadine, and sometimes reduce cholinergic activity with anticholinergics. The challenge is balancing motor benefit with adverse effects such as dyskinesia, hallucinations, hypotension, nausea, anticholinergic toxicity, and drug interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
