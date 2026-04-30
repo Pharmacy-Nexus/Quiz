@@ -51,7 +51,7 @@
       "name": "Antipsychotics / Neuroleptic Drugs",
       "description": "",
       "order": 3,
-      "section": "CNS",
+      "section": "cns",
       "difficultyBreakdown": {
         "easy": 27,
         "medium": 61,
