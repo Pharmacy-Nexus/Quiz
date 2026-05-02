@@ -2,6 +2,1707 @@
   "subjectId": "pharmacology",
   "topicId": "antihypertensive",
   "topicName": "Antihypertensive",
-  "updatedAt": "2026-05-02T22:30:41.499Z",
-  "questions": []
+  "updatedAt": "2026-05-02T22:31:29.865Z",
+  "questions": [
+    {
+      "id": "pharmacology-antihypertensive-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertension and increased sympathetic tone is started on metoprolol. Which mechanism best explains its antihypertensive effect?",
+      "options": [
+        "Direct venodilation with reduced preload only",
+        "Beta-1 blockade reducing heart rate, contractility, and renin release",
+        "Alpha-1 blockade causing arteriolar vasodilation",
+        "AT1 receptor blockade reducing aldosterone only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metoprolol is a cardioselective beta-1 blocker. It lowers BP by decreasing cardiac output and reducing beta-1-mediated renin release from the juxtaglomerular apparatus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker is most appropriate to identify as cardioselective?",
+      "options": [
+        "Propranolol",
+        "Nadolol",
+        "Metoprolol",
+        "Timolol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Metoprolol, atenolol, bisoprolol, betaxolol, and esmolol are beta-1 selective. Propranolol, nadolol, and timolol are nonselective.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A hypertensive patient with asthma should generally avoid which drug?",
+      "options": [
+        "Propranolol",
+        "Losartan",
+        "Amlodipine",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propranolol is a nonselective beta-blocker. Blocking beta-2 receptors in the bronchi may worsen bronchoconstriction in asthma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-004",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient taking propranolol receives epinephrine and develops severe hypertension with reflex bradycardia. What is the best explanation?",
+      "options": [
+        "Excessive beta-2 vasodilation",
+        "Unopposed alpha-1 receptor stimulation",
+        "AT1 receptor blockade",
+        "Bradykinin accumulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nonselective beta-blockade prevents beta-mediated vasodilation. Epinephrine then acts predominantly on alpha receptors, causing marked vasoconstriction and hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sudden discontinuation of long-term beta-blocker therapy may cause rebound hypertension mainly because of:",
+      "options": [
+        "Downregulation of alpha-1 receptors",
+        "Upregulation of beta receptors",
+        "Increased bradykinin degradation",
+        "Direct aldosterone receptor blockade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chronic beta-blockade may cause beta-receptor upregulation. Abrupt withdrawal can produce excessive sympathetic responses, rebound hypertension, angina, MI, or stroke risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hypertension, coronary stenosis, and chronic beta-blocker therapy wants to stop treatment suddenly. What is the most important counseling point?",
+      "options": [
+        "Stop immediately once BP is controlled",
+        "Stop suddenly only if pulse is normal",
+        "Taper gradually to avoid rebound hypertension and angina aggravation",
+        "Switch immediately to epinephrine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abrupt beta-blocker withdrawal can cause rebound hypertension and worsening angina, especially in coronary artery disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker has both alpha-1 blocking and nonselective beta-blocking properties?",
+      "options": [
+        "Carvedilol",
+        "Atenolol",
+        "Betaxolol",
+        "Esmolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carvedilol blocks alpha-1 receptors and nonselective beta receptors. This gives it vasodilating and beta-blocking effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nebivolol differs from many beta-blockers because it:",
+      "options": [
+        "Blocks AT1 receptors",
+        "Promotes endothelial nitric oxide production",
+        "Blocks aldosterone receptors",
+        "Opens potassium channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nebivolol is a beta-1 blocker with vasodilating properties mediated partly through endothelial nitric oxide production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is most directly linked to beta-1 blockade in the heart?",
+      "options": [
+        "Bradycardia",
+        "Hypertrichosis",
+        "Cyanide toxicity",
+        "Dry cough"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-1 blockade decreases heart rate and conduction, which may lead to bradycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-010",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hypertensive patient has AV nodal dysfunction. Which drug combination should be avoided because of excessive AV conduction suppression?",
+      "options": [
+        "Metoprolol plus verapamil",
+        "Losartan plus hydrochlorothiazide",
+        "Amlodipine plus ACE inhibitor",
+        "Hydralazine plus diuretic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both beta-blockers and verapamil slow heart rate and AV conduction. Their combination increases the risk of severe bradycardia or AV block.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Alpha-1 blockers lower blood pressure mainly by:",
+      "options": [
+        "Increasing sodium excretion directly in the DCT",
+        "Reducing arteriolar resistance and increasing venous capacitance",
+        "Blocking beta-1 receptors in the heart",
+        "Inhibiting ACE-mediated angiotensin II formation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha-1 blockers dilate arterioles and venules, reducing afterload and preload.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is most appropriate for a hypertensive patient who also has benign prostatic hyperplasia?",
+      "options": [
+        "Doxazosin",
+        "Propranolol",
+        "Aliskiren",
+        "Nitroprusside"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alpha-1 blockers such as doxazosin, prazosin, and terazosin lower BP and improve urinary symptoms in BPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The first-dose phenomenon of prazosin is best described as:",
+      "options": [
+        "Severe dry cough",
+        "Symptomatic orthostatic hypotension",
+        "Hyperkalemia",
+        "Cyanide accumulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha-1 blockers can cause marked postural hypotension after the first dose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precaution reduces the risk of first-dose hypotension with alpha-1 blockers?",
+      "options": [
+        "Give the first dose at bedtime and start low",
+        "Start with the maximum dose",
+        "Combine with epinephrine",
+        "Avoid all fluid intake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A low starting dose and bedtime administration help reduce symptomatic orthostatic hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-015",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why are alpha-1 blockers usually not preferred as first-line monotherapy for hypertension?",
+      "options": [
+        "They never lower BP",
+        "They may cause reflex tachycardia and salt/water retention",
+        "They always cause bronchoconstriction",
+        "They cause cyanide toxicity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha-1 blockade lowers vascular resistance, but compensatory sympathetic activation and renin-mediated fluid retention can limit monotherapy usefulness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipid effect is associated with alpha-1 blockers in the material?",
+      "options": [
+        "Increased LDL and decreased HDL",
+        "Reduced triglycerides/LDL and increased HDL",
+        "No effect on lipid profile",
+        "Severe hypertriglyceridemia in all patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha-1 blockers may improve lipid parameters by lowering triglycerides and LDL while increasing HDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Centrally acting sympathoplegic drugs lower BP mainly by:",
+      "options": [
+        "Activating presynaptic alpha-2 receptors in the brainstem",
+        "Blocking AT1 receptors in arteries",
+        "Blocking ENaC channels",
+        "Activating beta-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Central alpha-2 agonists reduce norepinephrine release and sympathetic outflow.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is classically used for hypertension in pregnancy?",
+      "options": [
+        "Methyldopa",
+        "Captopril",
+        "Losartan",
+        "Aliskiren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methyldopa is a classic centrally acting antihypertensive used in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Methyldopa acts as a false neurotransmitter after conversion to:",
+      "options": [
+        "Alpha-methylnorepinephrine",
+        "Angiotensin II",
+        "Aldosterone",
+        "Bradykinin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methyldopa is converted to alpha-methylnorepinephrine, stored in adrenergic vesicles, and released instead of norepinephrine. It activates central alpha-2 receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is associated with long-term methyldopa therapy?",
+      "options": [
+        "Positive Coombs test",
+        "Ototoxicity",
+        "Hypertrichosis",
+        "Cyanide toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methyldopa may cause a positive Coombs test, especially with prolonged therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methyldopa may cause lactation in men or women because it:",
+      "options": [
+        "Reduces dopamine effect and increases prolactin secretion",
+        "Blocks calcium channels in the breast",
+        "Causes cyanide accumulation",
+        "Blocks aldosterone receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine normally inhibits prolactin. Methyldopa can reduce dopaminergic influence and increase prolactin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects are common with clonidine and moxonidine?",
+      "options": [
+        "Sedation and xerostomia",
+        "Hypertrichosis and edema",
+        "Cough and angioedema",
+        "Cyanide toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Central sympathoplegic agents commonly cause sedation and dry mouth.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-023",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A poorly adherent patient is prescribed clonidine. Which risk is especially concerning?",
+      "options": [
+        "Rebound hypertension after abrupt discontinuation",
+        "Cyanide toxicity after one dose",
+        "Irreversible ototoxicity",
+        "Severe hypocalcemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abrupt clonidine withdrawal may cause headache, tremor, sweating, tachycardia, and severe hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Moxonidine differs from clonidine partly because it also acts on:",
+      "options": [
+        "Imidazoline receptors",
+        "AT1 receptors",
+        "ENaC channels",
+        "L-type calcium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moxonidine acts on imidazoline receptors and may be useful in hypertension with paroxysmal atrial fibrillation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Guanethidine lowers BP by:",
+      "options": [
+        "Inhibiting norepinephrine release from sympathetic nerve endings",
+        "Blocking AT1 receptors",
+        "Blocking ACE",
+        "Activating beta-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Guanethidine is an adrenergic neuron-blocking agent that inhibits norepinephrine release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Reserpine lowers sympathetic tone by:",
+      "options": [
+        "Blocking vesicular storage of biogenic amines",
+        "Blocking L-type calcium channels",
+        "Activating dopamine D1 receptors",
+        "Blocking ENaC channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reserpine prevents storage of norepinephrine and other biogenic amines, leading to degradation by MAO.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aliskiren directly inhibits:",
+      "options": [
+        "Renin",
+        "ACE",
+        "AT1 receptors",
+        "L-type calcium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aliskiren inhibits the active site of renin, preventing conversion of angiotensinogen to angiotensin I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aliskiren reduces formation of:",
+      "options": [
+        "Angiotensin I",
+        "Bradykinin only",
+        "Aldosterone receptor protein",
+        "Endothelin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By inhibiting renin, aliskiren prevents angiotensinogen from becoming angiotensin I, reducing downstream angiotensin II and aldosterone activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-029",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination is inappropriate because of excessive RAS blockade?",
+      "options": [
+        "Aliskiren plus ACE inhibitor or ARB",
+        "Amlodipine plus thiazide",
+        "Hydralazine plus beta-blocker",
+        "Losartan plus low-salt diet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material states that combining aliskiren with ACEIs or ARBs is contraindicated due to excessive RAS blockade risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aliskiren should not be used in:",
+      "options": [
+        "Pregnant women",
+        "Patients with BPH only",
+        "Patients with mild headache only",
+        "Patients with isolated ankle edema"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aliskiren should be avoided during pregnancy because interference with RAS can harm fetal development.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACE inhibitors lower BP by:",
+      "options": [
+        "Reducing angiotensin II and increasing bradykinin",
+        "Activating AT1 receptors",
+        "Increasing aldosterone release",
+        "Blocking dopamine D1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACEIs reduce angiotensin II formation and prevent bradykinin breakdown, causing vasodilation and reduced aldosterone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is the prototype ACE inhibitor?",
+      "options": [
+        "Captopril",
+        "Losartan",
+        "Amlodipine",
+        "Fenoldopam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Captopril is the prototype ACE inhibitor and contains a sulfhydryl group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ACE inhibitor is an oral prodrug converted to enalaprilat?",
+      "options": [
+        "Enalapril",
+        "Lisinopril",
+        "Captopril",
+        "Ramipril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enalapril is converted by hydrolysis to enalaprilat. Enalaprilat is also available IV for hypertensive emergencies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-034",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hepatic impairment needs an ACE inhibitor. Which is preferred according to the material?",
+      "options": [
+        "Lisinopril",
+        "Enalapril",
+        "Enalaprilat orally",
+        "Losartan because it is an ACE inhibitor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material states that lisinopril can be given safely to hepatitis patients, while enalapril is a prodrug and should not be used in hepatic impairment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACE inhibitors are preferred in hypertensive diabetic patients mainly because they:",
+      "options": [
+        "Slow diabetic nephropathy by reducing intraglomerular pressure",
+        "Increase aldosterone release",
+        "Increase glomerular capillary pressure",
+        "Cause direct bronchoconstriction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACEIs dilate the efferent arteriole, reduce glomerular capillary pressure, and slow diabetic nephropathy progression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-036",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with bilateral renal artery stenosis develops acute renal failure after captopril. Which mechanism best explains this?",
+      "options": [
+        "Loss of angiotensin II-mediated efferent arteriolar constriction",
+        "Excessive AT1 receptor activation",
+        "Increased aldosterone secretion",
+        "Increased calcium influx in renal arteries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In bilateral renal artery stenosis, kidneys rely on angiotensin II to maintain glomerular filtration pressure. ACE inhibition may sharply reduce GFR.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACE inhibitor dry cough is mainly caused by:",
+      "options": [
+        "Bradykinin accumulation",
+        "Aldosterone accumulation",
+        "Beta-2 blockade",
+        "Dopamine D1 stimulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE degrades bradykinin. ACE inhibition increases bradykinin, which may irritate the bronchi and cause dry cough.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-038",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A singer develops intolerable cough after enalapril. Which switch is most rational?",
+      "options": [
+        "Switch to an ARB such as losartan",
+        "Add captopril to increase ACE inhibition",
+        "Add aliskiren to enalapril",
+        "Switch to another ACE inhibitor only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs do not inhibit bradykinin degradation and are less likely to cause cough than ACE inhibitors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACE inhibitor angioedema is dangerous mainly because it may cause:",
+      "options": [
+        "Airway obstruction from face/throat swelling",
+        "Hypertrichosis",
+        "Ototoxicity",
+        "Positive Coombs test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACEI-induced angioedema can involve the face and throat and may become life-threatening.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is expected from reduced aldosterone during ACEI therapy?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Hypocalcemia",
+        "Ototoxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Less aldosterone reduces potassium excretion, increasing hyperkalemia risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient has the highest risk of ACEI-induced hyperkalemia?",
+      "options": [
+        "Diabetic patient with renal insufficiency using potassium supplements",
+        "Healthy patient using only amlodipine",
+        "Patient with BPH taking doxazosin",
+        "Patient using acetaminophen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperkalemia risk increases with renal insufficiency, diabetes, potassium supplements, NSAIDs, and potassium-sparing diuretics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACE inhibitors are contraindicated in:",
+      "options": [
+        "Pregnancy",
+        "Stable angina only",
+        "BPH only",
+        "Mild headache only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACEIs are teratogenic/fetotoxic and should not be used during pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects are specifically linked to the sulfhydryl group of captopril?",
+      "options": [
+        "Taste changes and rash",
+        "Cyanide toxicity and hypothyroidism",
+        "Hypertrichosis and edema",
+        "Ototoxicity and vertigo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Captopril contains a sulfhydryl group, which is associated with temporary taste changes and rash.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ARBs lower BP mainly by:",
+      "options": [
+        "Blocking angiotensin II type 1 receptors",
+        "Blocking ACE",
+        "Directly inhibiting renin",
+        "Opening potassium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs block AT1 receptors, reducing vasoconstriction and aldosterone-mediated volume expansion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is an ARB?",
+      "options": [
+        "Telmisartan",
+        "Captopril",
+        "Verapamil",
+        "Hydralazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Telmisartan is an ARB. Other ARBs include losartan, valsartan, olmesartan, irbesartan, and candesartan.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ARBs cause less dry cough than ACE inhibitors because they:",
+      "options": [
+        "Do not inhibit ACE-mediated bradykinin degradation",
+        "Increase bradykinin more than ACEIs",
+        "Block beta-2 receptors",
+        "Directly activate M3 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs block AT1 receptors but do not block ACE, so bradykinin breakdown is not significantly inhibited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best compares ARBs with ACE inhibitors?",
+      "options": [
+        "ARBs block AT1 receptors and generally cause less cough/angioedema",
+        "ARBs directly inhibit renin and commonly cause cyanide toxicity",
+        "ARBs are calcium-channel blockers",
+        "ARBs are safe in pregnancy because they do not affect RAS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs produce similar RAS blockade benefits but have less bradykinin-related cough and angioedema.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which effect results from ARB therapy?",
+      "options": [
+        "Vasodilation, increased renal salt/water excretion, and reduced plasma volume",
+        "Increased vasoconstriction through AT1 receptors",
+        "Increased aldosterone release",
+        "Increased bradykinin cough"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blocking AT1 receptors relaxes vascular smooth muscle and reduces aldosterone-mediated sodium/water retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Calcium-channel blockers used for hypertension mainly block:",
+      "options": [
+        "L-type calcium channels",
+        "Sodium channels",
+        "Chloride channels",
+        "NMDA receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCBs inhibit L-type calcium channels in cardiac tissue and vascular smooth muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dihydropyridine CCBs are mainly:",
+      "options": [
+        "Vasculoselective arteriolar dilators",
+        "Strong venodilators only",
+        "Direct renin inhibitors",
+        "Aldosterone antagonists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHPs such as amlodipine, nifedipine, felodipine, and nicardipine are more selective for vascular smooth muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is a dihydropyridine CCB?",
+      "options": [
+        "Amlodipine",
+        "Verapamil",
+        "Diltiazem",
+        "Captopril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amlodipine is a DHP CCB. Verapamil and diltiazem are non-DHP CCBs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is a non-dihydropyridine CCB?",
+      "options": [
+        "Verapamil",
+        "Nifedipine",
+        "Felodipine",
+        "Nicardipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil and diltiazem are non-DHP CCBs with stronger cardiac effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-053",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hypertension and tachycardia cannot use beta-blockers. Which drug may be useful because of negative chronotropic effects?",
+      "options": [
+        "Verapamil",
+        "Nifedipine",
+        "Minoxidil",
+        "Hydralazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil decreases heart rate and AV conduction. It may be useful in tachycardia or angina when beta-blockers cannot be used.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB has the greatest depressant effect on the heart?",
+      "options": [
+        "Verapamil",
+        "Nifedipine",
+        "Amlodipine",
+        "Nicardipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil has strong negative inotropic, chronotropic, and dromotropic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nifedipine is more likely than verapamil to cause:",
+      "options": [
+        "Reflex tachycardia",
+        "Severe bradycardia",
+        "Positive Coombs test",
+        "Cyanide toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nifedipine causes strong arteriolar vasodilation, which can trigger baroreceptor-mediated reflex tachycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Verapamil is especially associated with:",
+      "options": [
+        "Constipation",
+        "Hypertrichosis",
+        "Dry cough",
+        "Drug-induced lupus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil reduces GI motility due to smooth muscle relaxation, causing constipation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-057",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hypertension, constipation, and AV block needs a CCB. Which drug should be avoided?",
+      "options": [
+        "Verapamil",
+        "Amlodipine",
+        "Felodipine",
+        "Nicardipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil can worsen constipation and AV block because of its strong non-DHP cardiac and GI effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CCB-induced ankle edema is mainly caused by:",
+      "options": [
+        "Increased hydrostatic pressure from precapillary dilation",
+        "Generalized sodium and water retention",
+        "Bradykinin accumulation",
+        "Direct nephrotoxicity in all patients"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCB edema is due to arteriolar dilation increasing capillary hydrostatic pressure, not total-body fluid retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is highly selective for cerebral blood vessels and used after subarachnoid hemorrhage?",
+      "options": [
+        "Nimodipine",
+        "Verapamil",
+        "Diltiazem",
+        "Hydralazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nimodipine crosses the BBB and is used for cerebral vasospasm after subarachnoid hemorrhage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DHP CCBs are recommended in:",
+      "options": [
+        "Elderly patients with isolated systolic hypertension",
+        "Severe AV block",
+        "Bradycardia with nodal dysfunction",
+        "Cyanide toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHPs are useful in elderly patients, isolated systolic hypertension, peripheral vascular disease, and carotid atherosclerosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Direct vasodilators are best combined with other antihypertensives because they can cause:",
+      "options": [
+        "Reflex tachycardia and sodium/water retention",
+        "Bradycardia and hypovolemia",
+        "Cough and angioedema",
+        "Ototoxicity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vasodilation reduces BP but activates baroreceptor reflex tachycardia and RAS-mediated fluid retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydralazine primarily dilates:",
+      "options": [
+        "Arterioles but not veins",
+        "Veins only",
+        "Both arteries and veins equally",
+        "Coronary veins only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine is an arteriolar vasodilator, reducing afterload more than preload.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydralazine can be used in pregnancy-related severe hypertension because it:",
+      "options": [
+        "Produces arteriolar vasodilation",
+        "Blocks fetal RAS safely",
+        "Directly inhibits renin",
+        "Blocks aldosterone receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine is an arteriolar vasodilator used in severe hypertension and may be used in pregnancy with preeclampsia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydralazine is associated with:",
+      "options": [
+        "Drug-induced lupus-like syndrome",
+        "Cyanide toxicity",
+        "Hypertrichosis only",
+        "Severe constipation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine may cause immunological reactions including drug-induced lupus syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug is suitable as add-on therapy in severe hypertension not responding to first-line therapies and may be used in preeclampsia?",
+      "options": [
+        "Hydralazine",
+        "Captopril",
+        "Losartan",
+        "Aliskiren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine is used as add-on therapy in severe hypertension and can be used in pregnant women with preeclampsia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Minoxidil relaxes vascular smooth muscle by:",
+      "options": [
+        "Opening potassium channels and reducing calcium influx",
+        "Blocking AT1 receptors",
+        "Inhibiting ACE",
+        "Blocking beta-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Minoxidil hyperpolarizes vascular smooth muscle, reducing calcium influx and causing arteriolar relaxation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is characteristic of minoxidil?",
+      "options": [
+        "Hypertrichosis",
+        "Dry cough",
+        "Severe bradycardia",
+        "Positive Coombs test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Minoxidil can cause excessive hair growth, headache, sweating, tachycardia, palpitations, angina, and edema.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Minoxidil is used in severe hypertension with renal failure when response to hydralazine is poor. Why must it often be combined with other drugs?",
+      "options": [
+        "It can cause reflex tachycardia and fluid retention",
+        "It causes severe bradycardia",
+        "It causes ACEI-like cough",
+        "It blocks AV conduction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Minoxidil is a powerful arteriolar vasodilator. Compensatory sympathetic activation and RAS activation may cause tachycardia and edema.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sodium nitroprusside acts by:",
+      "options": [
+        "Activating guanylyl cyclase and increasing cGMP",
+        "Blocking ENaC",
+        "Blocking AT1 receptors",
+        "Blocking alpha-2 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitroprusside releases NO or directly stimulates guanylyl cyclase, increasing cGMP and relaxing vascular smooth muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sodium nitroprusside dilates:",
+      "options": [
+        "Both arteries and veins",
+        "Arteries only",
+        "Veins only",
+        "Bronchi only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitroprusside is a mixed vasodilator that reduces peripheral vascular resistance and venous return.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receives prolonged nitroprusside infusion and develops toxicity, especially with renal disease. Which accumulated substances are responsible?",
+      "options": [
+        "Cyanide and thiocyanate",
+        "Bradykinin and histamine",
+        "Calcium and magnesium",
+        "Aldosterone and renin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prolonged nitroprusside administration may cause cyanide and thiocyanate accumulation, particularly in renal disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Thiocyanate accumulation during nitroprusside therapy may cause:",
+      "options": [
+        "Hypothyroidism",
+        "Hypertrichosis",
+        "Positive Coombs test",
+        "Bronchoconstriction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material notes that thiocyanate accumulation may cause hypothyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fenoldopam acts primarily as:",
+      "options": [
+        "Dopamine D1 receptor agonist",
+        "AT1 receptor blocker",
+        "ACE inhibitor",
+        "Alpha-1 blocker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fenoldopam activates dopamine D1 receptors, causing peripheral arterial dilation and natriuresis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fenoldopam should be avoided in patients with:",
+      "options": [
+        "Glaucoma",
+        "BPH",
+        "ACEI cough",
+        "Hypertrichosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fenoldopam may increase intraocular pressure and should be avoided in glaucoma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug is useful in hypertensive emergencies and provides natriuresis through dopamine D1 receptor activation?",
+      "options": [
+        "Fenoldopam",
+        "Methyldopa",
+        "Prazosin",
+        "Verapamil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fenoldopam is a D1 agonist that dilates peripheral arteries and increases sodium excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thiazide diuretics lower BP initially mainly by:",
+      "options": [
+        "Reducing sodium/water stores and blood volume",
+        "Increasing angiotensin II formation",
+        "Increasing cardiac contractility",
+        "Blocking beta-2 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diuretics initially reduce BP by sodium and water loss, lowering blood volume and cardiac output.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "After several weeks of diuretic therapy, BP remains lower even though cardiac output may return toward normal. Why?",
+      "options": [
+        "Peripheral vascular resistance decreases",
+        "Heart rate becomes permanently zero",
+        "Aldosterone receptors disappear",
+        "Sodium channels are destroyed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sustained antihypertensive effect of diuretics is partly due to reduced peripheral vascular resistance after chronic therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thiazide diuretics act mainly by blocking:",
+      "options": [
+        "Na⁺/Cl⁻ cotransporter in the early DCT",
+        "Na⁺/K⁺/2Cl⁻ cotransporter in the loop",
+        "ENaC in the collecting duct",
+        "Aldosterone receptors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazides inhibit the Na⁺/Cl⁻ cotransporter in the early distal convoluted tubule.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is a thiazide-like diuretic useful in hypertension?",
+      "options": [
+        "Chlorthalidone",
+        "Furosemide",
+        "Amiloride",
+        "Spironolactone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlorthalidone is thiazide-like and commonly used for hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which thiazide-like diuretic is notable for use even with impaired renal function?",
+      "options": [
+        "Metolazone",
+        "Hydrochlorothiazide",
+        "Chlorothiazide",
+        "Indapamide only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metolazone is a thiazide-like diuretic that may retain efficacy in impaired renal function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Loop diuretics inhibit:",
+      "options": [
+        "Na⁺/K⁺/2Cl⁻ cotransporter in the thick ascending limb",
+        "Na⁺/Cl⁻ cotransporter in the DCT",
+        "AT1 receptors",
+        "L-type calcium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loop diuretics such as furosemide inhibit NKCC2 in the thick ascending limb.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is a loop diuretic?",
+      "options": [
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Amiloride",
+        "Eplerenone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Furosemide is a loop diuretic. Other examples include bumetanide and torsemide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hypertensive patient has reduced GFR and poor response to thiazide therapy. Which drug class is generally preferred?",
+      "options": [
+        "Loop diuretic",
+        "Alpha-1 blocker only",
+        "Direct renin inhibitor only",
+        "Nonselective beta-blocker only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loop diuretics are useful when renal function is reduced and thiazide response is inadequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is characteristic of loop diuretics?",
+      "options": [
+        "Ototoxicity",
+        "Positive Coombs test",
+        "Dry cough",
+        "Drug-induced lupus only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loop diuretics can cause ototoxicity, especially with high doses or rapid IV administration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Loop diuretics increase urinary calcium and magnesium excretion because they:",
+      "options": [
+        "Reduce the lumen-positive potential in the thick ascending limb",
+        "Increase calcium reabsorption in the DCT",
+        "Block aldosterone receptors",
+        "Activate AT1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NKCC2 inhibition reduces the positive luminal charge that drives paracellular Ca²⁺ and Mg²⁺ reabsorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thiazides are useful in osteoporosis because they:",
+      "options": [
+        "Reduce urinary calcium excretion",
+        "Increase calcium loss in urine",
+        "Block vitamin D receptors",
+        "Cause severe hypocalcemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazides increase calcium reabsorption in the DCT, reducing urinary calcium loss.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient may be harmed by thiazide-induced hyperuricemia?",
+      "options": [
+        "Patient with gout",
+        "Patient with BPH",
+        "Patient with ACEI cough",
+        "Patient with glaucoma only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazides can raise uric acid levels and precipitate or worsen gout attacks.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electrolyte abnormality is typical with thiazides?",
+      "options": [
+        "Hypokalemia",
+        "Hyperkalemia",
+        "Severe hypocalcemia",
+        "Hypermagnesemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazides increase distal sodium delivery, promoting potassium secretion and hypokalemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with recurrent calcium stones and hypertension may benefit from thiazides because they:",
+      "options": [
+        "Reduce urinary calcium excretion",
+        "Increase urinary calcium excretion",
+        "Cause direct uric acid excretion",
+        "Block aldosterone receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazides reduce calciuria, helping prevent recurrent calcium stones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which potassium-sparing diuretic is an aldosterone receptor antagonist?",
+      "options": [
+        "Spironolactone",
+        "Amiloride",
+        "Furosemide",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone and eplerenone block aldosterone receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which potassium-sparing diuretic blocks ENaC?",
+      "options": [
+        "Amiloride",
+        "Spironolactone",
+        "Furosemide",
+        "Chlorthalidone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiloride and triamterene block epithelial sodium channels in the collecting duct.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "All potassium-sparing diuretics can cause:",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Ototoxicity",
+        "Cyanide toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They reduce potassium secretion, increasing hyperkalemia risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-093",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Spironolactone causes gynecomastia mainly because it:",
+      "options": [
+        "Can block androgen receptors",
+        "Causes severe hypokalemia",
+        "Inhibits NKCC2",
+        "Activates AT1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone is less selective and may block androgen receptors, causing gynecomastia and impotence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which aldosterone antagonist is more selective and less likely to cause gynecomastia?",
+      "options": [
+        "Eplerenone",
+        "Spironolactone",
+        "Furosemide",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eplerenone is more selective for aldosterone receptors and has fewer antiandrogenic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-095",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with resistant hypertension is already on ACEI, CCB, and thiazide-like diuretic. Which add-on is commonly useful if potassium and renal function allow?",
+      "options": [
+        "Spironolactone",
+        "Nitroprusside orally",
+        "Propranolol in asthma",
+        "Aliskiren plus ACEI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone is commonly used in resistant hypertension, but potassium and renal function must be monitored.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-096",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination has the highest risk of dangerous hyperkalemia?",
+      "options": [
+        "Spironolactone plus ACE inhibitor in renal impairment",
+        "Amlodipine plus low-salt diet",
+        "Hydralazine plus beta-blocker",
+        "Doxazosin plus bedtime dosing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both drugs reduce aldosterone effect, and renal impairment reduces potassium elimination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-097",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hypertensive patient has asthma, gout, and albuminuric diabetic kidney disease. Which choice is most rational?",
+      "options": [
+        "ARB with renal and potassium monitoring",
+        "Propranolol plus hydrochlorothiazide",
+        "High-dose thiazide alone",
+        "Aliskiren plus ACE inhibitor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARB therapy supports kidney protection in albuminuric disease. Nonselective beta-blockers may worsen asthma, thiazides may worsen gout, and dual RAS blockade is unsafe.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-098",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A pregnant hypertensive patient should avoid which group?",
+      "options": [
+        "ACEIs, ARBs, and aliskiren",
+        "Methyldopa and hydralazine",
+        "Selected CCBs",
+        "Lifestyle modification"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAS blockers are contraindicated in pregnancy because fetal RAS disruption can cause serious toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which treatment plan is most rational for severe chronic hypertension requiring combination therapy?",
+      "options": [
+        "Combine complementary classes such as ACEI/ARB + CCB or ACEI/ARB + thiazide-like diuretic",
+        "Combine ACEI + ARB + aliskiren routinely",
+        "Use short-acting nifedipine alone chronically",
+        "Use hydralazine alone without controlling tachycardia/fluid retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combination therapy should target different BP mechanisms. Triple RAS blockade is unsafe, and direct vasodilators often require companion drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best summarizes drug selection in hypertension pharmacotherapy?",
+      "options": [
+        "Selection depends on mechanism, comorbidities, contraindications, adverse effects, and monitoring needs",
+        "All antihypertensive drugs are interchangeable in all patients",
+        "The strongest vasodilator is always first-line for every patient",
+        "Once BP normalizes, therapy should always be stopped immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypertension treatment is individualized. Asthma, pregnancy, CKD, diabetes, gout, AV block, edema, hyperkalemia risk, and hypertensive emergency status all affect drug choice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
