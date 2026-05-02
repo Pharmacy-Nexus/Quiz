@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antihypertensives",
   "topicName": "Antihypertensives",
-  "updatedAt": "2026-05-02T22:23:19.533Z",
+  "updatedAt": "2026-05-02T22:23:24.206Z",
   "questions": [
     {
       "id": "pharmacology-antihypertensives-001",
@@ -3021,6 +3021,686 @@
     },
     {
       "id": "pharmacology-antihypertensives-178",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient with hypertension has CKD and albuminuria. Which monitoring is most important after starting an ACE inhibitor or ARB?",
+      "options": [
+        "Serum potassium and creatinine/eGFR",
+        "Serum amylase only",
+        "Visual acuity only",
+        "INR only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors and ARBs can increase potassium and cause a rise in creatinine, especially in renal artery stenosis, dehydration, NSAID use, or advanced CKD. Monitoring potassium and kidney function is essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-179",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A 63-year-old man with newly diagnosed stage 1 essential hypertension is started on hydrochlorothiazide. After several weeks, his blood pressure improves. Which effect best explains the long-term antihypertensive action of thiazide therapy?",
+      "options": [
+        "Marked postural hypotension",
+        "Persistent decrease in cardiac output only",
+        "Decreased peripheral vascular resistance",
+        "Increased extracellular fluid volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thiazides initially reduce extracellular fluid volume and cardiac output. With chronic use, the long-term antihypertensive effect is mainly due to decreased peripheral vascular resistance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-180",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A 52-year-old man develops acute pain and swelling at the base of his right big toe one month after starting treatment for hypertension. Serum uric acid is markedly elevated. Which antihypertensive most likely contributed to this attack?",
+      "options": [
+        "Lisinopril",
+        "Hydrochlorothiazide",
+        "Amlodipine",
+        "Losartan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thiazide diuretics can increase serum uric acid by decreasing urate excretion, which may precipitate gout. Losartan is unusual among ARBs because it may have a uricosuric effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-181",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 65-year-old woman has hypertension, osteoporosis, second-degree AV block, and a previous severe episode of ACE inhibitor–associated angioedema. Which antihypertensive is most appropriate?",
+      "options": [
+        "Lisinopril",
+        "Verapamil",
+        "Hydrochlorothiazide",
+        "Metoprolol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ACE inhibitors should be avoided after angioedema. Verapamil and beta-blockers may worsen AV block. Thiazides are suitable for BP control and reduce urinary calcium excretion, which may be helpful in osteoporosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-182",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A woman with hypertension remains uncontrolled despite losartan and chlorthalidone. Her physician adds clonidine. Which adverse effect is most likely after starting this medication?",
+      "options": [
+        "Pronounced sedation",
+        "Hyperuricemia",
+        "Peripheral edema",
+        "Persistent dry cough"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonidine is a central alpha-2 agonist that reduces sympathetic outflow. Common adverse effects include sedation, dry mouth, dizziness, bradycardia, and rebound hypertension if stopped suddenly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-183",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A 65-year-old man presents with sweating, tremor, tachycardia, anxiety, and BP 190/100 mmHg. He had stopped a recently added medication because it caused dry mouth and daytime sleepiness. Which drug was most likely stopped?",
+      "options": [
+        "Amlodipine",
+        "Hydralazine",
+        "Clonidine",
+        "Losartan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abrupt clonidine discontinuation can cause rebound sympathetic activation with hypertension, tachycardia, sweating, tremor, and anxiety.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-184",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A pregnant woman with chronic hypertension needs drug therapy. Which option is commonly used and considered appropriate during pregnancy?",
+      "options": [
+        "Labetalol",
+        "Lisinopril",
+        "Losartan",
+        "Aliskiren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Labetalol is commonly used for hypertension during pregnancy. Nifedipine and methyldopa are also options. ACE inhibitors, ARBs, and direct renin inhibitors should be stopped/avoided in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-185",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with resistant hypertension is already taking an ARB, amlodipine, and chlorthalidone. Kidney function is acceptable and potassium is normal. Which fourth-line add-on is most appropriate?",
+      "options": [
+        "Spironolactone",
+        "Atenolol",
+        "Doxazosin",
+        "Oral hydralazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone is commonly used as an add-on for resistant hypertension when renal function and potassium allow. Potassium and kidney function must be monitored.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-186",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A 60-year-old man with hypertension and benign prostatic hyperplasia develops dizziness and near-syncope when standing after starting a new drug. Which drug most likely caused this effect?",
+      "options": [
+        "Doxazosin",
+        "Amlodipine",
+        "Losartan",
+        "Chlorthalidone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alpha-1 blockers such as doxazosin and prazosin can improve urinary symptoms in BPH but may cause first-dose orthostatic hypotension and dizziness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-187",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A hypertensive patient with BPH needs an add-on medication that may also improve urinary symptoms. Which class is most appropriate?",
+      "options": [
+        "Alpha-1 blockers",
+        "ACE inhibitors",
+        "Dihydropyridine CCBs",
+        "Thiazide-like diuretics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alpha-1 blockers relax smooth muscle in blood vessels and the prostate/bladder neck. They are not usually first-line for uncomplicated hypertension but may be useful when BPH coexists.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-188",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A woman with hypertension develops a significant postural BP drop after starting a medication. Supine BP is 166/94 mmHg and standing BP is 140/83 mmHg. Which drug is most likely responsible?",
+      "options": [
+        "Labetalol",
+        "Losartan",
+        "Hydrochlorothiazide",
+        "Amlodipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Labetalol blocks both beta receptors and alpha-1 receptors. The alpha-1 blocking effect can contribute to orthostatic hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-189",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 38-year-old man has hypertension and hypertrophic obstructive cardiomyopathy. Which medication is most appropriate?",
+      "options": [
+        "Metoprolol",
+        "Hydralazine",
+        "Doxazosin",
+        "Amlodipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and contractility, improving diastolic filling and reducing dynamic outflow obstruction in hypertrophic obstructive cardiomyopathy. Potent vasodilators may worsen obstruction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-190",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 64-year-old man presents with sudden tearing chest pain radiating to the back. BP is 230/120 mmHg and CT confirms acute aortic dissection. Which IV treatment strategy is most appropriate?",
+      "options": [
+        "Esmolol first, then add a vasodilator if needed",
+        "Hydralazine monotherapy",
+        "Oral amlodipine",
+        "Clonidine and oral captopril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acute aortic dissection requires rapid reduction of heart rate and shear stress. A titratable IV beta-blocker such as esmolol is used first; an IV vasodilator may be added after beta-blockade if BP remains high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-191",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertension and atrial fibrillation is started on atenolol. Which physiologic change is expected?",
+      "options": [
+        "Increased cardiac output and increased renin release",
+        "Decreased cardiac output and decreased renin release",
+        "Increased venous tone with severe reflex tachycardia",
+        "Increased total blood volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atenolol is relatively beta-1 selective. It lowers heart rate and contractility and reduces beta-1 mediated renin release from juxtaglomerular cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-192",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient taking hydrochlorothiazide and lisinopril develops palpitations, headache, flushing, and tachycardia after a third drug is added. Which drug most likely caused this?",
+      "options": [
+        "Hydralazine",
+        "Verapamil",
+        "Losartan",
+        "Spironolactone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine is a direct arteriolar vasodilator. It may cause reflex tachycardia, palpitations, flushing, headache, and fluid retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-193",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with severe resistant hypertension is started on oral minoxidil under specialist supervision. Which action best explains its BP-lowering effect?",
+      "options": [
+        "Reduced central sympathetic tone",
+        "Decreased extracellular fluid volume",
+        "Direct arteriolar vasodilation with reduced peripheral resistance",
+        "Inhibition of angiotensin II formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Minoxidil opens potassium channels in vascular smooth muscle, causing potent arteriolar vasodilation. It is reserved for resistant cases and is usually combined with a beta-blocker and loop diuretic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-194",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertensive emergency requires a titratable IV calcium channel blocker. Which medication is most appropriate?",
+      "options": [
+        "IV nicardipine",
+        "Oral hydrochlorothiazide",
+        "Oral losartan",
+        "Oral doxazosin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IV nicardipine is a modern, titratable option for hypertensive emergencies. Oral agents are generally not appropriate for immediate BP control in true emergencies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-195",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has COPD, a single functioning kidney, and renovascular hypertension due to renal artery stenosis. Which regimen is safest among the options?",
+      "options": [
+        "Lisinopril plus hydrochlorothiazide",
+        "Propranolol plus chlorthalidone",
+        "Amlodipine plus hydrochlorothiazide",
+        "Aliskiren plus losartan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ACE inhibitors/ARBs can worsen renal function when renal artery stenosis affects a solitary functioning kidney. Nonselective beta-blockers can worsen COPD. Amlodipine plus a thiazide is safer among these options.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-196",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hypertension is diagnosed with variant angina. Which medication class is preferred?",
+      "options": [
+        "Dihydropyridine calcium channel blocker",
+        "Nonselective beta-blocker",
+        "Alpha-1 blocker",
+        "Thiazide diuretic only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variant angina is caused by coronary vasospasm. Calcium channel blockers such as amlodipine or nifedipine reduce coronary vasospasm. Nonselective beta-blockers may worsen vasospasm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-197",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient starts lisinopril. After therapy, angiotensin II and aldosterone decrease, renin increases, and potassium rises slightly. Which mechanism explains this pattern?",
+      "options": [
+        "ACE inhibition",
+        "Calcium channel blockade",
+        "Beta-1 blockade",
+        "Alpha-1 blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors reduce angiotensin II and aldosterone. Reduced aldosterone can increase potassium. Renin rises because angiotensin II normally suppresses renin release by negative feedback.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-198",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A woman with chronic hypertension discovers she is pregnant. Which drug class must be stopped because of fetal renal toxicity?",
+      "options": [
+        "ACE inhibitors or ARBs",
+        "Dihydropyridine calcium channel blockers",
+        "Labetalol",
+        "Methyldopa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors and ARBs should be stopped in pregnancy because they can cause fetal renal dysfunction and other fetal toxicities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-199",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A man recently started captopril and now complains of persistent dry cough and altered taste. Which drug most likely caused these effects?",
+      "options": [
+        "Amlodipine",
+        "Clonidine",
+        "Metoprolol",
+        "Captopril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "ACE inhibitors can cause dry cough due to bradykinin accumulation. Captopril is also associated with taste disturbance more characteristically than many other ACE inhibitors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-200",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient develops rapid swelling of the lips, eyelids, and tongue shortly after starting antihypertensive therapy. Which drug is the most likely cause?",
+      "options": [
+        "Lisinopril",
+        "Amlodipine",
+        "Hydrochlorothiazide",
+        "Atenolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors can cause bradykinin-mediated angioedema. It may occur early or after long-term use and can be life-threatening if airway swelling occurs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-201",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient develops severe oliguria shortly after starting lisinopril plus hydrochlorothiazide. Imaging shows bilateral renal artery stenosis. What caused the acute kidney injury?",
+      "options": [
+        "Excessive afferent arteriole dilation",
+        "Loss of angiotensin II-mediated efferent arteriole constriction",
+        "Direct tubular toxicity from hydrochlorothiazide",
+        "Calcium channel blockade in renal arteries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In bilateral renal artery stenosis, GFR depends on angiotensin II constricting the efferent arteriole. ACE inhibitors reduce this compensation and can precipitate acute kidney injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-202",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman with type 1 diabetes, albuminuria, and hypertension needs therapy. She also has gout. Which drug is most appropriate?",
+      "options": [
+        "Hydrochlorothiazide",
+        "Propranolol",
+        "Lisinopril",
+        "Clonidine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ACE inhibitors are preferred in diabetes with albuminuria because they reduce intraglomerular pressure and slow kidney disease progression. Thiazides may worsen gout by increasing uric acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-203",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has hypertension and heart failure with reduced ejection fraction. Which regimen is most appropriate?",
+      "options": [
+        "Verapamil plus hydrochlorothiazide",
+        "Lisinopril plus metoprolol succinate",
+        "Amlodipine plus doxazosin only",
+        "Clonidine plus hydralazine only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ACE inhibitors/ARBs/ARNI and evidence-based beta-blockers are key in HFrEF. The beta-blockers with proven mortality benefit include carvedilol, metoprolol succinate, and bisoprolol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-204",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A Black patient with newly diagnosed uncomplicated hypertension needs initial therapy. Which option is commonly effective?",
+      "options": [
+        "Chlorthalidone",
+        "Captopril monotherapy only",
+        "Fenoldopam",
+        "Oral nitroprusside"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazide/thiazide-like diuretics and calcium channel blockers are commonly effective initial options in Black adults with uncomplicated hypertension. Chlorthalidone is a long-acting thiazide-like diuretic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-205",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A Black woman has repeated BP readings of 165/100 mmHg with normal labs and no target-organ damage. Which initial medication is most appropriate among the options?",
+      "options": [
+        "Chlorthalidone",
+        "Furosemide",
+        "IV nicardipine",
+        "Atenolol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For uncomplicated hypertension, thiazide/thiazide-like diuretics and CCBs are common first-line choices. IV agents are for hypertensive emergencies, not stable outpatient hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-206",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with stage 2 hypertension is started on losartan plus chlorthalidone. What is the best rationale for this combination?",
+      "options": [
+        "The drugs have complementary mechanisms and improve BP control",
+        "Losartan prevents all thiazide adverse effects",
+        "Thiazides prevent ARB tolerance",
+        "ARBs eliminate the need for monitoring"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combination therapy with complementary mechanisms improves BP control. Thiazide-related RAAS activation is countered by ARB therapy, and ARBs may partly offset thiazide-induced hypokalemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-207",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A hypertensive patient taking lisinopril has potassium 5.4 mEq/L and mildly elevated creatinine. BP remains uncontrolled. Which change is most appropriate?",
+      "options": [
+        "Add spironolactone",
+        "Add potassium supplements",
+        "Add chlorthalidone and monitor renal function/electrolytes",
+        "Add aliskiren"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thiazide/thiazide-like diuretics can help BP and lower potassium. Adding spironolactone, potassium, or aliskiren would increase hyperkalemia risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-208",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A pregnant woman with chronic hypertension is treated with methyldopa. What mechanism explains its BP-lowering effect?",
+      "options": [
+        "Opening potassium channels in vascular smooth muscle",
+        "Beta-1 blockade in juxtaglomerular cells",
+        "Activation of central alpha-2 receptors",
+        "Alpha-1 blockade in vascular smooth muscle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Methyldopa is converted to alpha-methylnorepinephrine, which stimulates central alpha-2 receptors and reduces sympathetic outflow.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-209",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient with poorly controlled hypertension starts atenolol. Which mechanism contributes to its antihypertensive effect?",
+      "options": [
+        "Dilation of large veins",
+        "Increased epinephrine release",
+        "Decreased cardiac output",
+        "Increased blood volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atenolol blocks beta-1 receptors, reducing heart rate and contractility. This decreases cardiac output and also reduces renin release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-210",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient with hypertensive emergency needs a rapidly titratable IV dihydropyridine calcium channel blocker. Which medication is appropriate?",
+      "options": [
+        "Nicardipine",
+        "Oral amlodipine",
+        "Hydrochlorothiazide",
+        "Oral losartan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IV nicardipine is commonly used in hypertensive emergencies because it is titratable and effective. Oral agents are not used for immediate control in emergencies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-211",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertensive encephalopathy has second-degree AV block. Which IV antihypertensive would generally be safer than AV-nodal–blocking agents?",
+      "options": [
+        "Verapamil",
+        "Labetalol",
+        "Nicardipine",
+        "Diltiazem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Verapamil and diltiazem slow AV conduction, and labetalol can worsen bradycardia/heart block. Nicardipine is a dihydropyridine CCB that lowers BP without significant AV nodal blockade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-212",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A hypertensive patient previously developed severe constipation with verapamil and cough with lisinopril. BP remains uncontrolled on chlorthalidone. Which add-on is most appropriate?",
+      "options": [
+        "Amlodipine",
+        "Enalapril",
+        "Verapamil again",
+        "Clonidine first-line"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amlodipine provides effective vasodilation without the constipation and AV nodal effects typical of verapamil. ACE inhibitors are avoided due to prior cough.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-213",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A woman has hypertension and atrial tachycardia. She also has moderate asthma and wants to become pregnant. Which option is most reasonable among the choices?",
+      "options": [
+        "Propranolol",
+        "Captopril",
+        "Diltiazem",
+        "Aliskiren"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Diltiazem can help rate control and BP. Propranolol is nonselective and may worsen asthma. Captopril and aliskiren are avoided if pregnancy is planned or possible. Pregnancy planning should prompt specialist-guided selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-214",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertension and stable coronary artery disease needs BP therapy that also reduces myocardial oxygen demand. Which class is useful if no contraindication exists?",
+      "options": [
+        "Beta-blocker",
+        "Alpha-1 blocker",
+        "Osmotic diuretic",
+        "Direct renin inhibitor only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers lower heart rate and contractility, reducing myocardial oxygen demand. They are useful in CAD/angina when not contraindicated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-215",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking amlodipine develops bilateral ankle swelling without signs of heart failure. What is the most likely explanation?",
+      "options": [
+        "Arteriolar dilation causing increased capillary hydrostatic pressure",
+        "Severe renal sodium retention",
+        "Bradykinin accumulation",
+        "Direct myocardial toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dihydropyridine CCBs cause preferential arteriolar dilation, increasing capillary hydrostatic pressure and causing peripheral edema. This edema is not primarily due to volume overload.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-216",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on lisinopril develops potassium of 5.8 mEq/L after adding a new medication. Which added drug most likely contributed?",
+      "options": [
+        "Spironolactone",
+        "Amlodipine",
+        "Chlorthalidone",
+        "Furosemide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone reduces potassium excretion. Combining it with ACE inhibitors or ARBs increases hyperkalemia risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-217",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has hypertension and recurrent hypokalemia while on chlorthalidone. Which add-on may help control BP and counter potassium loss?",
+      "options": [
+        "Losartan",
+        "Furosemide",
+        "High-dose hydrochlorothiazide",
+        "Sodium bicarbonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs can increase potassium by reducing aldosterone effects and may partly counter thiazide-induced hypokalemia while improving BP control.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-218",
       "type": "mcq",
       "difficulty": "easy",
       "questionText": "A patient with hypertension has CKD and albuminuria. Which monitoring is most important after starting an ACE inhibitor or ARB?",
