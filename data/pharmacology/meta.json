@@ -93,21 +93,6 @@
       },
       "questionsCount": 158,
       "file": "data/pharmacology/antiparkinsonian.json"
-    },
-    {
-      "id": "antihypertensives",
-      "name": "Antihypertensives",
-      "description": "",
-      "order": 1,
-      "section": "Cardiovascular",
-      "sectionId": "cardiovascular",
-      "difficultyBreakdown": {
-        "easy": 97,
-        "medium": 123,
-        "hard": 37
-      },
-      "questionsCount": 257,
-      "file": "data/pharmacology/antihypertensives.json"
     }
   ],
   "updatedAt": "2026-05-02T22:26:24.678Z",
