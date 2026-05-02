@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antihypertensive",
   "topicName": "Antihypertensive",
-  "updatedAt": "2026-05-02T22:35:12.862Z",
+  "updatedAt": "2026-05-02T22:35:50.915Z",
   "questions": [
     {
       "id": "pharmacology-antihypertensive-001",
@@ -2720,6 +2720,686 @@
       ],
       "correctAnswer": 0,
       "explanation": "ACE inhibitors can cause a persistent dry cough due to increased bradykinin. If cough is troublesome, switching to an ARB may be considered because ARBs do not significantly increase bradykinin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-161",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "An elderly male patient has hypertension, heart failure with reduced ejection fraction, coronary artery disease, hyperlipidemia, and type 1 diabetes. Which antihypertensive drug class is most appropriate as part of his long-term regimen?",
+      "options": [
+        "ACE inhibitor",
+        "Nonselective beta-blocker only",
+        "Alpha-1 blocker as monotherapy",
+        "Direct vasodilator as first-line monotherapy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors are useful in hypertension with heart failure and coronary artery disease because they reduce angiotensin II, lower afterload, reduce aldosterone effects, and improve cardiovascular outcomes. In diabetes, they are also valuable when kidney protection is needed, especially with albuminuria. Beta-blockers may also be useful in CAD/HFrEF, but not as nonselective monotherapy in this patient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-162",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class is generally metabolically neutral and least likely to worsen serum lipids or glucose?",
+      "options": [
+        "Older nonselective beta-blockers",
+        "Thiazide diuretics at higher doses",
+        "Calcium channel blockers",
+        "Loop diuretics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Calcium channel blockers are generally neutral regarding lipid and glucose metabolism. Older beta-blockers and higher-dose thiazides may worsen lipid or glucose parameters, although thiazide-like drugs remain important and effective antihypertensive agents.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-163",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the mechanism of action of diltiazem?",
+      "options": [
+        "Inhibition of phosphodiesterase",
+        "Blockade of L-type calcium channels",
+        "Alpha-1 receptor blockade",
+        "Selective beta-1 receptor blockade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diltiazem is a non-dihydropyridine calcium channel blocker. It blocks L-type calcium channels in the heart and blood vessels, causing vasodilation and slowing AV nodal conduction. It can reduce heart rate, unlike dihydropyridine CCBs such as amlodipine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-164",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive is preferred for many patients with hypertension and diabetic kidney disease with albuminuria?",
+      "options": [
+        "ACE inhibitor or ARB",
+        "Alpha-1 blocker",
+        "Short-acting nifedipine",
+        "Loop diuretic only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors and ARBs reduce intraglomerular pressure and are commonly preferred in patients with diabetes and albuminuria because they slow kidney disease progression and reduce cardiovascular risk. They should not be combined together routinely because dual RAAS blockade increases adverse effects without enough added benefit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-165",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the mechanism of action of prazosin?",
+      "options": [
+        "Alpha-1 receptor blockade",
+        "Beta receptor blockade",
+        "Phosphodiesterase inhibition",
+        "Calcium channel blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prazosin blocks alpha-1 receptors on vascular smooth muscle, causing vasodilation. It is not commonly used as first-line therapy for uncomplicated hypertension, but it may be useful when hypertension coexists with benign prostatic hyperplasia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-166",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive drug can cause reflex tachycardia, fluid retention, and a lupus-like syndrome?",
+      "options": [
+        "Atenolol",
+        "Amlodipine",
+        "Hydralazine",
+        "Losartan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydralazine is a direct arteriolar vasodilator. It can cause reflex sympathetic activation, leading to tachycardia and angina, and may cause fluid retention. A lupus-like syndrome is a classic adverse effect, especially with higher doses or prolonged use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-167",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How does captopril affect the renin-angiotensin-aldosterone system?",
+      "options": [
+        "Decreases angiotensin II and aldosterone, while increasing renin activity",
+        "Increases angiotensin II and aldosterone",
+        "Blocks aldosterone receptors directly",
+        "Blocks calcium entry into vascular smooth muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Captopril inhibits ACE, reducing angiotensin II formation. This decreases vasoconstriction and aldosterone secretion. Because angiotensin II normally suppresses renin release by negative feedback, renin activity increases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-168",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which group contains drugs from the same antihypertensive class?",
+      "options": [
+        "Doxazosin, prazosin, metoprolol",
+        "Amlodipine, verapamil, diltiazem",
+        "Clonidine, terazosin, losartan",
+        "Lisinopril, valsartan, carvedilol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amlodipine, verapamil, and diltiazem are calcium channel blockers. Amlodipine is a dihydropyridine CCB, while verapamil and diltiazem are non-dihydropyridine CCBs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-169",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class is generally recommended as first-line therapy in uncomplicated hypertension?",
+      "options": [
+        "ACE inhibitor or ARB",
+        "Ganglionic blocker",
+        "Central adrenergic neuron blocker",
+        "Direct renin infusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modern hypertension guidelines commonly use ACE inhibitors, ARBs, calcium channel blockers, and thiazide/thiazide-like diuretics as first-line options. Choice depends on age, comorbidities, race/ethnicity, pregnancy potential, kidney disease, and tolerability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-170",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is one important way beta-blockers reduce blood pressure?",
+      "options": [
+        "Increase cardiac output",
+        "Reduce heart rate and myocardial contractility",
+        "Increase renin release",
+        "Directly block angiotensin II receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers reduce blood pressure by lowering heart rate and myocardial contractility, which decreases cardiac output. Beta-1 blockade in the kidney also reduces renin release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-171",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blockers have proven benefit in heart failure with reduced ejection fraction?",
+      "options": [
+        "Carvedilol, metoprolol succinate, and bisoprolol",
+        "Propranolol and timolol",
+        "Atenolol and nadolol only",
+        "Labetalol and sotalol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Not all beta-blockers have the same evidence in HFrEF. Carvedilol, metoprolol succinate, and bisoprolol are the key evidence-based beta-blockers used to reduce morbidity and mortality in heart failure with reduced ejection fraction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-172",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive drug is commonly preferred in pregnancy?",
+      "options": [
+        "Lisinopril",
+        "Losartan",
+        "Labetalol",
+        "Aliskiren"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Labetalol is commonly used for hypertension in pregnancy. ACE inhibitors, ARBs, and direct renin inhibitors are avoided because they can harm fetal kidney development and cause serious fetal toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-173",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive drug class is contraindicated during pregnancy?",
+      "options": [
+        "ACE inhibitors and ARBs",
+        "Calcium channel blockers",
+        "Beta-blockers as a whole class",
+        "Thiazide diuretics in all cases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors and ARBs should be avoided in pregnancy because they can cause fetal renal dysfunction, oligohydramnios, skull hypoplasia, and neonatal renal failure. Pregnancy potential should always be considered before prescribing RAAS blockers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-174",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient on lisinopril develops persistent dry cough. What is the best pharmacologic explanation?",
+      "options": [
+        "Accumulation of bradykinin",
+        "Excess aldosterone production",
+        "Calcium channel blockade",
+        "Beta-2 receptor stimulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE breaks down bradykinin. ACE inhibitors increase bradykinin levels, which can cause dry cough and, rarely, angioedema. Switching to an ARB may be considered if cough is troublesome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-175",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is most associated with dihydropyridine calcium channel blockers such as amlodipine?",
+      "options": [
+        "Peripheral ankle edema",
+        "Severe hyperkalemia",
+        "Dry cough",
+        "Bronchospasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dihydropyridine CCBs cause arteriolar vasodilation, which can lead to peripheral edema, flushing, headache, and reflex tachycardia. This edema is not primarily due to fluid overload, so simply adding a diuretic may not fully solve it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-176",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is more characteristic of verapamil than amlodipine?",
+      "options": [
+        "Constipation and bradycardia",
+        "Hyperkalemia",
+        "Dry cough",
+        "Hypoglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil is a non-dihydropyridine CCB with cardiac effects. It can slow heart rate, reduce AV nodal conduction, and cause constipation. It should be used cautiously with beta-blockers due to risk of bradycardia or heart block.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-177",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which electrolyte abnormality is commonly associated with thiazide diuretics?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Severe hypermagnesemia",
+        "Hypercalciuria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thiazide diuretics can cause hypokalemia, hyponatremia, hyperuricemia, and mild hypercalcemia. They reduce urinary calcium excretion, which can be useful in patients with calcium kidney stones but problematic in hypercalcemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-178",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which thiazide-like diuretic is commonly favored because of strong antihypertensive outcome data and longer duration of action?",
+      "options": [
+        "Chlorthalidone",
+        "Mannitol",
+        "Furosemide",
+        "Acetazolamide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlorthalidone is a thiazide-like diuretic with a long duration of action and strong evidence for blood pressure reduction. Indapamide is another thiazide-like option used in many guidelines.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-179",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug class should generally be avoided in bilateral renal artery stenosis?",
+      "options": [
+        "ACE inhibitors or ARBs",
+        "Dihydropyridine calcium channel blockers",
+        "Alpha-1 blockers",
+        "Beta-blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In bilateral renal artery stenosis, kidney perfusion depends heavily on angiotensin II-mediated efferent arteriole constriction. ACE inhibitors or ARBs can reduce glomerular filtration pressure and cause acute kidney injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-180",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient taking spironolactone should be monitored for which important adverse effect?",
+      "options": [
+        "Hypokalemia",
+        "Hyperkalemia",
+        "Severe hypoglycemia",
+        "Ototoxicity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spironolactone is a mineralocorticoid receptor antagonist and potassium-sparing diuretic. It can cause hyperkalemia, especially in CKD or when combined with ACE inhibitors or ARBs. It may also cause gynecomastia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-181",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication is often added as fourth-line therapy in resistant hypertension if potassium and renal function allow?",
+      "options": [
+        "Spironolactone",
+        "Short-acting nifedipine",
+        "Propranolol only",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resistant hypertension often involves excess aldosterone activity or volume expansion. Spironolactone is commonly used as an add-on option when BP remains uncontrolled despite appropriate triple therapy, provided renal function and potassium are acceptable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-182",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination should generally be avoided for routine hypertension treatment?",
+      "options": [
+        "ACE inhibitor plus ARB",
+        "ACE inhibitor plus calcium channel blocker",
+        "ARB plus thiazide-like diuretic",
+        "Calcium channel blocker plus thiazide-like diuretic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combining an ACE inhibitor with an ARB increases the risk of hyperkalemia, hypotension, and kidney injury without enough benefit for routine hypertension treatment. Combination therapy should use complementary classes instead.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-183",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is an angiotensin receptor blocker?",
+      "options": [
+        "Lisinopril",
+        "Losartan",
+        "Amlodipine",
+        "Atenolol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Losartan is an ARB. ARBs block angiotensin II type 1 receptors, reducing vasoconstriction and aldosterone effects. They are less likely than ACE inhibitors to cause cough because they do not significantly increase bradykinin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-184",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive medication is an ACE inhibitor?",
+      "options": [
+        "Valsartan",
+        "Amlodipine",
+        "Lisinopril",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lisinopril is an ACE inhibitor. ACE inhibitors usually end in \"-pril,\" while ARBs commonly end in \"-sartan.\"",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-185",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with hypertension and stable angina may benefit from which antihypertensive class because it reduces myocardial oxygen demand?",
+      "options": [
+        "Beta-blocker",
+        "Alpha-1 blocker",
+        "Carbonic anhydrase inhibitor",
+        "Osmotic diuretic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and myocardial contractility, lowering myocardial oxygen demand. They are useful in hypertension with coronary artery disease or angina when not contraindicated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-186",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive is most likely to worsen asthma symptoms due to beta-2 blockade?",
+      "options": [
+        "Propranolol",
+        "Amlodipine",
+        "Losartan",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propranolol is a nonselective beta-blocker that blocks both beta-1 and beta-2 receptors. Beta-2 blockade can cause bronchoconstriction and may worsen asthma or COPD symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-187",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which selective beta-1 blocker is less likely than propranolol to cause bronchospasm, although caution is still needed?",
+      "options": [
+        "Metoprolol",
+        "Timolol",
+        "Nadolol",
+        "Propranolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metoprolol is relatively beta-1 selective, especially at lower doses. It is less likely to block beta-2 receptors than propranolol, but selectivity is dose-dependent and caution is still required in reactive airway disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-188",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication is commonly used intravenously in hypertensive emergencies, especially when rapid titration is needed?",
+      "options": [
+        "Nicardipine",
+        "Hydrochlorothiazide",
+        "Prazosin",
+        "Spironolactone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IV nicardipine is a titratable dihydropyridine calcium channel blocker used in many hypertensive emergencies. Other IV options include clevidipine, labetalol, nitroprusside, and nitroglycerin depending on the clinical scenario.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-189",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which IV antihypertensive is especially useful in acute aortic dissection because it rapidly reduces heart rate and shear stress?",
+      "options": [
+        "Esmolol",
+        "Hydralazine",
+        "Oral amlodipine",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In acute aortic dissection, rapid beta-blockade is important to reduce heart rate and aortic shear stress before or along with vasodilators. Esmolol is useful because it is short-acting and easily titratable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-190",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is commonly used for severe hypertension in pregnancy or preeclampsia?",
+      "options": [
+        "Oral losartan",
+        "IV labetalol",
+        "Aliskiren",
+        "Enalapril"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IV labetalol is commonly used for severe hypertension in pregnancy. Hydralazine and oral immediate-release nifedipine are also used depending on protocols. ACE inhibitors and ARBs are avoided in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-191",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antihypertensive can cause cyanide or thiocyanate toxicity, especially with prolonged infusion or renal/hepatic impairment?",
+      "options": [
+        "Sodium nitroprusside",
+        "Lisinopril",
+        "Amlodipine",
+        "Chlorthalidone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium nitroprusside is a potent IV arterial and venous vasodilator. It can cause cyanide or thiocyanate toxicity, particularly with high doses, prolonged infusion, or impaired renal/hepatic function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-192",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive class is most directly associated with angioedema?",
+      "options": [
+        "ACE inhibitors",
+        "Thiazide diuretics",
+        "Dihydropyridine calcium channel blockers",
+        "Alpha-1 blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors can cause bradykinin-mediated angioedema. It can occur even after long periods of therapy and may be life-threatening if the airway is involved.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-193",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is classically associated with alpha-1 blockers such as prazosin or doxazosin?",
+      "options": [
+        "First-dose orthostatic hypotension",
+        "Hyperkalemia",
+        "Dry cough",
+        "Bradycardia with AV block"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alpha-1 blockers cause vasodilation and may produce marked orthostatic hypotension after the first dose. They are often started at bedtime and titrated carefully.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-194",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive drug can cause rebound hypertension if stopped abruptly?",
+      "options": [
+        "Clonidine",
+        "Amlodipine",
+        "Hydrochlorothiazide",
+        "Losartan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonidine is a central alpha-2 agonist that reduces sympathetic outflow. Abrupt discontinuation can cause rebound sympathetic activation and severe rebound hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-195",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about beta-blockers in hypertension is most accurate?",
+      "options": [
+        "They are always first-line for every patient with uncomplicated hypertension",
+        "They are useful when there is a compelling indication such as CAD, heart failure, or certain arrhythmias",
+        "They are contraindicated in all diabetic patients",
+        "They have no effect on heart rate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers are no longer preferred as universal first-line therapy for uncomplicated hypertension, but they are very important when there are compelling indications such as ischemic heart disease, HFrEF with evidence-based agents, and rate-control needs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-196",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a thiazide-like diuretic?",
+      "options": [
+        "Indapamide",
+        "Furosemide",
+        "Mannitol",
+        "Spironolactone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indapamide is a thiazide-like diuretic. Thiazide-like diuretics such as chlorthalidone and indapamide are commonly used for hypertension because they have strong blood-pressure-lowering effects and long duration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-197",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive is preferred for hypertension with symptomatic benign prostatic hyperplasia as an additional benefit?",
+      "options": [
+        "Doxazosin",
+        "Hydrochlorothiazide",
+        "Lisinopril",
+        "Amlodipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Doxazosin is an alpha-1 blocker. It can lower blood pressure and improve urinary symptoms of benign prostatic hyperplasia. However, it is not usually preferred as first-line monotherapy for uncomplicated hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-198",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which monitoring parameter is especially important after starting or increasing an ACE inhibitor, ARB, or spironolactone?",
+      "options": [
+        "Serum potassium and kidney function",
+        "Serum amylase only",
+        "Platelet count only",
+        "Visual acuity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAAS blockers and mineralocorticoid receptor antagonists can increase potassium and affect renal function. Serum creatinine/eGFR and potassium should be monitored after initiation and dose adjustments.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-199",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive option is generally preferred in isolated systolic hypertension in older adults?",
+      "options": [
+        "Long-acting dihydropyridine CCB or thiazide-like diuretic",
+        "Short-acting nifedipine only",
+        "Alpha-1 blocker as first-line monotherapy",
+        "Nonselective beta-blocker only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isolated systolic hypertension in older adults is commonly treated with long-acting dihydropyridine CCBs or thiazide/thiazide-like diuretics. Short-acting nifedipine should be avoided because it can cause rapid BP drops and reflex tachycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensive-200",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication class should be used cautiously or avoided with verapamil or diltiazem because of risk of bradycardia and heart block?",
+      "options": [
+        "Beta-blockers",
+        "Thiazide diuretics",
+        "ARBs",
+        "Alpha-1 blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil and diltiazem slow AV nodal conduction. Combining them with beta-blockers can increase the risk of excessive bradycardia, heart block, and negative inotropic effects.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
