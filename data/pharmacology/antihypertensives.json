@@ -2,6 +2,347 @@
   "subjectId": "pharmacology",
   "topicId": "antihypertensives",
   "topicName": "Antihypertensives",
-  "updatedAt": "2026-05-02T21:57:43.337Z",
-  "questions": []
+  "updatedAt": "2026-05-02T21:58:27.493Z",
+  "questions": [
+    {
+      "id": "pharmacology-antihypertensives-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug classes are commonly used as first-line options for uncomplicated hypertension?",
+      "options": [
+        "ACE inhibitors/ARBs, calcium channel blockers, and thiazide/thiazide-like diuretics",
+        "Beta-blockers only",
+        "Alpha-blockers only",
+        "Centrally acting agents only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modern hypertension treatment commonly uses ACE inhibitors or ARBs, calcium channel blockers, and thiazide/thiazide-like diuretics as first-line options. Beta-blockers are important when there is a compelling indication such as coronary artery disease, heart failure with reduced ejection fraction, or certain arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the primary mechanism of ACE inhibitors in hypertension?",
+      "options": [
+        "Inhibition of angiotensin II formation",
+        "Calcium channel blockade",
+        "Alpha-1 receptor stimulation",
+        "Direct stimulation of beta receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors block the conversion of angiotensin I to angiotensin II. This reduces vasoconstriction and aldosterone secretion, lowering blood pressure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class primarily blocks beta-adrenergic receptors to reduce heart rate and cardiac output?",
+      "options": [
+        "Alpha-blockers",
+        "Beta-blockers",
+        "Calcium channel blockers",
+        "Diuretics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers reduce heart rate and myocardial contractility by blocking beta-adrenergic receptors, especially beta-1 receptors in the heart. This lowers cardiac output and contributes to blood pressure reduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the main goal of antihypertensive therapy?",
+      "options": [
+        "To reduce blood pressure as low as possible",
+        "To reduce cardiovascular, cerebrovascular, renal, and mortality risk",
+        "To eliminate all symptoms of hypertension",
+        "To prevent the need for lifestyle modification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The goal is not simply to lower the number as much as possible. The aim is to reduce the risk of stroke, myocardial infarction, heart failure, kidney disease progression, and death while avoiding hypotension and adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive class reduces sympathetic outflow from the central nervous system?",
+      "options": [
+        "ACE inhibitors",
+        "Alpha-1 blockers",
+        "Calcium channel blockers",
+        "Centrally acting alpha-2 agonists"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Centrally acting alpha-2 agonists, such as clonidine and methyldopa, reduce sympathetic outflow from the CNS. This lowers heart rate, vascular resistance, and blood pressure. They are not usually first-line for uncomplicated hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class blocks angiotensin II receptors?",
+      "options": [
+        "Angiotensin receptor blockers",
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Calcium channel blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARBs, such as losartan and valsartan, block angiotensin II type 1 receptors. This reduces vasoconstriction and aldosterone-mediated sodium and water retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the main antihypertensive mechanism of calcium channel blockers?",
+      "options": [
+        "Blocking calcium channels in the kidney only",
+        "Inhibiting renin release directly",
+        "Relaxing arterial smooth muscle and reducing peripheral resistance",
+        "Stimulating beta receptors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Calcium channel blockers inhibit L-type calcium channels. Dihydropyridines such as amlodipine mainly relax vascular smooth muscle, while non-dihydropyridines such as verapamil and diltiazem also slow heart rate and AV conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive drug is a direct vasodilator that may be used as an adjunct in severe resistant hypertension?",
+      "options": [
+        "Lisinopril",
+        "Doxazosin",
+        "Minoxidil",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Minoxidil is a potent direct arteriolar vasodilator. It may be used in severe resistant hypertension, usually with a beta-blocker and loop diuretic to reduce reflex tachycardia and fluid retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the initial blood pressure-lowering effect of thiazide diuretics?",
+      "options": [
+        "Inhibition of RAAS only",
+        "Calcium channel blockade",
+        "Alpha-1 receptor stimulation",
+        "Increased sodium and water excretion, reducing extracellular fluid volume"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Thiazide diuretics increase sodium and water excretion, initially reducing extracellular fluid volume and cardiac output. With chronic use, reduced peripheral vascular resistance also contributes to blood pressure control.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive class may be useful when hypertension coexists with benign prostatic hyperplasia?",
+      "options": [
+        "Alpha-1 blockers",
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Calcium channel blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alpha-1 blockers such as doxazosin and terazosin relax vascular smooth muscle and smooth muscle in the prostate/bladder neck. They can improve urinary symptoms in BPH, but they are usually not preferred as first-line monotherapy for uncomplicated hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why are antihypertensive drugs from different classes often combined?",
+      "options": [
+        "To eliminate all adverse effects",
+        "To improve blood pressure control through complementary mechanisms",
+        "To avoid lifestyle modification completely",
+        "To eliminate the possibility of drug interactions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combining drugs from different classes can improve BP control because the mechanisms complement each other. For example, an ACE inhibitor or ARB may be combined with a calcium channel blocker or thiazide-like diuretic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a centrally acting antihypertensive agent?",
+      "options": [
+        "Amlodipine",
+        "Enalapril",
+        "Clonidine",
+        "Losartan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clonidine is a central alpha-2 agonist that reduces sympathetic outflow. It can lower blood pressure but may cause sedation, dry mouth, bradycardia, and rebound hypertension if stopped abruptly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to ACC/AHA classification, blood pressure of 130–139 mmHg systolic or 80–89 mmHg diastolic is classified as:",
+      "options": [
+        "Elevated blood pressure",
+        "Stage 1 hypertension",
+        "Stage 2 hypertension",
+        "Normal blood pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stage 1 hypertension is defined as systolic BP 130–139 mmHg or diastolic BP 80–89 mmHg. Elevated BP is systolic 120–129 with diastolic less than 80.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which electrolyte abnormality is commonly associated with thiazide diuretics?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Severe hypermagnesemia",
+        "Hyperphosphatemia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thiazide diuretics can cause hypokalemia, hyponatremia, hyperuricemia, and mild hypercalcemia. The original version saying potassium retention was wrong; potassium retention is more associated with ACEIs, ARBs, potassium-sparing diuretics, and mineralocorticoid receptor antagonists.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class targets RAAS by blocking angiotensin II receptors?",
+      "options": [
+        "ACE inhibitors",
+        "Angiotensin receptor blockers",
+        "Centrally acting agents",
+        "Calcium channel blockers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ARBs block angiotensin II receptors directly. ACE inhibitors reduce production of angiotensin II, while ARBs block its receptor-mediated effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is an angiotensin receptor blocker used in hypertension?",
+      "options": [
+        "Atenolol",
+        "Lisinopril",
+        "Losartan",
+        "Spironolactone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Losartan is an ARB. Lisinopril is an ACE inhibitor, atenolol is a beta-blocker, and spironolactone is a mineralocorticoid receptor antagonist/potassium-sparing diuretic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about beta-blockers in heart failure is most accurate?",
+      "options": [
+        "All beta-blockers are contraindicated in heart failure",
+        "Evidence-based beta-blockers are beneficial in stable HFrEF, but should be started carefully",
+        "Beta-blockers are useful only for hypertension and never for heart failure",
+        "Propranolol is the preferred beta-blocker for HFrEF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The old version was misleading. Beta-blockers are not universally avoided in heart failure. In stable HFrEF, evidence-based beta-blockers such as carvedilol, metoprolol succinate, and bisoprolol improve outcomes, but they must be started at low doses and titrated carefully.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is NOT a typical adverse effect of alpha-1 blockers used for hypertension?",
+      "options": [
+        "Dizziness",
+        "Bradycardia",
+        "Orthostatic hypotension",
+        "Nasal congestion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha-1 blockers commonly cause vasodilation-related adverse effects such as dizziness, orthostatic hypotension, headache, and nasal congestion. Bradycardia is not a typical effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antihypertensive drug is commonly used as a first-line option for hypertension during pregnancy?",
+      "options": [
+        "Labetalol",
+        "Lisinopril",
+        "Losartan",
+        "Aliskiren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Labetalol is commonly used for hypertension in pregnancy. Nifedipine and methyldopa are also commonly used depending on patient factors and local protocols. ACE inhibitors, ARBs, and direct renin inhibitors should be avoided in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antihypertensives-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antihypertensive class is known for causing persistent dry cough in some patients?",
+      "options": [
+        "ACE inhibitors",
+        "Alpha-1 blockers",
+        "Calcium channel blockers",
+        "Centrally acting agents"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors can cause a persistent dry cough due to increased bradykinin. If cough is troublesome, switching to an ARB may be considered because ARBs do not significantly increase bradykinin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
