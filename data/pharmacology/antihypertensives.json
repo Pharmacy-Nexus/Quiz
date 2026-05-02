@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antihypertensives",
   "topicName": "Antihypertensives",
-  "updatedAt": "2026-05-02T22:25:07.064Z",
+  "updatedAt": "2026-05-02T22:26:20.997Z",
   "questions": [
     {
       "id": "pharmacology-antihypertensives-001",
@@ -3032,23 +3032,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "ACE inhibitors and ARBs can increase potassium and cause a rise in creatinine, especially in renal artery stenosis, dehydration, NSAID use, or advanced CKD. Monitoring potassium and kidney function is essential.",
-      "summary": "",
-      "caseText": "",
-      "imageUrl": ""
-    },
-    {
-      "id": "pharmacology-antihypertensives-179",
-      "type": "mcq",
-      "difficulty": "medium",
-      "questionText": "A 63-year-old man with newly diagnosed stage 1 essential hypertension is started on hydrochlorothiazide. After several weeks, his blood pressure improves. Which effect best explains the long-term antihypertensive action of thiazide therapy?",
-      "options": [
-        "Marked postural hypotension",
-        "Persistent decrease in cardiac output only",
-        "Decreased peripheral vascular resistance",
-        "Increased extracellular fluid volume"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Thiazides initially reduce extracellular fluid volume and cardiac output. With chronic use, the long-term antihypertensive effect is mainly due to decreased peripheral vascular resistance.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
