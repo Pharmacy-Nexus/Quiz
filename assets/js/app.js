@@ -1073,7 +1073,7 @@ function isTopicFullyAnswered() {
 function getWrongQuestionIdsForTopic() {
   const meta = appState.currentTopicMeta;
   if (!meta) return [];
-  return getPrimaryStudyQuestions()
+  return (appState.currentTopicQuestions || [])
     .filter(q => getStudyResultCorrect(meta.id, q.id) === false)
     .map(q => q.id);
 }
@@ -1127,7 +1127,7 @@ function renderSetsPage() {
   document.getElementById('sets-resume-progress-text') && (document.getElementById('sets-resume-progress-text').textContent = `${progressPercent}%`);
   document.getElementById('sets-resume-title') && (document.getElementById('sets-resume-title').textContent = primaryAnswered ? `Resume from Question ${Math.min(primaryAnswered + 1, questions.length)}` : 'Start from Question 1');
   document.getElementById('sets-resume-subtitle') && (document.getElementById('sets-resume-subtitle').textContent = `Core plan • ${primaryAnswered} of ${questions.length} answered`);
-  document.getElementById('sets-count-label') && (document.getElementById('sets-count-label').textContent = `${chunks.length} Core Sets${extraChunks.length ? ` + ${extraChunks.length} Extra` : ''}`);
+  document.getElementById('sets-count-label') && (document.getElementById('sets-count-label').textContent = `${chunks.length} Core Sets${extraChunks.length ? ` + ${extraChunks.length} Extended` : ''}`);
 
   const setGrid = document.getElementById('sets-grid');
   if (!setGrid) return;
@@ -1145,7 +1145,7 @@ function renderSetsPage() {
       : wrongIds.length
         ? 'Review your Wrong Questions Set'
         : extraChunks.length
-          ? 'Open Extra Practice Sets'
+          ? 'Open Extended Coverage Sets'
           : 'Topic core plan is complete';
   const readiness = Math.min(100, Math.round((progressPercent * 0.75) + ((topicDone && !wrongIds.length) ? 25 : topicDone ? 12 : 0)));
 
@@ -1193,12 +1193,12 @@ function renderSetsPage() {
           : 'bg-surface-container-high text-outline';
     const cardStateClass = unlocked ? 'cursor-pointer hover:-translate-y-1 hover:shadow-[0_24px_50px_rgba(0,21,27,0.10)]' : 'opacity-60 cursor-not-allowed';
     const icon = isExtra ? 'extension' : (unlocked ? 'arrow_outward' : 'lock');
-    const title = isExtra ? `Extra Questions ${start}–${end}` : `Questions ${start}–${end}`;
-    const label = isExtra ? `Extra Set ${labelIndex}` : `Set ${labelIndex} • ${statusText}`;
+    const title = isExtra ? `Extended Questions ${start}–${end}` : `Questions ${start}–${end}`;
+    const label = isExtra ? `Extended Set ${labelIndex}` : `Set ${labelIndex} • ${statusText}`;
     const desc = isExtra
-      ? 'Additional practice beyond the first 100-question core plan. Use it after the main sets and wrong-bank review.'
+      ? 'Advanced coverage beyond the first 100-question core plan. Use it to cover deeper details and larger topics.'
       : `${escapeHtml(meta.name)} • ${chunk.length} question${chunk.length === 1 ? '' : 's'} in this structured set.`;
-    const buttonText = !unlocked ? 'Locked' : started ? 'Resume' : isExtra ? 'Start Extra' : 'Start Set';
+    const buttonText = !unlocked ? 'Locked' : started ? 'Resume' : isExtra ? 'Start Extended' : 'Start Set';
     const secondaryAction = unlocked && started
       ? `<button onclick="event.stopPropagation(); startSet(${idx}, false);" class="px-4 py-2 rounded-xl bg-surface-container-low text-primary border border-outline-variant/20 text-xs font-black hover:bg-surface-container transition-colors">Restart</button>`
       : '';
@@ -1237,11 +1237,11 @@ function renderSetsPage() {
             <span class="px-3 py-1 bg-white/10 text-on-primary rounded-full text-xs font-bold border border-white/10">Unlocks after core completion</span>
           </div>
           <h3 class="text-2xl font-black mb-2">Wrong Questions Set</h3>
-          <p class="text-sm md:text-base text-on-primary/80 leading-relaxed max-w-2xl">This set automatically collects the questions you answered wrong across the first 5 core sets only, so your revision bank stays focused and accurate.</p>
+          <p class="text-sm md:text-base text-on-primary/80 leading-relaxed max-w-2xl">This set automatically collects the questions you answered wrong across both Core and Extended Coverage sets, so your revision bank follows your real mistakes.</p>
         </div>
         <div class="rounded-[1.5rem] bg-white/10 border border-white/15 p-5">
           <p class="text-xs font-black uppercase tracking-widest text-tertiary-fixed mb-2">Study Advice</p>
-          <p class="text-sm text-on-primary/85 leading-relaxed mb-4">Don’t open this set until you finish all core questions first.</p>
+          <p class="text-sm text-on-primary/85 leading-relaxed mb-4">Don’t open this set until you finish the core questions first. As you solve Extended Coverage, new mistakes will be added here.</p>
           <button onclick="event.stopPropagation(); startWrongQuestionSet();" class="w-full bg-tertiary-fixed text-on-tertiary-fixed px-5 py-3 rounded-xl text-sm font-black ${topicDone && wrongIds.length ? 'hover:scale-[0.98]' : 'opacity-60 cursor-not-allowed'} transition-transform">${!topicDone ? 'Locked Until Core Sets Are Complete' : wrongIds.length ? 'Start Wrong Set' : 'No Wrong Questions Yet'}</button>
         </div>
       </div>
@@ -1251,10 +1251,10 @@ function renderSetsPage() {
     <section id="extra-practice-section" class="space-y-5">
       <div class="flex items-center gap-4">
         <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
-        <div class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-xs font-black uppercase tracking-[0.22em] text-on-surface-variant whitespace-nowrap">Extra Practice Sets</div>
+        <div class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-xs font-black uppercase tracking-[0.22em] text-on-surface-variant whitespace-nowrap">Extended Coverage Sets</div>
         <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/60 to-transparent"></div>
       </div>
-      <p class="text-sm text-on-surface-variant max-w-3xl mx-auto text-center leading-relaxed">Extra sets are separated from the main 100-question study plan. They are optional advanced practice and can support final-exam variety.</p>
+      <p class="text-sm text-on-surface-variant max-w-3xl mx-auto text-center leading-relaxed">Extended Coverage continues beyond the core 100-question study plan. Use it for large topics that need deeper and more detailed coverage.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
         ${extraChunks.map((chunk, extraIdx) => buildSetCard(chunk, PRIMARY_STUDY_SET_COUNT + extraIdx, { isExtra: true })).join('')}
       </div>
@@ -1301,7 +1301,7 @@ window.startNextRecommendedSet = startNextRecommendedSet;
 function scrollToExtraSets() {
   const target = document.getElementById('extra-practice-section');
   if (!target) {
-    showToast('No extra practice sets are available for this topic yet.', 'info');
+    showToast('No extended coverage sets are available for this topic yet.', 'info');
     return;
   }
   target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1357,7 +1357,7 @@ function startWrongQuestionSet() {
   const meta = appState.currentTopicMeta;
   if (!meta) return;
   if (!isTopicFullyAnswered()) {
-    showToast('Finish all questions first before opening the Wrong Questions Set.', 'info');
+    showToast('Finish all core questions first before opening the Wrong Questions Set.', 'info');
     return;
   }
   const wrongIds = getWrongQuestionIdsForTopic();
