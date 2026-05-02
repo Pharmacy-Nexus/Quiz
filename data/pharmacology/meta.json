@@ -102,15 +102,15 @@
       "section": "Cardiovascular",
       "sectionId": "cardiovascular",
       "difficultyBreakdown": {
-        "easy": 25,
-        "medium": 97,
-        "hard": 38
+        "easy": 40,
+        "medium": 119,
+        "hard": 41
       },
-      "questionsCount": 160,
+      "questionsCount": 200,
       "file": "data/pharmacology/antihypertensive.json"
     }
   ],
-  "updatedAt": "2026-05-02T22:35:15.245Z",
+  "updatedAt": "2026-05-02T22:35:54.532Z",
   "sections": [
     {
       "id": "antimicrobials",
