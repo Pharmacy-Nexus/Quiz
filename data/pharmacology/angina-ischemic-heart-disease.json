@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "angina-ischemic-heart-disease",
   "topicName": "Angina / Ischemic Heart Disease",
-  "updatedAt": "2026-05-05T07:44:39.324Z",
+  "updatedAt": "2026-05-05T07:50:10.182Z",
   "questions": [
     {
       "id": "pharmacology-angina-ischemic-heart-disease-001",
@@ -1275,6 +1275,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "Trimetazidine is a pFOX inhibitor, meaning it partially inhibits fatty acid oxidation in myocardium. This improves the metabolic status of ischemic tissue by shifting metabolism toward more oxygen-efficient energy production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-076",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antianginal drug class can promote coronary vasodilation and is especially useful in vasospastic angina?",
+      "options": [
+        "Nonselective beta-blockers",
+        "Calcium channel blockers",
+        "Loop diuretics",
+        "Alpha-1 blockers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcium channel blockers relax vascular smooth muscle and can dilate coronary arteries. They are especially useful in vasospastic, or Prinzmetal, angina. Nonselective beta-blockers are not preferred in vasospastic angina because they may worsen coronary spasm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-077",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Organic nitrates such as nitroglycerin produce nitric oxide. Which intracellular pathway mediates their vasodilator effect?",
+      "options": [
+        "Decreased cGMP production",
+        "Activation of soluble guanylate cyclase with increased cGMP",
+        "Direct beta-1 receptor blockade",
+        "Inhibition of HMG-CoA reductase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nitrates are converted to nitric oxide, which activates soluble guanylate cyclase. This increases cGMP in vascular smooth muscle, leading to relaxation and vasodilation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-078",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which medication is preferred for rapid relief of an acute stable angina episode?",
+      "options": [
+        "Sodium nitroprusside",
+        "Hydralazine",
+        "Sublingual nitroglycerin",
+        "Metoprolol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sublingual nitroglycerin has rapid onset and is used for acute relief of angina attacks. Long-term agents such as beta-blockers, CCBs, or long-acting nitrates are used for prevention, not immediate relief.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug class is most useful for vasospastic angina because it improves coronary oxygen delivery by relieving coronary artery spasm?",
+      "options": [
+        "Beta-blockers",
+        "Calcium channel blockers",
+        "Thiazide diuretics",
+        "ACE inhibitors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vasospastic angina is caused by transient coronary artery spasm. Calcium channel blockers reduce coronary vasospasm and improve myocardial oxygen delivery. Nitrates can also help, especially for acute or adjunctive relief.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-080",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the usual duration of action of sublingual nitroglycerin?",
+      "options": [
+        "About 10–30 minutes",
+        "6–8 hours",
+        "12–24 hours",
+        "More than 24 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sublingual nitroglycerin has rapid onset and short duration, usually around 10–30 minutes. That makes it suitable for acute symptom relief, not all-day prophylaxis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal agent is useful because it relieves angina with minimal effect on heart rate and blood pressure?",
+      "options": [
+        "Ranolazine",
+        "Atenolol",
+        "Verapamil",
+        "Nitroglycerin spray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ranolazine inhibits the late inward sodium current, reducing intracellular calcium overload and improving myocardial relaxation. It is useful when additional lowering of heart rate or blood pressure is undesirable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-082",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement about beta-blockers in stable angina is correct?",
+      "options": [
+        "They mainly relieve angina by increasing cardiac contractility",
+        "They reduce myocardial oxygen demand by lowering heart rate, blood pressure, and contractility",
+        "They are first-line for vasospastic angina",
+        "They mainly work by releasing nitric oxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers reduce heart rate and contractility, lowering myocardial oxygen demand. They are useful in exertional angina, especially when there is prior MI, tachyarrhythmia, hypertension, or reduced ejection fraction. Long-term beta-blocker benefit is now considered more indication-based in chronic coronary disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-083",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is most appropriate for acute angina relief at home?",
+      "options": [
+        "Sublingual nitroglycerin",
+        "Transdermal nitroglycerin patch",
+        "Metoprolol succinate",
+        "High-intensity atorvastatin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sublingual nitroglycerin is used at the onset of chest pain because it acts quickly. Patches and long-acting nitrates are preventive therapies and have slower onset.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-084",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effects are commonly associated with nitrate therapy?",
+      "options": [
+        "Headache and hypotension",
+        "Hyperkalemia and bradycardia",
+        "Dry cough and angioedema",
+        "Severe constipation and AV block"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates commonly cause throbbing headache, flushing, dizziness, hypotension, and reflex tachycardia due to vasodilation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A 25-year-old woman is diagnosed with Prinzmetal angina. Which medication is most appropriate as preventive therapy?",
+      "options": [
+        "Diltiazem",
+        "Propranolol",
+        "Ivabradine",
+        "Labetalol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prinzmetal angina is caused by coronary vasospasm. Calcium channel blockers such as diltiazem, verapamil, amlodipine, or nifedipine are key preventive therapies. Nonselective beta-blockers may worsen vasospasm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-086",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a beta-blocker used for exertional angina when there is no contraindication?",
+      "options": [
+        "Metoprolol",
+        "Cholecalciferol",
+        "Dipyridamole",
+        "Minoxidil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metoprolol is a beta-1 selective blocker that lowers heart rate and myocardial oxygen demand. Cholecalciferol is vitamin D, and minoxidil is not an antianginal drug.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal drug can reduce myocardial oxygen demand and also improve oxygen delivery by dilating coronary vessels?",
+      "options": [
+        "Nitroglycerin",
+        "Atenolol",
+        "Metoprolol",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates reduce myocardial oxygen demand mainly by venodilation and reduced preload. They can also dilate coronary arteries and relieve coronary spasm, improving oxygen delivery in vasospastic components.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-088",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement about nitrate mechanism is correct?",
+      "options": [
+        "Nitrates release nitric oxide in vascular smooth muscle",
+        "Nitrates block beta-1 receptors",
+        "Nitrates inhibit calcium entry through L-type channels",
+        "Nitrates increase LDL receptor degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates release nitric oxide, which activates guanylate cyclase and increases cGMP. This relaxes vascular smooth muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which effect is NOT part of the beneficial antianginal action of nitrates?",
+      "options": [
+        "Decreased myocardial oxygen demand",
+        "Relief of coronary artery spasm",
+        "Improved perfusion to ischemic myocardium",
+        "Increased myocardial oxygen consumption"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nitrates reduce preload and wall stress, lowering oxygen demand. They may also improve coronary blood flow and relieve vasospasm. Increasing oxygen consumption would worsen angina, not improve it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-090",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which is NOT a typical adverse effect of nitrate therapy?",
+      "options": [
+        "Orthostatic hypotension",
+        "Throbbing headache",
+        "Tolerance with continuous use",
+        "Persistent dry cough"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dry cough is classically associated with ACE inhibitors, not nitrates. Nitrates commonly cause headache, flushing, dizziness, orthostatic hypotension, and tolerance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement about calcium channel blocker mechanism in angina is correct?",
+      "options": [
+        "They release nitric oxide directly",
+        "They block L-type calcium channels in vascular smooth muscle and/or the heart",
+        "They block beta-1 receptors in the SA node",
+        "They inhibit platelet COX-1 irreversibly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcium channel blockers inhibit L-type calcium channels. Dihydropyridines mainly vasodilate arteries, while verapamil and diltiazem also reduce heart rate and AV nodal conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which pair contains only calcium channel blockers used in angina or hypertension?",
+      "options": [
+        "Nitroglycerin and ranolazine",
+        "Amlodipine and verapamil",
+        "Minoxidil and hydralazine",
+        "Atenolol and metoprolol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amlodipine is a dihydropyridine CCB, while verapamil is a non-dihydropyridine CCB. Both can be used in cardiovascular therapy, but their cardiac effects differ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-093",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which condition is an appropriate use of calcium channel blockers?",
+      "options": [
+        "Angina pectoris",
+        "Hypotension",
+        "Untreated high-grade AV block with verapamil",
+        "Shock"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCBs are used for angina and hypertension. Non-dihydropyridine CCBs are also used for some supraventricular tachyarrhythmias, but they are avoided in significant AV block or decompensated HFrEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-094",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antianginal agent is a beta-adrenoceptor blocker?",
+      "options": [
+        "Ranolazine",
+        "Nitroglycerin",
+        "Atenolol",
+        "Amlodipine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atenolol is a beta-1 selective blocker. It reduces heart rate and myocardial oxygen demand, helping exertional angina in selected patients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which beta-blocker is NOT beta-1 selective?",
+      "options": [
+        "Metoprolol",
+        "Atenolol",
+        "Bisoprolol",
+        "Propranolol"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Propranolol is a nonselective beta-blocker that blocks beta-1 and beta-2 receptors. It can worsen bronchospasm in asthma or COPD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal drug lowers heart rate by inhibiting the funny current in the sinoatrial node?",
+      "options": [
+        "Ivabradine",
+        "Amlodipine",
+        "Nitroglycerin",
+        "Ranolazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ivabradine inhibits the If, or funny, current in the SA node, reducing heart rate without direct negative inotropy. It is used selectively, especially when heart-rate lowering is needed and beta-blockers are not suitable. In the 2023 AHA/ACC chronic coronary disease guidance, adding ivabradine to standard antianginal therapy in patients with normal LV function is listed as potentially harmful, so it should not be treated as routine angina therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with chronic stable angina remains symptomatic despite metoprolol and amlodipine. Heart rate is 58 bpm and blood pressure is 105/65 mmHg. Which add-on is most reasonable because it has minimal effect on heart rate and blood pressure?",
+      "options": [
+        "Ranolazine",
+        "Verapamil",
+        "Propranolol",
+        "Sublingual nitroglycerin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ranolazine is useful when angina persists and further reduction in heart rate or blood pressure is undesirable. It may prolong QT and has CYP3A-related interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which counseling point is essential for a patient using sublingual nitroglycerin?",
+      "options": [
+        "Swallow the tablet immediately with water",
+        "Use it at chest pain onset and seek emergency care if pain persists after repeated doses",
+        "Combine it with sildenafil for stronger vasodilation",
+        "Use it continuously all day to prevent tolerance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sublingual nitroglycerin should be placed under the tongue at symptom onset. If pain does not resolve after appropriate repeated doses, emergency care is needed. It must not be combined with PDE-5 inhibitors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which combination should be avoided because it can cause severe hypotension?",
+      "options": [
+        "Nitroglycerin plus sildenafil",
+        "Aspirin plus atorvastatin",
+        "Metoprolol plus aspirin",
+        "Amlodipine plus statin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates and PDE-5 inhibitors both increase cGMP-mediated vasodilation. Combining them can cause life-threatening hypotension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect requires caution when ranolazine is combined with other medications?",
+      "options": [
+        "QT prolongation",
+        "Severe bronchospasm",
+        "Gingival hyperplasia",
+        "Hyperkalemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ranolazine can prolong the QT interval and interacts with CYP3A inhibitors and inducers. It should be used carefully with other QT-prolonging drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with exertional angina and asthma needs antianginal therapy. Which option is generally safer than a nonselective beta-blocker?",
+      "options": [
+        "Amlodipine",
+        "Propranolol",
+        "Nadolol",
+        "Timolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nonselective beta-blockers can worsen bronchospasm by blocking beta-2 receptors. Amlodipine is a dihydropyridine CCB and does not cause beta-2 blockade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal should be avoided or used cautiously in significant AV block?",
+      "options": [
+        "Verapamil",
+        "Amlodipine",
+        "Nitroglycerin",
+        "Ranolazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil slows AV nodal conduction and can worsen AV block. Diltiazem has similar caution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug class is especially useful after myocardial infarction when the patient has reduced ejection fraction and no contraindication?",
+      "options": [
+        "Evidence-based beta-blockers",
+        "Direct coronary dilators only",
+        "Short-acting nitrates only",
+        "Alpha-1 blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In patients with reduced ejection fraction after MI, evidence-based beta-blockers such as metoprolol succinate, carvedilol, or bisoprolol improve outcomes. Long-term beta-blocker use without another indication is now more selectively applied.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which medication is most important for reducing recurrent cardiovascular events in chronic coronary disease by lowering LDL and stabilizing plaques?",
+      "options": [
+        "High-intensity statin",
+        "Sublingual nitroglycerin",
+        "Dipyridamole",
+        "Hydralazine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Statins lower LDL cholesterol and stabilize atherosclerotic plaques, reducing recurrent MI and cardiovascular events.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiplatelet mechanism explains aspirin's benefit in ischemic heart disease?",
+      "options": [
+        "Irreversible inhibition of platelet COX-1 and reduced thromboxane A2",
+        "Direct inhibition of thrombin",
+        "Reversible blockade of beta-1 receptors",
+        "Activation of plasminogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspirin irreversibly inhibits platelet COX-1, reducing thromboxane A2 production and platelet aggregation.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
