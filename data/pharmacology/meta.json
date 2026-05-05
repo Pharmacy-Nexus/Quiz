@@ -123,6 +123,21 @@
       },
       "questionsCount": 105,
       "file": "data/pharmacology/angina-ischemic-heart-disease.json"
+    },
+    {
+      "id": "antiarrhythmic-drugs",
+      "name": "Antiarrhythmic drugs",
+      "description": "",
+      "order": 3,
+      "section": "Cardiovascular",
+      "sectionId": "cardiovascular",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/pharmacology/antiarrhythmic-drugs.json"
     }
   ],
   "updatedAt": "2026-05-05T07:50:13.683Z",
