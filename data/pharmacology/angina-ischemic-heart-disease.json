@@ -2,6 +2,1282 @@
   "subjectId": "pharmacology",
   "topicId": "angina-ischemic-heart-disease",
   "topicName": "Angina / Ischemic Heart Disease",
-  "updatedAt": "2026-05-05T07:39:15.453Z",
-  "questions": []
+  "updatedAt": "2026-05-05T07:44:39.324Z",
+  "questions": [
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient develops chest discomfort when myocardial oxygen demand exceeds coronary oxygen supply. Which concept best explains angina pectoris?",
+      "options": [
+        "Increased cerebral blood flow",
+        "Imbalance between myocardial oxygen supply and demand",
+        "Excess acetylcholine release in skeletal muscle",
+        "Complete absence of cardiac metabolism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angina pectoris is an ischemic chest pain syndrome caused by insufficient oxygen supply to the myocardium relative to myocardial oxygen demand. Demand increases with heart rate, contractility, preload, and afterload, while supply decreases with coronary vasospasm, stenosis, plaque, or thrombosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which factor increases myocardial oxygen demand?",
+      "options": [
+        "Decreased heart rate",
+        "Decreased contractility",
+        "Increased preload",
+        "Increased coronary blood flow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Myocardial oxygen demand increases when the heart works harder. Major contributors include increased heart rate, increased contractility, increased preload, and increased afterload. Increased preload stretches the ventricle and increases wall tension, raising oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which factor decreases myocardial oxygen supply?",
+      "options": [
+        "Coronary vasospasm",
+        "Reduced heart rate",
+        "Reduced contractility",
+        "Reduced preload"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coronary vasospasm narrows the coronary artery lumen and reduces coronary blood flow. Reduced coronary flow decreases myocardial oxygen supply and may precipitate ischemia or angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Classic stable angina usually occurs:",
+      "options": [
+        "Only during sleep and never with effort",
+        "At a predictable level of physical activity, stress, or heavy meals",
+        "Only after nitrate overdose",
+        "Only in patients with normal coronary arteriogram"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stable angina, also called classic, typical, effort, or exertional angina, occurs when myocardial demand rises beyond the limited coronary supply. It is usually triggered by exertion, emotional stress, or heavy meals and improves with rest or medication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Unstable angina differs from stable angina because it:",
+      "options": [
+        "Occurs only at a fixed exertion level",
+        "Is relieved completely by rest every time",
+        "Occurs at rest with increasing severity, frequency, or duration",
+        "Is caused only by benign microvascular dysfunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unstable angina is more dangerous than stable angina. It may occur at rest and is characterized by worsening pain severity, frequency, and duration. It may represent acute coronary syndrome and can progress to myocardial infarction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Variant angina is mainly caused by:",
+      "options": [
+        "Localized coronary artery vasospasm",
+        "Decreased gastric emptying",
+        "Increased pulmonary ventilation",
+        "Reduced platelet aggregation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variant angina, also called Prinzmetal or vasospastic angina, results from localized coronary artery spasm that reduces myocardial blood flow. Unlike stable angina, it may occur at rest and may occur in patients with or without coronary artery disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which description best matches microvascular angina?",
+      "options": [
+        "Angina-like pain with normal coronary arteriogram due to microvascular dysfunction",
+        "Angina caused only by large coronary thrombosis",
+        "Chest pain caused by skeletal muscle injury only",
+        "Angina relieved only by increasing afterload"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microvascular angina, also called cardiac syndrome X or microvascular coronary artery disease, occurs due to dysfunction in the smallest coronary vessels. Patients may have angina-like chest pain despite a normal coronary arteriogram.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nocturnal angina is also called:",
+      "options": [
+        "Angina decubitus",
+        "Prinzmetal angina",
+        "Crescendo angina",
+        "Microvascular coronary artery disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nocturnal angina is also called angina decubitus. It usually occurs in the recumbent position and is related to increased ventricular volume, which raises myocardial oxygen requirements.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which symptom description is most typical of angina pectoris?",
+      "options": [
+        "Sharp superficial skin pain lasting seconds only",
+        "Substernal heaviness, pressure, squeezing, or choking pain",
+        "Isolated knee pain after exercise",
+        "Ear pain relieved by antibiotics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angina is commonly described as substernal heaviness, pressure, squeezing, or choking pain. It may radiate to the jaw, neck, shoulder, arm, back, or inner side of the left arm down to the little finger.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug class is useful for acute relief of anginal chest pain because of rapid vasodilation?",
+      "options": [
+        "Organic nitrates",
+        "Proton pump inhibitors",
+        "Oral iron supplements",
+        "Antihistamines only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organic nitrates are antianginal drugs used to relieve acute attacks and for prophylaxis. Sublingual nitroglycerin is especially useful for acute anginal pain because it has rapid onset and bypasses significant first-pass metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Organic nitrates mainly reduce myocardial oxygen demand by:",
+      "options": [
+        "Strong venodilation that reduces preload",
+        "Increasing heart rate directly",
+        "Increasing afterload",
+        "Increasing platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main antianginal mechanism of nitrates is venodilation. Venodilation increases venous capacitance, decreases venous return, reduces preload, lowers ventricular wall tension, and decreases myocardial oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is common with organic nitrates due to vasodilation of meningeal vessels?",
+      "options": [
+        "Severe headache",
+        "Gingival hyperplasia",
+        "Hyperkalemia",
+        "Bronchoconstriction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates can dilate meningeal vessels, causing headache. This is one of the most common adverse effects and may be reduced by patient reassurance and using paracetamol before nitrate administration when appropriate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is contraindicated with nitrates because it can cause severe hypotension?",
+      "options": [
+        "Sildenafil",
+        "Paracetamol",
+        "Aspirin",
+        "Atenolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sildenafil potentiates the cGMP-mediated vasodilatory effect of nitrates. Combining sildenafil with nitrates can cause profound hypotension, syncope, or cardiovascular collapse.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Beta-blockers are most effective as first-choice therapy in which type of angina?",
+      "options": [
+        "Stable exertional angina",
+        "Variant angina",
+        "Pure vasospastic angina only",
+        "Microvascular angina with no demand component"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers are effective first-choice drugs in stable exertional angina because they reduce heart rate, contractility, blood pressure, and therefore myocardial oxygen demand during rest and exertion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which beta-blocker should be avoided in variant angina?",
+      "options": [
+        "Propranolol",
+        "Nitroglycerin",
+        "Amlodipine",
+        "Nifedipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propranolol is contraindicated in variant angina because beta-blockade may worsen alpha-mediated coronary vasospasm. Variant angina is mainly a vasospastic problem, so vasodilators such as nitrates and CCBs are preferred.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has exertional chest pain relieved by rest within several minutes. Which mechanism is most likely responsible?",
+      "options": [
+        "Fixed atherosclerotic narrowing limits coronary flow during increased demand",
+        "Acute total coronary occlusion with persistent pain",
+        "Pure coronary spasm occurring only at midnight",
+        "Normal coronary arteriogram with no ischemic mechanism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stable angina usually results from coronary artery disease with atherosclerotic narrowing. At rest, oxygen supply may be adequate, but during exertion or stress, myocardial demand rises and the narrowed coronary vessels cannot increase flow enough, causing ischemic pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has chest pain at rest lasting more than 15 minutes and not relieved by rest or usual medication. Which diagnosis is most concerning?",
+      "options": [
+        "Unstable angina / acute coronary syndrome",
+        "Stable angina only",
+        "Benign reflux disease only",
+        "Nocturnal angina only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chest pain lasting more than 15 minutes, occurring at rest, and not relieved by rest or usual medication is concerning for unstable angina or acute coronary syndrome. This can progress to myocardial infarction and requires urgent evaluation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has chest pain between midnight and 8 a.m. due to coronary artery spasm. Which drug class is most appropriate?",
+      "options": [
+        "Calcium-channel blockers",
+        "Nonselective beta-blockers",
+        "Digoxin only",
+        "Oral iron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variant angina is caused by coronary artery spasm and commonly occurs at rest, often between midnight and morning. CCBs, especially DHPs, are first-choice therapy because they relax coronary smooth muscle and relieve vasospasm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can beta-blockers worsen variant angina?",
+      "options": [
+        "They may increase alpha-mediated coronary vasoconstriction by blocking beta-mediated vasodilatory influence",
+        "They directly release nitric oxide in coronary arteries",
+        "They strongly reduce platelet aggregation",
+        "They increase coronary blood flow through beta-2 activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In variant angina, alpha-mediated vasoconstriction predominates. Nonselective beta-blockade can leave alpha effects unopposed, worsening coronary spasm. This is why propranolol is contraindicated in variant angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with stable angina has persistent attacks despite nitrates and cannot tolerate beta-blockers. Which drug is most rational?",
+      "options": [
+        "Verapamil",
+        "Short-acting nifedipine",
+        "Sildenafil",
+        "Pindolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil is a non-DHP CCB with negative chronotropic and negative inotropic effects. It reduces heart rate, contractility, cardiac work, and myocardial oxygen demand, making it useful in stable angina when beta-blockers are contraindicated or inadequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is generally contraindicated in stable angina due to reflex tachycardia, except when long-acting forms such as amlodipine are used?",
+      "options": [
+        "Short-acting DHP CCBs such as nifedipine",
+        "Verapamil",
+        "Diltiazem",
+        "Beta-blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHP CCBs are strong arteriolar vasodilators. Short-acting DHPs may cause reflex tachycardia, increasing myocardial oxygen demand and potentially worsening ischemia in stable angina. Amlodipine is an exception because it is long-acting and does not produce abrupt reflex tachycardia to the same extent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is most associated with negative chronotropic, negative inotropic, and negative dromotropic effects?",
+      "options": [
+        "Verapamil",
+        "Nifedipine",
+        "Amlodipine",
+        "Nicardipine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil is cardioselective compared with DHPs. It reduces heart rate, cardiac contractility, and AV conduction. These effects reduce myocardial oxygen demand but can cause bradycardia or conduction problems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is particularly useful in variant angina because of strong coronary vasodilation?",
+      "options": [
+        "Nifedipine",
+        "Propranolol",
+        "Pindolol",
+        "Ivabradine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nifedipine and other DHP CCBs cause strong arteriolar and coronary vasodilation. This makes them useful in variant angina, where the main mechanism is coronary vasospasm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal drug reduces heart rate without reducing cardiac contractile force and can be used when beta-blockers are contraindicated?",
+      "options": [
+        "Ivabradine",
+        "Nifedipine",
+        "Sildenafil",
+        "Nitroglycerin patch only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ivabradine inhibits the hyperpolarization-activated sodium channel in the SA node, reducing heart rate. Its antianginal effect is mainly due to reduced oxygen demand, and it does not reduce cardiac contractile force.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why nitrates and beta-blockers are often combined in stable angina?",
+      "options": [
+        "Beta-blockers counter nitrate-induced reflex tachycardia, while nitrates reduce preload",
+        "Nitrates increase heart rate and beta-blockers increase contractility",
+        "Both drugs increase myocardial oxygen demand",
+        "The combination is used to increase afterload"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates reduce preload and BP but may cause reflex tachycardia, which increases myocardial demand. Beta-blockers reduce heart rate and contractility, balancing this reflex response. Together, they lower BP and myocardial oxygen demand more effectively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Organic nitrates generate vasodilation mainly through which pathway?",
+      "options": [
+        "NO release → guanylyl cyclase activation → increased cGMP → smooth muscle relaxation",
+        "Direct beta-1 stimulation → increased cardiac output",
+        "Acetylcholine release → skeletal muscle relaxation",
+        "Aldosterone blockade → sodium excretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates are converted to nitric oxide through enzymatic processes involving mitochondrial aldehyde dehydrogenase and sulfhydryl-dependent pathways. NO activates guanylyl cyclase, increases cGMP, and relaxes vascular smooth muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vascular bed is affected more strongly by organic nitrates?",
+      "options": [
+        "Venous capacitance vessels",
+        "Arterioles only",
+        "Pulmonary alveoli only",
+        "Skeletal muscle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organic nitrates are stronger venodilators than arteriolar dilators. Venodilation increases venous capacitance and decreases venous return, which reduces preload and myocardial oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A nitrate patch is particularly useful in which scenario?",
+      "options": [
+        "Nocturnal angina prophylaxis",
+        "Immediate emergency relief of sudden chest pain only",
+        "Treating acute bronchospasm",
+        "Reversing nitrate tolerance immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdermal nitrate patches are useful for prophylaxis, especially nocturnal angina. Sublingual or inhaled nitrates are better for acute attacks due to faster onset.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient uses three sublingual nitrate tablets without relief after 15 minutes. What should be suspected?",
+      "options": [
+        "Possible myocardial infarction requiring hospital evaluation",
+        "Expected stable angina requiring no action",
+        "Nitrate tolerance only",
+        "Benign headache"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If anginal pain does not improve after nitrate patch or three sublingual tablets within about 15 minutes, urgent hospital evaluation is required because myocardial infarction or acute coronary syndrome may be occurring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which formulation of nitrate is most appropriate for immediate acute anginal attack?",
+      "options": [
+        "Sublingual nitroglycerin",
+        "Oral sustained-release nitrate only",
+        "Transdermal patch only",
+        "Oral extended-release isosorbide mononitrate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sublingual nitroglycerin is well absorbed from the buccal mucosa and bypasses first-pass metabolism. It has rapid onset, making it appropriate for acute anginal attacks.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which nitrate preparation has 100% bioavailability according to the material?",
+      "options": [
+        "Isosorbide mononitrate",
+        "Sublingual nitroglycerin only",
+        "Isosorbide dinitrate only",
+        "Transdermal nitroglycerin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isosorbide mononitrate has 100% bioavailability. Many nitrate compounds undergo significant first-pass metabolism, which reduces oral bioavailability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does continuous exposure to high-dose nitrates lead to reduced effect?",
+      "options": [
+        "Development of nitrate tolerance",
+        "Permanent beta-receptor destruction",
+        "Increased calcium influx into coronary arteries",
+        "Complete loss of coronary arteries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Continuous nitrate exposure can cause tolerance, reducing pharmacological effect. Mechanisms include neurohumoral activation and depletion of sulfhydryl groups needed for nitrate biotransformation to NO.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How can nitrate tolerance be reduced?",
+      "options": [
+        "Providing a daily nitrate-free interval of 8–12 hours",
+        "Combining nitrates with sildenafil",
+        "Increasing the dose continuously without breaks",
+        "Avoiding all beta-blockers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A daily nitrate-free interval allows restoration of nitrate responsiveness. Continuous exposure increases tolerance, so intermittent dosing schedules are important for long-term prophylaxis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect can occur with high-dose nitrates because of blood pressure reduction?",
+      "options": [
+        "Postural hypotension and reflex tachycardia",
+        "Severe bradycardia and constipation",
+        "Hyperkalemia and renal failure",
+        "Bronchoconstriction and hypoglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High-dose nitrates can cause excessive vasodilation, reducing BP and producing postural hypotension. Baroreceptor compensation may cause reflex tachycardia, which can increase myocardial oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker subgroup should be avoided in angina because partial agonist activity may reduce antianginal benefit?",
+      "options": [
+        "Beta-blockers with intrinsic sympathomimetic activity",
+        "Cardioselective beta-blockers only",
+        "Beta-blockers with cardioprotective effects",
+        "Beta-blockers used after MI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers with intrinsic sympathomimetic activity, such as acebutolol, carteolol, and pindolol, are partial agonists and are avoided in angina because they may not sufficiently reduce heart rate and myocardial oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker has cardioprotective evidence according to the material?",
+      "options": [
+        "Metoprolol",
+        "Pindolol only",
+        "Carteolol only",
+        "Sildenafil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Timolol, metoprolol, atenolol, and propranolol are listed as beta-blockers with cardioprotective effects. They reduce myocardial oxygen demand and are useful in stable angina and post-MI contexts when appropriate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination is unsafe because both drugs can strongly depress AV nodal conduction?",
+      "options": [
+        "Propranolol with verapamil",
+        "Nitroglycerin with aspirin",
+        "Amlodipine with nitrates",
+        "Ivabradine with nitrates only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers slow heart rate and AV conduction. Verapamil also has strong negative dromotropic and chronotropic effects. Combining them can cause excessive bradycardia or AV block.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with classic angina and atrial fibrillation should avoid nifedipine because:",
+      "options": [
+        "Reflex tachycardia may increase ventricular rate and worsen ischemia",
+        "It causes severe bradycardia",
+        "It blocks AV conduction too strongly",
+        "It has no vascular effect"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Short-acting DHPs such as nifedipine can cause reflex tachycardia due to rapid vasodilation. In a patient with atrial fibrillation and angina, increasing ventricular rate can worsen myocardial oxygen demand and ischemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is a pFOX inhibitor that improves metabolic status of ischemic tissue?",
+      "options": [
+        "Trimetazidine",
+        "Propranolol",
+        "Nifedipine",
+        "Nitroglycerin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trimetazidine partially inhibits fatty acid oxidation \"pFOX inhibition\" in the myocardium. This may improve the metabolic status of ischemic tissue by shifting energy metabolism toward more oxygen-efficient pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug reduces calcium overload in ischemic myocytes by inhibiting late sodium current?",
+      "options": [
+        "Ranolazine",
+        "Morphine",
+        "Aspirin",
+        "Atenolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ranolazine inhibits the late sodium current, reducing intracellular sodium accumulation and indirectly reducing calcium overload in ischemic myocytes. It also has weak beta-blocking activity and pFOX inhibitory activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with stable angina takes nitroglycerin and develops reflex tachycardia. Why can this partially reduce nitrate benefit?",
+      "options": [
+        "Tachycardia increases myocardial oxygen demand",
+        "Tachycardia decreases myocardial oxygen demand",
+        "Tachycardia blocks NO formation",
+        "Tachycardia prevents venodilation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates reduce preload and myocardial oxygen demand, but reflex tachycardia can counteract this benefit by increasing heart rate and cardiac work. This is one reason beta-blockers can be useful in combination with nitrates in stable angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has variant angina. Which therapeutic logic is most appropriate?",
+      "options": [
+        "Use coronary vasodilators such as nitrates and DHP CCBs; avoid nonselective beta-blockers",
+        "Use propranolol as first-line because it increases coronary vasodilation",
+        "Use only ivabradine because it treats coronary spasm directly",
+        "Avoid nitrates because they worsen vasospasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variant angina is caused by coronary vasospasm, so drugs that relieve spasm are preferred. Nitrates and CCBs increase coronary blood flow and relieve vasospasm. Nonselective beta-blockers may worsen alpha-mediated coronary constriction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with nocturnal angina has attacks when lying flat. Which mechanism best explains this pattern?",
+      "options": [
+        "Increased ventricular volume in the recumbent position raises oxygen requirements",
+        "Complete absence of coronary arteries at night",
+        "Decreased venous return in recumbent position causes ischemia",
+        "Reduced oxygen demand during sleep causes pain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nocturnal angina occurs in the recumbent position because venous return and ventricular volume increase, raising myocardial oxygen demand. Elevating the head of the bed may reduce nocturnal attacks by reducing venous return.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with stable angina has high heart rate and high contractility during exertion. Which drug class most directly reduces both determinants of oxygen demand?",
+      "options": [
+        "Beta-blockers",
+        "Nitrates only",
+        "DHP CCBs only",
+        "Antiplatelets only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and contractility, two major determinants of myocardial oxygen demand. This makes them highly effective in exertional stable angina, where demand increases during physical activity or stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why amlodipine can be used in stable angina while short-acting nifedipine may worsen ischemia?",
+      "options": [
+        "Amlodipine is long-acting and causes less abrupt reflex tachycardia",
+        "Amlodipine strongly blocks beta-1 receptors",
+        "Nifedipine directly increases myocardial contractility as its main action",
+        "Amlodipine has no vascular effect"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHP CCBs are strong vasodilators and can trigger reflex tachycardia. Short-acting nifedipine may worsen ischemia by increasing heart rate and oxygen demand. Amlodipine is long-acting, causing smoother vasodilation with less problematic reflex tachycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which mechanism best explains nitrate tolerance?",
+      "options": [
+        "Neurohumoral activation and sulfhydryl depletion impairing nitrate conversion to NO",
+        "Downregulation of nitrate receptors only",
+        "Permanent destruction of venous smooth muscle",
+        "Increased platelet aggregation through cGMP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates do not act through classic receptors. Tolerance may occur due to neurohumoral activation and depletion of sulfhydryl groups, which impairs nitrate biotransformation to NO. This is why nitrate-free intervals restore responsiveness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antianginal drug reduces heart rate without decreasing contractile force, making it useful when beta-blockers are contraindicated?",
+      "options": [
+        "Ivabradine",
+        "Verapamil",
+        "Propranolol",
+        "Nitroglycerin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ivabradine reduces heart rate by inhibiting the hyperpolarization-activated sodium channel in the SA node. Unlike beta-blockers and verapamil, it does not reduce cardiac contractile force, making it useful in selected patients who cannot tolerate beta-blockers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has chest pain >15 minutes suspicious for ACS. Which acute management mnemonic is described?",
+      "options": [
+        "MONA: morphine, oxygen, nitrates, aspirin",
+        "RICE: rest, ice, compression, elevation",
+        "DASH: diet, activity, sodium, hydration",
+        "FAST: face, arm, speech, time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an acute attack suspicious for acute coronary syndrome, the material highlights MONA: morphine, oxygen, nitrates, and aspirin. Aspirin is important for antiplatelet therapy, while nitrates relieve ischemic symptoms through vasodilation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated strategy best reduces myocardial ischemia in angina?",
+      "options": [
+        "Reduce demand by lowering HR, contractility, preload, and afterload, while improving supply by relieving vasospasm and preventing thrombosis",
+        "Increase HR and contractility to force more oxygen into myocardium",
+        "Increase preload and afterload to improve coronary supply",
+        "Treat angina only with antibiotics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angina results from supply-demand imbalance. Treatment targets both sides: beta-blockers reduce HR and contractility, nitrates reduce preload and relieve spasm, CCBs reduce demand and/or improve coronary flow, statins treat dyslipidemia, and antiplatelets such as aspirin reduce clot formation risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug-selection statement is most accurate for angina therapy?",
+      "options": [
+        "Stable angina: beta-blockers are first-choice; variant angina: CCBs and nitrates are preferred; unstable angina: urgent ACS evaluation is required",
+        "Stable angina: propranolol is contraindicated in all cases; variant angina: propranolol is first-choice",
+        "Nitrates are contraindicated in all types of angina",
+        "DHP CCBs are always preferred over all other drugs in stable angina regardless of reflex tachycardia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stable exertional angina is mainly demand-related, so beta-blockers are highly effective. Variant angina is spasm-related, so vasodilators such as nitrates and CCBs are preferred, while nonselective beta-blockers may worsen it. Unstable angina may represent acute coronary syndrome and requires urgent assessment and treatment rather than routine outpatient management.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with stable angina needs rapid relief during an acute chest pain episode. Which nitrate formulation is most appropriate?",
+      "options": [
+        "Transdermal nitroglycerin patch",
+        "Sublingual nitroglycerin",
+        "Oral sustained-release nitroglycerin",
+        "Oral extended-release isosorbide mononitrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sublingual nitroglycerin is preferred for acute anginal attacks because it is absorbed rapidly through the buccal mucosa and avoids significant first-pass metabolism. Transdermal and oral sustained-release preparations are better suited for prophylaxis rather than immediate relief.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has frequent nocturnal angina attacks while lying down. Which nitrate preparation is most suitable for prevention?",
+      "options": [
+        "Nitroglycerin patch",
+        "Single sublingual tablet only during the day",
+        "IV nitroglycerin as chronic outpatient therapy",
+        "Isosorbide mononitrate only after the attack starts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transdermal nitrate patch can provide prolonged nitrate effect and is useful for nocturnal angina prophylaxis. Nocturnal angina occurs in the recumbent position because increased venous return raises ventricular volume and myocardial oxygen demand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient uses sublingual nitroglycerin for chest pain. After 15 minutes and three doses, the pain persists. What is the most appropriate interpretation?",
+      "options": [
+        "This is expected stable angina and no action is needed",
+        "Possible myocardial infarction or acute coronary syndrome should be suspected",
+        "The patient should immediately take sildenafil",
+        "The patient should continue taking unlimited nitrate tablets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Failure of chest pain to respond after repeated sublingual nitrate doses within about 15 minutes is a red flag for acute coronary syndrome or myocardial infarction. This requires urgent hospital evaluation rather than continued self-treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which nitrate has complete oral bioavailability according to the material?",
+      "options": [
+        "Isosorbide mononitrate",
+        "Nitroglycerin oral tablet",
+        "Isosorbide dinitrate only",
+        "Sodium nitroprusside"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isosorbide mononitrate has 100% bioavailability. Many other nitrate preparations undergo first-pass metabolism, which limits their oral bioavailability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are sustained-release oral nitrates used between attacks rather than for immediate relief?",
+      "options": [
+        "They have slower onset and longer duration, making them better for prophylaxis",
+        "They cannot produce vasodilation",
+        "They are only active in the lungs",
+        "They directly block beta receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustained-release oral nitrate preparations are designed for longer duration, not immediate onset. They are useful between attacks to reduce anginal frequency, while sublingual or inhaled nitrates are preferred for acute attacks.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mechanism best explains nitrate-induced headache?",
+      "options": [
+        "Vasodilation of meningeal vessels",
+        "Bronchoconstriction",
+        "Sodium channel blockade",
+        "Increased platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates increase cGMP in smooth muscle and cause vasodilation. Vasodilation of meningeal vessels commonly produces headache, which is one of the most frequent nitrate adverse effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient taking nitrates develops facial flushing. Which mechanism best explains this adverse effect?",
+      "options": [
+        "Vasodilation of facial arteries",
+        "Beta-1 blockade",
+        "Alpha-1 stimulation",
+        "Calcium retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organic nitrates produce vasodilation through NO-cGMP signaling. Facial artery vasodilation can cause flushing, while meningeal vasodilation causes headache.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why nitrates may reduce platelet aggregation?",
+      "options": [
+        "They increase cGMP, which can inhibit platelet function",
+        "They directly activate thromboxane A2",
+        "They block aspirin metabolism",
+        "They increase fibrin formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates increase cGMP, and increased cGMP can reduce platelet aggregation. This is not the main antianginal mechanism, but it is an additional pharmacological effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-059",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient takes nitroglycerin continuously throughout the day and reports loss of effect. Which explanation is most accurate?",
+      "options": [
+        "Continuous exposure causes tolerance due to neurohumoral activation and sulfhydryl depletion",
+        "Nitroglycerin stops crossing the blood-brain barrier",
+        "Nitroglycerin causes permanent coronary artery closure",
+        "Nitrates act on beta receptors that are immediately destroyed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrate tolerance occurs with continuous exposure, especially high-dose exposure. Mechanisms include sympathetic/RAS neurohumoral activation and depletion of sulfhydryl groups needed for nitrate conversion to nitric oxide. A daily nitrate-free interval helps restore responsiveness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-060",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which schedule is most rational to reduce nitrate tolerance during chronic prophylaxis?",
+      "options": [
+        "Continuous 24-hour nitrate exposure with no break",
+        "Daily nitrate-free interval of about 8–12 hours",
+        "Increasing nitrate dose every hour",
+        "Combining nitrates with sildenafil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A nitrate-free interval of 8–12 hours reduces tolerance by allowing restoration of nitrate responsiveness. Continuous exposure reduces nitrate effect over time.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with stable exertional angina has high heart rate during exercise. Which drug class most directly reduces this oxygen-demand trigger?",
+      "options": [
+        "Beta-blockers",
+        "Nitrates only",
+        "Aspirin only",
+        "Statins only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and contractility, both of which reduce myocardial oxygen demand. This makes them first-choice drugs in stable exertional angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are beta-blockers not useful and may be harmful in variant angina?",
+      "options": [
+        "They may worsen coronary vasospasm by allowing alpha-mediated vasoconstriction to dominate",
+        "They strongly release nitric oxide in coronary arteries",
+        "They directly relax coronary smooth muscle",
+        "They increase beta-2-mediated vasodilation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variant angina is caused by coronary vasospasm. Nonselective beta-blockade may worsen alpha-mediated coronary constriction, especially when alpha-1 vasoconstrictive tone is dominant. Therefore, vasodilators such as nitrates and CCBs are preferred.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with stable angina is taking propranolol and is prescribed verapamil. What is the major concern?",
+      "options": [
+        "Excessive bradycardia or AV conduction block",
+        "Severe hyperkalemia",
+        "Nitrate tolerance",
+        "Increased platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both propranolol and verapamil reduce heart rate and AV nodal conduction. Their combination can produce severe bradycardia, AV block, or excessive cardiac depression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blockers are avoided in angina because their partial agonist activity may reduce antianginal benefit?",
+      "options": [
+        "Acebutolol, carteolol, and pindolol",
+        "Metoprolol, atenolol, and timolol",
+        "Propranolol, nadolol, and timolol",
+        "Carvedilol, labetalol, and nebivolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers with intrinsic sympathomimetic activity \"ISA\" are partial agonists. They may not reduce heart rate and myocardial oxygen demand as strongly as needed in angina, so they are generally avoided.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker-related statement is most appropriate in stable angina?",
+      "options": [
+        "Beta-blockers reduce myocardial oxygen demand by negative chronotropic and negative inotropic effects",
+        "Beta-blockers are first-choice in variant angina",
+        "Beta-blockers increase preload as their main benefit",
+        "Beta-blockers relieve coronary spasm directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and contractility, lowering cardiac work and oxygen demand. They are most useful in stable exertional angina, where increased demand triggers pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with angina and asthma needs antianginal therapy. Why is a nonselective beta-blocker problematic?",
+      "options": [
+        "It can block beta-2 receptors in bronchi and precipitate bronchoconstriction",
+        "It always causes nitrate tolerance",
+        "It directly increases coronary spasm by activating M3 receptors",
+        "It causes hypercalcemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nonselective beta-blockers block beta-2 receptors in bronchial smooth muscle, increasing bronchoconstriction risk. In asthmatic patients, they should generally be avoided or used only with extreme caution when no safer option exists.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which calcium-channel blocker profile is most useful in stable angina when beta-blockers are contraindicated?",
+      "options": [
+        "Non-DHP CCBs that reduce heart rate and contractility",
+        "Short-acting DHPs that trigger reflex tachycardia",
+        "Drugs with no cardiac or vascular effects",
+        "Aldosterone antagonists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Non-DHP CCBs such as verapamil and diltiazem reduce heart rate, contractility, and AV conduction. This decreases myocardial oxygen demand and makes them useful in stable angina when beta-blockers cannot be used.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is long-acting and may be used in stable angina because it causes less problematic reflex tachycardia?",
+      "options": [
+        "Amlodipine",
+        "Short-acting nifedipine",
+        "Nicardipine only",
+        "Verapamil patch only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amlodipine is a long-acting DHP CCB. Unlike short-acting nifedipine, it produces smoother vasodilation and less abrupt reflex tachycardia, making it more suitable in stable angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with classic angina and atrial fibrillation is prescribed nifedipine. Why may this be risky?",
+      "options": [
+        "Reflex tachycardia may increase ventricular rate and worsen ischemia",
+        "It strongly blocks AV conduction like verapamil",
+        "It causes complete coronary vasoconstriction",
+        "It prevents all platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Short-acting DHP CCBs can cause reflex tachycardia due to rapid vasodilation. In atrial fibrillation, this can increase ventricular rate, raise myocardial oxygen demand, and worsen angina or ischemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CCB is described as having high selectivity for coronary blood vessels?",
+      "options": [
+        "Nicardipine",
+        "Verapamil",
+        "Diltiazem",
+        "Esmolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nicardipine is a DHP CCB with high selectivity for coronary blood vessels. This makes it useful where coronary vasodilation is desired, such as vasospastic angina.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which mechanism best explains CCB effectiveness in exertional angina?",
+      "options": [
+        "Decreased contractility, decreased afterload, and increased coronary blood flow",
+        "Increased heart rate, increased preload, and platelet activation",
+        "Increased contractility and increased oxygen demand",
+        "Increased coronary spasm only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCBs reduce ischemia through multiple mechanisms. Non-DHPs reduce heart rate and contractility. DHPs reduce afterload through arteriolar vasodilation. CCBs can also improve coronary blood flow by dilating coronary arteries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which newer antianginal drug inhibits the late sodium current and reduces calcium overload in ischemic myocytes?",
+      "options": [
+        "Ranolazine",
+        "Trimetazidine",
+        "Ivabradine",
+        "Nicorandil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ranolazine inhibits the late sodium current. By reducing intracellular sodium accumulation, it indirectly reduces calcium overload in ischemic myocytes, improving myocardial relaxation and ischemic tolerance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal drug reduces heart rate by inhibiting hyperpolarization-activated sodium channels in the SA node?",
+      "options": [
+        "Ivabradine",
+        "Ranolazine",
+        "Nicorandil",
+        "Nitroglycerin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ivabradine inhibits hyperpolarization-activated sodium channels in the SA node, reducing heart rate and myocardial oxygen demand without reducing cardiac contractile force.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antianginal drug has both potassium-channel opening activity and an NO-related vasodilating component?",
+      "options": [
+        "Nicorandil",
+        "Ranolazine",
+        "Trimetazidine",
+        "Metoprolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nicorandil activates KATP channels, causing hyperpolarization and vasodilation. It also has an NO moiety, giving it nitrate-like vasodilating effects that reduce both preload and afterload.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-angina-ischemic-heart-disease-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with angina has persistent symptoms despite standard therapy. Which newer drug works mainly by improving myocardial metabolism through partial inhibition of fatty acid oxidation?",
+      "options": [
+        "Trimetazidine",
+        "Propranolol",
+        "Nifedipine",
+        "Aspirin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trimetazidine is a pFOX inhibitor, meaning it partially inhibits fatty acid oxidation in myocardium. This improves the metabolic status of ischemic tissue by shifting metabolism toward more oxygen-efficient energy production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
