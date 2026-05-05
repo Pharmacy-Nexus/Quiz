@@ -147,15 +147,15 @@
       "section": "Cardiovascular",
       "sectionId": "cardiovascular",
       "difficultyBreakdown": {
-        "easy": 51,
-        "medium": 61,
-        "hard": 13
+        "easy": 67,
+        "medium": 78,
+        "hard": 15
       },
-      "questionsCount": 125,
+      "questionsCount": 160,
       "file": "data/pharmacology/congestive-heart-failure.json"
     }
   ],
-  "updatedAt": "2026-05-05T09:17:59.266Z",
+  "updatedAt": "2026-05-05T09:20:39.760Z",
   "sections": [
     {
       "id": "antimicrobials",
