@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "congestive-heart-failure",
   "topicName": "Congestive Heart Failure",
-  "updatedAt": "2026-05-05T09:17:55.231Z",
+  "updatedAt": "2026-05-05T09:20:35.771Z",
   "questions": [
     {
       "id": "pharmacology-congestive-heart-failure-001",
@@ -2125,6 +2125,601 @@
       ],
       "correctAnswer": 1,
       "explanation": "RAAS blockade, beta-blockade, MRA therapy, ARNI therapy, and SGLT2 inhibitors help reduce maladaptive remodeling and improve outcomes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-126",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best represents modern foundational pharmacotherapy for chronic HFrEF?",
+      "options": [
+        "Loop diuretic, digoxin, nitrate, and aspirin",
+        "ARNI/ACEI/ARB, evidence-based beta-blocker, MRA, and SGLT2 inhibitor",
+        "Calcium channel blocker, thiazide, digoxin, and statin",
+        "Nitrate, hydralazine, loop diuretic, and ivabradine only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern HFrEF treatment is based on four foundational pillars: RAAS/ARNI therapy, evidence-based beta-blocker, mineralocorticoid receptor antagonist, and SGLT2 inhibitor. Loop diuretics are essential for congestion relief but do not replace mortality-reducing GDMT.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-127",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the primary mechanism of ACE inhibitors in heart failure?",
+      "options": [
+        "Block beta-1 receptors",
+        "Inhibit ACE, reducing angiotensin II formation",
+        "Block aldosterone receptors directly",
+        "Inhibit neprilysin only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ACE inhibitors reduce angiotensin II and aldosterone, lowering afterload, preload, sodium retention, and maladaptive remodeling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-128",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is classically associated with ACE inhibitors due to increased bradykinin?",
+      "options": [
+        "Dry cough",
+        "Hypokalemia",
+        "Tinnitus",
+        "Hyperglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors prevent bradykinin breakdown. Increased bradykinin can cause dry cough and, rarely, angioedema.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-129",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ARBs improve heart failure and hypertension mainly by:",
+      "options": [
+        "Inhibiting renin release",
+        "Blocking angiotensin II type 1 receptors",
+        "Activating ACE",
+        "Blocking aldosterone receptors directly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ARBs block AT1 receptors, reducing angiotensin II-mediated vasoconstriction, aldosterone secretion, and remodeling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-130",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sacubitril/valsartan improves HFrEF outcomes partly because sacubitril:",
+      "options": [
+        "Breaks down natriuretic peptides",
+        "Blocks beta-1 receptors",
+        "Inhibits neprilysin, increasing natriuretic peptide activity",
+        "Directly blocks aldosterone receptors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sacubitril inhibits neprilysin, reducing breakdown of natriuretic peptides. This promotes natriuresis, vasodilation, and anti-remodeling effects. It is combined with valsartan to block RAAS activation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-131",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which beta-blocker has strong evidence for mortality reduction in chronic HFrEF?",
+      "options": [
+        "Atenolol",
+        "Metoprolol succinate",
+        "Propranolol",
+        "Nadolol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Evidence-based beta-blockers for HFrEF include metoprolol succinate, carvedilol, and bisoprolol. Not all beta-blockers have equivalent heart failure outcome evidence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-132",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "For rapid relief of pulmonary congestion in acute decompensated heart failure, which drug is commonly used?",
+      "options": [
+        "Hydrochlorothiazide",
+        "IV furosemide",
+        "Spironolactone alone",
+        "Mannitol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Loop diuretics such as furosemide are used to relieve congestion and pulmonary edema. They improve symptoms but are not considered primary mortality-reducing therapy by themselves.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-133",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Spironolactone benefits selected HFrEF patients mainly by:",
+      "options": [
+        "Inhibiting Na+/K+ ATPase",
+        "Blocking aldosterone receptors and reducing sodium retention/remodeling",
+        "Blocking the If current",
+        "Inhibiting PDE3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mineralocorticoid receptor antagonists reduce aldosterone-mediated sodium retention, potassium loss, fibrosis, and remodeling. They require potassium and kidney function monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-134",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Combining an ACE inhibitor or ARB with spironolactone increases the risk of:",
+      "options": [
+        "Hypocalcemia",
+        "Hypokalemia",
+        "Hyperkalemia",
+        "Hypoglycemia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both RAAS blockers and MRAs reduce aldosterone effect, decreasing potassium excretion and increasing hyperkalemia risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-135",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Digoxin increases cardiac contractility by:",
+      "options": [
+        "Stimulating beta-1 receptors",
+        "Inhibiting Na+/K+ ATPase, increasing intracellular calcium",
+        "Blocking L-type calcium channels",
+        "Activating phospholamban"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Digoxin inhibits Na+/K+ ATPase, increasing intracellular sodium and indirectly increasing intracellular calcium through reduced Na+/Ca2+ exchange. This increases contractility.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-136",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is the overall effect of digoxin on mortality in chronic HFrEF?",
+      "options": [
+        "Strong mortality reduction",
+        "Strong mortality increase at all doses",
+        "No clear mortality benefit, but it may reduce symptoms and hospitalizations",
+        "Immediate reversal of heart failure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Digoxin may help symptoms and reduce hospitalization in selected patients, but it is not a foundational mortality-reducing therapy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-137",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which clinical finding is characteristic of digoxin toxicity?",
+      "options": [
+        "Blue-green color blindness only",
+        "Nausea, confusion, arrhythmias, and yellow/green visual halos",
+        "Dry mouth and polyuria",
+        "Peripheral neuropathy only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Digoxin toxicity can cause GI symptoms, visual changes, confusion, and many arrhythmias. Risk increases with renal dysfunction, hypokalemia, and drug interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-138",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which parameters are important to monitor in a patient receiving digoxin?",
+      "options": [
+        "Serum digoxin concentration, renal function, and potassium",
+        "Liver enzymes only",
+        "Fasting glucose only",
+        "INR only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digoxin has a narrow therapeutic index and is renally cleared. Potassium abnormalities strongly influence toxicity risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-139",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Ivabradine lowers heart rate by inhibiting which current in the sinoatrial node?",
+      "options": [
+        "L-type calcium current",
+        "Delayed rectifier potassium current",
+        "Funny current, If",
+        "Na+/K+ ATPase current"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ivabradine selectively inhibits the If current in the SA node, reducing heart rate without direct negative inotropy. It is used only in selected HFrEF patients in sinus rhythm with elevated heart rate despite maximally tolerated beta-blocker.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-140",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydralazine plus isosorbide dinitrate is especially beneficial as add-on therapy in which HFrEF population?",
+      "options": [
+        "Young athletes with HFpEF",
+        "Black patients with persistent symptomatic HFrEF despite standard therapy",
+        "All pregnant women with heart failure",
+        "Patients with isolated hypertension only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydralazine–isosorbide dinitrate can improve outcomes in self-identified Black patients with persistent symptomatic HFrEF despite guideline-directed therapy. It is also used when ACEI/ARB/ARNI cannot be used.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-141",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In cardiogenic shock with low cardiac output and hypotension, which inotrope is commonly used to increase contractility?",
+      "options": [
+        "Enalapril",
+        "Dobutamine",
+        "Spironolactone",
+        "Metoprolol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dobutamine is a beta-1 agonist that increases contractility and cardiac output. It is used short-term in selected patients with low-output states or cardiogenic shock.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-142",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Milrinone improves cardiac output mainly by:",
+      "options": [
+        "PDE3 inhibition, increasing cAMP and causing inotropy plus vasodilation",
+        "Beta-2 receptor blockade",
+        "Increasing angiotensin II levels",
+        "Blocking sodium channels in the kidney"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Milrinone is an inodilator. It increases cAMP by inhibiting PDE3, improving contractility and causing vasodilation. It can cause hypotension and arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-143",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Loop diuretics produce natriuresis by inhibiting:",
+      "options": [
+        "Na+/Cl− cotransporter in the distal tubule",
+        "ENaC in the collecting duct",
+        "Na+/K+/2Cl− transporter in the thick ascending limb",
+        "Sodium-glucose cotransporter 2 in the proximal tubule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Loop diuretics inhibit NKCC2 in the thick ascending limb, causing powerful natriuresis and diuresis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-144",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Thiazide diuretics primarily act at the:",
+      "options": [
+        "Proximal convoluted tubule",
+        "Thick ascending limb",
+        "Distal convoluted tubule",
+        "Collecting duct"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thiazides inhibit the Na+/Cl− cotransporter in the distal convoluted tubule.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-145",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which potassium-sparing diuretic directly blocks epithelial sodium channels in the collecting duct?",
+      "options": [
+        "Spironolactone",
+        "Amiloride",
+        "Furosemide",
+        "Hydrochlorothiazide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amiloride blocks ENaC in the collecting duct. Spironolactone and eplerenone block mineralocorticoid receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-146",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When should initiating or up-titrating a beta-blocker generally be avoided in heart failure?",
+      "options": [
+        "Stable chronic HFrEF",
+        "Acute decompensated HF with hypoperfusion or cardiogenic shock",
+        "HFrEF on ACEI/ARB/ARNI",
+        "Chronic AF with stable HF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers are foundational in stable HFrEF but should not be newly started or aggressively increased during shock or severe decompensation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-147",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "After starting sacubitril/valsartan, which natriuretic peptide may increase because it is a neprilysin substrate?",
+      "options": [
+        "NT-proBNP",
+        "BNP",
+        "Troponin I",
+        "Creatinine kinase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BNP may increase with neprilysin inhibition because it is degraded by neprilysin. NT-proBNP is not a neprilysin substrate and is often preferred for monitoring response.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-148",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which heart failure medication class is contraindicated in pregnancy because of fetal renal toxicity?",
+      "options": [
+        "ACE inhibitors/ARBs/ARNI",
+        "Loop diuretics in all cases",
+        "Beta-blockers in all cases",
+        "Hydralazine in all cases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAAS blockers are contraindicated in pregnancy because they can cause fetal renal dysfunction, oligohydramnios, and neonatal renal failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-149",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "After initiating an ACE inhibitor, ARB, ARNI, or MRA, which parameters should be monitored?",
+      "options": [
+        "Serum potassium and renal function",
+        "Liver enzymes only",
+        "Fasting lipids only",
+        "Thyroid function only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These therapies can increase potassium and affect renal function, especially in CKD, dehydration, renal artery stenosis, or NSAID use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-150",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aldosterone antagonists benefit heart failure partly by:",
+      "options": [
+        "Increasing preload through sodium retention",
+        "Blocking aldosterone-mediated fibrosis and remodeling",
+        "Direct beta-blockade",
+        "Acting as high-potency loop diuretics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "MRAs reduce aldosterone effects on sodium retention and myocardial fibrosis/remodeling, improving outcomes in selected HFrEF patients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-151",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which heart failure drug class is essential for symptom relief from congestion but has not shown the same long-term mortality benefit as foundational HFrEF therapies?",
+      "options": [
+        "ACE inhibitors",
+        "Loop diuretics",
+        "Evidence-based beta-blockers",
+        "MRAs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Loop diuretics relieve pulmonary and peripheral congestion. They are essential for symptoms but do not replace mortality-reducing therapies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-152",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which electrolyte abnormality increases digoxin toxicity risk?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Hypernatremia",
+        "Hyperphosphatemia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hypokalemia increases digoxin binding to Na+/K+ ATPase and raises toxicity risk. Loop and thiazide diuretics can contribute to hypokalemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-153",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Compared with ACE inhibitor therapy alone, sacubitril/valsartan has been shown in HFrEF to:",
+      "options": [
+        "Increase cardiovascular mortality",
+        "Provide no clinical benefit",
+        "Reduce cardiovascular death and heart failure hospitalization",
+        "Only lower blood pressure without heart failure benefit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sacubitril/valsartan improves HFrEF outcomes compared with enalapril in appropriate patients and is a preferred RAAS-pathway option when tolerated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-154",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which adverse effect is characteristically associated with spironolactone?",
+      "options": [
+        "Ototoxicity",
+        "Gynecomastia",
+        "Hypoglycemia",
+        "Thyroid dysfunction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spironolactone can cause gynecomastia and breast tenderness because of antiandrogen effects. Eplerenone is more selective and less likely to cause this.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-155",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "NSAID use with ACE inhibitors or ARBs in a patient with heart failure increases the risk of:",
+      "options": [
+        "Acute kidney injury and worsening fluid retention",
+        "Drug-induced lupus only",
+        "Immediate heart block",
+        "Severe hypoglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NSAIDs reduce renal prostaglandin-mediated afferent arteriolar dilation and can worsen kidney perfusion. They may also cause sodium and water retention, worsening heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-156",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which SGLT2 inhibitor is used in heart failure to reduce hospitalization and cardiovascular events, even in patients without diabetes?",
+      "options": [
+        "Dapagliflozin",
+        "Glibenclamide",
+        "Sitagliptin",
+        "Pioglitazone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SGLT2 inhibitors such as dapagliflozin and empagliflozin are now core heart failure therapies. Their benefits are not limited to glucose lowering.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-157",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Before starting sacubitril/valsartan after an ACE inhibitor, what is required?",
+      "options": [
+        "No delay is needed",
+        "A 36-hour washout period",
+        "Give both together for 1 week",
+        "Add potassium supplements first"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sacubitril/valsartan must not be combined with an ACE inhibitor because of angioedema risk. A 36-hour washout is required when switching from an ACE inhibitor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-158",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication should generally be avoided in HFrEF because it can worsen fluid retention and heart failure outcomes?",
+      "options": [
+        "Pioglitazone",
+        "Dapagliflozin",
+        "Metoprolol succinate",
+        "Spironolactone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiazolidinediones such as pioglitazone can cause fluid retention and may worsen heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-159",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which beta-blocker is also appropriate for HFrEF mortality reduction?",
+      "options": [
+        "Carvedilol",
+        "Atenolol",
+        "Timolol",
+        "Nadolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carvedilol, metoprolol succinate, and bisoprolol are evidence-based beta-blockers for HFrEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-160",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which patient is most appropriate for ivabradine in HFrEF?",
+      "options": [
+        "Patient with atrial fibrillation and HR 90 bpm",
+        "Patient in sinus rhythm with elevated HR despite maximally tolerated beta-blocker",
+        "Patient with severe bradycardia",
+        "Patient with complete heart block"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ivabradine works at the SA node and requires sinus rhythm. It is used in selected symptomatic HFrEF patients with elevated heart rate despite maximally tolerated beta-blocker.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
