@@ -117,15 +117,15 @@
       "section": "Cardiovascular",
       "sectionId": "cardiovascular",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 15,
+        "medium": 43,
+        "hard": 17
       },
-      "questionsCount": 0,
+      "questionsCount": 75,
       "file": "data/pharmacology/angina-ischemic-heart-disease.json"
     }
   ],
-  "updatedAt": "2026-05-05T07:39:22.552Z",
+  "updatedAt": "2026-05-05T07:44:42.647Z",
   "sections": [
     {
       "id": "antimicrobials",
