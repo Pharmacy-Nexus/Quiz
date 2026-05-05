@@ -2,6 +2,1282 @@
   "subjectId": "pharmacology",
   "topicId": "congestive-heart-failure",
   "topicName": "Congestive Heart Failure",
-  "updatedAt": "2026-05-05T09:10:54.847Z",
-  "questions": []
+  "updatedAt": "2026-05-05T09:14:59.164Z",
+  "questions": [
+    {
+      "id": "pharmacology-congestive-heart-failure-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Congestive heart failure is best defined as:",
+      "options": [
+        "Complete absence of cardiac electrical activity",
+        "Inability of the heart to pump sufficient blood to meet body requirements",
+        "Increased blood pressure without symptoms",
+        "Acute coronary spasm only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Congestive heart failure \"CHF\" occurs when the heart cannot pump enough blood to meet the metabolic needs of the body. This may occur due to left-sided failure, right-sided failure, or both. The key problem is inadequate cardiac output and/or congestion due to impaired cardiac performance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best describes the usual clinical course of heart failure?",
+      "options": [
+        "Sudden cure without treatment",
+        "Slow deterioration in cardiac function with episodes of acute decompensation",
+        "Only acute disease with no chronic progression",
+        "Disease limited only to the lungs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heart failure is usually a chronic progressive condition. Patients may remain relatively stable for a period, then develop acute decompensation with worsening pulmonary edema, peripheral edema, dyspnea, fatigue, or hospitalization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heart failure with preserved ejection fraction \"HFpEF\" is also described as:",
+      "options": [
+        "Systolic heart failure",
+        "Diastolic heart failure",
+        "Ventricular fibrillation",
+        "Cardiogenic shock only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HFpEF is commonly called diastolic heart failure. In this condition, ejection fraction is usually normal or preserved, but ventricular filling and relaxation are impaired. The ventricle may be stiff, so symptoms occur despite a relatively normal LVEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heart failure with reduced ejection fraction \"HFrEF\" is also called:",
+      "options": [
+        "Systolic heart failure",
+        "Diastolic heart failure",
+        "Normal heart function",
+        "Pulmonary embolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFrEF is systolic heart failure. The heart has impaired contractile function, so it cannot eject blood effectively. The file describes HFrEF as having LVEF below 40%.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which LVEF value best fits HFrEF according to the material?",
+      "options": [
+        "LVEF above 70%",
+        "LVEF usually normal",
+        "LVEF below 40%",
+        "LVEF exactly 100%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HFrEF is associated with reduced ejection fraction, defined in the material as LVEF below 40%. This indicates impaired systolic pumping ability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a common cause of heart failure?",
+      "options": [
+        "Ischemic heart disease",
+        "Seasonal allergy only",
+        "Mild headache",
+        "Simple skin infection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ischemic heart disease is a major cause of heart failure. Reduced coronary blood flow can damage myocardium, impair contractility, and contribute to progressive pump failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which condition can contribute to heart failure through chronic pressure overload?",
+      "options": [
+        "Hypertension",
+        "Myopia",
+        "Otitis externa",
+        "Acne vulgaris"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypertension increases afterload, meaning the heart must pump against higher resistance. Over time, this can lead to ventricular hypertrophy, remodeling, and eventually heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which cardiotoxic drug mentioned in the material can contribute to heart failure?",
+      "options": [
+        "Doxorubicin",
+        "Paracetamol",
+        "Cetirizine",
+        "Omeprazole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Doxorubicin is a chemotherapy agent known for cardiotoxicity. It can damage cardiac muscle and contribute to cardiomyopathy and heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which symptom is commonly associated with heart failure?",
+      "options": [
+        "Fatigue and weakness",
+        "Excessive hair growth only",
+        "Severe hyperthyroidism only",
+        "Visual field loss only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatigue and weakness occur because reduced cardiac output limits oxygen delivery to tissues. These symptoms can significantly reduce exercise tolerance and daily activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which respiratory symptom commonly occurs in heart failure?",
+      "options": [
+        "Shortness of breath",
+        "Ear pain",
+        "Skin itching only",
+        "Increased appetite only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shortness of breath occurs especially in left-sided heart failure because pulmonary congestion and edema impair gas exchange. Dyspnea may worsen with exertion or lying flat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which finding is especially associated with right-sided heart failure?",
+      "options": [
+        "Peripheral pitting edema",
+        "Isolated dry eye",
+        "Severe hypoglycemia only",
+        "Migraine aura"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Right-sided heart failure causes systemic venous congestion. This may lead to peripheral edema, raised jugular venous pressure, hepatomegaly, and ascites.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which finding is especially associated with left-sided heart failure?",
+      "options": [
+        "Pulmonary edema",
+        "Isolated urinary retention",
+        "Hypercalcemia",
+        "Severe constipation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Left-sided heart failure causes blood to back up into the pulmonary circulation. This increases pulmonary venous pressure and may cause pulmonary edema, dyspnea, cough, and wheezing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which diagnostic biomarker is elevated in heart failure?",
+      "options": [
+        "Brain natriuretic peptide \"BNP\"",
+        "Hemoglobin A1c only",
+        "Serum amylase only",
+        "Troponin only in every case"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BNP is a marker of heart failure. It is released in response to ventricular stretch and volume/pressure overload. Elevated BNP supports the diagnosis of heart failure, especially in patients with dyspnea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which investigation directly helps assess cardiac structure and function in heart failure?",
+      "options": [
+        "Echocardiography",
+        "Spirometry only",
+        "Skin biopsy",
+        "Colonoscopy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Echocardiography is important in heart failure because it can assess ventricular function, ejection fraction, structural abnormalities, valvular disease, and overall cardiac performance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which blood tests are important in heart failure assessment before or during therapy?",
+      "options": [
+        "Serum urea, creatinine, and electrolytes",
+        "Serum melanin only",
+        "Skin collagen level",
+        "Salivary amylase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Renal function and electrolyte monitoring are essential in heart failure because many therapies affect kidney function, potassium, sodium, and volume status. Monitoring is especially important with diuretics, ACE inhibitors, ARBs, MRAs, and ARNIs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "NYHA Class I means:",
+      "options": [
+        "Symptoms occur even at rest",
+        "Ordinary physical activity does not cause fatigue, palpitation, dyspnea, or anginal pain",
+        "Marked limitation of physical activity",
+        "Patient is hospitalized with refractory HF only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NYHA Class I means the patient has cardiac disease but ordinary activity does not produce symptoms. Functional capacity is preserved.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "NYHA Class IV means:",
+      "options": [
+        "No symptoms with ordinary activity",
+        "Symptoms may be present even at rest",
+        "Symptoms only after extreme exercise",
+        "No cardiac disease"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NYHA Class IV is the most severe functional class. Symptoms of heart failure or angina may be present even at rest, and any physical activity increases discomfort.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a mineralocorticoid receptor antagonist \"MRA\"?",
+      "options": [
+        "Spironolactone",
+        "Furosemide",
+        "Digoxin",
+        "Sacubitril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone is an aldosterone receptor antagonist, also called a mineralocorticoid receptor antagonist. Eplerenone is another MRA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is another mineralocorticoid receptor antagonist besides spironolactone?",
+      "options": [
+        "Eplerenone",
+        "Atenolol",
+        "Hydralazine",
+        "Enalapril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eplerenone is a selective aldosterone receptor antagonist. MRAs reduce aldosterone-mediated salt retention and cardiac/vascular damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which combination is described as a vasodilator strategy in heart failure?",
+      "options": [
+        "Hydralazine plus isosorbide mononitrate",
+        "Aspirin plus clopidogrel",
+        "Heparin plus warfarin",
+        "Digoxin plus adenosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine and isosorbide mononitrate are co-administered to reduce both afterload and preload. This improves hemodynamic stress on the failing heart.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug class inhibits the renin-angiotensin-aldosterone system \"RAAS\"?",
+      "options": [
+        "ACE inhibitors",
+        "Proton pump inhibitors",
+        "Antihistamines",
+        "Fibrinolytics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors are RAAS inhibitors. Other RAAS-targeting drugs include ARBs and renin inhibitors. In heart failure, RAAS inhibition helps reduce vasoconstriction, aldosterone release, remodeling, and sympathetic activation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Sacubitril is combined with which ARB in Entresto?",
+      "options": [
+        "Valsartan",
+        "Losartan",
+        "Candesartan",
+        "Irbesartan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sacubitril is used in combination with valsartan. This combination is known as an angiotensin receptor-neprilysin inhibitor \"ARNI.\"",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has pulmonary edema, cough, wheezing, and shortness of breath. Which side of heart failure is most directly suggested?",
+      "options": [
+        "Left-sided heart failure",
+        "Right-sided heart failure only",
+        "Isolated hepatic failure",
+        "Isolated renal colic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Left-sided heart failure causes blood to back up into pulmonary circulation. This increases pulmonary venous pressure, causing pulmonary edema, shortness of breath, cough, and wheezing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has raised JVP, hepatomegaly, ascites, and peripheral pitting edema. Which side of heart failure is most directly suggested?",
+      "options": [
+        "Right-sided heart failure",
+        "Left-sided heart failure only",
+        "Isolated arrhythmia without congestion",
+        "Pure pulmonary disease only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Right-sided heart failure causes systemic venous congestion. Raised JVP, hepatomegaly, ascites, and peripheral edema are classic congestion findings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with heart failure has preserved LVEF but symptoms of congestion. Which interpretation is most accurate?",
+      "options": [
+        "HFpEF can occur despite normal or preserved ejection fraction because filling/relaxation is impaired",
+        "Heart failure is impossible if LVEF is preserved",
+        "HFpEF means ventricular fibrillation",
+        "HFpEF is always caused by acute bleeding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFpEF is diastolic heart failure. The ventricle may eject a normal percentage of blood, but filling is impaired due to stiffness or poor relaxation. Symptoms occur because filling pressures rise and congestion develops.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has reduced LVEF and impaired forward pumping. Which heart failure type best fits?",
+      "options": [
+        "HFrEF",
+        "HFpEF",
+        "Normal heart",
+        "Isolated right bundle branch block"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFrEF is systolic heart failure. The heart cannot contract effectively, so ejection fraction is reduced. This produces low cardiac output symptoms and often congestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pairing best matches heart failure type with its main functional abnormality?",
+      "options": [
+        "HFrEF — impaired contraction; HFpEF — impaired relaxation/filling",
+        "HFrEF — normal contraction; HFpEF — no cardiac disease",
+        "HFrEF — only renal disease; HFpEF — only liver disease",
+        "HFrEF — only atrial disease; HFpEF — only ventricular fibrillation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFrEF is primarily a systolic pumping problem, while HFpEF is primarily a diastolic filling/relaxation problem. Both can produce symptoms of heart failure, but their physiology differs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is jugular venous examination useful in heart failure assessment?",
+      "options": [
+        "It can reflect systemic venous congestion",
+        "It directly measures platelet aggregation",
+        "It confirms asthma",
+        "It replaces all cardiac imaging"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised jugular venous pressure can indicate elevated right-sided pressures and systemic venous congestion. It is especially useful when evaluating volume status and right-sided heart failure features.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with heart failure has elevated BNP. What does this most likely indicate?",
+      "options": [
+        "Ventricular stretch and heart failure physiology",
+        "Complete absence of cardiac stress",
+        "Severe hypoglycemia only",
+        "Platelet activation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BNP rises when ventricular walls are stretched due to volume or pressure overload. Elevated BNP supports the diagnosis of heart failure and can help differentiate cardiac from non-cardiac dyspnea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to NYHA classification, a patient comfortable at rest but symptomatic with ordinary physical activity is:",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class IV",
+        "No heart failure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NYHA Class II indicates slight limitation of physical activity. The patient is comfortable at rest, but ordinary physical activity causes fatigue, palpitation, dyspnea, or anginal pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient is comfortable at rest but develops symptoms with less than ordinary activity. Which NYHA class fits best?",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class III",
+        "No cardiac disease"
+      ],
+      "correctAnswer": 2,
+      "explanation": "NYHA Class III means marked limitation of physical activity. The patient is comfortable at rest, but less-than-ordinary activity causes symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has symptoms of heart failure even at rest. Which NYHA class fits best?",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class III",
+        "Class IV"
+      ],
+      "correctAnswer": 3,
+      "explanation": "NYHA Class IV includes symptoms at rest. Any physical activity increases discomfort. This class represents severe functional limitation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ACC/AHA Stage A heart failure?",
+      "options": [
+        "High risk for HF but without structural heart disease or symptoms",
+        "Structural heart disease with no symptoms",
+        "Structural disease with current or prior symptoms",
+        "Refractory HF requiring specialized interventions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage A includes patients at high risk for developing heart failure but without structural heart disease or symptoms. Examples include patients with hypertension, diabetes, atherosclerotic disease, obesity, metabolic syndrome, or exposure to cardiotoxic drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ACC/AHA Stage B heart failure?",
+      "options": [
+        "Structural heart disease without signs or symptoms of HF",
+        "No risk factors and no structural disease",
+        "Refractory HF with recurrent hospitalizations",
+        "Symptoms at rest only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage B includes structural heart disease but no current or previous HF symptoms. Examples include previous MI, left ventricular remodeling, low ejection fraction, or asymptomatic valvular disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ACC/AHA Stage C heart failure?",
+      "options": [
+        "Structural heart disease with prior or current symptoms of HF",
+        "No risk factors",
+        "Only hypertension without heart disease",
+        "Refractory end-stage disease only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage C includes patients with structural heart disease and current or past symptoms of heart failure. This is where routine HF drug therapy is commonly used.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ACC/AHA Stage D heart failure?",
+      "options": [
+        "Refractory heart failure despite optimized medical therapy",
+        "Risk factors only without heart disease",
+        "Asymptomatic LV remodeling only",
+        "Normal heart structure and function"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage D is advanced refractory heart failure. Patients may have marked symptoms at rest, recurrent hospitalizations, or need advanced care such as mechanical support, transplant evaluation, or palliative planning.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which therapy goal is emphasized in Stage C heart failure?",
+      "options": [
+        "Control symptoms and prevent hospitalization",
+        "Ignore symptoms until Stage D",
+        "Avoid all drug therapy",
+        "Treat only with antibiotics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Stage C, patients have structural disease with symptoms. Goals include symptom control, prevention of hospitalization, and prevention of mortality using appropriate drug therapy and comorbidity management.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are MRAs useful in heart failure beyond their mild diuretic effect?",
+      "options": [
+        "They reduce aldosterone-induced cardiac and vascular damage",
+        "They directly increase aldosterone release",
+        "They block beta-1 receptors only",
+        "They activate sodium retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MRAs such as spironolactone and eplerenone block aldosterone receptors. Their protective effects are mainly due to reducing aldosterone-induced cardiac and vascular remodeling/damage, not simply because of diuresis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "MRAs prevent all of the following EXCEPT:",
+      "options": [
+        "Salt retention",
+        "Myocardial hypertrophy",
+        "Hypokalemia",
+        "Increased fibrinolysis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "MRAs block aldosterone effects. They reduce salt retention, myocardial hypertrophy/remodeling, and potassium loss. They are not primarily fibrinolytic drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which safety issue is most important when using MRAs?",
+      "options": [
+        "Hyperkalemia risk",
+        "Severe hypokalemia as the expected effect",
+        "Bronchoconstriction as the main effect",
+        "Visual field loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MRAs reduce aldosterone-mediated potassium excretion. This can cause hyperkalemia, especially in renal impairment or when combined with ACE inhibitors, ARBs, or ARNIs. Potassium and renal function should be monitored.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydralazine plus isosorbide mononitrate helps heart failure by:",
+      "options": [
+        "Reducing both afterload and preload",
+        "Increasing both afterload and preload",
+        "Blocking aldosterone receptors only",
+        "Increasing sodium retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine mainly reduces afterload through arterial vasodilation, while nitrates reduce preload through venodilation. Together, they reduce cardiac workload from both sides of circulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does reducing afterload help in systolic heart failure?",
+      "options": [
+        "It makes it easier for the weakened ventricle to eject blood",
+        "It increases vascular resistance",
+        "It directly blocks BNP release",
+        "It prevents all pulmonary symptoms immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Afterload is the resistance the heart pumps against. Reducing afterload lowers ventricular workload, allowing a weakened heart to eject blood more efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does reducing preload help in congestive symptoms?",
+      "options": [
+        "It reduces venous return and ventricular filling pressure",
+        "It increases pulmonary edema",
+        "It increases myocardial wall stretch",
+        "It increases aldosterone release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Preload reflects venous return and ventricular filling. Excess preload worsens congestion and pulmonary edema. Reducing preload helps relieve congestion and dyspnea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RAAS inhibitors benefit heart failure by all of the following EXCEPT:",
+      "options": [
+        "Vasodilation",
+        "Reduced aldosterone release",
+        "Antiremodeling effect",
+        "Increased sympathetic activation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RAAS inhibitors reduce vasoconstriction, aldosterone release, cardiac remodeling, and sympathetic effects. Increasing sympathetic activity would worsen heart failure physiology.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why should ACE inhibitors be started at very low doses in heart failure?",
+      "options": [
+        "To reduce risk of acute renal failure and hypotension while titrating gradually",
+        "Because they are inactive at normal doses",
+        "Because they only work at toxic doses",
+        "To intentionally increase creatinine sharply"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heart failure patients may be sensitive to RAAS inhibition. ACE inhibitors should be started at low doses and increased gradually to target dose while monitoring blood pressure, renal function, and potassium.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which parameters should be monitored after starting an ACE inhibitor in heart failure?",
+      "options": [
+        "Blood pressure, serum creatinine, and potassium",
+        "Skin melanin only",
+        "Serum calcium only",
+        "Visual acuity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors can lower BP, worsen renal function in susceptible patients, and increase potassium. Monitoring BP, creatinine, and potassium is essential during initiation and titration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pharmacologic effect of RAAS inhibitors directly limits pathological heart remodeling?",
+      "options": [
+        "Antiremodeling effect on the heart",
+        "Increased aldosterone-induced hypertrophy",
+        "Increased salt retention",
+        "Increased sympathetic stimulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAAS activation contributes to myocardial hypertrophy, fibrosis, and remodeling. RAAS inhibitors reduce this maladaptive remodeling, improving long-term outcomes in HFrEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker listed in the material is used in CHF?",
+      "options": [
+        "Metoprolol",
+        "Pindolol",
+        "Propranolol only",
+        "Sotalol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material lists metoprolol, atenolol, and carvedilol as beta-blockers used in CHF. Beta-blockers must be started carefully and titrated slowly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker listed in the material has additional alpha-1 blocking activity?",
+      "options": [
+        "Carvedilol",
+        "Atenolol",
+        "Metoprolol",
+        "Esmolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carvedilol blocks beta receptors and also has alpha-1 blocking vasodilating activity. This can reduce vascular resistance while also reducing harmful sympathetic cardiac stimulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How should beta-blockers be initiated in CHF according to the material?",
+      "options": [
+        "Start at about 1/8 of final target dose and increase gradually",
+        "Start immediately at maximum target dose",
+        "Use only during acute decompensation at high doses",
+        "Never use beta-blockers in any CHF patient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers should be started at very low doses, about 1/8 of the final target dose, then increased gradually over weeks. This reduces the risk of worsening heart failure during initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What should be done with beta-blockers in hospitalized patients with acute decompensated heart failure?",
+      "options": [
+        "Reduce or discontinue until clinical stabilization",
+        "Immediately increase to maximum dose",
+        "Add two more beta-blockers",
+        "Combine with high-dose verapamil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During acute decompensation, beta-blockers may worsen low-output states due to negative inotropic effects. The material states that doses should be reduced or discontinued in hospitalized patients with acute decompensation until stabilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why beta-blockers are useful long-term in CHF despite reducing contractility acutely?",
+      "options": [
+        "They reduce chronic harmful sympathetic activation and remodeling",
+        "They increase aldosterone release",
+        "They increase tachycardia and oxygen demand",
+        "They block all diuretic effects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In chronic heart failure, persistent sympathetic activation worsens remodeling, arrhythmia risk, and disease progression. Carefully titrated beta-blockers reduce this harmful neurohormonal drive and improve long-term outcomes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sacubitril inhibits which enzyme?",
+      "options": [
+        "Neprilysin",
+        "ACE only",
+        "COX-1",
+        "Dopa decarboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sacubitril inhibits neprilysin, an enzyme responsible for degradation and inactivation of natriuretic peptides such as ANP and BNP, as well as bradykinin and angiotensin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Neprilysin inhibition increases the effects of:",
+      "options": [
+        "Natriuretic peptides such as ANP and BNP",
+        "Thromboxane A2 only",
+        "Vitamin K-dependent clotting factors",
+        "Platelet P2Y12 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By inhibiting neprilysin, sacubitril increases natriuretic peptides. These promote natriuresis, diuresis, vasodilation, and reduced myocardial fibrosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The sacubitril/valsartan combination produces which beneficial effects?",
+      "options": [
+        "Natriuresis, diuresis, vasodilation, and reduced myocardial fibrosis",
+        "Increased salt retention and vasoconstriction",
+        "Increased myocardial fibrosis",
+        "Direct thrombolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sacubitril/valsartan combines neprilysin inhibition with AT1 receptor blockade. The result is enhanced natriuretic peptide effects plus suppression of harmful angiotensin II effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is sacubitril combined with valsartan rather than used alone?",
+      "options": [
+        "Neprilysin inhibition may increase angiotensin, so ARB blockade balances RAAS effects",
+        "Valsartan blocks platelet aggregation",
+        "Sacubitril alone has no effect on natriuretic peptides",
+        "Valsartan is a beta-blocker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neprilysin breaks down natriuretic peptides but also affects other peptides including angiotensin. Combining sacubitril with valsartan blocks AT1 receptor-mediated angiotensin effects while preserving beneficial natriuretic peptide activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes the goal of neurohormonal blockade in HFrEF?",
+      "options": [
+        "Reduce harmful RAAS and sympathetic activation that drive progression",
+        "Increase aldosterone and sympathetic activity",
+        "Treat only edema without affecting prognosis",
+        "Increase myocardial fibrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFrEF progression is strongly driven by neurohormonal activation, especially RAAS and sympathetic nervous system. ACEIs/ARBs/ARNIs, MRAs, and beta-blockers reduce these maladaptive signals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug group helps prevent hypokalemia by opposing aldosterone?",
+      "options": [
+        "Mineralocorticoid receptor antagonists",
+        "Pure loop diuretics only",
+        "Beta-blockers only",
+        "Nitrates only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldosterone increases potassium loss. MRAs oppose aldosterone and can prevent hypokalemia. However, because they conserve potassium, they can also cause hyperkalemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with CHF is started on spironolactone. Which lab abnormality requires close monitoring?",
+      "options": [
+        "High serum potassium",
+        "Low serum glucose only",
+        "High platelet count",
+        "Low serum calcium only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone reduces aldosterone-mediated potassium excretion, increasing hyperkalemia risk. Potassium and renal function should be monitored, especially when combined with RAAS inhibitors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which heart failure therapy primarily reduces preload through venodilation?",
+      "options": [
+        "Isosorbide mononitrate",
+        "Hydralazine",
+        "Spironolactone only",
+        "Metoprolol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrates mainly cause venodilation, which reduces venous return and preload. This helps reduce pulmonary congestion and ventricular wall stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which heart failure therapy primarily reduces afterload through arteriolar vasodilation?",
+      "options": [
+        "Hydralazine",
+        "Isosorbide mononitrate",
+        "Digoxin only",
+        "Sacubitril only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine is primarily an arterial vasodilator. By reducing afterload, it makes it easier for the left ventricle to eject blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why hydralazine and nitrate combination is rational?",
+      "options": [
+        "One reduces afterload and the other reduces preload",
+        "Both increase afterload",
+        "Both block beta receptors",
+        "Both increase aldosterone release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydralazine reduces afterload by arterial dilation, while isosorbide mononitrate reduces preload by venodilation. Together, they reduce cardiac workload more completely.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with HFrEF and pulmonary congestion has low forward output and high filling pressures. Which therapeutic combination best targets both vascular load and neurohormonal progression?",
+      "options": [
+        "RAAS inhibition plus beta-blocker plus MRA as tolerated",
+        "Only short-acting bronchodilator therapy",
+        "Only aspirin and clopidogrel",
+        "Only antibiotics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HFrEF treatment is not only symptom relief. RAAS inhibitors reduce vasoconstriction, aldosterone, remodeling, and sympathetic effects. Beta-blockers reduce chronic sympathetic toxicity. MRAs reduce aldosterone-mediated remodeling and salt retention. Together, they address disease progression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-064",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with CHF is started on an ACE inhibitor and develops rising creatinine and hyperkalemia. Which monitoring principle was most relevant?",
+      "options": [
+        "BP, renal function, and potassium must be monitored during ACEI titration",
+        "Only heart rate needs monitoring",
+        "Only platelet count needs monitoring",
+        "Creatinine and potassium are unrelated to ACE inhibitors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACE inhibitors alter renal hemodynamics and reduce aldosterone. This can cause renal function changes and hyperkalemia. Low-dose initiation and gradual titration reduce risk, but monitoring is essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with heart failure has marked symptoms at rest despite repeated hospitalizations and optimized therapy. Which ACC/AHA stage best fits?",
+      "options": [
+        "Stage A",
+        "Stage B",
+        "Stage C",
+        "Stage D"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Stage D heart failure is refractory or advanced HF. These patients may have marked symptoms at rest, recurrent hospitalization despite medical therapy, and may require advanced care or end-of-life planning.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient best fits ACC/AHA Stage A?",
+      "options": [
+        "Patient with hypertension and diabetes but no structural heart disease or HF symptoms",
+        "Patient with prior MI and LV remodeling but no symptoms",
+        "Patient with structural disease and current dyspnea",
+        "Patient with refractory HF at rest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage A includes patients at risk for HF but without structural heart disease or symptoms. Risk factors include hypertension, diabetes, atherosclerotic disease, obesity, metabolic syndrome, cardiotoxic therapy exposure, and family history of cardiomyopathy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient best fits ACC/AHA Stage B?",
+      "options": [
+        "Patient with previous MI and low ejection fraction but no HF symptoms",
+        "Patient with diabetes only and no structural disease",
+        "Patient with refractory HF despite therapy",
+        "Patient with symptoms at rest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage B includes structural heart disease without symptoms. Prior MI, left ventricular remodeling, low EF, or asymptomatic valvular disease are examples.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is BNP elevated in heart failure and simultaneously therapeutically relevant to ARNI therapy?",
+      "options": [
+        "BNP rises with ventricular stretch, and neprilysin inhibition prevents natriuretic peptide breakdown",
+        "BNP is a platelet receptor blocked by aspirin",
+        "BNP causes clot formation directly",
+        "BNP is a beta-blocker metabolite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BNP is elevated in HF because ventricular stretch stimulates natriuretic peptide release. Sacubitril inhibits neprilysin, reducing degradation of natriuretic peptides such as BNP and ANP, thereby promoting natriuresis, diuresis, vasodilation, and reduced fibrosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which mechanism best explains why aldosterone antagonists are protective in CHF beyond potassium conservation?",
+      "options": [
+        "They reduce aldosterone-induced myocardial hypertrophy and vascular damage",
+        "They increase myocardial fibrosis",
+        "They directly stimulate beta-1 receptors",
+        "They activate sodium retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldosterone promotes salt retention and contributes to myocardial hypertrophy, fibrosis, vascular damage, and remodeling. MRAs reduce these harmful effects, making them protective beyond their modest diuretic action.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with acute decompensated HF is hospitalized with hypotension and congestion while taking a beta-blocker. What is the most appropriate principle?",
+      "options": [
+        "Reduce or temporarily discontinue beta-blocker until clinical stabilization",
+        "Immediately increase beta-blocker to target dose",
+        "Add verapamil to deepen cardiac suppression",
+        "Stop all HF therapy permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers are beneficial long-term but can worsen acute decompensated states due to negative inotropic effects. The material states that beta-blocker doses should be reduced or discontinued in hospitalized acute decompensation until stabilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with HFrEF is started on carvedilol. Why is slow titration essential?",
+      "options": [
+        "Initial beta-blockade can worsen symptoms if started too aggressively",
+        "Carvedilol is inactive unless given at toxic doses",
+        "Carvedilol works only if stopped abruptly",
+        "Carvedilol directly causes immediate natriuretic peptide degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce heart rate and contractility. In a failing heart, rapid or high-dose initiation can worsen symptoms. Starting at very low dose and gradually titrating allows the patient to adapt while gaining long-term benefit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best integrates preload, afterload, and CHF symptoms?",
+      "options": [
+        "Excess preload worsens congestion, while excess afterload makes ventricular ejection harder",
+        "Preload and afterload are unrelated to HF",
+        "Reducing preload always worsens pulmonary edema",
+        "Increasing afterload improves systolic HF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Preload reflects ventricular filling and venous return; when excessive, it contributes to congestion and edema. Afterload reflects resistance to ejection; when high, it increases cardiac workload. CHF treatment often reduces preload, afterload, or both.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which therapy pair best matches mechanism with expected benefit in HFrEF?",
+      "options": [
+        "ACEI/ARB — reduce remodeling; beta-blocker — reduce chronic sympathetic toxicity",
+        "ACEI/ARB — increase aldosterone; beta-blocker — increase tachycardia",
+        "MRA — increase salt retention; ARNI — degrade BNP",
+        "Hydralazine — increase afterload; nitrate — increase preload"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAAS inhibitors reduce vasoconstriction, aldosterone release, remodeling, and sympathetic effects. Beta-blockers reduce chronic sympathetic overstimulation, arrhythmia risk, and progression. This is central to HFrEF pharmacology.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient profile creates the greatest concern when adding spironolactone to ACE inhibitor therapy?",
+      "options": [
+        "Renal impairment with high baseline potassium",
+        "Normal renal function with low potassium",
+        "Young patient with no comorbidities and normal potassium",
+        "Patient taking no RAAS-inhibiting therapy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spironolactone and ACE inhibitors both increase potassium risk. Renal impairment further reduces potassium excretion. This combination can be beneficial but requires careful potassium and creatinine monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-congestive-heart-failure-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best summarizes rational CHF pharmacotherapy?",
+      "options": [
+        "Treat congestion and reduce disease progression by targeting preload, afterload, RAAS, aldosterone, sympathetic activation, and natriuretic peptide pathways",
+        "Treat CHF only by increasing sodium retention",
+        "Use beta-blockers only during acute decompensation at maximum dose",
+        "Avoid all neurohormonal therapies because they do not affect progression"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CHF pharmacotherapy is both symptomatic and disease-modifying. Vasodilators reduce preload/afterload, RAAS inhibitors reduce vasoconstriction and remodeling, MRAs block aldosterone damage, beta-blockers reduce harmful sympathetic activation, and ARNIs enhance natriuretic peptide benefits while blocking RAAS.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
