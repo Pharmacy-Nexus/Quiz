@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antiarrhythmic-drugs",
   "topicName": "Antiarrhythmic drugs",
-  "updatedAt": "2026-05-05T08:56:15.474Z",
+  "updatedAt": "2026-05-05T08:58:49.569Z",
   "questions": [
     {
       "id": "pharmacology-antiarrhythmic-drugs-001",
@@ -1275,6 +1275,856 @@
       ],
       "correctAnswer": 0,
       "explanation": "Antiarrhythmic therapy is mechanism-based. Sodium-channel blockers affect phase 0 and conduction, beta-blockers reduce sympathetic automaticity and AV nodal effects, potassium-channel blockers prolong refractoriness, calcium-channel blockers affect nodal calcium-dependent conduction, and drugs like digoxin, adenosine, and magnesium have specific roles. Toxicity and patient context are essential in selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-076",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Vaughan Williams classification mainly categorizes antiarrhythmic drugs according to their dominant effect on:",
+      "options": [
+        "Route of administration",
+        "Cardiac electrophysiology and action potential behavior",
+        "Chemical structure only",
+        "Cost-effectiveness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Vaughan Williams system classifies antiarrhythmics mainly by electrophysiologic mechanism: sodium-channel blockade, beta-blockade, potassium-channel blockade, and calcium-channel blockade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-077",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class I antiarrhythmic drugs primarily act by blocking:",
+      "options": [
+        "Potassium channels",
+        "Calcium channels",
+        "Sodium channels",
+        "Chloride channels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Class I drugs block fast sodium channels, reducing phase 0 depolarization in atrial and ventricular myocardium and His-Purkinje tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class I antiarrhythmic subclass causes moderate sodium-channel blockade and also prolongs repolarization?",
+      "options": [
+        "Class Ia",
+        "Class Ib",
+        "Class Ic",
+        "Class IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class Ia drugs, such as procainamide and disopyramide, block sodium channels and also prolong action potential duration by potassium-channel effects. Quinidine is historically included but is now rarely used clinically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes class Ib drugs such as lidocaine and mexiletine?",
+      "options": [
+        "Strong sodium-channel blockade with marked conduction slowing",
+        "Weak sodium-channel blockade with greater effect on ischemic or depolarized ventricular tissue",
+        "Pure potassium-channel blockade",
+        "Pure beta-blockade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class Ib agents bind and unbind rapidly from sodium channels and are more active in ischemic ventricular tissue. Lidocaine is mainly used IV for ventricular arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Flecainide and propafenone are class Ic drugs. Their key electrophysiologic effect is:",
+      "options": [
+        "Strong prolongation of action potential duration",
+        "Marked slowing of conduction velocity with QRS widening",
+        "Pure AV nodal blockade",
+        "Direct potassium-channel opening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class Ic drugs strongly block sodium channels and slow conduction. They may be used in carefully selected patients without structural heart disease but are avoided after MI or in significant LV dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-081",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class II antiarrhythmic drugs are:",
+      "options": [
+        "Potassium-channel blockers",
+        "Sodium-channel blockers",
+        "Calcium-channel blockers",
+        "Beta-blockers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Class II drugs reduce sympathetic effects on the heart, lowering SA node automaticity and slowing AV nodal conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-082",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main antiarrhythmic action of beta-blockers is:",
+      "options": [
+        "Direct sodium-channel blockade",
+        "Reduced catecholamine effect, decreased SA automaticity, and slowed AV nodal conduction",
+        "Strong QT prolongation through potassium-channel blockade",
+        "Increased intracellular calcium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers are useful for rate control in atrial fibrillation and for arrhythmias triggered by sympathetic stimulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-083",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class III antiarrhythmics primarily work by:",
+      "options": [
+        "Blocking sodium channels",
+        "Blocking beta receptors",
+        "Blocking potassium channels and prolonging repolarization",
+        "Blocking chloride channels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Class III drugs prolong phase 3 repolarization and the effective refractory period. This can be useful but also increases risk of QT prolongation and torsades de pointes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amiodarone is mainly class III but also has properties of which other classes?",
+      "options": [
+        "Class I only",
+        "Class II only",
+        "Classes I, II, and IV",
+        "No overlap with other classes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amiodarone blocks potassium channels but also has sodium-channel, beta-blocking, and calcium-channel blocking effects, explaining its broad antiarrhythmic activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sotalol has class III activity and also acts as a:",
+      "options": [
+        "Nonselective beta-blocker",
+        "Pure sodium-channel blocker",
+        "Pure calcium-channel blocker",
+        "Muscarinic agonist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sotalol blocks potassium channels and beta receptors. It can prolong QT and requires renal dosing consideration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-086",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Verapamil and diltiazem primarily block which channel in nodal tissue?",
+      "options": [
+        "Fast sodium channels",
+        "L-type calcium channels",
+        "Delayed rectifier potassium channels",
+        "Inward rectifier potassium channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non-dihydropyridine calcium channel blockers slow AV nodal conduction and are used for rate control in selected SVT and AF patients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-087",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main AV nodal effect of verapamil and diltiazem is:",
+      "options": [
+        "Increased conduction velocity",
+        "Slowed conduction and increased AV nodal refractoriness",
+        "No effect on AV node",
+        "Increased automaticity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These drugs slow AV nodal conduction, making them useful for rate control, but risky in AV block or decompensated HFrEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-088",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adenosine terminates regular narrow-complex SVT mainly by:",
+      "options": [
+        "Blocking sodium channels",
+        "Activating A1 receptors in the AV node, causing transient AV nodal block",
+        "Inhibiting phosphodiesterase",
+        "Blocking beta receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adenosine briefly blocks AV nodal conduction and is used after vagal maneuvers for regular narrow-complex SVT. It has an extremely short half-life.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Digoxin may help rate control in atrial fibrillation mainly by:",
+      "options": [
+        "Direct beta-blockade",
+        "Increasing vagal tone and slowing AV nodal conduction",
+        "Prolonging QT strongly",
+        "Blocking fast sodium channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Digoxin increases parasympathetic tone at the AV node. It may be useful in some AF patients, especially with HFrEF, but is less effective during high sympathetic states like exercise or sepsis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "\"Use-dependence\" means class I drugs block sodium channels more strongly at:",
+      "options": [
+        "Slower heart rates",
+        "Faster heart rates with frequent channel opening",
+        "Complete rest only",
+        "Normal sinus rhythm only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use-dependent drugs bind more effectively when channels are frequently opening or inactivated, so their effects increase at faster rates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-091",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "\"Reverse use-dependence\" with some class III drugs means QT prolongation is more pronounced at:",
+      "options": [
+        "Faster heart rates",
+        "Slower heart rates",
+        "Exercise only",
+        "Hyperkalemia only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This increases torsades risk during bradycardia, especially with drugs like sotalol or dofetilide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is classically associated with chronic procainamide therapy?",
+      "options": [
+        "Drug-induced lupus-like syndrome",
+        "Pulmonary fibrosis",
+        "Gingival hyperplasia",
+        "Severe hypokalemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide can cause drug-induced lupus, often associated with ANA and anti-histone antibodies. It can also prolong QRS and QT intervals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Drug-induced lupus from procainamide is commonly associated with:",
+      "options": [
+        "Anti-CCP antibodies",
+        "ANA and anti-histone antibodies",
+        "Anti-mitochondrial antibodies",
+        "Anti-TSH receptor antibodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anti-histone antibodies are classically associated with drug-induced lupus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-094",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "IV lidocaine is mainly used for:",
+      "options": [
+        "Chronic atrial fibrillation rate control",
+        "Regular narrow-complex SVT",
+        "Ventricular arrhythmias, especially ischemia-related VT/VF contexts",
+        "Sinus bradycardia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lidocaine is a class Ib antiarrhythmic used primarily for ventricular arrhythmias, especially in acute ischemic settings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Class Ic drugs such as flecainide should generally be avoided in patients with:",
+      "options": [
+        "No structural heart disease",
+        "Prior MI or significant structural heart disease",
+        "Mild hypertension only",
+        "Normal echocardiogram"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class Ic drugs can be proarrhythmic in structural or ischemic heart disease. The CAST trial showed increased mortality when class Ic agents were used to suppress ventricular ectopy after MI.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amiodarone has a very long half-life because it is:",
+      "options": [
+        "Highly water soluble",
+        "Highly lipophilic and accumulates in tissues",
+        "Excreted rapidly unchanged by the kidney",
+        "Not protein bound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amiodarone distributes widely into tissues and has a very long elimination half-life, so adverse effects and interactions can persist for weeks to months.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-097",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which serious toxicities require monitoring during long-term amiodarone therapy?",
+      "options": [
+        "Hypoglycemia only",
+        "Pulmonary toxicity, thyroid dysfunction, and hepatotoxicity",
+        "Severe hypertension only",
+        "Renal stones only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amiodarone can cause serious pulmonary, thyroid, liver, ocular, skin, and neurologic toxicity. Monitoring is essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dofetilide and ibutilide mainly block:",
+      "options": [
+        "Fast sodium channels",
+        "L-type calcium channels",
+        "The rapid delayed rectifier potassium current, IKr",
+        "Beta receptors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These class III agents prolong repolarization and QT interval by blocking IKr.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Dofetilide initiation requires monitored hospitalization mainly due to risk of:",
+      "options": [
+        "Severe hypoglycemia",
+        "Torsades de pointes from QT prolongation",
+        "Acute liver failure",
+        "Bronchospasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dofetilide can prolong QT and trigger torsades. Dose depends on renal function and QT monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Dronedarone should be avoided in:",
+      "options": [
+        "Paroxysmal AF without heart failure",
+        "Permanent AF or recent decompensated/severe heart failure",
+        "Mild hypertension only",
+        "Stable dyslipidemia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dronedarone may increase adverse outcomes in permanent AF and in patients with severe or recently decompensated heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Verapamil and diltiazem should be avoided or used with extreme caution in:",
+      "options": [
+        "Hypertension with stable angina",
+        "Severe HFrEF, sick sinus syndrome, or AV block without pacemaker",
+        "Mild hyperlipidemia",
+        "Isolated systolic hypertension only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non-dihydropyridine CCBs slow AV conduction and have negative inotropic effects, making them risky in significant conduction disease or decompensated systolic HF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adenosine has an extremely short half-life because it is:",
+      "options": [
+        "Metabolized slowly by CYP3A4",
+        "Rapidly taken up by cells and metabolized by adenosine deaminase",
+        "Excreted unchanged by the kidney",
+        "Highly protein bound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adenosine is rapidly cleared by red blood cells and endothelial cells, which is why its effects last only seconds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Common transient adverse effects after IV adenosine include:",
+      "options": [
+        "Hypertension and euphoria",
+        "Flushing, chest pressure, dyspnea, and transient AV block/asystole",
+        "Severe hyperkalemia",
+        "Long-lasting QT prolongation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Patients should be warned that adenosine can cause brief but intense symptoms, including chest discomfort and a sense of impending doom.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "IV magnesium sulfate is used acutely for:",
+      "options": [
+        "AF with rapid ventricular response",
+        "Sinus bradycardia",
+        "Torsades de pointes",
+        "AVNRT as first-line after vagal maneuvers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnesium is used for torsades, especially when QT prolongation is involved. Potassium correction and stopping QT-prolonging drugs are also important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A proarrhythmic effect means an antiarrhythmic drug can:",
+      "options": [
+        "Always convert arrhythmia to sinus rhythm",
+        "Cause a new arrhythmia or worsen an existing arrhythmia",
+        "Prevent all future arrhythmias",
+        "Safely reduce heart rate in all patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antiarrhythmics can paradoxically provoke dangerous arrhythmias, especially when QT is prolonged, electrolytes are abnormal, or structural heart disease exists.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class has the greatest effect on slowing conduction velocity in His-Purkinje tissue and ventricular myocardium?",
+      "options": [
+        "Class II beta-blockers",
+        "Class Ic drugs such as flecainide",
+        "Class IV calcium channel blockers",
+        "Pure class III drugs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class Ic drugs strongly depress phase 0 conduction and can widen QRS.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propafenone also has weak:",
+      "options": [
+        "Calcium-channel blocking activity",
+        "Beta-blocking activity",
+        "Potassium-channel opening activity",
+        "Muscarinic agonist activity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propafenone is class Ic but also has some beta-blocking properties, which may matter clinically in asthma, bradycardia, or conduction disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Disopyramide is known for significant:",
+      "options": [
+        "Beta-blocking effects",
+        "Anticholinergic effects",
+        "Alpha-blocking effects",
+        "Dopamine agonist effects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disopyramide may cause dry mouth, urinary retention, constipation, and blurred vision. It also has negative inotropic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drugs require QT and renal function monitoring during initiation or titration?",
+      "options": [
+        "Amiodarone only",
+        "Dronedarone only",
+        "Dofetilide and sotalol",
+        "Adenosine and atropine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both dofetilide and sotalol are renally cleared and can prolong QT, increasing torsades risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Esmolol has a very short duration mainly because it is:",
+      "options": [
+        "Metabolized by CYP3A4",
+        "Hydrolyzed by red blood cell esterases",
+        "Excreted unchanged by the kidney",
+        "Stored in fat tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esmolol is rapidly hydrolyzed by RBC esterases, allowing quick titration and rapid offset.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-111",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main goal of class II or class IV drugs in atrial fibrillation is often:",
+      "options": [
+        "Rhythm conversion",
+        "Ventricular rate control by slowing AV nodal conduction",
+        "Stroke prevention",
+        "Electrolyte correction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta-blockers and non-dihydropyridine CCBs control ventricular rate by slowing AV nodal conduction. Stroke prevention requires anticoagulation assessment separately.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-112",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiarrhythmic contains iodine and may affect thyroid function?",
+      "options": [
+        "Sotalol",
+        "Flecainide",
+        "Amiodarone",
+        "Verapamil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amiodarone contains iodine and may cause hypothyroidism or hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient stable on warfarin starts amiodarone. What should the pharmacist anticipate?",
+      "options": [
+        "Warfarin dose may need to increase",
+        "Warfarin dose may need to decrease due to inhibited metabolism",
+        "No INR effect is expected",
+        "Warfarin should always be stopped"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amiodarone inhibits warfarin metabolism and can increase INR and bleeding risk. Closer INR monitoring is needed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electrolyte abnormality increases risk of torsades with QT-prolonging antiarrhythmics?",
+      "options": [
+        "Hypokalemia",
+        "Hypernatremia",
+        "Hypercalcemia only",
+        "Hypermagnesemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypokalemia and hypomagnesemia increase torsades risk, especially with class III drugs such as sotalol, dofetilide, and ibutilide. This is more clinically important and less confusing than the old lidocaine/hyperkalemia phrasing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Choosing rate control vs rhythm control in atrial fibrillation depends on:",
+      "options": [
+        "Patient age only",
+        "Symptoms, comorbidities, AF duration, safety, and shared decision-making",
+        "Medication cost only",
+        "Physician preference only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern AF management individualizes rate vs rhythm control based on symptoms, patient factors, heart failure status, AF pattern, and patient preference.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The \"pill-in-the-pocket\" approach for selected paroxysmal AF patients commonly uses:",
+      "options": [
+        "Amiodarone or sotalol for self-use in all patients",
+        "Flecainide or propafenone in carefully selected patients",
+        "Digoxin only",
+        "Verapamil only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This approach is only for carefully selected patients, usually without structural heart disease, after safety is confirmed. An AV nodal blocker may be used to prevent rapid atrial flutter conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How do class Ia and Ib drugs differ in action potential duration?",
+      "options": [
+        "Ia shortens APD; Ib prolongs APD",
+        "Ia prolongs APD; Ib often shortens or minimally changes APD",
+        "Both markedly prolong APD",
+        "Neither affects APD"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class Ia drugs also block potassium currents, prolonging repolarization. Class Ib drugs may shorten APD, especially in ventricular tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-118",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiarrhythmic is commonly given IV for acute ventricular arrhythmias?",
+      "options": [
+        "Mexiletine",
+        "Propafenone",
+        "Lidocaine",
+        "Dofetilide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lidocaine is IV class Ib therapy used mainly for acute ventricular arrhythmias. Mexiletine is the oral analog.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Class Ic drugs are avoided in structural heart disease mainly because of:",
+      "options": [
+        "Increased proarrhythmic and mortality risk",
+        "Severe hypokalemia",
+        "Bronchodilation",
+        "Platelet inhibition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flecainide and propafenone can provoke serious ventricular arrhythmias in structural or ischemic heart disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When starting or titrating sotalol, which monitoring is most important?",
+      "options": [
+        "Serum sodium only",
+        "QT interval and renal function",
+        "Platelet count only",
+        "Liver enzymes only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sotalol is renally cleared and prolongs QT. Renal impairment increases torsades risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-121",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Use-dependent sodium-channel blockade is strongest when channels are:",
+      "options": [
+        "Permanently resting",
+        "Frequently opening or inactivated",
+        "Permanently closed",
+        "Only in SA nodal tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This explains why some class I agents have stronger effects during tachycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-122",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug may be used for pharmacologic cardioversion of recent-onset AF in selected monitored settings?",
+      "options": [
+        "Digoxin",
+        "Lidocaine",
+        "Ibutilide",
+        "Adenosine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ibutilide can convert AF or atrial flutter but requires monitoring for QT prolongation and torsades. Other options depend on patient factors and structural heart disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-123",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A common adverse effect of verapamil is:",
+      "options": [
+        "Diarrhea",
+        "Constipation",
+        "Tachycardia",
+        "Dry cough"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Verapamil commonly causes constipation and can also cause bradycardia or AV block.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-124",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is first-line after failed vagal maneuvers for regular narrow-complex SVT?",
+      "options": [
+        "Adenosine",
+        "Lidocaine",
+        "Dofetilide",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine is used for acute termination of regular narrow-complex SVT after vagal maneuvers when the patient is stable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-125",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which task is outside the pharmacist's usual role in antiarrhythmic therapy?",
+      "options": [
+        "Counseling on side effects and adherence",
+        "Monitoring interactions and ECG/lab-related safety issues",
+        "Performing elective cardioversion procedures independently",
+        "Assisting with dose adjustment recommendations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pharmacists play a major role in counseling, interaction checking, anticoagulation support, monitoring, and dose adjustment recommendations, but elective cardioversion is a procedural medical intervention.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
