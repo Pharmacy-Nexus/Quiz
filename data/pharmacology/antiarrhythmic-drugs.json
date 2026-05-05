@@ -2,6 +2,1282 @@
   "subjectId": "pharmacology",
   "topicId": "antiarrhythmic-drugs",
   "topicName": "Antiarrhythmic drugs",
-  "updatedAt": "2026-05-05T08:51:45.011Z",
-  "questions": []
+  "updatedAt": "2026-05-05T08:56:15.474Z",
+  "questions": [
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best defines cardiac arrhythmia?",
+      "options": [
+        "A disorder caused only by reduced blood pressure",
+        "An irregular cardiac rhythm due to disturbed impulse initiation or propagation",
+        "A disease caused only by coronary artery spasm",
+        "A rhythm disorder caused only by low calcium intake"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cardiac arrhythmia occurs when the heart rhythm becomes irregular because electrical impulses are generated abnormally, propagated abnormally, or both. Antiarrhythmic drugs mainly work by modifying automaticity, conduction, refractoriness, or action potential duration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which heart rate range is considered normal sinus rhythm in the material?",
+      "options": [
+        "20–40 bpm",
+        "40–50 bpm",
+        "60–100 bpm",
+        "120–160 bpm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A normal cardiac rhythm requires a heart rate of about 60–100 beats/min, initiation from the SA node, normal conduction through the cardiac conduction system, and propagation at a normal velocity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The normal cardiac impulse should originate mainly from the:",
+      "options": [
+        "AV node",
+        "SA node",
+        "Bundle branches",
+        "Ventricular myocardium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sinoatrial \"SA\" node is the normal pacemaker of the heart because it has the highest frequency of spontaneous depolarization. Normal rhythm requires impulse initiation in the SA node.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phase 0 of the fast cardiac action potential is mainly caused by:",
+      "options": [
+        "Slow calcium entry only",
+        "Fast sodium influx through sodium channels",
+        "Potassium influx into the cell",
+        "Chloride efflux only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phase 0 is the rapid depolarization phase. It is caused mainly by fast sodium entry through voltage-gated sodium channels. Class I antiarrhythmic drugs affect this phase by blocking sodium channels.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phase 1 of the cardiac action potential is mainly associated with:",
+      "options": [
+        "Rapid chloride influx",
+        "Slow calcium entry",
+        "Outflow of potassium ions",
+        "Complete sodium retention"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phase 1 is short initial repolarization caused mainly by potassium efflux. This follows the rapid sodium-mediated depolarization of phase 0.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phase 2, the plateau phase, is mainly maintained by:",
+      "options": [
+        "Slow calcium influx with potassium efflux",
+        "Fast sodium influx only",
+        "Complete closure of calcium channels",
+        "Chloride influx only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phase 2 is the plateau phase. It results from slow calcium entry through voltage-gated calcium channels, balanced by potassium outflow. This phase is important for myocardial contraction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phase 3 of the cardiac action potential represents:",
+      "options": [
+        "Rapid depolarization",
+        "Delayed repolarization mainly due to potassium movement",
+        "Plateau caused only by sodium entry",
+        "Spontaneous depolarization in pacemaker cells only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phase 3 is repolarization. It occurs mainly because potassium moves out of the cell, returning the membrane potential toward the resting level.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phase 4 represents:",
+      "options": [
+        "The resting membrane potential or pacemaker depolarization depending on cell type",
+        "The QRS complex only",
+        "Complete calcium blockade",
+        "Final fibrin formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In non-pacemaker cells, phase 4 represents resting membrane potential. In pacemaker tissues, phase 4 is spontaneous diastolic depolarization, which determines automatic firing rate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "What is the refractory period?",
+      "options": [
+        "The time when the heart cannot respond to another action potential stimulus",
+        "The time when blood pressure is lowest",
+        "The time when platelets aggregate",
+        "The time when calcium leaves bone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The refractory period is the interval during which cardiac tissue cannot be re-excited by another stimulus. Prolonging refractoriness can help prevent re-entry arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Bradyarrhythmia refers to:",
+      "options": [
+        "Heart rate above 100 bpm",
+        "Heart rate below normal, usually below 60 bpm",
+        "Normal sinus rhythm",
+        "Ventricular fibrillation only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bradyarrhythmias are slow rhythms. The material links bradyarrhythmias to reduced automaticity or slow AV nodal conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tachyarrhythmia refers to:",
+      "options": [
+        "Heart rate above normal, usually above 100 bpm",
+        "Heart rate below 60 bpm",
+        "Absence of electrical activity",
+        "Normal cardiac rhythm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tachyarrhythmias are abnormally fast rhythms. Mechanisms include enhanced automaticity, triggered automaticity, and re-entry.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enhanced automaticity means:",
+      "options": [
+        "Spontaneous depolarization occurs more easily or more rapidly",
+        "The heart completely stops conducting impulses",
+        "Sodium channels are permanently absent",
+        "Platelets become activated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Automaticity is the ability of excitable cardiac tissue to depolarize spontaneously. Enhanced automaticity can occur with beta-adrenergic stimulation, hypokalemia, or mechanical stretch of cardiac muscle cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which factor can enhance automaticity?",
+      "options": [
+        "Beta-adrenergic stimulation",
+        "Complete beta-blockade only",
+        "Severe calcium-channel blockade only",
+        "Total absence of sodium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-adrenergic stimulation increases pacemaker activity and can enhance automaticity. This can contribute to tachyarrhythmias, especially in adrenergic states.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Triggered automaticity is often related to:",
+      "options": [
+        "Afterdepolarizations",
+        "Reduced platelet aggregation",
+        "Vitamin K depletion",
+        "Fibrinolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triggered automaticity occurs when a normal action potential is followed by an abnormal depolarization called an afterdepolarization. These afterdepolarizations can trigger abnormal rhythms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Re-entry occurs when:",
+      "options": [
+        "A cardiac impulse travels in a pathway and then returns to its site",
+        "Calcium leaves bone rapidly",
+        "Platelets express GP IIb/IIIa receptors",
+        "Warfarin blocks vitamin K recycling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Re-entry is a circus movement of impulses. The impulse re-enters previously activated tissue and can sustain tachyarrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Antiarrhythmic drugs may slow automatic rhythm by all of the following EXCEPT:",
+      "options": [
+        "Decreasing phase 4 slope",
+        "Increasing threshold potential",
+        "Increasing maximum diastolic potential",
+        "Increasing platelet thromboxane synthesis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Antiarrhythmic drugs can slow automaticity by decreasing phase 4 slope, increasing threshold potential, increasing maximum diastolic potential, or increasing action potential duration. Platelet thromboxane is unrelated to cardiac automaticity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class I antiarrhythmic drugs mainly block:",
+      "options": [
+        "Sodium channels",
+        "Beta receptors only",
+        "Potassium channels only",
+        "Calcium channels only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class I drugs are sodium-channel blockers. They restrict rapid sodium influx during phase 0 and slow depolarization, especially in frequently depolarizing tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class II antiarrhythmic drugs are mainly:",
+      "options": [
+        "Beta-adrenoceptor antagonists",
+        "Sodium-channel openers",
+        "Potassium-channel openers",
+        "Vitamin K antagonists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class II drugs are beta-blockers. They reduce sympathetic effects on the heart, decrease phase 4 slope, and reduce SA nodal automaticity and AV nodal conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class III antiarrhythmic drugs mainly:",
+      "options": [
+        "Lengthen refractoriness due to potassium-channel blockade",
+        "Block calcium channels only",
+        "Increase phase 0 sodium influx",
+        "Increase automaticity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class III drugs prolong repolarization and increase the refractory period mainly by blocking potassium channels. This can suppress re-entry arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Class IV antiarrhythmic drugs mainly block:",
+      "options": [
+        "Calcium channels",
+        "Sodium channels",
+        "Potassium channels",
+        "GP IIb/IIIa receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class IV drugs are calcium-channel blockers such as verapamil. They depress slow inward calcium current, especially in SA and AV nodal tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a Class IA sodium-channel blocker?",
+      "options": [
+        "Quinidine",
+        "Lidocaine",
+        "Flecainide",
+        "Verapamil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quinidine is a Class IA sodium-channel blocker. Class IA drugs prolong action potential duration and refractoriness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a Class IB sodium-channel blocker?",
+      "options": [
+        "Lidocaine",
+        "Quinidine",
+        "Disopyramide",
+        "Procainamide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lidocaine is a Class IB sodium-channel blocker. It shortens action potential duration and refractoriness and is especially useful in ventricular arrhythmias associated with myocardial ischemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are Class I drugs more effective in frequently depolarized tissues?",
+      "options": [
+        "They bind more to open or inactivated sodium channels",
+        "They bind only to resting closed channels",
+        "They work only in platelets",
+        "They require vitamin K activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class I sodium-channel blockers bind more to open or inactivated sodium channels than fully repolarized closed channels. This is called use-dependence or state-dependence and explains stronger effects in rapidly firing arrhythmic tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which Class I subgroup prolongs action potential duration and refractoriness?",
+      "options": [
+        "Class IA",
+        "Class IB",
+        "Class IC",
+        "Class IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class IA drugs such as quinidine, procainamide, and disopyramide prolong action potential duration and refractoriness. This can help suppress re-entry but may increase QT interval and torsades risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which Class I subgroup shortens action potential duration and refractoriness?",
+      "options": [
+        "Class IB",
+        "Class IA",
+        "Class IC",
+        "Class III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class IB drugs such as lidocaine, mexiletine, and tocainide shorten action potential duration and refractoriness. Their effects are especially evident in ischemic or depolarized ventricular tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which Class I subgroup has negligible effect on action potential duration and refractoriness but markedly slows conduction?",
+      "options": [
+        "Class IC",
+        "Class IA",
+        "Class IB",
+        "Class II"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class IC drugs such as flecainide and propafenone have little effect on action potential duration but strongly slow conduction in cardiac tissue, including accessory pathways such as in WPW.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A drug decreases the rapid upstroke of phase 0 in Purkinje and myocardial fibers. Which class best fits this effect?",
+      "options": [
+        "Class I sodium-channel blocker",
+        "Class II beta-blocker only",
+        "Class III potassium-channel blocker only",
+        "Class IV calcium-channel blocker only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phase 0 in fast-response cardiac tissue depends on sodium influx. Class I sodium-channel blockers reduce the slope of phase 0, slowing conduction velocity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Quinidine slows phase 0 mainly by:",
+      "options": [
+        "Blocking open and inactivated sodium channels",
+        "Activating beta-1 receptors",
+        "Blocking calcium channels in the AV node only",
+        "Directly stimulating potassium influx"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quinidine binds to open and inactivated sodium channels and prevents sodium influx. This slows rapid depolarization during phase 0.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is a major risk of quinidine due to QT prolongation?",
+      "options": [
+        "Torsades de pointes",
+        "Bronchoconstriction only",
+        "Gingival hyperplasia",
+        "Hyperprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quinidine can increase action potential duration and prolong the QT interval. This can produce polymorphic ventricular tachycardia known as torsades de pointes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which non-cardiac adverse-effect cluster is known as cinchonism with quinidine?",
+      "options": [
+        "Large doses causing blurred vision, tinnitus, headache, disorientation, and psychosis",
+        "Severe constipation only",
+        "Visual field loss only",
+        "Pulmonary fibrosis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cinchonism is a classic quinidine toxicity syndrome. It can include blurred vision, tinnitus, headache, disorientation, and psychosis. GI upset and thrombocytopenia may also occur.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Procainamide is most associated with which adverse effect?",
+      "options": [
+        "Reversible lupus erythematosus-like syndrome",
+        "Severe pulmonary fibrosis as the main effect",
+        "Gingival hyperplasia",
+        "Fetal warfarin syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide can cause a reversible lupus-like syndrome. Other adverse effects include ventricular arrhythmias, depression, hallucinations, and psychosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which active metabolite of procainamide prolongs action potential duration by inhibiting potassium efflux?",
+      "options": [
+        "N-acetylprocainamide \"NAPA\"",
+        "Plasmin",
+        "Enalaprilat",
+        "O-methyldopa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide is metabolized in the liver to N-acetylprocainamide \"NAPA.\" NAPA lacks sodium-channel blocking activity but inhibits potassium efflux, prolonging action potential duration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can disopyramide be problematic in patients with impaired left ventricular function?",
+      "options": [
+        "It produces a negative inotropic effect that can reduce myocardial contractility",
+        "It directly increases calcium influx in all cardiac cells",
+        "It has no effect on the heart",
+        "It increases platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disopyramide has clinically important negative inotropic effects. This can worsen cardiac output in patients with preexisting impairment of left ventricular function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects are expected from disopyramide due to anticholinergic activity?",
+      "options": [
+        "Dry mouth, urinary retention, blurred vision, and constipation",
+        "Pulmonary fibrosis and thyroid dysfunction",
+        "Severe cough and angioedema",
+        "Hyperkalemia and renal failure only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disopyramide has anticholinergic activity. This can cause dry mouth, urinary retention, blurred vision, and constipation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lidocaine is especially useful for:",
+      "options": [
+        "Ventricular arrhythmias arising during myocardial ischemia",
+        "Chronic atrial fibrillation rate control only",
+        "Hypertension with BPH",
+        "Fibrinolysis after PE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lidocaine is a Class IB sodium-channel blocker useful in ventricular arrhythmias associated with myocardial ischemia or myocardial infarction. It has little effect on atrial or AV junctional rhythms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is lidocaine usually given intravenously for arrhythmias?",
+      "options": [
+        "It undergoes extensive first-pass hepatic transformation",
+        "It cannot enter cardiac tissue",
+        "It is only active after oral absorption",
+        "It is destroyed by platelets"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lidocaine is given intravenously because it undergoes extensive first-pass metabolism in the liver. Oral administration is not suitable for acute antiarrhythmic use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse-effect profile best fits lidocaine toxicity?",
+      "options": [
+        "Drowsiness, slurred speech, paresthesia, confusion, and convulsions",
+        "Severe hypothyroidism and photosensitivity only",
+        "Reversible lupus-like syndrome only",
+        "Hyperprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lidocaine can cause CNS toxicity, including drowsiness, slurred speech, paresthesia, confusion, and convulsions. Cardiac toxicity can also occur at high doses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Mexiletine differs from lidocaine mainly because mexiletine:",
+      "options": [
+        "Can be administered orally",
+        "Has no sodium-channel blocking effect",
+        "Is a Class III drug",
+        "Directly blocks calcium channels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mexiletine has actions similar to lidocaine but can be administered orally. It is used for ventricular arrhythmias associated with previous myocardial infarction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tocainide is associated with which serious toxicity?",
+      "options": [
+        "Pulmonary toxicity that may lead to pulmonary fibrosis",
+        "Severe gingival hyperplasia",
+        "Fetal warfarin syndrome",
+        "Upper GIT bleeding only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tocainide can cause pulmonary toxicity, which may progress to pulmonary fibrosis. This is an important safety concern.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Flecainide is a drug of choice for AV re-entrant tachycardia associated with:",
+      "options": [
+        "Wolff-Parkinson-White syndrome",
+        "Acute pulmonary edema only",
+        "Hypertension with osteoporosis",
+        "Bleeding after surgery"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flecainide slows conduction strongly in cardiac tissue and accessory pathways. It is a drug of choice for AV re-entrant tachycardia associated with WPW syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why should flecainide be avoided for ventricular arrhythmia after myocardial infarction?",
+      "options": [
+        "Clinical trials showed increased sudden death risk",
+        "It has no effect on sodium channels",
+        "It is only a beta-blocker",
+        "It causes immediate fibrinolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flecainide can suppress arrhythmias, but clinical trials showed increased sudden death when used for ventricular arrhythmias after MI. This is a major clinical caution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propafenone differs from flecainide because it also has:",
+      "options": [
+        "Beta-adrenergic blocking activity",
+        "Strong thrombolytic activity",
+        "Direct vitamin K antagonism",
+        "Pure calcium-channel blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propafenone has actions similar to flecainide but also has beta-adrenergic blocking activity. It slows conduction and can be considered a broad-spectrum antiarrhythmic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propafenone may worsen which condition?",
+      "options": [
+        "Heart failure in patients with ventricular dysfunction",
+        "Gastric ulceration only",
+        "Hyperthyroidism by iodine content",
+        "Pulmonary embolism only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propafenone may worsen heart failure in patients with ventricular dysfunction. This is important because its conduction-slowing and beta-blocking properties can depress cardiac function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Beta-blockers reduce arrhythmias mainly by:",
+      "options": [
+        "Decreasing SA node automatic firing accelerated by beta-adrenergic activation",
+        "Increasing phase 4 slope",
+        "Activating accessory pathways",
+        "Increasing calcium influx in AV nodal cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class II beta-blockers reduce sympathetic effects on the heart. They decrease phase 4 slope, reduce SA nodal firing, suppress adrenergic ectopic pacemakers, and prolong AV nodal refractoriness.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Beta-blockers are useful for tachyarrhythmias caused by:",
+      "options": [
+        "Increased sympathetic activity",
+        "Complete absence of AV nodal conduction only",
+        "Platelet activation",
+        "Fibrin clot formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers are useful in tachyarrhythmias driven by sympathetic activation. They can help in atrial flutter, atrial fibrillation rate control, AV-nodal re-entrant tachycardia, and adrenergically triggered ventricular arrhythmias.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which beta-blocker is a very short-acting beta-1 blocker useful IV in acute emergency arrhythmias?",
+      "options": [
+        "Esmolol",
+        "Sotalol",
+        "Propranolol",
+        "Dofetilide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esmolol is a short-acting beta-1 blocker used by IV administration in acute arrhythmias, such as those occurring during surgery or emergency situations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sotalol is unique among beta-blockers because it also:",
+      "options": [
+        "Prolongs action potential duration through Class III activity",
+        "Blocks vitamin K epoxide reductase",
+        "Activates plasminogen",
+        "Blocks GP IIb/IIIa receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sotalol is a nonselective beta-blocker that also has Class III action by prolonging action potential duration. This means it combines beta-blocking and potassium-channel blocking properties.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which interaction increases the risk of bradycardia and AV block?",
+      "options": [
+        "Beta-blocker plus verapamil or diltiazem",
+        "Lidocaine plus mexiletine",
+        "Aspirin plus clopidogrel",
+        "Warfarin plus vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers slow heart rate and AV nodal conduction. Verapamil and diltiazem also depress AV nodal conduction. Combining them increases the risk of severe bradycardia and AV block.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amiodarone primarily belongs to which Vaughan-Williams class?",
+      "options": [
+        "Class III",
+        "Class I only",
+        "Class II only",
+        "Class IV only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone is mainly a Class III antiarrhythmic because it prolongs refractoriness. It also has beta-blocking actions and multiple additional electrophysiologic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amiodarone is useful in:",
+      "options": [
+        "Severe supraventricular and ventricular tachyarrhythmias",
+        "Only mild constipation",
+        "Hypertension with BPH only",
+        "Gastric ulcer bleeding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone is effective in treating severe supraventricular and ventricular tachyarrhythmias. It can also be used in chronic atrial fibrillation to slow ventricular response and restore sinus rhythm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pharmacokinetic property explains why amiodarone effects may persist for months after discontinuation?",
+      "options": [
+        "Large volume of distribution and storage in fat/adipose tissue",
+        "Complete renal elimination in 1 hour",
+        "Lack of tissue binding",
+        "No oral absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone has a large volume of distribution, long half-life, hepatic metabolism, and storage in fat/adipose tissue. Effects may persist for 1–3 months after discontinuation due to slow release from tissue stores.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effect is strongly associated with amiodarone?",
+      "options": [
+        "Pulmonary fibrosis",
+        "Gingival hyperplasia",
+        "Visual field loss only",
+        "Fetal warfarin syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone can cause pulmonary fibrosis, which is one of its most serious toxicities. Patients on long-term therapy require monitoring for respiratory symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amiodarone may cause thyroid dysfunction because it:",
+      "options": [
+        "Contains iodine",
+        "Blocks P2Y12 receptors",
+        "Activates calcium channels",
+        "Depletes vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone contains iodine and can cause thyroid dysfunction, including hyperthyroidism or hypothyroidism. Dronedarone lacks the iodine component and therefore does not induce thyroid toxicity in the same way.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which interaction occurs between amiodarone and warfarin?",
+      "options": [
+        "Amiodarone inhibits warfarin metabolism",
+        "Amiodarone completely reverses warfarin",
+        "Amiodarone activates vitamin K",
+        "Warfarin prevents amiodarone absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone can inhibit warfarin metabolism, increasing warfarin effect and bleeding risk. This requires careful monitoring and possible warfarin dose adjustment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which interaction occurs between amiodarone and digoxin?",
+      "options": [
+        "Increased digoxin effect due to displacement from tissue binding sites and interference with elimination",
+        "Complete inhibition of digoxin absorption",
+        "Rapid destruction of digoxin in the stomach",
+        "Conversion of digoxin to lidocaine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone can increase digoxin levels/effects by displacement from tissue binding sites and interference with elimination. This increases the risk of digoxin toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dronedarone differs from amiodarone because it:",
+      "options": [
+        "Lacks iodine and has an improved safety profile compared with amiodarone",
+        "Has more iodine and more thyroid toxicity",
+        "Cannot be taken orally",
+        "Has no antiarrhythmic activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dronedarone is structurally related to amiodarone but lacks the iodine component, so it does not induce thyroid toxicity. It also has beta-blocking action and an improved safety profile compared with amiodarone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dronedarone absorption is increased when taken:",
+      "options": [
+        "With food",
+        "Only on an empty stomach",
+        "With activated charcoal",
+        "With IV saline only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dronedarone should be taken orally with meals because food increases absorption by about 2–3 fold.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dofetilide is effective in atrial fibrillation mainly because it:",
+      "options": [
+        "Has Class III action potential-prolonging activity",
+        "Blocks muscarinic receptors only",
+        "Activates beta-1 receptors",
+        "Blocks sodium channels only in platelets"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dofetilide is a Class III antiarrhythmic. It prolongs action potential duration and is effective in restoring and maintaining normal sinus rhythm in patients with atrial fibrillation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition is a relative contraindication to dofetilide use?",
+      "options": [
+        "Bradycardia below 50 bpm",
+        "Mild headache only",
+        "Normal potassium level",
+        "Food intake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dofetilide is relatively contraindicated in bradycardia below 50 bpm and hypokalemia. This is because Class III drugs can prolong repolarization and increase proarrhythmic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Depolarization in SA and AV node cells mainly depends on slow inward movement of:",
+      "options": [
+        "Calcium ions",
+        "Sodium ions only",
+        "Chloride ions",
+        "Magnesium ions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SA and AV nodal depolarization depends mainly on slow calcium influx. Therefore, calcium-channel blockers such as verapamil can reduce nodal automaticity and conduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Verapamil is useful in arrhythmias because it:",
+      "options": [
+        "Depresses calcium-dependent automaticity and conduction in nodal tissue",
+        "Blocks vitamin K epoxide reductase",
+        "Activates sodium channels in Purkinje fibers",
+        "Increases phase 4 slope"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verapamil blocks calcium channels, reducing calcium entry in SA/AV nodal tissue. This produces negative chronotropic, dromotropic, and inotropic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Digoxin can help control ventricular response in atrial fibrillation mainly by:",
+      "options": [
+        "Decreasing AV nodal conduction through vagal effects",
+        "Blocking GP IIb/IIIa receptors",
+        "Activating sodium channels during phase 0",
+        "Dissolving thrombi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digoxin decreases automaticity of the SA node and slows AV nodal conduction through increased vagal activity. This helps control ventricular response in atrial fibrillation and flutter.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Digoxin shortens refractory period in atrial and ventricular myocardium but prolongs refractoriness in the:",
+      "options": [
+        "AV node",
+        "Platelet membrane",
+        "Peripheral veins",
+        "Liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digoxin shortens the refractory period in atrial and ventricular myocardial cells while prolonging AV nodal refractory period and reducing conduction velocity. This makes it useful for ventricular rate control in AF/flutter.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Adenosine is considered a drug of choice for:",
+      "options": [
+        "Supraventricular tachycardia",
+        "Chronic hypertension only",
+        "Ventricular arrhythmia after MI only",
+        "Warfarin reversal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine is a naturally occurring nucleoside and is a drug of choice for supraventricular tachycardia. It acts rapidly and has an extremely short duration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Adenosine works mainly by:",
+      "options": [
+        "Binding A1 receptors and hyperpolarizing conducting tissue",
+        "Blocking COX-1 in platelets",
+        "Inhibiting vitamin K recycling",
+        "Activating beta-1 receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine binds A1 receptors in the conducting system and induces hyperpolarization of conducting cardiac tissue. This reduces conduction velocity and automaticity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why must adenosine be given rapidly IV as a bolus?",
+      "options": [
+        "It has an extremely short duration of action, about 15 seconds",
+        "It is absorbed only through the skin",
+        "It requires days for activation",
+        "It is destroyed only in the stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine has a very short duration of action. It must be administered rapidly by IV bolus to reach the heart before being cleared.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Magnesium sulfate is indicated in some patients with:",
+      "options": [
+        "Torsades de pointes",
+        "Gastric ulceration",
+        "Fetal warfarin syndrome",
+        "Hypertension with BPH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnesium sulfate is indicated in some patients with torsades de pointes, even when serum magnesium is normal. It can also be used in digitalis-induced arrhythmias if hypomagnesemia is present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Magnesium sulfate may be used in digitalis-induced arrhythmias especially when:",
+      "options": [
+        "Hypomagnesemia is present",
+        "Hypermagnesemia is present",
+        "INR is elevated",
+        "Platelets are activated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnesium therapy is indicated in patients with digitalis-induced arrhythmias if hypomagnesemia is present. Magnesium can stabilize arrhythmic risk in this setting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has AV nodal re-entrant tachycardia driven by sympathetic activation. Which drug class is most rational?",
+      "options": [
+        "Beta-blocker",
+        "Fibrinolytic",
+        "Vitamin K antagonist",
+        "GP IIb/IIIa inhibitor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce sympathetic stimulation of SA and AV nodal tissue. They decrease phase 4 slope and prolong AV nodal refractoriness, which can interrupt or prevent AV nodal re-entrant tachycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with ventricular arrhythmia during acute myocardial ischemia requires IV therapy with little effect on atrial or AV junctional rhythms. Which drug fits best?",
+      "options": [
+        "Lidocaine",
+        "Quinidine",
+        "Verapamil",
+        "Dronedarone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lidocaine is useful for ventricular arrhythmias arising during myocardial ischemia and is given IV due to first-pass metabolism. It does not markedly slow conduction in atrial or AV junctional tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with WPW-associated AV re-entrant tachycardia has no structural ventricular disease. Which Class IC drug may be selected?",
+      "options": [
+        "Flecainide",
+        "Lidocaine",
+        "Quinidine",
+        "Dofetilide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flecainide markedly slows conduction in accessory pathways and is a drug of choice for AV re-entrant tachycardia associated with WPW syndrome. However, it should be avoided after MI due to increased sudden death risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antiarrhythmic toxicity profile is most characteristic of amiodarone?",
+      "options": [
+        "Pulmonary fibrosis, thyroid dysfunction, corneal microdeposits, photosensitivity, bradycardia, and hepatic toxicity",
+        "Gingival hyperplasia, hirsutism, and megaloblastic anemia",
+        "Upper GIT bleeding and gastric ulceration only",
+        "Fetal warfarin syndrome and skin necrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone has a broad toxicity profile: pulmonary fibrosis, bradycardia, heart block, QT prolongation torsades risk, liver injury, vivid dreams, sleep disturbance, thyroid dysfunction, corneal deposits, and photosensitivity with bluish discoloration on exposed skin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient on amiodarone and warfarin develops excessive anticoagulation. Which mechanism best explains this interaction?",
+      "options": [
+        "Amiodarone inhibits warfarin metabolism",
+        "Amiodarone activates vitamin K",
+        "Warfarin increases amiodarone renal excretion",
+        "Amiodarone directly dissolves clots"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone inhibits warfarin metabolism, increasing warfarin exposure and bleeding risk. This interaction requires close INR monitoring and possible warfarin dose reduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receives a beta-blocker plus verapamil and develops severe bradycardia. Which shared pharmacological action explains this?",
+      "options": [
+        "Both depress nodal automaticity/conduction",
+        "Both activate sodium channels",
+        "Both activate beta-1 receptors",
+        "Both increase phase 4 slope"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers reduce sympathetic drive and slow nodal firing/conduction. Verapamil blocks calcium channels in nodal tissue, also reducing conduction. Combining them can excessively suppress SA/AV nodal function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes rational antiarrhythmic drug selection?",
+      "options": [
+        "Drug choice depends on the arrhythmia mechanism, affected tissue, ion channel dependence, refractoriness, conduction pathway, and toxicity profile",
+        "All antiarrhythmic drugs are interchangeable because they all block sodium channels",
+        "Class III drugs are used only for bleeding disorders",
+        "Adenosine is best for chronic long-term suppression because it lasts for several days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Antiarrhythmic therapy is mechanism-based. Sodium-channel blockers affect phase 0 and conduction, beta-blockers reduce sympathetic automaticity and AV nodal effects, potassium-channel blockers prolong refractoriness, calcium-channel blockers affect nodal calcium-dependent conduction, and drugs like digoxin, adenosine, and magnesium have specific roles. Toxicity and patient context are essential in selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
