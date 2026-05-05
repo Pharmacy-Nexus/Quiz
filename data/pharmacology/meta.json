@@ -132,15 +132,15 @@
       "section": "Cardiovascular",
       "sectionId": "cardiovascular",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 22,
+        "medium": 46,
+        "hard": 7
       },
-      "questionsCount": 0,
+      "questionsCount": 75,
       "file": "data/pharmacology/antiarrhythmic-drugs.json"
     }
   ],
-  "updatedAt": "2026-05-05T08:51:49.330Z",
+  "updatedAt": "2026-05-05T08:56:19.245Z",
   "sections": [
     {
       "id": "antimicrobials",
