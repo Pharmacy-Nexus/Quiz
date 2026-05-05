@@ -2,7 +2,7 @@
   "subjectId": "pharmacology",
   "topicId": "antiarrhythmic-drugs",
   "topicName": "Antiarrhythmic drugs",
-  "updatedAt": "2026-05-05T08:58:49.569Z",
+  "updatedAt": "2026-05-05T09:00:42.833Z",
   "questions": [
     {
       "id": "pharmacology-antiarrhythmic-drugs-001",
@@ -2125,6 +2125,431 @@
       ],
       "correctAnswer": 2,
       "explanation": "Pharmacists play a major role in counseling, interaction checking, anticoagulation support, monitoring, and dose adjustment recommendations, but elective cardioversion is a procedural medical intervention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-126",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A patient on long-term antiarrhythmic therapy develops corneal microdeposits, blurred vision, and photophobia. Which drug is most likely responsible?",
+      "options": [
+        "Adenosine",
+        "Flecainide",
+        "Amiodarone",
+        "Diltiazem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amiodarone can cause corneal microdeposits, photosensitivity, skin discoloration, thyroid dysfunction, pulmonary toxicity, hepatic toxicity, and QT prolongation. It is effective but requires long-term monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-127",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "IV lidocaine is mainly used for which type of arrhythmia?",
+      "options": [
+        "Regular narrow-complex SVT",
+        "Stable angina",
+        "Ventricular arrhythmias, especially ischemia-related VT/VF contexts",
+        "Chronic atrial fibrillation rate control"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lidocaine is a class Ib sodium-channel blocker. It is mainly used intravenously for ventricular arrhythmias, particularly those associated with ischemia or acute MI settings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-128",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiarrhythmic drug is classically associated with pulmonary fibrosis, thyroid dysfunction, and corneal deposits?",
+      "options": [
+        "Amiodarone",
+        "Metoprolol",
+        "Adenosine",
+        "Verapamil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone is iodine-rich and has multiple organ toxicities. Important adverse effects include pulmonary fibrosis, hypo- or hyperthyroidism, liver enzyme elevation, corneal deposits, photosensitivity, and bradycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-129",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which class Ic antiarrhythmic is used for rhythm control in selected patients with atrial fibrillation but should be avoided in structural heart disease or ischemic heart disease?",
+      "options": [
+        "Flecainide",
+        "Amiodarone",
+        "Lidocaine",
+        "Adenosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flecainide is a class Ic sodium-channel blocker. It may be used for rhythm control in selected AF patients without significant structural or ischemic heart disease, but it can be proarrhythmic in those conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-130",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is an AV nodal blocker often given with class Ic drugs such as flecainide or propafenone in atrial flutter/fibrillation?",
+      "options": [
+        "To prevent 1:1 atrial flutter conduction through the AV node",
+        "To prevent thyroid toxicity",
+        "To reduce potassium levels",
+        "To reverse sodium-channel blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class Ic drugs can organize atrial fibrillation into atrial flutter. Without AV nodal blockade, rapid 1:1 conduction may occur. A beta-blocker or non-dihydropyridine CCB is often used when appropriate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-131",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Long-term procainamide therapy is classically associated with which adverse effect?",
+      "options": [
+        "Drug-induced lupus-like syndrome",
+        "Pulmonary fibrosis",
+        "Gingival hyperplasia",
+        "Severe hypokalemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide can cause a lupus-like syndrome, especially with chronic therapy. It can also prolong the QT interval and cause torsades de pointes risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-132",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antiarrhythmic has strong negative inotropic and anticholinergic properties, limiting its use in patients with heart failure?",
+      "options": [
+        "Disopyramide",
+        "Adenosine",
+        "Dofetilide",
+        "Lidocaine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disopyramide is a class Ia antiarrhythmic with notable negative inotropic and anticholinergic effects. It is generally avoided in heart failure but may have a role in selected hypertrophic obstructive cardiomyopathy patients under specialist care.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-133",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which pair contains class I sodium-channel blocker antiarrhythmics?",
+      "options": [
+        "Flecainide and lidocaine",
+        "Adenosine and verapamil",
+        "Amiodarone and sotalol",
+        "Diltiazem and metoprolol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class I antiarrhythmics block sodium channels. Flecainide is class Ic, while lidocaine is class Ib. Adenosine, CCBs, beta-blockers, and class III drugs have different mechanisms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-134",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is first-line for acute termination of regular narrow-complex paroxysmal supraventricular tachycardia after vagal maneuvers fail?",
+      "options": [
+        "Adenosine",
+        "Lidocaine",
+        "Amiodarone",
+        "Atropine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine transiently blocks AV nodal conduction and is used for regular narrow-complex SVT. It has a very short half-life and can cause flushing, chest discomfort, dyspnea, or transient asystole.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-135",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which adverse effects are associated with procainamide?",
+      "options": [
+        "Hypotension, QRS/QT prolongation, and drug-induced lupus",
+        "Hyperkalemia and dry cough",
+        "Pulmonary fibrosis and thyroid dysfunction as the main chronic toxicity",
+        "Gingival hyperplasia and hirsutism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide blocks sodium channels and can prolong repolarization. Important toxicities include hypotension, QRS widening, QT prolongation, torsades risk, and lupus-like syndrome with chronic use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-136",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antiarrhythmic is a class III potassium-channel blocker that can prolong QT and increase torsades de pointes risk?",
+      "options": [
+        "Sotalol",
+        "Metoprolol",
+        "Adenosine",
+        "Lidocaine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sotalol has beta-blocking activity and class III potassium-channel blocking effects. QT prolongation and torsades risk are important limitations, especially with renal impairment or electrolyte abnormalities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-137",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the electrophysiologic effect of class Ic drugs such as flecainide?",
+      "options": [
+        "Marked slowing of conduction with QRS widening",
+        "Selective AV node blockade only",
+        "Shortening of atrial refractory period without sodium-channel effects",
+        "Pure potassium-channel blockade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class Ic drugs strongly block sodium channels and markedly slow phase 0 conduction, which can widen the QRS. They are avoided in structural heart disease due to proarrhythmic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-138",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is preferred for rate control in atrial fibrillation in many patients with HFrEF?",
+      "options": [
+        "Diltiazem",
+        "Verapamil",
+        "Metoprolol succinate or another evidence-based beta-blocker",
+        "Flecainide monotherapy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In HFrEF, non-dihydropyridine CCBs such as verapamil and diltiazem may worsen systolic function. Beta-blockers with HF evidence are commonly used when tolerated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-139",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication can be used for pharmacologic cardioversion of atrial fibrillation but requires monitoring because of QT prolongation and torsades risk?",
+      "options": [
+        "Ibutilide",
+        "Atropine",
+        "Amlodipine",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ibutilide is a class III antiarrhythmic used for conversion of AF or atrial flutter in selected patients. It can cause QT prolongation and torsades, so ECG monitoring and electrolyte correction are important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-140",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antiarrhythmic is useful for rate control in atrial fibrillation but should be avoided in significant AV block or decompensated systolic heart failure?",
+      "options": [
+        "Diltiazem",
+        "Lidocaine",
+        "Dofetilide",
+        "Adenosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diltiazem is a non-dihydropyridine calcium channel blocker that slows AV nodal conduction. It is useful for AF rate control but can worsen AV block and decompensated HFrEF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-141",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug is a class III antiarrhythmic that can be used in atrial fibrillation rhythm control and is relatively safe in HFrEF when properly monitored?",
+      "options": [
+        "Dofetilide",
+        "Verapamil",
+        "Flecainide",
+        "Dronedarone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dofetilide is a class III antiarrhythmic used for AF rhythm control and can be used in HFrEF with strict QT and renal monitoring. It requires careful initiation because of torsades risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-142",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antiarrhythmic should be avoided in permanent AF or recently decompensated heart failure because it may worsen outcomes?",
+      "options": [
+        "Dronedarone",
+        "Adenosine",
+        "Lidocaine",
+        "Magnesium sulfate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dronedarone is related to amiodarone but lacks iodine. It is contraindicated in permanent AF and in patients with recent decompensated or severe heart failure due to increased adverse outcomes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-143",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiarrhythmic is preferred for torsades de pointes?",
+      "options": [
+        "Magnesium sulfate",
+        "Flecainide",
+        "Diltiazem",
+        "Adenosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IV magnesium sulfate is used for torsades de pointes, especially when QT prolongation is present. Correcting potassium and stopping QT-prolonging drugs are also important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-144",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which antiarrhythmic has a very short half-life and may cause transient flushing, chest pressure, dyspnea, and brief asystole?",
+      "options": [
+        "Adenosine",
+        "Amiodarone",
+        "Procainamide",
+        "Sotalol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine has an ultra-short half-life and transiently blocks AV nodal conduction. Patients should be warned that brief chest discomfort, flushing, or a sense of impending doom may occur.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-145",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which drug is a short-acting beta-blocker useful for acute rate control or perioperative tachyarrhythmias because it can be rapidly titrated?",
+      "options": [
+        "Esmolol",
+        "Atenolol",
+        "Nadolol",
+        "Sotalol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esmolol is an ultra-short-acting beta-1 blocker. It is useful when rapid titration and quick offset are needed, such as acute tachyarrhythmias or perioperative settings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-146",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which medication is commonly used for ventricular rate control in AF but is less effective during high sympathetic states such as exercise or sepsis?",
+      "options": [
+        "Digoxin",
+        "Flecainide",
+        "Ibutilide",
+        "Adenosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digoxin increases vagal tone and slows AV nodal conduction. It may help rate control, especially in sedentary patients or HFrEF, but is less effective during high sympathetic tone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-147",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which antiarrhythmic is safest to avoid in Wolff-Parkinson-White syndrome with atrial fibrillation because AV nodal blockade may accelerate conduction through the accessory pathway?",
+      "options": [
+        "Adenosine or AV nodal blockers",
+        "Procainamide",
+        "Ibutilide",
+        "Cardioversion when unstable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In pre-excited AF, AV nodal blockers can be dangerous because they may promote conduction through the accessory pathway. Procainamide or cardioversion may be used depending on stability and protocol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-148",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is often used in ACLS for stable monomorphic wide-complex tachycardia when appropriate, but should be avoided in prolonged QT or heart failure?",
+      "options": [
+        "Procainamide",
+        "Verapamil",
+        "Adenosine only",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procainamide is an option for stable wide-QRS tachycardia in ACLS algorithms, but it should be avoided in prolonged QT or heart failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-149",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is commonly used for ventricular tachycardia and has both class III effects and multiple additional channel-blocking properties?",
+      "options": [
+        "Amiodarone",
+        "Diltiazem",
+        "Adenosine",
+        "Digoxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amiodarone is a broad-spectrum antiarrhythmic with class III activity plus sodium-channel, calcium-channel, and beta-blocking properties. It is used for several atrial and ventricular arrhythmias under monitoring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "pharmacology-antiarrhythmic-drugs-150",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which class of antiarrhythmics primarily slows AV nodal conduction and is useful for rate control in atrial fibrillation?",
+      "options": [
+        "Beta-blockers and non-dihydropyridine CCBs",
+        "Class Ic sodium-channel blockers only",
+        "Potassium-sparing diuretics",
+        "ACE inhibitors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beta-blockers and non-dihydropyridine calcium channel blockers slow AV nodal conduction and are commonly used for ventricular rate control in AF, depending on comorbidities and contraindications.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
