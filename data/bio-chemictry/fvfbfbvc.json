@@ -2,6 +2,24 @@
   "subjectId": "bio-chemictry",
   "topicId": "fvfbfbvc",
   "topicName": "fvfbfbvc",
-  "updatedAt": "2026-05-13T05:39:03.575Z",
-  "questions": []
+  "updatedAt": "2026-05-13T05:39:58.720Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-fvfbfbvc-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "fwefefefffrgrwgrwgfv?",
+      "options": [
+        "efef",
+        "edfwweaf",
+        "efawef",
+        "efewf"
+      ],
+      "correctAnswer": 0,
+      "explanation": "rvbfdvvbrfbfvbaf",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": "./assets/images/questions/bio-chemictry/fvfbfbvc/fwefefefff-20260513053936.png"
+    }
+  ]
 }
