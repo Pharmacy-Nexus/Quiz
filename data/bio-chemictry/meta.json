@@ -3,7 +3,23 @@
   "name": "Bio-chemictry",
   "description": "",
   "order": 1,
-  "topics": [],
+  "topics": [
+    {
+      "id": "fvfbfbvc",
+      "name": "fvfbfbvc",
+      "description": "",
+      "order": 1,
+      "section": "dwdwd",
+      "sectionId": "dwdwd",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/fvfbfbvc.json"
+    }
+  ],
   "sections": [
     {
       "id": "dwdwd",
