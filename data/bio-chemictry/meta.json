@@ -12,11 +12,11 @@
       "section": "dwdwd",
       "sectionId": "dwdwd",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 1,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 1,
       "file": "data/bio-chemictry/fvfbfbvc.json"
     }
   ],
@@ -28,5 +28,5 @@
       "order": 1
     }
   ],
-  "updatedAt": "2026-05-13T05:39:05.933Z"
+  "updatedAt": "2026-05-13T05:40:00.000Z"
 }
