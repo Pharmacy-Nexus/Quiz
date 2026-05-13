@@ -115,6 +115,36 @@ async function putRepoJson(path, contentObject, message, sha) {
   if (sha) body.sha = sha;
   return gh(path, { method: 'PUT', body: JSON.stringify(body) });
 }
+function encodeArrayBufferToBase64(buffer) {
+  const bytes = new Uint8Array(buffer);
+  let binary = '';
+  const chunkSize = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
+  }
+  return btoa(binary);
+}
+async function putRepoBase64(path, base64Content, message, sha) {
+  const body = { message, content: base64Content, branch: session.branch };
+  if (sha) body.sha = sha;
+  return gh(path, { method: 'PUT', body: JSON.stringify(body) });
+}
+function sanitizeFilenamePart(value = 'file') {
+  return String(value || 'file').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'file';
+}
+function getImageExtension(file) {
+  const nameExt = String(file?.name || '').split('.').pop()?.toLowerCase() || '';
+  if (['png', 'jpg', 'jpeg', 'webp', 'svg'].includes(nameExt)) return nameExt === 'jpeg' ? 'jpg' : nameExt;
+  const type = String(file?.type || '').toLowerCase();
+  if (type.includes('png')) return 'png';
+  if (type.includes('jpeg') || type.includes('jpg')) return 'jpg';
+  if (type.includes('webp')) return 'webp';
+  if (type.includes('svg')) return 'svg';
+  return 'png';
+}
+async function getRepoFileMaybe(path) {
+  try { return await getRepoFile(path); } catch { return null; }
+}
 async function deleteRepoFile(path, sha, message) {
   const body = { message, sha, branch: session.branch };
   return gh(path, { method: 'DELETE', body: JSON.stringify(body) });
@@ -396,12 +426,61 @@ function resetQuestionForm() {
   $('question-text').value = '';
   $('question-case').value = '';
   $('question-image').value = '';
+  if ($('question-image-file')) $('question-image-file').value = '';
   $('option-1').value = '';
   $('option-2').value = '';
   $('option-3').value = '';
   $('option-4').value = '';
   $('correct-answer').value = '';
   $('question-explanation').value = '';
+  updateQuestionImagePreview();
+  setMsg('question-image-message', '');
+}
+function updateQuestionImagePreview() {
+  const wrap = $('question-image-preview');
+  if (!wrap) return;
+  const imageUrl = String($('question-image')?.value || '').trim();
+  if (!imageUrl) {
+    wrap.classList.add('hidden');
+    wrap.innerHTML = '';
+    return;
+  }
+  wrap.classList.remove('hidden');
+  wrap.innerHTML = `<div class="flex items-start gap-4 flex-wrap"><img src="${escapeHtml(imageUrl)}" alt="Question image preview" class="max-h-52 max-w-full rounded-xl border border-slate-200 object-contain bg-slate-50" onerror="this.style.display='none'; this.nextElementSibling.textContent='Preview could not load, but the URL is still saved.'"/><p class="text-sm text-slate-600 break-all min-w-[220px] flex-1">${escapeHtml(imageUrl)}</p></div>`;
+}
+async function uploadSelectedQuestionImage() {
+  try {
+    requireSession();
+    const fileInput = $('question-image-file');
+    const file = fileInput?.files?.[0];
+    if (!file) throw new Error('Choose an image first.');
+    if (!String(file.type || '').startsWith('image/')) throw new Error('Please choose an image file.');
+    const subjectId = $('question-subject-select')?.value;
+    const topicId = $('question-topic-select')?.value;
+    if (!subjectId || !topicId) throw new Error('Select subject and topic before uploading the image.');
+    if (file.size > 2.5 * 1024 * 1024) throw new Error('Image is too large. Please compress it below 2.5 MB.');
+    const currentId = sanitizeFilenamePart(currentEditingQuestionId || $('question-id')?.value || $('question-text')?.value?.slice(0, 40) || 'question');
+    const stamp = new Date().toISOString().replace(/[-:.TZ]/g, '').slice(0, 14);
+    const ext = getImageExtension(file);
+    const filename = `${currentId}-${stamp}.${ext}`;
+    const repoPath = `assets/images/questions/${sanitizeFilenamePart(subjectId)}/${sanitizeFilenamePart(topicId)}/${filename}`;
+    const buffer = await file.arrayBuffer();
+    const base64 = encodeArrayBufferToBase64(buffer);
+    const existing = await getRepoFileMaybe(repoPath);
+    await putRepoBase64(repoPath, base64, `Upload question image: ${filename}`, existing?.sha);
+    const publicPath = `./${repoPath}`;
+    $('question-image').value = publicPath;
+    updateQuestionImagePreview();
+    setMsg('question-image-message', `Image uploaded and linked: ${publicPath}`);
+  } catch (e) {
+    setMsg('question-image-message', e.message, false);
+  }
+}
+function removeQuestionImage() {
+  if ($('question-image')) $('question-image').value = '';
+  if ($('question-image-file')) $('question-image-file').value = '';
+  updateQuestionImagePreview();
+  setMsg('question-image-message', 'Image link removed from the form. Save the question to apply it.');
 }
 function buildQuestionFromForm(subjectId, topicId, fallbackId) {
   let options = [$('option-1').value.trim(), $('option-2').value.trim(), $('option-3').value.trim(), $('option-4').value.trim()].filter(Boolean);
@@ -607,6 +686,7 @@ function renderQuestionResults(items) {
           </div>
         </div>
         <div class="grid gap-2 mt-3">${optionsHtml}</div>
+        ${q.imageUrl ? `<div class="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-2"><img src="${escapeHtml(q.imageUrl)}" alt="Question image" class="max-h-32 w-full object-contain rounded-lg" /></div>` : ''}
         ${q.explanation ? `<div class="mt-3 text-xs leading-5 text-slate-600"><strong>Explanation:</strong> ${escapeHtml((q.explanation || '').slice(0, 180))}${(q.explanation || '').length > 180 ? '…' : ''}</div>` : ''}
       </div>
     `;
@@ -627,6 +707,9 @@ function loadQuestionIntoForm(qid) {
   $('question-text').value = q.questionText || '';
   $('question-case').value = q.caseText || '';
   $('question-image').value = q.imageUrl || '';
+  if ($('question-image-file')) $('question-image-file').value = '';
+  updateQuestionImagePreview();
+  setMsg('question-image-message', '');
   $('option-1').value = q.options?.[0] || '';
   $('option-2').value = q.options?.[1] || '';
   $('option-3').value = q.options?.[2] || '';
@@ -918,6 +1001,14 @@ window.addEventListener('DOMContentLoaded', () => {
     resetQuestionForm();
   });
   $('question-search').addEventListener('input', filterQuestionResults);
+  $('question-image')?.addEventListener('input', updateQuestionImagePreview);
+  $('choose-question-image-btn')?.addEventListener('click', () => $('question-image-file')?.click());
+  $('question-image-file')?.addEventListener('change', () => {
+    const file = $('question-image-file')?.files?.[0];
+    if (file) setMsg('question-image-message', `Selected: ${file.name}. Press Upload image to send it to GitHub.`);
+  });
+  $('upload-question-image-btn')?.addEventListener('click', uploadSelectedQuestionImage);
+  $('remove-question-image-btn')?.addEventListener('click', removeQuestionImage);
   $('load-topic-json-btn')?.addEventListener('click', loadSelectedTopicJsonForAdmin);
   $('choose-question-json-btn')?.addEventListener('click', () => $('question-json-file')?.click());
   $('question-json-file')?.addEventListener('change', (event) => importLocalQuestionJsonFile(event.target.files?.[0]));
