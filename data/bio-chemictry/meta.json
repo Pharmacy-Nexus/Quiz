@@ -3,7 +3,23 @@
   "name": "Bio-chemictry",
   "description": "",
   "order": 1,
-  "topics": [],
+  "topics": [
+    {
+      "id": "protein-and-amino-acids",
+      "name": "Protein and Amino Acids",
+      "description": "",
+      "order": 1,
+      "section": "Protein",
+      "sectionId": "protein",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/protein-and-amino-acids.json"
+    }
+  ],
   "sections": [
     {
       "id": "protein",
