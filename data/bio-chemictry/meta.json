@@ -12,11 +12,11 @@
       "section": "Protein",
       "sectionId": "protein",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 45,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 45,
       "file": "data/bio-chemictry/protein-and-amino-acids.json"
     }
   ],
@@ -28,5 +28,5 @@
       "order": 1
     }
   ],
-  "updatedAt": "2026-05-15T22:37:33.738Z"
+  "updatedAt": "2026-05-15T22:46:42.605Z"
 }
