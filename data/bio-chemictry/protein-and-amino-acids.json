@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "protein-and-amino-acids",
   "topicName": "Protein and Amino Acids",
-  "updatedAt": "2026-05-15T20:24:10.840Z",
+  "updatedAt": "2026-05-15T20:24:35.366Z",
   "questions": [
     {
       "id": "bio-chemictry-protein-and-amino-acids-001",
@@ -765,6 +765,1281 @@
       ],
       "correctAnswer": 0,
       "explanation": "Collagen is resistant to digestion, but boiling converts it into gelatin. Gelatin is denatured collagen and is more easily digested.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Alanine has pKa values of 2.3 for α-COOH and 9.7 for α-NH3⁺. What is its approximate pI?",
+      "options": [
+        "2.3",
+        "6.0",
+        "7.4",
+        "9.7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alanine is a neutral amino acid, so its pI is calculated by averaging the two α-group pKa values: pI = ½ × (2.3 + 9.7) = 6.0. Neutral amino acids do not have an ionizable side chain, so only α-COOH and α-NH3⁺ are used.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glutamic acid has pKa α-COOH = 2.09 and pKa side-chain COOH = 4.31. Its pI is closest to:",
+      "options": [
+        "3.2",
+        "6.0",
+        "7.6",
+        "9.8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For acidic amino acids, the pI is calculated using the two acidic pKa values: α-COOH and side-chain COOH. pI = ½ × (2.09 + 4.31) = 3.2. This is why acidic amino acids have low pI values.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lysine has pKa side-chain NH2 = 9.2 and pKa α-NH2 = 10.5. Its pI is approximately:",
+      "options": [
+        "3.2",
+        "6.0",
+        "7.4",
+        "9.8"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For basic amino acids, the pI is calculated using the two basic pKa values. pI = ½ × (9.2 + 10.5) = 9.85 ≈ 9.8. Basic amino acids have high pI values because they retain positive charges until higher pH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-049",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "At physiological pH, which amino acid would contribute most clearly to a negative charge in a peptide?",
+      "options": [
+        "Lysine",
+        "Aspartate",
+        "Alanine",
+        "Valine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aspartate is an acidic amino acid. At physiological pH, its side-chain carboxyl group is deprotonated and negatively charged. Lysine contributes positive charge, while alanine and valine are neutral/nonpolar.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-050",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "At physiological pH, which amino acid would most likely increase the positive charge of a peptide?",
+      "options": [
+        "Glutamate",
+        "Aspartate",
+        "Lysine",
+        "Glycine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lysine has a side-chain amino group that remains protonated at physiological pH. This contributes an additional positive charge to the peptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-051",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A peptide contains several glutamate and aspartate residues. At physiological pH, it is likely to be:",
+      "options": [
+        "More negatively charged",
+        "More positively charged",
+        "Completely non-ionized",
+        "Unable to dissolve in water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate and aspartate have acidic side chains. At physiological pH, their side-chain carboxyl groups are usually negatively charged, increasing the peptide's net negative charge.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-052",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A peptide contains several lysine and arginine residues. At physiological pH, it is likely to be:",
+      "options": [
+        "More positively charged",
+        "More negatively charged",
+        "Completely hydrophobic",
+        "Unable to form peptide bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine and arginine are basic amino acids. Their side chains are positively charged at physiological pH, increasing the peptide's net positive charge.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-053",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein has pI = 5.2. At pH 7.4, the protein will have a net:",
+      "options": [
+        "Positive charge",
+        "Negative charge",
+        "Zero charge",
+        "No ionizable groups"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When pH is higher than the protein's pI, the protein loses protons and becomes negatively charged. Since 7.4 is above 5.2, the protein has a net negative charge.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A protein has pI = 8.5. At pH 6.5, the protein will migrate during electrophoresis toward the:",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Origin only",
+        "Both electrodes equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At pH below its pI, a protein is positively charged. Positively charged molecules migrate toward the negative electrode, the cathode.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A protein has pI = 4.8. At pH 8.0, it will migrate toward the:",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Origin only",
+        "No movement because proteins cannot migrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At pH above its pI, the protein has a net negative charge. Negative molecules move toward the positive electrode, the anode.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-056",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which condition is most likely to give minimum protein solubility?",
+      "options": [
+        "pH much lower than pI",
+        "pH much higher than pI",
+        "pH equal to pI",
+        "Very dilute salt concentration only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At pI, the protein has zero net charge, so hydration and electrostatic repulsion decrease. This causes minimum solubility and greater tendency to precipitate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-057",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein shows no migration in electrophoresis. The most likely explanation is:",
+      "options": [
+        "The pH equals its pI",
+        "The protein has no peptide bonds",
+        "The protein is fully hydrolyzed",
+        "The protein contains only lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the isoelectric point, the protein has zero net charge. With no net charge, it does not move toward either electrode.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does protein hydration increase in acidic or alkaline media compared with pI?",
+      "options": [
+        "Ionized groups attract more water",
+        "Peptide bonds are broken",
+        "Proteins become nonpolar",
+        "Proteins lose all amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Away from pI, proteins carry net charges. These ionized groups interact strongly with water, increasing hydration and solubility.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-059",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Salting in occurs when:",
+      "options": [
+        "Small amounts of salt increase protein solubility",
+        "Large amounts of salt break peptide bonds",
+        "Salt converts proteins into amino acids",
+        "Salt removes all nitrogen from proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small amounts of salt increase protein solubility by improving ionization and hydration around protein molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-060",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Salting out is useful in protein purification because:",
+      "options": [
+        "High salt concentration precipitates proteins by removing water of hydration",
+        "High salt concentration forms peptide bonds",
+        "High salt concentration destroys primary structure",
+        "High salt concentration converts proteins into carbohydrates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High salt concentration competes with proteins for water. This reduces the water film around proteins and causes precipitation, which can be used for purification.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-061",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best distinguishes salting in from salting out?",
+      "options": [
+        "Salting in increases solubility at low salt; salting out decreases solubility at high salt",
+        "Salting in breaks peptide bonds; salting out forms peptide bonds",
+        "Both always denature proteins irreversibly",
+        "Both occur only at the pI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low salt concentrations can increase protein solubility, while high salt concentrations compete for water and precipitate proteins. This is the core difference.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Albumin is precipitated by:",
+      "options": [
+        "Fully saturated ammonium sulfate",
+        "Half-saturated ammonium sulfate",
+        "70–80% ethanol",
+        "Dilute alkali only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Albumins are water-soluble and are precipitated by full saturation with ammonium sulfate. This contrasts with globulins, which precipitate at half saturation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Globulins are precipitated by:",
+      "options": [
+        "Half saturation with ammonium sulfate",
+        "Full saturation only",
+        "70–80% ethanol",
+        "Boiling in water to form gelatin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Globulins are insoluble in water, soluble in dilute salt solution, and precipitated by half saturation with ammonium sulfate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-064",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Gliadins are best recognized by their solubility in:",
+      "options": [
+        "70–80% ethanol",
+        "Pure water",
+        "Dilute salt solution only",
+        "Fat solvents only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gliadins, also called prolamins, are cereal proteins that are insoluble in water but soluble in 70–80% ethanol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-065",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutelins are:",
+      "options": [
+        "Plant proteins soluble in weak acids or bases",
+        "Animal proteins found in hair only",
+        "Plasma proteins soluble in water",
+        "Colored conjugated proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutelins are plant proteins, insoluble in neutral aqueous solutions but soluble in weak acids or bases. Glutelin of wheat is an example.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-066",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which protein type is found only in animal tissues and has protective functions?",
+      "options": [
+        "Scleroproteins",
+        "Gliadins",
+        "Glutelins",
+        "Prolamins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scleroproteins, also called albuminoids, are simple proteins found in animal tissues. They include keratin, collagen, and elastin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-067",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Keratin is rich in sulfur-containing amino acids and is found in:",
+      "options": [
+        "Hair, nails, wool, feathers, and horns",
+        "Blood plasma only",
+        "Milk only",
+        "Egg yolk only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Keratin is a scleroprotein rich in cystine/sulfur-containing amino acids. It is structural and found in hair, nails, wool, feathers, and horns.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-068",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Collagen differs from many other proteins because it contains large amounts of:",
+      "options": [
+        "Hydroxyproline and hydroxylysine",
+        "Tryptophan and methionine only",
+        "Histidine and arginine only",
+        "β-alanine and GABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen contains high amounts of hydroxyproline and hydroxylysine. These modified amino acids help support collagen structure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-069",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Boiling collagen in water converts it into:",
+      "options": [
+        "Gelatin",
+        "Hemoglobin",
+        "Albumin",
+        "Histone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen is insoluble and resistant to digestion, but boiling converts it into gelatin, which is soluble and more easily digested.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Elastin differs from collagen in that elastin:",
+      "options": [
+        "Cannot be converted into gelatin",
+        "Is a chromoprotein",
+        "Is a phosphoprotein",
+        "Is soluble in 70–80% ethanol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elastin is present in ligaments and arteries and cannot be converted into gelatin, unlike collagen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-071",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Histones associate with nucleic acids mainly because they are:",
+      "options": [
+        "Basic and rich in lysine/arginine",
+        "Acidic and rich in glutamate/aspartate",
+        "Hydrophobic and rich in valine/leucine",
+        "Sulfur-rich like keratin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are basic proteins rich in lysine and arginine. Their positive charge allows them to associate with negatively charged nucleic acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-072",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Protamines are useful in protamine insulin because they are:",
+      "options": [
+        "Basic polypeptides",
+        "Acidic glycoproteins",
+        "Fibrous collagen-like proteins",
+        "Lipoproteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protamines are basic polypeptides rich in basic amino acids. They can bind insulin and form protamine insulin preparations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-073",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein that yields only amino acids or their derivatives on hydrolysis is classified as:",
+      "options": [
+        "Simple protein",
+        "Conjugated protein",
+        "Derived protein",
+        "Lipoprotein only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple proteins produce only amino acids or their derivatives after hydrolysis. Albumins, globulins, histones, protamines, and scleroproteins are examples.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-074",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein containing protein plus a non-protein prosthetic group is classified as:",
+      "options": [
+        "Conjugated protein",
+        "Simple protein",
+        "Derived protein",
+        "Peptone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated proteins consist of a simple protein plus a non-protein component, called a prosthetic group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-075",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nucleoproteins are composed of:",
+      "options": [
+        "Protein plus nucleic acid",
+        "Protein plus lipid",
+        "Protein plus heme",
+        "Protein plus phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nucleoproteins contain protein, commonly histones, combined with nucleic acid such as DNA or RNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-076",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Casein is classified as a phosphoprotein because it contains:",
+      "options": [
+        "Phosphorylated amino acid residues",
+        "Heme",
+        "Cholesterol",
+        "Zinc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoproteins contain phosphate groups attached to amino acid residues. Casein of milk is a classic example.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glycoproteins differ from mucoproteins mainly because glycoproteins contain:",
+      "options": [
+        "Smaller amounts of carbohydrate",
+        "No carbohydrate at all",
+        "Only heme",
+        "Only nucleic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycoproteins contain relatively small amounts of carbohydrate, while mucoproteins contain large amounts of carbohydrate or N-acetyl hexosamine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-078",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Mucin of saliva is an example of:",
+      "options": [
+        "Mucoprotein",
+        "Chromoprotein",
+        "Lipoprotein",
+        "Scleroprotein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mucin contains large amounts of carbohydrate or N-acetyl hexosamine and is classified as a mucoprotein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-079",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemoglobin and myoglobin are chromoproteins because they contain:",
+      "options": [
+        "Heme",
+        "DNA",
+        "Cholesterol",
+        "Casein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chromoproteins contain colored prosthetic groups. Hemoglobin and myoglobin contain heme, an iron-containing porphyrin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-080",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carbonic anhydrase is classified as a metalloprotein because it contains:",
+      "options": [
+        "Zinc as a metal component",
+        "Heme as a colored group",
+        "Riboflavin as FAD",
+        "Carbohydrate side chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metalloproteins contain metal atoms directly as prosthetic components. Carbonic anhydrase is a zinc-containing enzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-081",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ceruloplasmin is an example of a metalloprotein because it contains:",
+      "options": [
+        "Copper",
+        "Heme",
+        "Phosphate",
+        "Glycine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ceruloplasmin is a plasma globulin to which copper is bound, so it is classified as a metalloprotein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-082",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Flavoproteins contain prosthetic groups derived from:",
+      "options": [
+        "Riboflavin",
+        "Vitamin C",
+        "Vitamin K",
+        "Cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flavoproteins contain riboflavin-derived groups, such as FMN and FAD. These are important in oxidation-reduction reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-083",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LDL and VLDL are examples of:",
+      "options": [
+        "Lipoproteins",
+        "Histones",
+        "Protamines",
+        "Glutelins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipoproteins are complexes of protein and lipid components, such as cholesterol, lecithin, or phospholipids. LDL and VLDL are plasma lipoproteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-084",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Derived proteins include:",
+      "options": [
+        "Denatured proteins, proteoses, peptones, and peptides",
+        "Only albumin and globulin",
+        "Only hemoglobin and myoglobin",
+        "Only histones and protamines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derived proteins are formed from changes or partial hydrolysis of original proteins. They include denatured/coagulated proteins, proteoses, peptones, and peptides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-085",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best describes fibrous proteins?",
+      "options": [
+        "Elongated, insoluble, and often resistant to proteolytic digestion",
+        "Compact, soluble, and mainly enzymatic",
+        "Always composed of nucleic acid",
+        "Always found in plasma only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fibrous proteins have high axial ratios, are usually insoluble, and often resist digestion. Examples include collagen, keratin, silk, and wool.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-086",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement best describes globular proteins?",
+      "options": [
+        "Compact, folded, soluble proteins with functional roles",
+        "Long insoluble fibers only",
+        "Always plant proteins",
+        "Always converted into gelatin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Globular proteins have compact structures, are usually soluble, and include enzymes, albumin, globulins, and protein hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-087",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Fibrous protein — collagen",
+        "Globular protein — silk",
+        "Scleroprotein — hemoglobin",
+        "Chromoprotein — albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen is a fibrous structural protein. Silk is fibrous, hemoglobin is chromoprotein, and albumin is a simple globular protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-088",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Globular protein — insulin",
+        "Fibrous protein — albumin",
+        "Metalloprotein — casein",
+        "Phosphoprotein — keratin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a globular protein hormone. Albumin is globular, casein is phosphoprotein, and keratin is a scleroprotein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-089",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein has an axial ratio greater than 10. It is most likely:",
+      "options": [
+        "Fibrous",
+        "Globular",
+        "Derived only",
+        "Flavoprotein only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fibrous proteins are elongated and have an axial ratio greater than 10. Globular proteins have much smaller axial ratios.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-090",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein has an axial ratio of about 3:1 or 4:1 and is water-soluble. It is most likely:",
+      "options": [
+        "Globular",
+        "Fibrous",
+        "Scleroprotein only",
+        "Collagen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Globular proteins are compact and have axial ratios usually around 3:1 or 4:1. They are commonly soluble in water.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which structural level is directly affected by a missense mutation?",
+      "options": [
+        "Primary structure",
+        "Secondary structure only",
+        "Quaternary structure only",
+        "Protein solubility only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A missense mutation changes one amino acid in the sequence. Since primary structure is amino acid sequence, it is directly affected first.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In sickle-cell anemia, the important amino acid replacement in the β-chain is:",
+      "options": [
+        "Glutamate replaced by valine",
+        "Valine replaced by glutamate",
+        "Glycine replaced by proline",
+        "Lysine replaced by arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sickle-cell hemoglobin has valine instead of glutamate at position 6 of the β-chain. This replacement changes charge and hydrophobicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is the glutamate-to-valine replacement in sickle hemoglobin significant?",
+      "options": [
+        "A negatively charged residue is replaced by a nonpolar residue",
+        "A peptide bond is removed",
+        "Hemoglobin loses all amino acids",
+        "Valine forms nucleic acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate is negatively charged, while valine is nonpolar. This change promotes abnormal aggregation of deoxygenated hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-094",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Species specificity of proteins is mainly due to:",
+      "options": [
+        "Differences in amino acid sequences between species",
+        "Loss of all peptide bonds",
+        "Absence of primary structure",
+        "Identical sequences in all species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Homologous proteins from different species perform similar functions but may differ slightly in amino acid sequence. These differences contribute to species specificity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The α-helix differs from the β-sheet because α-helix:",
+      "options": [
+        "Is tightly coiled and stabilized by intrachain hydrogen bonds",
+        "Is always formed by three chains",
+        "Has no hydrogen bonds",
+        "Is identical to collagen helix"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The α-helix is a coiled structure stabilized by hydrogen bonds within the same polypeptide chain. β-sheets are extended and pleated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-096",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "β-sheets differ from α-helices because β-sheets:",
+      "options": [
+        "Are extended and often stabilized by interchain hydrogen bonds",
+        "Always contain 3.6 amino acids per turn",
+        "Are always composed of one chain only",
+        "Are stabilized mainly by peptide bond hydrolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-sheets are extended and pleated. Their hydrogen bonds are often between different strands or separate portions of polypeptide chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-097",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In an α-helix, side chains project:",
+      "options": [
+        "Outward from the central axis",
+        "Into the peptide bond only",
+        "Inside the nucleus",
+        "Between DNA bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In α-helices, the polypeptide backbone forms the coiled core, while side chains extend outward to avoid steric interference.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement about myoglobin is most accurate based on protein structure?",
+      "options": [
+        "It is globular despite being largely α-helical",
+        "It is fibrous because it has α-helices",
+        "It is a nucleoprotein",
+        "It is a derived protein only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is approximately 80% α-helical, but it is compact and soluble, so it is a globular protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which structural feature makes keratin mechanically strong?",
+      "options": [
+        "Helical chains cross-linked by disulfide and hydrogen bonds",
+        "Absence of sulfur-containing amino acids",
+        "Complete lack of peptide bonds",
+        "Conversion into gelatin by boiling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Keratin contains long helical peptide chains cross-linked by disulfide bonds and hydrogen bonds, giving it strength and resistance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tertiary structure of globular proteins is stabilized by all EXCEPT:",
+      "options": [
+        "Hydrophobic interactions",
+        "Disulfide bonds",
+        "Ionic bonds",
+        "Phosphodiester bonds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tertiary structure is stabilized by interactions such as hydrophobic interactions, disulfide bonds, ionic bonds, hydrogen bonds, and sometimes ester bonds. Phosphodiester bonds are characteristic of nucleic acids, not protein tertiary structure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-101",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hydrophobic amino acids are usually buried in globular proteins because:",
+      "options": [
+        "They avoid interaction with water",
+        "They are always charged",
+        "They form peptide bonds with DNA",
+        "They are converted to sugars"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrophobic side chains tend to cluster inside globular proteins away from water. This contributes strongly to protein folding and stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Polar groups in globular proteins are usually located:",
+      "options": [
+        "On the outer surface",
+        "Only in the hydrophobic core",
+        "Only inside disulfide bonds",
+        "Only at the peptide bond"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polar groups interact well with water, so they are usually found on the surface of globular proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which interaction between protein subunits is common in quaternary structure?",
+      "options": [
+        "Hydrogen bonds, ionic bonds, and hydrophobic interactions",
+        "Only phosphodiester bonds",
+        "Only glycosidic bonds",
+        "Only peptide bonds between all subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subunits in quaternary structure are generally held together by noncovalent interactions such as hydrogen bonds, ionic bonds, and hydrophobic interactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemoglobin shows cooperative behavior because:",
+      "options": [
+        "Oxygen binding to one subunit increases affinity of other subunits",
+        "It contains only one polypeptide chain",
+        "It has no quaternary structure",
+        "It is insoluble like collagen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin is a tetramer. When oxygen binds to one subunit, the remaining subunits bind oxygen more easily. This is cooperative binding.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein made of two subunits is called:",
+      "options": [
+        "Dimeric",
+        "Trimeric",
+        "Tetrameric",
+        "Multimeric only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two subunits = dimeric. Three = trimeric. Four = tetrameric. Several = multimeric.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-106",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A protein made of four subunits is called:",
+      "options": [
+        "Tetrameric",
+        "Dimeric",
+        "Monomeric",
+        "Primary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A protein with four polypeptide subunits is tetrameric. Hemoglobin is the classic example.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-107",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutathione is a tripeptide made of:",
+      "options": [
+        "Glutamate, cysteine, and glycine",
+        "Valine, leucine, and isoleucine",
+        "Lysine, arginine, and histidine",
+        "Aspartate, alanine, and proline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione is γ-glutamylcysteinylglycine. It contains glutamate, cysteine, and glycine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-108",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The cysteine residue in glutathione is important because it provides:",
+      "options": [
+        "A sulfhydryl group",
+        "A phosphate group",
+        "A nucleic acid base",
+        "A carbohydrate chain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cysteine contains an -SH group. This sulfhydryl group is important in glutathione's reducing properties.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-109",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Aspartame is described as:",
+      "options": [
+        "A dipeptide sweetener",
+        "A chromoprotein",
+        "A nucleoprotein",
+        "A scleroprotein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartame is a dipeptide used as a sweetener and sugar substitute.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-110",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a physiologically active peptide?",
+      "options": [
+        "Insulin",
+        "Cellulose",
+        "Cholesterol",
+        "Glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a polypeptide hormone. Physiologically active peptides include glutathione, peptide hormones, some antibiotics, and aspartame.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-111",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Denaturation is best described as:",
+      "options": [
+        "Alteration of protein conformation without rupture of peptide bonds",
+        "Complete hydrolysis of all peptide bonds",
+        "Formation of DNA from protein",
+        "Conversion of protein into lipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Denaturation changes secondary, tertiary, or quaternary structure while leaving the primary peptide chain intact.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-112",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which bonds/interactions are commonly disrupted during denaturation?",
+      "options": [
+        "Hydrogen bonds, ionic bonds, hydrophobic interactions, and sometimes disulfide bonds",
+        "Only peptide bonds",
+        "Only phosphodiester bonds",
+        "Only glycosidic bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Denaturation disrupts bonds that stabilize higher-order protein structures. Peptide bonds are not usually broken.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-113",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which agent reduces disulfide bonds into free -SH groups?",
+      "options": [
+        "β-mercaptoethanol",
+        "Sodium chloride at low concentration",
+        "Pure water",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-mercaptoethanol reduces disulfide bonds, converting them into free sulfhydryl groups and disturbing protein folding.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-114",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Strong acids and alkalis denature proteins mainly by disrupting:",
+      "options": [
+        "Electrostatic linkages",
+        "Peptide bonds only",
+        "Phosphodiester bonds only",
+        "Glycosidic bonds only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strong acids and bases alter charge states and disrupt electrostatic interactions that stabilize protein conformation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-115",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Organic solvents denature proteins mainly by disrupting:",
+      "options": [
+        "Hydrogen and hydrophobic interactions",
+        "Only peptide bonds",
+        "Only α-carbon atoms",
+        "Only nucleic acid bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organic solvents interfere with hydrogen bonding and hydrophobic interactions, leading to unfolding and denaturation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-116",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which change is expected after denaturation?",
+      "options": [
+        "Decreased solubility and loss of biological activity",
+        "Increased perfect crystallization",
+        "Complete absence of amino acids",
+        "Formation of new primary sequence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Denaturation commonly decreases solubility, increases viscosity, decreases symmetry, and causes loss of biological activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-117",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Why does heating usually inactivate enzymes?",
+      "options": [
+        "It disrupts the active 3D conformation",
+        "It removes all nitrogen from the protein",
+        "It converts enzymes into nucleic acids",
+        "It creates new peptide bonds randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzyme activity depends on precise 3D folding. Heat denatures the enzyme and disrupts the active site, causing loss of biological activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-118",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Denatured proteins are more easily digested because:",
+      "options": [
+        "Unfolding exposes peptide bonds to proteolytic enzymes",
+        "All peptide bonds are already absent",
+        "Proteins become nucleic acids",
+        "Proteins lose their amino acid composition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unfolding exposes internal peptide bonds, allowing proteases to access them more easily.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-119",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Mild denaturation of bacterial toxins by formalin produces:",
+      "options": [
+        "Toxoids",
+        "Peptones",
+        "Nucleoproteins",
+        "Flavoproteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Formalin can mildly denature bacterial toxins, converting them into toxoids. Toxoids are non-toxic but still antigenic, so they can be used in vaccines.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-and-amino-acids-120",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which denaturation example is commonly irreversible?",
+      "options": [
+        "Coagulation of egg albumin",
+        "Mild reversible ribonuclease unfolding",
+        "Normal protein folding during synthesis",
+        "Salting in"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heating egg albumin causes denaturation and coagulation, which is generally irreversible. Some proteins, such as ribonuclease under controlled conditions, can refold after denaturation.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
