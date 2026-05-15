@@ -4,6 +4,13 @@
   "description": "",
   "order": 1,
   "topics": [],
-  "sections": [],
-  "updatedAt": "2026-05-15T20:09:34.259Z"
+  "sections": [
+    {
+      "id": "protein",
+      "name": "Protein",
+      "description": "",
+      "order": 1
+    }
+  ],
+  "updatedAt": "2026-05-15T20:11:09.058Z"
 }
