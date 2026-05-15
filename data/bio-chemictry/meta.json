@@ -14,9 +14,9 @@
       "difficultyBreakdown": {
         "easy": 45,
         "medium": 75,
-        "hard": 0
+        "hard": 60
       },
-      "questionsCount": 120,
+      "questionsCount": 180,
       "file": "data/bio-chemictry/protein-and-amino-acids.json"
     }
   ],
@@ -28,5 +28,5 @@
       "order": 1
     }
   ],
-  "updatedAt": "2026-05-15T22:53:55.434Z"
+  "updatedAt": "2026-05-15T22:54:51.401Z"
 }
