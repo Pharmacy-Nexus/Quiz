@@ -21,6 +21,46 @@
     .admin-layout{display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:1.5rem;align-items:start}.admin-main{display:grid;gap:1.5rem}.question-tools-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.question-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.questions-list-shell{margin-top:1.25rem;border-top:1px solid rgba(193,199,203,.45);padding-top:1.25rem}.question-results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;max-height:none;overflow:visible;padding-right:0}.hidden{display:none!important}
     .step-badge{display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:999px;background:var(--navy);color:#ffe088;font-weight:900;margin-right:.6rem}
     @media(max-width:1100px){.admin-layout{grid-template-columns:1fr}.question-tools-row,.question-form-grid{grid-template-columns:1fr}.question-results-grid{grid-template-columns:1fr}}
+
+    /* ===================== Mobile Admin Comfort Fix ===================== */
+    @media(max-width:760px){
+      html,body{width:100%;max-width:100%;overflow-x:hidden}
+      body{background:linear-gradient(180deg,#f8f9fa,#eef2f4)}
+      main{max-width:100%!important;padding:1rem!important}
+      .mb-8{margin-bottom:1rem!important}
+      h1{font-size:2rem!important;line-height:1.05!important}
+      .card{border-radius:1.25rem!important;padding:1rem!important;box-shadow:0 12px 26px rgba(0,21,27,.06)!important}
+      .admin-layout{display:block!important;margin-top:1rem!important}
+      .admin-layout>aside{position:static!important;top:auto!important;margin-bottom:1rem!important}
+      .admin-main{display:grid!important;gap:1rem!important}
+      .admin-section-title{display:block!important;margin-bottom:.9rem!important}
+      .admin-section-title h2{font-size:1rem!important;line-height:1.25!important}
+      .admin-section-title p{font-size:.82rem!important}
+      .step-badge{width:1.65rem!important;height:1.65rem!important;margin-right:.45rem!important}
+      .field{font-size:16px!important;padding:.82rem .85rem!important;border-radius:.9rem!important}
+      .btn,.mini-btn{width:100%;display:flex;align-items:center;justify-content:center;text-align:center;min-height:44px}
+      .question-tools-row,.question-form-grid{display:grid!important;grid-template-columns:1fr!important;gap:.8rem!important}
+      .question-results-grid{display:grid!important;grid-template-columns:1fr!important;gap:.85rem!important}
+      .result-item{border-radius:1rem!important;padding:.9rem!important;overflow-wrap:anywhere}
+      .option-pill{max-width:100%;white-space:normal;line-height:1.35}
+      .soft-panel{border-radius:1rem!important;padding:.85rem!important}
+      .sticky-note{border-radius:1rem!important;padding:.85rem!important}
+      .mono{white-space:pre-wrap;word-break:break-word}
+      textarea.field{min-height:110px}
+      .questions-list-shell{margin-top:1rem!important;padding-top:1rem!important}
+      #question-image-preview img{max-width:100%!important;height:auto!important;border-radius:1rem}
+      .flex{min-width:0}
+      .space-y-3>*+*,.space-y-4>*+*{margin-top:.75rem!important}
+    }
+
+    @media(max-width:420px){
+      main{padding:.75rem!important}
+      .card{padding:.85rem!important}
+      h1{font-size:1.7rem!important}
+      .admin-section-title h2{font-size:.96rem!important}
+      label{font-size:.82rem!important}
+    }
+
   </style>
 </head>
 <body>
