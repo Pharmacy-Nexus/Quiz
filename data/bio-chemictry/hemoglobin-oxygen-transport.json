@@ -2,6 +2,2047 @@
   "subjectId": "bio-chemictry",
   "topicId": "hemoglobin-oxygen-transport",
   "topicName": "Hemoglobin & Oxygen Transport",
-  "updatedAt": "2026-05-18T22:12:03.583Z",
-  "questions": []
+  "updatedAt": "2026-05-18T22:20:16.118Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adult hemoglobin A is composed of:",
+      "options": [
+        "Two α-chains and two β-chains",
+        "Four γ-chains",
+        "Two α-chains and two δ-chains",
+        "One peptide chain only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adult hemoglobin A is a tetramer composed of two α-chains and two β-chains. Each subunit contains a heme group that can bind oxygen reversibly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Each α-chain of hemoglobin contains approximately:",
+      "options": [
+        "141 amino acids",
+        "146 amino acids",
+        "153 amino acids",
+        "120 amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The α-chain of hemoglobin contains 141 amino acids. The β-chain contains 146 amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Each β-chain of hemoglobin contains approximately:",
+      "options": [
+        "141 amino acids",
+        "146 amino acids",
+        "153 amino acids",
+        "110 amino acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The β-chain contains 146 amino acids, while the α-chain contains 141 amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal hemoglobin concentration in adult males is approximately:",
+      "options": [
+        "14–18 g/dL",
+        "12–16 g/dL",
+        "6–8 g/dL",
+        "20–25 g/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The normal hemoglobin range listed for males is 14–18 g/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal hemoglobin concentration in adult females is approximately:",
+      "options": [
+        "14–18 g/dL",
+        "12–16 g/dL",
+        "8–10 g/dL",
+        "18–22 g/dL"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The normal hemoglobin range listed for females is 12–16 g/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemoglobin is responsible for the red color of blood mainly because it contains:",
+      "options": [
+        "Heme",
+        "Albumin",
+        "Glucose",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin contains heme, an iron-containing porphyrin pigment responsible for the red color of blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxyhemoglobin is formed when hemoglobin binds:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide only",
+        "Bicarbonate",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxyhemoglobin is formed when hemoglobin binds oxygen reversibly: Hb + 4O₂ ⇌ Hb·4O₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In functional oxyhemoglobin, iron is mainly in the:",
+      "options": [
+        "Ferrous state, Fe²⁺",
+        "Ferric state, Fe³⁺",
+        "Magnesium state",
+        "Copper state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Functional hemoglobin binds oxygen through ferrous iron Fe²⁺. Oxidation to Fe³⁺ forms methemoglobin, which cannot bind oxygen normally.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxygen binding to hemoglobin is:",
+      "options": [
+        "Reversible",
+        "Always irreversible",
+        "Only possible in tissues",
+        "Independent of oxygen tension"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin binds oxygen reversibly. This allows oxygen loading in the lungs and unloading in peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the lungs, hemoglobin tends to:",
+      "options": [
+        "Bind oxygen",
+        "Release all oxygen",
+        "Convert into bilirubin",
+        "Form methemoglobin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the lungs, oxygen tension is high, so hemoglobin binds oxygen and forms oxyhemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In tissues, hemoglobin tends to:",
+      "options": [
+        "Release oxygen",
+        "Bind more oxygen strongly",
+        "Convert oxygen into bilirubin",
+        "Lose all globin chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In tissues, oxygen tension is low, so hemoglobin releases oxygen for cellular metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The oxygen dissociation curve of hemoglobin is:",
+      "options": [
+        "Sigmoidal",
+        "Linear",
+        "Hyperbolic only",
+        "Flat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin has a sigmoidal oxygen dissociation curve because its subunits cooperate during oxygen binding.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cooperative binding means that binding of oxygen to one heme group:",
+      "options": [
+        "Increases oxygen affinity of the remaining heme groups",
+        "Prevents oxygen binding to other heme groups",
+        "Converts hemoglobin into bilirubin",
+        "Removes 2,3-BPG permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In hemoglobin, oxygen binding to one subunit increases the affinity of the remaining subunits for oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Bohr effect describes the effect of changes in:",
+      "options": [
+        "pH and pCO₂ on oxygen binding",
+        "Glucose and insulin on oxygen binding",
+        "Bile salts on bilirubin",
+        "DNA mutation on heme synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Bohr effect describes how increased CO₂ and H⁺ decrease hemoglobin’s oxygen affinity, promoting oxygen release in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Increased pCO₂ and increased H⁺ cause hemoglobin oxygen affinity to:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Stay unchanged",
+        "Become irreversible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increased CO₂ and H⁺ lower pH and decrease hemoglobin’s oxygen affinity, helping tissues receive oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Decreased pCO₂ and decreased H⁺ cause hemoglobin oxygen affinity to:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Become zero",
+        "Convert Hb to MetHb only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lower CO₂ and lower H⁺ increase pH, increasing hemoglobin affinity for oxygen. This favors oxygen loading in lungs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "2,3-BPG mainly:",
+      "options": [
+        "Decreases hemoglobin affinity for oxygen",
+        "Increases hemoglobin affinity for oxygen",
+        "Converts hemoglobin into bilirubin",
+        "Binds only to oxyhemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG decreases hemoglobin’s oxygen affinity, helping oxygen unloading in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "2,3-BPG binds mainly to:",
+      "options": [
+        "Deoxyhemoglobin",
+        "Oxyhemoglobin",
+        "Bilirubin",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG binds to deoxyhemoglobin, not oxyhemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The presence of 2,3-BPG shifts the oxygen dissociation curve:",
+      "options": [
+        "To the right",
+        "To the left",
+        "It does not affect the curve",
+        "It makes the curve linear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG decreases oxygen affinity and shifts the curve to the right, enhancing oxygen release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Removal of 2,3-BPG from hemoglobin causes:",
+      "options": [
+        "Increased oxygen affinity",
+        "Decreased oxygen affinity",
+        "Complete loss of heme",
+        "Formation of bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin without 2,3-BPG has abnormally high oxygen affinity and releases oxygen poorly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "2,3-BPG is synthesized from an intermediate of:",
+      "options": [
+        "Glycolysis",
+        "Urea cycle",
+        "Heme degradation",
+        "DNA replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG is synthesized from an intermediate of the glycolytic pathway in red blood cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "2,3-BPG is abundant in:",
+      "options": [
+        "Red blood cells",
+        "Bile ducts only",
+        "Bone matrix only",
+        "Pancreatic juice only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG is the most abundant organic phosphate in red blood cells, with a concentration approximately equal to that of hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chronic hypoxia tends to:",
+      "options": [
+        "Increase RBC 2,3-BPG",
+        "Decrease RBC 2,3-BPG",
+        "Destroy all hemoglobin",
+        "Prevent oxygen unloading"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In chronic hypoxia, red blood cell 2,3-BPG increases, helping hemoglobin release more oxygen to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chronic anemia tends to:",
+      "options": [
+        "Increase RBC 2,3-BPG",
+        "Decrease RBC 2,3-BPG",
+        "Prevent glycolysis",
+        "Convert HbA into HbF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In chronic anemia, fewer RBCs are available to supply oxygen, so 2,3-BPG rises to promote oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most carbon dioxide produced in metabolism is transported as:",
+      "options": [
+        "Bicarbonate ion",
+        "Carbaminohemoglobin only",
+        "Carboxyhemoglobin",
+        "Methemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most CO₂, about 85%, is hydrated and transported as bicarbonate ion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carbaminohemoglobin is formed when CO₂ binds to:",
+      "options": [
+        "Uncharged α-amino groups of hemoglobin",
+        "Heme iron directly",
+        "Bilirubin",
+        "2,3-BPG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some CO₂ is carried as carbamate bound to the uncharged α-amino groups of hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carboxyhemoglobin is formed when hemoglobin binds:",
+      "options": [
+        "Carbon monoxide",
+        "Carbon dioxide",
+        "Bicarbonate",
+        "Oxygen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxyhemoglobin forms when hemoglobin binds carbon monoxide (CO).",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemoglobin affinity for CO is approximately how many times its affinity for oxygen?",
+      "options": [
+        "210 times",
+        "2 times",
+        "10 times",
+        "50 times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin affinity for carbon monoxide is about 210 times its affinity for oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Methemoglobin contains iron in the:",
+      "options": [
+        "Ferric Fe³⁺ state",
+        "Ferrous Fe²⁺ state",
+        "Magnesium state",
+        "Zinc state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methemoglobin contains oxidized iron, Fe³⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal hemoglobin contains iron mainly in the:",
+      "options": [
+        "Ferrous Fe²⁺ state",
+        "Ferric Fe³⁺ state",
+        "Copper state",
+        "Magnesium state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal oxygen-binding hemoglobin contains ferrous iron Fe²⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Methemoglobin is normally reduced back to hemoglobin by:",
+      "options": [
+        "Methemoglobin reductase",
+        "Lactase",
+        "Amylase",
+        "Bilirubin oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methemoglobin reductase reduces Fe³⁺ methemoglobin back to Fe²⁺ hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cyanide toxicity mainly inhibits:",
+      "options": [
+        "Respiratory enzymes such as cytochrome oxidase",
+        "Bilirubin conjugation only",
+        "Glycogen storage only",
+        "Hemoglobin synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanide binds ferric cytochrome enzymes and inhibits respiration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Sodium nitrite helps in cyanide poisoning by forming:",
+      "options": [
+        "Methemoglobin",
+        "Oxyhemoglobin",
+        "HbA1c only",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium nitrite is a mild oxidizing agent that converts hemoglobin to methemoglobin. Methemoglobin can bind cyanide to form non-toxic cyanomethemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fetal hemoglobin is composed of:",
+      "options": [
+        "α₂γ₂",
+        "α₂β₂",
+        "α₂δ₂",
+        "ζ₂ε₂ only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fetal hemoglobin, HbF, is composed of two α-chains and two γ-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "HbA2 is composed of:",
+      "options": [
+        "α₂δ₂",
+        "α₂β₂",
+        "α₂γ₂",
+        "ζ₂ε₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA2 is a minor adult hemoglobin composed of two α-chains and two δ-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "HbA1c is important clinically because it increases in:",
+      "options": [
+        "Diabetes mellitus",
+        "Obstructive jaundice only",
+        "Iron poisoning only",
+        "Cyanide toxicity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c is glycosylated hemoglobin. It increases in diabetes because hemoglobin is exposed to higher glucose concentrations during the RBC lifespan.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is the oxygen dissociation curve of hemoglobin sigmoidal?",
+      "options": [
+        "Because oxygen binding by one subunit increases affinity of the remaining subunits",
+        "Because hemoglobin has only one heme group",
+        "Because hemoglobin binds oxygen irreversibly",
+        "Because hemoglobin lacks quaternary structure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sigmoidal curve reflects cooperative binding. Hemoglobin has four subunits, and oxygen binding to one subunit increases the oxygen affinity of the others.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which feature of hemoglobin allows cooperative oxygen binding?",
+      "options": [
+        "Tetrameric structure",
+        "Single-chain structure only",
+        "Absence of heme",
+        "Lack of globin chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin has four subunits. Cooperation between these subunits produces the sigmoidal oxygen dissociation curve.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A right shift of the oxygen dissociation curve indicates:",
+      "options": [
+        "Decreased oxygen affinity and increased oxygen unloading",
+        "Increased oxygen affinity and decreased oxygen unloading",
+        "No change in oxygen delivery",
+        "Complete loss of hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A right shift means hemoglobin holds oxygen less tightly, so it releases oxygen more efficiently to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A left shift of the oxygen dissociation curve indicates:",
+      "options": [
+        "Increased oxygen affinity and decreased oxygen unloading",
+        "Decreased oxygen affinity and increased oxygen unloading",
+        "Complete loss of heme",
+        "Formation of bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A left shift means hemoglobin binds oxygen more tightly, making oxygen unloading to tissues more difficult.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During intense exercise, lactic acid production would most likely:",
+      "options": [
+        "Promote oxygen release from hemoglobin",
+        "Prevent oxygen release from hemoglobin",
+        "Increase hemoglobin oxygen affinity",
+        "Convert HbA to HbF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactic acid increases H⁺ concentration and lowers pH. This decreases hemoglobin oxygen affinity and promotes oxygen release to active tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In metabolically active tissues, pCO₂ is high. This causes:",
+      "options": [
+        "Increased H⁺ formation and decreased Hb oxygen affinity",
+        "Decreased H⁺ formation and increased Hb oxygen affinity",
+        "Complete oxidation of heme to bilirubin",
+        "Inhibition of 2,3-BPG formation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO₂ combines with water to form carbonic acid, which dissociates into bicarbonate and H⁺. Increased H⁺ lowers pH and decreases hemoglobin oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In alveolar capillaries of the lungs, pCO₂ is low. This favors:",
+      "options": [
+        "Increased oxygen affinity and oxygen loading",
+        "Decreased oxygen affinity and oxygen release",
+        "Formation of methemoglobin only",
+        "Cyanide binding to hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low CO₂ decreases H⁺ formation, raises pH, and increases oxygen affinity. This favors oxygen loading in the lungs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination favors oxygen unloading in tissues?",
+      "options": [
+        "Increased CO₂, increased H⁺, decreased pH",
+        "Decreased CO₂, decreased H⁺, increased pH",
+        "Decreased 2,3-BPG",
+        "Increased oxygen tension only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High CO₂ and H⁺ decrease hemoglobin oxygen affinity. This promotes oxygen unloading in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination favors oxygen loading in the lungs?",
+      "options": [
+        "Decreased CO₂, decreased H⁺, increased pH",
+        "Increased CO₂, increased H⁺, decreased pH",
+        "Increased lactic acid",
+        "Increased 2,3-BPG only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low CO₂ and H⁺ increase pH and hemoglobin affinity for oxygen, promoting oxygen loading in the lungs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "2,3-BPG decreases oxygen affinity because it binds:",
+      "options": [
+        "Deoxyhemoglobin and stabilizes the low-affinity form",
+        "Oxyhemoglobin and stabilizes the high-affinity form",
+        "Bilirubin in plasma",
+        "Carbon monoxide directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG binds deoxyhemoglobin and stabilizes its oxygen-releasing form, decreasing oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The binding site of 2,3-BPG is located:",
+      "options": [
+        "In the central pocket formed by the two β-globin chains",
+        "Inside the heme iron",
+        "On albumin",
+        "On bilirubin glucuronide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One molecule of 2,3-BPG binds in the central pocket of deoxyhemoglobin formed by the two β-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "2,3-BPG binds to hemoglobin through interactions between:",
+      "options": [
+        "Negatively charged phosphate groups and positively charged amino acids",
+        "Glucose and heme iron",
+        "Oxygen and bilirubin",
+        "Carbon monoxide and albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG has negatively charged phosphate groups that form ionic bonds with positively charged amino acids in the β-chain pocket.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "2,3-BPG is expelled from hemoglobin when:",
+      "options": [
+        "Hemoglobin becomes oxygenated",
+        "Hemoglobin becomes deoxygenated",
+        "Bilirubin is conjugated",
+        "Cyanide binds cytochrome oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When hemoglobin binds oxygen, 2,3-BPG is expelled from its central pocket.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does increased 2,3-BPG help in chronic anemia?",
+      "options": [
+        "It helps the remaining hemoglobin unload oxygen more efficiently",
+        "It increases the number of red cells immediately",
+        "It converts HbA into HbF",
+        "It prevents all CO₂ transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In anemia, oxygen delivery is reduced. Increased 2,3-BPG decreases hemoglobin affinity and promotes oxygen release to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does increased 2,3-BPG help at high altitude?",
+      "options": [
+        "It improves oxygen unloading in tissues when oxygen supply is limited",
+        "It prevents oxygen binding in the lungs completely",
+        "It converts hemoglobin to bilirubin",
+        "It destroys red blood cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At high altitude, oxygen loading is more difficult. Increased 2,3-BPG helps by promoting tissue oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Stored blood with low 2,3-BPG has:",
+      "options": [
+        "Abnormally high oxygen affinity",
+        "Abnormally low oxygen affinity",
+        "No hemoglobin",
+        "Excess bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loss of 2,3-BPG during storage causes hemoglobin to bind oxygen too tightly, reducing oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Stored blood deficient in 2,3-BPG may act as:",
+      "options": [
+        "An oxygen trap",
+        "A bilirubin transporter",
+        "A cyanide antidote",
+        "A source of bile pigments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin deficient in 2,3-BPG binds oxygen strongly and releases it poorly, acting like an oxygen trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Transfused red cells usually restore depleted 2,3-BPG within:",
+      "options": [
+        "24–48 hours",
+        "1–2 minutes",
+        "6 months",
+        "120 days only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transfused red blood cells can restore their 2,3-BPG stores within 24–48 hours.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Adding inosine to stored blood helps prevent decreased 2,3-BPG because inosine can enter pathways producing:",
+      "options": [
+        "Ribose-5-phosphate and 2,3-BPG",
+        "Bilirubin glucuronide only",
+        "Carbon monoxide only",
+        "Methemoglobin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inosine can enter RBC metabolism through ribose-related pathways, supporting 2,3-BPG formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Most CO₂ is transported as bicarbonate because CO₂ reacts with water to form:",
+      "options": [
+        "Carbonic acid",
+        "Bilirubin",
+        "Heme",
+        "2,3-BPG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO₂ + H₂O forms carbonic acid, which dissociates into bicarbonate and H⁺. Most CO₂ is transported as bicarbonate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Carbaminohemoglobin formation involves CO₂ binding to:",
+      "options": [
+        "Amino groups of hemoglobin",
+        "Heme iron like oxygen",
+        "2,3-BPG pocket",
+        "Bilirubin-binding site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO₂ forms carbaminohemoglobin by binding to uncharged amino groups of hemoglobin, not to heme iron.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly distinguishes carbaminohemoglobin from carboxyhemoglobin?",
+      "options": [
+        "Carbaminohemoglobin contains CO₂; carboxyhemoglobin contains CO",
+        "Carbaminohemoglobin contains CO; carboxyhemoglobin contains CO₂",
+        "Both contain bilirubin",
+        "Both are formed by cyanide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbaminohemoglobin is Hb-bound CO₂. Carboxyhemoglobin is Hb-bound carbon monoxide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Carbon monoxide poisoning is dangerous mainly because CO:",
+      "options": [
+        "Binds hemoglobin much more strongly than oxygen",
+        "Converts bilirubin into urobilinogen",
+        "Increases oxygen unloading",
+        "Forms bicarbonate faster than CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO has about 210 times the affinity of oxygen for hemoglobin, reducing oxygen transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In carboxyhemoglobin formation, CO displaces:",
+      "options": [
+        "Oxygen",
+        "Bilirubin",
+        "2,3-BPG",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reaction can be represented as Hb·4O₂ + 4CO → Hb·4CO + 4O₂, showing CO displaces oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methemoglobin is unable to bind oxygen properly because:",
+      "options": [
+        "Iron is oxidized from Fe²⁺ to Fe³⁺",
+        "Iron is replaced by magnesium",
+        "Globin chains are converted into bilirubin",
+        "Oxygen is converted into CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methemoglobin contains ferric iron Fe³⁺, which cannot bind oxygen normally.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about methemoglobin is NOT true?",
+      "options": [
+        "Its iron is in the ferrous state",
+        "It can be reduced back to hemoglobin by methemoglobin reductase",
+        "It contains ferric iron",
+        "It cannot combine with oxygen normally"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the false statement. Methemoglobin contains ferric Fe³⁺, not ferrous Fe²⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydrogen peroxide or free radicals can convert hemoglobin into:",
+      "options": [
+        "Methemoglobin",
+        "HbF",
+        "HbA2",
+        "Bilirubin glucuronide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidants such as hydrogen peroxide and free radicals can oxidize Fe²⁺ hemoglobin to Fe³⁺ methemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cyanide binds strongly to:",
+      "options": [
+        "Ferric iron in respiratory enzymes",
+        "Bicarbonate ions only",
+        "Albumin only",
+        "2,3-BPG only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanide binds ferric iron in cytochrome oxidase and inhibits cellular respiration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The purpose of giving sodium nitrite in cyanide poisoning is to:",
+      "options": [
+        "Produce methemoglobin that can bind cyanide",
+        "Reduce methemoglobin immediately",
+        "Increase HbA1c",
+        "Decrease bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium nitrite oxidizes some hemoglobin to methemoglobin. Methemoglobin binds cyanide to form cyanomethemoglobin, reducing cyanide toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cyanomethemoglobin is considered:",
+      "options": [
+        "Non-toxic compared with free cyanide binding respiratory enzymes",
+        "More toxic than cyanide-cytochrome complex",
+        "A form of HbA1c",
+        "A bile pigment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanide bound to methemoglobin as cyanomethemoglobin is relatively non-toxic compared with cyanide inhibiting cytochrome oxidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fetal hemoglobin has higher oxygen affinity than adult hemoglobin mainly because:",
+      "options": [
+        "HbF binds 2,3-BPG weakly",
+        "HbF binds 2,3-BPG more strongly",
+        "HbF lacks heme completely",
+        "HbF contains δ-chains only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF has γ-chains instead of β-chains, and these γ-chains bind 2,3-BPG weakly. Less 2,3-BPG effect means higher oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The γ-chains of HbF bind 2,3-BPG weakly because they:",
+      "options": [
+        "Lack some positively charged amino acids present in β-chains",
+        "Contain no amino acids",
+        "Contain only heme and no protein",
+        "Bind bilirubin strongly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The γ-chains lack some positively charged residues needed for strong 2,3-BPG binding.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The higher oxygen affinity of HbF helps:",
+      "options": [
+        "Transfer oxygen from maternal blood to fetal blood",
+        "Prevent fetal oxygen uptake",
+        "Increase carbon monoxide toxicity only",
+        "Convert HbF to HbA2 immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF’s higher oxygen affinity facilitates oxygen transfer across the placenta from the mother to the fetus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA synthesis begins significantly at about:",
+      "options": [
+        "Eighth month of pregnancy",
+        "First week after conception only",
+        "Twelve weeks after birth only",
+        "Adult life only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA synthesis starts in bone marrow at about the eighth month of pregnancy and gradually replaces HbF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbF accounts for about what percentage of total hemoglobin in the last months of fetal life?",
+      "options": [
+        "About 60%",
+        "About 2%",
+        "About 100% always",
+        "About 10%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF accounts for about 60% of total hemoglobin in the erythrocytes during the last months of fetal life.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA2 first appears:",
+      "options": [
+        "About twelve weeks after birth",
+        "In the first week after conception",
+        "Only during fetal life",
+        "Only in severe anemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA2 appears about twelve weeks after birth.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA2 ultimately constitutes approximately:",
+      "options": [
+        "2% of total hemoglobin",
+        "60% of total hemoglobin",
+        "90% of total hemoglobin",
+        "25% of total hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA2 is a minor adult hemoglobin and constitutes about 2% of total hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA1c is produced by:",
+      "options": [
+        "Slow nonenzymatic glycosylation of HbA",
+        "Enzymatic conjugation of bilirubin",
+        "Cyanide binding to methemoglobin",
+        "Carbon dioxide binding to heme iron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c forms by slow, nonenzymatic glycosylation of HbA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA1c glucose residues attach mainly to:",
+      "options": [
+        "N-terminal valines of β-globin chains",
+        "Heme iron",
+        "γ-chain histidines only",
+        "Bilirubin-binding sites"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c has glucose residues attached predominantly to the NH₂ groups of N-terminal valines of β-globin chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HbA1c reflects blood glucose exposure over the RBC lifespan because RBCs live approximately:",
+      "options": [
+        "120 days",
+        "24 hours",
+        "7 days",
+        "1 year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red blood cells live about 120 days, so HbA1c reflects glycemic exposure over a prolonged period.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hemoglobin appears earliest in embryonic life according to the file?",
+      "options": [
+        "Hb Gower 1",
+        "HbA2",
+        "HbA1c",
+        "Adult HbA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the first few weeks after conception, embryonic hemoglobin Hb Gower 1 is synthesized.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hb Gower 1 is composed of:",
+      "options": [
+        "ζ₂ε₂",
+        "α₂β₂",
+        "α₂γ₂",
+        "α₂δ₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hb Gower 1 is composed of two zeta chains and two epsilon chains, written ζ₂ε₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fetal liver begins synthesizing mainly:",
+      "options": [
+        "HbF",
+        "HbA1c",
+        "HbA2",
+        "Carboxyhemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Within a few weeks, the fetal liver begins to synthesize HbF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes HbF from HbA?",
+      "options": [
+        "HbF is α₂γ₂ and binds 2,3-BPG weakly; HbA is α₂β₂",
+        "HbF is α₂β₂ and binds 2,3-BPG strongly",
+        "HbF has no α-chains",
+        "HbF is only glycosylated hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF contains γ-chains and binds 2,3-BPG weakly, giving it higher oxygen affinity. HbA contains β-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes HbA2 from HbA?",
+      "options": [
+        "HbA2 is α₂δ₂, while HbA is α₂β₂",
+        "HbA2 is α₂γ₂, while HbA is α₂δ₂",
+        "HbA2 is glycosylated HbA only",
+        "HbA2 contains zeta and epsilon chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA2 contains δ-chains instead of β-chains. HbA is α₂β₂; HbA2 is α₂δ₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes HbA1c from HbA?",
+      "options": [
+        "HbA1c is glycosylated HbA",
+        "HbA1c is fetal hemoglobin",
+        "HbA1c contains δ-chains",
+        "HbA1c contains no glucose residues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c is the glycosylated form of HbA, with glucose residues attached nonenzymatically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In diabetes mellitus, HbA1c increases because:",
+      "options": [
+        "HbA is exposed to higher glucose concentrations during RBC lifespan",
+        "HbF replaces all adult Hb",
+        "2,3-BPG disappears completely",
+        "Cyanide binds hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Higher blood glucose increases nonenzymatic glycosylation of hemoglobin, increasing HbA1c.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A hemoglobin variant with weak 2,3-BPG binding and high oxygen affinity is most likely:",
+      "options": [
+        "HbF",
+        "HbA",
+        "HbA2",
+        "MetHb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF binds 2,3-BPG weakly due to its γ-chains, causing higher oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor helps HbF take oxygen from maternal HbA?",
+      "options": [
+        "HbF has higher oxygen affinity",
+        "HbF has lower oxygen affinity",
+        "HbF binds 2,3-BPG more strongly",
+        "HbF lacks heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF’s higher affinity allows it to bind oxygen at the lower oxygen tensions present in placental circulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is the most accurate relationship between 2,3-BPG and HbF?",
+      "options": [
+        "HbF weakly binds 2,3-BPG, so its oxygen affinity is high",
+        "HbF strongly binds 2,3-BPG, so its oxygen affinity is low",
+        "2,3-BPG glycosylates HbF",
+        "2,3-BPG converts HbF into HbA2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weak 2,3-BPG binding means less reduction in oxygen affinity, so HbF holds oxygen more strongly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about 2,3-BPG in stored blood is most clinically relevant?",
+      "options": [
+        "Low 2,3-BPG may reduce oxygen unloading after transfusion",
+        "Low 2,3-BPG improves oxygen delivery immediately",
+        "Low 2,3-BPG converts HbA to HbF",
+        "Low 2,3-BPG increases carbon dioxide transport only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stored blood may lose 2,3-BPG, causing hemoglobin to bind oxygen too tightly and fail to unload oxygen properly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would shift the oxygen dissociation curve to the right?",
+      "options": [
+        "Increased 2,3-BPG",
+        "Decreased CO₂",
+        "Decreased H⁺",
+        "Removal of 2,3-BPG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increased 2,3-BPG decreases oxygen affinity and shifts the curve to the right.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would shift the oxygen dissociation curve to the left?",
+      "options": [
+        "Decreased 2,3-BPG",
+        "Increased CO₂",
+        "Increased H⁺",
+        "Increased lactic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Decreased 2,3-BPG increases hemoglobin oxygen affinity and shifts the curve left.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor promotes oxygen release in tissues?",
+      "options": [
+        "Increased H⁺",
+        "Decreased CO₂",
+        "Decreased 2,3-BPG",
+        "Increased pH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increased H⁺ decreases pH, decreases hemoglobin oxygen affinity, and promotes oxygen release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor promotes oxygen loading in lungs?",
+      "options": [
+        "Decreased CO₂",
+        "Increased H⁺",
+        "Increased 2,3-BPG",
+        "Increased lactic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the lungs, CO₂ is released into expired air. Lower CO₂ leads to decreased H⁺ and increased oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best links carbonic anhydrase activity to the Bohr effect?",
+      "options": [
+        "CO₂ hydration generates H⁺, which lowers pH and decreases Hb oxygen affinity",
+        "CO₂ hydration generates oxygen directly",
+        "Carbonic anhydrase converts hemoglobin into bilirubin",
+        "Carbonic anhydrase destroys 2,3-BPG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO₂ + H₂O forms H₂CO₃, which dissociates into HCO₃⁻ and H⁺. The H⁺ contributes to the Bohr effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue condition most strongly favors oxygen unloading?",
+      "options": [
+        "High CO₂ and high lactic acid",
+        "Low CO₂ and high pH",
+        "Low H⁺ and low 2,3-BPG",
+        "High oxygen tension only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High CO₂ and lactic acid increase H⁺, decrease pH, and reduce hemoglobin oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes hemoglobin in the absence of 2,3-BPG?",
+      "options": [
+        "It has high oxygen affinity and releases oxygen poorly",
+        "It has low oxygen affinity and releases oxygen easily",
+        "It cannot bind oxygen at all",
+        "It becomes bilirubin immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without 2,3-BPG, hemoglobin holds oxygen too tightly, making tissue delivery inefficient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes why 2,3-BPG is essential for normal oxygen transport?",
+      "options": [
+        "It prevents hemoglobin from trapping oxygen by promoting unloading in tissues",
+        "It converts oxygen into CO₂",
+        "It prevents oxygen binding in lungs completely",
+        "It binds bilirubin for excretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG lowers hemoglobin oxygen affinity enough to allow effective oxygen unloading in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient receives a large transfusion of old stored blood. The main concern related to 2,3-BPG is:",
+      "options": [
+        "Poor oxygen unloading due to low 2,3-BPG",
+        "Excess oxygen unloading due to high 2,3-BPG",
+        "Immediate formation of HbF",
+        "Increased bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Old stored blood may have depleted 2,3-BPG. This increases hemoglobin oxygen affinity and reduces oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-097",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient at high altitude develops increased RBC 2,3-BPG. Which change is expected?",
+      "options": [
+        "Right shift of oxygen dissociation curve and improved tissue oxygen release",
+        "Left shift and impaired oxygen release",
+        "No change in oxygen delivery",
+        "Formation of carboxyhemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High altitude causes chronic hypoxia, increasing 2,3-BPG. This shifts the curve right and improves oxygen unloading in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-098",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with chronic anemia has increased 2,3-BPG. What is the adaptive benefit?",
+      "options": [
+        "Remaining hemoglobin releases oxygen more efficiently",
+        "Hemoglobin binds oxygen irreversibly",
+        "HbA converts to HbA1c",
+        "CO₂ transport stops"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In anemia, oxygen-carrying capacity is reduced. Increased 2,3-BPG helps compensate by improving oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A blood sample stored in acid-citrate-dextrose has low 2,3-BPG. Which statement is most likely?",
+      "options": [
+        "Hemoglobin affinity for oxygen is abnormally high",
+        "Hemoglobin affinity for oxygen is abnormally low",
+        "Hemoglobin cannot bind oxygen at all",
+        "Hemoglobin is converted into bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low 2,3-BPG increases oxygen affinity, so stored blood may fail to unload oxygen effectively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A neonate’s HbF has higher oxygen affinity than maternal HbA. The most direct biochemical reason is:",
+      "options": [
+        "Weak binding of 2,3-BPG to γ-chains",
+        "Strong binding of 2,3-BPG to γ-chains",
+        "Absence of heme in HbF",
+        "Oxidation of HbF iron to Fe³⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF has γ-chains that lack some positively charged residues required for strong 2,3-BPG binding. Therefore, HbF has higher oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If a mutation in γ-globin increased positive residues in the 2,3-BPG pocket, the likely effect would be:",
+      "options": [
+        "Stronger 2,3-BPG binding and lower oxygen affinity",
+        "Weaker 2,3-BPG binding and higher oxygen affinity",
+        "No possible effect on oxygen binding",
+        "Immediate bilirubin formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG binds positively charged residues through ionic interactions. More positive residues could strengthen binding, decreasing oxygen affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which scenario best demonstrates the Bohr effect?",
+      "options": [
+        "Active muscle produces CO₂ and H⁺, causing hemoglobin to release oxygen",
+        "Stored blood loses 2,3-BPG and releases oxygen better",
+        "Cyanide binds methemoglobin and forms HbA1c",
+        "HbA2 appears after birth due to glucose exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Bohr effect links increased CO₂/H⁺ with reduced hemoglobin oxygen affinity and increased oxygen release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with severe lactic acidosis would be expected to have:",
+      "options": [
+        "Decreased hemoglobin oxygen affinity",
+        "Increased hemoglobin oxygen affinity",
+        "No change in oxygen delivery",
+        "Complete conversion of Hb to HbA2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactic acidosis increases H⁺ and lowers pH. This decreases hemoglobin oxygen affinity, promoting oxygen release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination most strongly produces a left shift?",
+      "options": [
+        "Low CO₂, low H⁺, low 2,3-BPG",
+        "High CO₂, high H⁺, high 2,3-BPG",
+        "High lactic acid, high 2,3-BPG",
+        "Chronic anemia and hypoxia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low CO₂/H⁺ increases oxygen affinity, and low 2,3-BPG also increases oxygen affinity. Together they shift the curve left.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination most strongly produces a right shift?",
+      "options": [
+        "High CO₂, high H⁺, high 2,3-BPG",
+        "Low CO₂, low H⁺, low 2,3-BPG",
+        "High pH and low 2,3-BPG",
+        "HbF with weak 2,3-BPG binding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High CO₂/H⁺ and high 2,3-BPG all decrease oxygen affinity, promoting a right shift and oxygen unloading.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has CO poisoning. Which mechanism best explains tissue hypoxia?",
+      "options": [
+        "CO binds hemoglobin with much higher affinity than oxygen, reducing oxygen transport",
+        "CO increases oxygen unloading excessively",
+        "CO increases HbA1c formation",
+        "CO converts bilirubin into stercobilinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO binds hemoglobin about 210 times more strongly than oxygen, limiting oxygen transport and causing tissue hypoxia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement distinguishes carboxyhemoglobin from methemoglobin?",
+      "options": [
+        "Carboxyhemoglobin contains CO-bound Hb; methemoglobin contains Fe³⁺ Hb",
+        "Carboxyhemoglobin contains Fe³⁺; methemoglobin contains CO₂",
+        "Both are identical",
+        "Both are glycosylated hemoglobins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxyhemoglobin forms when CO binds hemoglobin. Methemoglobin forms when iron is oxidized to Fe³⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement distinguishes carbaminohemoglobin from carboxyhemoglobin?",
+      "options": [
+        "Carbaminohemoglobin carries CO₂ on amino groups; carboxyhemoglobin carries CO",
+        "Carbaminohemoglobin carries CO; carboxyhemoglobin carries CO₂",
+        "Both carry bicarbonate",
+        "Both are methemoglobin derivatives"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbaminohemoglobin is CO₂ bound to hemoglobin amino groups. Carboxyhemoglobin is carbon monoxide bound to hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has increased oxidant exposure converting Hb Fe²⁺ to Fe³⁺. Which form increases?",
+      "options": [
+        "Methemoglobin",
+        "HbF",
+        "HbA2",
+        "Carbaminohemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidation of hemoglobin iron from Fe²⁺ to Fe³⁺ produces methemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In cyanide poisoning, sodium nitrite is useful because:",
+      "options": [
+        "It creates methemoglobin that diverts cyanide away from cytochrome oxidase",
+        "It reduces all methemoglobin to hemoglobin immediately",
+        "It increases oxygen affinity of HbF",
+        "It removes glucose from HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium nitrite forms methemoglobin. Cyanide binds methemoglobin to form cyanomethemoglobin, reducing inhibition of respiratory enzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is cyanide binding to cytochrome oxidase more dangerous than cyanide binding to methemoglobin?",
+      "options": [
+        "Cytochrome oxidase inhibition blocks cellular respiration",
+        "Methemoglobin binding cyanide increases respiration inhibition",
+        "Cyanomethemoglobin is the toxic respiratory enzyme",
+        "Methemoglobin cannot bind cyanide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanide inhibits cytochrome oxidase, blocking mitochondrial respiration. Binding cyanide to methemoglobin forms a less toxic complex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why HbA1c reflects long-term glycemic status?",
+      "options": [
+        "It forms slowly and nonenzymatically during the 120-day RBC lifespan",
+        "It forms instantly after one glucose meal",
+        "It is produced only in fetal liver",
+        "It is a cyanide antidote"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c accumulates over the RBC lifespan as hemoglobin is exposed to glucose, making it useful for monitoring diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A diabetic patient has high HbA1c. Which molecular event is increased?",
+      "options": [
+        "Nonenzymatic glycosylation of N-terminal valines of β-chains",
+        "2,3-BPG binding to γ-chains",
+        "Cyanide binding to Fe³⁺",
+        "CO₂ binding to bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA1c forms by glucose attaching to the N-terminal valines of β-globin chains in HbA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A fetus can extract oxygen from maternal blood because HbF:",
+      "options": [
+        "Has higher oxygen affinity due to weaker 2,3-BPG binding",
+        "Has lower oxygen affinity due to stronger 2,3-BPG binding",
+        "Lacks heme groups",
+        "Contains only δ-chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF binds 2,3-BPG weakly, so its oxygen affinity is higher than HbA, allowing placental oxygen transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hemoglobin with α₂δ₂ composition is identified. Which form is it?",
+      "options": [
+        "HbA2",
+        "HbF",
+        "HbA",
+        "Hb Gower 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbA2 is α₂δ₂ and makes up about 2% of adult hemoglobin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hemoglobin with α₂γ₂ composition is identified. Which form is it?",
+      "options": [
+        "HbF",
+        "HbA",
+        "HbA2",
+        "HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HbF consists of two α-chains and two γ-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hemoglobin with α₂β₂ composition is identified. Which form is it?",
+      "options": [
+        "HbA",
+        "HbF",
+        "HbA2",
+        "Hb Gower 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adult hemoglobin A is α₂β₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hemoglobin with ζ₂ε₂ composition appears early in development. Which form is it?",
+      "options": [
+        "Hb Gower 1",
+        "HbA",
+        "HbF",
+        "HbA2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Embryonic Hb Gower 1 is composed of two ζ-chains and two ε-chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best integrates 2,3-BPG, HbF, and oxygen affinity?",
+      "options": [
+        "Less 2,3-BPG binding means higher oxygen affinity, explaining HbF’s oxygen transfer advantage",
+        "More 2,3-BPG binding means higher oxygen affinity",
+        "2,3-BPG has no effect on HbF or HbA",
+        "HbF has low oxygen affinity because it binds 2,3-BPG strongly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2,3-BPG lowers oxygen affinity. Since HbF binds 2,3-BPG weakly, HbF maintains higher oxygen affinity and can draw oxygen from maternal HbA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hemoglobin-oxygen-transport-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best integrates oxygen transport regulation?",
+      "options": [
+        "CO₂/H⁺ and 2,3-BPG decrease oxygen affinity, while HbF and low 2,3-BPG increase oxygen affinity",
+        "CO₂/H⁺ and 2,3-BPG increase oxygen affinity",
+        "HbF has lower oxygen affinity because it binds 2,3-BPG strongly",
+        "Stored blood with low 2,3-BPG releases oxygen better"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High CO₂/H⁺ and high 2,3-BPG promote oxygen release by decreasing affinity. HbF and low 2,3-BPG increase oxygen affinity, making hemoglobin hold oxygen more tightly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
