@@ -274,3 +274,102 @@ body.pn-3d-ready .nav-link:hover {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
   .pn-3d-card { transform: none !important; }
 }
+
+/* ===================== Hero visual v2 — replaces abstract block with premium 3D product scene ===================== */
+body.pn-3d-ready .pn-hero-holo { display: none !important; }
+.pn-nexus-stage {
+  position: relative;
+  min-height: 380px;
+  transform-style: preserve-3d;
+  perspective: 1100px;
+  animation: pnSceneFloat 6s ease-in-out infinite alternate;
+}
+.pn-stage-glass {
+  position:absolute;
+  inset: 34px 8px 12px 2px;
+  border-radius: 42px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,255,255,.035)),
+    radial-gradient(circle at 82% 15%, rgba(255,224,136,.22), transparent 230px),
+    radial-gradient(circle at 5% 85%, rgba(155,206,223,.16), transparent 240px);
+  border: 1px solid rgba(255,255,255,.22);
+  box-shadow: 0 44px 95px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.22);
+  backdrop-filter: blur(18px);
+  transform: rotateY(-15deg) rotateX(8deg) translateZ(10px);
+}
+.pn-stage-screen {
+  position:absolute;
+  left: 48px;
+  right: 50px;
+  top: 74px;
+  height: 220px;
+  border-radius: 30px;
+  background:
+    linear-gradient(145deg, rgba(0,21,27,.96), rgba(0,43,54,.86));
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 38px 85px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.08);
+  transform: rotateY(-15deg) rotateX(8deg) translateZ(76px);
+  overflow:hidden;
+}
+.pn-stage-screen::after {
+  content:"";
+  position:absolute;
+  inset:-40%;
+  background: linear-gradient(115deg, transparent 42%, rgba(255,255,255,.16), transparent 58%);
+  animation: pnScreenSheen 5.5s ease-in-out infinite;
+}
+.pn-screen-topbar { position:absolute; top:18px; left:22px; display:flex; gap:8px; z-index:2; }
+.pn-screen-topbar span { width:9px; height:9px; border-radius:999px; background:rgba(255,224,136,.8); box-shadow:0 0 18px rgba(255,224,136,.42); }
+.pn-screen-topbar span:nth-child(2){ background:rgba(155,206,223,.8); }
+.pn-screen-topbar span:nth-child(3){ background:rgba(255,255,255,.45); }
+.pn-screen-content { position:absolute; inset:48px 28px 24px; z-index:2; }
+.pn-study-chip { display:inline-flex; padding:8px 13px; border-radius:999px; background:rgba(255,224,136,.14); border:1px solid rgba(255,224,136,.28); color:#ffe088; font-size:11px; font-weight:900; letter-spacing:.16em; text-transform:uppercase; }
+.pn-screen-title { margin-top:16px; font-size:30px; line-height:1; font-weight:900; letter-spacing:-.04em; color:#fff; text-shadow:0 10px 24px rgba(0,0,0,.28); }
+.pn-screen-line { height:9px; border-radius:999px; margin-top:16px; background:linear-gradient(90deg, rgba(155,206,223,.9), rgba(155,206,223,.18)); }
+.pn-screen-line.wide{ width:78%; }
+.pn-screen-line.mid{ width:58%; margin-top:10px; background:linear-gradient(90deg, rgba(255,255,255,.45), rgba(255,255,255,.08)); }
+.pn-screen-line.short{ width:38%; margin-top:10px; background:linear-gradient(90deg, rgba(203,167,47,.8), rgba(203,167,47,.1)); }
+.pn-mini-bars { position:absolute; right:0; bottom:0; display:flex; gap:8px; align-items:flex-end; height:72px; }
+.pn-mini-bars i { width:13px; border-radius:999px; background:linear-gradient(180deg, #ffe088, #cba72f); box-shadow:0 0 20px rgba(255,224,136,.28); animation: pnBars 2.4s ease-in-out infinite alternate; }
+.pn-mini-bars i:nth-child(1){ height:32px; animation-delay:-.2s; }
+.pn-mini-bars i:nth-child(2){ height:52px; animation-delay:-.8s; }
+.pn-mini-bars i:nth-child(3){ height:40px; animation-delay:-1.2s; }
+.pn-mini-bars i:nth-child(4){ height:64px; animation-delay:-1.8s; }
+.pn-floating-card {
+  position:absolute;
+  display:flex;
+  align-items:center;
+  gap:11px;
+  border-radius:24px;
+  background:rgba(255,255,255,.88);
+  color:#00151b;
+  border:1px solid rgba(255,255,255,.52);
+  box-shadow:0 28px 60px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.65);
+  backdrop-filter: blur(18px);
+  transform-style:preserve-3d;
+}
+.pn-floating-card b, .pn-floating-card strong { display:block; font-weight:900; letter-spacing:-.03em; }
+.pn-floating-card small { display:block; color:rgba(0,21,27,.62); font-weight:800; font-size:11px; margin-top:2px; }
+.pn-floating-card .material-symbols-outlined { color:#735c00; }
+.pn-card-main { left: 20px; bottom: 54px; padding:15px 18px; transform: translateZ(152px) rotateY(-10deg) rotateX(7deg); animation: pnFloatCardA 4.8s ease-in-out infinite alternate; }
+.pn-card-score { right: 10px; top: 42px; padding:18px 22px; flex-direction:column; gap:2px; transform: translateZ(172px) rotateY(-12deg) rotateX(8deg); animation: pnFloatCardB 4.3s ease-in-out infinite alternate; }
+.pn-card-score strong { font-size:32px; line-height:1; color:#735c00; }
+.pn-card-mini { right: 44px; bottom: 34px; padding:13px 16px; transform: translateZ(138px) rotateY(-10deg) rotateX(8deg); animation: pnFloatCardC 5.1s ease-in-out infinite alternate; }
+.pn-stage-orbit { position:absolute; border-radius:999px; border:1px solid rgba(255,224,136,.34); transform-style:preserve-3d; }
+.pn-stage-orbit i { position:absolute; width:10px; height:10px; border-radius:999px; background:#ffe088; box-shadow:0 0 22px rgba(255,224,136,.7); }
+.pn-orbit-one { width:230px; height:230px; right:18px; top:54px; transform:translateZ(112px) rotateX(70deg) rotateZ(-12deg); animation: pnOrbitSpin 9s linear infinite; }
+.pn-orbit-two { width:155px; height:155px; left:84px; bottom:20px; border-color:rgba(155,206,223,.3); transform:translateZ(122px) rotateX(64deg) rotateZ(20deg); animation: pnOrbitSpin 11s linear infinite reverse; }
+.pn-stage-orbit i:nth-child(1){ left:50%; top:-5px; }
+.pn-stage-orbit i:nth-child(2){ right:14px; bottom:32px; background:#9bcedf; }
+.pn-stage-orbit i:nth-child(3){ left:28px; bottom:22px; background:#fff; opacity:.8; }
+.pn-gold-capsule { position:absolute; width:42px; height:94px; border-radius:999px; right:138px; top:3px; background:linear-gradient(180deg,#ffe088 0 50%,#12313a 51% 100%); border:1px solid rgba(255,255,255,.45); box-shadow:0 24px 56px rgba(0,0,0,.22), inset 0 2px 4px rgba(255,255,255,.5); transform:translateZ(190px) rotateZ(34deg) rotateY(-14deg); animation: pnCapsuleHero 4.2s ease-in-out infinite alternate; }
+@keyframes pnSceneFloat { to { transform: translateY(-8px) rotateX(.6deg); } }
+@keyframes pnScreenSheen { 0%,35%{ transform:translateX(-50%) rotate(0deg); opacity:0; } 52%{ opacity:1; } 100%{ transform:translateX(50%) rotate(0deg); opacity:0; } }
+@keyframes pnBars { to { transform:scaleY(.72); opacity:.75; } }
+@keyframes pnFloatCardA { to { transform:translateZ(166px) translateY(-14px) rotateY(-8deg) rotateX(9deg); } }
+@keyframes pnFloatCardB { to { transform:translateZ(186px) translateY(12px) rotateY(-9deg) rotateX(10deg); } }
+@keyframes pnFloatCardC { to { transform:translateZ(154px) translateY(-12px) rotateY(-7deg) rotateX(10deg); } }
+@keyframes pnOrbitSpin { to { rotate: 360deg; } }
+@keyframes pnCapsuleHero { to { transform:translateZ(205px) translateY(-18px) rotateZ(22deg) rotateY(-8deg); } }
+@media (max-width: 1100px) { .pn-nexus-stage { min-height:330px; } .pn-stage-screen{ left:34px; right:34px; } .pn-card-mini{ display:none; } }
+@media (prefers-reduced-motion: reduce) { .pn-nexus-stage, .pn-stage-screen::after, .pn-mini-bars i, .pn-floating-card, .pn-stage-orbit, .pn-gold-capsule { animation:none !important; } }
