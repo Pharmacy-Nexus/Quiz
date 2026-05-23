@@ -456,6 +456,7 @@ tailwind.config = {
 </style>
   <link rel="stylesheet" href="./assets/css/pharmacy-bot.css">
   <link rel="stylesheet" href="./assets/css/pn-global-home-v7.css">
+  <link rel="stylesheet" href="./assets/css/pn-subjects-v8.css">
 </head>
 <body class="min-h-screen flex">
 
@@ -2229,57 +2230,11 @@ tailwind.config = {
 <script src="assets/js/admin-config.js"></script>
 <script src="assets/js/app.js?v=28"></script>
 <script src="./assets/js/pn-global-home-v7.js"></script>
+<script src="./assets/js/pn-subjects-v8.js"></script>
 
 <div id="pn-modal-root"></div>
 <div id="pn-toast-root" class="fixed top-5 right-5 z-[120] flex flex-col gap-3 pointer-events-none"></div>
 
-<script>
-  (function () {
-    if (!window.matchMedia || !window.matchMedia('(pointer: fine)').matches) return;
-    if (document.getElementById('pn-capsule-cursor')) return;
-
-    const cursor = document.createElement('div');
-    cursor.id = 'pn-capsule-cursor';
-    document.body.appendChild(cursor);
-
-    let mouseX = window.innerWidth / 2;
-    let mouseY = window.innerHeight / 2;
-    let currentX = mouseX;
-    let currentY = mouseY;
-
-    document.addEventListener('mousemove', function (e) {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-      cursor.classList.add('is-visible');
-    });
-
-    document.addEventListener('mouseleave', function () {
-      cursor.classList.remove('is-visible');
-    });
-
-    document.addEventListener('mouseover', function (e) {
-      if (e.target.closest('a, button, .nav-link, input, textarea, select, [role="button"]')) {
-        cursor.classList.add('is-hovering');
-      }
-    });
-
-    document.addEventListener('mouseout', function (e) {
-      if (e.target.closest('a, button, .nav-link, input, textarea, select, [role="button"]')) {
-        cursor.classList.remove('is-hovering');
-      }
-    });
-
-    function animateCursor() {
-      currentX += (mouseX - currentX) * 0.22;
-      currentY += (mouseY - currentY) * 0.22;
-      cursor.style.left = currentX + 'px';
-      cursor.style.top = currentY + 'px';
-      requestAnimationFrame(animateCursor);
-    }
-
-    animateCursor();
-  })();
-</script>
   <script src="./assets/js/pharmacy-bot.js"></script>
 </body>
 </html>
