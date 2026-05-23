@@ -74,11 +74,34 @@
     const stage = document.createElement('div');
     stage.className = 'pn-hero-stage lg:col-span-5 hidden lg:block';
     stage.innerHTML = `
-      <div class="pn-hero-holo">
-        <div class="pn-hero-screen"></div>
-        <div class="pn-hero-chip"></div>
-        <div class="pn-hero-chip"></div>
-        <div class="pn-hero-ring"></div>
+      <div class="pn-nexus-stage" aria-hidden="true">
+        <div class="pn-stage-glass"></div>
+        <div class="pn-stage-screen">
+          <div class="pn-screen-topbar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="pn-screen-content">
+            <div class="pn-study-chip">AI Study Map</div>
+            <div class="pn-screen-title">Pharmacy Nexus</div>
+            <div class="pn-screen-line wide"></div>
+            <div class="pn-screen-line mid"></div>
+            <div class="pn-screen-line short"></div>
+            <div class="pn-mini-bars"><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="pn-floating-card pn-card-main">
+          <span class="material-symbols-outlined">psychology</span>
+          <div><b>Clinical Reasoning</b><small>Smart practice path</small></div>
+        </div>
+        <div class="pn-floating-card pn-card-score">
+          <strong>92%</strong><small>Readiness</small>
+        </div>
+        <div class="pn-floating-card pn-card-mini">
+          <span class="material-symbols-outlined">science</span><small>Drug Monographs</small>
+        </div>
+        <div class="pn-stage-orbit pn-orbit-one"><i></i><i></i><i></i></div>
+        <div class="pn-stage-orbit pn-orbit-two"><i></i><i></i><i></i></div>
+        <div class="pn-gold-capsule"></div>
       </div>`;
     heroGrid.appendChild(stage);
   }
