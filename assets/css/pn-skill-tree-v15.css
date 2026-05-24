@@ -822,3 +822,11 @@ html.dark .pn-home-subject-pills span {
     min-width: 118px;
   }
 }
+/* Move Recommended Next card down */
+.pn-skill-tree-card,
+.pn-skill-tree-panel,
+.pn-skill-insight,
+.pn-recommended-panel,
+.pn-route-panel {
+  transform: translateY(38px);
+}
