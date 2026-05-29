@@ -2,6 +2,687 @@
   "subjectId": "bio-chemictry",
   "topicId": "bioenergetics-oxidative-phosphorylation",
   "topicName": "bioenergetics & Oxidative Phosphorylation",
-  "updatedAt": "2026-05-29T22:22:10.121Z",
-  "questions": []
+  "updatedAt": "2026-05-29T22:22:53.429Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Bioenergetics is mainly concerned with:",
+      "options": [
+        "Transfer and use of energy in biological systems",
+        "Synthesis of DNA only",
+        "Storage of genetic information",
+        "Formation of ribosomes only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bioenergetics studies how energy is transferred, released, stored, and used inside living systems. It focuses on the energy state of reactants and products, especially through free energy changes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Free energy is represented by:",
+      "options": [
+        "ΔG",
+        "pH",
+        "MCV",
+        "Km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free energy change is represented by ΔG. It predicts whether a reaction can proceed spontaneously or whether it requires energy input.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A reaction with negative ΔG is called:",
+      "options": [
+        "Exergonic",
+        "Endergonic",
+        "Equilibrium-only",
+        "Non-spontaneous always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Negative ΔG means the products have lower free energy than the reactants. Energy is released, so the reaction is exergonic and can proceed spontaneously.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A reaction with positive ΔG is called:",
+      "options": [
+        "Endergonic",
+        "Exergonic",
+        "Oxidative only",
+        "Reductive only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive ΔG means the reaction requires energy input. It is not spontaneous and usually needs coupling with an energy-releasing reaction such as ATP hydrolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "If ΔG = 0, the reaction is:",
+      "options": [
+        "At equilibrium",
+        "Strongly exergonic",
+        "Strongly endergonic",
+        "Irreversible in cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When ΔG equals zero, there is no net free energy change. The forward and reverse reactions are balanced, so the system is at equilibrium.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Catabolic reactions are generally:",
+      "options": [
+        "Energy-producing and exergonic",
+        "Energy-consuming and endergonic",
+        "Always anabolic",
+        "Always unrelated to ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Catabolism breaks down molecules and releases energy. These reactions are generally exergonic and can be used to generate ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Anabolic reactions are generally:",
+      "options": [
+        "Energy-requiring and endergonic",
+        "Energy-producing and exergonic",
+        "Always spontaneous without ATP",
+        "Only involved in heat production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anabolism builds complex molecules from simpler ones. These processes require energy input, often supplied by ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Metabolism is the sum of:",
+      "options": [
+        "Catabolism and anabolism",
+        "Oxidation only",
+        "Reduction only",
+        "ATP hydrolysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metabolism includes both catabolic reactions that release energy and anabolic reactions that use energy to synthesize molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main energy currency of the cell is:",
+      "options": [
+        "ATP",
+        "AMP",
+        "Glucose-6-phosphate",
+        "Uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP acts as the energy currency because energy from catabolism is commonly captured in ATP and then used to drive endergonic cellular processes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ATP contains:",
+      "options": [
+        "Adenine, ribose, and three phosphate groups",
+        "Adenine, deoxyribose, and one phosphate",
+        "Guanine, ribose, and two phosphates",
+        "Cytosine, ribose, and no phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP is a nucleotide triphosphate composed of adenine, ribose, and three phosphate groups. The phosphoanhydride bonds between phosphate groups release energy when hydrolyzed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ATP has high-energy bonds mainly between:",
+      "options": [
+        "Phosphate groups",
+        "Adenine and ribose",
+        "Ribose and first phosphate only",
+        "Amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The high-energy phosphoanhydride bonds are between ATP's phosphate groups. Hydrolysis of these bonds releases free energy usable by the cell.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hydrolysis of ATP to ADP releases approximately:",
+      "options": [
+        "7.3 kcal/mol",
+        "1.5 kcal/mol",
+        "3.3 kcal/mol",
+        "0 kcal/mol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP hydrolysis releases about 7.3 kcal/mol. This amount is used as the reference point for high-energy phosphate bonds in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which compound has a high-energy phosphate bond?",
+      "options": [
+        "Creatine phosphate",
+        "Glucose-6-phosphate",
+        "AMP",
+        "Ribose phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate releases about 10.3 kcal/mol, which is more than 7.3 kcal/mol, so it is classified as a high-energy phosphate compound.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which compound is classified as a low-energy phosphate compound?",
+      "options": [
+        "Glucose-6-phosphate",
+        "ATP",
+        "Creatine phosphate",
+        "Phosphoenolpyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-6-phosphate releases about 3.3 kcal/mol, which is below 7.3 kcal/mol. Therefore, it is considered a low-energy phosphate compound.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ATP helps endergonic reactions proceed by:",
+      "options": [
+        "Coupling them with ATP hydrolysis",
+        "Preventing all oxidation",
+        "Blocking catabolism",
+        "Stopping free energy changes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Endergonic reactions have positive ΔG and do not proceed spontaneously. ATP hydrolysis provides negative ΔG, allowing the overall coupled process to become favorable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Substrate-level phosphorylation means:",
+      "options": [
+        "Direct phosphorylation of ADP to ATP during a reaction",
+        "ATP synthesis only by ATP synthase",
+        "Proton leak across the inner membrane",
+        "Oxygen reduction without ATP formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substrate-level phosphorylation is direct ATP formation at the level of a metabolic reaction. It does not require the electron transport chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which is an example of substrate-level phosphorylation in glycolysis?",
+      "options": [
+        "Phosphoenolpyruvate + ADP → pyruvate + ATP",
+        "NADH → Complex I → CoQ",
+        "Oxygen → water",
+        "Proton movement through ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoenolpyruvate transfers phosphate to ADP to form ATP directly. This is a classic substrate-level phosphorylation reaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxidative phosphorylation mainly occurs in the:",
+      "options": [
+        "Mitochondria",
+        "Nucleus",
+        "Cytosolic ribosome",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative phosphorylation occurs in mitochondria, specifically through electron transport chain activity in the inner mitochondrial membrane.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The electron transport chain is embedded in the:",
+      "options": [
+        "Inner mitochondrial membrane",
+        "Outer mitochondrial membrane only",
+        "Nuclear membrane",
+        "Plasma membrane in human cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ETC complexes are located in the inner mitochondrial membrane. This location allows proton pumping into the intermembrane space and ATP synthesis through ATP synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biological oxidation is mainly the oxidation of foodstuffs for:",
+      "options": [
+        "Energy production",
+        "DNA storage",
+        "Protein folding only",
+        "Bile formation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biological oxidation extracts energy from food molecules by transferring electrons or hydrogen atoms through redox reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxidation can involve:",
+      "options": [
+        "Removal of electrons",
+        "Addition of electrons",
+        "Removal of oxygen only",
+        "Addition of hydrogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidation can mean addition of oxygen, removal of hydrogen, or removal of electrons. Electron loss is a central definition of oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Reduction can involve:",
+      "options": [
+        "Addition of electrons",
+        "Removal of electrons",
+        "Addition of oxygen only",
+        "Removal of hydrogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reduction is the opposite of oxidation. It can involve removal of oxygen, addition of hydrogen, or addition of electrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In redox reactions:",
+      "options": [
+        "Oxidation is accompanied by reduction",
+        "Oxidation occurs alone",
+        "Reduction occurs alone",
+        "No energy is released"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When one molecule loses electrons, another molecule gains them. Therefore, oxidation and reduction always occur together in redox reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Redox potential refers to:",
+      "options": [
+        "Affinity of a substance to accept electrons",
+        "Ability to bind glucose only",
+        "ATP concentration only",
+        "Phosphate bond length only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Redox potential measures the tendency of a molecule to accept electrons. ETC components are arranged according to increasing redox potential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ETC complexes are organized from:",
+      "options": [
+        "Lower to higher redox potential",
+        "Higher to lower redox potential",
+        "Random order",
+        "Oxygen to hydrogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electrons move through the ETC from carriers with lower electron affinity toward carriers with higher electron affinity, ending with oxygen as the final electron acceptor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The final electron acceptor in the ETC is:",
+      "options": [
+        "Oxygen",
+        "Coenzyme Q",
+        "NADH",
+        "FMN"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxygen accepts electrons at the end of the electron transport chain and is reduced to water.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex I is also called:",
+      "options": [
+        "NADH dehydrogenase",
+        "Succinate dehydrogenase",
+        "Cytochrome oxidase",
+        "ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex I receives electrons from NADH and transfers them through FMN and Fe-S centers toward CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex II includes:",
+      "options": [
+        "Succinate dehydrogenase",
+        "NADH dehydrogenase",
+        "Cytochrome oxidase",
+        "ATP synthase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex II includes succinate dehydrogenase from the Krebs cycle and passes electrons from FADH₂ to CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex III contains:",
+      "options": [
+        "Cytochromes bc1",
+        "Cytochromes a + a3",
+        "ATP synthase",
+        "NADH dehydrogenase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex III is the cytochrome bc1 complex. It transfers electrons from reduced CoQ toward cytochrome c.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex IV contains:",
+      "options": [
+        "Cytochromes a + a3",
+        "Cytochromes bc1",
+        "FMN only",
+        "FAD only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex IV is cytochrome oxidase and contains cytochromes a and a3. It transfers electrons to oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex V is:",
+      "options": [
+        "ATP synthase",
+        "NADH dehydrogenase",
+        "Succinate dehydrogenase",
+        "Coenzyme Q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex V is ATP synthase. It uses the proton gradient across the inner mitochondrial membrane to synthesize ATP from ADP and inorganic phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Coenzyme Q is:",
+      "options": [
+        "A hydrophobic mobile electron carrier in the inner mitochondrial membrane",
+        "A water-soluble protein in cytosol",
+        "The final electron acceptor",
+        "A ribosomal protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CoQ diffuses rapidly through the inner mitochondrial membrane. It transports electrons from Complex I and Complex II to Complex III.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cytochrome c is:",
+      "options": [
+        "A relatively mobile electron carrier",
+        "A proton channel in ATP synthase",
+        "A substrate-level phosphorylation enzyme",
+        "A phosphate carrier"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochrome c transfers electrons from Complex III to Complex IV. It is the relatively mobile cytochrome carrier.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cytochromes contain:",
+      "options": [
+        "Heme groups with iron",
+        "Ribose and adenine",
+        "Glucose and phosphate only",
+        "DNA and histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochromes contain heme, which includes a porphyrin ring and iron. The iron cycles between Fe³⁺ and Fe²⁺ during electron transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Electrons from NADH enter the ETC at:",
+      "options": [
+        "Complex I",
+        "Complex II",
+        "Complex III",
+        "Complex V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH donates electrons to Complex I through FMN and Fe-S centers, then electrons pass to CoQ, Complex III, cytochrome c, Complex IV, and oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Electrons from FADH₂ enter the ETC at:",
+      "options": [
+        "Complex II",
+        "Complex I",
+        "Complex IV",
+        "Complex V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FADH₂ enters through Complex II, then transfers electrons to CoQ. Because it bypasses Complex I, it yields less ATP than NADH in this lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to the lecture, NADH entry into ETC yields:",
+      "options": [
+        "3 ATP",
+        "2 ATP",
+        "1 ATP",
+        "0 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the lecture's ATP yield system, electrons entering through NADH at Complex I lead to synthesis of 3 ATP molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to the lecture, FADH₂ entry into ETC yields:",
+      "options": [
+        "2 ATP",
+        "3 ATP",
+        "4 ATP",
+        "0 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FADH₂ enters through Complex II and bypasses Complex I. Therefore, according to the lecture, it yields 2 ATP molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Proton pumping occurs mainly at which ETC complexes?",
+      "options": [
+        "Complexes I, III, and IV",
+        "Complexes II, III, and V",
+        "Complex II only",
+        "Complex V only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complexes I, III, and IV pump protons from the mitochondrial matrix to the intermembrane space. Complex II does not pump protons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Complex II does not:",
+      "options": [
+        "Pump protons",
+        "Transfer electrons to CoQ",
+        "Contain FAD",
+        "Participate in ETC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex II transfers electrons from FADH₂ to CoQ, but it does not pump protons. This is why FADH₂ produces less ATP than NADH in the lecture's model.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
