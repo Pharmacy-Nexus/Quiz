@@ -50,19 +50,19 @@
       "file": "data/bio-chemictry/heme-metabolism-jaundice.json"
     },
     {
-      "id": "enzymes",
-      "name": "Enzymes",
+      "id": "fat-soluble-vitamins",
+      "name": "Fat-Soluble Vitamins",
       "description": "",
-      "order": 4,
-      "section": "",
-      "sectionId": "",
+      "order": 5,
+      "section": "Vitamins",
+      "sectionId": "vitamins",
       "difficultyBreakdown": {
         "easy": 41,
         "medium": 79,
         "hard": 4
       },
       "questionsCount": 124,
-      "file": "data/bio-chemictry/enzymes.json"
+      "file": "data/bio-chemictry/fat-soluble-vitamins.json"
     }
   ],
   "sections": [
