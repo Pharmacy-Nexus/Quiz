@@ -134,9 +134,9 @@
       "difficultyBreakdown": {
         "easy": 35,
         "medium": 65,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 100,
+      "questionsCount": 130,
       "file": "data/bio-chemictry/nucleic-acids-2-rna-structure-synthesis-continued.json"
     }
   ],
@@ -160,5 +160,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T22:03:35.218Z"
+  "updatedAt": "2026-05-29T22:05:20.377Z"
 }
