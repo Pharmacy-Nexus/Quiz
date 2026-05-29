@@ -78,6 +78,21 @@
       },
       "questionsCount": 130,
       "file": "data/bio-chemictry/water-soluble-vitamins.json"
+    },
+    {
+      "id": "water-soluble-vitamins-part-2",
+      "name": "Water-Soluble Vitamins — Part 2",
+      "description": "",
+      "order": 7,
+      "section": "Vitamins",
+      "sectionId": "vitamins",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/water-soluble-vitamins-part-2.json"
     }
   ],
   "sections": [
