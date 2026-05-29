@@ -123,6 +123,21 @@
       },
       "questionsCount": 150,
       "file": "data/bio-chemictry/nucleic-acids-part-1.json"
+    },
+    {
+      "id": "nucleic-acids-2-rna-structure-synthesis-continued",
+      "name": "Nucleic Acids 2 — RNA Structure & Synthesis Continued",
+      "description": "",
+      "order": 3,
+      "section": "Nucleic Acids",
+      "sectionId": "nucleic-acids",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/nucleic-acids-2-rna-structure-synthesis-continued.json"
     }
   ],
   "sections": [
