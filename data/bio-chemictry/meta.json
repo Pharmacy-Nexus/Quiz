@@ -153,6 +153,21 @@
       },
       "questionsCount": 150,
       "file": "data/bio-chemictry/nucleic-acids-3-protein-synthesis-translation.json"
+    },
+    {
+      "id": "bioenergetics-oxidative-phosphorylation",
+      "name": "bioenergetics & Oxidative Phosphorylation",
+      "description": "",
+      "order": 8,
+      "section": "Bioenergetics & Oxidative Phosphorylation",
+      "sectionId": "bioenergetics-oxidative-phosphorylation",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/bioenergetics-oxidative-phosphorylation.json"
     }
   ],
   "sections": [
@@ -173,6 +188,12 @@
       "name": "Vitamins",
       "description": "",
       "order": 2
+    },
+    {
+      "id": "bioenergetics-oxidative-phosphorylation",
+      "name": "Bioenergetics & Oxidative Phosphorylation",
+      "description": "",
+      "order": 4
     }
   ],
   "updatedAt": "2026-05-29T22:14:11.704Z"
