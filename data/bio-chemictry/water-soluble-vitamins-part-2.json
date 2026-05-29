@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "water-soluble-vitamins-part-2",
   "topicName": "Water-Soluble Vitamins — Part 2",
-  "updatedAt": "2026-05-29T18:44:30.549Z",
+  "updatedAt": "2026-05-29T18:46:47.651Z",
   "questions": [
     {
       "id": "bio-chemictry-water-soluble-vitamins-part-2-001",
@@ -595,6 +595,1196 @@
       ],
       "correctAnswer": 0,
       "explanation": "Folate, folacin, and folic acid refer to vitamin B9. Its active form is tetrahydrofolate, which carries one-carbon groups needed for DNA/RNA synthesis and cell formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why pantothenic acid is important in energy metabolism?",
+      "options": [
+        "It forms part of CoA, which carries acyl groups such as acetyl-CoA",
+        "It carries one-carbon groups for DNA synthesis",
+        "It binds intrinsic factor for intestinal absorption",
+        "It converts homocysteine directly into methionine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pantothenic acid is part of coenzyme A. CoA carries acyl groups, and acetyl-CoA is a central intermediate in carbohydrate, lipid, and protein metabolism. This is why B5 is connected to many pathways even though its deficiency produces no clear effect in humans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CoA derivative is most directly linked to fatty acid synthesis?",
+      "options": [
+        "Malonyl-CoA",
+        "Methylcobalamin",
+        "N5-methyl-THF",
+        "Biocytin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is a key intermediate in fatty acid synthesis. Pantothenic acid is part of CoA, allowing formation of acyl-CoA derivatives such as acetyl-CoA, succinyl-CoA, and malonyl-CoA. The trap is confusing malonyl-CoA with methylmalonyl-CoA, which is linked to B12.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which CoA derivative is linked to heme synthesis?",
+      "options": [
+        "Succinyl-CoA",
+        "Malonyl-CoA",
+        "N5-formyl-THF",
+        "Cyanocobalamin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA participates in heme synthesis by combining with glycine to form δ-aminolevulinic acid. Because CoA contains pantothenic acid, B5 is indirectly connected to heme synthesis through succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acyl carrier protein is important in fatty acid synthesis because it:",
+      "options": [
+        "Carries acyl chains as part of fatty acid synthase",
+        "Carries vitamin B12 to tissues",
+        "Carries one-carbon groups to purines",
+        "Carries calcium for clotting factors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACP is a component of fatty acid synthase. It contains pantothenic acid and helps carry growing acyl chains during fatty acid synthesis. CoA carries free acyl groups, while ACP carries acyl groups within the fatty acid synthase complex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes CoA from ACP?",
+      "options": [
+        "CoA transfers acyl groups generally, while ACP is part of fatty acid synthase",
+        "CoA carries CO₂, while ACP carries methyl groups",
+        "CoA is derived from B12, while ACP is derived from folate",
+        "CoA works only in DNA synthesis, while ACP works only in B12 absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both CoA and ACP contain pantothenic acid-related structures, but they differ in use. CoA transfers acyl groups in many metabolic pathways, while ACP specifically functions as a component of fatty acid synthase during fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is biotin-dependent and important in fatty acid synthesis?",
+      "options": [
+        "Acetyl-CoA → malonyl-CoA",
+        "Homocysteine → methionine",
+        "Methylmalonyl-CoA → succinyl-CoA",
+        "Pteroylpolyglutamate → pteroylmonoglutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin carries CO₂ and acts as a coenzyme for carboxylase enzymes. Acetyl-CoA carboxylation to malonyl-CoA is a biotin-dependent reaction and is essential for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is biotin-dependent and important in gluconeogenesis?",
+      "options": [
+        "Pyruvate → oxaloacetate",
+        "Homocysteine → methionine",
+        "Uracil → thymine",
+        "Folate → dihydrofolate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase requires biotin to carry CO₂ and convert pyruvate into oxaloacetate. This reaction is important in gluconeogenesis, allowing glucose synthesis from non-carbohydrate sources.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is biotin-dependent and links odd-chain fatty acid metabolism to the TCA cycle?",
+      "options": [
+        "Propionyl-CoA → succinyl-CoA",
+        "Acetyl-CoA → cholesterol",
+        "Homocysteine → methionine",
+        "Serine → glycine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin is involved in carboxylation of propionyl-CoA in the pathway leading to succinyl-CoA. This is important for metabolism of odd-chain fatty acids and some amino acids. B12 is also involved later in methylmalonyl-CoA conversion to succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A child has deficiency of holocarboxylase synthetase. Which vitamin deficiency manifestations may appear?",
+      "options": [
+        "Biotin deficiency manifestations",
+        "B12 deficiency only",
+        "Folate excess only",
+        "Pantothenic acid toxicity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Holocarboxylase synthetase attaches biotin to carboxylase enzymes. If this enzyme is deficient, biotin cannot properly activate carboxylases, causing functional biotin deficiency even if dietary biotin is present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does avidin from uncooked egg white cause biotin deficiency?",
+      "options": [
+        "It binds biotin tightly and prevents intestinal absorption",
+        "It destroys intrinsic factor in the stomach",
+        "It inhibits methionine synthase",
+        "It converts folate into inactive oxalate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Avidin is a glycoprotein in uncooked egg white. It tightly binds biotin, preventing its absorption from the intestine. This is a classic cause of biotin deficiency, despite biotin being widely available and produced by intestinal bacteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why biotin deficiency is uncommon?",
+      "options": [
+        "Intestinal bacteria synthesize it and it is widely distributed in food",
+        "It is stored in liver for 10 years",
+        "It is produced by sunlight in skin",
+        "It is absorbed through intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin deficiency usually does not occur in humans because intestinal bacteria supply human needs and biotin is widely distributed in foods. Deficiency becomes more likely with avidin ingestion or defective holocarboxylase synthetase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes biotin from folate?",
+      "options": [
+        "Biotin carries CO₂, while folate carries one-carbon groups",
+        "Biotin carries hydride ions, while folate carries acyl groups",
+        "Biotin forms CoA, while folate forms intrinsic factor",
+        "Biotin forms methylmalonic acid, while folate forms avidin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin is a CO₂ carrier in carboxylation reactions. Folate, as tetrahydrofolate, carries one-carbon groups such as methyl, methylene, formyl, and formimino groups. This distinction prevents confusion between \"carbon transfer\" roles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes pantothenic acid from biotin?",
+      "options": [
+        "Pantothenic acid carries acyl groups through CoA/ACP, while biotin carries CO₂",
+        "Pantothenic acid carries CO₂, while biotin carries methyl groups",
+        "Both are mainly required for intrinsic factor formation",
+        "Both directly form DNA bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pantothenic acid forms CoA and ACP, which handle acyl group transfer. Biotin works with carboxylase enzymes and carries CO₂. Both are B vitamins, but their carrier functions are different.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes early vitamin B12 handling after ingestion?",
+      "options": [
+        "B12 binds cobalophilin in mouth, then intrinsic factor after cobalophilin is hydrolyzed",
+        "B12 binds folate in mouth, then avidin in ileum",
+        "B12 binds intrinsic factor in colon only",
+        "B12 binds transcobalamin before entering the stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 first binds cobalophilin from saliva. In the duodenum, cobalophilin is hydrolyzed, allowing B12 to bind intrinsic factor secreted by gastric parietal cells. This IF-B12 complex is then absorbed in the ileum.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes intrinsic factor?",
+      "options": [
+        "A glycoprotein secreted by gastric parietal cells needed for ileal B12 absorption",
+        "A plasma carrier for folate",
+        "A bacterial enzyme that synthesizes biotin",
+        "A liver enzyme that reduces folate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intrinsic factor is secreted by gastric parietal cells and binds B12. The IF-B12 complex attaches to specific ileal receptors, allowing B12 absorption. Loss of intrinsic factor causes pernicious anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition directly causes B12 malabsorption by lack of intrinsic factor?",
+      "options": [
+        "Gastric mucosal atrophy affecting parietal cells",
+        "Excess dietary leafy vegetables",
+        "Increased folate intake",
+        "Biotin-rich diet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Atrophy of gastric mucosa can reduce intrinsic factor secretion because intrinsic factor comes from parietal cells. Without intrinsic factor, B12 cannot be efficiently absorbed in the ileum, leading to pernicious anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antibody-related mechanism can cause vitamin B12 deficiency?",
+      "options": [
+        "Antibodies against parietal cells or intrinsic factor",
+        "Antibodies against retinol binding protein only",
+        "Antibodies against avidin",
+        "Antibodies against pantothenic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists antibodies against gastric parietal cells and antibodies against intrinsic factor as causes of B12 deficiency. Both interfere with intrinsic factor availability or function, reducing B12 absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is B12 produced by colonic microorganisms not useful for human B12 nutrition?",
+      "options": [
+        "It is synthesized in the colon, but B12 is not absorbed there",
+        "It is immediately converted to folate",
+        "It is destroyed by intrinsic factor",
+        "It is bound by vitamin C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Human intestinal microorganisms can synthesize B12 in the colon, but B12 is not absorbed through the mucosa in that region. Effective absorption requires intrinsic factor and ileal receptors earlier in the gut.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which carrier transports B12 in plasma to tissues?",
+      "options": [
+        "Transcobalamin II",
+        "Retinol binding protein",
+        "Calbindin",
+        "Albumin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 is carried in plasma by carrier globulins including transcobalamin II, transcobalamin I, and R proteins. These transport B12 to tissues, where it binds specific cell surface receptors for entry.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can B12 deficiency take a long time to appear after dietary intake stops?",
+      "options": [
+        "The liver stores large reserves that can last 1–2 years",
+        "B12 is synthesized by skin under UV light",
+        "B12 is stored mainly in RBCs for 120 days only",
+        "B12 is rapidly produced from folate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver stores 50–90% of the body's B12, and this reserve can supply the body for 1–2 years even without intake. This is why B12 deficiency may develop slowly compared with many other water-soluble vitamins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction links B12 with folate metabolism?",
+      "options": [
+        "Homocysteine → methionine using methylcobalamin and N5-methyl-THF",
+        "Pyruvate → oxaloacetate using biotin",
+        "Acetyl-CoA → malonyl-CoA using biotin",
+        "Succinyl-CoA → heme using pantothenic acid only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methionine synthase requires methylcobalamin and uses N5-methyl-THF as the methyl donor. This reaction converts homocysteine to methionine and regenerates tetrahydrofolate, which is needed for DNA synthesis and hematopoiesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does B12 deficiency indirectly impair folate function?",
+      "options": [
+        "It traps folate as N5-methyl-THF and reduces regeneration of THF",
+        "It prevents folate absorption in the stomach",
+        "It converts folate into biotin",
+        "It blocks dietary folate polyglutamate hydrolysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 is needed to remove the methyl group from N5-methyl-THF during methionine synthesis. Without B12, THF regeneration falls, impairing folate-dependent DNA synthesis. This helps explain megaloblastic anemia in B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methionine produced by B12-dependent methionine synthase is important for:",
+      "options": [
+        "Myelin sheath phospholipid synthesis and prevention of fatty liver",
+        "CO₂ fixation in carboxylases only",
+        "Formation of avidin",
+        "Absorption of B12 in the ileum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that methionine is important for phospholipid synthesis in the myelin sheath and for prevention of fatty liver. This is one reason B12 deficiency causes neurological manifestations in addition to anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which B12-dependent reaction explains methylmalonic aciduria in B12 deficiency?",
+      "options": [
+        "Methylmalonyl-CoA → succinyl-CoA",
+        "Homocysteine → methionine",
+        "Pteroylpolyglutamate → pteroylmonoglutamate",
+        "Acetyl-CoA → malonyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deoxyadenosylcobalamin is required for methylmalonyl-CoA isomerase, which converts methylmalonyl-CoA to succinyl-CoA. In B12 deficiency, this pathway is impaired, leading to increased urinary methylmalonic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methylmalonyl-CoA is formed during catabolism of:",
+      "options": [
+        "Valine, isoleucine, and odd-chain fatty acids",
+        "Only glucose",
+        "Only folate polyglutamates",
+        "Only vitamin C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that methylmalonyl-CoA is formed during catabolism of valine and isoleucine and during oxidation of odd-chain fatty acids. B12 is needed to convert it into succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which laboratory findings are expected in B12 deficiency?",
+      "options": [
+        "Methylmalonic aciduria and homocystinuria",
+        "Hyperoxaluria only",
+        "Low methylmalonic acid and low homocysteine",
+        "Increased biotin absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency affects both methylmalonyl-CoA conversion and homocysteine-to-methionine conversion. Therefore, methylmalonic acid and homocysteine increase. This combination helps distinguish B12 deficiency from isolated folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which manifestation helps distinguish B12 deficiency from folate deficiency?",
+      "options": [
+        "Neurological manifestations due to impaired myelin formation",
+        "Megaloblastic anemia",
+        "Defective DNA synthesis",
+        "Macrocytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both B12 and folate deficiency can cause megaloblastic anemia due to defective DNA synthesis. B12 deficiency additionally causes neurological manifestations because of impaired methionine production, myelin phospholipid synthesis, and disturbed odd-chain fatty acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can folic acid administration to a pernicious anemia patient be dangerous?",
+      "options": [
+        "It improves blood picture but may aggravate nervous system lesions",
+        "It blocks all DNA synthesis immediately",
+        "It causes B12 absorption in colon only",
+        "It prevents macrocytosis and cures neuropathy completely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folic acid can improve the megaloblastic anemia by supporting DNA synthesis, but it does not correct B12-dependent neurological problems. In pernicious anemia, giving folate alone may mask anemia while neurological damage progresses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pernicious anemia is mainly due to:",
+      "options": [
+        "Lack of intrinsic factor causing B12 malabsorption",
+        "Lack of dietary folate from vegetables only",
+        "Avidin binding biotin",
+        "Deficiency of pantothenic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pernicious anemia occurs when B12 absorption fails due to lack of intrinsic factor, often from gastric mucosal atrophy or antibodies. This causes B12 deficiency with megaloblastic anemia and possible neurological manifestations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Folate is absorbed mainly in the:",
+      "options": [
+        "Jejunum",
+        "Ileum with intrinsic factor",
+        "Colon",
+        "Stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary folate is absorbed in the jejunum after pteroylpolyglutamate is converted into pteroylmonoglutamate. This contrasts with B12, which requires intrinsic factor and ileal receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dietary folate polyglutamate is converted to the absorbable form by:",
+      "options": [
+        "Intestinal folypolyglutamate hydrolase",
+        "Intrinsic factor",
+        "Holocarboxylase synthetase",
+        "Methylmalonyl-CoA isomerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the jejunum, dietary pteroylpolyglutamate is hydrolyzed to pteroylmonoglutamate by intestinal folypolyglutamate hydrolase. Pteroylmonoglutamate is the absorbable form of folate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The absorbable form of folate is:",
+      "options": [
+        "Pteroylmonoglutamate",
+        "Pteroylpolyglutamate",
+        "Intrinsic factor-folate complex",
+        "Cyanocobalamin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate in plants often contains multiple glutamate residues. Before absorption, these are removed to form pteroylmonoglutamate. This absorbable form then enters the liver through the portal circulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The active form of folate is:",
+      "options": [
+        "Tetrahydrofolate",
+        "Cyanocobalamin",
+        "Biocytin",
+        "Coenzyme A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The active form of folate is tetrahydrofolate, also called H4 folate or THF. It functions as a carrier of one-carbon groups used in DNA/RNA synthesis, amino acid metabolism, and methionine formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Folate is converted in the liver first into dihydrofolate and then into:",
+      "options": [
+        "Tetrahydrofolate",
+        "Methylmalonyl-CoA",
+        "Biotin enzyme complex",
+        "Intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After absorption, folate enters the liver and is converted into H2 folate, then H4 folate. THF is the biologically active one-carbon carrier. Some THF is stored as tetrahydrofolate polyglutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The major circulating form of folate is:",
+      "options": [
+        "N5-methyl tetrahydrofolate",
+        "Pteroylpolyglutamate",
+        "Cyanocobalamin",
+        "Avidin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that a fraction of folate is excreted in bile as N5-methyl-THF, reabsorbed, and becomes the major circulating form of folate. This form is also important in the B12-dependent methionine synthase reaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "THF carries which type of groups?",
+      "options": [
+        "One-carbon groups",
+        "Acyl groups",
+        "CO₂ only",
+        "Hydride ions only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tetrahydrofolate carries one-carbon units such as methyl, methylene, methenyl, formyl, and formimino groups. These units are used in purine synthesis, thymine synthesis, methionine synthesis, and amino acid interconversions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is the major source of one-carbon groups for THF?",
+      "options": [
+        "β-carbon of serine",
+        "Cobalt in B12",
+        "Avidin from egg white",
+        "Acetyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that the β-carbon of serine is the major source of one-carbon groups for THF. Tryptophan and histidine can also supply one-carbon units.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acids are listed as sources of one-carbon groups for folate?",
+      "options": [
+        "Serine, tryptophan, and histidine",
+        "Valine, leucine, and isoleucine only",
+        "Glycine, lysine, and proline only",
+        "Methionine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Serine is the major one-carbon source, and tryptophan and histidine are also listed. These carbon units are carried by THF in different forms and used for nucleotide and amino acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "THF one-carbon groups are required for synthesis of:",
+      "options": [
+        "Purines and thymine",
+        "Only fatty acids",
+        "Only bile salts",
+        "Only intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "THF provides one-carbon groups needed for purine synthesis and for conversion of uracil into thymine. This is why folate deficiency impairs DNA synthesis and causes megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Folate is required for DNA synthesis because it participates in:",
+      "options": [
+        "Purine synthesis and methylation of uracil to thymine",
+        "CO₂ fixation by carboxylases",
+        "Acyl group transfer by CoA",
+        "B12 absorption through ileal receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate as THF carries one-carbon units required for adenine/guanine synthesis and thymine formation. Without folate, DNA synthesis becomes defective, especially in rapidly dividing cells like bone marrow cells and developing fetal tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which folate-dependent process is important for methionine synthesis?",
+      "options": [
+        "Conversion of homocysteine to methionine",
+        "Conversion of pyruvate to oxaloacetate",
+        "Conversion of acetyl-CoA to malonyl-CoA",
+        "Conversion of retinol to retinal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N5-methyl-THF donates a methyl group to B12, forming methylcobalamin, which then transfers it to homocysteine to form methionine. This connects folate and B12 metabolism directly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which folate function is directly related to cell division?",
+      "options": [
+        "DNA/RNA synthesis through purines and thymine",
+        "CO₂ transport in carboxylase enzymes",
+        "Acyl group transfer by CoA",
+        "Fatty acid oxidation from odd-chain fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate supports nucleic acid synthesis by carrying one-carbon units needed for purines and thymine. Rapidly dividing cells, especially hematopoietic cells and fetal tissues, are highly sensitive to folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Folate deficiency causes megaloblastic anemia mainly because of:",
+      "options": [
+        "Defective DNA synthesis in hematopoietic cells",
+        "Defective heme synthesis due to lack of iron only",
+        "Defective B12 absorption in the ileum",
+        "Excess CO₂ fixation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency impairs DNA synthesis, slowing nuclear maturation in developing blood cells. This causes megaloblastic anemia, a macrocytic anemia. It may also cause leukopenia and thrombocytopenia because all blood cell lines can be affected.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pancytopenia in folate deficiency means:",
+      "options": [
+        "RBCs, WBCs, and platelets are all affected",
+        "Only RBCs are affected",
+        "Only platelets increase",
+        "Only WBCs increase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancytopenia means reduction of all major blood cell lines. Folate deficiency affects DNA synthesis in bone marrow, so red cells, white cells, and platelets may all decrease, causing megaloblastic anemia, leukopenia, and thrombocytopenia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition increases folate requirement?",
+      "options": [
+        "Pregnancy and lactation",
+        "Excessive intrinsic factor secretion",
+        "High B12 storage only",
+        "Avidin ingestion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is needed for DNA synthesis and cell formation. Requirements increase during late pregnancy and lactation because of fetal growth and maternal demands. Folate deficiency in pregnancy is especially dangerous due to neural tube defect risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methotrexate causes folate antagonism mainly by inhibiting:",
+      "options": [
+        "Dihydrofolate reductase",
+        "Intrinsic factor",
+        "Holocarboxylase synthetase",
+        "Transcobalamin II"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methotrexate inhibits dihydrofolate reductase, blocking regeneration of tetrahydrofolate. Without THF, purine and thymine synthesis decrease, impairing DNA synthesis. This explains its anticancer action and toxicity to rapidly dividing cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Trimethoprim mainly affects folate synthesis in:",
+      "options": [
+        "Bacteria, especially gram-negative bacteria, with little effect on humans",
+        "Human parietal cells only",
+        "Human liver only",
+        "Red blood cells only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture describes trimethoprim as an antibiotic related to folate antagonism in bacteria, with little effect on humans. It inhibits bacterial folate-related pathways, reducing nucleotide synthesis needed for replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug has an effect on both humans and microorganisms by acting as a folate antagonist?",
+      "options": [
+        "Methotrexate",
+        "Intrinsic factor",
+        "Avidin",
+        "Cyanocobalamin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methotrexate inhibits dihydrofolate reductase and affects both human cells and microorganisms. In humans, it is used as an anticancer drug because rapidly dividing cells need folate-dependent DNA synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sulfonamides inhibit bacterial folate synthesis by competing with:",
+      "options": [
+        "PABA",
+        "Cobalt",
+        "Lysine",
+        "Intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diagram shows sulfonamides competitively inhibiting the synthesis of folic acid in microorganisms by competing with PABA. This prevents bacteria from producing folate needed for nucleotide synthesis and replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are rapidly dividing cells especially sensitive to folate deficiency?",
+      "options": [
+        "They require high rates of DNA synthesis",
+        "They require less DNA than other cells",
+        "They do not use purines or thymine",
+        "They depend only on biotin for DNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is required for purine and thymine synthesis, both essential for DNA replication. Rapidly dividing cells like bone marrow cells and fetal tissues have high DNA synthesis demand, so they are affected strongly by folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Neural tube defects occur early because the neural tube closes by approximately:",
+      "options": [
+        "Day 28 after conception",
+        "Month 9 of pregnancy",
+        "Day 120 after conception",
+        "After birth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The neural tube forms early and closes by the 28th day after conception. Because this occurs very early, folic acid supplementation should begin before conception and continue during the first trimester.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The two most common neural tube defects mentioned are:",
+      "options": [
+        "Spina bifida and anencephaly",
+        "Rickets and osteomalacia",
+        "Beriberi and pellagra",
+        "Scurvy and xerophthalmia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists spina bifida and anencephaly as the two most common neural tube defects. Spina bifida involves incomplete closure of the spinal column, while anencephaly involves failure of much of the brain and skull to develop.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Folic acid supplementation to reduce neural tube defects is recommended:",
+      "options": [
+        "Before conception and during the first trimester",
+        "Only after delivery",
+        "Only during the last week of pregnancy",
+        "Only after neural tube closure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since the neural tube closes by day 28 after conception, supplementation must begin early. The lecture advises women of childbearing age to consume folic acid to reduce the risk of pregnancy affected by neural tube defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The recommended folic acid intake for women of childbearing age to reduce NTD risk is:",
+      "options": [
+        "0.4 mg/day",
+        "4 mg/day for everyone",
+        "5–10 mg/day",
+        "4 µg/day"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that women of childbearing age are advised to consume 0.4 mg/day, equal to 400 µg/day, of folic acid to reduce neural tube defect risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Spina bifida occurs when:",
+      "options": [
+        "The fetal spinal column does not close completely",
+        "Most of the brain and skull do not develop",
+        "The ileum fails to absorb B12",
+        "The stomach fails to secrete acid only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In spina bifida, the fetal spinal column does not close completely, creating a gap in the spine. There is usually nerve damage that may cause paralysis of the legs. Anencephaly refers to failure of much of the brain and skull to develop.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Anencephaly is characterized by:",
+      "options": [
+        "Failure of most of the brain and skull to develop",
+        "Incomplete closure of the spinal column only",
+        "Lack of intrinsic factor",
+        "Biotin binding by avidin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anencephaly is a severe neural tube defect in which most of the brain and skull do not develop. Babies with anencephaly are usually stillborn or die shortly after birth.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nutritional anemia is classified in the lecture according to:",
+      "options": [
+        "Mean corpuscular volume / RBC size",
+        "Platelet color only",
+        "Serum calcium only",
+        "Vitamin solubility only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture classifies nutritional anemia according to red blood cell size or mean corpuscular volume. This gives microcytic, normocytic, and macrocytic categories, each linked to different nutritional deficiencies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Microcytic nutritional anemia may result from deficiency of:",
+      "options": [
+        "Iron, pyridoxine, or ascorbate",
+        "B12 and folate only",
+        "Protein-energy malnutrition only",
+        "Vitamin D only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anemia chart lists microcytic anemia as associated with deficiency of iron, pyridoxine, or ascorbate. Pyridoxine affects heme synthesis, ascorbate affects iron absorption, and iron directly affects hemoglobin synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Macrocytic nutritional anemia may result from deficiency of:",
+      "options": [
+        "Vitamin B12 or folate",
+        "Vitamin C only",
+        "Biotin only",
+        "Pantothenic acid only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture's anemia chart lists vitamin B12 and folate deficiency under macrocytic nutritional anemia. Both impair DNA synthesis, leading to megaloblastic changes and large red blood cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Normocytic nutritional anemia may be associated with:",
+      "options": [
+        "Protein-energy malnutrition",
+        "Vitamin B12 deficiency only",
+        "Folate deficiency only",
+        "Ascorbate deficiency only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nutritional anemia chart lists normocytic anemia with protein-energy malnutrition. In contrast, B12 and folate deficiencies are macrocytic, while iron, pyridoxine, and ascorbate deficiencies are microcytic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates microcytic from macrocytic nutritional anemia?",
+      "options": [
+        "Microcytic is linked to iron/pyridoxine/ascorbate; macrocytic is linked to B12/folate",
+        "Microcytic is linked only to B12; macrocytic is linked only to vitamin C",
+        "Both are caused only by protein-energy malnutrition",
+        "Macrocytic anemia is caused only by biotin deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microcytic anemia reflects problems with hemoglobin production, such as iron deficiency, B6-dependent heme synthesis issues, or vitamin C-related iron absorption problems. Macrocytic anemia reflects defective DNA synthesis, classically from B12 or folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which deficiency can cause macrocytic anemia with neurological manifestations?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Folate deficiency only",
+        "Pantothenic acid deficiency",
+        "Biotin deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both B12 and folate deficiencies can cause macrocytic/megaloblastic anemia. B12 deficiency is distinguished by neurological manifestations due to impaired myelin formation and abnormal odd-chain fatty acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which deficiency causes macrocytic anemia and neural tube defects but not the classic B12 neurological syndrome?",
+      "options": [
+        "Folate deficiency",
+        "B12 deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency causes defective DNA synthesis, megaloblastic anemia, pancytopenia, impaired fetal growth, and neural tube defects. It does not cause the classic neurological manifestations of B12 deficiency related to myelin and methylmalonyl-CoA metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker is expected to rise in both B12 and folate deficiency?",
+      "options": [
+        "Homocysteine",
+        "Methylmalonic acid",
+        "Biotin",
+        "CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both B12 and folate are involved in conversion of homocysteine to methionine. Therefore, homocysteine can increase in both deficiencies. Methylmalonic acid rises specifically in B12 deficiency because of impaired methylmalonyl-CoA conversion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker is more specific for B12 deficiency than folate deficiency?",
+      "options": [
+        "Methylmalonic acid",
+        "Low platelet count only",
+        "Macrocytosis only",
+        "Homocysteine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonic acid increases when B12-dependent conversion of methylmalonyl-CoA to succinyl-CoA is impaired. Folate deficiency does not affect this reaction. Therefore, methylmalonic acid helps distinguish B12 deficiency from folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition can cause B12 deficiency through defective ileal absorption?",
+      "options": [
+        "Regional enteritis",
+        "Pregnancy only",
+        "Methotrexate use only",
+        "Avidin ingestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 absorption requires the IF-B12 complex to bind specific receptors in the ileum. Regional enteritis can impair absorption and cause B12 deficiency. Folate absorption is mainly jejunal, so ileal disease points more toward B12.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition is a common cause of folate deficiency due to increased demand?",
+      "options": [
+        "Pregnancy",
+        "Vegan diet only",
+        "Intrinsic factor antibodies",
+        "Uncooked egg white ingestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate demand increases during pregnancy and lactation because of rapid cell division and fetal growth. Low folate during early pregnancy increases risk of neural tube defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Alcoholism can contribute to deficiency of:",
+      "options": [
+        "Folate",
+        "Only pantothenic acid",
+        "Only biotin",
+        "Only cobalophilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists alcoholism as a cause of inadequate serum folate levels. Folate deficiency impairs DNA synthesis and may lead to pancytopenia and megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug is specifically mentioned as causing folate deficiency or antagonism in humans?",
+      "options": [
+        "Methotrexate",
+        "Avidin",
+        "Intrinsic factor",
+        "Transcobalamin II"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methotrexate is a folate antagonist that inhibits dihydrofolate reductase. It affects humans and microorganisms and is used as an anticancer drug due to inhibition of DNA synthesis in rapidly dividing cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes why B12 and folate deficiencies both cause megaloblastic anemia?",
+      "options": [
+        "Both impair DNA synthesis in hematopoietic tissue",
+        "Both block bile salt production",
+        "Both prevent CO₂ fixation by carboxylases",
+        "Both destroy intrinsic factor directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is directly required for purine and thymine synthesis. B12 deficiency indirectly impairs folate function by preventing regeneration of THF from N5-methyl-THF. In both cases, DNA synthesis in bone marrow is defective, causing megaloblastic anemia.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
