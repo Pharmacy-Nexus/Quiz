@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-2-rna-structure-synthesis-continued",
   "topicName": "Nucleic Acids 2 — RNA Structure & Synthesis Continued",
-  "updatedAt": "2026-05-29T22:03:30.888Z",
+  "updatedAt": "2026-05-29T22:05:16.043Z",
   "questions": [
     {
       "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-001",
@@ -1700,6 +1700,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "The 5′ cap stabilizes mRNA and helps translation initiation. The poly-A tail stabilizes mRNA and helps nuclear export. Splicing removes introns and produces a coding mature mRNA. Together, these changes prepare mRNA for efficient translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A researcher inhibits RNA polymerase II in a eukaryotic nucleus. Which product will be most directly decreased?",
+      "options": [
+        "Pre-mRNA",
+        "28S rRNA",
+        "5S rRNA",
+        "tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase II synthesizes the precursors of mRNAs that are later processed and translated into proteins. RNA polymerase I makes large rRNA precursors, while RNA polymerase III makes tRNA, 5S rRNA, and some snRNAs. The trap is remembering that not all RNA is made by the same polymerase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A nucleolar enzyme is inhibited, and production of 28S, 18S, and 5.8S rRNA precursors decreases. Which polymerase is affected?",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase II",
+        "RNA polymerase III",
+        "DNA polymerase α"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase I acts in the nucleolus and synthesizes the precursor of large rRNAs, including 28S, 18S, and 5.8S. The small 5S rRNA is the exception because it is produced by RNA polymerase III.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mutation affects production of tRNA and 5S rRNA but does not directly affect pre-mRNA synthesis. Which polymerase is most likely defective?",
+      "options": [
+        "RNA polymerase III",
+        "RNA polymerase II",
+        "RNA polymerase I",
+        "DNA polymerase III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase III produces small RNAs such as tRNAs, 5S rRNA, and some snRNAs. Since pre-mRNA synthesis is mainly RNA polymerase II-dependent, preservation of pre-mRNA points away from polymerase II.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A promoter mutation occurs 25 nucleotides upstream of the transcription start site and reduces mRNA synthesis. Which element is most likely affected?",
+      "options": [
+        "TATA/Hogness box",
+        "CAAT box",
+        "Poly-A tail",
+        "Stop codon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TATA or Hogness box is usually centered about 25 nucleotides upstream of the transcription start site for mRNA. A mutation here can reduce recognition by transcription machinery and impair initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A promoter mutation occurs 75 nucleotides upstream of a transcription start site. Which sequence is most likely affected?",
+      "options": [
+        "CAAT box",
+        "TATA box",
+        "5′ cap",
+        "Anticodon loop"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CAAT box is a promoter consensus sequence usually located about 70–80 nucleotides upstream of the transcription start site. The TATA box is usually closer, around 25 nucleotides upstream.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A DNA sequence located thousands of base pairs downstream from a gene increases transcription by interacting with promoter-bound transcription factors. What is this sequence?",
+      "options": [
+        "Enhancer",
+        "Intron",
+        "Stop codon",
+        "Poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers can be upstream or downstream and may be close to or thousands of base pairs away from the promoter. DNA looping allows enhancer-bound proteins to interact with transcription factors near the promoter and stimulate transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An enhancer is far from the promoter in the linear DNA sequence but still increases transcription. Which mechanism best explains this?",
+      "options": [
+        "DNA bending brings enhancer-bound proteins near the transcription-initiation complex",
+        "Enhancer RNA is translated into polymerase II",
+        "Enhancers remove introns directly",
+        "Enhancers add 7-methylguanosine caps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers do not need to be close in the linear DNA sequence. DNA bending or looping allows enhancer-binding proteins to physically interact with promoter-bound transcription factors, increasing RNA polymerase II initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A eukaryotic gene is tightly packaged around nucleosomes. Which event must occur before transcription factors bind efficiently?",
+      "options": [
+        "DNA must temporarily loosen and dissociate from the nucleosome core",
+        "DNA must be permanently degraded into nucleotides",
+        "mRNA must first be translated",
+        "Ribosomal subunits must bind the promoter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic DNA is packaged with histones. For RNA polymerase and transcription factors to recognize promoter DNA, the double helix must assume a looser conformation and temporarily dissociate from the nucleosome core.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A eukaryotic mRNA primary transcript is made but cannot receive a 5′ cap. Which consequence is most likely?",
+      "options": [
+        "Poor translation efficiency and reduced stability",
+        "Increased tRNA charging",
+        "Conversion into 45S pre-rRNA",
+        "Direct conversion into a ribosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 5′ cap facilitates translation initiation and stabilizes mRNA. Eukaryotic mRNAs lacking the cap are not translated efficiently, so protein production from that transcript would decrease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mutation prevents addition of the 3′ poly-A tail to eukaryotic mRNA. Which function is most likely impaired?",
+      "options": [
+        "mRNA stabilization and exit from the nucleus",
+        "Codon recognition by anticodon",
+        "Formation of 45S pre-rRNA",
+        "Binding of urate crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The poly-A tail helps stabilize mRNA and facilitates export from the nucleus. It is added after transcription by polyadenylate polymerase and gradually shortens after the mRNA enters the cytosol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says the poly-A tail is directly transcribed from DNA as a long adenine sequence. What is the best correction?",
+      "options": [
+        "It is added after transcription by polyadenylate polymerase",
+        "It is made by RNA polymerase I in the nucleolus",
+        "It is added to the 5′ end by spliceosome",
+        "It is part of the TATA box"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The poly-A tail is not transcribed directly from DNA. It is added post-transcriptionally to the 3′ end of most eukaryotic mRNAs by polyadenylate polymerase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A pre-mRNA contains several noncoding regions that must be removed before translation. Which machinery performs this process?",
+      "options": [
+        "Spliceosome containing snRNPs",
+        "RNA polymerase I only",
+        "DNA ligase",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Introns are removed by the spliceosome. snRNPs, made of snRNAs associated with proteins, base-pair with consensus sequences at intron ends and help excise introns while joining exons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mutation disrupts consensus sequences at the ends of an intron. Which process is most directly affected?",
+      "options": [
+        "Splicing of pre-mRNA",
+        "Addition of the poly-A tail only",
+        "Ribosome subunit association",
+        "Translation termination codon recognition only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "snRNPs recognize consensus sequences at each end of introns by base pairing. If these sequences are disrupted, accurate intron removal and exon joining can fail.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mature eukaryotic mRNA is found to contain intronic sequences. Which processing step failed?",
+      "options": [
+        "Splicing",
+        "5′ capping",
+        "Polyadenylation",
+        "Transcription initiation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Introns are noncoding intervening sequences that should be removed from pre-mRNA. If introns remain in mature mRNA, splicing by the spliceosome has failed or been inaccurate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tRNA precursor lacks the terminal 3′-CCA sequence. Which enzyme normally adds this sequence?",
+      "options": [
+        "Nucleotidyl-transferase",
+        "Polyadenylate polymerase",
+        "RNA polymerase II",
+        "Dihydrofolate reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 3′-CCA sequence of tRNA is added post-transcriptionally by nucleotidyl-transferase. This terminal sequence is essential because amino acids attach to the terminal adenine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tRNA molecule fails to develop unusual bases after transcription. Which type of processing has failed?",
+      "options": [
+        "Base modification at specific positions",
+        "5′ capping",
+        "Poly-A tail addition",
+        "Intron retention in mRNA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNAs undergo post-transcriptional base modification to produce unusual bases. These modifications help mature tRNA achieve its proper structure and function during translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A long 45S pre-rRNA fails to be cleaved. Which mature rRNAs will be reduced?",
+      "options": [
+        "28S, 18S, and 5.8S",
+        "tRNA, 5S rRNA, and snRNA",
+        "mRNA only",
+        "16S and 23S only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic 45S pre-rRNA is processed by cleavage to produce 28S, 18S, and 5.8S rRNAs. 5S rRNA is made separately by RNA polymerase III.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A codon consists of three bases. With four possible nucleotide bases, how many codons are possible?",
+      "options": [
+        "64",
+        "20",
+        "12",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each codon has three positions, and each position can contain one of four bases. Therefore, the number of possible codons is 4³ = 64. This exceeds the number of amino acids, explaining degeneracy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A codon always codes for the same amino acid. Which characteristic of the genetic code is this?",
+      "options": [
+        "Specificity",
+        "Degeneracy",
+        "Commaless reading",
+        "Nonoverlapping only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Specificity means each codon has a fixed meaning and codes for the same amino acid or stop signal. Degeneracy means one amino acid may be encoded by more than one codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Leucine has several codons. Which characteristic of the genetic code does this illustrate?",
+      "options": [
+        "Degeneracy",
+        "Specificity only",
+        "Noncoding nature",
+        "Antiparallelism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Degeneracy means that one amino acid may have more than one codon. The lecture gives leucine and arginine as examples, each having six codons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-121",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A ribosome starts reading mRNA from the wrong nucleotide. What is most likely affected?",
+      "options": [
+        "Reading frame and amino acid sequence",
+        "5′ cap methylation only",
+        "Poly-A tail length only",
+        "rRNA cleavage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genetic code is nonoverlapping and commaless, read from a fixed starting point in groups of three bases. If the starting point shifts, every downstream codon can change, altering the amino acid sequence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-122",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A standard mRNA codon UGA appears during translation. What is its usual meaning?",
+      "options": [
+        "Stop codon",
+        "Methionine codon",
+        "Arginine codon",
+        "Leucine codon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the standard genetic code, UGA is a stop codon, along with UAA and UAG. These codons signal completion of peptide chain synthesis and do not code for amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-123",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In mammalian mitochondria, UGA is read differently. What does it code for?",
+      "options": [
+        "Tryptophan",
+        "Stop",
+        "Methionine",
+        "Arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture notes mitochondrial exceptions: in mammalian mitochondria, UGA codes for tryptophan instead of acting as a stop codon. This is a key exception to the general universality of the genetic code.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-124",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the standard genetic code, AUG has which dual role?",
+      "options": [
+        "Initiator codon and internal methionine codon",
+        "Stop codon and arginine codon",
+        "Poly-A signal and intron boundary",
+        "Enhancer and promoter element"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AUG codes for methionine and also serves as the initiator codon. It can also appear internally in an mRNA and encode methionine within the protein sequence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-125",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In mammalian mitochondria, AGA and AGG serve as:",
+      "options": [
+        "Chain terminators",
+        "Arginine codons",
+        "Methionine codons",
+        "Tryptophan codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the standard code, AGA and AGG usually code for arginine. In mammalian mitochondria, they serve as chain terminator codons. This is another mitochondrial genetic code exception.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-126",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A protein contains an essential amino acid, but that amino acid is absent from the cell. What happens when the ribosome reaches its codon?",
+      "options": [
+        "Translation stops at that codon",
+        "Any amino acid is inserted randomly",
+        "The codon becomes an enhancer",
+        "mRNA is converted into DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All amino acids needed for a protein must be present during translation. If one amino acid is missing, the ribosome cannot add it, so translation stops at the codon specifying that amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-127",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell lacks functional tRNAs. Which step is most directly impaired?",
+      "options": [
+        "Delivery of amino acids according to mRNA codons",
+        "DNA replication initiation",
+        "5′ capping of hnRNA",
+        "Enhancer binding to transcription factors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNAs are adaptor molecules that carry amino acids and match them to codons on mRNA through anticodon-codon pairing. Without functional tRNAs, translation cannot properly build proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-128",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug selectively targets the 30S subunit. Which ribosome type is most directly affected?",
+      "options": [
+        "Prokaryotic 70S ribosome",
+        "Eukaryotic 80S ribosome",
+        "Eukaryotic 60S subunit",
+        "Eukaryotic 40S subunit only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic ribosomes are 70S and consist of 50S and 30S subunits. Eukaryotic cytosolic ribosomes are 80S, made of 60S and 40S subunits. This difference is important for antibiotic selectivity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-129",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A ribosome is composed of 60S and 40S subunits. What is the complete ribosome?",
+      "options": [
+        "80S eukaryotic ribosome",
+        "100S ribosome",
+        "70S prokaryotic ribosome",
+        "50S bacterial subunit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic ribosomes consist of 60S and 40S subunits and form an 80S ribosome. Svedberg values are not additive, so 60S + 40S does not equal 100S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-130",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "RNA polymerase II makes pre-mRNA, which is capped, polyadenylated, spliced, exported, and translated on ribosomes according to the genetic code",
+        "RNA polymerase I makes pre-mRNA, which is directly translated without processing",
+        "Enhancers remove introns, and ribosomes add poly-A tails",
+        "Stop codons initiate translation, while AUG terminates translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the main flow of the lecture. RNA polymerase II synthesizes pre-mRNA. Eukaryotic pre-mRNA is processed by 5′ capping, poly-A addition, and splicing. Mature mRNA is exported and translated by ribosomes using the genetic code.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
