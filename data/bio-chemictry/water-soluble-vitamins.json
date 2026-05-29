@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "water-soluble-vitamins",
   "topicName": "Water-Soluble Vitamins",
-  "updatedAt": "2026-05-29T18:06:19.655Z",
+  "updatedAt": "2026-05-29T18:09:34.985Z",
   "questions": [
     {
       "id": "bio-chemictry-water-soluble-vitamins-001",
@@ -1700,6 +1700,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "Niacin can be synthesized from tryptophan, but this pathway requires vitamin B6 as a coenzyme. Therefore, B6 deficiency can indirectly cause niacin deficiency and pellagra. This integration is one of the most important cross-links in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has bleeding gums, poor wound healing, anemia, and general weakness. Which vitamin deficiency best explains all these findings together?",
+      "options": [
+        "Vitamin C deficiency",
+        "Vitamin B1 deficiency",
+        "Vitamin B2 deficiency",
+        "Vitamin B3 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C deficiency causes scurvy. Bleeding gums and poor wound healing result from defective collagen formation. Anemia can occur from decreased iron absorption and bleeding. General weakness can also occur because vitamin C is needed for carnitine synthesis, which supports fatty acid oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with scurvy develops anemia. Which combined mechanism best explains it?",
+      "options": [
+        "Decreased iron absorption plus bleeding from weak connective tissue",
+        "Decreased NADPH formation plus increased LDL oxidation",
+        "Decreased GABA synthesis plus increased neuronal excitability",
+        "Decreased TPP formation plus impaired pyruvate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C keeps iron in the ferrous Fe²⁺ state, which improves absorption. In deficiency, iron absorption decreases. At the same time, defective collagen weakens capillaries and connective tissues, causing bleeding. Together, these mechanisms can produce anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient avoids fresh fruits and vegetables for several months and develops gum necrosis, loose teeth, and poor wound healing. Which biochemical process is primarily impaired?",
+      "options": [
+        "Hydroxylation required for collagen maturation",
+        "Oxidative decarboxylation of pyruvate",
+        "Formation of NAD⁺ from niacin",
+        "Decarboxylation of glutamate to GABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C is required for hydroxylase enzymes involved in converting procollagen into mature collagen. Without proper collagen, gums, teeth support, blood vessels, and wounds are affected. This is why scurvy presents strongly with gum disease and poor healing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient takes very high doses of vitamin C supplements and develops urinary stones. Which pathway best explains this risk?",
+      "options": [
+        "Excess vitamin C can increase oxalate formation and cause hyperoxaluria",
+        "Excess vitamin C converts into NADP⁺ and causes pellagra",
+        "Excess vitamin C activates TPP and causes beriberi",
+        "Excess vitamin C inhibits PLP and causes convulsions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that high doses of vitamin C can cause hyperoxaluria, which increases stone risk. This fits with the oxidation pathway where further oxidation of ascorbic acid can lead to oxalic acid. This is a key toxicity trap for vitamin C.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired pyruvate dehydrogenase and α-ketoglutarate dehydrogenase activity, with neuropathy and low energy production. Which vitamin deficiency is most likely?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B1 as TPP is required for oxidative decarboxylation of α-ketoacids, including pyruvate and α-ketoglutarate. Deficiency decreases energy production, especially affecting the nervous system. This explains beriberi manifestations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A thiamin-deficient patient has high pyruvate and impaired acetyl-CoA formation. Which enzyme is most directly affected?",
+      "options": [
+        "Pyruvate dehydrogenase",
+        "Succinate dehydrogenase",
+        "L-amino acid oxidase",
+        "Glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate dehydrogenase requires TPP to convert pyruvate into acetyl-CoA. Without thiamin, this reaction is impaired, reducing entry of carbohydrate-derived carbon into the citric acid cycle and lowering ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has peripheral neuritis, muscle wasting, and hyperesthesia without edema or heart failure. Which diagnosis best fits?",
+      "options": [
+        "Dry beriberi",
+        "Wet beriberi",
+        "Pellagra",
+        "Scurvy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dry beriberi is the chronic neurological form of thiamin deficiency. It causes peripheral neuritis, muscle wasting, and hyperesthesia. Wet beriberi is more cardiovascular and causes heart failure and edema.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A thiamin-deficient patient develops edema and heart failure. Which form of beriberi is this?",
+      "options": [
+        "Wet beriberi",
+        "Dry beriberi",
+        "Pellagra",
+        "Scurvy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wet beriberi is the acute/cardiovascular form of thiamin deficiency. It presents mainly with heart failure and edema. Dry beriberi mainly affects peripheral nerves and muscles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clinician wants to assess a reaction in the pentose phosphate pathway that depends on thiamin. Which enzyme is most relevant?",
+      "options": [
+        "Transketolase",
+        "Succinate dehydrogenase",
+        "Glutamate decarboxylase",
+        "γ-glutamyl carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transketolase in the pentose phosphate pathway requires TPP, the active form of vitamin B1. This is a major non-PDH role of thiamin and is commonly used to connect B1 deficiency with carbohydrate metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has cheilosis, smooth purplish tongue, dermatitis, photophobia, and corneal vascularization. Which vitamin deficiency best explains this pattern?",
+      "options": [
+        "Vitamin B2",
+        "Vitamin B1",
+        "Vitamin B3",
+        "Vitamin B6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Riboflavin deficiency causes cheilosis, glossitis, dermatitis, and ocular disturbances such as photophobia and corneal vascularization. The combination of mouth lesions plus eye findings strongly points to B2 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired succinate dehydrogenase activity. Which vitamin-derived coenzyme is directly involved?",
+      "options": [
+        "FAD from vitamin B2",
+        "TPP from vitamin B1",
+        "NAD⁺ from vitamin B3",
+        "PLP from vitamin B6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase is a flavoenzyme that uses FAD, derived from riboflavin. During the reaction, succinate is converted to fumarate and FAD is reduced to FADH₂. This links B2 to redox metabolism and the citric acid cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A redox enzyme uses FMN as a hydrogen/electron carrier. Which vitamin is the precursor?",
+      "options": [
+        "Riboflavin",
+        "Thiamin",
+        "Niacin",
+        "Pyridoxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Riboflavin forms FMN and FAD. Both act as coenzymes for flavoenzymes and carry hydrogen/electrons in redox reactions. FMN is formed by phosphorylation of riboflavin by flavokinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient relying mainly on corn develops diarrhea, dermatitis, and dementia. Which deficiency is most likely?",
+      "options": [
+        "Niacin deficiency",
+        "Thiamin deficiency",
+        "Riboflavin deficiency",
+        "Vitamin C deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corn is poor in both niacin and tryptophan. Since tryptophan can be converted into niacin, low intake of both increases risk of pellagra. Pellagra classically causes diarrhea, dermatitis, dementia, and death if untreated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with Hartnup disease develops pellagra-like symptoms. Which mechanism best explains this?",
+      "options": [
+        "Defective tryptophan absorption and renal reabsorption decrease niacin synthesis",
+        "Defective riboflavin phosphorylation prevents FMN formation",
+        "Defective vitamin C oxidation increases oxalate",
+        "Defective thiamin kinase prevents TPP formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hartnup disease causes impaired tryptophan absorption in the intestine and impaired reabsorption in renal tubules. Since tryptophan is a precursor for niacin, low tryptophan availability can cause pellagra.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with carcinoid syndrome develops pellagra. Which metabolic diversion causes it?",
+      "options": [
+        "Tryptophan is diverted toward serotonin synthesis instead of niacin synthesis",
+        "Niacin is diverted toward collagen synthesis instead of NAD⁺",
+        "Riboflavin is diverted toward TPP synthesis instead of FAD",
+        "Vitamin C is diverted toward heme synthesis instead of collagen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In malignant carcinoid syndrome, large amounts of tryptophan are converted to serotonin. This occurs at the expense of niacin synthesis, so pellagra can develop even if dietary intake is not the only problem.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tuberculosis patient on isoniazid develops pellagra risk. Which vitamin interaction explains this?",
+      "options": [
+        "Isoniazid binds vitamin B6, impairing tryptophan-to-niacin conversion",
+        "Isoniazid binds vitamin C, impairing collagen synthesis",
+        "Isoniazid blocks FAD formation from riboflavin",
+        "Isoniazid activates NADP⁺ degradation directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isoniazid binds vitamin B6 and promotes renal excretion. B6 is required for conversion of tryptophan into niacin. Therefore, isoniazid can indirectly cause niacin deficiency and pellagra.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receives high-dose niacin therapy for hyperlipidemia. Which mechanism explains its lipid-lowering effect in the lecture?",
+      "options": [
+        "It inhibits free fatty acid flow from adipose tissue, reducing acetyl-CoA supply for cholesterol synthesis",
+        "It directly converts LDL into HDL by hydroxylation",
+        "It stimulates clotting factor carboxylation",
+        "It increases collagen synthesis in arterial walls"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Niacin lowers plasma cholesterol and lipids by inhibiting the release/flow of free fatty acids from adipose tissue. Less FFA means less acetyl-CoA substrate available for cholesterol synthesis. This is separate from NAD⁺/NADP⁺ coenzyme function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A molecule accepts a hydride ion during a redox reaction. Which niacin-derived coenzyme is most likely involved?",
+      "options": [
+        "NAD⁺ or NADP⁺",
+        "TPP",
+        "PLP",
+        "FMN only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NAD⁺ and NADP⁺ undergo reduction by accepting a hydride ion, meaning one hydrogen atom plus two electrons. This occurs at the pyridine ring and allows them to act as hydrogen carriers in many biochemical redox reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "NAD⁺ is required for ADP-ribose formation. Which process is ADP-ribose important for?",
+      "options": [
+        "Protein ribosylation and DNA repair",
+        "Collagen hydroxylation only",
+        "Sodium channel phosphorylation by thiamin triphosphate",
+        "Heme synthesis from glycine and succinyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NAD⁺ provides ADP-ribose, which is used for ADP-ribosylation of proteins and poly-ADP-ribosylation of nucleoproteins involved in DNA repair. This is a high-yield niacin function beyond energy metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child develops convulsions due to reduced inhibitory neurotransmitter formation. Which vitamin deficiency is most likely?",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B3",
+        "Vitamin B2",
+        "Vitamin B1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B6 as PLP is needed for glutamate decarboxylation to GABA. GABA is an inhibitory neurotransmitter. If B6 is deficient, GABA formation decreases, leading to increased neuronal excitability and convulsions, especially in young infants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-121",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has microcytic hypochromic anemia, but the mechanism is impaired ALA formation rather than iron deficiency. Which vitamin is deficient?",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B2",
+        "Vitamin B1",
+        "Vitamin C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PLP is needed for the reaction glycine + succinyl-CoA → δ-aminolevulinic acid, the first step in heme synthesis. If B6 is deficient, heme and hemoglobin formation decrease, causing microcytic hypochromic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-122",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has homocystinuria due to impaired conversion of homocysteine toward cysteine. Which vitamin-dependent pathway is affected?",
+      "options": [
+        "PLP-dependent trans-sulfuration",
+        "TPP-dependent oxidative decarboxylation",
+        "FAD-dependent succinate oxidation",
+        "Vitamin C-dependent collagen hydroxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B6 as PLP is required in trans-sulfuration reactions converting methionine/homocysteine pathway intermediates toward cysteine. Deficiency can impair this pathway and lead to homocystinuria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-123",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired conversion of tryptophan into niacin and impaired heme synthesis. Which vitamin deficiency explains both?",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B3",
+        "Vitamin B2",
+        "Vitamin B1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B6 is required for conversion of tryptophan into niacin and for ALA formation in heme synthesis. Therefore, B6 deficiency can cause both pellagra risk and microcytic hypochromic anemia. This is a major integration point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-124",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "PLP is required for both glutamate → GABA and histidine → histamine. What type of amino acid reaction is this?",
+      "options": [
+        "Decarboxylation",
+        "Transamination only",
+        "Hydroxylation only",
+        "Oxidative decarboxylation of α-ketoacids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both glutamate to GABA and histidine to histamine involve removal of CO₂ from amino acids. PLP supports amino acid decarboxylation reactions. This is why B6 deficiency can affect neurotransmitter and mediator synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-125",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired glycogenolysis because glycogen phosphorylase lacks its required coenzyme. Which vitamin-derived coenzyme is involved?",
+      "options": [
+        "PLP from vitamin B6",
+        "TPP from vitamin B1",
+        "NADP⁺ from vitamin B3",
+        "FMN from vitamin B2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PLP acts as a coenzyme for glycogen phosphorylase, which breaks down glycogen into glucose units. This is the main carbohydrate metabolism role of vitamin B6 in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-126",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has defective termination of steroid hormone action due to prolonged hormone-receptor binding to DNA. Which vitamin deficiency best fits?",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B3",
+        "Vitamin B1",
+        "Vitamin C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that PLP helps remove the hormone-receptor complex from DNA binding, terminating steroid hormone action. Deficiency may disturb this regulation and is linked in the lecture to breast, uterus, and prostate cancers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-127",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has pellagra, convulsions, and microcytic hypochromic anemia. Which single deficiency can connect all three?",
+      "options": [
+        "Vitamin B6 deficiency",
+        "Vitamin B2 deficiency",
+        "Vitamin B1 deficiency",
+        "Vitamin C deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B6 deficiency can cause pellagra by reducing tryptophan-to-niacin conversion, convulsions by reducing GABA formation, and microcytic hypochromic anemia by impairing heme synthesis. This is one of the strongest multi-system patterns in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-128",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which vitamin deficiency best explains impaired energy production, nerve dysfunction, and possible wet or dry beriberi?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiamin deficiency reduces TPP-dependent carbohydrate metabolism, especially pyruvate dehydrogenase and α-ketoglutarate dehydrogenase. This decreases energy production and damages nervous and cardiovascular function, producing dry or wet beriberi.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-129",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pair of vitamins both participate in redox reactions, but through different coenzymes?",
+      "options": [
+        "B2 through FMN/FAD and B3 through NAD⁺/NADP⁺",
+        "B1 through TPP and B6 through PLP only",
+        "Vitamin C through TPP and B1 through NAD⁺",
+        "B6 through FAD and B2 through PLP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Riboflavin forms FMN/FAD, which are redox coenzymes in flavoenzymes. Niacin forms NAD⁺/NADP⁺, which also act as hydrogen carriers. Both are redox-related, but their coenzyme structures and enzyme systems differ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-130",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has combined deficiency due to poor intake of whole grains, liver, and yeast. Why might multiple B-vitamin deficiencies occur together?",
+      "options": [
+        "B-complex vitamins share many dietary sources, so deficiency is often multiple",
+        "All B vitamins are stored as one molecule in adipose tissue",
+        "B vitamins are only synthesized by sunlight",
+        "B vitamins are fat-soluble and require bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture explains that B-complex vitamins are grouped because they are water-soluble, share common sources such as whole grains, liver, and yeast, and their deficiencies are often multiple. Poor intake of these foods may therefore produce overlapping deficiency signs.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
