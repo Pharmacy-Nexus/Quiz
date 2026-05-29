@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-3-protein-synthesis-translation",
   "topicName": "Nucleic Acids 3 — Protein Synthesis / Translation",
-  "updatedAt": "2026-05-29T22:10:30.665Z",
+  "updatedAt": "2026-05-29T22:12:28.272Z",
   "questions": [
     {
       "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-001",
@@ -680,6 +680,1366 @@
       ],
       "correctAnswer": 0,
       "explanation": "EF-2 acts as a translocase. It helps move the newly formed peptidyl-tRNA from the A-site to the P-site using GTP, allowing the next aminoacyl-tRNA to enter the A-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is aminoacyl-tRNA synthetase considered critical for translation fidelity?",
+      "options": [
+        "It ensures the correct amino acid is attached to the correct tRNA",
+        "It reads stop codons directly",
+        "It forms the ribosomal 60S subunit",
+        "It removes introns from mRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminoacyl-tRNA synthetase recognizes both a specific amino acid and its corresponding tRNA. If the wrong amino acid is attached, the ribosome will still read the anticodon and insert whatever amino acid is carried. So the synthetase is a major checkpoint for translation accuracy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The product of aminoacyl-tRNA synthetase reaction is:",
+      "options": [
+        "Aminoacyl-tRNA",
+        "Peptidyl transferase",
+        "Release factor",
+        "Polysome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminoacyl-tRNA synthetase charges tRNA by covalently attaching the correct amino acid to it. The charged product is called aminoacyl-tRNA, which can then enter translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In tRNA charging, the amino acid is described as activated because:",
+      "options": [
+        "It is attached to tRNA and ready for peptide bond formation",
+        "It has become part of DNA",
+        "It has been converted into a stop codon",
+        "It has been removed from the ribosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Charging attaches an amino acid to its tRNA using energy from ATP. This prepares the amino acid for incorporation into a growing polypeptide chain during translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A single tRNA can recognize more than one codon mainly because:",
+      "options": [
+        "The first anticodon base can wobble with the third codon base",
+        "The ribosome ignores the codon completely",
+        "Every codon codes for multiple amino acids",
+        "The amino acid changes after binding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The wobble hypothesis explains flexible pairing between the 5′ base of the anticodon and the 3′ base of the codon. This flexibility allows one tRNA to recognize more than one codon for the same amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Wobble reduces the need for:",
+      "options": [
+        "61 different tRNAs for the 61 amino-acid codons",
+        "Ribosomes during translation",
+        "Aminoacyl-tRNA synthetases completely",
+        "Stop codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are 61 codons that code for amino acids, but the cell does not need 61 different tRNAs. Wobble allows fewer tRNAs to read multiple synonymous codons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Traditional base pairing is most strictly maintained between:",
+      "options": [
+        "The first two bases of the codon and corresponding anticodon bases",
+        "Only the third base of the codon",
+        "The poly-A tail and ribosome",
+        "Stop codons and amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wobble mainly affects pairing between the third base of the codon and the first base of the anticodon. The first two codon positions are more strictly paired, which helps preserve correct amino acid selection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which energy cost is correctly matched with amino acid addition?",
+      "options": [
+        "Two high-energy bonds from ATP during tRNA charging and two from GTP during elongation",
+        "Four ATP molecules only during peptide bond formation",
+        "One GTP only for the whole translation process",
+        "No energy is required after mRNA binding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding one amino acid costs four high-energy bonds: ATP is converted to AMP during tRNA charging, counting as two high-energy bonds, and two GTP molecules are used during elongation, one for A-site entry and one for translocation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step uses GTP during entry of a new aminoacyl-tRNA into the A-site?",
+      "options": [
+        "EF-1-mediated binding",
+        "5′ capping",
+        "Splicing",
+        "tRNA CCA addition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-1 binds GTP and helps deliver the new aminoacyl-tRNA to the A-site. After successful entry, EF-1 is released with GDP and inorganic phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step uses GTP during ribosomal movement along mRNA?",
+      "options": [
+        "EF-2-mediated translocation",
+        "Amino acid activation by ATP",
+        "tRNA charging by synthetase",
+        "Poly-A tail addition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-2 acts as a translocase. It uses GTP to move the ribosome so that the peptidyl-tRNA shifts from the A-site to the P-site, preparing the ribosome for the next aminoacyl-tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes monocistronic from polycistronic mRNA?",
+      "options": [
+        "Monocistronic mRNA has one coding region; polycistronic mRNA has several coding regions",
+        "Monocistronic mRNA is found only in bacteria",
+        "Polycistronic mRNA always codes for only one protein",
+        "Polycistronic mRNA is never translated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA is usually monocistronic and produces one polypeptide. Prokaryotic mRNA is often polycistronic, with multiple coding regions, each producing a different polypeptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can prokaryotic translation start before transcription is completed?",
+      "options": [
+        "There is no nuclear membrane separating transcription from translation",
+        "Prokaryotic mRNA has a 5′ cap",
+        "Prokaryotes have no ribosomes",
+        "Prokaryotic mRNA must be spliced first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In prokaryotes, transcription and translation occur in the same compartment. Ribosomes can bind mRNA while RNA polymerase is still transcribing it, creating coupled transcription and translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which feature is typical of eukaryotic mRNA in the lecture diagram?",
+      "options": [
+        "5′ cap and poly-A tail",
+        "Shine-Dalgarno sequence only",
+        "Multiple coding regions producing several proteins",
+        "No noncoding sequences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA contains a 5′ cap and a 3′ poly-A tail. It is usually monocistronic. Prokaryotic mRNA is typically polycistronic and lacks the same cap-dependent initiation mechanism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which feature is typical of prokaryotic mRNA?",
+      "options": [
+        "Several coding regions with separate initiation and termination codons",
+        "Always one coding region only",
+        "Mandatory 5′ cap scanning",
+        "Extensive post-transcriptional splicing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic mRNA may be polycistronic. Each coding region can have its own start and stop codons, allowing one mRNA to produce several different polypeptides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes translation direction?",
+      "options": [
+        "mRNA is read 5′→3′ and protein is synthesized N-terminal→C-terminal",
+        "mRNA is read 3′→5′ and protein is synthesized C-terminal→N-terminal",
+        "mRNA is read in both directions equally",
+        "Protein is synthesized from the middle outward"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ribosome moves along mRNA from 5′ to 3′. The polypeptide grows from its amino terminus to its carboxyl terminus as new amino acids are added to the C-terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which difference is correct between prokaryotic and eukaryotic initiation?",
+      "options": [
+        "Prokaryotes use Shine-Dalgarno; eukaryotes use cap-dependent scanning",
+        "Eukaryotes use Shine-Dalgarno; prokaryotes use 5′ cap scanning",
+        "Both use identical initiation mechanisms",
+        "Prokaryotes have more than 10 eIFs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic ribosomes are positioned by base pairing between the Shine-Dalgarno sequence and 16S rRNA. Eukaryotic ribosomes bind near the 5′ cap and scan to the first AUG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is the Shine-Dalgarno sequence important?",
+      "options": [
+        "It positions the 30S ribosomal subunit near the initiating AUG",
+        "It removes introns from pre-mRNA",
+        "It forms the poly-A tail",
+        "It terminates translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Shine-Dalgarno sequence base-pairs with a complementary sequence near the 3′ end of 16S rRNA. This aligns the 30S subunit close to the start codon and helps translation begin correctly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The Shine-Dalgarno sequence is described as:",
+      "options": [
+        "Purine-rich",
+        "Pyrimidine-only",
+        "A protein sequence",
+        "A poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Shine-Dalgarno sequence is a purine-rich region located 6–10 bases upstream of the initiating AUG codon in prokaryotic mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule contains the sequence complementary to the Shine-Dalgarno sequence?",
+      "options": [
+        "16S rRNA",
+        "28S rRNA",
+        "tRNA terminal CCA",
+        "eIF2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Shine-Dalgarno sequence on mRNA pairs with a complementary sequence near the 3′ end of 16S rRNA in the prokaryotic 30S ribosomal subunit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which initiator tRNA is absent in eukaryotic initiation?",
+      "options": [
+        "fMet-tRNA",
+        "Met-tRNA",
+        "Charged tRNA",
+        "Aminoacyl-tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotes use Met-tRNA for initiation, not N-formylmethionine-tRNA. fMet-tRNA is a characteristic feature of prokaryotic initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In prokaryotes, N-formylmethionine is produced by adding a formyl group using:",
+      "options": [
+        "Transformylase",
+        "Peptidyl transferase",
+        "EF-2",
+        "Release factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transformylase adds a formyl group to methionine attached to initiator tRNA, producing fMet-tRNA. This modified initiator tRNA is used in prokaryotic translation initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares initiation factors?",
+      "options": [
+        "Prokaryotes use IF-1, IF-2, IF-3; eukaryotes use multiple eIFs",
+        "Prokaryotes use eIFs only",
+        "Eukaryotes use only IF-1",
+        "Initiation factors are not required in translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic initiation involves three initiation factors: IF-1, IF-2, and IF-3. Eukaryotic initiation is more complex and uses more than ten eukaryotic initiation factors, called eIFs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In eukaryotic initiation, the initiator tRNA first loads onto:",
+      "options": [
+        "The 40S small ribosomal subunit",
+        "The 60S large subunit alone",
+        "The A-site after elongation begins",
+        "The E-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic initiation process starts when Met-tRNA and eIFs associate with the 40S subunit to form a pre-initiation complex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The 43S pre-initiation complex contains:",
+      "options": [
+        "40S subunit, Met-tRNA, and eIFs",
+        "60S subunit only",
+        "80S ribosome with release factor",
+        "Polysome complex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture describes the pre-initiation complex as containing the small 40S ribosomal subunit, Met-tRNA, and eukaryotic initiation factors. This complex later binds the 5′ cap of mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which event happens after the 40S-Met-tRNA-eIF complex binds the 5′ cap?",
+      "options": [
+        "It scans along mRNA from 5′ to 3′ searching for the first AUG",
+        "It immediately terminates translation",
+        "It moves backward from 3′ to 5′",
+        "It removes the poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In eukaryotic initiation, the pre-initiation complex attaches to the 5′ cap and scans along the mRNA until it reaches the first AUG start codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During eukaryotic initiation, what happens when the first AUG is found?",
+      "options": [
+        "eIFs dissociate and the 60S subunit joins",
+        "The ribosome releases the completed peptide",
+        "Introns are removed",
+        "The mRNA becomes polycistronic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After the first AUG is recognized, eukaryotic initiation factors dissociate. The large 60S subunit then assembles with the complex at the start codon, forming the complete 80S ribosome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "At the start of eukaryotic elongation, the initiator Met-tRNA is located in:",
+      "options": [
+        "P-site",
+        "A-site",
+        "E-site",
+        "Shine-Dalgarno site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The initiator Met-tRNA is placed in the P-site. This is special because later aminoacyl-tRNAs usually enter the A-site during elongation. The A-site remains free to receive the next charged tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ribosomal site receives the next charged tRNA during elongation?",
+      "options": [
+        "A-site",
+        "P-site",
+        "E-site",
+        "Cap site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The A-site is the aminoacyl site. It receives the incoming charged tRNA that corresponds to the next codon on the mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ribosomal site holds the growing peptide chain?",
+      "options": [
+        "P-site",
+        "A-site",
+        "E-site",
+        "Shine-Dalgarno site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The P-site contains peptidyl-tRNA, which carries the growing polypeptide chain. After peptide bond formation and translocation, the new peptidyl-tRNA is positioned in the P-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ribosomal site is involved in release of uncharged tRNA?",
+      "options": [
+        "E-site",
+        "A-site",
+        "P-site",
+        "5′ cap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After peptide bond formation, the uncharged tRNA moves from the P-site toward the E-site and is released. The E-site is the exit site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which event occurs first in elongation?",
+      "options": [
+        "New aminoacyl-tRNA enters the A-site with EF-1 and GTP",
+        "Release factor binds the stop codon",
+        "Ribosome dissociates into 60S and 40S",
+        "Zymogen is activated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elongation begins with the correct charged aminoacyl-tRNA being delivered to the A-site by EF-1 and GTP. This is followed by peptide bond formation and translocation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Peptidyl transferase forms a peptide bond between:",
+      "options": [
+        "The growing peptide chain and the amino acid on the A-site tRNA",
+        "The 5′ cap and the ribosome",
+        "Introns and exons",
+        "DNA and histone proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peptidyl transferase transfers the growing peptide chain from the P-site tRNA to the amino acid carried by the A-site tRNA. This extends the polypeptide chain by one amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After peptide bond formation, the newly formed peptidyl-tRNA is located initially at the:",
+      "options": [
+        "A-site",
+        "E-site",
+        "5′ cap",
+        "Stop codon only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After peptide bond formation, the growing peptide chain is attached to the tRNA in the A-site. Then translocation moves it into the P-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "EF-2 is also described as:",
+      "options": [
+        "Translocase",
+        "Primase",
+        "Ligase",
+        "Transformylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-2 promotes ribosomal translocation, moving the peptidyl-tRNA from the A-site to the P-site. This allows the next charged tRNA to enter the A-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Translation termination occurs when:",
+      "options": [
+        "UAA, UAG, or UGA appears in the A-site",
+        "AUG appears in the P-site",
+        "A-site receives any aminoacyl-tRNA",
+        "Poly-A tail is shortened"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Termination begins when a stop codon appears in the A-site. The stop codons are UAA, UAG, and UGA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Stop codons are not recognized by:",
+      "options": [
+        "tRNAs",
+        "Release factors",
+        "Ribosomes",
+        "mRNA-reading machinery"
+      ],
+      "correctAnswer": 0,
+      "explanation": "No tRNA recognizes stop codons. Instead, release factors bind when a termination codon appears in the A-site and promote release of the completed peptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During termination, release factor plus GTP causes:",
+      "options": [
+        "Hydrolysis of the bond between the peptide and tRNA at the P-site",
+        "Charging of tRNA",
+        "Addition of the 5′ cap",
+        "Formation of Shine-Dalgarno sequence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Release factor uses GTP to promote hydrolysis of the bond between the completed peptide and the tRNA in the P-site. This releases the finished polypeptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After eukaryotic termination, the 80S ribosome breaks into:",
+      "options": [
+        "60S and 40S subunits",
+        "50S and 30S subunits",
+        "28S and 18S only",
+        "EF-1 and EF-2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic 80S ribosome dissociates into its 60S and 40S subunits after termination, along with release of peptide, tRNA, releasing factor, GDP, and Pi.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A polysome is:",
+      "options": [
+        "Multiple ribosomes translating the same mRNA transcript",
+        "One ribosome with many mRNAs",
+        "A group of DNA polymerases",
+        "A folded tRNA molecule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A polysome, or polyribosome, is formed when several ribosomes translate the same mRNA molecule at the same time. This increases protein production from a single transcript.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Polysomes increase efficiency because:",
+      "options": [
+        "Several ribosomes can produce multiple polypeptides from one mRNA simultaneously",
+        "One ribosome reads several unrelated mRNAs at once",
+        "They stop translation early",
+        "They remove introns from mRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a polysome, ribosomes move sequentially along the same mRNA, each producing a polypeptide chain. This allows faster and more efficient protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Post-translational modification may occur:",
+      "options": [
+        "While the protein is still attached to the ribosome or after synthesis is complete",
+        "Only before transcription starts",
+        "Only before mRNA leaves the nucleus",
+        "Only during DNA replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many polypeptide chains are covalently modified during or after translation. These modifications can affect protein activity, location, stability, or maturation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Post-translational modification may include:",
+      "options": [
+        "Trimming/proteolysis and covalent addition of chemical groups",
+        "DNA replication only",
+        "Removal of promoters from DNA",
+        "Conversion of mRNA into tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture mentions removal of part of the translated sequence and addition of chemical groups required for activity. Examples include trimming, phosphorylation, glycosylation, and hydroxylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Trimming refers to:",
+      "options": [
+        "Removal of part of the translated sequence",
+        "Addition of a poly-A tail",
+        "Attachment of amino acid to tRNA",
+        "Pairing of codon and anticodon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trimming, or proteolysis, removes part of a translated polypeptide. This can activate proteins that are initially made as inactive precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Many secretory proteins are initially synthesized as:",
+      "options": [
+        "Large inactive precursor molecules",
+        "Free amino acids only",
+        "Mature active enzymes only",
+        "DNA fragments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many secretory proteins are first produced as inactive precursors. They are later cleaved in the ER, Golgi, secretory vesicles, or after secretion to become active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Trimming of precursor proteins can occur in:",
+      "options": [
+        "ER, Golgi apparatus, developing secretory vesicles, or after secretion",
+        "Only in the nucleus",
+        "Only on DNA promoters",
+        "Only inside ribosomal A-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists multiple sites for cleavage of precursor proteins: endoplasmic reticulum, Golgi apparatus, developing secretory vesicles, and after secretion. Insulin is given as an example of processing in secretory vesicles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Zymogens are:",
+      "options": [
+        "Inactive precursors of secreted enzymes activated by cleavage",
+        "Mature mRNAs with a 5′ cap",
+        "Charged tRNAs",
+        "Ribosomal subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zymogens are inactive enzyme precursors. They become activated after cleavage once they reach their correct site of action. This prevents premature enzyme activity inside the producing cell.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pepsinogen becomes activated in the:",
+      "options": [
+        "Stomach",
+        "Nucleus",
+        "Ribosomal A-site",
+        "Cytosol before secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsinogen is a zymogen that becomes activated in the stomach. Its inactive precursor form helps prevent digestion of the cell that synthesized it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are digestive enzymes often synthesized as zymogens?",
+      "options": [
+        "To protect the producing cell from being digested by its own products",
+        "To make translation unnecessary",
+        "To prevent amino acid attachment to tRNA",
+        "To stop mRNA scanning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digestive enzymes can damage cellular proteins if active too early. Producing them as inactive zymogens protects the cell until the enzyme reaches its proper site of action.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Protein phosphorylation occurs mainly on the OH groups of:",
+      "options": [
+        "Serine, threonine, and less frequently tyrosine",
+        "Glycine and alanine only",
+        "Methionine and tryptophan only",
+        "Proline and lysine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorylation occurs on hydroxyl-containing amino acids: serine, threonine, and less commonly tyrosine. These residues can accept phosphate groups and alter protein activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phosphorylation is catalyzed by:",
+      "options": [
+        "Protein kinases",
+        "Protein phosphatases",
+        "Release factors",
+        "Transformylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein kinases add phosphate groups to proteins. This modification can either increase or decrease protein function depending on the protein and site phosphorylated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dephosphorylation is catalyzed by:",
+      "options": [
+        "Protein phosphatases",
+        "Protein kinases",
+        "Aminoacyl-tRNA synthetases",
+        "Peptidyl transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein phosphatases remove phosphate groups from proteins. This reversibility makes phosphorylation a major regulatory mechanism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phosphorylation can:",
+      "options": [
+        "Increase or decrease protein activity",
+        "Only activate every protein",
+        "Only inactivate every protein",
+        "Only attach sugars to proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The effect of phosphorylation depends on the protein and site modified. It may activate some proteins while inhibiting others, making it a flexible regulatory mechanism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glycosylation is especially common in proteins destined to become:",
+      "options": [
+        "Plasma membrane proteins or secreted proteins",
+        "DNA polymerases only",
+        "Free cytosolic amino acids",
+        "Stop codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proteins that are secreted or inserted into the plasma membrane often have carbohydrate chains attached. Glycosylation can influence folding, stability, targeting, and function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "O-linked glycosylation attaches sugars to:",
+      "options": [
+        "Serine or threonine OH groups",
+        "Asperagine only",
+        "Stop codons",
+        "tRNA anticodons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "O-linked glycosylation attaches sugars to the oxygen of hydroxyl groups on serine or threonine residues. This differs from N-linked glycosylation, which involves asparagine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "N-linked glycosylation attaches sugars to:",
+      "options": [
+        "Asparagine",
+        "Serine only",
+        "Threonine only",
+        "Methionine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N-linked glycosylation attaches carbohydrate chains to asparagine residues. The \"N\" refers to linkage through nitrogen in the side chain amide group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Stepwise addition of sugars during glycosylation occurs in the:",
+      "options": [
+        "Endoplasmic reticulum and Golgi apparatus",
+        "Ribosomal A-site only",
+        "Nucleus only",
+        "Cytosol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that sugar chains are added stepwise in the ER and Golgi apparatus. These compartments are important for processing proteins destined for secretion or membranes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hydroxylation in collagen mainly affects:",
+      "options": [
+        "Proline and lysine residues",
+        "Methionine and tryptophan residues",
+        "Serine and threonine only",
+        "Stop codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proline and lysine residues in the α-chains of collagen are extensively hydroxylated. This occurs in the endoplasmic reticulum and is important for collagen stability and function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Collagen proline and lysine hydroxylation occurs in the:",
+      "options": [
+        "Endoplasmic reticulum",
+        "Ribosomal P-site",
+        "Nucleus only",
+        "Cytosolic polysome only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that proline and lysine residues of collagen α-chains are extensively hydroxylated in the ER. This is a classic post-translational modification of collagen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which post-translational modification is most directly reversible by phosphatases?",
+      "options": [
+        "Phosphorylation",
+        "Glycosylation",
+        "Zymogen cleavage",
+        "Peptide bond formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein phosphorylation is reversible: kinases add phosphate groups and phosphatases remove them. Proteolytic cleavage is generally not reversible.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which modification is most directly associated with activation of inactive enzyme precursors?",
+      "options": [
+        "Trimming/proteolysis",
+        "Polyadenylation",
+        "mRNA capping",
+        "Wobble pairing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zymogens are inactive precursors activated by cleavage. This type of trimming allows enzymes to become active only after reaching the appropriate site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which modification is most directly associated with secreted and membrane proteins?",
+      "options": [
+        "Glycosylation",
+        "Wobble pairing",
+        "Shine-Dalgarno pairing",
+        "Stop codon recognition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycosylation commonly occurs on proteins destined for secretion or plasma membrane insertion. Sugars are added in the ER and Golgi apparatus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor delivers aminoacyl-tRNA to the A-site?",
+      "options": [
+        "EF-1",
+        "EF-2",
+        "Release factor",
+        "Transformylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-1 binds GTP and aminoacyl-tRNA, helping it enter the A-site. EF-2 acts later during translocation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor mediates translocation?",
+      "options": [
+        "EF-2",
+        "EF-1",
+        "Aminoacyl-tRNA synthetase",
+        "Nucleotidyl transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-2 moves the ribosome along the mRNA after peptide bond formation. This shifts peptidyl-tRNA from A-site to P-site and frees the A-site for another charged tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor is involved when a stop codon appears in the A-site?",
+      "options": [
+        "Release factor",
+        "EF-1",
+        "Aminoacyl-tRNA synthetase",
+        "Transformylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "No tRNA recognizes stop codons. A release factor binds the stop codon in the A-site and promotes hydrolysis of the bond between the peptide and tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which codons trigger termination in this lecture?",
+      "options": [
+        "UAA, UAG, and UGA",
+        "AUG, AUA, and UGG",
+        "AAA, CCC, and GGG",
+        "UUU, UUC, and UUA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Translation termination occurs when UAA, UAG, or UGA appears in the A-site. These are termination codons, and no tRNA recognizes them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During termination, the peptide is released from:",
+      "options": [
+        "The tRNA in the P-site",
+        "The tRNA in the A-site only",
+        "The 5′ cap",
+        "The poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Release factor and GTP cause hydrolysis of the bond between the peptide and the tRNA at the P-site, releasing the completed polypeptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which site is free immediately after eukaryotic initiation is complete?",
+      "options": [
+        "A-site",
+        "P-site",
+        "5′ cap",
+        "Shine-Dalgarno site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The initiator Met-tRNA is positioned in the P-site at the start codon. The A-site remains free to receive the next aminoacyl-tRNA during elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What happens to the uncharged tRNA after peptide bond formation?",
+      "options": [
+        "It moves from P-site to E-site and is released",
+        "It remains permanently in the A-site",
+        "It becomes the 5′ cap",
+        "It forms the polysome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After its peptide is transferred, the old tRNA becomes uncharged. It moves toward the E-site and exits the ribosome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A ribosome has peptidyl-tRNA in the A-site after peptide bond formation. What must happen next?",
+      "options": [
+        "EF-2-mediated translocation moves it to the P-site",
+        "Release factor immediately terminates translation",
+        "The tRNA becomes a Shine-Dalgarno sequence",
+        "The mRNA is capped"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After the peptide bond forms, the newly extended peptidyl-tRNA is in the A-site. EF-2 and GTP promote translocation, moving it to the P-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-109",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about peptidyl transferase is correct?",
+      "options": [
+        "It catalyzes peptide bond formation during elongation",
+        "It charges tRNA before translation",
+        "It scans mRNA from the 5′ cap",
+        "It adds sugars in the Golgi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peptidyl transferase is responsible for forming peptide bonds during elongation. This reaction extends the growing polypeptide chain by transferring it to the amino acid in the A-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The first aminoacyl-tRNA in eukaryotic initiation is special because it:",
+      "options": [
+        "Enters the P-site rather than the A-site",
+        "Enters through the E-site",
+        "Is always uncharged",
+        "Is a release factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normally, new aminoacyl-tRNAs enter the A-site. However, the initiator Met-tRNA is placed directly in the P-site during initiation, leaving the A-site available for elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best links eukaryotic 5′ cap and translation initiation?",
+      "options": [
+        "The initiation complex binds the 5′ cap and scans to the first AUG",
+        "The 5′ cap acts as a stop codon",
+        "The 5′ cap attaches amino acids to tRNA",
+        "The 5′ cap forms the ribosomal P-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic translation initiation begins when the 40S-Met-tRNA-eIF complex binds the 5′ cap. It then scans along mRNA in the 5′ to 3′ direction to locate the first AUG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-112",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best links prokaryotic initiation and 16S rRNA?",
+      "options": [
+        "16S rRNA base-pairs with the Shine-Dalgarno sequence",
+        "16S rRNA forms the eukaryotic 60S subunit",
+        "16S rRNA adds the poly-A tail",
+        "16S rRNA acts as release factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prokaryotic Shine-Dalgarno sequence is complementary to a sequence near the 3′ end of 16S rRNA. This positions the 30S subunit near the start codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why prokaryotes can translate polycistronic mRNA?",
+      "options": [
+        "Each coding region has its own initiation and termination codon",
+        "Prokaryotic mRNA has no codons",
+        "Only one ribosome can bind one mRNA",
+        "Prokaryotes use eukaryotic cap scanning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polycistronic mRNA contains multiple coding regions. Each coding region can have its own start and stop signals, allowing production of different polypeptides from the same mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes polysomes?",
+      "options": [
+        "Several ribosomes translate the same transcript sequentially",
+        "Several mRNAs translate one ribosome",
+        "Several tRNAs form one DNA strand",
+        "Several stop codons form one amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polysomes allow multiple ribosomes to move along the same mRNA. Each ribosome produces a polypeptide, increasing translation efficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which post-translational modification is required for some proteins to become active after secretion?",
+      "options": [
+        "Proteolytic cleavage of zymogens",
+        "mRNA scanning",
+        "tRNA wobble pairing",
+        "Shine-Dalgarno pairing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zymogens are secreted inactive enzyme precursors. They are activated by cleavage after reaching the proper site, such as pepsinogen becoming active in the stomach.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which modification may regulate enzyme activity rapidly and reversibly?",
+      "options": [
+        "Phosphorylation",
+        "Permanent zymogen cleavage",
+        "Translation termination",
+        "Collagen hydroxylation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorylation is reversible because kinases add phosphate groups and phosphatases remove them. It can quickly increase or decrease protein activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly matches glycosylation type and amino acid residue?",
+      "options": [
+        "O-linked: serine/threonine; N-linked: asparagine",
+        "O-linked: asparagine; N-linked: serine/threonine",
+        "O-linked: methionine; N-linked: glycine",
+        "O-linked: stop codon; N-linked: AUG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "O-linked glycosylation attaches sugars to hydroxyl groups on serine or threonine. N-linked glycosylation attaches sugars to asparagine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-118",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which protein modification is most directly linked to collagen maturation?",
+      "options": [
+        "Hydroxylation of proline and lysine",
+        "Addition of poly-A tail",
+        "Charging of tRNA",
+        "Formylation of methionine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen α-chains contain proline and lysine residues that are extensively hydroxylated in the ER. This is essential for proper collagen structure and function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes translation from post-translational modification?",
+      "options": [
+        "Translation builds the polypeptide; post-translational modification changes it after or during synthesis",
+        "Translation removes introns; post-translational modification makes mRNA",
+        "Translation adds sugars in the Golgi only",
+        "Post-translational modification reads codons to make protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Translation uses mRNA and tRNA to build the amino acid chain. Post-translational modification alters the polypeptide through cleavage or chemical modifications that affect function, location, or activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence is correct for eukaryotic translation?",
+      "options": [
+        "40S-Met-tRNA-eIF complex binds 5′ cap → scans to AUG → eIFs dissociate → 60S joins → elongation begins",
+        "60S binds Shine-Dalgarno → fMet-tRNA enters → introns removed → translation ends",
+        "Release factor binds AUG → peptide released → 40S scans backward",
+        "tRNA charging → poly-A addition → DNA replication → protein phosphorylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct eukaryotic initiation flow. The small subunit with Met-tRNA and eIFs binds the 5′ cap, scans for the first AUG, initiation factors leave, the 60S subunit joins, and elongation starts with the A-site ready.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
