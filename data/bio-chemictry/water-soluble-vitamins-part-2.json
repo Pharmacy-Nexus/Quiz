@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "water-soluble-vitamins-part-2",
   "topicName": "Water-Soluble Vitamins — Part 2",
-  "updatedAt": "2026-05-29T18:46:47.651Z",
+  "updatedAt": "2026-05-29T18:48:24.429Z",
   "questions": [
     {
       "id": "bio-chemictry-water-soluble-vitamins-part-2-001",
@@ -1785,6 +1785,601 @@
       ],
       "correctAnswer": 0,
       "explanation": "Folate is directly required for purine and thymine synthesis. B12 deficiency indirectly impairs folate function by preventing regeneration of THF from N5-methyl-THF. In both cases, DNA synthesis in bone marrow is defective, causing megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A strict vegan develops fatigue, macrocytic anemia, numbness, tingling, and weakness of the extremities. Which vitamin deficiency best explains the full picture?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Folate deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strict vegans are at risk of B12 deficiency because vitamin B12 is not present in plant sources. B12 deficiency causes megaloblastic anemia due to impaired DNA synthesis and also causes neurological manifestations due to defective myelin sheath formation. Folate deficiency can cause macrocytic anemia, but it does not explain the classic neurological signs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has megaloblastic anemia, homocystinuria, and methylmalonic aciduria. Which deficiency is most likely?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Folate deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency affects two major reactions: homocysteine to methionine and methylmalonyl-CoA to succinyl-CoA. Therefore, both homocysteine and methylmalonic acid increase. Folate deficiency may increase homocysteine, but it does not cause methylmalonic aciduria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has macrocytic anemia and high homocysteine, but methylmalonic acid is normal. Which deficiency is more likely?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both folate and B12 deficiency can increase homocysteine because both are involved in methionine synthesis. However, methylmalonic acid increases only in B12 deficiency because the methylmalonyl-CoA to succinyl-CoA reaction requires B12, not folate. Normal methylmalonic acid points more toward folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with pernicious anemia is given folic acid alone. His anemia improves, but neurological symptoms worsen. Why?",
+      "options": [
+        "Folate improves DNA synthesis but does not correct B12-dependent myelin problems",
+        "Folate blocks intrinsic factor secretion",
+        "Folate increases methylmalonic acid conversion to succinyl-CoA",
+        "Folate destroys transcobalamin II"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folic acid can improve the blood picture by supporting DNA synthesis, but it does not correct B12-dependent neurological pathways. B12 is needed for methionine synthesis and methylmalonyl-CoA metabolism, both important for nervous system integrity. This is why folate alone can mask pernicious anemia while nerve damage progresses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has antibodies against gastric parietal cells and develops megaloblastic anemia. Which mechanism best explains the anemia?",
+      "options": [
+        "Loss of intrinsic factor causing impaired B12 absorption",
+        "Loss of folate absorption in the jejunum",
+        "Avidin binding biotin in the intestine",
+        "Failure of CoA synthesis from pantothenic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gastric parietal cells secrete intrinsic factor. Antibodies against parietal cells reduce intrinsic factor availability, impairing ileal B12 absorption. This causes B12 deficiency and megaloblastic anemia, known as pernicious anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient underwent terminal ileal resection and later developed macrocytic anemia with neurological symptoms. Which vitamin is most likely deficient?",
+      "options": [
+        "Vitamin B12",
+        "Folate",
+        "Vitamin B5",
+        "Biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 is absorbed in the ileum as an intrinsic factor-B12 complex. Damage or removal of the ileum can impair B12 absorption. Folate is absorbed mainly in the jejunum, so ileal disease points more strongly to B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with small intestinal disease affecting the jejunum develops pancytopenia and macrocytic anemia, but no neurological signs. Which deficiency is most likely?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is absorbed in the jejunum, and deficiency impairs DNA synthesis in rapidly dividing cells. This can cause pancytopenia: megaloblastic anemia, leukopenia, and thrombocytopenia. The absence of neurological manifestations makes folate deficiency more likely than B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman planning pregnancy asks why folic acid must be taken before conception rather than later in pregnancy. What is the best explanation?",
+      "options": [
+        "The neural tube closes by about day 28 after conception",
+        "Folate is only absorbed after delivery",
+        "B12 cannot be absorbed during pregnancy",
+        "Neural tube defects occur only in the third trimester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The neural tube forms and closes very early, around the 28th day after conception. Therefore, folate must be adequate before conception and during the first trimester. Starting supplementation after the neural tube has already closed may be too late to prevent neural tube defects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman of childbearing age wants to reduce the risk of neural tube defects. What folic acid intake is recommended in the lecture?",
+      "options": [
+        "0.4 mg/day",
+        "4 µg/day",
+        "5–10 mg/day",
+        "4 mg/day for all women"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture recommends 0.4 mg/day, equal to 400 µg/day, of folic acid for women of childbearing age to reduce neural tube defect risk. The timing is important: before conception and during the first trimester.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A fetus has incomplete closure of the spinal column, with possible leg paralysis. Which condition is described?",
+      "options": [
+        "Spina bifida",
+        "Anencephaly",
+        "Pernicious anemia",
+        "Homocystinuria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spina bifida is a neural tube defect in which the fetal spinal column does not close completely, leaving a gap in the spine. Nerve damage may occur and can cause paralysis of the legs. Anencephaly involves failure of much of the brain and skull to develop.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newborn is stillborn due to failure of most of the brain and skull to develop. Which neural tube defect is most likely?",
+      "options": [
+        "Anencephaly",
+        "Spina bifida",
+        "Pernicious anemia",
+        "Methylmalonic aciduria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anencephaly is a severe neural tube defect in which most of the brain and skull fail to develop. Babies with anencephaly are usually stillborn or die shortly after birth. This is why early folate sufficiency is critical.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Methotrexate is used as an anticancer drug because it interferes with:",
+      "options": [
+        "Regeneration of tetrahydrofolate needed for DNA synthesis",
+        "B12 binding to intrinsic factor",
+        "Biotin attachment to carboxylases",
+        "Acyl transfer by CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methotrexate inhibits dihydrofolate reductase, reducing regeneration of tetrahydrofolate. THF is required for purine and thymine synthesis, so DNA synthesis falls. Rapidly dividing cancer cells are especially sensitive to this effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A bacterial infection is treated with a folate antagonist that has little effect on humans. Which drug is most consistent with the lecture?",
+      "options": [
+        "Trimethoprim",
+        "Methotrexate",
+        "Cyanocobalamin",
+        "Avidin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture describes trimethoprim as an antibiotic that inhibits folic acid synthesis in bacteria, especially gram-negative bacteria, with little effect on humans. Methotrexate affects both human cells and microorganisms and is used as an anticancer drug.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Sulfonamides inhibit bacterial folate synthesis because they compete with:",
+      "options": [
+        "PABA",
+        "Intrinsic factor",
+        "Cobalt",
+        "Lysine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PABA is part of folic acid structure. Sulfonamides resemble PABA and competitively inhibit bacterial folate synthesis. This prevents bacteria from making folate needed for nucleotide synthesis and cell division.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has low folate due to methotrexate therapy. Which cell population is most rapidly affected?",
+      "options": [
+        "Bone marrow cells",
+        "Mature adipocytes",
+        "Mature RBCs only",
+        "Lens proteins only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is needed for DNA synthesis, especially purines and thymine. Rapidly dividing cells such as bone marrow cells are highly sensitive to folate deficiency or folate antagonists. This can lead to pancytopenia and megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-121",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has pancytopenia due to folate deficiency. Which mechanism best explains all blood cell lines being affected?",
+      "options": [
+        "Defective DNA synthesis in hematopoietic precursors",
+        "Defective CO₂ fixation in fatty acid synthesis",
+        "Defective intrinsic factor secretion",
+        "Defective CoA formation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency impairs synthesis of purines and thymine, so DNA replication is defective. Hematopoietic precursor cells divide rapidly, so red cells, white cells, and platelets can all decrease, producing pancytopenia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-122",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has macrocytic anemia due to defective DNA synthesis, but no methylmalonic aciduria or neurological symptoms. Which deficiency is most likely?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Biotin deficiency",
+        "Vitamin B5 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency causes macrocytic/megaloblastic anemia due to defective DNA synthesis. B12 deficiency can look similar hematologically, but usually may also show methylmalonic aciduria and neurological manifestations. Their absence favors folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-123",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has neurological manifestations and macrocytic anemia. Which lab marker would most strongly support B12 deficiency over folate deficiency?",
+      "options": [
+        "Increased methylmalonic acid",
+        "Increased homocysteine only",
+        "Low platelet count only",
+        "Increased MCV only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonic acid rises specifically when B12-dependent methylmalonyl-CoA conversion to succinyl-CoA is impaired. Homocysteine can rise in both B12 and folate deficiency. Therefore, methylmalonic acid is the more specific differentiating marker.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-124",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has elevated homocysteine. Which pair of deficiencies could both explain this?",
+      "options": [
+        "B12 deficiency and folate deficiency",
+        "Biotin deficiency and B5 deficiency",
+        "Vitamin E deficiency and vitamin A deficiency",
+        "Pantothenic acid deficiency and vitamin C deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conversion of homocysteine to methionine requires both methylcobalamin and N5-methyl-THF. Therefore, either B12 deficiency or folate deficiency can increase homocysteine. Methylmalonic acid helps separate them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-125",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired conversion of methylmalonyl-CoA to succinyl-CoA. Which metabolic sources may contribute to methylmalonyl-CoA accumulation?",
+      "options": [
+        "Valine, isoleucine, and odd-chain fatty acids",
+        "Serine and glycine only",
+        "PABA and folate only",
+        "Retinol and retinal only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonyl-CoA is produced during catabolism of valine and isoleucine and during oxidation of odd-chain fatty acids. B12 is required to convert methylmalonyl-CoA into succinyl-CoA. Deficiency leads to methylmalonic aciduria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-126",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with B12 deficiency develops neurological disease. Which combined mechanism best explains this?",
+      "options": [
+        "Reduced methionine for myelin phospholipids plus disturbed odd-chain fatty acid metabolism",
+        "Reduced biotin attachment to carboxylases only",
+        "Reduced folate absorption in jejunum only",
+        "Reduced CoA-dependent malonyl transfer only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency reduces methionine synthesis, impairing phospholipid synthesis needed for myelin sheath. It also disrupts methylmalonyl-CoA metabolism from odd-chain fatty acids and amino acids. Together these contribute to neurological manifestations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-127",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the \"methyl-folate trap\" concept from this lecture?",
+      "options": [
+        "Without B12, N5-methyl-THF cannot regenerate THF efficiently",
+        "Without folate, B12 cannot bind intrinsic factor",
+        "Without biotin, THF cannot carry CO₂",
+        "Without pantothenic acid, folate cannot enter the liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N5-methyl-THF donates its methyl group to B12 during methionine synthase activity. If B12 is deficient, this methyl group cannot be removed efficiently, so THF regeneration falls. This indirectly impairs folate-dependent DNA synthesis and causes megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-128",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best differentiates B12 absorption from folate absorption?",
+      "options": [
+        "B12 needs intrinsic factor and ileal receptors; folate is absorbed in jejunum as monoglutamate",
+        "B12 is absorbed in jejunum; folate needs intrinsic factor in ileum",
+        "Both require intrinsic factor",
+        "Both are absorbed only in the colon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 absorption requires cobalophilin, intrinsic factor, ileal receptors, pH above 6, and calcium ions. Folate absorption occurs mainly in the jejunum after polyglutamates are converted into monoglutamate. This distinction is very important clinically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-129",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient is most likely to develop B12 deficiency rather than folate deficiency?",
+      "options": [
+        "A patient with intrinsic factor antibodies",
+        "A pregnant woman with low leafy vegetable intake",
+        "A patient taking methotrexate",
+        "A patient with increased folate demand during lactation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intrinsic factor antibodies impair B12 absorption and can cause pernicious anemia. Pregnancy, lactation, low leafy vegetable intake, and methotrexate use are more directly linked to folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-130",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient is most likely to develop folate deficiency rather than B12 deficiency?",
+      "options": [
+        "A pregnant woman with increased demand and poor folate intake",
+        "A strict vegan for several years",
+        "A patient with parietal cell antibodies",
+        "A patient with terminal ileal disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pregnancy increases folate requirement because of rapid cell division and fetal growth. Poor folate intake in this setting strongly predisposes to folate deficiency and neural tube defects. Vegan diet, intrinsic factor problems, and ileal disease point more toward B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-131",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which anemia pattern best fits vitamin B12 or folate deficiency?",
+      "options": [
+        "Macrocytic anemia",
+        "Microcytic anemia only",
+        "Normocytic anemia only",
+        "Hemolytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 and folate deficiencies impair DNA synthesis, causing megaloblastic changes and macrocytic anemia. In the nutritional anemia chart, macrocytic anemia is linked to B12 and folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-132",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which anemia pattern best fits iron, pyridoxine, or ascorbate deficiency?",
+      "options": [
+        "Microcytic anemia",
+        "Macrocytic anemia",
+        "Megaloblastic anemia only",
+        "No anemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nutritional anemia chart links microcytic anemia to iron, pyridoxine, and ascorbate deficiency. Iron is directly needed for hemoglobin, pyridoxine is needed for heme synthesis, and ascorbate supports iron absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-133",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has anemia due to protein-energy malnutrition. Which RBC size category is most consistent with the lecture?",
+      "options": [
+        "Normocytic anemia",
+        "Macrocytic anemia",
+        "Microcytic anemia only",
+        "Megaloblastic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nutritional anemia classification in the lecture places protein-energy malnutrition under normocytic anemia. Macrocytic anemia is linked to B12/folate deficiency, while microcytic anemia is linked to iron, B6, and vitamin C deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-134",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has macrocytic anemia, leukopenia, and thrombocytopenia from folate deficiency. What is this overall condition called?",
+      "options": [
+        "Pancytopenia",
+        "Homocystinuria only",
+        "Methylmalonic aciduria",
+        "Microcytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancytopenia means all blood cell lines are affected: red cells, white cells, and platelets. Folate deficiency impairs DNA synthesis in bone marrow precursors, so it can cause megaloblastic anemia, leukopenia, and thrombocytopenia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-135",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with B12 deficiency has fatty liver risk and neurological issues. Which missing product helps explain both?",
+      "options": [
+        "Methionine",
+        "Biotin",
+        "Malonyl-CoA",
+        "PABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12-dependent methionine synthase produces methionine. Methionine is important for phospholipid synthesis in myelin and prevention of fatty liver. Reduced methionine therefore helps explain neurological disease and fatty liver tendency in B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-136",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best integrates folate with purine and thymine synthesis?",
+      "options": [
+        "THF provides one-carbon units needed for adenine, guanine, and thymine formation",
+        "Folate carries acyl groups for fatty acid synthesis",
+        "Folate carries CO₂ for carboxylation reactions",
+        "Folate transports B12 through plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "THF carries one-carbon groups used to synthesize purines, including adenine and guanine, and to methylate uracil into thymine. This is the core reason folate deficiency affects DNA synthesis and rapidly dividing cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-137",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best integrates B12 with folate and DNA synthesis?",
+      "options": [
+        "B12 regenerates THF from N5-methyl-THF, allowing folate-dependent DNA synthesis",
+        "B12 replaces folate in purine synthesis directly",
+        "B12 destroys thymine to form uracil",
+        "B12 prevents folate absorption in the jejunum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 is needed in methionine synthase to remove the methyl group from N5-methyl-THF. This regenerates THF, which is then available for one-carbon transfer reactions needed for DNA synthesis. Without B12, folate becomes functionally trapped.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-138",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient is most at risk for biotin deficiency?",
+      "options": [
+        "A patient consuming large amounts of uncooked egg whites",
+        "A vegan with no animal product intake",
+        "A patient with intrinsic factor antibodies",
+        "A pregnant woman with low folate intake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncooked egg white contains avidin, which binds biotin tightly and prevents its absorption. Vegan diet and intrinsic factor problems point more toward B12 deficiency, while pregnancy with low folate intake points toward folate deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-139",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child has functional biotin deficiency despite adequate dietary biotin. Which enzyme deficiency best explains this?",
+      "options": [
+        "Holocarboxylase synthetase deficiency",
+        "Methionine synthase deficiency",
+        "Dihydrofolate reductase deficiency",
+        "Intrinsic factor deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Holocarboxylase synthetase attaches biotin to carboxylase enzymes. If this enzyme is deficient, biotin cannot be properly incorporated into carboxylases, producing biotin deficiency manifestations even when intake is adequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-140",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "B5 carries acyl groups, biotin carries CO₂, folate carries one-carbon groups, and B12 transfers methyl groups and rearranges methylmalonyl-CoA",
+        "B5 carries one-carbon groups, biotin carries acyl groups, folate carries CO₂, and B12 forms ACP",
+        "Biotin and folate both mainly bind intrinsic factor for ileal absorption",
+        "B12 and B5 both mainly prevent neural tube defects through thymine synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the main biochemical identities of the lecture. Pantothenic acid is part of CoA/ACP for acyl transfer, biotin carries CO₂ in carboxylation, folate carries one-carbon units, and B12 works in methionine synthase and methylmalonyl-CoA conversion. This is the cleanest high-yield integration.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
