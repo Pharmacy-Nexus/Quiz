@@ -117,11 +117,11 @@
       "section": "Nucleic Acids",
       "sectionId": "nucleic-acids",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
+        "easy": 25,
+        "medium": 15,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 40,
       "file": "data/bio-chemictry/nucleic-acids-part-1.json"
     }
   ],
@@ -145,5 +145,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T21:32:21.881Z"
+  "updatedAt": "2026-05-29T21:34:03.153Z"
 }
