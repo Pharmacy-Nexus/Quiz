@@ -2,6 +2,687 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-3-protein-synthesis-translation",
   "topicName": "Nucleic Acids 3 — Protein Synthesis / Translation",
-  "updatedAt": "2026-05-29T22:07:20.371Z",
-  "questions": []
+  "updatedAt": "2026-05-29T22:10:30.665Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The amino acid attachment site of tRNA is located at the:",
+      "options": [
+        "3′ end",
+        "5′ end",
+        "Anticodon loop",
+        "Ribosomal A-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each tRNA carries its specific amino acid at the 3′ end, specifically at the terminal CCA sequence. This is why the 3′ end of tRNA is called the amino acid attachment site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A tRNA with a covalently attached amino acid is called:",
+      "options": [
+        "Charged tRNA",
+        "Uncharged tRNA",
+        "Polysome",
+        "Release factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a tRNA has an amino acid attached to it, it is called charged tRNA. The attached amino acid is considered activated because it is ready to be used during protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A tRNA not bound to an amino acid is called:",
+      "options": [
+        "Uncharged tRNA",
+        "Charged tRNA",
+        "Aminoacyl-tRNA",
+        "Peptidyl-tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncharged tRNA means the tRNA is not carrying an amino acid. Before it can participate in translation, it must be charged by the correct aminoacyl-tRNA synthetase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In humans, there are at least how many different tRNAs?",
+      "options": [
+        "50",
+        "20 only",
+        "3",
+        "61 exactly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that humans have at least 50 different tRNAs. This number is fewer than the 61 sense codons because wobble pairing allows some tRNAs to recognize more than one codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The anticodon is:",
+      "options": [
+        "A three-nucleotide sequence on tRNA that recognizes a codon on mRNA",
+        "A three-amino-acid sequence on protein",
+        "A promoter sequence on DNA",
+        "A stop codon on rRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anticodon is found on tRNA and pairs with a complementary codon on mRNA. This codon-anticodon recognition ensures that the correct amino acid is added to the growing peptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "tRNAs are called adaptor molecules because they:",
+      "options": [
+        "Carry specific amino acids and recognize codons for those amino acids",
+        "Remove introns from pre-mRNA",
+        "Form ribosomal subunits",
+        "Add caps to mRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNA connects the nucleotide language of mRNA to the amino acid language of proteins. It carries a specific amino acid and uses its anticodon to recognize the codon specifying that amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Aminoacyl-tRNA synthetases catalyze:",
+      "options": [
+        "Covalent attachment of amino acids to their corresponding tRNAs",
+        "Removal of introns from mRNA",
+        "Formation of the 5′ cap",
+        "Hydrolysis of peptide bonds during termination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminoacyl-tRNA synthetases are enzymes that charge tRNAs. They attach each amino acid to its correct tRNA, forming aminoacyl-tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Each aminoacyl-tRNA synthetase recognizes:",
+      "options": [
+        "A specific L-amino acid and its corresponding tRNA",
+        "Any amino acid randomly",
+        "Only stop codons",
+        "Only ribosomal RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The accuracy of aminoacyl-tRNA synthetases is essential. Each synthetase recognizes both the correct amino acid and the correct tRNA, helping maintain high fidelity during translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The high fidelity of translation depends mainly on the specificity of:",
+      "options": [
+        "Aminoacyl-tRNA synthetases",
+        "Histone H1",
+        "RNA polymerase I",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminoacyl-tRNA synthetases are highly specific for both amino acids and tRNAs. If the wrong amino acid is attached to a tRNA, the ribosome cannot directly detect that error, so synthetase specificity is critical.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The wobble hypothesis explains how:",
+      "options": [
+        "One tRNA can recognize more than one codon for the same amino acid",
+        "One codon can code randomly for many amino acids",
+        "DNA replication becomes semiconservative",
+        "Introns are removed from pre-mRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wobble allows flexible pairing between the first base of the anticodon and the third base of the codon. This means fewer tRNAs are needed than the total number of sense codons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In wobble pairing, the flexible base is the:",
+      "options": [
+        "First base at the 5′ end of the anticodon",
+        "Second base of the codon",
+        "First base of the codon",
+        "Last base of the tRNA CCA end"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first base of the anticodon is less spatially restricted. It can form nontraditional base pairs with the third base of the codon, allowing wobble recognition.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first base of the anticodon pairs with which codon position in wobble?",
+      "options": [
+        "Third base of the codon",
+        "First base of the codon",
+        "Second base of the codon",
+        "The stop codon only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wobble occurs between the first base of the anticodon and the third base of the codon. This is why multiple codons differing at the third base may be recognized by the same tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "For adding one amino acid to a growing polypeptide chain, how many high-energy bonds are cleaved?",
+      "options": [
+        "Four",
+        "One",
+        "Two",
+        "Ten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding one amino acid requires cleavage of four high-energy bonds: two from ATP during tRNA charging and two from GTP during aminoacyl-tRNA binding to the A-site and translocation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "During tRNA charging, the energy comes from:",
+      "options": [
+        "ATP",
+        "Only NADH",
+        "Only FADH₂",
+        "Uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminoacyl-tRNA synthetase uses ATP to attach an amino acid to its corresponding tRNA. This activation step prepares the amino acid for peptide bond formation during translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "During elongation, GTP is used for:",
+      "options": [
+        "Aminoacyl-tRNA binding to A-site and ribosomal translocation",
+        "DNA denaturation only",
+        "Introns removal only",
+        "mRNA capping only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two GTP molecules are used during each amino acid addition: one helps bring aminoacyl-tRNA to the A-site, and the other supports translocation of the ribosome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Eukaryotic mRNA is usually:",
+      "options": [
+        "Monocistronic",
+        "Polycistronic",
+        "Always uncapped",
+        "Translated before transcription ends"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA usually has one coding region and produces one type of polypeptide. This is called monocistronic mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Prokaryotic mRNA is often:",
+      "options": [
+        "Polycistronic",
+        "Monocistronic only",
+        "Always capped with 7-methylguanosine",
+        "Always spliced before translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic mRNA often contains several coding regions. Each coding region has its own initiation and termination codon and can produce a different polypeptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In prokaryotes, transcription and translation can be coupled because:",
+      "options": [
+        "Prokaryotes lack a nuclear membrane",
+        "Prokaryotes have a 5′ cap",
+        "Prokaryotes have introns in every gene",
+        "Prokaryotic mRNA is always monocistronic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because prokaryotes have no nuclear membrane, ribosomes can begin translating mRNA while it is still being transcribed. This coupling cannot occur in the same way in eukaryotic cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Protein synthesis translates the nucleotide language of mRNA into:",
+      "options": [
+        "Amino acid sequence of protein",
+        "DNA sequence",
+        "Uric acid sequence",
+        "Histone sequence only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Translation converts the three-letter nucleotide codons of mRNA into the twenty-amino-acid language of proteins. This is the final step in gene expression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "mRNA is translated in which direction?",
+      "options": [
+        "5′ → 3′",
+        "3′ → 5′",
+        "N-terminal → C-terminal",
+        "C-terminal → N-terminal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ribosome reads mRNA from the 5′ end toward the 3′ end. As it reads codons, it synthesizes the protein in the amino-terminal to carboxyl-terminal direction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Proteins are synthesized from:",
+      "options": [
+        "N-terminal to C-terminal",
+        "C-terminal to N-terminal",
+        "3′ to 5′",
+        "Anticodon to codon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During translation, new amino acids are added to the carboxyl end of the growing chain. Therefore, the protein grows from its N-terminal end toward its C-terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Translation is divided into:",
+      "options": [
+        "Initiation, elongation, and termination",
+        "Replication, transcription, and splicing",
+        "Denaturation, renaturation, and proofreading",
+        "Capping, polyadenylation, and intron removal only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein synthesis occurs in three main stages: initiation begins translation, elongation extends the polypeptide chain, and termination releases the completed protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which sequence is present in prokaryotic translation initiation but not eukaryotic initiation?",
+      "options": [
+        "Shine-Dalgarno sequence",
+        "5′ cap scanning",
+        "Poly-A tail shortening",
+        "snRNP consensus recognition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Shine-Dalgarno sequence is a prokaryotic mRNA sequence used to position the ribosome near the start codon. Eukaryotes do not have a Shine-Dalgarno sequence; they use cap-dependent scanning.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Shine-Dalgarno sequence is located:",
+      "options": [
+        "6–10 bases upstream of the initiating AUG codon",
+        "40–200 bases after the stop codon",
+        "At the 3′ CCA end of tRNA",
+        "Inside the ribosomal P-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Shine-Dalgarno sequence is a purine-rich sequence located 6–10 bases upstream of the start AUG in prokaryotic mRNA. It helps position the small ribosomal subunit correctly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Shine-Dalgarno sequence pairs with a sequence near the 3′ end of:",
+      "options": [
+        "16S rRNA",
+        "28S rRNA",
+        "tRNA CCA end",
+        "mRNA poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In prokaryotes, the Shine-Dalgarno sequence base-pairs with a complementary sequence near the 3′ end of 16S rRNA in the 30S small ribosomal subunit. This helps align the ribosome with the start codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The modified initiator tRNA in prokaryotes carries:",
+      "options": [
+        "N-formylmethionine",
+        "Valine",
+        "Tryptophan",
+        "Glycine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In prokaryotes, the initiator tRNA carries N-formylmethionine, forming fMet-tRNA. Eukaryotes use Met-tRNA, not formylated methionine, for initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "fMet-tRNA is formed from methionyl initiator tRNA by:",
+      "options": [
+        "Transformylase",
+        "DNA ligase",
+        "Peptidyl transferase",
+        "Polyadenylate polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transformylase adds a formyl group to methionine on the initiator tRNA, producing N-formylmethionine-tRNA. This is characteristic of prokaryotic translation initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In prokaryotes, the initiation factors are:",
+      "options": [
+        "IF-1, IF-2, and IF-3",
+        "eIF1 to eIF10 only",
+        "EF-1 and EF-2",
+        "Release factors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic translation initiation uses three initiation factors: IF-1, IF-2, and IF-3. Eukaryotes use more than ten initiation factors, called eIFs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Eukaryotic initiation factors are called:",
+      "options": [
+        "eIFs",
+        "IF-1, IF-2, IF-3 only",
+        "EF-1 only",
+        "Release factors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic initiation factors are called eIFs. The “e” indicates eukaryotic origin, and there are more than ten of them involved in initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In eukaryotic initiation, the pre-initiation complex contains:",
+      "options": [
+        "40S subunit, Met-tRNA, and eIFs",
+        "60S subunit only",
+        "fMet-tRNA and Shine-Dalgarno sequence",
+        "50S and 30S subunits only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic pre-initiation complex contains the 40S small ribosomal subunit, Met-tRNA, and eukaryotic initiation factors. This complex later binds the 5′ cap of mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In eukaryotic translation initiation, the 40S-Met-tRNA-eIF complex first binds to the:",
+      "options": [
+        "5′ cap of mRNA",
+        "Stop codon",
+        "3′ poly-A tail only",
+        "E-site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic initiation complex binds to the 5′ end of mRNA through the 5′ cap. It then scans along the mRNA in the 5′ to 3′ direction to find the first AUG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Scanning in eukaryotic translation means:",
+      "options": [
+        "Movement of the initiation complex along mRNA from 5′ to 3′ searching for the first AUG",
+        "Removal of introns from pre-mRNA",
+        "Joining of Okazaki fragments",
+        "Breaking of ribosomes after termination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In eukaryotic initiation, the 40S-Met-tRNA-eIF complex scans the mRNA from the 5′ cap toward the 3′ end until it finds the first AUG start codon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "After the first AUG is found in eukaryotic initiation:",
+      "options": [
+        "eIFs dissociate",
+        "Introns are removed",
+        "mRNA is degraded immediately",
+        "The poly-A tail is added"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the first AUG is found, the initiation factors dissociate. Then the large 60S ribosomal subunit joins to form the complete 80S initiation complex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The large ribosomal subunit in eukaryotic translation initiation is:",
+      "options": [
+        "60S",
+        "40S",
+        "30S",
+        "50S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In eukaryotes, the 60S large ribosomal subunit joins the 40S pre-initiation complex at the start codon to form the complete 80S ribosome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the complete 80S eukaryotic initiation complex, the initiator Met-tRNA is positioned in the:",
+      "options": [
+        "P-site",
+        "A-site",
+        "E-site",
+        "Stop site"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The initiator Met-tRNA enters directly into the P-site at the start codon. This leaves the A-site free to receive the next charged aminoacyl-tRNA during elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "During elongation, the A-site receives:",
+      "options": [
+        "New aminoacyl-tRNA",
+        "Empty tRNA only",
+        "Release factor only",
+        "DNA polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The A-site is the aminoacyl site. During elongation, a new charged aminoacyl-tRNA enters the A-site according to the next codon on mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "During elongation, the P-site contains:",
+      "options": [
+        "Peptidyl-tRNA",
+        "Only release factor",
+        "Empty mRNA",
+        "DNA template"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The P-site holds the peptidyl-tRNA, which carries the growing peptide chain. After peptide bond formation and translocation, the new peptidyl-tRNA moves into the P-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Peptidyl transferase catalyzes:",
+      "options": [
+        "Peptide bond formation",
+        "Addition of the 5′ cap",
+        "tRNA charging",
+        "RNA primer removal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peptidyl transferase forms the peptide bond between the growing peptide chain and the incoming amino acid. This is the central chemical reaction of elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "EF-1 helps during elongation by:",
+      "options": [
+        "Carrying aminoacyl-tRNA to the A-site with GTP",
+        "Moving peptidyl-tRNA from A-site to P-site",
+        "Releasing the completed peptide at stop codon",
+        "Adding the poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-1 forms a complex with aminoacyl-tRNA and GTP and helps deliver the charged tRNA to the A-site. After correct binding, EF-1 is released with GDP and phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-3-protein-synthesis-translation-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "EF-2 functions mainly in:",
+      "options": [
+        "Ribosomal translocation",
+        "tRNA charging",
+        "mRNA capping",
+        "Stop codon recognition only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EF-2 acts as a translocase. It helps move the newly formed peptidyl-tRNA from the A-site to the P-site using GTP, allowing the next aminoacyl-tRNA to enter the A-site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
