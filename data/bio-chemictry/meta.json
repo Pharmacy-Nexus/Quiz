@@ -148,10 +148,10 @@
       "sectionId": "nucleic-acids",
       "difficultyBreakdown": {
         "easy": 40,
-        "medium": 0,
+        "medium": 80,
         "hard": 0
       },
-      "questionsCount": 40,
+      "questionsCount": 120,
       "file": "data/bio-chemictry/nucleic-acids-3-protein-synthesis-translation.json"
     }
   ],
@@ -175,5 +175,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T22:10:34.749Z"
+  "updatedAt": "2026-05-29T22:12:32.945Z"
 }
