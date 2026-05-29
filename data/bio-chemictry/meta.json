@@ -74,9 +74,9 @@
       "difficultyBreakdown": {
         "easy": 35,
         "medium": 65,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 100,
+      "questionsCount": 130,
       "file": "data/bio-chemictry/water-soluble-vitamins.json"
     }
   ],
@@ -94,5 +94,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T18:06:22.702Z"
+  "updatedAt": "2026-05-29T18:09:39.014Z"
 }
