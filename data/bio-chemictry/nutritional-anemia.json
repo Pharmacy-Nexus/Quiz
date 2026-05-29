@@ -2,6 +2,857 @@
   "subjectId": "bio-chemictry",
   "topicId": "nutritional-anemia",
   "topicName": "Nutritional Anemia",
-  "updatedAt": "2026-05-29T19:17:25.568Z",
-  "questions": []
+  "updatedAt": "2026-05-29T19:19:13.161Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-nutritional-anemia-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Anemia is best defined as:",
+      "options": [
+        "Lower hemoglobin concentration than normal",
+        "Increased blood calcium level",
+        "Increased RBC size only",
+        "Increased platelet count"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anemia means blood has a lower hemoglobin concentration than normal, leading to reduced oxygen transport capacity. The key idea is not just RBC number, but the ability of blood to carry oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nutritional anemia is caused by:",
+      "options": [
+        "Inadequate intake of one or more nutrients",
+        "Excess vitamin D intake only",
+        "High bile salt secretion",
+        "Increased sunlight exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nutritional anemia results from deficiency of nutrients needed for RBC or hemoglobin production. These nutrients may affect iron availability, heme synthesis, protein status, or DNA synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nutritional anemia is classified according to:",
+      "options": [
+        "RBC size or MCV",
+        "Serum calcium level",
+        "Blood glucose only",
+        "Vitamin solubility only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture classifies nutritional anemia according to RBC size, also called mean corpuscular volume or MCV. This gives three major patterns: microcytic, normocytic, and macrocytic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Macrocytic anemia is associated with deficiency of:",
+      "options": [
+        "Vitamin B12 or folate",
+        "Iron only",
+        "Vitamin C only",
+        "Protein-energy only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 and folate deficiencies impair DNA synthesis. When DNA synthesis is defective, RBC precursors mature abnormally and produce large RBCs, leading to macrocytic or megaloblastic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Microcytic anemia is associated with deficiency of:",
+      "options": [
+        "Iron, pyridoxine, or ascorbate",
+        "Folate and B12 only",
+        "Protein-energy only",
+        "Biotin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microcytic anemia is linked to problems in hemoglobin formation. Iron deficiency directly reduces hemoglobin synthesis, B6 deficiency impairs heme synthesis, and vitamin C deficiency reduces iron absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can vitamin B6 deficiency cause microcytic hypochromic anemia?",
+      "options": [
+        "It impairs heme synthesis",
+        "It blocks intrinsic factor secretion",
+        "It prevents folate absorption in jejunum",
+        "It increases RBC size through DNA failure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B6 as PLP is required for the first step of heme synthesis: glycine + succinyl-CoA → δ-aminolevulinic acid. If heme synthesis decreases, hemoglobin formation is impaired, producing microcytic hypochromic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can vitamin C deficiency contribute to microcytic anemia?",
+      "options": [
+        "It decreases iron absorption by failing to keep iron in the ferrous state",
+        "It directly blocks intrinsic factor",
+        "It prevents methylmalonyl-CoA conversion",
+        "It causes folate trapping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C improves iron absorption by keeping iron in the ferrous Fe²⁺ state. In vitamin C deficiency, iron absorption falls, and scurvy-related bleeding can further worsen anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anemia type is most associated with protein-energy malnutrition?",
+      "options": [
+        "Normocytic anemia",
+        "Macrocytic anemia",
+        "Microcytic anemia only",
+        "Megaloblastic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture places protein-energy malnutrition under normocytic anemia. In this pattern, RBC size may remain normal, but overall hemoglobin production and blood formation are impaired due to poor nutritional status.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mechanism best explains macrocytic anemia in folate deficiency?",
+      "options": [
+        "Defective DNA synthesis",
+        "Defective heme synthesis only",
+        "Decreased iron absorption only",
+        "Increased RBC membrane oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is required for purine and thymine synthesis. Without enough folate, DNA synthesis is impaired, especially in rapidly dividing bone marrow cells, causing megaloblastic macrocytic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mechanism best explains macrocytic anemia in vitamin B12 deficiency?",
+      "options": [
+        "Impaired folate recycling and defective DNA synthesis",
+        "Decreased collagen formation",
+        "Decreased iron absorption only",
+        "Defective CO₂ fixation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 is needed to regenerate tetrahydrofolate from N5-methyl-THF. Without B12, folate function becomes impaired, DNA synthesis decreases, and megaloblastic macrocytic anemia develops.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anemia pattern is most consistent with defective hemoglobin synthesis?",
+      "options": [
+        "Microcytic anemia",
+        "Macrocytic anemia",
+        "Megaloblastic anemia",
+        "Pure leukopenia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microcytic anemia usually reflects impaired hemoglobin production. Nutritional causes include iron deficiency, B6 deficiency affecting heme synthesis, and vitamin C deficiency reducing iron absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anemia pattern is most consistent with defective DNA synthesis?",
+      "options": [
+        "Macrocytic anemia",
+        "Microcytic anemia",
+        "Normocytic anemia only",
+        "Hemolytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Defective DNA synthesis delays nuclear maturation in RBC precursors, producing large abnormal cells. This is typical of folate and vitamin B12 deficiencies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pairing is correct?",
+      "options": [
+        "Vitamin B12 deficiency — macrocytic anemia",
+        "Iron deficiency — macrocytic anemia",
+        "Folate deficiency — microcytic anemia",
+        "Protein-energy malnutrition — microcytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 deficiency causes macrocytic/megaloblastic anemia due to defective DNA synthesis. Iron deficiency and B6 deficiency are more associated with microcytic anemia, while protein-energy malnutrition is linked to normocytic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pairing is correct?",
+      "options": [
+        "Pyridoxine deficiency — microcytic anemia",
+        "Folate deficiency — normocytic anemia",
+        "Vitamin B12 deficiency — microcytic anemia only",
+        "Ascorbate deficiency — macrocytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyridoxine, vitamin B6, is needed for heme synthesis. Deficiency reduces hemoglobin formation and may cause microcytic hypochromic anemia. Folate and B12 deficiencies are macrocytic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-015",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which nutrient deficiency can cause anemia by both reduced iron absorption and bleeding?",
+      "options": [
+        "Vitamin C deficiency",
+        "Vitamin B12 deficiency",
+        "Biotin deficiency",
+        "Pantothenic acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C deficiency reduces iron absorption and causes defective collagen formation, leading to bleeding in scurvy. Both mechanisms can contribute to anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-016",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has anemia with low MCV. Which nutritional cause best fits if iron intake is adequate but heme synthesis is impaired?",
+      "options": [
+        "Vitamin B6 deficiency",
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Protein-energy malnutrition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low MCV suggests microcytic anemia. If iron intake is adequate but heme synthesis is impaired, vitamin B6 deficiency is likely because PLP is required for δ-ALA formation in the heme synthesis pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-017",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has anemia with high MCV, leukopenia, and thrombocytopenia. Which process is most likely impaired?",
+      "options": [
+        "DNA synthesis in hematopoietic precursors",
+        "Iron absorption only",
+        "Collagen formation only",
+        "CO₂ fixation by carboxylases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High MCV suggests macrocytic anemia. If WBCs and platelets are also low, this indicates pancytopenia due to impaired DNA synthesis in bone marrow precursors, classically from folate or B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-018",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has macrocytic anemia with neurological symptoms and increased methylmalonic acid. Which deficiency is most likely?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Folate deficiency",
+        "Vitamin C deficiency",
+        "Iron deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both B12 and folate can cause macrocytic anemia, but neurological manifestations and increased methylmalonic acid point strongly to B12 deficiency. Folate deficiency does not cause methylmalonic aciduria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has macrocytic anemia during pregnancy and risk of neural tube defects in the fetus. Which deficiency best fits?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B6 deficiency",
+        "Vitamin C deficiency",
+        "Iron excess"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency causes defective DNA synthesis and macrocytic anemia. During pregnancy, folate demand increases, and deficiency increases risk of fetal neural tube defects, especially early in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-020",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Microcytic anemia reflects impaired hemoglobin/heme production, while macrocytic anemia reflects impaired DNA synthesis",
+        "Microcytic anemia is mainly due to B12 and folate deficiency",
+        "Macrocytic anemia is mainly due to iron and vitamin C deficiency",
+        "Normocytic anemia always means vitamin B12 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the cleanest way to understand nutritional anemia. Microcytic anemia usually comes from impaired hemoglobin production, such as iron deficiency, B6 deficiency, or vitamin C deficiency. Macrocytic anemia comes from impaired DNA synthesis, especially folate or B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Iron deficiency anemia is most classically associated with:",
+      "options": [
+        "Microcytic hypochromic anemia",
+        "Macrocytic hyperchromic anemia",
+        "Normocytic anemia with neurological signs",
+        "Megaloblastic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iron is required for hemoglobin synthesis. When iron is deficient, RBCs contain less hemoglobin and become smaller and paler, producing microcytic hypochromic anemia. This fits the lecture classification where iron deficiency belongs under microcytic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which laboratory pattern best supports iron deficiency anemia?",
+      "options": [
+        "Low serum iron, low ferritin, high TIBC",
+        "High serum iron, high ferritin, low TIBC",
+        "Normal iron, high B12, low MCV only",
+        "High methylmalonic acid and high MCV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iron deficiency usually shows depleted iron stores, so ferritin is low. Serum iron is also low, while TIBC rises because the body increases transferrin capacity to capture more iron. This is useful to separate iron deficiency from anemia of chronic disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In anemia of chronic disease, ferritin is often:",
+      "options": [
+        "Normal or increased",
+        "Always absent",
+        "Always lower than iron deficiency anemia",
+        "Converted directly into hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ferritin is an iron storage protein and also behaves as an inflammatory marker. In anemia of chronic disease, iron may be trapped in storage, so ferritin is often normal or high. This contrasts with iron deficiency anemia, where ferritin is usually low.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern is more consistent with anemia of chronic disease than pure iron deficiency anemia?",
+      "options": [
+        "Low serum iron with normal/high ferritin and low/normal TIBC",
+        "Low serum iron with low ferritin and high TIBC",
+        "High serum iron with high TIBC",
+        "High methylmalonic acid with neurological symptoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anemia of chronic disease often shows low serum iron because iron is not freely available, but ferritin is normal or increased due to inflammation and iron storage. TIBC is usually low or normal, unlike iron deficiency where TIBC is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin deficiency can mimic iron deficiency anemia by impairing heme synthesis?",
+      "options": [
+        "Vitamin B6 deficiency",
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Biotin deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B6 as PLP is required for δ-ALA formation in heme synthesis. If B6 is deficient, heme synthesis falls, producing microcytic hypochromic anemia. The trap is assuming all microcytic anemia is due to iron deficiency only.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin C deficiency may worsen iron deficiency anemia because vitamin C:",
+      "options": [
+        "Enhances non-heme iron absorption by keeping iron reduced",
+        "Converts B12 into methylcobalamin",
+        "Activates intrinsic factor",
+        "Produces hemoglobin directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C helps maintain iron in the ferrous Fe²⁺ state, which is better absorbed in the intestine. Therefore, low vitamin C can reduce iron absorption and contribute to microcytic anemia, especially when dietary iron is already limited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has macrocytic anemia and glossitis but no neurological symptoms. Which deficiency is more likely?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Iron deficiency",
+        "Vitamin B6 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both folate and B12 deficiency can cause macrocytic anemia. However, neurological signs are more characteristic of B12 deficiency. If macrocytic anemia occurs without neurological manifestations, folate deficiency becomes more likely, especially with poor diet, pregnancy, alcoholism, or methotrexate use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which finding most strongly favors vitamin B12 deficiency over folate deficiency?",
+      "options": [
+        "Increased methylmalonic acid",
+        "Increased MCV",
+        "Megaloblastic anemia",
+        "Increased homocysteine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonic acid increases when B12-dependent methylmalonyl-CoA conversion to succinyl-CoA is impaired. Folate deficiency does not affect this pathway. Both B12 and folate deficiency can cause high homocysteine and macrocytic anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker can be elevated in both folate and vitamin B12 deficiency?",
+      "options": [
+        "Homocysteine",
+        "Methylmalonic acid",
+        "Ferritin",
+        "TIBC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both folate and B12 are needed for conversion of homocysteine into methionine. Therefore, homocysteine may rise in both deficiencies. Methylmalonic acid is the better differentiator because it rises mainly in B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A macrocytic anemia caused by defective DNA synthesis is called:",
+      "options": [
+        "Megaloblastic anemia",
+        "Hemolytic anemia",
+        "Aplastic anemia only",
+        "Sideroblastic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Megaloblastic anemia occurs when DNA synthesis is impaired, classically due to folate or B12 deficiency. RBC precursors fail to mature normally, producing large abnormal cells. This explains the macrocytic pattern.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which nutritional deficiency is most associated with neural tube defects?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B6 deficiency",
+        "Iron deficiency",
+        "Vitamin C deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate is essential for DNA synthesis and rapid cell division during early embryonic development. Deficiency around conception increases the risk of neural tube defects such as spina bifida and anencephaly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A pregnant woman has macrocytic anemia. Which nutrient should be strongly considered because of fetal risk?",
+      "options": [
+        "Folate",
+        "Biotin",
+        "Pantothenic acid",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pregnancy increases folate requirement because of rapid fetal and maternal cell division. Folate deficiency can cause maternal macrocytic anemia and fetal neural tube defects, especially if deficiency occurs early in pregnancy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient with terminal ileal disease develops anemia and neuropathy. Which deficiency best explains this?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Folate deficiency",
+        "Vitamin C deficiency",
+        "Iron excess"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 is absorbed in the ileum after binding intrinsic factor. Ileal disease can impair B12 absorption, causing megaloblastic anemia and neurological manifestations. Folate is absorbed mainly in the jejunum.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which anemia is most likely after chronic blood loss?",
+      "options": [
+        "Iron deficiency microcytic anemia",
+        "Folate deficiency macrocytic anemia only",
+        "B12 deficiency with methylmalonic aciduria only",
+        "Normocytic anemia from biotin deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chronic blood loss gradually depletes iron stores because iron is lost with hemoglobin in RBCs. Over time, this produces iron deficiency anemia, usually microcytic and hypochromic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Reticulocyte count is useful because it helps assess:",
+      "options": [
+        "Bone marrow response to anemia",
+        "Serum calcium level",
+        "Vitamin solubility",
+        "Bile salt secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reticulocytes are young RBCs released from bone marrow. A high reticulocyte count suggests the marrow is responding, often seen after blood loss or hemolysis. A low reticulocyte count suggests poor production, as in nutritional deficiency or marrow suppression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In nutritional anemia due to impaired RBC production, reticulocyte count is usually:",
+      "options": [
+        "Low or inappropriately normal",
+        "Always extremely high",
+        "Unrelated to marrow activity",
+        "Diagnostic only for calcium deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If anemia is due to lack of nutrients needed for RBC production, the marrow cannot respond properly. Reticulocyte count may be low or not high enough for the severity of anemia. This suggests a production problem rather than active blood loss or hemolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best suggests hemolysis rather than simple nutritional production failure?",
+      "options": [
+        "High reticulocytes, increased bilirubin, and increased LDH",
+        "Low reticulocytes, low ferritin, and high TIBC",
+        "High MCV with low B12 only",
+        "Low vitamin C with poor wound healing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolysis destroys RBCs, so the marrow responds by increasing reticulocytes if it can. RBC breakdown also raises bilirubin and LDH. Nutritional anemia is more often a production problem with lower reticulocyte response.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition can cause microcytic anemia despite normal iron intake?",
+      "options": [
+        "Vitamin B6 deficiency",
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Intrinsic factor deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B6 deficiency reduces heme synthesis because PLP is needed for ALA formation. Even if iron is available, hemoglobin synthesis can still fail if heme production is impaired. This gives a microcytic hypochromic pattern.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best links vitamin C deficiency with anemia?",
+      "options": [
+        "It reduces iron absorption and causes bleeding due to weak collagen",
+        "It directly prevents B12 absorption in the ileum",
+        "It blocks methylmalonyl-CoA mutase",
+        "It inhibits folate absorption in the jejunum only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C supports iron absorption and collagen formation. Deficiency can cause anemia by lowering iron absorption and by causing bleeding from fragile connective tissues, especially in scurvy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which patient is most likely to have folate deficiency rather than B12 deficiency?",
+      "options": [
+        "Pregnant patient with poor leafy vegetable intake",
+        "Strict vegan with neuropathy",
+        "Patient with antibodies against intrinsic factor",
+        "Patient after terminal ileal resection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate demand increases during pregnancy, and leafy vegetables are a major folate source. Vegan diet, intrinsic factor problems, and ileal disease point more strongly to B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has low hemoglobin, low MCV, low ferritin, and high TIBC. Which diagnosis is most likely?",
+      "options": [
+        "Iron deficiency anemia",
+        "Folate deficiency anemia",
+        "Vitamin B12 deficiency anemia",
+        "Protein-energy normocytic anemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low MCV indicates microcytic anemia. Low ferritin shows depleted iron stores, and high TIBC reflects increased transferrin capacity to capture iron. This pattern is classic for iron deficiency anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has low serum iron, high ferritin, and low TIBC in the setting of chronic inflammation. Which diagnosis is most likely?",
+      "options": [
+        "Anemia of chronic disease",
+        "Pure iron deficiency anemia",
+        "Folate deficiency",
+        "Vitamin B12 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chronic inflammation can trap iron in storage and reduce iron availability. Ferritin may be high because it reflects stored iron and inflammation, while TIBC is often low or normal. This pattern contrasts with iron deficiency, where ferritin is low and TIBC is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high MCV, hypersegmented neutrophils, low B12, and increased methylmalonic acid. Which mechanism explains the anemia?",
+      "options": [
+        "Defective DNA synthesis due to impaired folate recycling",
+        "Defective heme synthesis due to PLP deficiency",
+        "Reduced iron absorption due to low vitamin C",
+        "Protein-energy malnutrition causing normal-sized RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency traps folate as N5-methyl-THF and reduces regeneration of active THF. This impairs DNA synthesis in bone marrow, causing megaloblastic anemia with high MCV. Increased methylmalonic acid confirms B12 involvement.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high MCV, low folate, high homocysteine, and normal methylmalonic acid. Which diagnosis is most likely?",
+      "options": [
+        "Folate deficiency",
+        "Vitamin B12 deficiency",
+        "Iron deficiency",
+        "Vitamin B6 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate deficiency causes macrocytic/megaloblastic anemia and increases homocysteine. Normal methylmalonic acid argues against B12 deficiency because methylmalonic acid rises when B12-dependent methylmalonyl-CoA metabolism is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with macrocytic anemia is treated with folic acid and improves hematologically, but neuropathy progresses. What was likely missed?",
+      "options": [
+        "Vitamin B12 deficiency",
+        "Iron deficiency",
+        "Vitamin C deficiency",
+        "Protein-energy malnutrition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate can improve the anemia of B12 deficiency by supporting DNA synthesis, but it does not correct B12-dependent neurological damage. This is a dangerous trap because treating folate alone may mask hematologic signs while neuropathy worsens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has low MCV and normal ferritin, but history suggests isoniazid use and low B6 status. Which mechanism best explains the anemia?",
+      "options": [
+        "Impaired ALA formation causing defective heme synthesis",
+        "Impaired purine and thymine synthesis",
+        "Impaired intrinsic factor secretion",
+        "Impaired folate absorption in jejunum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B6 is required for the first step of heme synthesis: glycine + succinyl-CoA to δ-ALA. Isoniazid can reduce B6 availability. This can produce microcytic anemia even if iron stores are not depleted.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has scurvy, fatigue, anemia, and bleeding into gums and joints. Which two mechanisms best explain the anemia?",
+      "options": [
+        "Reduced iron absorption and bleeding from defective collagen",
+        "Increased methylmalonic acid and impaired myelin synthesis",
+        "Reduced intrinsic factor and impaired ileal absorption",
+        "Reduced purine synthesis and neural tube defects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin C deficiency decreases iron absorption by failing to maintain iron in the ferrous state. It also weakens collagen, causing bleeding into tissues. Both mechanisms can contribute to anemia in scurvy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has anemia, normal MCV, and severe protein-energy malnutrition. Which classification best fits?",
+      "options": [
+        "Normocytic nutritional anemia",
+        "Macrocytic megaloblastic anemia",
+        "Microcytic hypochromic anemia only",
+        "Hemolytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture classifies protein-energy malnutrition under normocytic anemia. RBCs may remain normal in size, but overall hemoglobin production and marrow function can be impaired due to poor nutritional status.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate for exam differentiation?",
+      "options": [
+        "Low MCV suggests iron/B6/vitamin C problems; high MCV suggests folate/B12 problems",
+        "Low MCV suggests B12 deficiency; high MCV suggests iron deficiency",
+        "Normal MCV excludes nutritional anemia",
+        "Folate deficiency uniquely causes methylmalonic aciduria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the clean exam logic. Microcytic anemia points toward impaired hemoglobin/heme production or iron handling: iron, B6, or vitamin C. Macrocytic anemia points toward defective DNA synthesis: folate or B12.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nutritional-anemia-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has anemia with high MCV and neurological symptoms. Which next test best helps distinguish B12 deficiency from folate deficiency?",
+      "options": [
+        "Methylmalonic acid",
+        "Serum calcium",
+        "Vitamin C urinary oxalate",
+        "Bile salt level"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both B12 and folate deficiency can produce macrocytic anemia, and both can increase homocysteine. Methylmalonic acid rises in B12 deficiency but not folate deficiency, making it the better differentiating test in this scenario.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
