@@ -59,9 +59,9 @@
       "difficultyBreakdown": {
         "easy": 76,
         "medium": 144,
-        "hard": 4
+        "hard": 34
       },
-      "questionsCount": 224,
+      "questionsCount": 254,
       "file": "data/bio-chemictry/fat-soluble-vitamins.json"
     }
   ],
@@ -79,5 +79,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T17:53:38.700Z"
+  "updatedAt": "2026-05-29T17:55:48.486Z"
 }
