@@ -108,21 +108,6 @@
       },
       "questionsCount": 50,
       "file": "data/bio-chemictry/nutritional-anemia.json"
-    },
-    {
-      "id": "nucleic-acids-part-1",
-      "name": "Nucleic Acids -- Part 1",
-      "description": "",
-      "order": 9,
-      "section": "Nucleic Acids",
-      "sectionId": "nucleic-acids",
-      "difficultyBreakdown": {
-        "easy": 25,
-        "medium": 175,
-        "hard": 0
-      },
-      "questionsCount": 200,
-      "file": "data/bio-chemictry/nucleic-acids-part-1.json"
     }
   ],
   "sections": [
