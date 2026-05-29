@@ -18,21 +18,6 @@
       },
       "questionsCount": 180,
       "file": "data/bio-chemictry/protein-and-amino-acids.json"
-    },
-    {
-      "id": "hemoglobin-oxygen-transport",
-      "name": "Hemoglobin & Oxygen Transport",
-      "description": "",
-      "order": 2,
-      "section": "",
-      "sectionId": "",
-      "difficultyBreakdown": {
-        "easy": 36,
-        "medium": 60,
-        "hard": 24
-      },
-      "questionsCount": 120,
-      "file": "data/bio-chemictry/hemoglobin-oxygen-transport.json"
     }
   ],
   "sections": [
