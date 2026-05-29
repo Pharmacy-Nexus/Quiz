@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-part-1",
   "topicName": "Nucleic Acids-Part 1",
-  "updatedAt": "2026-05-29T21:53:53.754Z",
+  "updatedAt": "2026-05-29T21:54:27.457Z",
   "questions": [
     {
       "id": "bio-chemictry-nucleic-acids-part-1-001",
@@ -2040,6 +2040,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "DNA polymerase cannot start DNA synthesis from scratch. It requires a primer with a free 3′-OH end so it can add nucleotides. Primase makes short RNA primers that provide this starting point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-121",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A DNA sample contains 28% adenine. What percentage of guanine is expected?",
+      "options": [
+        "22%",
+        "28%",
+        "44%",
+        "72%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to Chargaff’s rule, A = T and G = C. If adenine is 28%, thymine is also 28%, so A + T = 56%. The remaining 44% is G + C, and because G = C, guanine is 22%. This question tests whether you apply Chargaff’s rule mathematically, not just memorize it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-122",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Two DNA samples have the same length. Sample A has 70% A-T content, while Sample B has 70% G-C content. Which sample has the higher melting temperature?",
+      "options": [
+        "Sample A",
+        "Sample B",
+        "Both have identical Tm",
+        "Tm depends only on DNA length, not base composition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "G-C pairs have three hydrogen bonds, while A-T pairs have two. Higher G-C content increases DNA stability and raises the melting temperature. The trap is thinking all base pairs contribute equally to DNA melting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-123",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A DNA molecule is heated until the two strands separate, but the sugar-phosphate backbone remains intact. Which statement best describes what happened?",
+      "options": [
+        "Denaturation occurred by breaking hydrogen bonds, not phosphodiester bonds",
+        "Complete hydrolysis occurred by breaking phosphodiester bonds",
+        "Translation occurred by breaking peptide bonds",
+        "DNA was converted into RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA denaturation means loss of helical structure and separation of strands due to disruption of hydrogen bonds and base stacking interactions. The phosphodiester bonds of each strand remain intact. This is a classic exam trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-124",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A denatured DNA sample is slowly cooled to about 20–25°C below its Tm. What is expected?",
+      "options": [
+        "Complementary strands may reanneal and reform the double helix",
+        "Phosphodiester bonds will be permanently destroyed",
+        "DNA will become protein",
+        "Histones will be removed from nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Slow cooling allows complementary DNA strands to find each other and re-form hydrogen bonds. This process is called renaturation or reannealing. It depends on complementarity between the two strands.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-125",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newly synthesized DNA strand grows by adding nucleotides to the 3′-OH end. Which direction is the strand synthesized?",
+      "options": [
+        "5′ → 3′",
+        "3′ → 5′",
+        "Both directions equally",
+        "Direction is unrelated to 3′-OH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase adds incoming nucleotides to the free 3′-OH end of the growing strand. Because addition occurs at the 3′ end, the new strand elongates in the 5′ to 3′ direction. This rule explains much of replication mechanics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-126",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "DNA polymerase is placed on a completely single-stranded DNA template with free dNTPs but no primer. What is the most likely result?",
+      "options": [
+        "DNA synthesis will not initiate",
+        "DNA synthesis will start normally",
+        "DNA polymerase will synthesize 3′ → 5′",
+        "DNA ligase will replace the need for a primer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase cannot initiate synthesis on a completely single-stranded template. It requires a primer with a free 3′-OH group. Primase solves this problem by synthesizing a short RNA primer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-127",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "During replication, primase activity is blocked. Which process is most directly impaired?",
+      "options": [
+        "Initiation of DNA synthesis because RNA primers cannot be made",
+        "Final sealing of nicks between fragments",
+        "Unwinding of the DNA double helix",
+        "Uric acid formation from purines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primase synthesizes short RNA primers complementary to the DNA template. Without primers, DNA polymerase cannot begin synthesis because it needs a free 3′-OH. Helicase unwinding and ligase sealing are separate steps.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-128",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mutation disables DNA ligase during replication. Which defect is most likely?",
+      "options": [
+        "Okazaki fragments remain unsealed",
+        "RNA primers cannot be synthesized",
+        "DNA strands cannot be unwound",
+        "DNA polymerase III cannot proofread mismatches"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA ligase seals the remaining nicks between DNA fragments after RNA primers are removed and gaps are filled. If ligase is defective, lagging strand fragments cannot be joined into a continuous strand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-129",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "DNA polymerase I is inhibited in a prokaryotic cell. Which step is most directly affected?",
+      "options": [
+        "Removal of RNA primers and filling of DNA gaps",
+        "Helicase-dependent unwinding",
+        "Formation of the replication fork",
+        "Binding of tRNA anticodon to mRNA codon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In prokaryotic replication, DNA polymerase I removes RNA primers and fills the resulting gaps with DNA. DNA polymerase III mainly elongates the new DNA, while ligase seals the final nick.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-130",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "DNA polymerase III loses its 3′→5′ exonuclease activity but retains 5′→3′ polymerase activity. What is the most likely consequence?",
+      "options": [
+        "Increased replication errors due to defective proofreading",
+        "Complete inability to add nucleotides",
+        "Failure of histone binding",
+        "Increased pyrimidine degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 3′→5′ exonuclease activity of DNA polymerase III is its proofreading function. If this is lost, the enzyme can still synthesize DNA, but mismatched nucleotides are less efficiently removed, increasing mutation risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-131",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A researcher observes that one daughter DNA molecule contains one old strand and one newly synthesized strand. Which replication model is supported?",
+      "options": [
+        "Semiconservative replication",
+        "Conservative replication",
+        "Dispersive replication",
+        "Random replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Semiconservative replication means each daughter DNA molecule keeps one parental strand and gains one newly synthesized complementary strand. This model explains how genetic information is preserved during cell division.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-132",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A replication fork shows one strand synthesized continuously and the other as short fragments. What causes this difference?",
+      "options": [
+        "DNA polymerase synthesizes only 5′ → 3′ while DNA strands are antiparallel",
+        "Leading strand lacks bases",
+        "Lagging strand is RNA, not DNA",
+        "Helicase works only on one strand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because DNA strands are antiparallel and DNA polymerase can only synthesize 5′→3′, one strand can be made continuously toward the replication fork. The other must be made discontinuously as Okazaki fragments.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-133",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which sequence best represents correct lagging-strand processing?",
+      "options": [
+        "Primase makes RNA primer → DNA polymerase III elongates → DNA polymerase I removes primer and fills gap → ligase seals nick",
+        "DNA ligase makes primer → helicase fills gap → polymerase I seals nick",
+        "Histone H1 unwinds DNA → rRNA forms Okazaki fragments",
+        "Xanthine oxidase removes RNA primer → allopurinol seals nick"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lagging strand synthesis requires repeated primer formation, extension into Okazaki fragments, primer removal, gap filling, and ligation. This order is a high-yield replication sequence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-134",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug prevents helicase from hydrolyzing ATP. Which early replication event is most directly blocked?",
+      "options": [
+        "Unwinding of parental DNA strands",
+        "Sealing of Okazaki fragments",
+        "Removal of RNA primers",
+        "Formation of mRNA poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Helicase uses ATP hydrolysis to unwind the DNA double helix at the origin. If ATP use by helicase is blocked, the replication fork cannot form properly because the parental strands remain paired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-135",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "SSB proteins are absent during replication. What is the most likely problem?",
+      "options": [
+        "Separated DNA strands may reanneal",
+        "RNA primers will be converted into uric acid",
+        "Histones cannot form nucleosome cores",
+        "mRNA cannot receive a 5′ cap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Single-strand binding proteins stabilize unwound DNA and prevent the strands from reannealing. Without SSB proteins, the separated templates may re-form double-stranded DNA, interfering with replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-136",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A eukaryotic chromosome is very large. Why are multiple origins of replication useful?",
+      "options": [
+        "They allow faster replication of a large genome",
+        "They prevent the need for DNA polymerases",
+        "They eliminate base pairing",
+        "They replace the need for histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic DNA is very long, so multiple origins allow replication to start at many sites simultaneously. This makes genome replication efficient enough for cell division. Prokaryotic DNA usually has a single origin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-137",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which eukaryotic DNA polymerase is most associated with mitochondrial DNA replication?",
+      "options": [
+        "Polymerase γ",
+        "Polymerase α",
+        "Polymerase β",
+        "Polymerase ε"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture table lists polymerase γ as responsible for mitochondrial DNA replication. Polymerase α contains primase and initiates DNA synthesis; β is mainly repair; δ and ε are involved in nuclear replication elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-138",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which eukaryotic DNA polymerase contains primase and initiates DNA synthesis?",
+      "options": [
+        "Polymerase α",
+        "Polymerase β",
+        "Polymerase γ",
+        "Polymerase ε"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymerase α contains primase and helps initiate DNA synthesis in eukaryotes. It provides the primer needed before other polymerases continue elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-139",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A protein is rich in lysine and arginine and binds the negatively charged DNA backbone. Which protein type is most likely?",
+      "options": [
+        "Histone",
+        "DNA polymerase",
+        "Xanthine oxidase",
+        "tRNA synthetase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are small basic proteins rich in lysine and arginine. Their positive charge allows them to form ionic interactions with the negatively charged phosphate groups of DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-140",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A nucleosome contains an octameric core but lacks H1 in the core itself. Which histones make up the core?",
+      "options": [
+        "Two each of H2A, H2B, H3, and H4",
+        "Eight molecules of H1",
+        "One each of H1, H2A, H2B, and H3 only",
+        "DNA polymerases α, β, γ, and δ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleosome core consists of two copies each of H2A, H2B, H3, and H4. Histone H1 is not part of the core; it binds linker DNA and helps compact nucleosomes further.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-141",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A DNA segment of about 146 bp is wrapped twice around a histone core. What structure is formed?",
+      "options": [
+        "Nucleosome",
+        "Okazaki fragment",
+        "RNA primer",
+        "Anticodon loop"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A nucleosome is formed when about 146 base pairs of DNA wrap around the histone octamer. Nucleosomes are the “beads” of chromatin organization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-142",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Histone H1 is removed from chromatin. Which function is most directly affected?",
+      "options": [
+        "Packing nucleosomes into more compact structures",
+        "Carrying amino acids to ribosomes",
+        "Removing RNA primers",
+        "Forming uric acid from xanthine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histone H1 binds linker DNA between nucleosome beads and helps compact nucleosomes into higher-order structures. It is not part of the nucleosome core.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-143",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A molecule is single-stranded, contains ribose, uses uracil, and breaks down at high pH. What is it most likely?",
+      "options": [
+        "RNA",
+        "DNA",
+        "Histone",
+        "Uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA contains ribose, uses uracil instead of thymine, is generally single-stranded, and is less stable in alkaline conditions. DNA contains deoxyribose, thymine, and is more resistant to high pH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-144",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cytosolic molecule makes up about 80% of total RNA and associates with proteins to form ribosomes. Which RNA is it?",
+      "options": [
+        "rRNA",
+        "tRNA",
+        "mRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "rRNA is the major RNA type, making up about 80% of cellular RNA. It associates with proteins to form ribosomes, the site of protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-145",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A small RNA molecule contains unusual bases, has an anticodon loop, and ends in 3′-CCA. Which RNA is it?",
+      "options": [
+        "tRNA",
+        "mRNA",
+        "rRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNA contains unusual bases such as dihydrouridine, has extensive intrachain base pairing, contains an anticodon loop, and ends with the 3′-CCA sequence where amino acids attach. These features identify tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-146",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tRNA anticodon pairs with a codon during protein synthesis. Where is the codon located?",
+      "options": [
+        "mRNA",
+        "rRNA",
+        "Histone H1",
+        "DNA ligase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The tRNA anticodon pairs with a complementary triplet codon on mRNA. This codon-anticodon interaction ensures that the correct amino acid is added to the growing peptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-147",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An amino acid is attached to the terminal adenine of a 3′-CCA sequence. Which molecule is being charged?",
+      "options": [
+        "tRNA",
+        "mRNA",
+        "rRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids attach to the 2′ or 3′-OH of the terminal adenine in the 3′-CCA end of tRNA. This charged tRNA then delivers its amino acid during translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-148",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mature eukaryotic mRNA has a long adenine sequence at one end and a 7-methylguanosine structure at the other. Which features are these?",
+      "options": [
+        "3′ poly-A tail and 5′ cap",
+        "5′ poly-A tail and 3′ cap",
+        "tRNA anticodon and CCA end",
+        "Histone core and linker DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA has a poly-A tail at the 3′ end and a 5′ cap containing 7-methylguanosine attached backward through a triphosphate linkage. These are major structural features of eukaryotic mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-149",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates rRNA, tRNA, and mRNA?",
+      "options": [
+        "rRNA forms ribosomes, tRNA carries amino acids, and mRNA carries genetic information for protein synthesis",
+        "rRNA carries amino acids, tRNA forms ribosomes, and mRNA degrades purines",
+        "rRNA forms uric acid, tRNA forms histones, and mRNA stores all DNA in chromosomes",
+        "All three have the same function and differ only in size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three major RNAs have distinct roles in protein synthesis. rRNA forms ribosomes with proteins, tRNA delivers amino acids by reading codons with anticodons, and mRNA carries genetic information from DNA to the cytosol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-150",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "DNA stores genetic information, replication copies it, mRNA carries it, tRNA decodes it, and rRNA forms the ribosomal site for protein synthesis",
+        "DNA mainly carries amino acids, tRNA stores uric acid, and rRNA forms histones",
+        "mRNA packages DNA into nucleosomes, while histones synthesize Okazaki fragments",
+        "Purine degradation directly produces ribosomes and tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This connects the major ideas of the file. DNA stores genetic information and is copied by replication. mRNA transfers that information for protein synthesis, tRNA matches codons to amino acids, and rRNA forms ribosomes where translation occurs.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
