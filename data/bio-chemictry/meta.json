@@ -33,6 +33,21 @@
       },
       "questionsCount": 92,
       "file": "data/bio-chemictry/hemoglobin-oxygen-transport.json"
+    },
+    {
+      "id": "heme-metabolism-jaundice",
+      "name": "Heme Metabolism & Jaundice",
+      "description": "",
+      "order": 3,
+      "section": "",
+      "sectionId": "",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/heme-metabolism-jaundice.json"
     }
   ],
   "sections": [
