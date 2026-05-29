@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-part-1",
   "topicName": "Nucleic Acids-Part 1",
-  "updatedAt": "2026-05-29T21:50:01.313Z",
+  "updatedAt": "2026-05-29T21:53:53.754Z",
   "questions": [
     {
       "id": "bio-chemictry-nucleic-acids-part-1-001",
@@ -1360,6 +1360,686 @@
       ],
       "correctAnswer": 0,
       "explanation": "DNA polymerase requires a primer because it needs a free 3′-OH group to add incoming nucleotides. New DNA is synthesized in the 5′→3′ direction, which also explains leading and lagging strand differences.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-081",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nucleic acids are mainly required for:",
+      "options": [
+        "Storage and expression of genetic information",
+        "Direct formation of cell membranes only",
+        "Digestion of dietary proteins",
+        "Transport of oxygen in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nucleic acids store and express genetic information. DNA mainly stores hereditary information, while RNA helps express that information, especially during protein synthesis. The key idea is that nucleic acids are not mainly structural lipids or oxygen carriers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-082",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nucleic acids are polymers of:",
+      "options": [
+        "Nucleoside monophosphates",
+        "Amino acids",
+        "Fatty acids",
+        "Monosaccharides only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nucleic acids are polymers made of nucleotides, also called nucleoside monophosphates. Each nucleotide contains a nitrogenous base, a sugar, and a phosphate group. Amino acids form proteins, not nucleic acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-083",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The two major chemically distinct nucleic acids are:",
+      "options": [
+        "DNA and RNA",
+        "ATP and GTP only",
+        "Purines and pyrimidines only",
+        "Histones and nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two main types of nucleic acids are deoxyribonucleic acid, DNA, and ribonucleic acid, RNA. They differ in sugar type, bases, strand structure, and stability under alkaline conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-084",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A nucleoside consists of:",
+      "options": [
+        "Nitrogenous base + sugar",
+        "Nitrogenous base + sugar + phosphate",
+        "Sugar + phosphate only",
+        "Phosphate + amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A nucleoside contains a nitrogenous base attached to a sugar. It does not contain phosphate. Once phosphate is added, it becomes a nucleotide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-085",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A nucleotide consists of:",
+      "options": [
+        "Nucleoside + phosphate",
+        "Base + amino acid",
+        "Sugar + lipid",
+        "Protein + phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A nucleotide is formed when a phosphate group is added to a nucleoside. For example, AMP contains adenine, ribose, and phosphoric acid. The phosphate distinguishes nucleotides from nucleosides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-086",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adenosine is composed of:",
+      "options": [
+        "Adenine + ribose",
+        "Adenine + ribose + phosphate",
+        "Adenine + deoxyribose + three phosphates",
+        "Guanine + ribose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine is a nucleoside, so it contains adenine plus ribose. If phosphate is added, it becomes a nucleotide such as AMP, ADP, or ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-087",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "AMP contains:",
+      "options": [
+        "Adenine, ribose, and phosphoric acid",
+        "Adenine and ribose only",
+        "Guanine and ribose only",
+        "Uracil and deoxyribose only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMP is adenosine monophosphate. It contains the base adenine, the sugar ribose, and one phosphate group. This makes it a nucleotide, not just a nucleoside.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-088",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which nucleotide is especially important as an energy metabolism intermediate?",
+      "options": [
+        "ATP",
+        "cAMP only",
+        "UDP-glucose only",
+        "CDP-choline only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP is adenosine triphosphate and acts as a major energy currency in cells. The lecture also mentions GTP in protein synthesis, cAMP as a mediator, and UDP-glucose/CDP-choline as active intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-089",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "GTP is specifically mentioned as important in:",
+      "options": [
+        "Protein synthesis",
+        "Collagen hydroxylation",
+        "Vitamin K recycling",
+        "Oxygen transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GTP is an energy-related nucleotide used in protein synthesis. This shows that free nucleotides have roles beyond being building blocks of DNA and RNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-090",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "cAMP is an example of a nucleotide functioning as:",
+      "options": [
+        "A physiological mediator",
+        "A structural histone protein",
+        "A DNA base-pair stabilizer only",
+        "A pyrimidine degradation product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "cAMP is a cyclic nucleotide that acts as a physiological mediator or second messenger. This is one example of how free nucleotides have signaling roles in addition to nucleic acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "NAD and FAD contain nucleotide components and function as:",
+      "options": [
+        "Coenzymes",
+        "DNA polymerases",
+        "Histone proteins",
+        "Pyrimidine bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists NAD and FAD as examples of coenzymes that contain nucleotide components. These molecules are important in redox reactions, but here the key point is that nucleotides can be parts of coenzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucose is an example of:",
+      "options": [
+        "An active intermediate",
+        "A DNA polymerase",
+        "A histone protein",
+        "A purine degradation end product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is described as active glucose. Nucleotides can activate molecules, making them better substrates for biosynthetic reactions. CDP-choline is another example of an active intermediate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-093",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Purines and pyrimidines are dietary nonessential because:",
+      "options": [
+        "Humans can synthesize sufficient amounts de novo",
+        "They cannot be synthesized in the body",
+        "They are only obtained from meat",
+        "They are not used in cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans can synthesize purines and pyrimidines de novo from cellular precursors. Therefore, they are considered dietary nonessential. Dietary purines are not used directly for nucleotide biosynthesis in humans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-094",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The end product of purine catabolism in humans is:",
+      "options": [
+        "Uric acid",
+        "β-alanine",
+        "CO₂ only",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Purine catabolism in humans ends with uric acid, also called urate. This is clinically important because excess urate can lead to gout due to deposition of urate crystals in joints.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Dietary purines in humans are mainly:",
+      "options": [
+        "Converted into urate",
+        "Used directly to make DNA nucleotides",
+        "Converted into β-alanine only",
+        "Excreted unchanged as DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that dietary purines are not used for nucleotide biosynthesis in humans; they are converted into urate. This supports the importance of purine degradation in hyperuricemia and gout.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-096",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Gout is characterized by:",
+      "options": [
+        "Hyperuricemia with deposition of urate crystals in joints",
+        "Deficiency of DNA polymerase III only",
+        "Defective RNA cap formation",
+        "Excess pyrimidine degradation to β-alanine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gout is a disorder of purine degradation where uric acid levels rise. Urate crystals deposit in joints and cause recurrent attacks of acute arthritic inflammation. The key words are hyperuricemia and urate crystals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-097",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Allopurinol is used in gout because it inhibits:",
+      "options": [
+        "Xanthine oxidase",
+        "DNA ligase",
+        "Primase",
+        "Histone H1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Allopurinol inhibits xanthine oxidase, reducing uric acid formation. This causes accumulation of hypoxanthine and xanthine, which are more soluble than uric acid, making them easier to handle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Inhibition of xanthine oxidase causes accumulation of:",
+      "options": [
+        "Hypoxanthine and xanthine",
+        "Adenine and thymine",
+        "β-alanine and CO₂ only",
+        "Histones and nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Xanthine oxidase normally helps convert hypoxanthine and xanthine toward uric acid. Allopurinol blocks this enzyme, leading to accumulation of hypoxanthine and xanthine, which are more soluble than uric acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pyrimidine degradation differs from purine degradation because pyrimidines are degraded into:",
+      "options": [
+        "Highly soluble products",
+        "Uric acid only",
+        "Urate crystals only",
+        "Histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unlike purines, pyrimidine rings are degraded into highly soluble products such as β-alanine, β-aminoisobutyrate, NH₃, and CO₂. This is why pyrimidine degradation is not classically linked to gout.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-100",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Products of pyrimidine degradation include:",
+      "options": [
+        "β-alanine, β-aminoisobutyrate, NH₃, and CO₂",
+        "Uric acid only",
+        "Hypoxanthine and xanthine only",
+        "ATP and GTP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyrimidines are degraded to soluble products, including β-alanine, β-aminoisobutyrate, ammonia, and carbon dioxide. This contrasts with purines, whose end product is uric acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-101",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In DNA base pairing, adenine pairs with:",
+      "options": [
+        "Thymine",
+        "Cytosine",
+        "Guanine",
+        "Uracil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In DNA, adenine always pairs with thymine. This pair is held together by two hydrogen bonds. In RNA, adenine pairs with uracil instead of thymine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In DNA base pairing, guanine pairs with:",
+      "options": [
+        "Cytosine",
+        "Thymine",
+        "Adenine",
+        "Uracil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Guanine pairs with cytosine in DNA. This pair is held together by three hydrogen bonds, making GC-rich DNA more thermally stable than AT-rich DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A-T base pairs are held together by:",
+      "options": [
+        "Two hydrogen bonds",
+        "Three hydrogen bonds",
+        "One phosphodiester bond",
+        "Ionic bonds with histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenine and thymine are held together by two hydrogen bonds. This is fewer than the three hydrogen bonds between guanine and cytosine. The difference matters when discussing DNA stability and melting temperature.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "G-C base pairs are held together by:",
+      "options": [
+        "Three hydrogen bonds",
+        "Two hydrogen bonds",
+        "One peptide bond",
+        "One glycosidic bond only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Guanine and cytosine form three hydrogen bonds. Because of this, DNA with higher GC content is generally more stable and has a higher melting temperature than DNA with more AT pairs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to Chargaff's rule, in DNA:",
+      "options": [
+        "A = T and G = C",
+        "A = G and T = C",
+        "A = C only",
+        "G = T only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chargaff's rule states that the amount of adenine equals thymine and the amount of guanine equals cytosine. Therefore, total purines equal total pyrimidines in double-stranded DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA double helix stability depends mainly on:",
+      "options": [
+        "Hydrogen bonds and hydrophobic interactions between stacked bases",
+        "Peptide bonds between bases",
+        "Disulfide bonds between sugars",
+        "Covalent bonds between paired bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA is stabilized by hydrogen bonds between complementary bases and hydrophobic interactions between stacked bases. The backbone is covalent, but the two strands are not held together by covalent bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA denaturation means:",
+      "options": [
+        "Loss of helical structure with separation of the two strands",
+        "Breaking of all phosphodiester bonds",
+        "Conversion of DNA into RNA",
+        "Formation of nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Denaturation is the loss of the DNA double-helical structure. The two strands separate because hydrogen bonds between base pairs are disrupted. The phosphodiester backbone remains intact.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA denaturation breaks mainly:",
+      "options": [
+        "Hydrogen bonds between paired bases",
+        "Phosphodiester bonds in the backbone",
+        "Glycosidic bonds in every nucleotide",
+        "Peptide bonds in histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During denaturation, hydrogen bonds between complementary bases are broken, separating the two strands. Phosphodiester bonds are not broken, so each strand remains chemically intact.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-109",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA denaturation can be caused by:",
+      "options": [
+        "Heating or changing pH",
+        "Addition of histone H1 only",
+        "Formation of RNA primers only",
+        "Slow cooling only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA denaturation occurs when pH changes or heat disrupts hydrogen bonding between base pairs. Slow cooling can allow renaturation if complementary strands reanneal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The melting temperature, Tm, is:",
+      "options": [
+        "The temperature at which half of DNA helical structure is lost",
+        "The temperature at which DNA becomes protein",
+        "The temperature where all phosphodiester bonds break",
+        "The temperature where histones are formed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tm is the temperature at which half of the DNA helical structure is lost during heating. GC content affects Tm because G-C pairs have three hydrogen bonds and stronger base stacking.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Renaturation of DNA occurs when denatured DNA is:",
+      "options": [
+        "Slowly cooled to about 20–25°C below Tm",
+        "Heated strongly above Tm forever",
+        "Treated to break phosphodiester bonds",
+        "Converted into RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Renaturation, or reannealing, occurs when denatured DNA is cooled slowly to about 20–25°C below Tm. This allows complementary strands to find each other and reform hydrogen bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-112",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA replication is best described as:",
+      "options": [
+        "Semiconservative",
+        "Fully conservative only",
+        "Dispersive only",
+        "Random"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA replication is semiconservative, meaning each daughter DNA molecule contains one parental strand and one newly synthesized strand. This preserves genetic information from one generation of cells to the next.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The purpose of DNA replication is to:",
+      "options": [
+        "Transfer genetic information to daughter cells",
+        "Break down purines into uric acid",
+        "Form histone proteins only",
+        "Convert RNA into protein directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Replication allows daughter cells to receive the same DNA information as the mother cell during cell division. High fidelity is required to maintain genetic stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Helicase functions during replication by:",
+      "options": [
+        "Unwinding the DNA double helix using ATP",
+        "Joining Okazaki fragments",
+        "Removing RNA primers only",
+        "Packaging DNA into nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Helicase unwinds parental DNA at the origin by breaking hydrogen bonds between strands. It uses ATP hydrolysis as an energy source. This creates the replication fork.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The replication fork forms when:",
+      "options": [
+        "Parental strands unwind and separate",
+        "Histones bind linker DNA",
+        "RNA becomes double-stranded",
+        "Uric acid crystals deposit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The replication fork is formed when helicase unwinds the parental DNA strands. The separated strands serve as templates for synthesis of new complementary DNA strands.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Single-strand binding proteins function to:",
+      "options": [
+        "Prevent separated DNA strands from reannealing",
+        "Join Okazaki fragments",
+        "Add amino acids to tRNA",
+        "Remove histones from nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SSB proteins bind the unwound DNA strands and keep them separated. This prevents reannealing and allows DNA polymerases to use the strands as templates during replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA polymerase can add nucleotides only in which direction?",
+      "options": [
+        "5′ → 3′",
+        "3′ → 5′",
+        "Both directions equally",
+        "Randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerases synthesize new DNA only in the 5′ to 3′ direction. This directional limitation explains why one strand is synthesized continuously and the other discontinuously.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-118",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The leading strand is synthesized:",
+      "options": [
+        "Continuously",
+        "Discontinuously as Okazaki fragments",
+        "Without a template",
+        "In the 3′ → 5′ direction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The leading strand is synthesized continuously because its template orientation allows DNA polymerase III to move in the same direction as the replication fork while adding nucleotides 5′ → 3′.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The lagging strand is synthesized:",
+      "options": [
+        "Discontinuously as Okazaki fragments",
+        "Continuously without primer",
+        "Without DNA polymerase",
+        "By breaking histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because DNA polymerase cannot synthesize in the 3′ → 5′ direction, the lagging strand is made in short fragments called Okazaki fragments. These are later joined to form a continuous strand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA polymerase requires a primer because it:",
+      "options": [
+        "Cannot initiate DNA synthesis on a completely single-stranded template",
+        "Can synthesize DNA without a free 3′-OH",
+        "Works only on RNA templates",
+        "Breaks phosphodiester bonds during denaturation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase cannot start DNA synthesis from scratch. It requires a primer with a free 3′-OH end so it can add nucleotides. Primase makes short RNA primers that provide this starting point.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
