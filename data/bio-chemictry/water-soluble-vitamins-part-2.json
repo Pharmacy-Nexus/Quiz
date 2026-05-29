@@ -2,6 +2,602 @@
   "subjectId": "bio-chemictry",
   "topicId": "water-soluble-vitamins-part-2",
   "topicName": "Water-Soluble Vitamins — Part 2",
-  "updatedAt": "2026-05-29T18:36:48.932Z",
-  "questions": []
+  "updatedAt": "2026-05-29T18:44:30.549Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pantothenic acid is also known as:",
+      "options": [
+        "Vitamin B5",
+        "Vitamin B7",
+        "Vitamin B9",
+        "Vitamin B12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pantothenic acid is vitamin B5. Its major importance comes from entering the structure of coenzyme A and acyl carrier protein. Therefore, it is closely related to acyl group transfer reactions and fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pantothenic acid enters the structure of:",
+      "options": [
+        "Coenzyme A and acyl carrier protein",
+        "NAD⁺ and NADP⁺",
+        "FMN and FAD",
+        "TPP and PLP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B5 forms part of CoA and ACP. CoA transfers acyl groups such as acetyl, succinyl, and malonyl groups, while ACP is part of fatty acid synthase. The other coenzymes belong to B3, B2, B1, and B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Coenzyme A mainly functions in the transfer of:",
+      "options": [
+        "Acyl groups",
+        "CO₂ only",
+        "One-carbon groups",
+        "Hydride ions only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CoA acts as an acyl group carrier. Examples include acetyl-CoA, succinyl-CoA, and malonyl-CoA. This makes pantothenic acid important in carbohydrate, lipid, protein metabolism, heme synthesis, and fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetyl-CoA is important as an intermediate in:",
+      "options": [
+        "Carbohydrate, lipid, and protein metabolism",
+        "Only blood clotting",
+        "Only collagen synthesis",
+        "Only rhodopsin formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA is a central metabolic intermediate. It links carbohydrate metabolism, lipid metabolism, and protein metabolism. It can enter the citric acid cycle, contribute to fatty acid synthesis, and serve as a precursor for other pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinyl-CoA is especially important for:",
+      "options": [
+        "Heme synthesis",
+        "Rhodopsin synthesis",
+        "Vitamin K recycling",
+        "Collagen hydroxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture links succinyl-CoA to heme synthesis and other reactions. Succinyl-CoA combines with glycine to form δ-aminolevulinic acid in the first step of heme biosynthesis. This connects B5 indirectly to heme metabolism through CoA derivatives.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malonyl-CoA is important for:",
+      "options": [
+        "Fatty acid synthesis",
+        "Vitamin B12 absorption",
+        "Collagen formation",
+        "Conversion of homocysteine into methionine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is a key intermediate in fatty acid synthesis. Since CoA transfers acyl groups, pantothenic acid is indirectly important for malonyl-CoA formation and lipid synthesis pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acyl carrier protein is a component of:",
+      "options": [
+        "Fatty acid synthase",
+        "Methionine synthase",
+        "Pyruvate dehydrogenase only",
+        "Intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACP is part of the fatty acid synthase complex. It carries growing acyl chains during fatty acid synthesis. Pantothenic acid is part of ACP structure, which explains its role in lipid biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pantothenic acid deficiency in humans usually causes:",
+      "options": [
+        "No significant effect",
+        "Pernicious anemia",
+        "Neural tube defects",
+        "Scurvy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that deficiency of pantothenic acid causes no effect in humans. This is likely because pantothenic acid is widely available in foods and required pathways are broadly supported by normal intake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin is also known as:",
+      "options": [
+        "Vitamin B7",
+        "Vitamin B5",
+        "Vitamin B9",
+        "Vitamin B12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin is vitamin B7. Its major biochemical role is carrying CO₂ in carboxylation reactions. Therefore, it is essential for carboxylase enzymes such as those involved in fatty acid synthesis and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most human biotin requirements are supplied by:",
+      "options": [
+        "Intestinal bacteria",
+        "Sunlight",
+        "Gastric parietal cells",
+        "Red blood cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intestinal bacteria synthesize most of the human requirement for biotin. This is one reason biotin deficiency is uncommon. However, deficiency can occur with avidin ingestion or holocarboxylase synthetase deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin is absorbed mainly in the:",
+      "options": [
+        "Ileum",
+        "Stomach",
+        "Mouth",
+        "Colon only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that biotin is absorbed in the ileum. This is different from folate, which is absorbed in the jejunum, and B12, which also requires ileal absorption but needs intrinsic factor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin mainly acts as a carrier of:",
+      "options": [
+        "CO₂",
+        "Acyl groups",
+        "Hydride ions",
+        "One-carbon groups only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin is a CO₂ carrier. It acts as a coenzyme for carboxylase enzymes, transferring CO₂ to substrates during carboxylation reactions. This is why biotin is central to acetyl-CoA, pyruvate, and propionyl-CoA carboxylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin is attached to carboxylase enzymes through the ε-amino group of:",
+      "options": [
+        "Lysine",
+        "Glycine",
+        "Serine",
+        "Tryptophan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin attaches to carboxylase enzymes through the ε-amino group of a lysine residue, forming biocytin. This reaction requires holocarboxylase synthetase. Without proper attachment, biotin-dependent carboxylases cannot function normally.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme responsible for attaching biotin to carboxylase enzymes is:",
+      "options": [
+        "Holocarboxylase synthetase",
+        "Methionine synthase",
+        "Dihydrofolate reductase",
+        "Intrinsic factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Holocarboxylase synthetase attaches biotin to carboxylase enzymes. Deficiency of this enzyme in children can produce manifestations of biotin deficiency because carboxylase enzymes cannot be properly activated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin deficiency may result from ingestion of:",
+      "options": [
+        "Avidin in uncooked egg white",
+        "Intrinsic factor",
+        "Transcobalamin II",
+        "PABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Avidin is a glycoprotein present in uncooked egg white. It binds biotin tightly and prevents its absorption from the intestine. This is a classic cause of biotin deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biotin deficiency manifestations include:",
+      "options": [
+        "Muscle pain, dermatitis, glossitis, loss of appetite, and nausea",
+        "Night blindness and xerophthalmia",
+        "Wet beriberi only",
+        "Rickets and osteomalacia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists muscle pain, dermatitis, glossitis, loss of appetite, and nausea as manifestations of biotin deficiency. These occur because biotin-dependent carboxylation reactions are impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 is also called:",
+      "options": [
+        "Cobalamin",
+        "Folate",
+        "Biotin",
+        "Pantothenic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 compounds are called cobalamins because they contain cobalt in the center of the corrin ring. The cobalt contributes to the red color of vitamin B12.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 is naturally found mainly in:",
+      "options": [
+        "Meat, eggs, milk, and milk products",
+        "Leafy vegetables only",
+        "Citrus fruits only",
+        "Raw cabbage and tomatoes only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 is found in animal-derived foods such as meat, eggs, milk, and milk products. It is not present in plant sources, which is why strict vegans are at risk of B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Strict vegans are at risk of vitamin B12 deficiency because:",
+      "options": [
+        "Vitamin B12 is not present in plant sources",
+        "Vitamin B12 is destroyed by sunlight",
+        "Vitamin B12 is only found in citrus fruits",
+        "Plants contain intrinsic factor inhibitors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 is not available from plant foods in the lecture. Strict vegetarians or vegans who avoid animal products may develop B12 deficiency unless they obtain supplementation or fortified sources.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The central metal ion in vitamin B12 is:",
+      "options": [
+        "Cobalt",
+        "Iron",
+        "Magnesium",
+        "Zinc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 contains cobalt at the center of its corrin ring. The cobalt is red in color, which contributes to the red color of vitamin B12. This structural point is distinctive for cobalamin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The most stable form of vitamin B12 mentioned in the lecture is:",
+      "options": [
+        "Cyanocobalamin",
+        "Retinol",
+        "Folic acid",
+        "Biocytin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanocobalamin contains a cyano group attached to cobalt and is described as the most stable form. Other cobalamin forms include hydroxycobalamin, methylcobalamin, and adenosylcobalamin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the mouth, vitamin B12 first binds to:",
+      "options": [
+        "Cobalophilin",
+        "Intrinsic factor",
+        "Transcobalamin II",
+        "Folate reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the mouth, B12 binds to cobalophilin, a protein secreted in saliva. Later, in the duodenum, cobalophilin is hydrolyzed and B12 becomes available to bind intrinsic factor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Intrinsic factor is secreted by:",
+      "options": [
+        "Gastric parietal cells",
+        "Ileal enterocytes",
+        "Red blood cells",
+        "Pancreatic β-cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intrinsic factor is a glycoprotein secreted by gastric parietal cells. It binds vitamin B12 after cobalophilin is hydrolyzed in the duodenum. Intrinsic factor is essential for ileal absorption of B12.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 is absorbed as an intrinsic factor-B12 complex in the:",
+      "options": [
+        "Ileum",
+        "Stomach",
+        "Jejunum",
+        "Colon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IF-B12 complex binds specific ileal receptors. A pH above 6 and calcium ions are required to promote B12 absorption. This makes ileal disease an important cause of B12 deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 absorption requires:",
+      "options": [
+        "Ileal receptors, pH above 6, and calcium ions",
+        "Retinol binding protein only",
+        "Vitamin K epoxide reductase",
+        "β-carotene dioxygenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that IF-B12 complex binds specific ileal receptors and that pH above 6 plus calcium ions promote absorption. This is a key absorption detail and helps explain defective B12 absorption in intestinal disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 is transported in plasma mainly by:",
+      "options": [
+        "Transcobalamins and R proteins",
+        "Retinol binding protein only",
+        "Albumin only",
+        "Calbindin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After absorption, vitamin B12 is carried by plasma carrier globulins named transcobalamin II, transcobalamin I, and R proteins. These transport B12 to tissues and allow cellular uptake through specific receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The liver stores approximately what percentage of the body's vitamin B12?",
+      "options": [
+        "50–90%",
+        "1–5%",
+        "10% only",
+        "None"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that the liver stores 50–90% of the body's B12. This reserve can supply the body for one to two years even in complete absence of intake, which explains why B12 deficiency may develop slowly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 reserves can supply the body for approximately:",
+      "options": [
+        "1–2 years",
+        "1–2 days",
+        "1 week",
+        "10–20 years always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 has relatively large hepatic stores. These stores can supply the body for 1–2 years even without intake. This is unlike many other water-soluble vitamins that have minimal tissue stores.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Methylcobalamin acts as a coenzyme for:",
+      "options": [
+        "Methionine synthase",
+        "Succinate dehydrogenase",
+        "Pyruvate dehydrogenase",
+        "γ-glutamyl carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylcobalamin is the B12 coenzyme form used by methionine synthase. This enzyme converts homocysteine into methionine using a methyl group from N5-methyl-THF.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Methionine synthase converts:",
+      "options": [
+        "Homocysteine into methionine",
+        "Methylmalonyl-CoA into malonyl-CoA",
+        "Pyruvate into acetyl-CoA",
+        "Procollagen into collagen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methionine synthase converts homocysteine to methionine. This reaction requires methylcobalamin and N5-methyl-THF. It is important for methionine production and regeneration of tetrahydrofolate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Deoxyadenosylcobalamin acts as a coenzyme for:",
+      "options": [
+        "Methylmalonyl-CoA isomerase",
+        "Methionine synthase only",
+        "Folate reductase",
+        "Holocarboxylase synthetase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deoxyadenosylcobalamin is required by methylmalonyl-CoA isomerase. This enzyme converts methylmalonyl-CoA into succinyl-CoA, especially during catabolism of valine, isoleucine, and odd-chain fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Methylmalonyl-CoA is converted into:",
+      "options": [
+        "Succinyl-CoA",
+        "Acetyl-CoA",
+        "Malonyl-CoA",
+        "Homocysteine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin B12 as deoxyadenosylcobalamin helps convert methylmalonyl-CoA into succinyl-CoA. This reaction is important in odd-chain fatty acid oxidation and catabolism of valine and isoleucine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin B12 deficiency causes which type of anemia?",
+      "options": [
+        "Megaloblastic anemia",
+        "Microcytic hypochromic anemia only",
+        "Hemolytic anemia only",
+        "Normocytic anemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency causes megaloblastic anemia due to abnormal DNA replication in hematopoietic tissue. The lecture describes it as macrocytic hyperchromic anemia. It is related to impaired folate function and DNA synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A key neurological manifestation of B12 deficiency is:",
+      "options": [
+        "Subacute combined degeneration of the spinal cord",
+        "Xerophthalmia",
+        "Rickets",
+        "Wet beriberi only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B12 deficiency can damage the nervous system due to impaired myelin sheath formation and disturbed odd-chain fatty acid metabolism. Subacute combined degeneration affects both motor and sensory tracts of the spinal cord.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-water-soluble-vitamins-part-2-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Folate is also known as:",
+      "options": [
+        "Vitamin B9",
+        "Vitamin B7",
+        "Vitamin B5",
+        "Vitamin B12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folate, folacin, and folic acid refer to vitamin B9. Its active form is tetrahydrofolate, which carries one-carbon groups needed for DNA/RNA synthesis and cell formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
