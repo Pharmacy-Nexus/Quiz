@@ -57,11 +57,11 @@
       "section": "",
       "sectionId": "",
       "difficultyBreakdown": {
-        "easy": 40,
-        "medium": 70,
-        "hard": 0
+        "easy": 41,
+        "medium": 79,
+        "hard": 4
       },
-      "questionsCount": 110,
+      "questionsCount": 124,
       "file": "data/bio-chemictry/enzymes.json"
     }
   ],
@@ -73,5 +73,5 @@
       "order": 1
     }
   ],
-  "updatedAt": "2026-05-29T17:34:03.806Z"
+  "updatedAt": "2026-05-29T17:37:12.466Z"
 }
