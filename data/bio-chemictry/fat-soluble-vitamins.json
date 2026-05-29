@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "fat-soluble-vitamins",
   "topicName": "Fat-Soluble Vitamins",
-  "updatedAt": "2026-05-29T17:47:31.855Z",
+  "updatedAt": "2026-05-29T17:53:35.471Z",
   "questions": [
     {
       "id": "bio-chemictry-enzymes-001",
@@ -2108,6 +2108,1706 @@
       ],
       "correctAnswer": 1,
       "explanation": "Allosteric inhibition depends on binding of the effector to a regulatory site, so higher galactose concentration can increase inhibition of Enzyme A. Phosphorylation requires enzyme-mediated covalent modification, not simple active-site binding, and regulation is usually reversible.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-125",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamins are best described as:",
+      "options": [
+        "Organic compounds needed in small amounts for biochemical reactions",
+        "Structural components that form most body tissues",
+        "Large energy-producing macromolecules",
+        "Inorganic minerals required only for bone formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamins are organic compounds required in very small amounts, but they are essential for many biochemical reactions. Many vitamins act as coenzymes or help enzymes work properly. They do not mainly enter tissue structure, and they are not major energy sources like carbohydrates or fats.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-126",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Many vitamins act mainly as:",
+      "options": [
+        "Coenzymes",
+        "Structural proteins",
+        "Genetic material",
+        "Bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many vitamins function as coenzymes, meaning they assist enzymes in catalyzing biochemical reactions. This is especially true for many water-soluble B vitamins, but the general concept applies to vitamins as a group. The trap is thinking vitamins are needed in large amounts or mainly used as tissue-building materials.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-127",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Provitamins are:",
+      "options": [
+        "Precursors that can be converted into active vitamins inside the body",
+        "Toxic forms of vitamins only",
+        "Vitamins that cannot be absorbed",
+        "Enzymes that destroy vitamins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A provitamin is not the final active vitamin form but can be converted into it in the body. The lecture gives carotenes as provitamin A. This is important because plant sources often provide vitamin A activity through carotene conversion rather than preformed retinol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-128",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carotenes are considered provitamins of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin K",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carotenes, especially β-carotene, are plant pigments that can be converted into vitamin A forms in the intestine. β-carotene can produce retinal, which can then be converted into retinol or retinoic acid. This links plant sources like carrots to vitamin A activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-129",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamers are:",
+      "options": [
+        "Different forms of the same vitamin",
+        "Enzymes that activate vitamins",
+        "Toxic metabolites of vitamins",
+        "Minerals that replace vitamins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamers are chemically different forms that belong to the same vitamin family. For example, vitamin D has D2 and D3 forms. Knowing vitamers helps avoid confusion when one vitamin has multiple biologically relevant forms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-130",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which vitamins are fat-soluble according to the lecture?",
+      "options": [
+        "Vitamins A, D, E, and K",
+        "Vitamins B and C",
+        "Vitamins C, D, and B12",
+        "Vitamins A and C only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fat-soluble vitamins are A, D, E, and K. They dissolve in fat solvents, require bile salts for absorption, and can be stored in the body. This storage explains why toxicity is more likely with excessive intake of fat-soluble vitamins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-131",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fat-soluble vitamins need which substance for absorption?",
+      "options": [
+        "Bile salts",
+        "Hemoglobin",
+        "Insulin",
+        "Albumin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat-soluble vitamins are absorbed with dietary lipids, so they need bile salts for proper absorption. Bile salts emulsify fats and help micelle formation. This is why liver disease or bile obstruction can impair absorption of vitamins A, D, E, and K.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-132",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Water-soluble vitamins include:",
+      "options": [
+        "Vitamin C and B-complex vitamins",
+        "Vitamins A, D, E, and K",
+        "Vitamins A and D only",
+        "Vitamins K and E only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water-soluble vitamins are vitamin C and the B-complex group. Most of them are not stored in large amounts in the body, unlike fat-soluble vitamins. The file mainly focuses on fat-soluble vitamins, but it begins by contrasting both classes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-133",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which statement is most accurate about fat-soluble vitamins?",
+      "options": [
+        "They can be stored in the body",
+        "They are never toxic",
+        "They do not require bile salts",
+        "They are mainly excreted rapidly in urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat-soluble vitamins can accumulate in body stores, especially liver and adipose-related compartments depending on the vitamin. Because of this storage, excessive intake can cause toxicity. This is especially important for vitamins A and D in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-134",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin A belongs chemically to:",
+      "options": [
+        "Retinoids",
+        "Tocopherols",
+        "Calciferols",
+        "Naphthoquinones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A compounds are called retinoids. Important body forms include retinol, retinal, and retinoic acid. These forms have different functions: retinal is essential for vision, while retinoic acid affects gene expression and epithelial differentiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-135",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main vitamers/forms of vitamin A used by the body are:",
+      "options": [
+        "Retinol, retinal, and retinoic acid",
+        "D2, D3, and calcitriol",
+        "K1, K2, and K3",
+        "α-, β-, γ-, and δ-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A exists in several important forms. Retinol is the alcohol form, retinal is the aldehyde form important in vision, and retinoic acid acts on nuclear receptors to regulate gene expression. The other options belong to vitamins D, K, and E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-136",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Animal sources of vitamin A include:",
+      "options": [
+        "Liver, eggs, milk fat, and fish liver oils",
+        "Citrus fruits only",
+        "Green leafy vegetables only",
+        "Whole grains only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Animal foods provide preformed vitamin A forms, especially retinol esters. The lecture lists liver, eggs, milk fat, and fish liver oils such as shark liver oil. Plant foods mainly provide carotenes, which must be converted to vitamin A.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-137",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Plant sources provide vitamin A mainly as:",
+      "options": [
+        "Carotenes",
+        "Retinol esters only",
+        "Retinoic acid only",
+        "RBP-bound retinol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plants do not mainly provide preformed retinol. Instead, they contain carotenes, which are provitamin A compounds. Carotenes are converted in the intestine into retinal, then retinal may be converted into retinol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-138",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "β-carotene is converted into retinal mainly in the:",
+      "options": [
+        "Intestine",
+        "Kidney",
+        "Bone marrow",
+        "Retina only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-carotene is absorbed and converted into retinal inside intestinal mucosal cells by β-carotene dioxygenase. Retinal can then be converted to retinol. This is why intestinal absorption and fat digestion are important for vitamin A nutrition.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-139",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which enzyme converts β-carotene into retinal?",
+      "options": [
+        "β-carotene dioxygenase",
+        "Retinol binding protein",
+        "1α-hydroxylase",
+        "γ-glutamyl carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-carotene dioxygenase cleaves β-carotene to form retinal aldehyde. Retinal can then be reduced to retinol or oxidized toward retinoic acid pathways. The other enzymes/proteins are related to vitamin A transport, vitamin D activation, or vitamin K function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-140",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "About 90% of the body’s vitamin A is stored in the:",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Retina",
+        "Bone marrow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After absorption, retinol esters are transported through lymph and circulation to the liver. The lecture states that about 90% of body vitamin A is stored in the liver. When needed, stored retinol esters are hydrolyzed and retinol is transported to target tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-141",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Retinol is transported from the liver to target tissues by:",
+      "options": [
+        "Retinol binding protein",
+        "Albumin only",
+        "Hemoglobin",
+        "Transferrin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free retinol combines with retinol binding protein (RBP), which is formed by the liver. RBP carries retinol to the retina and other target cells. This transport step is important because vitamin A is fat-soluble and needs carrier proteins in blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-142",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the retina, retinol is converted into:",
+      "options": [
+        "Retinal",
+        "Vitamin K epoxide",
+        "Calcitriol",
+        "α-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the retina, retinol is converted into retinal, which is essential for vision. Retinal combines with opsin to form rhodopsin, the visual pigment needed especially for night vision. Retinoic acid is more important for gene regulation in target tissues, not vision.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-143",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Retinal is especially important for:",
+      "options": [
+        "Night vision",
+        "Blood clotting",
+        "Calcium absorption",
+        "Protection of LDL from oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinal is a component of rhodopsin, the visual pigment involved in vision under low-light conditions. Vitamin A deficiency therefore classically causes night blindness. This is one of the highest-yield vitamin A functions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-144",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Retinoic acid acts mainly by:",
+      "options": [
+        "Binding nuclear receptors and regulating gene expression",
+        "Directly forming blood clotting factors",
+        "Converting calcium into phosphate",
+        "Acting as a bile salt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinoic acid binds to nuclear receptors, and the receptor complex stimulates gene expression. This hormone-like mechanism explains its role in epithelial differentiation, growth, and synthesis of specific proteins. It is not the form used for vision.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-145",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin A deficiency causes night blindness due to lack of:",
+      "options": [
+        "Retinal for rhodopsin formation",
+        "Calcitriol for calcium absorption",
+        "Vitamin K for clotting factor activation",
+        "Vitamin E for LDL protection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Night blindness is impaired dark adaptation caused by insufficient retinal, which is needed to form rhodopsin. Rhodopsin is a visual pigment present in rods and is essential for low-light vision. This is usually the earliest classic eye manifestation of vitamin A deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-146",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Xerophthalmia means:",
+      "options": [
+        "Dryness and roughness of cornea and conjunctiva",
+        "Excess calcium deposition in kidney",
+        "Defective blood clotting",
+        "Hemolysis of RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Xerophthalmia is a vitamin A deficiency manifestation affecting the eye. Vitamin A is needed for maintenance and differentiation of epithelial tissues, including conjunctiva and cornea. Deficiency leads to dryness, roughness, and potentially serious eye damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-147",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin A deficiency may cause rough skin because vitamin A is needed for:",
+      "options": [
+        "Normal epithelial differentiation",
+        "γ-carboxylation of clotting factors",
+        "Calcium absorption from intestine",
+        "Prevention of LDL oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A, especially retinol and retinoic acid, maintains normal epithelial cell differentiation. Deficiency causes rough skin, sometimes described as “goose skin,” and rough mucus membranes. This also increases susceptibility to infections in affected epithelial surfaces.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-148",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypervitaminosis A occurs when excessive intake exceeds the capacity of:",
+      "options": [
+        "Retinol binding protein",
+        "Calbindin",
+        "Osteocalcin",
+        "γ-glutamyl carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that vitamin A toxicity occurs when excessive intake exceeds the capacity of RBP. Free retinol is then released in blood and produces toxic effects. This explains why vitamin A storage and transport are clinically important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-149",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Symptoms of excess vitamin A include:",
+      "options": [
+        "Headache, nausea, bone pain, and hair loss",
+        "Hemolysis and muscle breakdown only",
+        "Bleeding due to lack of clotting factors",
+        "Rickets and osteomalacia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypervitaminosis A can cause headache, nausea, bone pain, and loss of hair. These symptoms reflect toxicity from excess free retinol. The other options are more closely associated with vitamin E deficiency, vitamin K deficiency, or vitamin D deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-150",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D is also called:",
+      "options": [
+        "Calciferol",
+        "Retinol",
+        "Tocopherol",
+        "Menadione"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D is known as calciferol. Its active form, calcitriol, behaves like a steroid hormone. Vitamin A is retinol/retinoids, vitamin E is tocopherols, and vitamin K3 is menadione.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-151",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D2 is also called:",
+      "options": [
+        "Ergocalciferol",
+        "Cholecalciferol",
+        "Retinol",
+        "α-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D2 is ergocalciferol, generated from ergosterol in plants by ultraviolet light. Vitamin D3 is cholecalciferol, generated from 7-dehydrocholesterol in humans and animals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-152",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D3 is also called:",
+      "options": [
+        "Cholecalciferol",
+        "Ergocalciferol",
+        "Retinoic acid",
+        "Phylloquinone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D3 is cholecalciferol, formed in skin from 7-dehydrocholesterol after exposure to ultraviolet light. D2 comes from ergosterol in plants. Both are vitamin D vitamers but differ in origin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-153",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In humans, ultraviolet light generates vitamin D3 from:",
+      "options": [
+        "7-dehydrocholesterol",
+        "β-carotene",
+        "Retinol ester",
+        "Prothrombin precursor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In humans and animals, skin contains 7-dehydrocholesterol, which is converted by UV light into cholecalciferol, vitamin D3. This is why sunlight exposure is a major source of vitamin D.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-154",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The active form of vitamin D is:",
+      "options": [
+        "1,25-dihydroxycholecalciferol",
+        "Retinal aldehyde",
+        "Vitamin K epoxide",
+        "α-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The active hormonal form of vitamin D is 1,25(OH)₂D₃, also called calcitriol. It is formed after hydroxylation in the liver at carbon 25 and in the kidney at carbon 1. This active form regulates calcium and phosphate metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-155",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D is first hydroxylated in the:",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Retina",
+        "Blood plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D3 is first converted in the liver to 25-hydroxycholecalciferol by hepatic 25-hydroxylase. Then it is activated further in the kidney to 1,25-dihydroxycholecalciferol by renal 1α-hydroxylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-156",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D is activated in the kidney mainly by:",
+      "options": [
+        "1α-hydroxylase",
+        "β-carotene dioxygenase",
+        "γ-glutamyl carboxylase",
+        "Vitamin K epoxide reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Renal 1α-hydroxylase converts 25(OH)D₃ into 1,25(OH)₂D₃, the active form. This enzyme is stimulated by hypocalcemia through parathyroid hormone and directly by hypophosphatemia. Kidney disease can impair this step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-157",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Calcitriol increases intestinal calcium absorption by stimulating synthesis of:",
+      "options": [
+        "Calbindin",
+        "Retinol binding protein",
+        "Prothrombin",
+        "α-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcitriol enters intestinal mucosal cells, binds receptors, and stimulates gene expression for calcium-binding protein, also called calbindin. Calbindin promotes calcium absorption. This is a key hormone-like action of vitamin D.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-158",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D deficiency in children causes:",
+      "options": [
+        "Rickets",
+        "Night blindness",
+        "Impaired blood clotting",
+        "Hemolysis of RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D deficiency causes defective bone mineralization. In children, this presents as rickets, characterized by bone deformities. In adults, the corresponding condition is osteomalacia, which may lead to fractures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-159",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Vitamin D deficiency in adults causes:",
+      "options": [
+        "Osteomalacia",
+        "Xerophthalmia",
+        "Hemolytic anemia",
+        "Warfarin resistance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In adults, vitamin D deficiency causes osteomalacia, a disorder of bone demineralization that can lead to bone pain and fractures. Rickets occurs in children because their growing bones deform under poor mineralization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-160",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes vitamin A absorption from dietary retinol esters?",
+      "options": [
+        "Retinol esters → retinol + fatty acids → re-esterification → lymph → liver storage",
+        "Retinol esters → retinal → calcitriol → kidney storage",
+        "Retinol esters → γ-carboxyglutamate → clotting factors",
+        "Retinol esters → tocopherol → LDL protection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary retinol esters are hydrolyzed into retinol and fatty acids in the intestine. Retinol enters intestinal mucosal cells, is re-esterified to retinol esters, then transported through lymph to the circulation and stored mainly in the liver. The trap is confusing vitamin A absorption with vitamin D activation or vitamin K carboxylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-161",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "β-carotene is absorbed and converted first into:",
+      "options": [
+        "Retinal",
+        "Retinoic acid directly only",
+        "Calcitriol",
+        "Menadione"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-carotene is converted by β-carotene dioxygenase into retinal aldehyde in intestinal cells. Retinal can then be converted into retinol. This is why β-carotene is called provitamin A rather than active preformed vitamin A.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-162",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does vitamin A require transport by retinol binding protein?",
+      "options": [
+        "Retinol is fat-soluble and needs a carrier in blood",
+        "Retinol is a water-soluble vitamin rapidly excreted in urine",
+        "RBP converts retinol into vitamin D",
+        "RBP carboxylates glutamate residues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A forms are fat-soluble, so free retinol cannot circulate efficiently in aqueous plasma without a carrier. The liver produces RBP, which binds retinol and transports it to the retina and target tissues. This also explains why excess vitamin A becomes toxic when RBP capacity is exceeded.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-163",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin A form is most directly involved in gene expression?",
+      "options": [
+        "Retinoic acid",
+        "Retinal",
+        "Retinol ester only",
+        "β-carotene only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinoic acid binds nuclear receptors and regulates gene expression, similar to hormone action. This explains its role in epithelial differentiation, growth, and synthesis of glycoproteins and phospholipids. Retinal is more linked to vision, while retinol is mainly transport/storage-related.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-164",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin A form is most directly involved in rhodopsin formation?",
+      "options": [
+        "Retinal",
+        "Retinoic acid",
+        "Retinol binding protein",
+        "Retinyl ester only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the retina, retinol is converted to retinal. Retinal combines with opsin to form rhodopsin, the visual pigment needed for dark adaptation and night vision. Retinoic acid cannot replace retinal in vision.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-165",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best separates retinal from retinoic acid?",
+      "options": [
+        "Retinal is needed for vision; retinoic acid regulates gene expression",
+        "Retinal activates clotting factors; retinoic acid prevents LDL oxidation",
+        "Retinal forms calcitriol; retinoic acid forms osteocalcin",
+        "Both are mainly vitamin K vitamers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinal is essential for rhodopsin and visual function, especially night vision. Retinoic acid binds nuclear receptors and controls gene expression in target tissues. This distinction is high-yield because both are vitamin A derivatives but have different functions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-166",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin A supports epithelial tissue mainly by:",
+      "options": [
+        "Maintaining normal differentiation of epithelial cells",
+        "Increasing γ-carboxylation of clotting factors",
+        "Increasing renal calcium reabsorption",
+        "Preventing oxidation of LDL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinol and retinoic acid are essential for normal epithelial differentiation. Deficiency causes roughness and dryness of skin and mucous membranes, which can increase infection risk. This explains both skin findings and mucosal complications in vitamin A deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-167",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin A has antioxidant/anticancer action mainly because:",
+      "options": [
+        "Retinoids and carotenoids protect tissues from oxidant damage",
+        "It converts prothrombin into thrombin",
+        "It increases renal phosphate excretion",
+        "It forms calcium bridges in blood clotting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinoids and carotenoids can act as antioxidants and protect epithelial tissues from toxic oxidants. The lecture links this protective effect to reduced risk of epithelial tissue damage that may contribute to cancer. This is separate from vitamin E’s antioxidant role in membranes and LDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-168",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which clinical picture best fits vitamin A deficiency?",
+      "options": [
+        "Night blindness, xerophthalmia, rough skin",
+        "Bleeding tendency, low clotting factors, warfarin effect",
+        "Rickets, osteomalacia, renal stones",
+        "Hemolysis of RBCs and muscle breakdown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A deficiency affects vision and epithelial tissues. Night blindness occurs because retinal is needed for rhodopsin, while xerophthalmia and rough skin occur due to impaired epithelial maintenance. The other options describe deficiencies or excess of vitamins K, D, or E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-169",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can vitamin A toxicity occur with excessive intake?",
+      "options": [
+        "Vitamin A is fat-soluble and stored; excess can exceed RBP capacity",
+        "Vitamin A is water-soluble and cannot be stored",
+        "Vitamin A is rapidly excreted in urine",
+        "Vitamin A is destroyed by bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat-soluble vitamins can accumulate in the body. Vitamin A is stored mainly in the liver, and toxicity occurs when intake exceeds the binding capacity of RBP, releasing free retinol in blood. This causes symptoms such as headache, nausea, bone pain, and hair loss.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-170",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes vitamin D3 activation?",
+      "options": [
+        "Skin D3 → liver 25-hydroxylation → kidney 1-hydroxylation → calcitriol",
+        "Skin D3 → intestine γ-carboxylation → liver calcitriol",
+        "β-carotene → retinal → retinol → calcitriol",
+        "Vitamin K → vitamin K epoxide → calcitriol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D3 is formed in skin from 7-dehydrocholesterol by UV light. It is hydroxylated in the liver at carbon 25, then activated in the kidney at carbon 1 by 1α-hydroxylase to form calcitriol. The order skin → liver → kidney is essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-171",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The liver converts vitamin D3 into:",
+      "options": [
+        "25-hydroxycholecalciferol",
+        "1,25-dihydroxycholecalciferol directly only",
+        "Retinoic acid",
+        "Vitamin K hydroquinone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first hydroxylation of vitamin D occurs in the liver by hepatic 25-hydroxylase. This produces 25(OH)D3. The kidney then performs the second hydroxylation at carbon 1 to generate the active hormone calcitriol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-172",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The kidney converts 25(OH)D3 into:",
+      "options": [
+        "1,25(OH)2D3",
+        "β-carotene",
+        "Retinol ester",
+        "γ-carboxyglutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Renal 1α-hydroxylase converts 25-hydroxycholecalciferol into 1,25-dihydroxycholecalciferol, also called calcitriol. This is the active hormonal form of vitamin D responsible for increasing calcium and phosphate availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-173",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hypocalcemia activates vitamin D mainly through:",
+      "options": [
+        "PTH stimulation of renal 1α-hydroxylase",
+        "Inhibition of hepatic 25-hydroxylase only",
+        "Increased RBP synthesis",
+        "Warfarin inhibition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low serum calcium stimulates parathyroid hormone release. PTH activates renal 1α-hydroxylase, increasing conversion of 25(OH)D3 into calcitriol. Calcitriol then helps raise calcium by acting on intestine, bone, and kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-174",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hypophosphatemia activates calcitriol formation mainly by:",
+      "options": [
+        "Direct activation of renal 1α-hydroxylase",
+        "Direct inhibition of RBP",
+        "Warfarin-like inhibition",
+        "Conversion of vitamin D into vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that hypophosphatemia directly activates renal 1α-hydroxylase. This increases active vitamin D formation. Calcitriol then helps increase phosphate absorption from intestine and tubular reabsorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-175",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Calcitriol acts like a hormone because it:",
+      "options": [
+        "Binds intracellular receptors and regulates gene transcription",
+        "Forms bile salts directly",
+        "Works only as a digestive enzyme",
+        "Is stored only in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcitriol binds specific cytoplasmic receptors, and the complex enters the nucleus to stimulate DNA transcription. This leads to mRNA synthesis and production of proteins such as calbindin. This hormone-like mechanism is similar in concept to retinoic acid action.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-176",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In intestinal mucosal cells, calcitriol increases calcium absorption by inducing:",
+      "options": [
+        "Calcium-binding protein",
+        "Retinol binding protein",
+        "Prothrombin precursor",
+        "Vitamin K epoxide reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcitriol stimulates synthesis of calcium-binding protein, also called calbindin. This protein helps intestinal cells absorb calcium efficiently. Phosphate absorption also increases, but the lecture notes it occurs secondary to calcium absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-177",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In kidneys, vitamin D mainly increases:",
+      "options": [
+        "Tubular reabsorption of calcium and phosphate",
+        "Excretion of all calcium",
+        "Conversion of retinol into retinal",
+        "Breakdown of clotting factors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D helps normalize serum calcium and phosphate levels. In the kidney, it increases tubular reabsorption of calcium and also increases phosphate reabsorption. This supports mineral balance and bone mineralization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-178",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In small doses, vitamin D supports bone mineralization by:",
+      "options": [
+        "Providing calcium and phosphate for bone",
+        "Removing all calcium from bone",
+        "Blocking osteocalcin synthesis",
+        "Inhibiting intestinal calcium absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small physiological doses of vitamin D promote absorption and availability of calcium and phosphate, supporting bone mineralization. In large doses, the reverse can occur, with calcium and phosphate moving from bone to blood. This dose-related difference is an important trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-179",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Large doses of vitamin D may cause:",
+      "options": [
+        "Movement of calcium and phosphate from bone to blood",
+        "Night blindness",
+        "Failure of prothrombin carboxylation",
+        "Hemolysis due to peroxide damage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that in large doses, vitamin D can cause calcium and phosphate to move from bone to blood. This contributes to hypervitaminosis D effects, including abnormal calcification and calcium deposition in tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-180",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin D deficiency causes rickets and osteomalacia mainly due to:",
+      "options": [
+        "Demineralization of bones",
+        "Failure of rhodopsin formation",
+        "Lack of clotting factor carboxylation",
+        "Oxidation of LDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D deficiency reduces calcium and phosphate availability for bone mineralization. In children, this causes rickets with bone deformities. In adults, it causes osteomalacia with bone weakness and fractures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-181",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Renal osteodystrophy in chronic renal failure is linked to:",
+      "options": [
+        "Decreased renal 1-hydroxylation of vitamin D3",
+        "Excess retinal production",
+        "Excess vitamin K activation",
+        "Increased vitamin E activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The kidney activates vitamin D by 1α-hydroxylation. In chronic renal failure, this activation is reduced, so less calcitriol is formed. This leads to impaired calcium/phosphate regulation and renal osteodystrophy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-182",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hypervitaminosis D can cause:",
+      "options": [
+        "Abnormal calcification of tissues and renal stones",
+        "Night blindness and xerophthalmia",
+        "Bleeding due to lack of clotting factors",
+        "Hemolysis in premature infants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess vitamin D increases calcium and phosphate movement into blood and can cause abnormal tissue calcification. The lecture specifically mentions deposition of calcium and phosphate in different systems, such as renal stones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-183",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin is most directly involved in γ-carboxylation of clotting factors?",
+      "options": [
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K is needed for γ-carboxylation of glutamic acid residues in clotting factors. This modification allows mature clotting factors to bind calcium and function properly in coagulation. Vitamin K is therefore essential for normal blood clotting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-184",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin K is required for synthesis/activation of which clotting factors?",
+      "options": [
+        "II, VII, IX, and X",
+        "I, V, VIII, and XIII only",
+        "Albumin and hemoglobin",
+        "LDL and HDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K is required for clotting factors II, VII, IX, and X. The lecture highlights prothrombin, factor II, as well as VII, IX, and X. A good memory cue is “1972”: factors 10, 9, 7, and 2.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-185",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Prothrombin precursor contains glutamic acid residues that must be converted into:",
+      "options": [
+        "γ-carboxyglutamate",
+        "Retinoic acid",
+        "Calcitriol",
+        "α-tocopherol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K-dependent carboxylation converts glutamic acid residues into γ-carboxyglutamate residues. This activates prothrombin and other clotting factors. The added carboxyl groups help bind calcium during coagulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-186",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does γ-carboxylation help clotting factors function?",
+      "options": [
+        "It allows calcium binding and interaction with membrane phospholipids",
+        "It converts clotting factors into vitamin D",
+        "It prevents calcium binding completely",
+        "It oxidizes LDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "γ-carboxyglutamate residues bind calcium ions. Calcium forms bridges with membrane phospholipids, allowing clotting factors to localize and function properly in coagulation. This is the biochemical reason vitamin K deficiency causes bleeding tendency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-187",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The main natural source of vitamin K2 is:",
+      "options": [
+        "Intestinal bacteria",
+        "Sunlight",
+        "β-carotene in plants",
+        "Fish liver oil only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K2 is mainly synthesized by intestinal bacteria. This is why vitamin K deficiency is generally rare, but can occur after long-term antibiotic use that kills intestinal flora. Plants are a source of K1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-188",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin K1 is mainly obtained from:",
+      "options": [
+        "Plants",
+        "Intestinal bacteria",
+        "Synthetic water-soluble preparations only",
+        "Skin after UV exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K1 is found in plants. Vitamin K2 is mainly produced by intestinal bacteria, while K3 is synthetic, water-soluble, and more potent than K1 and K2. This distinction is important in source-based questions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-189",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin K3 is:",
+      "options": [
+        "Synthetic, water-soluble, and more potent than K1 and K2",
+        "The main bacterial form",
+        "The main plant form",
+        "The active form of vitamin D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K3 is synthetic and has no R side chain. The lecture notes that it is water-soluble and more potent than K1 and K2. K1 and K2 differ mainly in their R side chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-190",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Warfarin causes anticoagulation by:",
+      "options": [
+        "Interfering with vitamin K action/recycling",
+        "Increasing vitamin K absorption",
+        "Activating prothrombin directly",
+        "Increasing γ-carboxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Warfarin acts as an anticoagulant by interfering with vitamin K-dependent processes. The lecture describes warfarin/dicumarol as competitive inhibitors with vitamin K for its site of action and the diagrams show warfarin inhibiting vitamin K reductase steps. The result is impaired activation of clotting factors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-191",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin K deficiency causes:",
+      "options": [
+        "Impaired blood clotting",
+        "Night blindness",
+        "Rickets",
+        "LDL oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K is required for activation of clotting factors II, VII, IX, and X. Deficiency reduces γ-carboxylation, so clotting factors cannot bind calcium properly. This causes bleeding tendency and impaired coagulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-192",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Newborn infants are prone to vitamin K deficiency because:",
+      "options": [
+        "Their intestine is sterile",
+        "Their retina lacks rhodopsin",
+        "Their kidneys overactivate vitamin D",
+        "Their LDL is highly oxidized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K2 is produced by intestinal bacteria. Newborns have a sterile intestine initially, so they are more vulnerable to vitamin K deficiency and bleeding. This is one reason vitamin K prophylaxis is clinically important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-193",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Long-term antibiotic use may cause vitamin K deficiency because antibiotics:",
+      "options": [
+        "Kill intestinal bacteria that synthesize vitamin K2",
+        "Destroy retinal in the eye",
+        "Activate vitamin D excessively",
+        "Oxidize LDL directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since intestinal bacteria are a main source of vitamin K2, prolonged antibiotic use can reduce vitamin K synthesis. This may impair clotting factor activation and increase bleeding risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-194",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Liver disease can contribute to vitamin K-related bleeding because the liver:",
+      "options": [
+        "Synthesizes prothrombin and forms bile salts needed for vitamin K absorption",
+        "Converts β-carotene into retinal only",
+        "Produces vitamin D3 from sunlight",
+        "Prevents LDL oxidation directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver is important for clotting factor synthesis, including prothrombin. It also forms bile salts, which are required for absorption of fat-soluble vitamins including vitamin K. Liver disease can therefore impair clotting by more than one mechanism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-195",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Osteocalcin is important because it:",
+      "options": [
+        "Is a calcium-binding protein in bone needed for mineralization",
+        "Is the visual pigment in rods",
+        "Is the main LDL antioxidant",
+        "Is the inactive precursor of prothrombin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Osteocalcin is a calcium-binding protein found in bone and is important for proper mineralization. Vitamin D stimulates its synthesis as pro-osteocalcin, while vitamin K activates it by carboxylation. This creates an important connection between vitamins D and K.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-196",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin D and vitamin K both contribute to bone health because:",
+      "options": [
+        "Vitamin D stimulates pro-osteocalcin synthesis, and vitamin K activates osteocalcin",
+        "Both convert retinal into retinoic acid",
+        "Both prevent LDL oxidation",
+        "Both directly form rhodopsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D stimulates synthesis of pro-osteocalcin, while vitamin K converts it to active osteocalcin by carboxylating glutamic acid residues. This makes osteocalcin functional in calcium binding and bone mineralization. This is a strong integration point in the lecture.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-197",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin E belongs to which group?",
+      "options": [
+        "Tocopherols",
+        "Retinoids",
+        "Calciferols",
+        "Naphthoquinones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E compounds are tocopherols. The lecture lists α, β, γ, and δ tocopherols, all containing a tocol ring. α-tocopherol is the most active member.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-198",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The most active form of vitamin E is:",
+      "options": [
+        "α-tocopherol",
+        "β-carotene",
+        "Retinol",
+        "Menadione"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Among tocopherols, α-tocopherol is the most active form. β, γ, and δ tocopherols differ from α-tocopherol in the number and position of methyl groups attached to the tocol ring.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-199",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The main function of vitamin E is:",
+      "options": [
+        "Antioxidant protection of cell components",
+        "Formation of rhodopsin",
+        "γ-carboxylation of clotting factors",
+        "Activation of renal 1α-hydroxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E prevents non-enzymatic oxidation of cell components such as polyunsaturated fatty acids, DNA, and cell membranes. Its antioxidant role is especially important in protecting membranes from free radical and peroxide damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-200",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin E protects polyunsaturated fatty acids mainly by:",
+      "options": [
+        "Preventing peroxide formation",
+        "Increasing calcium absorption",
+        "Converting prothrombin into thrombin",
+        "Forming rhodopsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polyunsaturated fatty acids are vulnerable to oxidation and peroxide formation. Vitamin E acts as an antioxidant and removes/prevents peroxide formation in these lipids. This protects cell membranes from oxidative damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-201",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin E may protect against heart disease by preventing:",
+      "options": [
+        "LDL oxidation",
+        "Calcium absorption",
+        "Prothrombin synthesis",
+        "Retinal formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that vitamin E prevents oxidation of LDL. Oxidized LDL contributes to heart disease, so antioxidant protection of LDL is considered cardioprotective. This function is distinct from vitamin K’s role in clotting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-202",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin E deficiency is most likely to cause:",
+      "options": [
+        "Hemolysis of RBCs and anemia",
+        "Night blindness and xerophthalmia",
+        "Rickets and osteomalacia",
+        "Bleeding due to low clotting factor activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E protects RBC membranes from oxidative peroxide damage. Deficiency, especially in premature infants, can cause RBC hemolysis and anemia. The other options correspond to vitamins A, D, and K.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-203",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin E deficiency may also cause:",
+      "options": [
+        "Muscle breakdown",
+        "Hypercalcemia and renal stones",
+        "Loss of RBP capacity",
+        "Warfarin-like anticoagulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists muscle breakdown as a deficiency manifestation of vitamin E. This fits the role of vitamin E in protecting cell membranes from oxidative damage. Muscle cell membranes can be damaged when antioxidant protection is inadequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-204",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which source is rich in vitamin E?",
+      "options": [
+        "Vegetable and seed oils",
+        "Only sunlight",
+        "Intestinal bacteria only",
+        "Retinol binding protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E is found in vegetable and seed oils, and also fish liver oils according to the lecture. Sunlight is related to vitamin D, intestinal bacteria to vitamin K2, and RBP is a transport protein for vitamin A.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-205",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which matching is correct?",
+      "options": [
+        "Vitamin A — retinoids",
+        "Vitamin D — tocopherols",
+        "Vitamin K — calciferols",
+        "Vitamin E — retinoic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A compounds are retinoids. Vitamin D compounds are calciferols, vitamin K compounds are naphthoquinone derivatives, and vitamin E compounds are tocopherols. This matching prevents confusion between fat-soluble vitamin families.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-206",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which matching is correct?",
+      "options": [
+        "Vitamin D — calciferol",
+        "Vitamin A — menadione",
+        "Vitamin E — retinal",
+        "Vitamin K — calcitriol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D is calciferol, and its active form is calcitriol. Vitamin A includes retinol, retinal, and retinoic acid. Vitamin K3 is menadione, and vitamin E is tocopherol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-207",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which matching is correct?",
+      "options": [
+        "Vitamin K3 — menadione",
+        "Vitamin E — calcitriol",
+        "Vitamin A — cholecalciferol",
+        "Vitamin D2 — retinol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K3 is the synthetic form called menadione. Vitamin D3 is cholecalciferol, vitamin D2 is ergocalciferol, and vitamin A includes retinoids. This type of question checks names and vitamers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-208",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which deficiency pairing is correct?",
+      "options": [
+        "Vitamin A deficiency — night blindness",
+        "Vitamin D deficiency — impaired blood clotting",
+        "Vitamin K deficiency — xerophthalmia",
+        "Vitamin E deficiency — rickets"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A deficiency classically causes night blindness due to impaired rhodopsin formation. Vitamin D deficiency causes rickets/osteomalacia, vitamin K deficiency causes bleeding tendency, and vitamin E deficiency can cause hemolysis and muscle breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-209",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which toxicity pairing is correct?",
+      "options": [
+        "Vitamin D excess — abnormal tissue calcification and renal stones",
+        "Vitamin A excess — rickets",
+        "Vitamin E excess — xerophthalmia",
+        "Vitamin K excess — night blindness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess vitamin D can raise calcium and phosphate and cause abnormal calcification, including renal stones. Vitamin A excess causes headache, nausea, bone pain, and hair loss. Night blindness and xerophthalmia are vitamin A deficiency findings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-210",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin requires bile salts for absorption and has a major role in clotting?",
+      "options": [
+        "Vitamin K",
+        "Vitamin C",
+        "Vitamin B1",
+        "Vitamin B6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K is fat-soluble, so it needs bile salts for absorption. Its major role is γ-carboxylation of clotting factors II, VII, IX, and X. This is why bile obstruction or liver disease can affect clotting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-211",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin requires bile salts for absorption and is mainly stored in liver as retinol esters?",
+      "options": [
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A is fat-soluble and requires bile salts for absorption. It is transported as retinol esters and stored mainly in the liver. When needed, retinol is released and carried by RBP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-212",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin is both fat-soluble and acts like a steroid hormone after activation?",
+      "options": [
+        "Vitamin D",
+        "Vitamin E",
+        "Vitamin K",
+        "Vitamin A only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The active form of vitamin D, calcitriol, acts as a steroid hormone. It binds intracellular receptors and regulates gene transcription, especially for calcium-binding protein in intestinal cells. Retinoic acid also has hormone-like gene effects, but vitamin D is explicitly described as a steroid hormone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-213",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin is most associated with protection against peroxide damage in RBC membranes?",
+      "options": [
+        "Vitamin E",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E protects membranes from oxidative damage by preventing peroxide formation in polyunsaturated fatty acids. RBC membranes are vulnerable to oxidative damage, so deficiency can cause hemolysis and anemia, especially in premature infants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-214",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin deficiency is most likely after long-term antibiotic therapy?",
+      "options": [
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-term antibiotics can kill intestinal bacteria, which are the main source of vitamin K2. Reduced vitamin K availability impairs γ-carboxylation of clotting factors and may lead to bleeding tendency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-215",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin deficiency is most likely in chronic renal failure due to impaired activation?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The kidney activates vitamin D by converting 25(OH)D3 into 1,25(OH)2D3 via 1α-hydroxylase. Chronic renal failure reduces this activation, causing deficient active vitamin D and renal osteodystrophy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-216",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin’s active form increases calbindin synthesis?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcitriol, the active form of vitamin D, induces calbindin synthesis in intestinal mucosal cells. Calbindin increases calcium absorption. This is a core mechanism of vitamin D action.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-217",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin’s active derivative is essential for rhodopsin?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin K",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinal, a vitamin A derivative, combines with opsin to form rhodopsin. Rhodopsin is essential for vision, especially night vision. Deficiency therefore causes impaired dark adaptation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-218",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin helps activate both clotting factors and osteocalcin by carboxylation?",
+      "options": [
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin E",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K supports γ-carboxylation of glutamic acid residues in clotting factors and osteocalcin. This carboxylation allows calcium binding, which is important for coagulation and bone mineralization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-219",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin stimulates synthesis of pro-osteocalcin?",
+      "options": [
+        "Vitamin D",
+        "Vitamin K",
+        "Vitamin E",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D stimulates synthesis of osteocalcin in the form of pro-osteocalcin. Vitamin K then activates pro-osteocalcin by carboxylation. This makes the vitamin D–vitamin K relationship important for bone metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-220",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin deficiency is rare because intestinal bacteria synthesize it?",
+      "options": [
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K deficiency is generally rare because intestinal bacteria synthesize vitamin K2. However, it can occur in newborns, after long-term antibiotics, with warfarin/dicumarol use, or in liver disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-221",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fat-soluble vitamin is most directly linked to lung surfactant synthesis in the lecture?",
+      "options": [
+        "Vitamin A as retinoic acid",
+        "Vitamin K as menadione",
+        "Vitamin E as α-tocopherol",
+        "Vitamin D as ergocalciferol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that retinoic acid supports phospholipid synthesis in the lungs, including lung surfactant. This is one of the less obvious vitamin A functions and can be used as a trap against vitamin D or E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-222",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about fat-soluble vitamin toxicity is most accurate?",
+      "options": [
+        "Toxicity is more likely because these vitamins can be stored",
+        "Toxicity is impossible because they are rapidly excreted in urine",
+        "Toxicity occurs only with vitamin C",
+        "Toxicity occurs because bile salts destroy them"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat-soluble vitamins can accumulate in body stores, unlike most water-soluble vitamins. Therefore, excessive intake may cause toxicity, especially with vitamins A and D as described in the lecture. Storage is the key reason toxicity risk is higher.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-223",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin-source pairing is correct?",
+      "options": [
+        "Vitamin D — UV light acting on 7-dehydrocholesterol",
+        "Vitamin A — intestinal bacteria only",
+        "Vitamin K2 — sunlight on skin",
+        "Vitamin E — sterile newborn intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D3 is produced when UV light acts on 7-dehydrocholesterol in skin. Vitamin K2 comes mainly from intestinal bacteria, vitamin A can come from animal retinol esters or plant carotenes, and vitamin E is found in vegetable/seed oils.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-224",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is correct?",
+      "options": [
+        "Vitamin D provides calcium/phosphate for bone, while vitamin K activates osteocalcin for mineralization",
+        "Vitamin A activates clotting factors II, VII, IX, and X",
+        "Vitamin E produces rhodopsin in rods",
+        "Vitamin K prevents LDL oxidation as its main role"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D increases calcium and phosphate availability and stimulates pro-osteocalcin synthesis. Vitamin K activates osteocalcin by γ-carboxylation, enabling calcium binding and proper bone mineralization. This is an important cross-vitamin integration point.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
