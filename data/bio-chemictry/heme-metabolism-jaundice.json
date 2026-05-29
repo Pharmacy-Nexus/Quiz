@@ -2,6 +2,1707 @@
   "subjectId": "bio-chemictry",
   "topicId": "heme-metabolism-jaundice",
   "topicName": "Heme Metabolism & Jaundice",
-  "updatedAt": "2026-05-29T13:21:13.164Z",
-  "questions": []
+  "updatedAt": "2026-05-29T13:34:06.153Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heme metabolism includes which two major processes?",
+      "options": [
+        "Anabolism and catabolism",
+        "Glycolysis and gluconeogenesis",
+        "Transcription and translation",
+        "Oxidation and phosphorylation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme metabolism is divided into biosynthesis, which is the anabolic part, and degradation, which is the catabolic part. The biosynthetic pathway produces porphyrins and finally heme, while the catabolic pathway breaks heme down into bile pigments such as biliverdin and bilirubin. The main trap is mixing heme metabolism with carbohydrate or nucleic acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemoglobin synthesis occurs mainly in:",
+      "options": [
+        "Erythrocyte precursor cells in bone marrow",
+        "Mature red blood cells only",
+        "Hepatic bile ducts",
+        "Kidney glomeruli"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin is synthesized mainly in erythrocyte precursor cells in the bone marrow. Mature RBCs are already specialized for oxygen transport and have lost the machinery needed for major protein synthesis. This is why Hb production is linked to erythropoiesis rather than mature circulating RBCs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first step of heme biosynthesis uses:",
+      "options": [
+        "Glycine and succinyl-CoA",
+        "Glucose and pyruvate",
+        "Bilirubin and albumin",
+        "Heme and oxygen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme synthesis begins with glycine + succinyl-CoA forming ALA by ALA synthase. This step is important because succinyl-CoA links heme synthesis to the TCA cycle, while glycine provides nitrogen and carbon for the pathway. The trap is confusing heme synthesis with heme degradation, where heme is converted into biliverdin and bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme responsible for ALA formation is:",
+      "options": [
+        "ALA synthase",
+        "Heme oxygenase",
+        "Biliverdin reductase",
+        "Glucuronyl transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase catalyzes the first step of heme biosynthesis: glycine + succinyl-CoA → ALA. This is also the key regulatory step of the pathway. Heme oxygenase and biliverdin reductase belong to heme degradation, while glucuronyl transferase is involved in bilirubin conjugation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Porphobilinogen is formed from:",
+      "options": [
+        "ALA",
+        "Bilirubin",
+        "Heme",
+        "Stercobilinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After ALA formation, ALA molecules are converted into porphobilinogen (PBG) by porphobilinogen synthase. PBG is an important early pyrrole precursor in heme biosynthesis. Bilirubin and stercobilinogen belong to the degradation/excretion side of the topic, not synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that forms porphobilinogen is:",
+      "options": [
+        "Porphobilinogen synthase",
+        "Heme oxygenase",
+        "Biliverdin reductase",
+        "Methemoglobin reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Porphobilinogen synthase converts ALA into porphobilinogen. This is still part of the early heme synthesis pathway. The other enzymes are from different parts: heme oxygenase and biliverdin reductase are for heme breakdown, while methemoglobin reductase acts on methemoglobin, not heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Uroporphyrinogen III is formed by condensation of:",
+      "options": [
+        "Four porphobilinogen molecules",
+        "Two bilirubin molecules",
+        "Four heme molecules",
+        "One glycine and one succinyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Four molecules of porphobilinogen condense to form a tetrapyrrole structure, leading to uroporphyrinogen III. This is where the pathway begins forming the larger ring system needed for porphyrin and heme production. The number “four” is important because porphyrins are tetrapyrrole compounds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Formation of uroporphyrinogen III requires:",
+      "options": [
+        "Uroporphyrinogen I synthase and uroporphyrinogen III cosynthase",
+        "Heme oxygenase and biliverdin reductase",
+        "Glucuronyl transferase and albumin",
+        "Catalase and peroxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Condensation of four PBG molecules requires uroporphyrinogen I synthase and uroporphyrinogen III cosynthase to produce uroporphyrinogen III. This is a synthesis step, so do not confuse it with heme degradation enzymes like heme oxygenase or bilirubin-handling proteins like albumin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Coproporphyrinogen III is formed from uroporphyrinogen III by:",
+      "options": [
+        "Decarboxylase",
+        "Heme oxygenase",
+        "Biliverdin reductase",
+        "Carbonic anhydrase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uroporphyrinogen III is converted into coproporphyrinogen III by a decarboxylase enzyme. This step modifies side chains and moves the molecule closer to protoporphyrin formation. Heme oxygenase and biliverdin reductase are catabolic enzymes, while carbonic anhydrase is related to CO₂ transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Protoporphyrinogen III is formed from coproporphyrinogen III by:",
+      "options": [
+        "Copro-oxidase",
+        "ALA synthase",
+        "Glucuronyl transferase",
+        "Methemoglobin reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Copro-oxidase converts coproporphyrinogen III into protoporphyrinogen III. This is one of the later steps in heme biosynthesis before protoporphyrin IX and final heme formation. ALA synthase acts at the beginning, while glucuronyl transferase and methemoglobin reductase belong to different topics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heme is formed by insertion of iron into:",
+      "options": [
+        "Protoporphyrin IX",
+        "Bilirubin",
+        "Urobilinogen",
+        "Stercobilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The final step of heme synthesis is insertion of Fe²⁺ into protoporphyrin IX. This produces heme, the iron-containing porphyrin found in hemoglobin, myoglobin, cytochromes, catalase, and peroxidase. Bilirubin, urobilinogen, and stercobilin are products of heme degradation, not synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme responsible for final heme formation is referred to in the lecture as:",
+      "options": [
+        "Heme synthase",
+        "Heme oxygenase",
+        "Biliverdin reductase",
+        "ALA synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture names the final step as heme formation by heme synthase, where iron is inserted into protoporphyrin IX. Many textbooks also call this enzyme ferrochelatase. The key idea is that this step completes the conversion of protoporphyrin into heme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heme biosynthesis is regulated mainly by feedback inhibition from:",
+      "options": [
+        "Heme/hemin",
+        "Bilirubin",
+        "Stercobilin",
+        "Urobilinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When heme or hemin accumulates, it inhibits heme synthesis, especially through effects on ALA synthase. This prevents unnecessary overproduction of heme. Bilirubin, stercobilin, and urobilinogen are degradation/excretion products, so they are not the main feedback regulators of heme biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The average lifespan of red blood cells is:",
+      "options": [
+        "120 days",
+        "7 days",
+        "24 hours",
+        "1 year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red blood cells normally live about 120 days. After this, they are removed mainly by the reticuloendothelial system, and hemoglobin is degraded. This value is also clinically useful because it explains why HbA1c reflects long-term glucose exposure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heme catabolism produces:",
+      "options": [
+        "Bile pigments",
+        "Glycogen",
+        "Urea",
+        "DNA nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When heme is degraded, it forms bile pigments, mainly biliverdin and bilirubin. These pigments are then processed by the liver and excreted through bile and intestine. Urea is related to amino acid nitrogen disposal, not heme breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The green pigment produced during heme degradation is:",
+      "options": [
+        "Biliverdin",
+        "Bilirubin",
+        "Stercobilin",
+        "Urobilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme degradation first produces biliverdin, which is green. Biliverdin is then reduced to bilirubin, which is yellow-orange. This color sequence is useful for remembering the pathway: heme → biliverdin → bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biliverdin is converted into:",
+      "options": [
+        "Bilirubin",
+        "Heme",
+        "Protoporphyrin IX",
+        "Hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biliverdin reductase converts biliverdin into bilirubin. Bilirubin is the clinically important pigment that accumulates in jaundice. The trap is reversing the pathway: heme synthesis ends in heme, while heme degradation passes through biliverdin to bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal serum total bilirubin is up to approximately:",
+      "options": [
+        "1 mg/dL",
+        "5 mg/dL",
+        "10 mg/dL",
+        "25 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that normal serum total bilirubin is up to 1 mg/dL. Values above this indicate hyperbilirubinemia. Visible jaundice usually appears at higher levels, around 2–2.5 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal direct conjugated bilirubin is up to approximately:",
+      "options": [
+        "0.3 mg/dL",
+        "1 mg/dL",
+        "2.5 mg/dL",
+        "25 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Direct bilirubin, which means conjugated bilirubin, is normally up to about 0.3 mg/dL. Total bilirubin includes both direct and indirect fractions. This distinction is important in differentiating types of jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normally, indirect bilirubin is:",
+      "options": [
+        "Higher than direct bilirubin",
+        "Lower than direct bilirubin",
+        "Equal to direct bilirubin always",
+        "Completely absent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that normally indirect bilirubin is greater than direct bilirubin. Indirect bilirubin is unconjugated bilirubin, while direct bilirubin is conjugated bilirubin. In jaundice questions, identifying which fraction is increased helps determine the type and cause.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hyperbilirubinemia exists when serum bilirubin is:",
+      "options": [
+        "Greater than 1 mg/dL",
+        "Less than 0.3 mg/dL",
+        "Exactly zero",
+        "Only above 25 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to the lecture, serum bilirubin above 1 mg/dL is considered hyperbilirubinemia. However, clinical yellow discoloration usually requires a higher level. This means hyperbilirubinemia can exist before obvious jaundice appears.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Jaundice becomes clinically visible when bilirubin reaches approximately:",
+      "options": [
+        "2–2.5 mg/dL",
+        "0.3 mg/dL",
+        "1 mg/dL exactly",
+        "25 mg/dL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When bilirubin reaches about 2–2.5 mg/dL, it diffuses into tissues and causes yellow discoloration. This visible yellow discoloration is called jaundice or icterus. The trap is confusing hyperbilirubinemia >1 mg/dL with visible jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Jaundice is also called:",
+      "options": [
+        "Icterus",
+        "Cyanosis",
+        "Anemia",
+        "Hemolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jaundice is also known as icterus. It refers to yellow discoloration of skin, sclera, and tissues due to bilirubin accumulation. Cyanosis is blue discoloration due to deoxygenated hemoglobin, while hemolysis is RBC destruction that may cause jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The three major types of jaundice are:",
+      "options": [
+        "Hemolytic, hepatic, and obstructive",
+        "Acute, chronic, and latent",
+        "Renal, cardiac, and pulmonary",
+        "Genetic, nutritional, and endocrine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture divides jaundice into hemolytic, hepatic, and obstructive types. Hemolytic is before the liver, hepatic is within the liver, and obstructive is after the liver due to blockage of bile flow. This classification is the base for most jaundice MCQs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hemolytic jaundice is mainly caused by:",
+      "options": [
+        "Increased destruction of RBCs",
+        "Obstruction of bile ducts",
+        "Failure of oxygen binding by HbF",
+        "Increased HbA1c formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice occurs when RBC breakdown increases, producing more bilirubin than the liver can handle. This usually increases indirect/unconjugated bilirubin. It is different from obstructive jaundice, where bilirubin has already been conjugated but cannot flow normally into the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Obstructive jaundice is mainly caused by:",
+      "options": [
+        "Blockage of bile flow",
+        "Increased RBC destruction only",
+        "Increased HbA1c formation",
+        "Excess oxygen unloading"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Obstructive jaundice occurs when bile cannot flow properly from the liver to the intestine. This leads to accumulation of conjugated bilirubin in blood. It is classically associated with dark urine and pale/clay-colored stool because bile pigments cannot reach the intestine normally.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Physiological jaundice of newborns is most commonly:",
+      "options": [
+        "Unconjugated hyperbilirubinemia",
+        "Conjugated hyperbilirubinemia only",
+        "Caused by bile duct obstruction in all cases",
+        "Caused by HbA1c accumulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physiological neonatal jaundice is usually due to increased unconjugated bilirubin. Newborns have increased RBC breakdown and immature hepatic uptake, conjugation, and excretion. The key enzyme problem is low activity of hepatic glucuronyl transferase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Physiological jaundice of newborns is partly due to:",
+      "options": [
+        "Immature hepatic uptake, conjugation, and excretion of bilirubin",
+        "Excessive HbA1c formation",
+        "Complete bile duct obstruction in all newborns",
+        "Increased adult HbA2 synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newborns have high RBC turnover and immature liver handling of bilirubin. Their hepatic uptake, glucuronidation, and excretion are not fully mature. This causes unconjugated bilirubin to accumulate temporarily, producing physiological jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Severe unconjugated hyperbilirubinemia in newborns may cause:",
+      "options": [
+        "Kernicterus",
+        "Carboxyhemoglobinemia",
+        "Cyanide poisoning",
+        "HbA1c elevation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If unconjugated bilirubin becomes very high, it can exceed albumin-binding capacity and deposit in the brain, causing kernicterus. This is dangerous because unconjugated bilirubin is lipid-soluble and can cross into nervous tissue when levels are severe.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phototherapy treats neonatal jaundice mainly by:",
+      "options": [
+        "Converting bilirubin into more easily excreted isomers",
+        "Increasing HbA1c formation",
+        "Blocking RBC destruction completely",
+        "Opening obstructed bile ducts surgically"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phototherapy converts bilirubin into geometric/photoisomers that can be excreted more easily. This helps reduce unconjugated bilirubin even when the newborn’s conjugation system is immature. It is a key treatment for physiological neonatal jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best represents the early steps of heme biosynthesis?",
+      "options": [
+        "Glycine + succinyl-CoA → ALA → porphobilinogen",
+        "Heme → biliverdin → bilirubin",
+        "Bilirubin → stercobilinogen → ALA",
+        "Glucose → pyruvate → bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme synthesis starts with glycine and succinyl-CoA forming ALA, then ALA is converted into porphobilinogen. This is the synthetic/anabolic side of heme metabolism. Option B is the degradation side, so it is a common trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best represents the later steps of heme biosynthesis?",
+      "options": [
+        "Uroporphyrinogen III → coproporphyrinogen III → protoporphyrinogen III → protoporphyrin IX → heme",
+        "Bilirubin → biliverdin → heme",
+        "Heme → bilirubin → ALA",
+        "Stercobilinogen → uroporphyrinogen → heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After porphobilinogen condensation, the pathway progresses through uroporphyrinogen III, coproporphyrinogen III, protoporphyrinogen III, protoporphyrin IX, and finally heme. The final step is iron insertion into protoporphyrin IX. The trap is reversing synthesis with degradation products like bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is most directly inhibited when heme/hemin accumulates?",
+      "options": [
+        "ALA synthase",
+        "Biliverdin reductase",
+        "Glucuronyl transferase",
+        "Methemoglobin reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase is the main regulatory enzyme of heme biosynthesis. When heme or hemin accumulates, it feeds back to inhibit ALA synthase and reduce further heme production. The other enzymes are not the key control point of heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is ALA synthase considered a key control point in heme synthesis?",
+      "options": [
+        "It catalyzes the first committed step of the pathway",
+        "It converts bilirubin into urobilinogen",
+        "It oxidizes heme into biliverdin",
+        "It conjugates bilirubin in the liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase starts the heme synthesis pathway by forming ALA from glycine and succinyl-CoA. Since it is early and regulated by heme/hemin feedback, controlling this enzyme controls the rate of the pathway. Bilirubin-related enzymes belong to the catabolic side.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which intermediate is formed immediately before final heme formation?",
+      "options": [
+        "Protoporphyrin IX",
+        "Biliverdin",
+        "Bilirubin diglucuronide",
+        "Stercobilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme is formed when Fe²⁺ is inserted into protoporphyrin IX. Therefore, protoporphyrin IX is the immediate precursor of heme. Biliverdin, bilirubin conjugates, and stercobilin are formed after heme breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which metal is inserted into protoporphyrin IX to form heme?",
+      "options": [
+        "Fe²⁺",
+        "Mg²⁺",
+        "Zn²⁺",
+        "Cu²⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme is an iron porphyrin, so Fe²⁺ is inserted into protoporphyrin IX. Magnesium is associated with chlorophyll, not heme. Zinc and copper are important in other metalloproteins, but not the central metal of heme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes heme synthesis from heme degradation?",
+      "options": [
+        "Heme synthesis builds heme from small precursors; heme degradation breaks heme into bile pigments",
+        "Heme synthesis produces bilirubin first; degradation produces ALA first",
+        "Both pathways start with bilirubin",
+        "Both pathways occur only in bile ducts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme synthesis starts with glycine and succinyl-CoA and ends with heme. Heme degradation starts with heme and produces biliverdin and bilirubin. Many exam questions test whether you can keep these two directions separate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The first major pigment formed after heme ring opening is:",
+      "options": [
+        "Biliverdin",
+        "Bilirubin",
+        "Stercobilin",
+        "Urobilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme degradation first forms biliverdin, which is green. Biliverdin is then reduced to bilirubin. Stercobilin and urobilin are later intestinal/urinary pigment products, not the first product of heme ring opening.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme converts biliverdin into bilirubin?",
+      "options": [
+        "Biliverdin reductase",
+        "ALA synthase",
+        "Heme synthase",
+        "Porphobilinogen synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biliverdin reductase reduces biliverdin to bilirubin. The name helps: it acts on biliverdin, not ALA or porphobilinogen. ALA synthase and porphobilinogen synthase belong to heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which bilirubin fraction is also called indirect bilirubin?",
+      "options": [
+        "Unconjugated bilirubin",
+        "Conjugated bilirubin",
+        "Stercobilin",
+        "Urobilin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indirect bilirubin means unconjugated bilirubin. It is not water-soluble enough to be excreted directly in urine and must be transported to the liver for conjugation. Direct bilirubin means conjugated bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which bilirubin fraction is also called direct bilirubin?",
+      "options": [
+        "Conjugated bilirubin",
+        "Unconjugated bilirubin",
+        "Biliverdin",
+        "Heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Direct bilirubin is conjugated bilirubin, formed in the liver after bilirubin is conjugated with glucuronic acid. It is more water-soluble than unconjugated bilirubin. This distinction is central to differentiating jaundice types.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does unconjugated bilirubin require transport in blood bound to albumin?",
+      "options": [
+        "It is poorly water-soluble",
+        "It is already excreted in urine",
+        "It is a protein enzyme",
+        "It is a form of hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconjugated bilirubin is hydrophobic and poorly water-soluble, so it travels in plasma bound to albumin. This binding prevents free bilirubin from diffusing into tissues too easily. In newborns, very high levels can exceed binding capacity and become dangerous.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Bilirubin conjugation mainly occurs in the:",
+      "options": [
+        "Liver",
+        "Bone marrow",
+        "Kidney glomerulus",
+        "Red blood cell cytoplasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconjugated bilirubin is taken up by the liver and conjugated there, mainly by glucuronyl transferase. Conjugation makes bilirubin more water-soluble and suitable for biliary excretion. Bone marrow makes hemoglobin but does not conjugate bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Conjugation of bilirubin increases its:",
+      "options": [
+        "Water solubility",
+        "Oxygen affinity",
+        "Ability to bind hemoglobin",
+        "Ability to form ALA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugation adds glucuronic acid groups to bilirubin, making it more water-soluble. This allows conjugated bilirubin to be excreted into bile. The major exam idea is: unconjugated is poorly soluble; conjugated is water-soluble.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which bilirubin form can appear in urine more easily?",
+      "options": [
+        "Conjugated bilirubin",
+        "Unconjugated bilirubin bound to albumin",
+        "Heme",
+        "Protoporphyrin IX"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated bilirubin is water-soluble, so it can be filtered/excreted into urine when it accumulates in blood. Unconjugated bilirubin is albumin-bound and not easily excreted in urine. This is a key difference in jaundice interpretation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In hemolytic jaundice, the main bilirubin increase is usually:",
+      "options": [
+        "Indirect unconjugated bilirubin",
+        "Direct conjugated bilirubin only",
+        "No bilirubin change",
+        "Stercobilin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice results from increased RBC destruction, producing excess heme and therefore excess bilirubin before conjugation. The liver may be normal but overloaded. So indirect/unconjugated bilirubin rises mainly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In obstructive jaundice, the main bilirubin increase is usually:",
+      "options": [
+        "Direct conjugated bilirubin",
+        "Indirect unconjugated bilirubin only",
+        "No bilirubin increase",
+        "Hemoglobin A1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obstructive jaundice, the liver can conjugate bilirubin, but bile cannot flow normally into the intestine. Conjugated bilirubin backs up into blood, causing increased direct bilirubin. This explains dark urine and pale stools.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which finding is most typical of obstructive jaundice?",
+      "options": [
+        "Clay-colored stool",
+        "Increased stool stercobilinogen",
+        "No bilirubin in blood",
+        "Increased HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obstruction, conjugated bilirubin cannot reach the intestine. Since intestinal bilirubin metabolites form stool pigment, lack of bile pigment causes pale or clay-colored stool. This is a very high-yield sign of obstructive jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is urine dark in obstructive jaundice?",
+      "options": [
+        "Conjugated bilirubin backs up into blood and is excreted in urine",
+        "Unconjugated bilirubin is freely filtered in urine",
+        "Hemoglobin converts directly to glucose",
+        "Stercobilinogen accumulates only in stool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated bilirubin is water-soluble. In obstruction, it cannot enter the intestine normally, so it regurgitates into blood and appears in urine, making urine dark. Unconjugated bilirubin is albumin-bound and does not appear in urine easily.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In complete bile duct obstruction, urinary urobilinogen is usually:",
+      "options": [
+        "Absent or decreased",
+        "Markedly increased",
+        "Converted into HbA1c",
+        "The same as in hemolytic jaundice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Urobilinogen is formed in the intestine from bilirubin. If bile cannot reach the intestine because of obstruction, little or no urobilinogen is formed. This is why obstructive jaundice can show absent urinary urobilinogen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In hemolytic jaundice, urinary urobilinogen is usually increased because:",
+      "options": [
+        "More bilirubin reaches the intestine and produces more urobilinogen",
+        "Bile flow is completely blocked",
+        "Direct bilirubin cannot be formed",
+        "HbA1c is increased"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In hemolysis, increased bilirubin production leads to more conjugated bilirubin entering bile and then the intestine. Intestinal bacteria convert more bilirubin into urobilinogen, so urinary urobilinogen tends to rise. The trap is confusing this with obstruction, where bilirubin cannot reach the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which jaundice type is most associated with increased RBC destruction?",
+      "options": [
+        "Hemolytic jaundice",
+        "Obstructive jaundice",
+        "Physiological neonatal jaundice only",
+        "Drug-induced cholestasis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice is caused by excessive breakdown of RBCs. This increases heme degradation and bilirubin production. The liver may conjugate more bilirubin, but if production exceeds capacity, unconjugated bilirubin rises.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which jaundice type is most associated with liver cell dysfunction?",
+      "options": [
+        "Hepatic jaundice",
+        "Hemolytic jaundice only",
+        "Obstructive jaundice only",
+        "Carboxyhemoglobinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatic jaundice occurs due to liver cell disease or dysfunction, affecting uptake, conjugation, or excretion of bilirubin. It may show mixed features because the problem is inside the liver. Hemolytic is prehepatic; obstructive is posthepatic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which jaundice type is most associated with blockage after bilirubin has been conjugated?",
+      "options": [
+        "Obstructive jaundice",
+        "Hemolytic jaundice",
+        "Physiological neonatal jaundice",
+        "Methemoglobinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Obstructive jaundice occurs after conjugation, when bile flow is blocked. Conjugated bilirubin cannot reach the intestine and returns to blood. Therefore, direct bilirubin increases and urine becomes dark.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern best fits hemolytic jaundice?",
+      "options": [
+        "Increased indirect bilirubin with increased urobilinogen formation",
+        "Increased direct bilirubin with absent stool pigment",
+        "No bilirubin production",
+        "Increased HbA1c only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolysis increases heme breakdown, increasing bilirubin production before conjugation. More bilirubin may also reach the intestine, increasing urobilinogen. Clay stool is more typical of obstruction, not hemolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern best fits obstructive jaundice?",
+      "options": [
+        "Increased direct bilirubin, dark urine, clay-colored stool",
+        "Increased indirect bilirubin only, normal stool color",
+        "Decreased total bilirubin",
+        "Increased HbF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obstruction, conjugated bilirubin backs up into blood and urine, causing dark urine. At the same time, little bilirubin reaches the intestine, so stercobilin formation falls and stool becomes pale/clay-colored. This pattern is a classic exam clue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains clay-colored stool in obstructive jaundice?",
+      "options": [
+        "Lack of bilirubin reaching intestine decreases stercobilin formation",
+        "Excess hemolysis increases stool pigment",
+        "Unconjugated bilirubin is filtered into stool directly",
+        "HbA1c accumulates in intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stool color depends on intestinal bile pigment metabolites such as stercobilin. If bile flow is obstructed, bilirubin does not reach the intestine, so stercobilin decreases and stool becomes pale. This is one of the strongest signs of obstructive jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains dark urine in obstructive jaundice?",
+      "options": [
+        "Water-soluble conjugated bilirubin is excreted in urine",
+        "Albumin-bound unconjugated bilirubin is freely filtered",
+        "Stercobilin is produced excessively in urine",
+        "Heme synthesis increases in kidney"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated bilirubin is water-soluble, so when it accumulates in blood it can appear in urine and darken it. Unconjugated bilirubin is poorly water-soluble and albumin-bound, so it does not appear in urine easily.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would most likely cause absent fecal stercobilinogen?",
+      "options": [
+        "Obstruction of bile duct",
+        "Mild hemolysis",
+        "Increased RBC breakdown with normal bile flow",
+        "Increased HbA1c formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fecal stercobilinogen depends on bilirubin reaching the intestine. In bile duct obstruction, bilirubin cannot enter the gut, so stercobilinogen and stercobilin in stool decrease. This produces pale/clay-colored stool.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition is characterized by increased serum bilirubin and absent urinary urobilinogen?",
+      "options": [
+        "Obstruction of bile duct",
+        "Hemolytic jaundice",
+        "Normal bilirubin metabolism",
+        "Increased HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In complete obstruction, bilirubin cannot reach the intestine, so intestinal urobilinogen formation is reduced or absent. At the same time, conjugated bilirubin accumulates in blood. This combination strongly suggests obstructive jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In physiological neonatal jaundice, increased bilirubin production is partly due to:",
+      "options": [
+        "Increased RBC destruction in newborns",
+        "Increased adult HbA2 production",
+        "Complete absence of albumin",
+        "Carbon monoxide poisoning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newborns have a high number of red cells and relatively increased RBC turnover. This produces more bilirubin. Combined with immature liver conjugation and excretion, this leads to physiological unconjugated jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which liver enzyme activity is decreased in physiological neonatal jaundice?",
+      "options": [
+        "Hepatic glucuronyl transferase",
+        "Carbonic anhydrase",
+        "Methemoglobin reductase",
+        "Cytochrome oxidase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newborns have reduced activity of hepatic glucuronyl transferase, so bilirubin conjugation is immature. This leads mainly to unconjugated hyperbilirubinemia. Carbonic anhydrase is related to CO₂ transport, not bilirubin conjugation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is unconjugated bilirubin dangerous at very high levels in newborns?",
+      "options": [
+        "It can exceed albumin binding and deposit in the brain",
+        "It is always excreted rapidly in urine",
+        "It directly forms HbA1c",
+        "It blocks oxygen binding like CO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconjugated bilirubin is lipid-soluble and normally carried bound to albumin. If levels become very high, binding capacity can be exceeded, allowing bilirubin to enter brain tissue and cause kernicterus. This is why severe neonatal jaundice is urgent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In newborns, kernicterus is most associated with:",
+      "options": [
+        "Severe unconjugated hyperbilirubinemia",
+        "Mild conjugated hyperbilirubinemia only",
+        "Increased HbA1c",
+        "Carbon monoxide exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kernicterus results from deposition of unconjugated bilirubin in the brain. It is classically associated with severe neonatal unconjugated hyperbilirubinemia, especially when bilirubin exceeds albumin-binding capacity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phototherapy helps neonatal jaundice because it:",
+      "options": [
+        "Makes bilirubin easier to excrete without relying fully on normal conjugation",
+        "Increases RBC destruction",
+        "Blocks bilirubin excretion",
+        "Converts bilirubin back into heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phototherapy converts bilirubin into photoisomers that are more easily excreted. This is useful because the newborn’s conjugation system is immature. It reduces unconjugated bilirubin and prevents complications like kernicterus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenobarbital helps neonatal jaundice mainly by:",
+      "options": [
+        "Inducing bilirubin-conjugating enzymes",
+        "Destroying bilirubin in plasma directly",
+        "Blocking bile flow",
+        "Increasing HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital induces enzymes involved in bilirubin conjugation, helping the liver process bilirubin more effectively. In the lecture, it is listed as a treatment because it induces bilirubin-conjugating enzymes. It does not directly destroy bilirubin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which treatment is most directly based on changing bilirubin into excretable isomers?",
+      "options": [
+        "Phototherapy",
+        "Phenobarbital",
+        "Sodium nitrite",
+        "Inosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phototherapy converts bilirubin into forms that can be excreted more easily. Phenobarbital works differently by enzyme induction. Sodium nitrite is used in cyanide poisoning, while inosine is related to preserving 2,3-BPG in stored blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which treatment works mainly by enzyme induction?",
+      "options": [
+        "Phenobarbital",
+        "Phototherapy",
+        "Sodium nitrite",
+        "Albumin electrophoresis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital induces bilirubin-conjugating enzymes, improving bilirubin conjugation. Phototherapy does not induce enzymes; it changes bilirubin structure using light. The mechanism difference is important in treatment questions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which bilirubin level is especially dangerous in newborns according to the lecture?",
+      "options": [
+        "Unconjugated bilirubin > 25 mg/dL",
+        "Direct bilirubin 0.2 mg/dL",
+        "Total bilirubin 0.8 mg/dL",
+        "Direct bilirubin 0.3 mg/dL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that if plasma unconjugated bilirubin exceeds about 25 mg/dL, it may exceed plasma protein binding capacity and deposit in the brain, causing kernicterus. This number is specific and high-yield for neonatal jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which finding is more consistent with unconjugated hyperbilirubinemia?",
+      "options": [
+        "Bilirubin is poorly water-soluble and albumin-bound",
+        "Bilirubin is freely excreted in urine",
+        "Bilirubin has already been conjugated by liver",
+        "Bile duct obstruction is always the cause"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconjugated bilirubin is indirect, lipid-soluble, and transported bound to albumin. Because of albumin binding, it does not appear easily in urine. This is why unconjugated neonatal jaundice can be dangerous if binding capacity is exceeded.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which finding is more consistent with conjugated hyperbilirubinemia?",
+      "options": [
+        "Water-soluble bilirubin may appear in urine",
+        "Bilirubin must remain albumin-bound",
+        "It cannot be excreted at all",
+        "It is always due to hemolysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated bilirubin is direct and water-soluble. If it accumulates in blood, it can be excreted in urine, causing dark urine. This is especially important in obstructive jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern best separates hemolytic from obstructive jaundice?",
+      "options": [
+        "Hemolytic: more indirect bilirubin; obstructive: more direct bilirubin with pale stool",
+        "Hemolytic: direct bilirubin only; obstructive: no bilirubin",
+        "Both always produce clay stool",
+        "Both have absent urobilinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice increases bilirubin production before conjugation, so indirect bilirubin predominates. Obstructive jaundice occurs after conjugation, so direct bilirubin backs up, urine becomes dark, and stool becomes pale due to lack of intestinal pigment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern best separates hepatic jaundice from the other types?",
+      "options": [
+        "It may involve impaired uptake, conjugation, and/or excretion within liver cells",
+        "It is always only due to RBC destruction",
+        "It is always only due to complete bile duct obstruction",
+        "It is unrelated to bilirubin metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatic jaundice is due to liver cell dysfunction, so more than one step can be affected. This may create mixed patterns of direct and indirect bilirubin. Hemolytic is mainly overproduction, while obstructive is mainly impaired bile flow after conjugation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about bilirubin values is correct?",
+      "options": [
+        "Total bilirubin normally up to 1 mg/dL; direct bilirubin up to 0.3 mg/dL",
+        "Total bilirubin normally up to 25 mg/dL",
+        "Direct bilirubin is normally higher than indirect bilirubin",
+        "Jaundice is visible only above 25 mg/dL in adults"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture gives normal total bilirubin up to 1 mg/dL and direct bilirubin up to 0.3 mg/dL. Visible jaundice usually appears around 2–2.5 mg/dL. The 25 mg/dL value is linked to severe neonatal unconjugated bilirubin risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best connects RBC lifespan to bilirubin production?",
+      "options": [
+        "RBCs live about 120 days, then Hb breakdown contributes to bilirubin formation",
+        "RBCs live 24 hours and do not produce bilirubin",
+        "RBC destruction prevents heme catabolism",
+        "RBCs convert bilirubin back to heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Old RBCs are destroyed after about 120 days, and their hemoglobin is degraded. The heme portion is converted into bile pigments, eventually bilirubin. Increased RBC destruction increases bilirubin production and may cause hemolytic jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best connects heme degradation to stool color?",
+      "options": [
+        "Intestinal bilirubin metabolites such as stercobilin contribute to stool color",
+        "Heme degradation prevents stool pigmentation",
+        "Stool color depends only on HbA1c",
+        "Obstruction increases stercobilin in stool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bilirubin reaching the intestine is converted into pigments including stercobilin, which contributes to normal stool color. If bile flow is blocked, less pigment reaches the intestine and stool becomes pale or clay-colored.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best connects bilirubin metabolism to urine color in obstruction?",
+      "options": [
+        "Conjugated bilirubin backs up into blood and is excreted in urine, making it dark",
+        "Unconjugated bilirubin freely filters and makes urine dark",
+        "Stercobilin increases in urine in obstruction",
+        "Bilirubin cannot affect urine color"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obstruction, conjugated bilirubin cannot drain into bile normally. It returns to blood and is excreted in urine because it is water-soluble. This produces dark urine, while the stool becomes pale.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is the best explanation for increased urobilinogen in hemolysis?",
+      "options": [
+        "Increased bilirubin delivery to intestine increases urobilinogen formation",
+        "Bile duct obstruction blocks all intestinal pigment formation",
+        "Unconjugated bilirubin is excreted directly in urine",
+        "HbA1c is converted into urobilinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolysis increases heme breakdown and bilirubin production. More conjugated bilirubin reaches the intestine, where bacteria form more urobilinogen. This contrasts with obstruction, where little bilirubin reaches the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is the best explanation for decreased/absent urobilinogen in obstruction?",
+      "options": [
+        "Bilirubin cannot reach the intestine to form urobilinogen",
+        "RBC destruction is massively increased",
+        "HbA1c blocks urobilinogen formation",
+        "Biliverdin reductase is overactive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Urobilinogen forms in the intestine from bilirubin. If bile flow is obstructed, bilirubin cannot enter the intestine, so urobilinogen formation decreases or disappears. This is a major differentiating point from hemolytic jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which option best summarizes neonatal physiological jaundice?",
+      "options": [
+        "Increased RBC destruction plus immature liver conjugation causes unconjugated hyperbilirubinemia",
+        "Bile duct obstruction causes direct bilirubin accumulation in all newborns",
+        "HbA1c accumulation causes yellow skin",
+        "Cyanide toxicity blocks bilirubin excretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newborns have increased RBC breakdown and immature hepatic bilirubin handling, especially reduced glucuronyl transferase activity. This leads mainly to unconjugated hyperbilirubinemia. Severe cases are dangerous because unconjugated bilirubin can deposit in the brain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has increased RBC destruction with elevated indirect bilirubin. Which type of jaundice is most likely?",
+      "options": [
+        "Hemolytic jaundice",
+        "Obstructive jaundice",
+        "HbA1c-related jaundice",
+        "Cyanide-induced jaundice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice occurs when RBC destruction increases, causing excess heme breakdown and bilirubin production. Because the bilirubin load is produced before liver conjugation, indirect/unconjugated bilirubin rises mainly. The key trap is confusing this with obstructive jaundice, where conjugated/direct bilirubin rises because bile flow is blocked.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has dark urine, clay-colored stool, and increased direct bilirubin. Which type of jaundice is most likely?",
+      "options": [
+        "Obstructive jaundice",
+        "Hemolytic jaundice",
+        "Physiological neonatal jaundice",
+        "Methemoglobinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Obstructive jaundice occurs when conjugated bilirubin cannot flow through bile ducts into the intestine. Since conjugated bilirubin is water-soluble, it backs up into blood and appears in urine, causing dark urine. Stool becomes clay-colored because bilirubin does not reach the intestine to form stercobilin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has liver cell injury affecting bilirubin uptake, conjugation, and excretion. Which jaundice type best fits?",
+      "options": [
+        "Hepatic jaundice",
+        "Hemolytic jaundice",
+        "Pure obstructive jaundice",
+        "Carboxyhemoglobinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatic jaundice occurs due to liver dysfunction. Because hepatocytes are involved in uptake, conjugation, and excretion, liver disease can disturb more than one step. This can create a mixed bilirubin pattern, unlike hemolytic jaundice, which mainly increases bilirubin production, or obstructive jaundice, which mainly blocks bile flow.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A jaundiced patient has absent urinary urobilinogen. Which mechanism best explains this?",
+      "options": [
+        "Bilirubin cannot reach the intestine",
+        "RBC destruction is increased",
+        "Bilirubin conjugation is excessive",
+        "HbA1c is increased"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Urobilinogen is formed in the intestine from bilirubin. If bile flow is obstructed, bilirubin cannot enter the intestine, so urobilinogen formation decreases or becomes absent. This is a classic feature of obstructive jaundice and helps separate it from hemolytic jaundice, where urobilinogen usually increases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A jaundiced patient has increased urinary urobilinogen without clay-colored stool. Which mechanism is most likely?",
+      "options": [
+        "Increased bilirubin production due to hemolysis",
+        "Complete bile duct obstruction",
+        "Failure of bile to enter intestine",
+        "Absence of bilirubin formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In hemolysis, more heme is broken down, producing more bilirubin. The liver conjugates much of it and sends it to the intestine, where more urobilinogen is formed. This leads to increased urinary urobilinogen. Clay-colored stool is more typical of obstruction, where bilirubin cannot reach the gut.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pattern is most consistent with complete obstructive jaundice?",
+      "options": [
+        "Increased direct bilirubin, dark urine, absent/decreased urobilinogen, clay stool",
+        "Increased indirect bilirubin, increased urobilinogen, normal stool color",
+        "Normal bilirubin, dark urine, normal stool",
+        "Increased HbA1c, normal bilirubin, pale stool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In complete obstruction, bilirubin is conjugated but cannot pass into the intestine. Direct bilirubin backs up into blood and urine, making urine dark. Little bilirubin reaches the gut, so urobilinogen and stercobilin fall, leading to pale or clay-colored stool.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pattern is most consistent with hemolytic jaundice?",
+      "options": [
+        "Increased indirect bilirubin and increased urobilinogen",
+        "Increased direct bilirubin and clay-colored stool",
+        "Absent urobilinogen and dark urine only",
+        "Increased HbA1c and normal bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolytic jaundice is driven by excess RBC breakdown. This increases unconjugated bilirubin production, and more bilirubin may eventually reach the intestine after conjugation, increasing urobilinogen. The stool is not classically clay-colored because bile flow is not blocked.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newborn develops jaundice due to high RBC turnover and low glucuronyl transferase activity. Which bilirubin fraction is expected to rise mainly?",
+      "options": [
+        "Indirect unconjugated bilirubin",
+        "Direct conjugated bilirubin",
+        "Stercobilin only",
+        "HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physiological neonatal jaundice is mainly unconjugated. Newborns produce more bilirubin due to increased RBC destruction, and their liver conjugation capacity is immature because glucuronyl transferase activity is low. Therefore, bilirubin accumulates before conjugation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newborn has unconjugated bilirubin above 25 mg/dL. What is the major feared complication?",
+      "options": [
+        "Kernicterus",
+        "Carboxyhemoglobinemia",
+        "Obstructive jaundice with clay stool only",
+        "HbA2 elevation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Very high unconjugated bilirubin can exceed albumin-binding capacity. Because unconjugated bilirubin is lipid-soluble, it can enter brain tissue and cause kernicterus. This is why severe neonatal jaundice requires urgent management.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is unconjugated bilirubin more dangerous to the newborn brain than conjugated bilirubin?",
+      "options": [
+        "It is lipid-soluble and can cross into tissues when unbound",
+        "It is freely excreted in urine",
+        "It is always trapped in bile ducts",
+        "It forms HbA1c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconjugated bilirubin is poorly water-soluble and travels bound to albumin. If the level becomes too high, free bilirubin can enter lipid-rich tissues such as the brain. Conjugated bilirubin is more water-soluble and is less associated with kernicterus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-091",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which treatment is most appropriate for reducing unconjugated bilirubin by converting it into excretable isomers?",
+      "options": [
+        "Phototherapy",
+        "Sodium nitrite",
+        "Inosine",
+        "Carbon monoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phototherapy changes bilirubin into photoisomers/geometric isomers that are more easily excreted. This is especially useful in newborns because their conjugation system is immature. Sodium nitrite is used for cyanide poisoning, not neonatal jaundice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-092",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which treatment helps neonatal jaundice by inducing bilirubin-conjugating enzymes?",
+      "options": [
+        "Phenobarbital",
+        "Phototherapy",
+        "Methemoglobin reductase",
+        "ALA synthase inhibitor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenobarbital induces hepatic enzymes involved in bilirubin conjugation. This improves the newborn’s ability to convert unconjugated bilirubin into a more water-soluble conjugated form. Phototherapy works differently: it changes bilirubin into excretable isomers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-093",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which comparison between phototherapy and phenobarbital is correct?",
+      "options": [
+        "Phototherapy changes bilirubin isomers; phenobarbital induces conjugating enzymes",
+        "Phototherapy induces glucuronyl transferase; phenobarbital blocks bilirubin excretion",
+        "Both work by forming methemoglobin",
+        "Both are used mainly for carbon monoxide poisoning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phototherapy makes bilirubin easier to excrete by changing its structure. Phenobarbital increases the liver’s conjugating capacity by enzyme induction. They both reduce bilirubin, but by different mechanisms, which is a common exam distinction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-094",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option correctly matches bilirubin type with urine appearance?",
+      "options": [
+        "Conjugated bilirubin can darken urine because it is water-soluble",
+        "Unconjugated bilirubin always appears freely in urine",
+        "Biliverdin is the main urinary pigment in obstructive jaundice",
+        "Heme is directly filtered into urine in all jaundice types"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugated bilirubin is water-soluble, so it can be excreted in urine when blood levels rise, producing dark urine. Unconjugated bilirubin is albumin-bound and poorly water-soluble, so it is not freely filtered into urine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-095",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has jaundice but no bilirubin reaches the intestine. Which stool finding is expected?",
+      "options": [
+        "Clay-colored stool",
+        "Very dark brown stool from excess stercobilin",
+        "No change in stool color",
+        "Green stool from excess biliverdin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal brown stool color depends on bilirubin metabolites, especially stercobilin. If bilirubin cannot reach the intestine, stercobilin formation decreases, producing pale or clay-colored stool. This strongly suggests obstruction of bile flow.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-096",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option correctly matches the pathway direction?",
+      "options": [
+        "Heme degradation: heme → biliverdin → bilirubin",
+        "Heme synthesis: bilirubin → biliverdin → heme",
+        "Bilirubin excretion: glycine → ALA → bilirubin",
+        "Jaundice formation: HbA1c → uroporphyrinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heme degradation begins with heme and produces biliverdin, then bilirubin. Heme synthesis runs in the opposite conceptual direction, starting with glycine and succinyl-CoA and ending in heme. Keeping synthesis and degradation separate prevents many mistakes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-097",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best connects heme biosynthesis regulation with clinical logic?",
+      "options": [
+        "Heme/hemin accumulation inhibits ALA synthase to prevent excess heme production",
+        "Bilirubin activates ALA synthase to increase heme synthesis",
+        "Stercobilin is the main inhibitor of heme synthesis",
+        "Urobilinogen inserts iron into protoporphyrin IX"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase is the major regulated step in heme synthesis. When heme or hemin accumulates, it feeds back and decreases further synthesis. This is a classic negative feedback mechanism: the final product inhibits an early step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-098",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best explains why obstructive jaundice increases direct bilirubin rather than only indirect bilirubin?",
+      "options": [
+        "The liver conjugates bilirubin, but conjugated bilirubin cannot drain into bile",
+        "RBC destruction produces only direct bilirubin",
+        "The liver cannot form any conjugated bilirubin",
+        "Unconjugated bilirubin is converted directly to stool pigment in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obstruction, conjugation can still occur, but bile flow is blocked after conjugation. Direct bilirubin backs up into blood and may appear in urine. This is why obstructive jaundice is mainly a conjugated/direct hyperbilirubinemia pattern.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best explains why hemolytic jaundice is usually not associated with clay-colored stool?",
+      "options": [
+        "Bile flow to the intestine is not blocked, so stool pigment can still form",
+        "Direct bilirubin cannot be formed at all",
+        "Stercobilin formation is always absent",
+        "Hemolysis prevents bilirubin from reaching the liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In hemolytic jaundice, the problem is increased bilirubin production, not blockage of bile flow. The liver can still send conjugated bilirubin into the intestine, so stercobilin formation continues and may even increase. Clay stool points much more toward obstruction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-heme-metabolism-jaundice-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newborn has jaundice due to immature bilirubin conjugation. Which combined management logic is most accurate?",
+      "options": [
+        "Phototherapy helps excretion by isomerization; phenobarbital may help by inducing conjugating enzymes",
+        "Sodium nitrite binds bilirubin directly; inosine conjugates bilirubin",
+        "Phototherapy blocks RBC destruction; phenobarbital removes bile duct obstruction",
+        "Both treatments work by converting bilirubin back to heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physiological neonatal jaundice is mainly unconjugated because the liver is immature. Phototherapy bypasses part of this limitation by making bilirubin easier to excrete, while phenobarbital improves conjugation enzyme activity. The key is knowing that they reduce bilirubin through different mechanisms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
