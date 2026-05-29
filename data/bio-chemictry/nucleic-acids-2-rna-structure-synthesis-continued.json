@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-2-rna-structure-synthesis-continued",
   "topicName": "Nucleic Acids 2 — RNA Structure & Synthesis Continued",
-  "updatedAt": "2026-05-29T21:59:55.259Z",
+  "updatedAt": "2026-05-29T22:03:30.888Z",
   "questions": [
     {
       "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-001",
@@ -595,6 +595,1111 @@
       ],
       "correctAnswer": 0,
       "explanation": "Translation is the process of protein synthesis. The ribosome reads codons in mRNA and uses tRNAs to add the correct amino acids to the growing polypeptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNA polymerase is most directly responsible for producing the precursor of mRNA?",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase II",
+        "RNA polymerase III",
+        "DNA polymerase III"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RNA polymerase II synthesizes the precursors of mRNAs that are later processed and translated into proteins. RNA polymerase I mainly produces large rRNA precursors, while RNA polymerase III produces tRNAs, 5S rRNA, and some snRNAs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNA polymerase works mainly in the nucleolus?",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase II",
+        "RNA polymerase III",
+        "DNA polymerase I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase I synthesizes the precursor of large rRNAs in the nucleolus. These include 28S, 18S, and 5.8S rRNAs. The nucleolus is the major site of ribosomal RNA production and ribosome assembly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNA polymerase produces tRNA?",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase II",
+        "RNA polymerase III",
+        "DNA polymerase α"
+      ],
+      "correctAnswer": 2,
+      "explanation": "RNA polymerase III produces small RNAs, including tRNAs, 5S rRNA, and some snRNAs. This is a common exam point because RNA polymerase II makes mRNA precursors, not tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNA polymerase produces 5S rRNA?",
+      "options": [
+        "RNA polymerase I",
+        "RNA polymerase II",
+        "RNA polymerase III",
+        "DNA polymerase β"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Although RNA polymerase I produces the large rRNA precursor containing 28S, 18S, and 5.8S rRNAs, RNA polymerase III produces the small 5S rRNA. This distinction is a classic trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination is correct?",
+      "options": [
+        "RNA polymerase I — mRNA precursor",
+        "RNA polymerase II — tRNA",
+        "RNA polymerase III — 28S rRNA precursor",
+        "RNA polymerase II — pre-mRNA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RNA polymerase II synthesizes pre-mRNA, which is processed into mature mRNA. RNA polymerase I makes large rRNA precursors, while RNA polymerase III makes tRNA, 5S rRNA, and some snRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which promoter element is usually located closer to the transcription start site?",
+      "options": [
+        "TATA box",
+        "CAAT box",
+        "Poly-A tail",
+        "Enhancer always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TATA box is usually centered about 25 nucleotides upstream of the transcription start site. The CAAT box is usually farther upstream, around 70–80 nucleotides before the start site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which promoter element is usually located around 70–80 nucleotides upstream?",
+      "options": [
+        "CAAT box",
+        "TATA box",
+        "5′ cap",
+        "Stop codon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CAAT box is a consensus promoter sequence located about 70–80 nucleotides upstream of the transcription start site. It can help serve as a recognition site in eukaryotic promoters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the TATA and CAAT boxes?",
+      "options": [
+        "They are promoter recognition sequences for eukaryotic mRNA synthesis",
+        "They are introns removed by spliceosomes",
+        "They are codons used directly during translation",
+        "They are ribosomal subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TATA and CAAT boxes are DNA sequences found in eukaryotic promoter regions. They help RNA polymerase II and transcription factors recognize where transcription should begin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "An enhancer increases transcription mainly by:",
+      "options": [
+        "Binding enhancer-binding proteins that interact with promoter-bound transcription factors",
+        "Removing introns directly from pre-mRNA",
+        "Adding a poly-A tail to mRNA",
+        "Destroying the TATA box"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers stimulate transcription by binding enhancer-binding proteins. These proteins can interact with transcription factors at the promoter, often through DNA bending or looping, increasing initiation by RNA polymerase II.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about enhancer location is correct?",
+      "options": [
+        "Enhancers may be upstream or downstream and may be far from the promoter",
+        "Enhancers must be exactly 25 nucleotides upstream",
+        "Enhancers are always translated into protein",
+        "Enhancers must be inside the coding exon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers are flexible regulatory elements. They can be located upstream or downstream of the transcription start site, close to the promoter, or thousands of base pairs away. DNA looping allows distant enhancers to contact the transcription-initiation complex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA bending helps enhancer action because it:",
+      "options": [
+        "Allows distant enhancer-bound proteins to interact with promoter-bound transcription factors",
+        "Converts RNA into DNA",
+        "Removes the 5′ cap",
+        "Stops ribosomal subunit assembly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An enhancer can be far from the promoter in the linear DNA sequence. DNA bending or looping brings the enhancer-binding proteins physically close to promoter-associated transcription factors, stimulating transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares prokaryotic and eukaryotic mRNA processing?",
+      "options": [
+        "Prokaryotic mRNA is generally identical to its primary transcript, while eukaryotic mRNA is extensively modified",
+        "Eukaryotic mRNA is never modified",
+        "Prokaryotic mRNA always undergoes capping and splicing",
+        "Both are processed identically"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that prokaryotic mRNA is generally identical to its primary transcript. Eukaryotic mRNA, however, is highly modified after transcription through capping, polyadenylation, and splicing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNAs are post-transcriptionally modified by cleavage of original transcripts in both prokaryotes and eukaryotes?",
+      "options": [
+        "tRNAs and rRNAs",
+        "Mature proteins only",
+        "DNA polymerases only",
+        "Histones only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primary transcripts of tRNAs and rRNAs in both prokaryotic and eukaryotic cells are processed by cleavage with ribonucleases. Eukaryotic mRNA has additional extensive processing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mature rRNAs are produced from 45S pre-rRNA?",
+      "options": [
+        "28S, 18S, and 5.8S",
+        "23S, 16S, and 5S only",
+        "tRNA and mRNA",
+        "UAA, UAG, and UGA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "45S pre-rRNA is a long precursor made by RNA polymerase I. It is cleaved by ribonucleases to produce mature 28S, 18S, and 5.8S rRNAs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme type cleaves pre-rRNA into mature rRNA products?",
+      "options": [
+        "Ribonucleases",
+        "DNA ligase",
+        "Xanthine oxidase",
+        "Polyadenylate polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pre-rRNA is processed by cleavage with ribonucleases. These enzymes cut RNA precursors into mature functional rRNA molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tRNA processing event creates the amino acid attachment site?",
+      "options": [
+        "Addition of 3′-CCA sequence",
+        "Addition of 5′ cap",
+        "Addition of 40–200 adenines",
+        "Removal of all exons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 3′-CCA sequence is added to tRNA by nucleotidyl-transferase. The amino acid attaches to the terminal adenine of this CCA sequence, making it essential for tRNA function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tRNA modification helps produce unusual bases?",
+      "options": [
+        "Base modification at specific positions",
+        "Addition of a poly-A tail",
+        "Binding of RNA polymerase II to TATA box",
+        "Removal of enhancer sequences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNA contains unusual bases because specific bases are chemically modified after transcription. These modifications help stabilize tRNA structure and support accurate translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes hnRNA?",
+      "options": [
+        "It is the primary transcript of eukaryotic mRNA",
+        "It is mature tRNA after CCA addition",
+        "It is mature 28S rRNA",
+        "It is a ribosomal protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heterogeneous nuclear RNA, or hnRNA, is the primary transcript that will become eukaryotic mRNA after processing. It undergoes 5′ capping, polyadenylation, and splicing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mRNA processing event happens first?",
+      "options": [
+        "5′ capping",
+        "Poly-A tail shortening in cytosol",
+        "Translation termination",
+        "Ribosomal subunit dissociation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture identifies 5′ capping as the first processing reaction for hnRNA. The cap helps stabilize mRNA and supports efficient translation initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about the eukaryotic 5′ cap is correct?",
+      "options": [
+        "It is 7-methylguanosine attached backward through a triphosphate linkage",
+        "It is a chain of 40–200 adenines",
+        "It is the same as an intron",
+        "It is added by spliceosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 5′ cap is a special 7-methylguanosine nucleotide attached backward to the 5′ end through a triphosphate linkage. This unusual linkage helps protect and stabilize mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A eukaryotic mRNA lacks a 5′ cap. Which effect is expected?",
+      "options": [
+        "It will not be translated efficiently",
+        "It will be translated faster than capped mRNA",
+        "It will become tRNA",
+        "It will automatically gain a ribosome subunit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 5′ cap facilitates initiation of translation and helps stabilize the mRNA. Eukaryotic mRNAs lacking the cap are not translated efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about the poly-A tail is correct?",
+      "options": [
+        "It is added after transcription and is not directly transcribed from DNA",
+        "It is always exactly three adenines long",
+        "It is found at the 5′ end of mature mRNA",
+        "It is added by spliceosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The poly-A tail is added post-transcriptionally to the 3′ end by polyadenylate polymerase. It is not encoded directly as a long adenine stretch in the DNA template.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme adds the poly-A tail?",
+      "options": [
+        "Polyadenylate polymerase",
+        "RNA polymerase I",
+        "Nucleotidyl-transferase",
+        "DNA ligase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polyadenylate polymerase adds 40–200 adenine nucleotides to the 3′ end of most eukaryotic mRNAs. This helps stabilize the mRNA and aids its export from the nucleus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After mRNA enters the cytosol, the poly-A tail is:",
+      "options": [
+        "Gradually shortened",
+        "Converted into a 5′ cap",
+        "Used as an anticodon",
+        "Replaced by histones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that after mRNA enters the cytosol, the poly-A tail gradually shortens. Tail length is related to mRNA stability and lifetime.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which processing event removes noncoding sequences from pre-mRNA?",
+      "options": [
+        "Splicing",
+        "Capping only",
+        "Polyadenylation only",
+        "Translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Splicing removes introns, which are noncoding intervening sequences, and joins exons together. This produces a mature mRNA with coding regions arranged correctly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which structure performs splicing of eukaryotic pre-mRNA?",
+      "options": [
+        "Spliceosome",
+        "Ribosome",
+        "Nucleosome",
+        "DNA polymerase III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The spliceosome removes introns and joins exons. It contains snRNPs, which include snRNAs and proteins that recognize consensus sequences at intron boundaries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "snRNPs are composed of:",
+      "options": [
+        "snRNAs associated with proteins",
+        "Histones associated with DNA",
+        "tRNA associated with amino acids only",
+        "rRNA associated with uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small nuclear RNAs combine with proteins to form small nuclear ribonucleoprotein particles, or snRNPs. These help the spliceosome recognize intron ends and remove introns.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During splicing, the intron is excised in which shape according to the diagram?",
+      "options": [
+        "Lariat shape",
+        "Linear chromosome",
+        "Ribosomal subunit",
+        "Poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The splicing diagram shows the intron being excised in a lariat shape. Exons are then joined to form mature mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares introns and exons?",
+      "options": [
+        "Introns are removed; exons are joined in mature mRNA",
+        "Exons are removed; introns are translated",
+        "Both are removed before translation",
+        "Both are added after transcription by polyadenylate polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Introns are noncoding intervening sequences that are removed from pre-mRNA. Exons are coding sequences that remain and are spliced together to form mature mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which mature eukaryotic mRNA features are shown in the lecture diagram?",
+      "options": [
+        "5′ cap, joined exons, and 3′ poly-A tail",
+        "Introns only with no cap",
+        "Histone core and linker DNA",
+        "70S ribosome and 50S subunit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic mRNA processing diagram shows addition of a 5′ cap, polyadenylation at the 3′ end, and excision of introns so that exons remain joined in mature mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The central dogma is best summarized as:",
+      "options": [
+        "DNA replication preserves information; transcription and translation express it",
+        "Protein is copied into DNA, then into RNA",
+        "RNA is converted into uric acid, then protein",
+        "DNA is directly converted into amino acids without RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic information is stored in DNA and passed to daughter cells by replication. It is expressed through transcription into RNA and translation into polypeptide chains. This is the flow DNA → RNA → protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A codon consists of:",
+      "options": [
+        "Three nucleotides",
+        "Two amino acids",
+        "One ribosome",
+        "One histone core"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each codon is a three-nucleotide sequence in mRNA that corresponds to an amino acid or a stop signal. Because there are four bases and codons are triplets, there are 4³ = 64 possible codons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How many different three-base codons are possible from four nucleotide bases?",
+      "options": [
+        "64",
+        "20",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are four possible nucleotide bases, and each codon contains three bases. Therefore, the number of possible codons is 4³ = 64.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which codons are stop codons in the standard genetic code?",
+      "options": [
+        "UAG, UGA, and UAA",
+        "AUG, AUA, and UGG",
+        "AAA, CCC, and GGG",
+        "UUU, UUC, and UUA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UAG, UGA, and UAA are stop or nonsense codons. They do not code for amino acids and signal termination of peptide chain synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Stop codons signal:",
+      "options": [
+        "Completion of peptide chain synthesis",
+        "Addition of methionine only",
+        "Start of DNA replication",
+        "Addition of a poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a stop codon appears in mRNA, it signals that translation should terminate. No amino acid is added for a stop codon in the standard genetic code.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The standard initiator codon is:",
+      "options": [
+        "AUG",
+        "UAA",
+        "UAG",
+        "UGA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AUG codes for methionine and serves as the initiator codon in translation. It can also encode internal methionine residues within a protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "AUG codes for:",
+      "options": [
+        "Methionine",
+        "Tryptophan only",
+        "Leucine only",
+        "Chain termination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AUG codes for methionine and also functions as the initiation codon. In addition to starting translation, AUG can appear internally and code for methionine within the growing protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which codon codes for methionine in mammalian mitochondria according to the lecture?",
+      "options": [
+        "AUA",
+        "UAA",
+        "UAG",
+        "AGA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture notes that mammalian mitochondria have exceptions to the standard genetic code. In mammalian mitochondria, AUA codes for methionine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In mammalian mitochondria, UGA codes for:",
+      "options": [
+        "Tryptophan",
+        "Stop only",
+        "Methionine",
+        "Arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the standard code, UGA is a stop codon. However, in mammalian mitochondria, UGA codes for tryptophan. This is an important exception to the universality of the genetic code.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In mammalian mitochondria, AGA and AGG serve as:",
+      "options": [
+        "Chain terminators",
+        "Arginine codons only",
+        "Methionine codons",
+        "Tryptophan codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the standard code, AGA and AGG usually code for arginine. In mammalian mitochondria, they serve as chain terminators. This is another mitochondrial exception.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Specificity of the genetic code means:",
+      "options": [
+        "A codon always codes for the same amino acid",
+        "One amino acid has only one codon",
+        "The code is read with commas",
+        "Codons overlap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Specificity means each codon has a specific meaning and always codes for the same amino acid or stop signal. This is different from degeneracy, where one amino acid may have multiple codons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Degeneracy of the genetic code means:",
+      "options": [
+        "A given amino acid may have more than one codon",
+        "A codon can code for many amino acids randomly",
+        "Stop codons code for all amino acids",
+        "The code is read backward only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Degeneracy, or redundancy, means several codons can encode the same amino acid. For example, arginine and leucine each have six codons. This does not violate specificity because each codon still has one meaning.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Universality of the genetic code means:",
+      "options": [
+        "The genetic code is generally the same in living organisms",
+        "Every amino acid has exactly one codon",
+        "Stop codons are translated into amino acids",
+        "Codons are made of four nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Universality means the genetic code is the same across living organisms. However, the lecture also mentions exceptions in mammalian mitochondria, such as AUA coding for methionine and UGA coding for tryptophan.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nonoverlapping and commaless code means:",
+      "options": [
+        "Codons are read continuously three bases at a time from a fixed starting point",
+        "Codons share bases with neighboring codons",
+        "There is punctuation between codons",
+        "Codons are read randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genetic code is read from a fixed starting point as a continuous sequence of bases, taken three at a time. There are no commas between codons, and codons do not overlap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mentioned as having six different codons?",
+      "options": [
+        "Arginine",
+        "Methionine",
+        "Tryptophan",
+        "Glycine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that arginine and leucine each have six different codons. This illustrates degeneracy of the genetic code.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is also mentioned as having six different codons?",
+      "options": [
+        "Leucine",
+        "Methionine",
+        "Tryptophan",
+        "Histidine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine, like arginine, has six codons. This is an example of redundancy or degeneracy in the genetic code, where multiple codons can specify the same amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which component is required for translation?",
+      "options": [
+        "mRNA to be translated",
+        "DNA polymerase III",
+        "Histone H1 only",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Translation requires the mRNA template that carries codons. It also requires amino acids, tRNAs, functional ribosomes, energy sources, and enzymes/protein factors for initiation, elongation, and termination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which component carries amino acids during translation?",
+      "options": [
+        "tRNA",
+        "mRNA",
+        "DNA polymerase",
+        "Histone H2A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNAs act as adaptors during translation. Each tRNA carries a specific amino acid and uses its anticodon to pair with the corresponding codon on mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which structure provides the site for protein synthesis?",
+      "options": [
+        "Functional ribosome",
+        "Nucleosome",
+        "Enhancer",
+        "TATA box"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribosomes are the site of protein synthesis. They consist of large and small subunits and coordinate mRNA reading, tRNA binding, and peptide bond formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Translation requires which of the following?",
+      "options": [
+        "Energy sources and protein factors for initiation, elongation, and termination",
+        "Only DNA and histones",
+        "Only uric acid and xanthine oxidase",
+        "Only introns and enhancers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein synthesis is an energy-requiring process. It needs enzymes and protein factors that control initiation, elongation, and termination of the polypeptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If one essential amino acid is missing during translation:",
+      "options": [
+        "Translation stops at the codon specifying that amino acid",
+        "Translation continues normally with any amino acid",
+        "The ribosome becomes a nucleosome",
+        "mRNA becomes DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All amino acids present in the final protein must be available during translation. If an essential amino acid is absent, the ribosome cannot add it, and translation stops at the codon that requires that amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Functional ribosomes consist of:",
+      "options": [
+        "Large and small subunits",
+        "Introns and exons",
+        "Enhancers and promoters",
+        "Purines and pyrimidines only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribosomes consist of two subunits: a large subunit and a small subunit. Their sizes are described using Svedberg sedimentation coefficients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Ribosome size is expressed using:",
+      "options": [
+        "Svedberg values",
+        "pH values only",
+        "Km values",
+        "Tm values"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribosomal subunit sizes are given in Svedberg units, which relate to sedimentation behavior. These values are not directly additive because they depend on size, shape, and density.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The eukaryotic ribosome is:",
+      "options": [
+        "80S",
+        "70S",
+        "50S",
+        "30S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture diagram shows eukaryotic ribosomes as 80S, composed of 60S and 40S subunits. The prokaryotic ribosome is 70S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The prokaryotic ribosome is:",
+      "options": [
+        "70S",
+        "80S",
+        "60S",
+        "40S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic ribosomes are 70S, composed of 50S and 30S subunits. This is an important difference from eukaryotic cytosolic ribosomes, which are 80S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The eukaryotic 80S ribosome consists of:",
+      "options": [
+        "60S and 40S subunits",
+        "50S and 30S subunits",
+        "28S and 18S subunits only",
+        "23S and 16S subunits only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic ribosomes are 80S and consist of large 60S and small 40S subunits. The S values are not simply additive numerically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The prokaryotic 70S ribosome consists of:",
+      "options": [
+        "50S and 30S subunits",
+        "60S and 40S subunits",
+        "80S and 70S subunits",
+        "45S and 5S subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic ribosomes are 70S and consist of 50S and 30S subunits. This distinction is important in microbiology and antibiotic selectivity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which rRNAs are found in the eukaryotic 60S subunit according to the diagram?",
+      "options": [
+        "5S, 5.8S, and 28S rRNAs",
+        "23S and 16S rRNAs",
+        "18S only",
+        "16S only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diagram shows the eukaryotic large 60S subunit containing 5S, 5.8S, and 28S rRNAs. The small 40S subunit contains 18S rRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which rRNA is found in the eukaryotic 40S subunit?",
+      "options": [
+        "18S rRNA",
+        "23S rRNA",
+        "5S rRNA only",
+        "28S rRNA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic small ribosomal subunit is 40S and contains 18S rRNA. The large 60S subunit contains 5S, 5.8S, and 28S rRNAs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which rRNAs are found in the prokaryotic 50S subunit according to the diagram?",
+      "options": [
+        "5S and 23S rRNAs",
+        "18S and 28S rRNAs",
+        "5.8S and 18S rRNAs",
+        "16S only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prokaryotic 50S large subunit contains 5S and 23S rRNAs. The small 30S subunit contains 16S rRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which rRNA is found in the prokaryotic 30S subunit?",
+      "options": [
+        "16S rRNA",
+        "18S rRNA",
+        "28S rRNA",
+        "5.8S rRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prokaryotic small ribosomal subunit is 30S and contains 16S rRNA. The 50S subunit contains 5S and 23S rRNAs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why 60S + 40S does not equal 100S?",
+      "options": [
+        "Svedberg values depend on sedimentation behavior, not simple arithmetic addition",
+        "Ribosomes are incorrectly measured",
+        "RNA is not part of ribosomes",
+        "Ribosomes do not contain proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Svedberg values reflect sedimentation coefficients, which depend on size, shape, and density. They are not directly additive, so 60S + 40S forms an 80S ribosome, not 100S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best matches transcription and translation?",
+      "options": [
+        "Transcription produces RNA from DNA; translation produces protein from mRNA",
+        "Transcription produces protein; translation produces DNA",
+        "Both occur only on ribosomes",
+        "Both require poly-A tail formation first in all organisms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transcription is RNA synthesis using DNA as a template. Translation is protein synthesis using mRNA as a template. Together they represent expression of genetic information.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes mature eukaryotic mRNA?",
+      "options": [
+        "It has a 5′ cap, a 3′ poly-A tail, and exons joined after intron removal",
+        "It is identical to the primary transcript with no processing",
+        "It contains all introns and no exons",
+        "It is produced by RNA polymerase I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mature eukaryotic mRNA is formed from hnRNA after 5′ capping, 3′ polyadenylation, and splicing. Introns are removed and exons are joined.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes post-transcriptional modification of eukaryotic mRNA?",
+      "options": [
+        "It increases mRNA stability, export, and translation efficiency",
+        "It converts mRNA into histone protein",
+        "It removes all coding regions",
+        "It prevents translation permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 5′ cap stabilizes mRNA and helps translation initiation. The poly-A tail stabilizes mRNA and helps nuclear export. Splicing removes introns and produces a coding mature mRNA. Together, these changes prepare mRNA for efficient translation.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
