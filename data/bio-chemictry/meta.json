@@ -27,11 +27,11 @@
       "section": "",
       "sectionId": "",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 30,
+        "medium": 45,
+        "hard": 17
       },
-      "questionsCount": 0,
+      "questionsCount": 92,
       "file": "data/bio-chemictry/hemoglobin-oxygen-transport.json"
     }
   ],
@@ -43,5 +43,5 @@
       "order": 1
     }
   ],
-  "updatedAt": "2026-05-29T13:08:47.268Z"
+  "updatedAt": "2026-05-29T13:20:31.005Z"
 }
