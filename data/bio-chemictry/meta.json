@@ -48,6 +48,21 @@
       },
       "questionsCount": 100,
       "file": "data/bio-chemictry/heme-metabolism-jaundice.json"
+    },
+    {
+      "id": "enzymes",
+      "name": "Enzymes",
+      "description": "",
+      "order": 4,
+      "section": "",
+      "sectionId": "",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/enzymes.json"
     }
   ],
   "sections": [
