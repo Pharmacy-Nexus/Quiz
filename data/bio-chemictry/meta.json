@@ -93,6 +93,21 @@
       },
       "questionsCount": 140,
       "file": "data/bio-chemictry/water-soluble-vitamins-part-2.json"
+    },
+    {
+      "id": "nutritional-anemia",
+      "name": "Nutritional Anemia",
+      "description": "",
+      "order": 8,
+      "section": "Vitamins",
+      "sectionId": "vitamins",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/nutritional-anemia.json"
     }
   ],
   "sections": [
