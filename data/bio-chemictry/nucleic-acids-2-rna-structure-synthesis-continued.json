@@ -2,6 +2,602 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-2-rna-structure-synthesis-continued",
   "topicName": "Nucleic Acids 2 — RNA Structure & Synthesis Continued",
-  "updatedAt": "2026-05-29T21:56:28.684Z",
-  "questions": []
+  "updatedAt": "2026-05-29T21:59:55.259Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Eukaryotic transcription is generally more complicated than prokaryotic transcription because it requires:",
+      "options": [
+        "RNA polymerase plus additional transcription factors",
+        "DNA polymerase III only",
+        "Ribosomes before RNA synthesis starts",
+        "Uric acid formation before transcription"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic transcription requires RNA polymerase and several transcription factors that bind to specific DNA regions. These factors help RNA polymerase recognize promoter regions and initiate RNA synthesis. The added regulation makes eukaryotic transcription more complex than prokaryotic transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "For RNA polymerase and transcription factors to bind DNA in eukaryotes, the DNA must:",
+      "options": [
+        "Temporarily loosen and dissociate from the nucleosome core",
+        "Convert into protein",
+        "Lose all phosphodiester bonds",
+        "Become permanently single-stranded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In eukaryotes, DNA is packaged around histones in nucleosomes. For transcription machinery to access promoter sequences, the chromatin must become looser, allowing RNA polymerase and transcription factors to bind the DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "RNA polymerase I synthesizes:",
+      "options": [
+        "Precursors of large rRNAs",
+        "Precursors of mRNAs",
+        "tRNAs only",
+        "All mitochondrial proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase I synthesizes the precursor of large ribosomal RNAs, including 28S, 18S, and 5.8S rRNAs, in the nucleolus. This is different from RNA polymerase II, which makes mRNA precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "RNA polymerase II synthesizes:",
+      "options": [
+        "Precursors of mRNAs translated into proteins",
+        "Only 5S rRNA",
+        "Only tRNA",
+        "Only 28S rRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase II is responsible for synthesizing pre-mRNA, which is later processed into mature mRNA. Mature mRNA carries genetic information that will be translated into protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "RNA polymerase III produces:",
+      "options": [
+        "tRNAs, 5S rRNA, and some snRNAs",
+        "28S, 18S, and 5.8S rRNAs only",
+        "All mRNA precursors only",
+        "Histone proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA polymerase III synthesizes small RNAs, including transfer RNAs, 5S ribosomal RNA, and some small nuclear RNAs. This makes it distinct from polymerase I and polymerase II.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The TATA box is also called:",
+      "options": [
+        "Hogness box",
+        "CAAT box",
+        "Poly-A site",
+        "Anticodon loop"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TATA box is also known as the Hogness box. It is a promoter sequence recognized during initiation of mRNA synthesis by RNA polymerase II and associated transcription factors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The TATA box is usually found approximately:",
+      "options": [
+        "25 nucleotides upstream of the transcription start site",
+        "70–80 nucleotides downstream of the start site",
+        "At the 3′ poly-A tail",
+        "Inside the ribosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TATA/Hogness box is commonly centered about 25 nucleotides upstream of the transcription start site. This location helps position the transcription machinery correctly before RNA synthesis begins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The CAAT box is usually located approximately:",
+      "options": [
+        "70–80 nucleotides upstream of the transcription start site",
+        "25 nucleotides downstream of the transcription start site",
+        "At the 3′ end of tRNA",
+        "Inside the poly-A tail"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CAAT box is a promoter consensus sequence located about 70–80 nucleotides upstream from the transcription start site. It can serve as a recognition site in eukaryotic promoters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enhancers are DNA sequences that:",
+      "options": [
+        "Increase the rate of initiation of transcription by RNA polymerase II",
+        "Remove introns from mRNA",
+        "Add amino acids to tRNA",
+        "Degrade uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers are regulatory DNA sequences that increase transcription initiation. They bind enhancer-binding proteins, which interact with promoter-bound transcription factors and stimulate transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enhancers bind proteins called:",
+      "options": [
+        "Enhancer-binding proteins",
+        "DNA ligases",
+        "Ribosomal proteins only",
+        "Xanthine oxidases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers work by binding enhancer-binding proteins. These proteins interact with transcription factors at the promoter, often through DNA looping, to increase transcription initiation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enhancers can be located:",
+      "options": [
+        "Upstream or downstream, close to or far from the promoter",
+        "Only exactly 25 nucleotides upstream",
+        "Only inside the mRNA cap",
+        "Only at the tRNA 3′-CCA end"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enhancers are flexible regulatory sequences. They may be located upstream or downstream of the transcription start site and can be close to the promoter or thousands of base pairs away.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A primary transcript is:",
+      "options": [
+        "The initial RNA copy of the transcriptional unit",
+        "The final protein product",
+        "A mature ribosome only",
+        "A DNA polymerase enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary transcript is the first RNA product made from a transcriptional unit. In eukaryotes, this primary transcript usually requires post-transcriptional processing before becoming mature functional RNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The transcriptional unit is the DNA segment between:",
+      "options": [
+        "Specific initiation and termination sequences",
+        "Two ribosomal subunits",
+        "Two amino acids",
+        "Two uric acid crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transcriptional unit is the region of DNA transcribed into RNA. It extends from a specific initiation sequence to a termination sequence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Prokaryotic mRNA is generally:",
+      "options": [
+        "Identical to its primary transcript",
+        "Extensively capped, spliced, and polyadenylated like eukaryotic mRNA",
+        "Made only of unusual bases",
+        "Converted into tRNA before translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic mRNA generally does not undergo the extensive processing seen in eukaryotic mRNA. In contrast, eukaryotic pre-mRNA is heavily modified after transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Eukaryotic mRNA is usually:",
+      "options": [
+        "Highly modified after transcription",
+        "Identical to its primary transcript",
+        "Not translated into protein",
+        "Made by RNA polymerase I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic pre-mRNA undergoes several post-transcriptional modifications, including 5′ capping, poly-A tail addition, and intron removal by splicing. These steps help produce mature mRNA ready for translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ribosomal RNAs are synthesized from long precursor molecules called:",
+      "options": [
+        "Preribosomal RNAs",
+        "Pre-tRNAs only",
+        "Mature mRNAs",
+        "Okazaki fragments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "rRNAs in both prokaryotic and eukaryotic cells are synthesized as long precursor molecules called preribosomal RNAs. These are later cleaved by ribonucleases to produce mature rRNA species.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The eukaryotic 45S pre-rRNA gives rise to:",
+      "options": [
+        "28S, 18S, and 5.8S rRNAs",
+        "tRNA and mRNA only",
+        "5′ cap and poly-A tail",
+        "70S ribosome only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 45S pre-rRNA is processed by cleavage to form mature rRNA species, including 28S, 18S, and 5.8S rRNAs. This processing occurs after transcription.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "tRNAs are initially made as:",
+      "options": [
+        "Longer precursors that are trimmed",
+        "Mature molecules with no processing needed",
+        "Proteins that later become RNA",
+        "DNA fragments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both eukaryotic and prokaryotic tRNAs are made from longer precursor molecules. These precursors are trimmed and modified to produce mature functional tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The 3′ terminal CCA sequence of tRNA is added by:",
+      "options": [
+        "Nucleotidyl-transferase",
+        "RNA polymerase I",
+        "DNA ligase",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One post-transcriptional modification of tRNA is addition of the CCA sequence at the 3′ end by nucleotidyl-transferase. This CCA end is important because amino acids attach to the terminal adenine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "tRNA processing also includes:",
+      "options": [
+        "Modification of bases to produce unusual bases",
+        "Addition of a 5′ cap",
+        "Addition of a long poly-A tail",
+        "Removal of all anticodons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mature tRNAs contain unusual bases. These are produced by chemical modification of bases at specific positions during post-transcriptional processing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The primary transcript of eukaryotic mRNA is called:",
+      "options": [
+        "Heterogeneous nuclear RNA",
+        "Mature tRNA",
+        "45S pre-rRNA",
+        "70S ribosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary transcript of eukaryotic mRNA is called heterogeneous nuclear RNA, or hnRNA. It undergoes extensive processing before becoming mature mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first processing reaction for hnRNA is usually:",
+      "options": [
+        "5′ capping",
+        "Translation termination",
+        "Ribosome dissociation",
+        "Amino acid attachment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "5′ capping is described as the first processing reaction for hnRNA. The cap helps stabilize mRNA and facilitates initiation of translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The 5′ cap consists of:",
+      "options": [
+        "7-methylguanosine attached backward through a triphosphate linkage",
+        "A long chain of adenines at the 3′ end",
+        "The anticodon loop",
+        "A histone octamer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eukaryotic mRNA 5′ cap is a 7-methylguanosine attached backward to the 5′ end through a triphosphate linkage. This special structure is important for mRNA stability and translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The 5′ cap helps:",
+      "options": [
+        "Stabilize mRNA and facilitate translation initiation",
+        "Attach amino acids to tRNA",
+        "Convert rRNA into DNA",
+        "Break down introns into uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 5′ cap protects mRNA and helps it be translated efficiently. Eukaryotic mRNAs lacking the cap are not translated efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The poly-A tail is attached to the:",
+      "options": [
+        "3′ end of eukaryotic mRNA",
+        "5′ end of eukaryotic mRNA",
+        "Anticodon loop of tRNA",
+        "Nucleosome core"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most eukaryotic mRNAs have a poly-A tail at the 3′ end. This tail contains many adenine nucleotides and contributes to stability and nuclear export.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most eukaryotic poly-A tails contain approximately:",
+      "options": [
+        "40–200 adenine nucleotides",
+        "3 adenine nucleotides only",
+        "25 thymine nucleotides",
+        "70–80 cytosine nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The poly-A tail of most eukaryotic mRNAs contains about 40–200 adenine nucleotides. It is added after transcription rather than directly copied from DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The poly-A tail is added by:",
+      "options": [
+        "Polyadenylate polymerase",
+        "RNA polymerase I",
+        "DNA polymerase III",
+        "Spliceosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The poly-A tail is added after transcription by the nuclear enzyme polyadenylate polymerase. It is not transcribed directly from the DNA template.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The poly-A tail helps:",
+      "options": [
+        "Stabilize mRNA and facilitate its exit from the nucleus",
+        "Remove exons",
+        "Convert mRNA into tRNA",
+        "Initiate DNA replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Poly-A tails help stabilize eukaryotic mRNAs and facilitate their export from the nucleus. After mRNA enters the cytosol, the poly-A tail gradually shortens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Introns are:",
+      "options": [
+        "Noncoding intervening sequences removed from eukaryotic pre-mRNA",
+        "Coding sequences retained in mature mRNA",
+        "Ribosomal proteins",
+        "Stop codons only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Introns are intervening sequences in eukaryotic primary mRNA transcripts that do not code for protein. They must be removed before mature mRNA is ready for translation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Exons are:",
+      "options": [
+        "Coding sequences spliced together to form mature mRNA",
+        "Noncoding sequences removed as lariat introns",
+        "RNA polymerase enzymes",
+        "Poly-A tails only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exons are the coding regions that remain after introns are removed. They are joined together to form mature mRNA that can be translated into protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Introns are removed from eukaryotic pre-mRNA by:",
+      "options": [
+        "Spliceosome",
+        "Helicase",
+        "Xanthine oxidase",
+        "Histone H1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The spliceosome removes introns and joins exons together. This processing step is essential for producing mature eukaryotic mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "snRNAs combine with proteins to form:",
+      "options": [
+        "snRNPs",
+        "Nucleosomes",
+        "Ribosomal subunits only",
+        "Uric acid crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small nuclear RNAs combine with proteins to form small nuclear ribonucleoprotein particles, called snRNPs. These are components of the spliceosome and help recognize intron boundaries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "snRNPs help splicing by:",
+      "options": [
+        "Base-pairing with consensus sequences at each end of the intron",
+        "Adding amino acids to tRNA",
+        "Adding the poly-A tail",
+        "Synthesizing 45S pre-rRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "snRNPs recognize and bind consensus sequences at the ends of introns by base pairing. This helps the spliceosome accurately remove introns and join exons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The central dogma describes the flow of information from:",
+      "options": [
+        "DNA → RNA → protein",
+        "Protein → RNA → DNA",
+        "RNA → uric acid → protein",
+        "Ribosome → DNA → lipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The central dogma states that genetic information flows from DNA to RNA to protein. DNA is transcribed into RNA, and RNA is translated into polypeptide chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-2-rna-structure-synthesis-continued-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Translation means:",
+      "options": [
+        "Using mRNA information to synthesize a polypeptide chain",
+        "Copying DNA into RNA",
+        "Copying DNA into DNA",
+        "Removing introns only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Translation is the process of protein synthesis. The ribosome reads codons in mRNA and uses tRNAs to add the correct amino acids to the growing polypeptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
