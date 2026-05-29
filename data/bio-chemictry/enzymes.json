@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "enzymes",
   "topicName": "Enzymes",
-  "updatedAt": "2026-05-29T17:34:00.956Z",
+  "updatedAt": "2026-05-29T17:37:08.936Z",
   "questions": [
     {
       "id": "bio-chemictry-enzymes-001",
@@ -1870,6 +1870,244 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is a classic example of compartmentation. Separating anabolic and catabolic pathways prevents futile cycling and allows independent regulation. Fatty acid synthesis is cytosolic, while fatty acid oxidation is mitochondrial.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which aspects of its reaction will be changed by Enzyme Y?",
+      "options": [
+        "The activation energy of the reaction and the energy of the product",
+        "The rate of the reaction and the energy of the transition state",
+        "The equilibrium position of the reaction and the energy of the substrate",
+        "The reversibility of the reaction and the energy of the active site"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes increase reaction rate by lowering activation energy and stabilizing the transition state. They do not change ΔG, product energy, substrate energy, equilibrium position, or reaction reversibility.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-112",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When its reaction is carried out at pH 2.0, the Vmax of Enzyme X becomes 1.0 μM/s because:",
+      "options": [
+        "The enzyme is inhibited by its product at low pH",
+        "The enzyme is saturated with substrate at low pH",
+        "The enzyme is able to stabilize the transition state at low pH",
+        "The enzyme is partially denatured as R-groups protonate at low pH"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Extreme pH changes the ionization of active-site residues and may denature the enzyme, reducing the amount of active enzyme and lowering Vmax. Low pH does not mean substrate saturation or improved transition-state stabilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "At pH 7.0 and substrate concentration equal to Km, which statement is correct?",
+      "options": [
+        "X will produce more product than Y",
+        "Y will produce more product than X",
+        "X and Y will produce the same amount of product",
+        "X and Y will both work at their Vmax value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When [S] = Km, velocity equals half Vmax. Enzyme X works at 5 μM/s and Enzyme Y works at 10 μM/s, so Y produces more product under these conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Enzyme Y can also use galactose as a substrate with a Km of 8.0 mM. Which characteristic describes Y binding galactose compared with fructose?",
+      "options": [
+        "Y will form more non-covalent bonds with galactose",
+        "Y will form more covalent bonds with galactose",
+        "Y will have an active site that is less complementary to galactose",
+        "Y will undergo a greater conformational change as it binds galactose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fructose has Km 3.0 mM, while galactose has Km 8.0 mM. The higher Km for galactose means lower affinity, suggesting poorer complementarity between galactose and the active site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which interaction is most likely to occur as Enzyme X carries out its reaction?",
+      "options": [
+        "A hydrogen bond could form between a serine R-group in the active site and a carbonyl group in the transition state",
+        "An ionic bond could form between a glutamate R-group in the active site and a carboxyl group in the substrate",
+        "A hydrophobic interaction could form between an asparagine R-group in the active site and a methyl group in the substrate",
+        "A hydrogen bond could form between a valine R-group in the active site and a hydroxyl group in the transition state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Serine has a polar hydroxyl group that can form hydrogen bonds, and a carbonyl oxygen can act as a hydrogen-bond acceptor. The other options mismatch charge or polarity, such as glutamate with carboxylate repulsion or valine forming hydrogen bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which kinetic property would Enzyme X display as it binds its normal substrate and catalyzes its reaction?",
+      "options": [
+        "It could have an initial velocity independent of [S] when [S] < Km",
+        "It could have a Km value that decreases as [S] decreases from 3.0 mM to 0.3 mM",
+        "It could show an approximately two-fold increase in velocity as [S] increases from 3.0 mM to 30 mM",
+        "It could have a Vmax value that is dependent on [S] when [S] < Km"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When [S] = Km, velocity is 1/2 Vmax. When [S] is much greater than Km, velocity approaches Vmax, so increasing [S] from 3 mM to 30 mM raises velocity close to, but not exactly, double. Km and Vmax are enzyme properties and do not change simply because [S] changes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Enzyme Y is allosterically inhibited by ribose and also inhibited by covalent phosphorylation. Which characteristic best describes its regulation?",
+      "options": [
+        "Y covalently binds both ribose and phosphate to specific amino acids within the protein",
+        "Y establishes a simple equilibrium with either ribose or phosphate to reduce activity",
+        "Y binds both ribose and phosphate to a regulatory subunit with the help of extra enzymes",
+        "Y undergoes reversible conformational changes when either ribose binds allosterically or phosphorylation modifies the enzyme"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ribose acts as an allosteric inhibitor through non-covalent binding at a regulatory site, while phosphate regulates by covalent modification. Both can reduce activity by changing enzyme conformation, but ribose is not covalently attached.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-118",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which characteristic will be shared by Enzyme A and Enzyme B?",
+      "options": [
+        "Both increase the rate of their reaction by increasing the energy of substrate molecules",
+        "Both properly orient the substrate by forming covalent bonds with the substrate",
+        "Both decrease activation energy by being complementary to the transition state",
+        "Both shift reaction equilibrium by lowering the energy level of the product"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Enzymes catalyze reactions by stabilizing the transition state and lowering activation energy. They do not normally act by raising substrate energy, forming permanent covalent bonds with substrate, or changing equilibrium/product energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-119",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which property will Enzyme A likely have in common with most other enzymes?",
+      "options": [
+        "It can bind the substrate reversibly using specific amino acids",
+        "It can contain a dozen active sites, each binding a substrate molecule",
+        "It can undergo a small change in primary structure as the substrate binds",
+        "It must be present in stoichiometric amounts to bind the correct substrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most enzymes bind substrates reversibly through specific amino acid residues in the active site using non-covalent interactions. Substrate binding may change conformation, but not primary structure. Enzymes act catalytically, so they are not required in stoichiometric amounts.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When Enzyme B carries out its reaction at [S] = 5.0 mM, reaction velocity gradually decreases 5 minutes after the reaction starts. What could cause this change?",
+      "options": [
+        "Enzyme B catalyzes an irreversible reaction",
+        "Enzyme B becomes saturated with substrate",
+        "Enzyme B is inhibited by its product",
+        "Enzyme B is working at its Vmax value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A gradual decrease after the reaction starts can occur if product accumulates and inhibits the enzyme. Saturation or Vmax would not explain a later fall in rate; they describe high activity when substrate is available.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-121",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which will occur when Enzyme A and Enzyme B both carry out their reaction at pH 7.0 and [S] = 5.0 mM?",
+      "options": [
+        "Enzyme A will produce more glucose than Enzyme B",
+        "Enzyme B will produce more glucose than Enzyme A",
+        "Vo for Enzyme A will double as [S] increases from 5.0 mM to 10.0 mM",
+        "Vo for Enzyme B will double as [S] increases from 5.0 mM to 10.0 mM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both enzymes have the same Vmax, but Enzyme A has a lower Km, meaning higher substrate affinity. At [S] = 5 mM, Enzyme A is closer to saturation than Enzyme B and therefore has a higher velocity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-122",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which kinetic property will be shared by Enzyme A and Enzyme B?",
+      "options": [
+        "Their Km values will decrease as substrate concentration decreases",
+        "Their Vmax values will increase as substrate concentration increases",
+        "Their Km values will depend upon the concentration of the enzymes",
+        "Their Vmax values will depend upon the slowest step of their reaction mechanisms"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Km is a characteristic of the enzyme-substrate interaction and does not change simply with [S]. Vmax is the maximal catalytic rate and is influenced by enzyme amount and catalytic turnover, including rate-limiting steps in the mechanism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-123",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The substrate for Enzyme A is a sugar phosphate while the substrate for Enzyme B is a sugar alcohol. Which amino acid is likely to be found in the active site of both enzymes?",
+      "options": [
+        "Leucine",
+        "Tryptophan",
+        "Aspartate",
+        "Glutamine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sugar phosphates and sugar alcohols contain polar groups capable of hydrogen bonding. Glutamine has a polar amide side chain that can form hydrogen bonds with both types of substrates. Leucine and tryptophan are mostly hydrophobic, while aspartate is negatively charged and less generally suitable for both.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-enzymes-124",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Enzyme A is allosterically inhibited by galactose while Enzyme B is inhibited by covalent phosphorylation. Which will occur during regulation?",
+      "options": [
+        "Enzyme B will become more inhibited as the concentration of phosphate increases",
+        "Enzyme A will become more inhibited as the concentration of galactose increases",
+        "Both enzymes will undergo an irreversible conformational change as their regulating molecule binds",
+        "Both enzymes will bind their regulating molecule to a specific active site on a catalytic subunit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Allosteric inhibition depends on binding of the effector to a regulatory site, so higher galactose concentration can increase inhibition of Enzyme A. Phosphorylation requires enzyme-mediated covalent modification, not simple active-site binding, and regulation is usually reversible.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
