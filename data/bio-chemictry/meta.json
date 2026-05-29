@@ -122,7 +122,13 @@
       "name": "Vitamins",
       "description": "",
       "order": 2
+    },
+    {
+      "id": "nucleic-acids",
+      "name": "Nucleic Acids",
+      "description": "",
+      "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T19:19:18.008Z"
+  "updatedAt": "2026-05-29T21:29:10.197Z"
 }
