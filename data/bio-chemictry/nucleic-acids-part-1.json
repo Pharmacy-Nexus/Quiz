@@ -2,6 +2,1367 @@
   "subjectId": "bio-chemictry",
   "topicId": "nucleic-acids-part-1",
   "topicName": "Nucleic Acids-Part 1",
-  "updatedAt": "2026-05-29T21:49:37.575Z",
-  "questions": []
+  "updatedAt": "2026-05-29T21:50:01.313Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-001",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Primase is needed during DNA replication because it:",
+      "options": [
+        "Synthesizes short RNA primers complementary to the DNA template",
+        "Removes Okazaki fragments completely",
+        "Joins DNA fragments by phosphodiester bonds",
+        "Breaks purines into uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase cannot start DNA synthesis on its own. Primase, which is a specific RNA polymerase, makes short RNA primers that provide a free 3′-OH group. DNA polymerase can then extend from this primer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-002",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA primers are approximately:",
+      "options": [
+        "10 nucleotides long",
+        "1000 nucleotides long",
+        "One amino acid long",
+        "146 base pairs long"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that primase synthesizes short RNA stretches of about 10 nucleotides. These primers are complementary and antiparallel to the DNA template and allow DNA polymerase to begin elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-003",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Okazaki fragments are formed on the:",
+      "options": [
+        "Lagging strand",
+        "Leading strand only",
+        "Histone core",
+        "mRNA cap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lagging strand is synthesized discontinuously because DNA polymerase can only synthesize DNA in the 5′→3′ direction. This discontinuous synthesis produces Okazaki fragments, which must later be joined.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-004",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA polymerase III mainly functions in replication by:",
+      "options": [
+        "Synthesizing new DNA in the 5′→3′ direction",
+        "Joining Okazaki fragments permanently",
+        "Packaging DNA around histones",
+        "Producing uric acid from purines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase III is the major elongating enzyme in prokaryotic replication. It adds deoxyribonucleotides to the growing strand in the 5′→3′ direction and also has proofreading activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-005",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA polymerase I is important because it:",
+      "options": [
+        "Removes RNA primers and fills the resulting gaps",
+        "Unwinds the DNA double helix",
+        "Synthesizes histones",
+        "Forms the mRNA 5′ cap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After lagging strand fragments are synthesized, RNA primers must be removed. DNA polymerase I removes the RNA primer and replaces it with DNA, filling the gaps before ligase seals the remaining nick.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA ligase functions by:",
+      "options": [
+        "Sealing remaining nicks between DNA fragments",
+        "Synthesizing RNA primers",
+        "Unwinding DNA using ATP",
+        "Carrying amino acids to ribosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA ligase joins adjacent DNA fragments by sealing the remaining breaks in the sugar-phosphate backbone. It is especially important for making the lagging strand continuous after primer removal and gap filling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best represents lagging strand maturation?",
+      "options": [
+        "RNA primer synthesis → Okazaki fragment elongation → primer removal → gap filling → ligation",
+        "Histone binding → uric acid formation → cap addition → protein synthesis",
+        "Purine degradation → xanthine oxidase inhibition → reannealing",
+        "rRNA binding → tRNA charging → DNA denaturation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lagging strand needs repeated priming because it is synthesized discontinuously. DNA polymerase III elongates fragments, DNA polymerase I removes RNA primers and fills gaps, and DNA ligase seals the final nick.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA polymerase III proofreading activity is:",
+      "options": [
+        "3′→5′ exonuclease activity",
+        "5′→3′ ligase activity",
+        "RNA polymerase activity only",
+        "Histone acetylation activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase III checks newly added nucleotides and removes mismatched ones using 3′→5′ exonuclease activity. This proofreading improves replication fidelity and reduces mutations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Proofreading is important because it:",
+      "options": [
+        "Reduces replication errors and maintains genetic stability",
+        "Converts RNA into DNA histones",
+        "Increases uric acid solubility",
+        "Breaks all phosphodiester bonds during replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA replication must be very accurate because misreading the template can cause mutations. DNA polymerase III proofreading helps correct mistakes as nucleotides are added, supporting genetic stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If DNA polymerase III inserts a wrong nucleotide, it can:",
+      "options": [
+        "Use 3′→5′ exonuclease activity to remove it",
+        "Use histone H1 to remove it",
+        "Convert it into uric acid",
+        "Add a poly-A tail to it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase III has proofreading ability. If a nucleotide is mismatched with the template, the enzyme can excise the incorrect nucleotide using its 3′→5′ exonuclease activity, then continue synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In prokaryotes, replication starts at:",
+      "options": [
+        "A unique origin called oriC",
+        "Many unrelated mRNA caps",
+        "The tRNA anticodon loop",
+        "Every histone core"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture mentions that parental strands unwind at a unique site called oriC. Helicase opens the double helix there, forming the replication fork.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic DNA replication differs from prokaryotic replication because eukaryotes have:",
+      "options": [
+        "Multiple origins of replication",
+        "No DNA polymerases",
+        "No RNA primers",
+        "No leading strand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic chromosomes are very large, so replication begins at multiple origins. This allows the genome to be replicated efficiently. Prokaryotes usually have a single origin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In prokaryotes, DNA polymerases are named using:",
+      "options": [
+        "Roman numerals",
+        "Greek letters",
+        "Amino acid names",
+        "RNA codons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture contrasts polymerase naming: prokaryotic DNA polymerases use Roman numerals, while eukaryotic DNA polymerases use Greek letters. Examples include DNA polymerase I/III in prokaryotes and polymerase α/β/γ/δ/ε in eukaryotes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic DNA polymerases are named using:",
+      "options": [
+        "Greek letters",
+        "Roman numerals",
+        "Purine names",
+        "Pyrimidine names"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic DNA polymerases are named with Greek letters such as α, β, γ, δ, and ε. This is a classification point used to distinguish eukaryotic from prokaryotic replication enzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-015",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA primer removal in eukaryotes involves:",
+      "options": [
+        "RNase H and FEN1",
+        "DNA polymerase I only",
+        "Xanthine oxidase",
+        "Histone H1 only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture comparison table states that eukaryotic RNA primer removal uses RNase H and FEN1, while prokaryotes use DNA polymerase I. This is a useful prokaryotic-versus-eukaryotic replication distinction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic polymerase α is important because it:",
+      "options": [
+        "Contains primase and initiates DNA synthesis",
+        "Replicates mitochondrial DNA",
+        "Elongates the leading strand only",
+        "Forms uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymerase α contains primase and initiates DNA synthesis in eukaryotes. It provides the primer needed before other polymerases take over elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic polymerase β is mainly involved in:",
+      "options": [
+        "Repair",
+        "Mitochondrial DNA replication",
+        "Purine degradation",
+        "rRNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture table lists polymerase β as involved in repair. This makes it different from polymerase γ, which replicates mitochondrial DNA, and δ/ε, which are involved in elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic polymerase γ functions in:",
+      "options": [
+        "Replication of mitochondrial DNA",
+        "Formation of mRNA cap",
+        "Purine catabolism",
+        "DNA denaturation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymerase γ is listed as the enzyme that replicates mitochondrial DNA. It also has proofreading activity according to the table.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic polymerase δ is thought to:",
+      "options": [
+        "Elongate Okazaki fragments of the lagging strand",
+        "Replicate mitochondrial DNA only",
+        "Form ribosomes",
+        "Remove urate crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture table states that polymerase δ is thought to elongate Okazaki fragments of the lagging strand. This connects it to lagging strand discontinuous synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Eukaryotic polymerase ε is thought to:",
+      "options": [
+        "Elongate the leading strand",
+        "Synthesize histone H1 only",
+        "Carry amino acids to ribosomes",
+        "Convert xanthine to uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymerase ε is listed as being thought to elongate the leading strand. This contrasts with polymerase δ, which is associated with lagging strand Okazaki fragment elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The average human genome contains approximately:",
+      "options": [
+        "3 × 10⁹ base pairs",
+        "3 × 10³ base pairs",
+        "46 base pairs",
+        "146 base pairs only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that the average human genome is about 3 × 10⁹ base pairs distributed among 46 chromosomes. This large amount of DNA must be efficiently packaged into the nucleus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Human DNA is distributed among:",
+      "options": [
+        "46 chromosomes",
+        "4 chromosomes",
+        "23 nucleosomes only",
+        "5 rRNA species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Human genomic DNA is distributed among 46 chromosomes. These chromosomes contain about one meter of DNA in total, which must be compactly organized inside the nucleus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA is efficiently packaged in eukaryotes mainly through interaction with:",
+      "options": [
+        "Histones",
+        "Uric acid",
+        "cAMP",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are proteins that bind DNA and allow ordered packaging into nucleosomes and higher-order chromatin structures. This is how long DNA molecules fit inside the small nucleus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Histones are rich in:",
+      "options": [
+        "Lysine and arginine",
+        "Glycine and proline only",
+        "Uracil and thymine",
+        "Adenine and guanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are small basic proteins rich in lysine and arginine. These amino acids are positively charged at physiologic pH, allowing histones to bind negatively charged DNA phosphate groups.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Histones bind DNA mainly because histones are:",
+      "options": [
+        "Positively charged and DNA is negatively charged",
+        "Negatively charged and DNA is positive",
+        "Neutral and DNA is neutral",
+        "Made of nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA has negatively charged phosphate groups in its backbone. Histones are positively charged because they are rich in basic amino acids, so they form ionic interactions with DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ions help neutralize the negative charge of DNA phosphate groups?",
+      "options": [
+        "Mg²⁺",
+        "Cl⁻",
+        "HCO₃⁻",
+        "Urate crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture mentions that histones and positively charged ions such as Mg²⁺ help neutralize the large negative charge of DNA phosphate groups. This supports DNA packaging.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The five histone classes are:",
+      "options": [
+        "H1, H2A, H2B, H3, and H4",
+        "A, T, G, C, and U",
+        "rRNA, tRNA, mRNA, snRNA, and DNA",
+        "ATP, GTP, cAMP, NAD, and FAD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are divided into five major classes: H1, H2A, H2B, H3, and H4. H2A, H2B, H3, and H4 form the nucleosome core, while H1 binds linker DNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The nucleosome core contains:",
+      "options": [
+        "Two molecules each of H2A, H2B, H3, and H4",
+        "Two molecules of H1 only",
+        "One molecule each of A, T, G, and C",
+        "RNA polymerase and primase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A nucleosome core is an octamer made of two copies each of H2A, H2B, H3, and H4. DNA wraps around this histone core to form nucleosome beads.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Around each nucleosome core, about how many base pairs of DNA are wound?",
+      "options": [
+        "146 bp",
+        "10 bp",
+        "50 bp only",
+        "3 × 10⁹ bp"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that about 146 base pairs of DNA are wound around the nucleosome core twice. This creates the “beads-on-a-string” level of chromatin organization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Histone H1 is mainly associated with:",
+      "options": [
+        "Linker DNA between nucleosomes",
+        "The core histone octamer",
+        "mRNA cap formation",
+        "Purine degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histone H1 is not part of the nucleosome core. It binds DNA between nucleosome beads, called linker DNA, and helps package nucleosomes into more compact structures.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Linker DNA between nucleosomes is approximately:",
+      "options": [
+        "50 bp",
+        "146 bp",
+        "10 nucleotides",
+        "3000 bp"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that nucleosomes are joined by linker DNA of about 50 base pairs. This forms a polynucleosome or nucleofilament.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nucleosomes joined by linker DNA form:",
+      "options": [
+        "A polynucleosome or nucleofilament",
+        "A purine ring",
+        "A tRNA anticodon",
+        "A urate crystal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nucleosomes connected by linker DNA form a polynucleosome, also called a nucleofilament. This structure can coil into a 30-nm fiber for further compaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The 30-nm fiber represents:",
+      "options": [
+        "A coiled nucleofilament",
+        "A single RNA primer",
+        "A DNA base pair",
+        "A pyrimidine degradation product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture describes the 30-nm fiber as a higher-order structure formed when the nucleofilament coils. This is part of DNA packaging into chromatin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The three major RNA types involved in protein synthesis are:",
+      "options": [
+        "rRNA, tRNA, and mRNA",
+        "DNA, histone, and urate",
+        "ATP, GTP, and cAMP",
+        "Purine, pyrimidine, and phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three major RNA types participating in protein synthesis are ribosomal RNA, transfer RNA, and messenger RNA. Each has a different role in translating genetic information into protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA molecules are polymers joined by:",
+      "options": [
+        "Phosphodiester bonds",
+        "Peptide bonds",
+        "Hydrogen bonds only",
+        "Ionic bonds with histones only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Like DNA, RNA molecules are unbranched polymers of mononucleotides joined by phosphodiester bonds. RNA differs from DNA mainly in sugar, bases, strand structure, and alkaline stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The sugar in RNA is:",
+      "options": [
+        "Ribose",
+        "2-deoxyribose",
+        "Glucose",
+        "Fructose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA contains ribose sugar, while DNA contains 2-deoxyribose. This difference contributes to RNA being less stable in high pH conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The sugar in DNA is:",
+      "options": [
+        "2-deoxyribose",
+        "Ribose",
+        "Glucose",
+        "Galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA contains 2-deoxyribose sugar. Compared with RNA ribose, it lacks an oxygen at the 2′ position, making DNA more chemically stable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA contains which base instead of thymine?",
+      "options": [
+        "Uracil",
+        "Guanine",
+        "Cytosine",
+        "Adenine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA contains uracil instead of thymine. DNA uses thymine, while both DNA and RNA contain adenine, guanine, and cytosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DNA is generally:",
+      "options": [
+        "Double-stranded",
+        "Always single-stranded",
+        "Made only of amino acids",
+        "Less viscous than RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA is usually double-stranded, with complementary strands held together by hydrogen bonds. RNA is generally single-stranded, although it can fold through intrachain base pairing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA is generally:",
+      "options": [
+        "Single-stranded",
+        "Double-stranded like DNA",
+        "Made of histones",
+        "A purine degradation product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RNA is generally single-stranded, unlike DNA. However, RNA can fold back on itself and form intrachain base pairing, especially in tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "RNA is more easily broken down at high pH than DNA because:",
+      "options": [
+        "RNA contains ribose and is less alkali-resistant",
+        "RNA contains thymine",
+        "RNA is packaged by histones",
+        "RNA is double-stranded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that RNA breaks down under high pH, while DNA is more resistant. This is mainly due to RNA’s ribose sugar and its 2′-OH group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "rRNA mainly functions by:",
+      "options": [
+        "Associating with proteins to form ribosomes",
+        "Carrying amino acids directly with anticodons",
+        "Carrying genetic information from DNA to cytosol only",
+        "Acting as uric acid precursor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "rRNA combines with proteins to form ribosomes, which are the site of protein synthesis. It is the most abundant RNA type in the cell.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "rRNA makes up approximately what percentage of total cellular RNA?",
+      "options": [
+        "80%",
+        "15%",
+        "5%",
+        "1%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "rRNA makes up about 80% of cellular RNA. This high percentage reflects the central role of ribosomes in protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In eukaryotic cytosol, rRNA species include:",
+      "options": [
+        "28S, 18S, 5.8S, and 5S",
+        "23S, 16S, and 5S",
+        "74S, 95S, and 146S",
+        "A, T, G, and C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic cytosolic ribosomes contain four rRNA size species: 28S, 18S, 5.8S, and 5S. Prokaryotes have 23S, 16S, and 5S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In prokaryotic cells, rRNA species include:",
+      "options": [
+        "23S, 16S, and 5S",
+        "28S, 18S, 5.8S, and 5S",
+        "5′ cap and poly-A tail only",
+        "74–95 nucleotides only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prokaryotic rRNA species are 23S, 16S, and 5S. This differs from eukaryotic rRNA, which has 28S, 18S, 5.8S, and 5S.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The “S” in rRNA sizes refers to:",
+      "options": [
+        "Svedberg unit",
+        "Sugar unit",
+        "Salt unit",
+        "Sequence unit only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“S” refers to the Svedberg unit, which is related to sedimentation behavior and molecular size/shape. It is not simply a direct additive molecular weight unit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "tRNA is the smallest major RNA type and contains approximately:",
+      "options": [
+        "74–95 nucleotides",
+        "3000 nucleotides only",
+        "146 base pairs",
+        "3 × 10⁹ nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNA is the smallest of the three major RNA types and contains about 74–95 nucleotides. Its compact structure allows it to function as an adaptor during protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "tRNA makes up approximately what percentage of total RNA?",
+      "options": [
+        "15%",
+        "80%",
+        "5%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tRNA makes up about 15% of total cellular RNA. It acts as an adaptor molecule carrying amino acids to the site of protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "tRNA functions mainly as:",
+      "options": [
+        "An adaptor that carries a specific amino acid to the ribosome",
+        "The main DNA packaging protein",
+        "The major genetic message from nucleus to cytosol",
+        "The enzyme that degrades purines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each tRNA carries a specific amino acid and recognizes the codon on mRNA through its anticodon. This allows the correct amino acid to be added to the growing peptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "There is at least one specific tRNA for:",
+      "options": [
+        "Each of the 20 amino acids",
+        "Each purine only",
+        "Each histone class only",
+        "Each DNA polymerase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that there is at least one specific tRNA for each of the 20 amino acids found in proteins. Some amino acids may have more than one specific tRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The anticodon loop is located in the:",
+      "options": [
+        "Middle arm of tRNA",
+        "mRNA poly-A tail",
+        "DNA major groove",
+        "Histone H1 linker region"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The middle arm of tRNA contains the anticodon loop. The anticodon is a triplet of bases that pairs with the complementary codon on mRNA during protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The anticodon pairs with:",
+      "options": [
+        "A triplet codon on mRNA",
+        "Histone H1",
+        "Uric acid",
+        "DNA polymerase III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The tRNA anticodon recognizes and pairs with a codon on mRNA. This pairing ensures that the amino acid carried by the tRNA matches the genetic code in the mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The last three nucleotides at the 3′ end of tRNA are always:",
+      "options": [
+        "CCA",
+        "AUG",
+        "UAA",
+        "TTT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that the last three nucleotides of tRNA are always 5′-CCA-3′. The amino acid attaches to the terminal adenine nucleotide at the 3′ end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amino acids attach to tRNA at:",
+      "options": [
+        "The 2′ or 3′-OH of the terminal A nucleotide",
+        "The anticodon loop",
+        "Histone H1",
+        "The 5′ cap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids attach to either the 2′ or 3′ hydroxyl group of the terminal adenine in the 3′-CCA end of tRNA. This is the amino acid attachment site.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "tRNA contains unusual bases such as:",
+      "options": [
+        "Dihydrouridine",
+        "Thymine only",
+        "Uric acid",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture mentions that tRNA contains unusual bases such as dihydrouridine. tRNA also has extensive intrachain base pairing, giving it a folded structure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "mRNA mainly functions by:",
+      "options": [
+        "Carrying genetic information from nuclear DNA to the cytosol",
+        "Forming ribosomal structure with proteins",
+        "Carrying amino acids by anticodons",
+        "Packaging DNA into nucleosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "mRNA carries the genetic information copied from DNA to the cytosol, where it serves as a template for protein synthesis. It is the most heterogeneous RNA type in size.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "mRNA makes up approximately what percentage of cellular RNA?",
+      "options": [
+        "5%",
+        "80%",
+        "15%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "mRNA makes up only about 5% of total RNA but is highly heterogeneous in size. Its role is to carry coding information for protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A structural feature of eukaryotic mRNA is:",
+      "options": [
+        "A poly-A tail at the 3′ end",
+        "A nucleosome core",
+        "A urate crystal",
+        "A thymine-only sequence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA has a long sequence of adenine nucleotides called the poly-A tail at the 3′ end. It also has a 5′ cap containing 7-methylguanosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The 5′ cap of eukaryotic mRNA contains:",
+      "options": [
+        "7-methylguanosine attached backward through a triphosphate linkage",
+        "Histone H1 attached to linker DNA",
+        "Uric acid attached to ribose",
+        "CCA attached to amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic mRNA has a 5′ cap made of 7-methylguanosine attached “backward” through a triphosphate linkage. This cap is a key structural feature of mature eukaryotic mRNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which RNA type is most heterogeneous in size?",
+      "options": [
+        "mRNA",
+        "rRNA",
+        "tRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "mRNA is the most heterogeneous RNA type in terms of size because different genes produce mRNA molecules of different lengths. Despite this, it makes up only about 5% of total RNA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which comparison between DNA and RNA is correct?",
+      "options": [
+        "DNA contains thymine, while RNA contains uracil",
+        "DNA contains ribose, while RNA contains deoxyribose",
+        "DNA is usually single-stranded, while RNA is usually double-stranded",
+        "DNA breaks down more easily in high pH than RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA and RNA share A, G, and C, but DNA uses thymine while RNA uses uracil. RNA contains ribose and is generally single-stranded, while DNA contains 2-deoxyribose and is generally double-stranded.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which comparison between DNA and RNA is correct?",
+      "options": [
+        "RNA is less viscous and breaks down at high pH; DNA is more viscous and resistant",
+        "RNA is more viscous and more resistant than DNA",
+        "DNA contains uracil and RNA contains thymine",
+        "DNA is always shorter than tRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture compares RNA and DNA by viscosity and pH stability. RNA is less viscous and breaks down at high pH, while DNA is more viscous and more resistant to alkaline conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which base pairing rule is correct for DNA?",
+      "options": [
+        "A pairs with T; C pairs with G",
+        "A pairs with C; G pairs with T",
+        "A pairs with U; G pairs with T",
+        "All bases pair randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA base pairing is specific: adenine pairs with thymine, and cytosine pairs with guanine. This complementarity allows accurate replication and explains Chargaff’s rule.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If a DNA sample contains 30% adenine, what percentage of thymine is expected?",
+      "options": [
+        "30%",
+        "20%",
+        "40%",
+        "70%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to Chargaff’s rule, adenine equals thymine in double-stranded DNA. Therefore, if adenine is 30%, thymine is also 30%. The remaining 40% is divided equally between guanine and cytosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If a DNA sample contains 20% guanine, what percentage of cytosine is expected?",
+      "options": [
+        "20%",
+        "30%",
+        "40%",
+        "80%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chargaff’s rule states that guanine equals cytosine. Therefore, if guanine is 20%, cytosine is also 20%. The remaining 60% would be adenine plus thymine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which DNA sample would likely have a higher melting temperature?",
+      "options": [
+        "A sample with higher G-C content",
+        "A sample with higher A-T content",
+        "A sample with no hydrogen bonds",
+        "A sample with fewer stacked bases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G-C base pairs have three hydrogen bonds, compared with two in A-T pairs. Higher GC content generally increases DNA stability and raises melting temperature.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During DNA denaturation, which bond remains intact?",
+      "options": [
+        "Phosphodiester bonds",
+        "Hydrogen bonds between paired bases",
+        "Weak base-stacking interactions only",
+        "All bonds are destroyed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Denaturation separates the two DNA strands by breaking hydrogen bonds and disrupting base interactions. The phosphodiester backbone of each strand remains intact, so denaturation is not the same as DNA hydrolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes complementary DNA strands?",
+      "options": [
+        "One strand determines the base sequence of the other through base pairing",
+        "Both strands must have identical sequences",
+        "One strand is made of protein",
+        "Complementarity depends on uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In DNA, one strand is complementary to the other. If one strand has A, the other has T; if one has G, the other has C. This complementarity is essential for replication and repair.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process allows denatured DNA strands to reform a double helix?",
+      "options": [
+        "Renaturation or reannealing",
+        "Purine degradation",
+        "Translation",
+        "Histone methylation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Renaturation occurs when denatured complementary DNA strands are slowly cooled, allowing them to re-form hydrogen bonds and restore the double helix. This depends on strand complementarity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule provides the immediate building blocks for DNA replication?",
+      "options": [
+        "dATP, dCTP, dGTP, and TTP",
+        "ATP, UTP, GTP, and CTP only",
+        "Amino acids",
+        "β-alanine and uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists free dATP, dCTP, dGTP, and TTP as the nucleotides available for DNA replication. They pair with bases on parental strands according to base-pairing rules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which strand is synthesized continuously by DNA polymerase III?",
+      "options": [
+        "Leading strand",
+        "Lagging strand only",
+        "RNA primer",
+        "Linker DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The leading strand is synthesized continuously by DNA polymerase III in the 5′→3′ direction. The lagging strand is synthesized discontinuously as Okazaki fragments.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is the lagging strand synthesized discontinuously?",
+      "options": [
+        "DNA polymerase can only synthesize in the 5′→3′ direction",
+        "DNA polymerase can synthesize equally in both directions",
+        "The lagging strand lacks bases",
+        "The lagging strand is made of RNA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because the two DNA templates are antiparallel, only one strand can be synthesized continuously toward the fork. The other must be synthesized in short 5′→3′ fragments away from the fork, forming Okazaki fragments.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme removes RNA primer and fills the gap in prokaryotic replication?",
+      "options": [
+        "DNA polymerase I",
+        "DNA polymerase III",
+        "DNA ligase only",
+        "Helicase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase I removes RNA primers and replaces them with DNA. DNA ligase then seals the remaining nick to complete the continuous strand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme seals the final nick after primer removal and gap filling?",
+      "options": [
+        "DNA ligase",
+        "Primase",
+        "Helicase",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After DNA polymerase I removes RNA primer and fills the gap, a nick remains in the sugar-phosphate backbone. DNA ligase seals this nick, joining fragments into a continuous DNA strand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme uses ATP hydrolysis during early replication?",
+      "options": [
+        "Helicase",
+        "DNA ligase only",
+        "DNA polymerase I only",
+        "Xanthine oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Helicase uses ATP hydrolysis to unwind the parental DNA double helix. This breaks hydrogen bonds between strands and forms the replication fork.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which protein prevents unwound DNA from reannealing?",
+      "options": [
+        "Single-strand binding protein",
+        "DNA ligase",
+        "Histone H1",
+        "rRNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SSB proteins bind separated single-stranded DNA and keep it from reannealing. This maintains the template strands in a usable form for replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which activity of DNA polymerase III improves replication fidelity?",
+      "options": [
+        "3′→5′ exonuclease proofreading",
+        "5′ capping",
+        "Histone binding",
+        "Uric acid formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase III can remove incorrectly added nucleotides using 3′→5′ exonuclease activity. This proofreading reduces mutation risk during replication.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes semiconservative replication?",
+      "options": [
+        "Each daughter DNA molecule has one parental strand and one new strand",
+        "One daughter DNA is entirely old and the other entirely new",
+        "DNA is converted fully into RNA",
+        "Both daughter DNAs contain only fragments of old DNA randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In semiconservative replication, each original strand serves as a template for a new complementary strand. The result is two DNA molecules, each with one old strand and one newly synthesized strand.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If DNA polymerase proofreading fails, the most direct risk is:",
+      "options": [
+        "Increased mutation rate",
+        "Increased uric acid solubility",
+        "Formation of nucleosomes",
+        "RNA becoming double-stranded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proofreading removes mismatched nucleotides during replication. If proofreading fails, more errors remain in DNA, increasing the mutation rate and threatening genetic stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-nucleic-acids-part-1-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best connects replication direction and primer requirement?",
+      "options": [
+        "DNA polymerase adds nucleotides to a free 3′-OH and synthesizes 5′→3′",
+        "DNA polymerase starts synthesis without primer and moves 3′→5′",
+        "DNA polymerase adds amino acids to the 5′ cap",
+        "DNA polymerase breaks phosphodiester bonds during denaturation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA polymerase requires a primer because it needs a free 3′-OH group to add incoming nucleotides. New DNA is synthesized in the 5′→3′ direction, which also explains leading and lagging strand differences.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
