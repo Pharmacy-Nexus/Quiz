@@ -194,7 +194,13 @@
       "name": "Bioenergetics & Oxidative Phosphorylation",
       "description": "",
       "order": 4
+    },
+    {
+      "id": "carbohydrate",
+      "name": "Carbohydrate",
+      "description": "",
+      "order": 0
     }
   ],
-  "updatedAt": "2026-05-29T22:29:52.238Z"
+  "updatedAt": "2026-05-29T22:34:42.066Z"
 }
