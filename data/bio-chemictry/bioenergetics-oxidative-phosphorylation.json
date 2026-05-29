@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "bioenergetics-oxidative-phosphorylation",
   "topicName": "bioenergetics & Oxidative Phosphorylation",
-  "updatedAt": "2026-05-29T22:22:53.429Z",
+  "updatedAt": "2026-05-29T22:27:47.103Z",
   "questions": [
     {
       "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-001",
@@ -680,6 +680,1536 @@
       ],
       "correctAnswer": 0,
       "explanation": "Complex II transfers electrons from FADH₂ to CoQ, but it does not pump protons. This is why FADH₂ produces less ATP than NADH in the lecture's model.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the relationship between ΔG and reaction spontaneity?",
+      "options": [
+        "Negative ΔG means the reaction can proceed spontaneously",
+        "Positive ΔG means the reaction must always proceed spontaneously",
+        "ΔG = 0 means the reaction is strongly irreversible",
+        "ΔG has no relation to reaction direction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ΔG predicts the direction in which a reaction can proceed spontaneously. A negative ΔG means the products have lower free energy than the reactants, so energy is released and the reaction is favorable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If a reaction has positive ΔG, which statement is most accurate?",
+      "options": [
+        "It requires energy input or coupling to an exergonic reaction",
+        "It proceeds spontaneously without ATP",
+        "It releases free energy",
+        "It must be at equilibrium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive ΔG reactions are endergonic and non-spontaneous. In cells, they can proceed when coupled to ATP hydrolysis or another reaction with a large negative ΔG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can ATP hydrolysis drive endergonic reactions?",
+      "options": [
+        "ATP hydrolysis has a large negative ΔG that can make the combined reaction favorable",
+        "ATP hydrolysis has positive ΔG",
+        "ATP prevents all free energy changes",
+        "ATP converts endergonic reactions into equilibrium without energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells often couple endergonic reactions to ATP cleavage. ATP hydrolysis releases energy, and if the total ΔG of the coupled process becomes negative, the overall reaction can proceed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the reaction creatine + ATP → creatine phosphate + ADP, ATP is used because:",
+      "options": [
+        "Formation of creatine phosphate is endergonic",
+        "Creatine phosphate formation releases energy without ATP",
+        "ATP blocks phosphorylation",
+        "Creatine phosphate is a low-energy phosphate compound"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture gives creatine phosphate formation as an example of an endergonic reaction requiring ATP. ATP supplies the energy needed to phosphorylate creatine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about forward and reverse reactions is correct?",
+      "options": [
+        "Their ΔG values are equal in magnitude but opposite in sign",
+        "Their ΔG values are always both positive",
+        "Their ΔG values are unrelated",
+        "Both directions must be irreversible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For A → B and B → A, the free energy changes are opposite. If A → B has negative ΔG, then B → A has positive ΔG of the same magnitude.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ΔG depends on:",
+      "options": [
+        "Concentrations of reactants and products at constant temperature and pressure",
+        "Only the enzyme name",
+        "Only the number of mitochondria",
+        "Only oxygen concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The actual free energy change depends on reactant and product concentrations. This is why the same reaction can behave differently depending on cellular conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A high-energy phosphate bond is defined in the lecture as one that gives rise to:",
+      "options": [
+        "≥ 7.3 kcal/mol",
+        "< 3 kcal/mol",
+        "Exactly 0 kcal/mol",
+        "Only heat and no ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture classifies high-energy phosphate bonds as those releasing at least 7.3 kcal/mol. ATP and creatine phosphate are listed as examples.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly classified?",
+      "options": [
+        "ATP and creatine phosphate — high-energy phosphate compounds",
+        "AMP and glucose-6-phosphate — high-energy phosphate compounds",
+        "ATP and AMP — both low-energy phosphate compounds",
+        "Creatine phosphate and glucose-6-phosphate — both low-energy phosphate compounds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP releases about 7.3 kcal/mol and creatine phosphate releases about 10.3 kcal/mol. AMP and glucose-6-phosphate are lower-energy phosphate compounds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which compound releases more energy according to the lecture?",
+      "options": [
+        "Creatine phosphate",
+        "ATP",
+        "AMP",
+        "Glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate releases about 10.3 kcal/mol, while ATP releases about 7.3 kcal/mol. This makes creatine phosphate a very high-energy phosphate reserve.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ATP is called an energy carrier?",
+      "options": [
+        "Catabolic energy is captured in ATP, which then drives cellular work",
+        "ATP directly stores all oxygen in the cell",
+        "ATP prevents oxidation from occurring",
+        "ATP is only used for heat generation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy from catabolism is not directly delivered to every anabolic reaction. Instead, it is used to synthesize ATP, which acts as a transferable energy currency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is an example of substrate-level phosphorylation?",
+      "options": [
+        "1,3-bisphosphoglycerate + ADP → 3-phosphoglycerate + ATP",
+        "NADH → Complex I → CoQ",
+        "Proton flow through ATP synthase",
+        "Oxygen reduction to water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substrate-level phosphorylation directly forms ATP within a metabolic reaction. Glycolysis contains two classic examples: 1,3-BPG and PEP transferring phosphate to ADP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes substrate-level phosphorylation from oxidative phosphorylation?",
+      "options": [
+        "Substrate-level phosphorylation directly forms ATP in a reaction, while oxidative phosphorylation uses ETC and proton gradient",
+        "Oxidative phosphorylation occurs without mitochondria in humans",
+        "Substrate-level phosphorylation requires oxygen as final acceptor",
+        "Both require ATP synthase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substrate-level phosphorylation is direct ATP production at the substrate level. Oxidative phosphorylation is indirect and depends on electron transport, proton pumping, and ATP synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process is called oxidative phosphorylation?",
+      "options": [
+        "Electron transport coupled to ATP synthesis through a proton gradient",
+        "Direct phosphate transfer from PEP to ADP",
+        "Hydrolysis of ATP into ADP only",
+        "Formation of glucose-6-phosphate from glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative phosphorylation occurs when electron transfer through the ETC pumps protons, creating a gradient that drives ATP synthase to phosphorylate ADP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about biological oxidation is correct?",
+      "options": [
+        "Removal of hydrogen or electrons from a compound can release energy",
+        "Oxidation always means addition of ATP",
+        "Oxidation never occurs with reduction",
+        "Oxidation is unrelated to energy production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biological oxidation extracts energy by removing hydrogen atoms or electrons from fuel molecules. These electrons are passed gradually through carriers to release energy in controlled steps.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is electron transfer to oxygen gradual in living cells?",
+      "options": [
+        "To release energy in small useful fractions rather than as a destructive explosion",
+        "To prevent ATP formation completely",
+        "To avoid redox reactions",
+        "To make oxygen the first electron donor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Direct reaction of hydrogen with oxygen releases massive energy explosively. In cells, electrons move through the ETC stepwise, allowing controlled energy capture for ATP synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the ETC, electrons move toward carriers with:",
+      "options": [
+        "Higher redox potential",
+        "Lower redox potential only",
+        "No electron affinity",
+        "Lower oxygen affinity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ETC components are organized from lower to higher redox potential. Oxygen has the highest affinity among the chain components and acts as the final acceptor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electron donor enters the ETC through Complex I?",
+      "options": [
+        "NADH + H⁺",
+        "FADH₂",
+        "Oxygen",
+        "Cytochrome c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH donates electrons to Complex I, also called NADH dehydrogenase. Electrons then move through FMN, Fe-S centers, CoQ, Complex III, cytochrome c, Complex IV, and oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electron donor enters the ETC through Complex II?",
+      "options": [
+        "FADH₂",
+        "NADH + H⁺",
+        "Oxygen",
+        "Cytochrome a3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FADH₂ donates electrons through Complex II, especially through reactions such as succinate dehydrogenase. These electrons then pass to CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does FADH₂ yield less ATP than NADH in this lecture?",
+      "options": [
+        "FADH₂ enters at Complex II and bypasses Complex I",
+        "FADH₂ enters directly at Complex IV",
+        "FADH₂ is the final electron acceptor",
+        "FADH₂ blocks ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex I is one of the proton-pumping sites. Because FADH₂ enters at Complex II, which does not pump protons, fewer protons are pumped and less ATP is produced.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which complexes pump protons from the matrix to the intermembrane space?",
+      "options": [
+        "I, III, and IV",
+        "II, III, and IV",
+        "I, II, and V",
+        "II only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chemiosmotic hypothesis states that Complexes I, III, and IV pump protons across the inner mitochondrial membrane. Complex II does not pump protons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which complex is directly responsible for ATP synthesis from ADP and Pi?",
+      "options": [
+        "Complex V",
+        "Complex IV",
+        "Complex II",
+        "Complex I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex V is ATP synthase. It uses proton flow back into the matrix to synthesize ATP from ADP and inorganic phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which component transfers electrons from Complex I and Complex II to Complex III?",
+      "options": [
+        "Coenzyme Q",
+        "Cytochrome c",
+        "Oxygen",
+        "ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coenzyme Q is a hydrophobic mobile carrier in the inner mitochondrial membrane. It accepts electrons from Complex I and Complex II and transfers them to Complex III.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which component transfers electrons from Complex III to Complex IV?",
+      "options": [
+        "Cytochrome c",
+        "Coenzyme Q",
+        "FMN",
+        "FAD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochrome c is the relatively mobile carrier that transfers electrons from Complex III to Complex IV.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In cytochromes, iron functions as an electron carrier by cycling between:",
+      "options": [
+        "Fe³⁺ and Fe²⁺",
+        "Fe⁰ and Fe⁵⁺",
+        "Na⁺ and K⁺",
+        "Ca²⁺ and Mg²⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochromes contain heme iron, which reversibly changes between ferric and ferrous states during electron transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes Coenzyme Q?",
+      "options": [
+        "It is hydrophobic and diffuses within the inner mitochondrial membrane",
+        "It is the final electron acceptor",
+        "It is a fixed cytochrome inside Complex IV only",
+        "It is the catalytic subunit of ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CoQ is a lipid-soluble quinone that moves rapidly through the inner mitochondrial membrane and transfers electrons from Complex I/II to Complex III.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electron flow is correct for NADH entry?",
+      "options": [
+        "NADH → FMN of Complex I → CoQ → Complex III → cytochrome c → Complex IV → O₂",
+        "NADH → Complex II → oxygen directly",
+        "NADH → cytochrome c → CoQ → Complex I",
+        "NADH → ATP synthase → oxygen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH enters at Complex I and passes electrons through FMN, CoQ, cytochromes of Complex III, cytochrome c, Complex IV, and finally oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which electron flow is correct for FADH₂ entry?",
+      "options": [
+        "FADH₂ → Complex II → CoQ → Complex III → cytochrome c → Complex IV → O₂",
+        "FADH₂ → Complex I → FMN → oxygen",
+        "FADH₂ → ATP synthase → ADP",
+        "FADH₂ → cytochrome c directly → NADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FADH₂ enters through Complex II and gives electrons to CoQ. From there, the pathway is shared with NADH-derived electrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ETC complexes are sufficient to support ATP formation sites according to the lecture?",
+      "options": [
+        "Complexes I, III, and IV",
+        "Complexes II, III, and IV",
+        "Complexes I, II, and V",
+        "Complex II only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that at three sites, Complexes I, III, and IV, enough free energy is released per electron pair to support phosphorylation of ADP to ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The P/O ratio refers to:",
+      "options": [
+        "ATP molecules formed per oxygen atom reduced by an electron pair",
+        "Protons pumped per glucose molecule only",
+        "Oxygen atoms per phosphate group in ATP",
+        "Protein-to-oxygen ratio in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P/O ratio is the ratio of ADP molecules phosphorylated to ATP per oxygen atom used by the respiratory chain. In the lecture, NADH gives 3:1 and FADH₂ gives 2:1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to the lecture, the P/O ratio for NADH entry is:",
+      "options": [
+        "3:1",
+        "2:1",
+        "1:1",
+        "0:1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When electrons enter through NADH at Complex I, the lecture states that 3 ATP molecules are synthesized per oxygen atom reduced.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to the lecture, the P/O ratio for FADH₂ entry is:",
+      "options": [
+        "2:1",
+        "3:1",
+        "4:1",
+        "1:3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FADH₂ enters directly at Complex II/CoQ level and bypasses Complex I, so fewer ATP molecules are produced. The lecture gives a P/O ratio of 2:1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The chemiosmotic hypothesis explains ATP synthesis by:",
+      "options": [
+        "Proton gradient formation and proton return through ATP synthase",
+        "Direct transfer of electrons to ADP",
+        "Direct substrate phosphate transfer only",
+        "Breakdown of ribosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electron transport pumps protons into the intermembrane space. Their return to the matrix through ATP synthase provides energy for ATP formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During chemiosmosis, protons are pumped from the:",
+      "options": [
+        "Mitochondrial matrix to the intermembrane space",
+        "Intermembrane space to the cytosol only",
+        "Cytosol to nucleus",
+        "Outer membrane to plasma membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complexes I, III, and IV use electron-transfer energy to move H⁺ from the matrix across the inner membrane into the intermembrane space.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Proton pumping creates:",
+      "options": [
+        "Electrical and pH gradients across the inner mitochondrial membrane",
+        "Only a DNA gradient",
+        "Only a glucose gradient",
+        "A ribosomal gradient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proton accumulation outside the inner membrane creates more positive charge and lower pH in the intermembrane space compared with the matrix.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In chemiosmosis, the intermembrane space becomes:",
+      "options": [
+        "More positive and lower pH than the matrix",
+        "More negative and higher pH than the matrix",
+        "Identical to the matrix",
+        "Depleted of all protons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pumping H⁺ into the intermembrane space increases positive charge and acidity there, creating an electrochemical gradient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ATP synthase is composed mainly of:",
+      "options": [
+        "F₀ and F₁ subunits",
+        "Complex I and Complex II",
+        "CoQ and cytochrome c",
+        "NADH and FADH₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP synthase has F₀ embedded in the membrane and F₁ protruding into the matrix. Proton flow through F₀ drives ATP synthesis in F₁.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The F₀ subunit of ATP synthase is:",
+      "options": [
+        "Embedded in the membrane and forms the proton channel",
+        "The catalytic part protruding into the matrix",
+        "A mobile electron carrier",
+        "A cytochrome heme protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F₀ is the membrane-embedded part that allows protons to flow back into the matrix. This proton flow drives the ATP-forming activity of F₁.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The F₁ subunit of ATP synthase:",
+      "options": [
+        "Protrudes into the matrix and catalyzes ATP synthesis",
+        "Pumps electrons to oxygen",
+        "Transfers electrons from Complex III to IV",
+        "Blocks proton flow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F₁ contains ATP synthase catalytic activity and faces the mitochondrial matrix, where ADP and Pi are converted to ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which evidence supports the chemiosmotic hypothesis?",
+      "options": [
+        "Closed inner mitochondrial membrane allows proton gradient formation",
+        "Complex II pumps all protons",
+        "ATP is formed without membranes",
+        "Oxygen is not needed in ETC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A closed inner mitochondrial membrane is necessary to maintain a proton gradient. If the membrane is disrupted, proton gradients collapse and ATP synthesis is uncoupled.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Uncouplers are substances that:",
+      "options": [
+        "Allow oxidation to continue but prevent ATP formation",
+        "Stop all electron movement and heat production",
+        "Increase ATP formation only",
+        "Block all oxygen binding without heat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncouplers separate oxidation from phosphorylation. Electron transport may continue, but the energy is released as heat instead of being used to make ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In uncoupling, ATP formation:",
+      "options": [
+        "Stops or decreases while oxidation continues",
+        "Increases massively",
+        "Is unaffected",
+        "Occurs without electron transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncouplers dissipate the proton gradient. Electron transport can still proceed, often faster, but ATP synthesis decreases because the gradient cannot drive ATP synthase effectively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "UCP1/thermogenin produces heat by:",
+      "options": [
+        "Allowing protons to re-enter the matrix without ATP production",
+        "Blocking oxygen binding completely",
+        "Inhibiting Complex I permanently",
+        "Increasing ATP synthase activity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UCP1 creates a proton leak in brown adipose tissue. Protons return to the matrix without passing through ATP synthase, so energy is released as heat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "UCP1 is especially important in:",
+      "options": [
+        "Brown adipocytes of mammals",
+        "Red blood cells",
+        "Nucleus",
+        "White blood cell DNA replication only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UCP1, also called thermogenin, is responsible for heat production in brown adipose tissue, especially in response to cold in neonates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Brown fat appears brown mainly because of:",
+      "options": [
+        "High mitochondrial cytochrome concentration",
+        "High glycogen only",
+        "Absence of mitochondria",
+        "Low blood supply and no cytochromes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brown adipose tissue contains many mitochondria rich in cytochromes. This gives it a brown color and supports thermogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Oligomycin blocks oxidative phosphorylation by:",
+      "options": [
+        "Blocking the H⁺ channel of ATP synthase F₀",
+        "Carrying protons across the membrane",
+        "Inhibiting cytochrome c directly",
+        "Increasing proton leak like UCP1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oligomycin binds the F₀ subunit of ATP synthase and prevents protons from re-entering the matrix through ATP synthase. ATP formation stops and ETC eventually slows/stops because the proton gradient becomes too steep.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "2,4-Dinitrophenol acts mainly by:",
+      "options": [
+        "Carrying protons across the inner mitochondrial membrane and dissipating the gradient",
+        "Blocking ATP synthase F₀ directly",
+        "Blocking Complex IV oxygen binding only",
+        "Preventing NADH formation in cytosol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNP is a lipophilic proton carrier. It leaks protons across the inner mitochondrial membrane, decreasing the H⁺ gradient. ETC continues rapidly, but energy is lost as heat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High-dose aspirin resembles DNP because it:",
+      "options": [
+        "Can uncouple oxidative phosphorylation and cause heat production",
+        "Blocks all ETC complexes directly",
+        "Increases ATP yield per NADH",
+        "Prevents oxygen reduction without heat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that high doses of aspirin have the same mechanism as DNP, explaining fever in toxic overdose through uncoupled energy release as heat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates oligomycin from DNP?",
+      "options": [
+        "Oligomycin blocks proton flow through ATP synthase, while DNP leaks protons across the membrane",
+        "Both act by the exact same proton leak mechanism",
+        "DNP blocks Complex V F₀ channel directly",
+        "Oligomycin increases basal metabolic rate by leaking protons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oligomycin blocks the ATP synthase proton channel, preventing proton return through F₀. DNP bypasses ATP synthase by carrying protons across the membrane, dissipating the gradient as heat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The inner mitochondrial membrane is impermeable to most:",
+      "options": [
+        "Charged or hydrophilic substances",
+        "Lipid-soluble protons carriers only",
+        "Oxygen molecules only",
+        "Carbon dioxide only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IMM requires transport systems because many charged or hydrophilic molecules cannot freely cross it. This includes ADP, ATP, phosphate, and cytosolic reducing equivalents.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The adenine nucleotide carrier transports:",
+      "options": [
+        "ADP into the matrix and ATP out to the cytosol",
+        "NADH directly into mitochondria",
+        "Phosphate out of mitochondria only",
+        "Oxygen into Complex IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adenine nucleotide carrier exchanges one cytosolic ADP into mitochondria for one matrix ATP exported to cytosol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The phosphate carrier transports:",
+      "options": [
+        "Pi from cytosol into mitochondria",
+        "ATP from matrix to cytosol only",
+        "NADH into mitochondria directly",
+        "Cytochrome c into the matrix"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP synthesis requires ADP and inorganic phosphate in the matrix. The phosphate carrier brings Pi from the cytosol into mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cytosolic NADH cannot directly enter the mitochondrial matrix because:",
+      "options": [
+        "The inner mitochondrial membrane lacks an NADH transporter",
+        "NADH is destroyed by oxygen immediately",
+        "NADH is too small to transport",
+        "NADH is only found inside mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IMM does not have a direct NADH transporter. Therefore, electrons from cytosolic NADH are transferred into mitochondria by shuttle systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The glycerophosphate shuttle transfers electrons from cytosolic NADH to:",
+      "options": [
+        "FAD, forming FADH₂ in the mitochondrial isozyme",
+        "NAD⁺, forming mitochondrial NADH directly",
+        "Oxygen directly",
+        "ATP synthase F₁ directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the glycerophosphate shuttle, cytosolic NADH reduces DHAP to glycerol-3-phosphate. The mitochondrial isozyme then transfers electrons to FAD, forming FADH₂, which passes electrons to CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The glycerophosphate shuttle results in synthesis of:",
+      "options": [
+        "2 ATP according to the lecture",
+        "3 ATP",
+        "0 ATP",
+        "6 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because electrons enter the ETC through FADH₂/CoQ level, the glycerophosphate shuttle yields 2 ATP in the lecture’s ATP-yield model.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The malate-aspartate shuttle transfers cytosolic NADH electrons to form mitochondrial:",
+      "options": [
+        "NADH",
+        "FADH₂ only",
+        "CoQH₂ directly",
+        "ATP directly in cytosol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The malate-aspartate shuttle regenerates NADH inside the mitochondrial matrix, which then enters the ETC at Complex I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The malate-aspartate shuttle yields more ATP than glycerophosphate shuttle because:",
+      "options": [
+        "It produces mitochondrial NADH that enters at Complex I",
+        "It produces only FADH₂",
+        "It bypasses Complex I completely",
+        "It blocks proton pumping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrial NADH enters at Complex I and yields 3 ATP in the lecture system. Glycerophosphate shuttle electrons enter through FADH₂/CoQ and yield 2 ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to the lecture text, the malate-aspartate shuttle finally yields:",
+      "options": [
+        "3 ATP from mitochondrial NADH",
+        "1 ATP only",
+        "0 ATP",
+        "2 ATP only in every statement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slide includes a confusing line mentioning 2 ATP, but it clarifies that the mitochondrial isozyme produces NADH rather than FADH₂, and mitochondrial NADH entering Complex I yields 3 ATP in the lecture’s model.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Site-specific inhibitors of ETC block:",
+      "options": [
+        "Electron passage by binding to a component of the chain",
+        "Only ATP export from mitochondria",
+        "Only phosphate transport",
+        "Only cytosolic glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ETC inhibitors bind specific components and block redox reactions. This prevents electron flow past the blocked point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If ETC is inhibited at a site, electron carriers before the block become:",
+      "options": [
+        "Reduced",
+        "Oxidized",
+        "Destroyed",
+        "Converted into ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carriers before the block cannot pass electrons forward, so they remain reduced. Carriers after the block cannot receive electrons, so they remain oxidized.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If ETC is inhibited at a site, electron carriers after the block become:",
+      "options": [
+        "Oxidized",
+        "Reduced",
+        "Protonated only",
+        "Converted into FADH₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carriers downstream of the inhibition site cannot receive electrons, so they stay in the oxidized state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Site I inhibitors act between:",
+      "options": [
+        "FMN and CoQ at Complex I",
+        "Cyt bc1 and Cyt c",
+        "Cyt a+a3 and oxygen",
+        "ATP synthase F₀ and F₁"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture defines Site I inhibition as binding with Complex I, blocking electron transfer from FMN toward CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Site II inhibitors act between:",
+      "options": [
+        "Cytochrome bc1 and cytochrome c",
+        "FMN and CoQ",
+        "Cytochrome a+a3 and oxygen",
+        "F₀ and F₁ of ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Site II inhibitors bind at Complex III, preventing electron transfer from cytochrome bc1 to cytochrome c.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Site III inhibitors act between:",
+      "options": [
+        "Cytochrome a+a3 and oxygen",
+        "FMN and CoQ",
+        "NADH and FMN",
+        "FADH₂ and succinate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Site III inhibitors block Complex IV, preventing electron transfer from cytochrome a+a3 to oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Inhibition of electron transport inhibits ATP synthesis because:",
+      "options": [
+        "Electron transport and phosphorylation are tightly coupled",
+        "ATP synthesis never depends on electron transport",
+        "ATP is made only by substrate-level phosphorylation in mitochondria",
+        "Complex II pumps all protons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electron flow pumps protons, and the proton gradient drives ATP synthesis. Blocking electron transport prevents proton-gradient maintenance, so oxidative ATP synthesis stops.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which substrates must be available for respiratory chain activity?",
+      "options": [
+        "ADP, Pi, O₂, and oxidizable metabolites producing NADH/FADH₂",
+        "Only ATP and glucose-6-phosphate",
+        "Only AMP and creatine phosphate",
+        "Only DNA and RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Respiratory control depends on availability of ADP, inorganic phosphate, oxygen, and reduced electron carriers generated from oxidizable fuels.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A high ADP/ATP ratio generally:",
+      "options": [
+        "Stimulates respiration and ATP synthesis",
+        "Stops the respiratory chain",
+        "Prevents oxygen use",
+        "Blocks electron transport permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When ATP is consumed, ADP accumulates. High ADP signals energy demand and stimulates oxidative phosphorylation to regenerate ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A low ADP/ATP ratio generally:",
+      "options": [
+        "Decreases respiratory activity",
+        "Strongly stimulates ATP synthesis",
+        "Uncouples mitochondria directly",
+        "Converts NADH into oxygen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If ATP is abundant and ADP is low, the demand for ATP synthesis decreases, so respiration slows.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Disruption of mitochondrial structural integrity can cause:",
+      "options": [
+        "Uncoupling of electron transport from ATP synthesis",
+        "Increased ATP synthesis efficiency",
+        "Direct formation of glucose-6-phosphate",
+        "Complete prevention of heat release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the mitochondrial membrane is damaged, proton gradients cannot be maintained. Electron transport may release energy as heat instead of forming ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-109",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why oxygen is essential for ETC?",
+      "options": [
+        "Oxygen accepts electrons at the end of the chain",
+        "Oxygen pumps protons through ATP synthase",
+        "Oxygen donates electrons to NADH",
+        "Oxygen forms CoQ directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxygen is the terminal electron acceptor. Without oxygen, electrons cannot flow through the chain, and oxidative phosphorylation stops.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about ATP yield is correct according to the lecture?",
+      "options": [
+        "About 50% of energy output becomes ATP and the rest becomes heat",
+        "100% of energy becomes ATP",
+        "100% of energy is lost as heat",
+        "Heat production never occurs in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that roughly 50% of energy output is captured as ATP, while the remaining 50% is released as heat to maintain body temperature.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates oxidation and reduction?",
+      "options": [
+        "Oxidation loses electrons; reduction gains electrons",
+        "Oxidation gains electrons; reduction loses electrons",
+        "Both mean only oxygen removal",
+        "Both are unrelated to electron movement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The simplest redox rule is “oxidation is loss, reduction is gain” of electrons. In biological systems, hydrogen transfer often represents electron transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-112",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the ETC, NAD⁺ receives electrons mainly as:",
+      "options": [
+        "Hydride ion",
+        "Free oxygen atom",
+        "Proton only without electrons",
+        "Phosphate group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that electrons may be transferred as hydride ions to NAD⁺, as hydrogen atoms to FMN/FAD/CoQ, or as electrons to cytochromes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "FMN, FAD, and CoQ can receive electrons as:",
+      "options": [
+        "Hydrogen atoms",
+        "Phosphate groups",
+        "Full ATP molecules",
+        "Oxygen atoms only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These carriers can accept hydrogen atoms during redox reactions. Cytochromes mainly transfer electrons through their iron centers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cytochromes transfer electrons mainly through:",
+      "options": [
+        "Fe³⁺/Fe²⁺ cycling in heme",
+        "ATP hydrolysis",
+        "Ribose oxidation",
+        "Proton leak only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochrome heme iron reversibly shifts between ferric and ferrous forms, allowing electron transfer through the chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which component is not a mobile electron carrier?",
+      "options": [
+        "Complex I",
+        "CoQ",
+        "Cytochrome c",
+        "Both CoQ and cytochrome c are mobile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CoQ and cytochrome c are mobile carriers. Complex I is an embedded protein complex in the inner mitochondrial membrane, not a mobile carrier.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about Complex II is correct?",
+      "options": [
+        "It contains FAD and Fe-S centers but does not pump protons",
+        "It is ATP synthase",
+        "It contains cytochromes a+a3",
+        "It accepts electrons from NADH directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex II includes succinate dehydrogenase and contains FAD and Fe-S centers. It transfers electrons to CoQ but does not pump protons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about Complex I is correct?",
+      "options": [
+        "It oxidizes NADH and reduces FMN to FMNH₂",
+        "It oxidizes oxygen to water",
+        "It is the same as ATP synthase",
+        "It contains only cytochrome c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex I accepts electrons from NADH + H⁺ and transfers them to FMN, producing FMNH₂, then further to Fe-S centers and CoQ.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-118",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme in Complex II is part of the Krebs cycle?",
+      "options": [
+        "Succinate dehydrogenase",
+        "NADH dehydrogenase",
+        "Cytochrome oxidase",
+        "ATP synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase is both a Krebs cycle enzyme and a part of Complex II in the ETC, linking the TCA cycle directly to electron transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which complex is cytochrome oxidase?",
+      "options": [
+        "Complex IV",
+        "Complex I",
+        "Complex II",
+        "Complex V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex IV is cytochrome oxidase. It contains cytochromes a and a3 and transfers electrons to oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about ATP synthase is correct?",
+      "options": [
+        "Protons re-enter the matrix through ATP synthase to drive ATP formation",
+        "ATP synthase pumps protons out like Complex I",
+        "ATP synthase is CoQ",
+        "ATP synthase blocks oxygen use normally"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After protons are pumped into the intermembrane space, they return through ATP synthase. This flow powers ATP formation from ADP and Pi.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-121",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would directly reduce oxidative phosphorylation by limiting substrate availability?",
+      "options": [
+        "Lack of ADP, Pi, O₂, or NADH/FADH₂-generating metabolites",
+        "Excess ADP only",
+        "High oxygen with high ADP",
+        "Intact mitochondria and adequate substrates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative phosphorylation requires both electron donors and phosphorylation substrates. Low ADP, Pi, oxygen, or reduced carriers can limit ATP synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-122",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which effect is expected from DNP?",
+      "options": [
+        "Increased heat production with decreased ATP synthesis",
+        "Complete ETC blockade at Complex IV",
+        "Increased ATP synthesis efficiency",
+        "No effect on proton gradient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNP dissipates the proton gradient by carrying protons across the inner membrane. Energy from ETC is released as heat instead of ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-123",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which effect is expected from oligomycin?",
+      "options": [
+        "Proton re-entry through ATP synthase is blocked",
+        "Protons leak freely through the membrane",
+        "ATP production increases",
+        "Complex II begins pumping protons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oligomycin blocks the F₀ proton channel of ATP synthase. Without proton flow through ATP synthase, ATP production stops.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-124",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is an illegal weight-loss uncoupler mentioned in the lecture?",
+      "options": [
+        "2,4-Dinitrophenol",
+        "Creatine phosphate",
+        "Coenzyme Q",
+        "FMN"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNP increases basal metabolic rate by uncoupling oxidative phosphorylation. Because energy is released as heat, it is dangerous and illegal as a weight-loss supplement.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-125",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about thermogenin is correct?",
+      "options": [
+        "It causes proton leak and heat production in brown fat",
+        "It blocks F₀ like oligomycin",
+        "It is cytochrome c",
+        "It transfers electrons from Complex III to IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thermogenin/UCP1 allows protons to bypass ATP synthase and re-enter the matrix, producing heat instead of ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-126",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which shuttle transfers cytosolic NADH electrons to CoQ through FADH₂?",
+      "options": [
+        "Glycerophosphate shuttle",
+        "Malate-aspartate shuttle",
+        "Adenine nucleotide carrier",
+        "Phosphate carrier"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The glycerophosphate shuttle transfers electrons to mitochondrial FAD, forming FADH₂. CoQ then receives these electrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-127",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which shuttle transfers cytosolic NADH electrons into mitochondria as mitochondrial NADH?",
+      "options": [
+        "Malate-aspartate shuttle",
+        "Glycerophosphate shuttle",
+        "ATP-ADP carrier",
+        "Phosphate carrier"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The malate-aspartate shuttle regenerates NADH in the matrix, allowing electrons to enter ETC at Complex I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-128",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes ETC inhibition?",
+      "options": [
+        "Carriers before the block are reduced, carriers after the block are oxidized",
+        "All carriers before the block are oxidized",
+        "All carriers after the block are reduced",
+        "Inhibition increases ATP synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blocked electron flow causes upstream carriers to accumulate electrons and remain reduced, while downstream carriers cannot receive electrons and remain oxidized.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-129",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor best reflects energy demand in respiratory control?",
+      "options": [
+        "ADP/ATP ratio",
+        "DNA/RNA ratio",
+        "Ferritin/TIBC ratio",
+        "Codon/anticodon ratio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When ATP is consumed, ADP rises. High ADP stimulates respiration and ATP resynthesis, making ADP/ATP ratio a key regulatory signal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-bioenergetics-oxidative-phosphorylation-130",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Electron flow through ETC pumps protons at I, III, and IV; proton return through ATP synthase drives ATP formation",
+        "Complex II pumps most protons and ATP synthase transfers electrons to oxygen",
+        "CoQ is the final electron acceptor and oxygen carries electrons to Complex I",
+        "DNP blocks Complex I and oligomycin leaks protons across the membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the core mechanism of oxidative phosphorylation. Electron transfer releases energy, proton pumps create a gradient, and ATP synthase uses proton return to generate ATP.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
