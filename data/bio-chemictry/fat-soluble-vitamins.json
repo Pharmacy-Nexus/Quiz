@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "fat-soluble-vitamins",
   "topicName": "Fat-Soluble Vitamins",
-  "updatedAt": "2026-05-29T17:53:35.471Z",
+  "updatedAt": "2026-05-29T17:55:45.093Z",
   "questions": [
     {
       "id": "bio-chemictry-enzymes-001",
@@ -3808,6 +3808,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "Vitamin D increases calcium and phosphate availability and stimulates pro-osteocalcin synthesis. Vitamin K activates osteocalcin by γ-carboxylation, enabling calcium binding and proper bone mineralization. This is an important cross-vitamin integration point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-225",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with fat malabsorption develops night blindness, dry conjunctiva, and rough skin. Which mechanism best explains these findings?",
+      "options": [
+        "Defective retinal formation and impaired epithelial differentiation",
+        "Failure of γ-carboxylation of clotting factors",
+        "Reduced calcitriol formation in kidney",
+        "Increased oxidation of LDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A is fat-soluble, so fat malabsorption can reduce its absorption. Night blindness occurs because retinal is needed for rhodopsin formation, while xerophthalmia and rough skin occur because retinol/retinoic acid maintain epithelial differentiation. The trap is that fat malabsorption can affect all fat-soluble vitamins, but these symptoms point specifically to vitamin A.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-226",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has vitamin A toxicity after excessive supplementation. Which explanation best fits the mechanism of toxicity?",
+      "options": [
+        "Retinol intake exceeds RBP capacity, increasing free retinol in blood",
+        "Retinal becomes unable to bind opsin",
+        "Retinoic acid fails to bind nuclear receptors",
+        "β-carotene is not absorbed from intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A is stored mainly in the liver and transported by retinol binding protein. Hypervitaminosis A occurs when intake exceeds RBP capacity, allowing free retinol to circulate and produce toxic effects such as headache, nausea, bone pain, and hair loss. This is different from deficiency, where retinal and retinoic acid functions are inadequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-227",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says retinoic acid can fully replace retinal in night vision because both are vitamin A derivatives. Which correction is best?",
+      "options": [
+        "Retinal is required for rhodopsin; retinoic acid mainly regulates gene expression",
+        "Retinoic acid is the only vitamin A form used in the retina",
+        "Retinol ester directly binds opsin without conversion",
+        "β-carotene directly forms rhodopsin in rods"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Retinal and retinoic acid are both vitamin A derivatives, but their roles differ. Retinal combines with opsin to form rhodopsin for vision, especially night vision. Retinoic acid acts through nuclear receptors to regulate genes involved in growth and epithelial differentiation, but it does not replace retinal in rhodopsin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-228",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with bile duct obstruction is most at risk of deficiency of which group of vitamins?",
+      "options": [
+        "Vitamins A, D, E, and K",
+        "Vitamins B and C only",
+        "Vitamin C and folic acid only",
+        "Water-soluble vitamins only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat-soluble vitamins require bile salts for absorption. If bile flow is obstructed, absorption of vitamins A, D, E, and K can be impaired. The clinical manifestations depend on which vitamin becomes deficient: night blindness for A, bone disease for D, bleeding for K, and hemolysis/muscle damage for E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-229",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child has bone deformities due to poor mineralization. Lab context suggests impaired formation of active vitamin D in the kidney. Which enzyme is most directly affected?",
+      "options": [
+        "Renal 1α-hydroxylase",
+        "Hepatic 25-hydroxylase",
+        "β-carotene dioxygenase",
+        "γ-glutamyl carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The kidney converts 25(OH)D₃ into active 1,25(OH)₂D₃ by 1α-hydroxylase. Reduced activity of this enzyme decreases calcitriol formation, reducing calcium/phosphate handling and causing bone demineralization. In children this appears as rickets; in chronic renal failure it contributes to renal osteodystrophy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-230",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with chronic renal failure develops renal osteodystrophy. Which sequence best explains the condition?",
+      "options": [
+        "Decreased renal 1-hydroxylation → decreased calcitriol → impaired bone mineralization",
+        "Increased retinal formation → increased rhodopsin → bone deformity",
+        "Increased vitamin K activation → excessive clotting → bone fracture",
+        "Increased α-tocopherol → LDL oxidation → bone loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chronic renal failure impairs the kidney’s ability to activate vitamin D. Less calcitriol means reduced calcium absorption and disturbed calcium/phosphate balance, leading to defective mineralization and renal osteodystrophy. This question tests the organ sequence of vitamin D activation: skin → liver → kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-231",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hypocalcemia increases calcitriol formation mainly through which pathway?",
+      "options": [
+        "Hypocalcemia → PTH release → activation of renal 1α-hydroxylase",
+        "Hypocalcemia → inhibition of PTH → inhibition of kidney activation",
+        "Hypocalcemia → retinol binding protein release → calcitriol formation",
+        "Hypocalcemia → vitamin K epoxide formation → calcitriol formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low serum calcium stimulates parathyroid hormone. PTH activates renal 1α-hydroxylase, increasing conversion of 25(OH)D₃ into calcitriol. Calcitriol then helps normalize calcium by increasing intestinal absorption, renal reabsorption, and calcium movement from bone when needed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-232",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hypophosphatemia increases active vitamin D formation by:",
+      "options": [
+        "Directly activating renal 1α-hydroxylase",
+        "Stimulating RBP synthesis in liver",
+        "Blocking γ-carboxylation of osteocalcin",
+        "Increasing vitamin E absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture distinguishes hypocalcemia from hypophosphatemia. Hypocalcemia works through PTH, while hypophosphatemia directly activates renal 1α-hydroxylase. Both mechanisms increase calcitriol formation, helping restore mineral balance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-233",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient takes excessive vitamin D and develops renal stones. Which mechanism is most likely?",
+      "options": [
+        "Increased calcium/phosphate deposition due to hypervitaminosis D",
+        "Failure of rhodopsin formation",
+        "Loss of clotting factor carboxylation",
+        "Increased RBC peroxide damage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess vitamin D can raise calcium and phosphate movement into blood and cause abnormal calcification of tissues. The lecture specifically mentions deposition of calcium and phosphate in different systems, including renal stones. This is toxicity, not deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-234",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has prolonged bleeding after long antibiotic use. Which explanation best fits?",
+      "options": [
+        "Reduced intestinal bacteria → reduced vitamin K₂ synthesis → impaired clotting factor activation",
+        "Reduced sunlight exposure → reduced vitamin D₃ → impaired rhodopsin",
+        "Reduced RBP → increased free retinol → impaired clotting",
+        "Reduced tocopherol → increased calcium deposition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intestinal bacteria synthesize vitamin K₂. Long-term antibiotic use can reduce these bacteria, causing vitamin K deficiency. Without vitamin K, clotting factors II, VII, IX, and X are not properly γ-carboxylated, so they cannot bind calcium effectively and clotting is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-235",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A newborn develops bleeding tendency shortly after birth. Which reason best explains increased risk of vitamin K deficiency?",
+      "options": [
+        "Sterile intestine reduces bacterial vitamin K₂ production",
+        "Excess sunlight destroys vitamin K",
+        "Newborns cannot absorb vitamin A",
+        "Vitamin E blocks clotting factor synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newborn intestines are initially sterile, so bacterial synthesis of vitamin K₂ is limited. Since vitamin K is needed for activation of clotting factors, deficiency increases bleeding risk. This is why newborn vitamin K deficiency is a classic clinical point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-236",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Warfarin therapy leads to reduced clotting factor activity. Which biochemical step is most directly impaired?",
+      "options": [
+        "Vitamin K-dependent γ-carboxylation of glutamate residues",
+        "Conversion of retinol to retinal",
+        "Hydroxylation of vitamin D at carbon 25",
+        "Prevention of LDL oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K is needed for carboxylation of glutamic acid residues to γ-carboxyglutamate in clotting factors. Warfarin interferes with vitamin K action/recycling, so factors II, VII, IX, and X are produced with reduced functional activity. The key result is impaired calcium binding.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-237",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clotting factor is produced in the liver but cannot bind calcium properly. Which vitamin is most likely deficient?",
+      "options": [
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K-dependent γ-carboxylation creates γ-carboxyglutamate residues, which bind calcium. Without vitamin K, clotting factor proteins may be synthesized but remain functionally defective. This explains bleeding even when the liver can produce precursor proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-238",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best connects vitamin K, calcium, and clotting?",
+      "options": [
+        "Vitamin K carboxylates glutamate residues, allowing calcium bridges with membrane phospholipids",
+        "Vitamin K directly forms calcium ions from phosphate",
+        "Vitamin K converts prothrombin into vitamin D",
+        "Vitamin K prevents LDL oxidation to stabilize clotting factors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K enables γ-carboxylation of glutamate residues in clotting factors. These γ-carboxyglutamate residues bind calcium, and calcium helps connect clotting factors to membrane phospholipids. This is the biochemical basis of vitamin K’s role in coagulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-239",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has liver disease and develops bleeding tendency. Which combined mechanism from the lecture best explains this?",
+      "options": [
+        "Reduced prothrombin synthesis plus reduced bile salts for vitamin K absorption",
+        "Excess rhodopsin formation plus increased retinal storage",
+        "Increased vitamin D activation plus calcium loss",
+        "Increased α-tocopherol activity plus LDL oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver is the site of prothrombin synthesis and also forms bile salts needed for fat-soluble vitamin absorption. Liver disease can therefore impair clotting factor production directly and reduce vitamin K absorption indirectly. This makes bleeding risk stronger than from one mechanism alone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-240",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A bone protein is synthesized after stimulation by vitamin D but requires vitamin K to become active. Which protein is described?",
+      "options": [
+        "Osteocalcin",
+        "Rhodopsin",
+        "Prothrombin only",
+        "Retinol binding protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D stimulates synthesis of pro-osteocalcin, while vitamin K activates it by carboxylation of glutamic acid residues. Active osteocalcin binds calcium and supports proper bone mineralization. This is a key integration between vitamins D and K.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-241",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient is most likely to have combined impairment of vitamins A, D, E, and K absorption?",
+      "options": [
+        "A patient with absent bile salts in the intestine",
+        "A patient with high dietary carbohydrate intake",
+        "A patient with increased HbA1c",
+        "A patient with high AMP levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All fat-soluble vitamins require bile salts for absorption. If bile salts are absent or bile flow is blocked, absorption of A, D, E, and K can be reduced. This can produce mixed symptoms affecting vision, bones, clotting, and antioxidant protection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-242",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A premature infant develops hemolytic anemia due to oxidative damage to RBC membranes. Which vitamin deficiency is most likely?",
+      "options": [
+        "Vitamin E",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E protects polyunsaturated fatty acids in cell membranes from peroxide and free radical damage. RBC membranes are vulnerable to oxidative damage, especially in premature infants. Deficiency can cause hemolysis and anemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-243",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Vitamin E deficiency causes hemolysis mainly because:",
+      "options": [
+        "RBC membranes lose protection against peroxide damage",
+        "Clotting factors cannot bind calcium",
+        "Rhodopsin cannot form in rods",
+        "Calbindin cannot absorb calcium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin E is a lipid-phase antioxidant. It protects membrane lipids, especially polyunsaturated fatty acids, from oxidation and peroxide formation. Without this protection, RBC membranes become fragile and hemolyze.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-244",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient is at risk of atherosclerotic heart disease due to oxidized LDL. Which fat-soluble vitamin is most directly protective according to the lecture?",
+      "options": [
+        "Vitamin E",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that vitamin E helps protect against heart disease by preventing LDL oxidation. Oxidized LDL contributes to atherosclerotic processes. Although vitamin A also has antioxidant roles, the LDL oxidation point is specifically linked to vitamin E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-245",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates vitamin A and vitamin E antioxidant roles in this lecture?",
+      "options": [
+        "Vitamin A protects epithelial tissues from oxidants; vitamin E protects membranes and LDL from oxidation",
+        "Vitamin A activates clotting factors; vitamin E activates osteocalcin",
+        "Vitamin A increases calcium absorption; vitamin E forms rhodopsin",
+        "Both mainly act by γ-carboxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both vitamins have antioxidant-related roles, but the lecture emphasizes different contexts. Vitamin A retinoids/carotenoids protect epithelial tissues from oxidants, while vitamin E protects cell membranes, polyunsaturated fatty acids, DNA, and LDL from oxidation. The trap is treating all antioxidant functions as identical.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-246",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A deficiency causes rough mucous membranes and recurrent urinary infections. Which explanation best fits?",
+      "options": [
+        "Vitamin A deficiency impairs epithelial differentiation",
+        "Vitamin K deficiency blocks thrombin formation",
+        "Vitamin D deficiency increases calcium absorption",
+        "Vitamin E deficiency increases γ-carboxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin A maintains epithelial cells and mucus membranes. Deficiency causes roughness of mucus membranes in different body systems, such as the urinary system, increasing infection risk. This symptom set points more to vitamin A than to D, K, or E.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-247",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which vitamin pair is most directly linked through osteocalcin?",
+      "options": [
+        "Vitamins D and K",
+        "Vitamins A and E",
+        "Vitamins A and K",
+        "Vitamins D and E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin D stimulates synthesis of pro-osteocalcin, while vitamin K activates osteocalcin through carboxylation. This means bone mineralization depends not only on calcium/phosphate availability from vitamin D but also on functional calcium-binding proteins activated by vitamin K.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-248",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has poor fat absorption and prolonged prothrombin time before developing bone symptoms. Which vitamin deficiency would explain the early clotting abnormality?",
+      "options": [
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K deficiency produces clotting abnormalities because clotting factors require continuous activation. Since clotting factor turnover is relatively rapid, bleeding signs can appear early. Vitamin D deficiency produces bone effects, but these usually reflect longer-term mineralization problems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-249",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has night blindness but normal clotting factors and normal bone mineralization. Which deficient vitamin is most likely?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin K",
+        "Vitamin E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Night blindness is a classic vitamin A deficiency sign caused by inadequate retinal for rhodopsin formation. Normal clotting makes vitamin K deficiency less likely, and normal bone mineralization makes vitamin D deficiency less likely. Vitamin E deficiency would more likely cause hemolysis or muscle breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-250",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has rickets despite adequate sunlight exposure. Which additional problem could still impair active vitamin D action according to the lecture pathway?",
+      "options": [
+        "Defective renal 1α-hydroxylation",
+        "Excess retinal formation in retina",
+        "Increased vitamin K carboxylation",
+        "Excess α-tocopherol in seed oils"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sunlight helps form vitamin D3 in skin, but vitamin D must still be activated by liver 25-hydroxylation and kidney 1α-hydroxylation. If kidney activation is impaired, active calcitriol falls even with adequate sunlight, leading to defective calcium/phosphate regulation and bone disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-251",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why vitamin D is described as a steroid hormone?",
+      "options": [
+        "Its active form binds intracellular receptors and regulates gene transcription",
+        "It is a water-soluble coenzyme excreted immediately",
+        "It directly becomes a clotting factor",
+        "It works only as an antioxidant in membranes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcitriol behaves like a steroid hormone: it binds intracellular receptors, enters the nucleus, and stimulates DNA transcription to produce proteins such as calbindin. This gene-regulatory action explains why its effects are not simply immediate enzyme cofactor effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-252",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which option best distinguishes vitamin D toxicity from vitamin A toxicity?",
+      "options": [
+        "Vitamin D toxicity causes abnormal calcification; vitamin A toxicity causes headache, nausea, bone pain, and hair loss",
+        "Vitamin D toxicity causes night blindness; vitamin A toxicity causes renal stones",
+        "Both cause only bleeding tendency",
+        "Vitamin D toxicity is due to RBP capacity being exceeded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypervitaminosis D causes abnormal calcification of tissues and calcium/phosphate deposition, including renal stones. Hypervitaminosis A occurs when RBP capacity is exceeded, causing free retinol toxicity with headache, nausea, bone pain, and hair loss. This comparison helps prevent toxicity mix-ups.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-253",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why vitamin K deficiency is rare but still clinically important?",
+      "options": [
+        "Intestinal bacteria synthesize K₂, but newborns, antibiotics, warfarin, and liver disease can cause deficiency",
+        "Vitamin K is stored only in retina and never affected by disease",
+        "Vitamin K is produced by sunlight, but only in adults",
+        "Vitamin K deficiency only affects skin roughness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vitamin K deficiency is rare because gut bacteria produce vitamin K₂. However, it can still occur in newborns with sterile intestines, after long antibiotic use, during warfarin/dicumarol use, or with liver disease. The main clinical concern is impaired blood clotting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fat-soluble-vitamins-254",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has fat malabsorption, bleeding tendency, bone pain, and signs of oxidative RBC damage. Which explanation best integrates the findings?",
+      "options": [
+        "Combined fat-soluble vitamin deficiency affecting K, D, and E",
+        "Isolated vitamin A deficiency only",
+        "Excess vitamin D only",
+        "Isolated vitamin K excess"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fat malabsorption can reduce absorption of all fat-soluble vitamins. Bleeding tendency suggests vitamin K deficiency, bone pain suggests vitamin D deficiency, and oxidative RBC damage suggests vitamin E deficiency. This kind of mixed presentation is possible when the problem is absorption rather than lack of one specific vitamin.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
