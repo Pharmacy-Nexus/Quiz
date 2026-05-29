@@ -163,10 +163,10 @@
       "sectionId": "bioenergetics-oxidative-phosphorylation",
       "difficultyBreakdown": {
         "easy": 40,
-        "medium": 0,
+        "medium": 90,
         "hard": 0
       },
-      "questionsCount": 40,
+      "questionsCount": 130,
       "file": "data/bio-chemictry/bioenergetics-oxidative-phosphorylation.json"
     }
   ],
@@ -196,5 +196,5 @@
       "order": 4
     }
   ],
-  "updatedAt": "2026-05-29T22:22:54.990Z"
+  "updatedAt": "2026-05-29T22:27:51.748Z"
 }
