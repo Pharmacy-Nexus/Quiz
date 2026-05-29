@@ -71,7 +71,13 @@
       "name": "Protein",
       "description": "",
       "order": 1
+    },
+    {
+      "id": "vitamins",
+      "name": "Vitamins",
+      "description": "",
+      "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T17:37:12.466Z"
+  "updatedAt": "2026-05-29T17:46:51.092Z"
 }
