@@ -119,9 +119,9 @@
       "difficultyBreakdown": {
         "easy": 25,
         "medium": 95,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 120,
+      "questionsCount": 150,
       "file": "data/bio-chemictry/nucleic-acids-part-1.json"
     }
   ],
@@ -145,5 +145,5 @@
       "order": 2
     }
   ],
-  "updatedAt": "2026-05-29T21:53:57.942Z"
+  "updatedAt": "2026-05-29T21:54:29.394Z"
 }
