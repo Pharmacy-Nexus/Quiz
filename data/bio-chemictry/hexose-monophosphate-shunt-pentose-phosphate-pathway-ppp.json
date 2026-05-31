@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp",
   "topicName": "Hexose Monophosphate Shunt / Pentose Phosphate Pathway (PPP)",
-  "updatedAt": "2026-05-31T23:05:14.814Z",
+  "updatedAt": "2026-05-31T23:14:07.862Z",
   "questions": [
     {
       "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-001",
@@ -595,6 +595,1196 @@
       ],
       "correctAnswer": 0,
       "explanation": "Although G6PD deficiency occurs in all cells, RBCs are most sensitive because they lack mitochondria and depend on PPP as their only source of NADPH. Without enough NADPH, they cannot detoxify oxidants effectively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which substrate directly enters the oxidative phase of PPP?",
+      "options": [
+        "Glucose-6-phosphate",
+        "Glucose-1-phosphate",
+        "Fructose-6-phosphate",
+        "Ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The oxidative phase begins with glucose-6-phosphate. G6PD oxidizes glucose-6-phosphate to 6-phosphogluconolactone while reducing NADP⁺ to NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme catalyzes the rate-controlling first step of the oxidative phase?",
+      "options": [
+        "Glucose-6-phosphate dehydrogenase",
+        "Transketolase",
+        "Transaldolase",
+        "Ribose phosphate isomerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G6PD catalyzes the first irreversible oxidation in PPP. Because it controls entry of glucose-6-phosphate into the oxidative phase, it is a major control point of the pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair of oxidative phase enzymes produces NADPH?",
+      "options": [
+        "G6PD and 6-phosphogluconate dehydrogenase",
+        "Lactonase and transaldolase",
+        "Isomerase and epimerase",
+        "Transketolase and transaldolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two NADPH molecules are produced in the oxidative phase: one at the G6PD step and one at the 6-phosphogluconate dehydrogenase step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lactonase is important in the oxidative phase because it converts:",
+      "options": [
+        "6-phosphogluconolactone to 6-phosphogluconate",
+        "Ribulose-5-phosphate to ribose-5-phosphate",
+        "Xylulose-5-phosphate to GAP",
+        "Glucose-6-phosphate to fructose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactonase, also called 6-phosphogluconolactone hydrolase, hydrolyzes the lactone intermediate to 6-phosphogluconate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The CO₂ released in PPP is produced during which reaction?",
+      "options": [
+        "6-phosphogluconate to ribulose-5-phosphate",
+        "Glucose-6-phosphate to 6-phosphogluconolactone",
+        "Ribulose-5-phosphate to ribose-5-phosphate",
+        "Xylulose-5-phosphate to fructose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "6-phosphogluconate dehydrogenase catalyzes oxidative decarboxylation. This produces ribulose-5-phosphate, NADPH, and CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is produced at the end of the oxidative phase before entering the non-oxidative phase?",
+      "options": [
+        "Ribulose-5-phosphate",
+        "Fructose-6-phosphate",
+        "Acetyl-CoA",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The oxidative phase converts glucose-6-phosphate into ribulose-5-phosphate. Ribulose-5-phosphate can then be converted into ribose-5-phosphate or xylulose-5-phosphate in the non-oxidative phase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme converts ribulose-5-phosphate to ribose-5-phosphate?",
+      "options": [
+        "Ribose phosphate isomerase",
+        "Ribulose phosphate epimerase",
+        "Transketolase",
+        "6PGD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isomerase converts ribulose-5-phosphate, a ketose, into ribose-5-phosphate, an aldose needed for nucleotide synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme converts ribulose-5-phosphate to xylulose-5-phosphate?",
+      "options": [
+        "Ribulose phosphate epimerase",
+        "Ribose phosphate isomerase",
+        "Lactonase",
+        "G6PD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epimerase changes the configuration of ribulose-5-phosphate to form xylulose-5-phosphate. These two sugars are epimers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the non-oxidative phase?",
+      "options": [
+        "It reversibly interconverts 3-, 4-, 5-, and 7-carbon sugars",
+        "It irreversibly produces CO₂ and NADPH only",
+        "It directly produces ATP from ADP",
+        "It occurs only in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The non-oxidative phase is flexible. It allows cells to convert pentose phosphates into glycolytic intermediates or make pentose phosphates from glycolytic intermediates depending on need.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which two enzymes are responsible for carbon-fragment transfers in the non-oxidative phase?",
+      "options": [
+        "Transketolase and transaldolase",
+        "G6PD and 6PGD",
+        "Lactonase and G6PD",
+        "Hexokinase and PFK-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transketolase transfers 2-carbon fragments, while transaldolase transfers 3-carbon fragments. Together they rearrange sugar phosphates in the non-oxidative phase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme requires thiamine pyrophosphate in PPP?",
+      "options": [
+        "Transketolase",
+        "Transaldolase",
+        "Lactonase",
+        "Ribose phosphate isomerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transketolase requires TPP, derived from vitamin B1. This is a common exam trap because TPP is also important in other carbon-transfer reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is catalyzed by transketolase in the non-oxidative phase?",
+      "options": [
+        "Transfer of a 2-carbon unit from a ketose donor to an aldose acceptor",
+        "Transfer of a 3-carbon unit from an aldose donor",
+        "Oxidative decarboxylation of glucose-6-phosphate",
+        "Reduction of methemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transketolase transfers 2-carbon fragments. In the pathway diagrams, it participates in conversions involving xylulose-5-phosphate with ribose-5-phosphate or erythrose-4-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme transfers a 3-carbon fragment in the non-oxidative phase?",
+      "options": [
+        "Transaldolase",
+        "Transketolase",
+        "G6PD",
+        "Lactonase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaldolase transfers a 3-carbon fragment. This helps convert sedoheptulose-7-phosphate and GAP into fructose-6-phosphate and erythrose-4-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the non-oxidative phase, pentose phosphates can be converted into:",
+      "options": [
+        "Fructose-6-phosphate and glyceraldehyde-3-phosphate",
+        "Acetyl-CoA and citrate",
+        "Lactate and pyruvate only",
+        "UDP-glucose and glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A major function of the non-oxidative phase is to connect PPP to glycolysis by producing fructose-6-phosphate and GAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which situation favors conversion of pentose phosphates into glycolytic intermediates?",
+      "options": [
+        "Cells need more NADPH than ribose-5-phosphate",
+        "Cells need only ATP and no NADPH",
+        "Cells need ribose-5-phosphate more than NADPH",
+        "Cells are completely inactive metabolically"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When NADPH demand is high, ribulose-5-phosphate can be converted through non-oxidative reactions to F6P and GAP, which can return to G6P and re-enter the oxidative phase to make more NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which situation favors conversion of glycolytic intermediates into ribose-5-phosphate?",
+      "options": [
+        "Cells need ribose-5-phosphate more than NADPH",
+        "Cells need NADPH more than ribose",
+        "Cells need only lactate production",
+        "Cells are performing β-oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When nucleotide synthesis requires ribose but NADPH demand is low, the reversible non-oxidative phase can convert fructose-6-phosphate and GAP into ribose-5-phosphate without using the oxidative phase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glycolytic intermediates can be converted to ribose-5-phosphate through non-oxidative PPP?",
+      "options": [
+        "Fructose-6-phosphate and GAP",
+        "Pyruvate and lactate",
+        "Glucose and acetyl-CoA",
+        "Citrate and oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reversible non-oxidative phase links PPP and glycolysis. F6P and GAP can be rearranged to form ribose-5-phosphate when ribose demand is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares oxidative and non-oxidative PPP?",
+      "options": [
+        "Oxidative phase produces NADPH irreversibly; non-oxidative phase reversibly rearranges sugar phosphates",
+        "Oxidative phase produces ATP; non-oxidative phase releases CO₂",
+        "Both phases are irreversible and ATP-producing",
+        "Both phases occur in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The oxidative phase is mainly for NADPH production and is irreversible. The non-oxidative phase provides metabolic flexibility by reversible sugar-phosphate interconversion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares HMP shunt and glycolysis regarding ATP?",
+      "options": [
+        "HMP does not generate ATP, while glycolysis generates ATP",
+        "HMP generates more ATP than glycolysis",
+        "Both generate ATP equally",
+        "Glycolysis never generates ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PPP conserves energy mainly in NADPH, not ATP. Glycolysis generates ATP through substrate-level phosphorylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares HMP shunt and glycolysis regarding coenzymes?",
+      "options": [
+        "HMP uses NADP⁺ and TPP; glycolysis uses NAD⁺ and ATP",
+        "HMP uses NAD⁺ only; glycolysis uses NADP⁺ only",
+        "HMP uses FAD only; glycolysis uses CoA",
+        "Both use only NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture comparison table states that HMP uses NADP⁺ and TPP, whereas glycolysis uses NAD⁺ and ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares HMP shunt and glycolysis regarding CO₂?",
+      "options": [
+        "CO₂ is produced in HMP but not in glycolysis",
+        "CO₂ is produced in glycolysis but not HMP",
+        "Both produce CO₂ in their first step",
+        "Neither pathway produces CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMP releases CO₂ during oxidative decarboxylation by 6PGD. Glycolysis does not release CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares HMP shunt and glycolysis regarding pentose phosphate?",
+      "options": [
+        "Pentose-5-phosphate is produced in HMP but not glycolysis",
+        "Pentose phosphate is produced in glycolysis but not HMP",
+        "Both produce pentose phosphate as main product",
+        "Neither pathway can produce pentose phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pentose phosphate production is a defining feature of PPP. Glycolysis produces pyruvate or lactate, not pentose phosphates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares HMP shunt and glycolysis regarding water?",
+      "options": [
+        "HMP uses H₂O, while glycolysis produces H₂O",
+        "HMP produces H₂O, while glycolysis uses H₂O",
+        "Both use H₂O at every step",
+        "Neither pathway involves water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture comparison table states that HMP uses water, whereas glycolysis produces water.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of PPP supports synthesis of ATP, GTP, NAD, NADP, FAD, and FMN?",
+      "options": [
+        "Ribose-5-phosphate",
+        "NADPH",
+        "CO₂",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribose-5-phosphate is required for nucleotide and nucleotide-coenzyme synthesis. This includes ATP, GTP, NAD, NADP, FAD, and FMN.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of PPP supports reduced glutathione regeneration?",
+      "options": [
+        "NADPH",
+        "Ribose-5-phosphate",
+        "Fructose-6-phosphate",
+        "CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH provides reducing equivalents to glutathione reductase, which regenerates reduced glutathione. Reduced glutathione protects cells from oxidative damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is PPP active in liver, adipose tissue, and lactating mammary gland?",
+      "options": [
+        "These tissues need NADPH for fatty acid biosynthesis",
+        "These tissues lack glycolysis",
+        "These tissues only need ribose and no NADPH",
+        "These tissues use PPP to generate most ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis is reductive and requires NADPH. Liver, adipose tissue, and lactating mammary gland are active lipogenic tissues, so PPP is important there.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is PPP active in adrenal cortex, ovaries, testes, and placenta?",
+      "options": [
+        "These tissues need NADPH for steroid hormone synthesis",
+        "These tissues do not need NADPH",
+        "These tissues use PPP mainly for ATP",
+        "These tissues cannot synthesize cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steroid hormone synthesis requires NADPH. Steroidogenic tissues therefore depend strongly on PPP for reducing power.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is PPP vital in RBCs?",
+      "options": [
+        "It supplies NADPH for antioxidant protection",
+        "It produces ATP through oxidative phosphorylation",
+        "It runs the TCA cycle in RBCs",
+        "It synthesizes steroid hormones in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RBCs are exposed to oxidative stress and lack mitochondria. PPP supplies NADPH needed to maintain reduced glutathione and protect against hemolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule directly detoxifies H₂O₂ in RBCs?",
+      "options": [
+        "Reduced glutathione",
+        "NADH",
+        "Ribose-5-phosphate",
+        "ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reduced glutathione detoxifies hydrogen peroxide in a reaction catalyzed by glutathione peroxidase. NADPH indirectly supports this by regenerating reduced glutathione.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme uses reduced glutathione to detoxify H₂O₂?",
+      "options": [
+        "Glutathione peroxidase",
+        "Glutathione reductase",
+        "G6PD",
+        "Transketolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione peroxidase uses reduced glutathione to reduce hydrogen peroxide to water. Reduced glutathione becomes oxidized glutathione in the process.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme regenerates reduced glutathione using NADPH?",
+      "options": [
+        "Glutathione reductase",
+        "Glutathione peroxidase",
+        "Lactonase",
+        "Transaldolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione reductase reduces oxidized glutathione back to reduced glutathione using NADPH as the reducing equivalent source.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In RBC antioxidant defense, NADPH is best described as:",
+      "options": [
+        "An indirect reducer of H₂O₂ through glutathione regeneration",
+        "The enzyme that directly cleaves H₂O₂",
+        "A direct source of ATP for RBC mitochondria",
+        "The molecule that forms methemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH does not directly detoxify H₂O₂. It regenerates reduced glutathione, which then detoxifies H₂O₂ through glutathione peroxidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "H₂O₂ damages RBCs mainly by causing:",
+      "options": [
+        "Oxidative damage to proteins and unsaturated membrane lipids",
+        "Increased steroid synthesis",
+        "Increased DNA replication",
+        "Conversion of ribose to glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrogen peroxide is a reactive oxygen species. It can damage RBC membrane lipids and proteins, compromising membrane stability and causing hemolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methemoglobin contains iron in which state?",
+      "options": [
+        "Fe³⁺",
+        "Fe²⁺",
+        "Fe⁰",
+        "Cu²⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methemoglobin contains oxidized iron, Fe³⁺. Normal functional hemoglobin contains Fe²⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Functional hemoglobin contains iron in which state?",
+      "options": [
+        "Fe²⁺",
+        "Fe³⁺",
+        "Fe⁰",
+        "Mg²⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal hemoglobin contains ferrous iron, Fe²⁺. Methemoglobin contains ferric iron, Fe³⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "NADPH helps reduce methemoglobin by supporting conversion of:",
+      "options": [
+        "HbFe³⁺ to HbFe²⁺",
+        "HbFe²⁺ to HbFe³⁺",
+        "Hemoglobin to bilirubin",
+        "Ribose to glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture shows NADPH-dependent reduction of methemoglobin. This restores ferric HbFe³⁺ back to functional ferrous HbFe²⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which system uses NADPH in hydroxylation of drugs, steroids, and other chemicals?",
+      "options": [
+        "Cytochrome P450 monooxygenase system",
+        "Glycogen phosphorylase system",
+        "TCA cycle",
+        "Pyruvate dehydrogenase system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytochrome P450 monooxygenases use NADPH to provide electrons for hydroxylation reactions involving steroids, drugs, and other chemicals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the cytochrome P450 reaction, one oxygen atom is incorporated into the substrate and the other is:",
+      "options": [
+        "Reduced to water",
+        "Converted to CO₂",
+        "Converted to NADPH",
+        "Converted to ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Monooxygenases incorporate one atom of molecular oxygen into the substrate as hydroxyl group, while the other oxygen atom is reduced to water.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which equation best represents the P450 monooxygenase reaction?",
+      "options": [
+        "R-H + O₂ + NADPH + H⁺ → R-OH + H₂O + NADP⁺",
+        "Glucose + ADP → lactate + ATP",
+        "G6P + NAD⁺ → pyruvate + NADH",
+        "H₂O₂ + ATP → glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the overall reaction shown in the lecture. NADPH supplies reducing equivalents for substrate hydroxylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nitric oxide synthesis uses NADPH in the conversion of:",
+      "options": [
+        "Arginine to citrulline and NO",
+        "Glucose to lactate",
+        "Citrate to acetyl-CoA",
+        "Glycogen to glucose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NO synthase uses arginine, O₂, and NADPH to form citrulline and nitric oxide. NO has important signaling functions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nitric oxide causes vasodilation mainly by:",
+      "options": [
+        "Relaxing vascular smooth muscle",
+        "Contracting vascular smooth muscle",
+        "Increasing platelet aggregation",
+        "Destroying hemoglobin directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that NO causes vasodilation by relaxing vascular smooth muscle. It also acts as a neurotransmitter and prevents platelet aggregation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about NADPH and NADH is most accurate?",
+      "options": [
+        "NADPH is mainly used for reductive biosynthesis and antioxidant defense; NADH mainly supports ATP generation",
+        "NADPH and NADH have identical roles in all pathways",
+        "NADPH is only used to make ATP in ETC",
+        "NADH is the main coenzyme for reduced glutathione regeneration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH provides reducing power for biosynthesis, detoxification, and antioxidant protection. NADH mainly transfers electrons to oxygen via the ETC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition stimulates HMP shunt through insulin induction?",
+      "options": [
+        "Carbohydrate feeding",
+        "Prolonged fasting",
+        "Severe low insulin state",
+        "Absence of glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin induces synthesis of G6PD and 6PGD. Therefore, carbohydrate feeding stimulates the HMP shunt, while fasting inhibits it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition inhibits HMP shunt according to the regulation slide?",
+      "options": [
+        "Fasting",
+        "Carbohydrate feeding",
+        "High insulin",
+        "Lipogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fasting lowers insulin signaling and reduces induction of G6PD and 6PGD. Therefore, HMP activity is inhibited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High NADPH level causes which regulatory effect?",
+      "options": [
+        "Allosteric inhibition of G6PD and 6PGD",
+        "Direct activation of G6PD and 6PGD",
+        "Conversion of PPP into glycolysis permanently",
+        "Increased ATP production by PPP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH is the product of the oxidative phase. When it accumulates, it inhibits the enzymes that make more NADPH, especially G6PD and 6PGD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A cell needs large amounts of fatty acids but little ribose. What PPP mode is most useful?",
+      "options": [
+        "Oxidative phase produces NADPH, while non-oxidative phase recycles pentoses to F6P and GAP",
+        "Non-oxidative phase produces ribose only and oxidative phase stops forever",
+        "PPP produces ATP instead of NADPH",
+        "Glycolysis stops producing intermediates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells needing more NADPH than ribose convert pentose phosphates back to glycolytic intermediates. These can regenerate glucose-6-phosphate and re-enter the oxidative phase to produce more NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A rapidly dividing cell needs ribose-5-phosphate for nucleotides but not much NADPH. What pathway logic is favored?",
+      "options": [
+        "Non-oxidative reactions convert F6P and GAP into ribose-5-phosphate",
+        "Oxidative phase must produce all ribose with excess NADPH",
+        "TCA cycle directly produces ribose",
+        "Glycogenolysis directly produces ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because the non-oxidative phase is reversible, glycolytic intermediates can be rearranged into ribose-5-phosphate without needing oxidative NADPH production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A cell needs both NADPH and ribose-5-phosphate. Which PPP phase combination is most suitable?",
+      "options": [
+        "Oxidative phase produces NADPH and ribulose-5-P, then isomerase forms ribose-5-P",
+        "Glycolysis produces both NADPH and ribose directly",
+        "TCA cycle supplies ribose-5-phosphate",
+        "Glycogenesis supplies NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When both NADPH and ribose are needed, the oxidative phase supplies NADPH and ribulose-5-phosphate. Ribulose-5-phosphate can then be isomerized to ribose-5-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme would be affected by thiamine deficiency in the PPP?",
+      "options": [
+        "Transketolase",
+        "Transaldolase",
+        "G6PD",
+        "6PGD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transketolase requires TPP, which is derived from thiamine. Thiamine deficiency can therefore impair transketolase activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which non-oxidative enzyme forms sedoheptulose-7-phosphate and GAP from xylulose-5-phosphate and ribose-5-phosphate?",
+      "options": [
+        "Transketolase",
+        "Transaldolase",
+        "Lactonase",
+        "G6PD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first transketolase reaction transfers a 2-carbon unit from xylulose-5-phosphate to ribose-5-phosphate, forming GAP and sedoheptulose-7-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which non-oxidative enzyme forms fructose-6-phosphate and erythrose-4-phosphate from sedoheptulose-7-phosphate and GAP?",
+      "options": [
+        "Transaldolase",
+        "Transketolase",
+        "Epimerase",
+        "Isomerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaldolase transfers a 3-carbon fragment from sedoheptulose-7-phosphate to GAP, producing fructose-6-phosphate and erythrose-4-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which non-oxidative enzyme forms fructose-6-phosphate and GAP from xylulose-5-phosphate and erythrose-4-phosphate?",
+      "options": [
+        "Transketolase",
+        "Transaldolase",
+        "G6PD",
+        "Lactonase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The second transketolase reaction transfers a 2-carbon fragment from xylulose-5-phosphate to erythrose-4-phosphate, producing fructose-6-phosphate and GAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes the oxidative phase?",
+      "options": [
+        "G6P → 6-phosphogluconolactone → 6-phosphogluconate → ribulose-5-P",
+        "Ribulose-5-P → ribose-5-P → GAP → pyruvate",
+        "G6P → F6P → GAP → lactate",
+        "Ribose-5-P → acetyl-CoA → citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct oxidative phase order. It includes G6PD, lactonase, and 6PGD, producing two NADPH and CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes the non-oxidative phase entry from ribulose-5-phosphate?",
+      "options": [
+        "Ribulose-5-P can become ribose-5-P by isomerase or xylulose-5-P by epimerase",
+        "Ribulose-5-P directly becomes lactate and ATP",
+        "Ribulose-5-P becomes acetyl-CoA through PDH",
+        "Ribulose-5-P becomes glycogen through glycogen synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribulose-5-phosphate is the branching point into the non-oxidative phase. It can be converted to ribose-5-phosphate or xylulose-5-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated pathway relationship is correct?",
+      "options": [
+        "PPP can generate glycolytic intermediates F6P and GAP through non-oxidative reactions",
+        "Glycolysis generates NADPH directly through G6PD",
+        "TCA cycle directly produces ribose-5-phosphate",
+        "Glycogenolysis directly produces NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The non-oxidative phase connects PPP to glycolysis. It can convert pentose phosphates into fructose-6-phosphate and GAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the carbon-transfer logic of the non-oxidative phase?",
+      "options": [
+        "Transketolase transfers 2C units and transaldolase transfers 3C units",
+        "Transketolase transfers 3C units and transaldolase transfers 2C units",
+        "Both transfer only phosphate groups",
+        "Both produce NADPH directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a high-yield distinction. Transketolase transfers two-carbon fragments and requires TPP; transaldolase transfers three-carbon fragments.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the role of PPP in nucleotide synthesis?",
+      "options": [
+        "Ribose-5-phosphate provides the sugar backbone for nucleotides",
+        "NADPH provides the ribose sugar directly",
+        "PPP produces DNA bases directly",
+        "PPP generates ATP as the only nucleotide product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribose-5-phosphate is used to build nucleotides. These nucleotides are needed for RNA, DNA, and nucleotide coenzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the role of PPP in reductive biosynthesis?",
+      "options": [
+        "NADPH donates reducing equivalents for fatty acid, cholesterol, and steroid synthesis",
+        "Ribose-5-phosphate donates electrons to oxygen",
+        "CO₂ provides reducing equivalents",
+        "ATP from PPP drives fatty acid synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH is a reducing-power molecule. It donates electrons for reductive biosynthesis rather than transferring them to oxygen like NADH usually does.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why RBCs are vulnerable in G6PD deficiency?",
+      "options": [
+        "They rely on PPP as their only NADPH source for antioxidant defense",
+        "They have high mitochondrial NADPH production",
+        "They can replace damaged proteins rapidly by nuclear transcription",
+        "They do not face oxidative stress"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RBCs lack mitochondria and nuclei. PPP is their only NADPH source, so impaired G6PD greatly reduces their ability to handle oxidative stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In G6PD deficiency, decreased NADPH causes decreased:",
+      "options": [
+        "Regeneration of reduced glutathione",
+        "Production of ATP by glycolysis",
+        "Formation of glycogen branches",
+        "TCA cycle flux in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH is needed by glutathione reductase to regenerate reduced glutathione. Without enough NADPH, oxidant detoxification falls.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In G6PD deficiency, oxidative stress causes hemolysis mainly because:",
+      "options": [
+        "RBC membrane proteins and lipids are damaged by peroxides and free radicals",
+        "RBCs produce too much ATP",
+        "RBCs overproduce steroid hormones",
+        "RBCs convert all glucose to glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative agents damage RBC membranes and hemoglobin. Since NADPH and reduced glutathione defense are impaired, RBCs lyse more easily.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which inheritance pattern best fits G6PD deficiency?",
+      "options": [
+        "X-linked inherited disease",
+        "Autosomal recessive only",
+        "Mitochondrial inheritance only",
+        "Y-linked inheritance only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that G6PD deficiency is an X-linked inherited disease characterized by hemolytic anemia under oxidative stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precipitating factors can trigger hemolysis in G6PD deficiency?",
+      "options": [
+        "Oxidant drugs, fava beans, and infection",
+        "Insulin, glucose, and ribose",
+        "ATP, GTP, and NADH",
+        "Glycogen, starch, and lactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemolysis in G6PD deficiency is triggered by oxidative stress. The lecture lists oxidant drugs, fava beans, and infection as precipitating factors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which oxidant drug group in the file is remembered by the “AAA” mnemonic?",
+      "options": [
+        "Antibiotics, antimalarials, and antipyretics",
+        "Antacids, antihistamines, and anticoagulants",
+        "Antivirals, anesthetics, and antitussives",
+        "Antihypertensives, antiemetics, and antidiabetics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture uses AAA to remember oxidant drug groups: Antibiotics, Antimalarials, and Antipyretics.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antimalarial is listed as a precipitating oxidant drug in G6PD deficiency?",
+      "options": [
+        "Primaquine",
+        "Quinine",
+        "Chloroquine only",
+        "Artemisinin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture specifically lists primaquine and notes “not quinine.” This is a classic trap.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antipyretic is listed as a precipitating oxidant drug in G6PD deficiency?",
+      "options": [
+        "Acetanilide",
+        "Acetaminophen",
+        "Ibuprofen",
+        "Aspirin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists acetanilide as an oxidant antipyretic trigger and specifically notes “not acetaminophen.”",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which antibiotic is listed among oxidant drugs in G6PD deficiency?",
+      "options": [
+        "Sulfamethoxazole",
+        "Amoxicillin",
+        "Azithromycin only",
+        "Ceftriaxone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists sulfamethoxazole under oxidant antibiotics. Chloramphenicol is also listed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Favism refers to hemolysis after ingestion of:",
+      "options": [
+        "Fava beans",
+        "Peanuts",
+        "Rice",
+        "Wheat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Favism refers to hemolysis triggered by fava or broad beans in susceptible people, especially those with G6PD deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can infection precipitate hemolysis in G6PD deficiency?",
+      "options": [
+        "Macrophage inflammatory response generates free radicals that diffuse into RBCs",
+        "Infection increases ribose-5-phosphate synthesis only",
+        "Infection blocks all glucose uptake into RBCs",
+        "Infection directly produces acetaminophen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During infection, inflammatory cells generate free radicals. These can diffuse into RBCs and cause oxidative damage, especially when NADPH defense is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes PPP?",
+      "options": [
+        "PPP is a cytosolic pathway producing NADPH and ribose-5-phosphate, with an irreversible oxidative phase and reversible non-oxidative sugar interconversions",
+        "PPP is a mitochondrial pathway producing ATP and lactate",
+        "PPP is the main pathway for acetyl-CoA oxidation",
+        "PPP is identical to glycolysis but uses NAD⁺ instead of NADP⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the topic: PPP provides reducing power and ribose, links with glycolysis through F6P/GAP, and is especially important in antioxidant defense and biosynthesis.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
