@@ -224,9 +224,9 @@
       "difficultyBreakdown": {
         "easy": 40,
         "medium": 80,
-        "hard": 0
+        "hard": 40
       },
-      "questionsCount": 120,
+      "questionsCount": 160,
       "file": "data/bio-chemictry/glycogen-metabolism.json"
     }
   ],
@@ -262,5 +262,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:55:14.768Z"
+  "updatedAt": "2026-05-31T22:59:03.888Z"
 }
