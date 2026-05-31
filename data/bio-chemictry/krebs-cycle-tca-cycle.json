@@ -2,6 +2,687 @@
   "subjectId": "bio-chemictry",
   "topicId": "krebs-cycle-tca-cycle",
   "topicName": "Krebs Cycle / TCA Cycle",
-  "updatedAt": "2026-05-31T22:00:55.431Z",
-  "questions": []
+  "updatedAt": "2026-05-31T22:07:44.370Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The citric acid cycle is also known as:",
+      "options": [
+        "Krebs cycle and TCA cycle",
+        "Urea cycle only",
+        "Cori cycle only",
+        "Pentose phosphate pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The citric acid cycle is also called the Krebs cycle because its reactions were formulated by Sir Hans Krebs. It is also called the tricarboxylic acid cycle because intermediates such as citrate and isocitrate contain three carboxyl groups.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Krebs cycle is mainly located in the:",
+      "options": [
+        "Mitochondria",
+        "Cytoplasm",
+        "Nucleus",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Krebs cycle occurs totally in the mitochondria. This location is important because the reduced coenzymes produced by the cycle are oxidized by the electron transport chain nearby.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Krebs cycle is considered an aerobic pathway because:",
+      "options": [
+        "Oxygen is required as the final electron acceptor through the ETC",
+        "Oxygen directly reacts with citrate",
+        "Oxygen directly converts acetyl-CoA into CO₂",
+        "Oxygen is used by citrate synthase directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TCA cycle itself does not consume oxygen directly in each step, but it depends on the ETC to oxidize NADH and FADH₂. Oxygen is the final electron acceptor in the ETC, so the cycle is aerobic indirectly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Krebs cycle is the final common pathway for oxidation of:",
+      "options": [
+        "Carbohydrates, fats, and proteins",
+        "DNA only",
+        "RNA only",
+        "Minerals only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbohydrates, fats, and proteins can all be metabolized to acetyl-CoA or TCA intermediates. Therefore, the TCA cycle serves as a final common oxidative pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Krebs cycle produces the majority of cellular ATP mainly by producing:",
+      "options": [
+        "Reduced coenzymes that enter the ETC",
+        "Glucose directly",
+        "Lactate only",
+        "Urea directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most ATP from the Krebs cycle comes indirectly. The cycle produces NADH and FADH₂, which are oxidized in the electron transport chain to generate ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Krebs cycle should be viewed as a \"traffic circle\" because:",
+      "options": [
+        "Intermediates can enter and leave the cycle as required",
+        "It has no enzymes",
+        "It occurs only once in life",
+        "It cannot interact with other pathways"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture emphasizes that the cycle is not just a closed circle. TCA intermediates can be withdrawn for biosynthesis and replenished by anaplerotic reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first reaction of the Krebs cycle forms:",
+      "options": [
+        "Citrate",
+        "Isocitrate",
+        "Succinate",
+        "Malate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first step condenses acetyl-CoA with oxaloacetate to form citrate. This reaction is catalyzed by citrate synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Citrate is formed from:",
+      "options": [
+        "Acetyl-CoA and oxaloacetate",
+        "Succinate and fumarate",
+        "Malate and NADH",
+        "α-ketoglutarate and CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA combines with oxaloacetate to form citrate. Oxaloacetate is regenerated at the end of the cycle, allowing another acetyl-CoA to enter.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that forms citrate is:",
+      "options": [
+        "Citrate synthase",
+        "Aconitase",
+        "Isocitrate dehydrogenase",
+        "Succinate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate synthase catalyzes the condensation of acetyl-CoA with oxaloacetate to form citrate. This is one of the irreversible reactions of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Citrate is converted to isocitrate by:",
+      "options": [
+        "Aconitase",
+        "Citrate synthase",
+        "Malate dehydrogenase",
+        "Succinate thiokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aconitase catalyzes the isomerization of citrate to isocitrate. This rearrangement prepares the molecule for oxidative decarboxylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Isocitrate dehydrogenase converts isocitrate into:",
+      "options": [
+        "α-ketoglutarate",
+        "Citrate",
+        "Succinate",
+        "Malate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isocitrate dehydrogenase catalyzes oxidative decarboxylation of isocitrate, producing α-ketoglutarate, NADH, and CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Isocitrate dehydrogenase produces:",
+      "options": [
+        "First NADH and first CO₂ of the cycle",
+        "First FADH₂ only",
+        "First GTP only",
+        "Acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The isocitrate dehydrogenase reaction converts a 6-carbon compound into a 5-carbon compound. It releases the first CO₂ and produces the first NADH of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "α-ketoglutarate dehydrogenase converts α-ketoglutarate into:",
+      "options": [
+        "Succinyl-CoA",
+        "Isocitrate",
+        "Citrate",
+        "Oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-ketoglutarate dehydrogenase catalyzes oxidative decarboxylation of α-ketoglutarate to succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "α-ketoglutarate dehydrogenase produces:",
+      "options": [
+        "Second NADH and second CO₂ of the cycle",
+        "First FADH₂ only",
+        "Only GTP",
+        "Oxaloacetate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This reaction converts a 5-carbon compound into a 4-carbon compound. It releases the second CO₂ and produces the second NADH of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The α-ketoglutarate dehydrogenase complex is similar to:",
+      "options": [
+        "Pyruvate dehydrogenase complex",
+        "Lactate dehydrogenase",
+        "Hexokinase",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-ketoglutarate dehydrogenase resembles PDH because it consists of three enzymes and requires the same five coenzymes: TPP, lipoic acid, CoA, FAD, and NAD⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinyl-CoA is converted to succinate by:",
+      "options": [
+        "Succinate thiokinase / succinyl-CoA synthetase",
+        "Succinate dehydrogenase",
+        "Fumarase",
+        "Aconitase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate thiokinase, also called succinyl-CoA synthetase, cleaves the high-energy thioester bond of succinyl-CoA and forms succinate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The only substrate-level phosphorylation in the Krebs cycle occurs during:",
+      "options": [
+        "Succinyl-CoA to succinate",
+        "Citrate to isocitrate",
+        "Succinate to fumarate",
+        "Malate to oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The succinyl-CoA synthetase reaction is coupled to phosphorylation of GDP to GTP. This is the only substrate-level phosphorylation step in the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the succinyl-CoA synthetase step, GDP is converted to:",
+      "options": [
+        "GTP",
+        "NADH",
+        "FADH₂",
+        "CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The high-energy thioester bond of succinyl-CoA is used to phosphorylate GDP to GTP. GTP can then be energetically interconverted with ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "GTP can be converted to ATP by:",
+      "options": [
+        "Nucleoside diphosphate kinase",
+        "Citrate synthase",
+        "Aconitase",
+        "Fumarase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GTP and ATP are energetically interconvertible. Nucleoside diphosphate kinase can transfer phosphate between GTP/GDP and ADP/ATP systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinate is oxidized to fumarate by:",
+      "options": [
+        "Succinate dehydrogenase",
+        "Fumarase",
+        "Malate dehydrogenase",
+        "Isocitrate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase oxidizes succinate to fumarate and produces FADH₂. This enzyme is unique because it is also Complex II of the ETC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinate dehydrogenase produces:",
+      "options": [
+        "FADH₂",
+        "NADH",
+        "GTP",
+        "CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase is FAD-linked. It oxidizes succinate to fumarate and reduces FAD to FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinate dehydrogenase is unique because it is:",
+      "options": [
+        "Embedded in the inner mitochondrial membrane and functions as Complex II",
+        "Located only in the cytoplasm",
+        "The only enzyme that produces CO₂",
+        "The only enzyme that uses NAD⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase is the only TCA cycle enzyme embedded in the inner mitochondrial membrane. It also functions as Complex II of the ETC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fumarate is converted to malate by:",
+      "options": [
+        "Fumarase",
+        "Malate dehydrogenase",
+        "Succinate thiokinase",
+        "Citrate synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarase hydrates fumarate to form malate. This step adds water across the double bond of fumarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The fumarase reaction is a:",
+      "options": [
+        "Hydration reaction",
+        "Decarboxylation reaction",
+        "Substrate-level phosphorylation",
+        "Transamination reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarase catalyzes hydration of fumarate to malate. Water is added to the molecule.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malate is oxidized to oxaloacetate by:",
+      "options": [
+        "Malate dehydrogenase",
+        "Aconitase",
+        "Succinate dehydrogenase",
+        "Citrate synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malate dehydrogenase oxidizes malate to oxaloacetate and produces NADH. This regenerates oxaloacetate for another cycle turn.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malate dehydrogenase produces:",
+      "options": [
+        "Third and final NADH of the cycle",
+        "First CO₂ of the cycle",
+        "FADH₂ only",
+        "GTP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The malate dehydrogenase step produces the third NADH per acetyl-CoA. Oxaloacetate is regenerated at the end of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxaloacetate functions in the TCA cycle as:",
+      "options": [
+        "A regenerated acceptor/catalyst for acetyl-CoA oxidation",
+        "A final waste product only",
+        "A molecule consumed permanently every turn",
+        "The final electron acceptor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate enters the cycle by combining with acetyl-CoA and is regenerated at the end. It acts like a catalyst for burning acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Per one acetyl-CoA, the TCA cycle produces:",
+      "options": [
+        "3 NADH, 1 FADH₂, 1 GTP, and 2 CO₂",
+        "1 NADH, 3 FADH₂, 2 GTP, and 1 CO₂",
+        "2 NADH, 2 FADH₂, no GTP, and no CO₂",
+        "1 ATP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One turn of the TCA cycle oxidizes one acetyl-CoA and yields three NADH, one FADH₂, one GTP, and two CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The two CO₂ molecules of the TCA cycle are released by:",
+      "options": [
+        "Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase",
+        "Citrate synthase and aconitase",
+        "Succinate dehydrogenase and fumarase",
+        "Malate dehydrogenase and succinate thiokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two oxidative decarboxylation reactions release CO₂: isocitrate to α-ketoglutarate and α-ketoglutarate to succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The three NADH molecules are produced by:",
+      "options": [
+        "Isocitrate DH, α-ketoglutarate DH, and malate DH",
+        "Citrate synthase, aconitase, and fumarase",
+        "Succinate DH, fumarase, and succinate thiokinase",
+        "Succinate thiokinase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH is produced at three dehydrogenase reactions: isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, and malate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The only FAD-linked dehydrogenase in the TCA cycle is:",
+      "options": [
+        "Succinate dehydrogenase",
+        "Isocitrate dehydrogenase",
+        "Malate dehydrogenase",
+        "α-ketoglutarate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All TCA dehydrogenases are NAD-linked except succinate dehydrogenase, which is FAD-linked.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "All TCA reactions are reversible except:",
+      "options": [
+        "Citrate synthase, isocitrate DH, and α-ketoglutarate DH",
+        "Aconitase, fumarase, and malate DH",
+        "Succinate DH only",
+        "Succinate thiokinase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The irreversible reactions of the TCA cycle are catalyzed by citrate synthase, isocitrate dehydrogenase, and α-ketoglutarate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to the lecture, oxidation of one acetyl-CoA in TCA produces:",
+      "options": [
+        "12 ATP",
+        "8 ATP",
+        "2 ATP",
+        "38 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the lecture's classical ATP yield, 3 NADH produce 9 ATP, 1 FADH₂ produces 2 ATP, and 1 GTP equals 1 ATP. Total = 12 ATP per acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to the lecture, complete aerobic oxidation of one glucose yields:",
+      "options": [
+        "38 ATP",
+        "12 ATP",
+        "8 ATP",
+        "2 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture calculates glucose oxidation as: glycolysis = 8 ATP, PDH for two pyruvate = 6 ATP, and TCA for two acetyl-CoA = 24 ATP. Total = 38 ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Anaerobic oxidation of glucose to lactate yields:",
+      "options": [
+        "2 ATP",
+        "38 ATP",
+        "12 ATP",
+        "24 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anaerobic glycolysis converts glucose to lactate and yields only 2 ATP, because NADH is used to regenerate NAD⁺ instead of entering the respiratory chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "TCA cycle regulation depends mainly on:",
+      "options": [
+        "ATP requirement of the cell",
+        "DNA synthesis only",
+        "Blood oxygen directly binding citrate synthase",
+        "Glycogen digestion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TCA cycle activity is regulated according to energy demand. High ATP and high NADH indicate high-energy status and inhibit key regulatory enzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "High ATP and high NADH inhibit:",
+      "options": [
+        "Regulatory enzymes of the TCA cycle",
+        "Only fumarase",
+        "Only nucleoside diphosphate kinase",
+        "Only glucose absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When ATP and NADH are abundant, the cell has enough energy. The TCA cycle slows through inhibition of enzymes such as citrate synthase, isocitrate DH, and α-ketoglutarate DH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The regulatory enzymes of the TCA cycle include:",
+      "options": [
+        "Citrate synthase, isocitrate DH, and α-ketoglutarate DH",
+        "Hexokinase, PFK-1, and pyruvate kinase",
+        "Lactate DH, enolase, and aldolase",
+        "Glucose-6-phosphatase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture lists citrate synthase, isocitrate dehydrogenase, and α-ketoglutarate dehydrogenase complex as the key regulatory enzymes of the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The Pasteur effect describes:",
+      "options": [
+        "Slower glucose consumption under aerobic conditions due to increased ATP inhibiting glycolysis",
+        "Faster glucose consumption under aerobic conditions because ATP is low",
+        "Conversion of lactate to acetyl-CoA directly",
+        "Inhibition of TCA by lack of oxygen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pasteur observed that yeast consumed glucose more slowly in the presence of oxygen. Aerobic metabolism produces more ATP, which inhibits glycolysis through enzymes such as PFK-1 and pyruvate kinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "TCA cycle is called amphibolic because it:",
+      "options": [
+        "Functions in both catabolic and anabolic processes",
+        "Only breaks down glucose",
+        "Only synthesizes fatty acids",
+        "Occurs outside mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TCA cycle is catabolic because it oxidizes acetyl-CoA for energy. It is also anabolic because its intermediates are used to synthesize glucose, amino acids, fatty acids, cholesterol, and heme precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
