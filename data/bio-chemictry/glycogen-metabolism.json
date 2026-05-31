@@ -2,6 +2,687 @@
   "subjectId": "bio-chemictry",
   "topicId": "glycogen-metabolism",
   "topicName": "Glycogen Metabolism",
-  "updatedAt": "2026-05-31T22:49:32.492Z",
-  "questions": []
+  "updatedAt": "2026-05-31T22:51:37.200Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-glycogen-metabolism-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen is best described as:",
+      "options": [
+        "The storage form of carbohydrates in animals",
+        "The storage form of proteins in humans",
+        "The main circulating lipid in blood",
+        "A nucleotide used for DNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen is the major storage form of carbohydrate in animals. It allows the body to store glucose in a compact, rapidly mobilizable form.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Blood glucose can be obtained from which three primary sources?",
+      "options": [
+        "Diet, glycogenolysis, and gluconeogenesis",
+        "Ketone bodies, cholesterol, and bile acids",
+        "DNA breakdown, RNA breakdown, and heme degradation",
+        "Urea cycle, TCA cycle, and protein synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood glucose comes from dietary carbohydrates after meals, glycogen breakdown during early fasting, and gluconeogenesis during longer fasting when glycogen becomes depleted.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenolysis is especially useful because it:",
+      "options": [
+        "Rapidly mobilizes stored carbohydrate",
+        "Slowly synthesizes glucose from amino acids",
+        "Converts glucose into fatty acids only",
+        "Stores glucose as triglyceride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenolysis provides a fast response when blood glucose begins to fall or when muscle needs rapid ATP. Gluconeogenesis can sustain glucose production, but it is slower.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main body stores of glycogen are found in:",
+      "options": [
+        "Skeletal muscle and liver",
+        "Brain and RBCs",
+        "Kidney and stomach",
+        "Adipose tissue and spleen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two major glycogen stores are skeletal muscle and liver. They serve different purposes: muscle glycogen supports muscle energy needs, while liver glycogen supports blood glucose maintenance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main function of muscle glycogen is to:",
+      "options": [
+        "Provide ATP during muscle contraction",
+        "Maintain blood glucose directly",
+        "Supply glucose to the brain through blood",
+        "Produce bile acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscle glycogen is a local fuel reserve. During contraction, muscle breaks down glycogen to glucose-6-phosphate, which enters glycolysis to produce ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main function of liver glycogen is to:",
+      "options": [
+        "Maintain blood glucose concentration",
+        "Provide ATP only for liver contraction",
+        "Store oxygen for the ETC",
+        "Produce lactate for RBCs only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver glycogen is used to release free glucose into blood, especially during the early stages of fasting. This helps maintain blood glucose for glucose-dependent tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Liver glycogen is especially important during:",
+      "options": [
+        "Early stages of fasting",
+        "Late-stage protein synthesis only",
+        "DNA replication",
+        "Post-exercise muscle relaxation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During early fasting, liver glycogen is rapidly broken down to maintain blood glucose before gluconeogenesis becomes the major glucose source.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen makes up approximately what percentage of the fresh weight of resting muscle?",
+      "options": [
+        "1–2%",
+        "10%",
+        "20–30%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resting muscle contains about 1–2% glycogen by fresh weight. Even though this percentage is low, total muscle glycogen is large because total muscle mass is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen makes up approximately what percentage of the fresh weight of a well-fed adult liver?",
+      "options": [
+        "10%",
+        "1–2%",
+        "0.1%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A well-fed adult liver may contain about 10% glycogen by fresh weight. This is higher percentage-wise than muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Total glycogen amount is greater in muscle than liver because:",
+      "options": [
+        "Total muscle mass is much greater than liver mass",
+        "Muscle has a higher glycogen percentage than liver",
+        "Liver cannot store glycogen",
+        "Muscle releases free glucose into blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Although liver has a higher glycogen percentage, skeletal muscle represents a much larger total mass. Therefore, total body muscle glycogen exceeds liver glycogen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen is made entirely of:",
+      "options": [
+        "α-D-glucose residues",
+        "β-D-fructose residues",
+        "Amino acids",
+        "Fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen is a branched homopolysaccharide made entirely of α-D-glucose. “Homo” means it contains one type of monosaccharide unit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main glycosidic linkage in linear glycogen chains is:",
+      "options": [
+        "α(1→4)",
+        "β(1→4)",
+        "α(1→2)",
+        "β(2→1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most glucose residues in glycogen are connected by α(1→4) glycosidic bonds, forming the linear chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen branch points are formed by:",
+      "options": [
+        "α(1→6) linkages",
+        "β(1→4) linkages",
+        "Peptide bonds",
+        "Phosphodiester bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Branch points in glycogen contain α(1→6) glycosidic bonds. These branches occur after an average of 8–10 glucosyl residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Branches in glycogen occur approximately every:",
+      "options": [
+        "8–10 glucosyl residues",
+        "1–2 glucosyl residues",
+        "50–100 glucosyl residues",
+        "500 residues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that after an average of 8–10 glucosyl residues, there is a branch containing an α(1→6) linkage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The highly branched structure of glycogen is useful because it:",
+      "options": [
+        "Provides many sites for rapid glycogen synthesis and breakdown",
+        "Prevents glycogen metabolism completely",
+        "Makes glycogen insoluble in all tissues",
+        "Allows glucose to diffuse freely through membranes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Branching creates many non-reducing ends. Enzymes can work at many ends simultaneously, allowing rapid glycogen synthesis and degradation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenesis means:",
+      "options": [
+        "Synthesis of glycogen",
+        "Breakdown of glycogen",
+        "Breakdown of glucose to lactate",
+        "Formation of glucose from lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenesis is the pathway that synthesizes glycogen from glucose-derived activated glucose units.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenesis occurs in the:",
+      "options": [
+        "Cytosol",
+        "Mitochondrial matrix",
+        "Nucleus",
+        "Lysosome only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthesis occurs in the cytosol. It uses glucose-6-phosphate, glucose-1-phosphate, and UDP-glucose as intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenesis requires energy supplied by:",
+      "options": [
+        "ATP and UTP",
+        "GTP only",
+        "NADH only",
+        "FADH₂ only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP is used for phosphorylation of glucose, while UTP is used to form UDP-glucose, the activated glucose donor for glycogen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In glycogenesis, ATP is used mainly for:",
+      "options": [
+        "Phosphorylation of glucose",
+        "Removal of branches",
+        "Cleavage of α(1→6) bonds",
+        "Activation of glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first step converts glucose to glucose-6-phosphate using ATP. This step is catalyzed by hexokinase or glucokinase depending on the tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucose is best described as:",
+      "options": [
+        "Activated glucose used for glycogen synthesis",
+        "Free glucose released from branch points",
+        "A product of glycogen breakdown only",
+        "A coenzyme for glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is the activated glucose donor. All glucosyl residues added to the growing glycogen molecule come from UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucose is formed from glucose-1-phosphate and:",
+      "options": [
+        "UTP",
+        "ATP",
+        "GTP",
+        "NADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose pyrophosphorylase uses glucose-1-phosphate and UTP to form UDP-glucose and PPi.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that forms UDP-glucose is:",
+      "options": [
+        "UDP-glucose pyrophosphorylase",
+        "Glycogen phosphorylase",
+        "Glycogen synthase",
+        "Debranching enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose pyrophosphorylase catalyzes formation of UDP-glucose, the activated glucose donor used by glycogen synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucose-6-phosphate is converted to glucose-1-phosphate by:",
+      "options": [
+        "Phosphoglucomutase",
+        "Glucokinase",
+        "Glycogen synthase",
+        "Branching enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase interconverts glucose-6-phosphate and glucose-1-phosphate. This reaction is needed in both glycogenesis and glycogenolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen synthase forms which type of linkage?",
+      "options": [
+        "α(1→4) glycosidic bonds",
+        "α(1→6) branch bonds",
+        "β(1→4) bonds",
+        "Peptide bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase elongates glycogen chains by adding glucose residues through α(1→4) linkages at non-reducing ends.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen synthase cannot:",
+      "options": [
+        "Start glycogen synthesis from free glucose",
+        "Elongate an existing glycogen primer",
+        "Form α(1→4) bonds",
+        "Use UDP-glucose as glucose donor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase can elongate an existing glycogen primer but cannot start chain synthesis from free glucose. A primer is required.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "When glycogen stores are depleted, the primer is provided by:",
+      "options": [
+        "Glycogenin",
+        "Glycogen phosphorylase",
+        "Debranching enzyme",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If no glycogen fragment is available, glycogenin serves as the acceptor protein for the first glucose residues and initiates primer formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenin attaches the first glucose residue to a specific:",
+      "options": [
+        "Tyrosine hydroxyl group",
+        "Lysine amino group",
+        "Cysteine sulfhydryl group",
+        "Serine phosphate group only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The OH group of a specific tyrosine residue in glycogenin is the site where the first glucosyl unit is attached.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenin catalyzes its own glucosylation, which is called:",
+      "options": [
+        "Autoglucosylation",
+        "Oxidative decarboxylation",
+        "Phosphorolysis",
+        "Transamination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenin acts as both primer and enzyme. It catalyzes the transfer of glucose residues to itself, a process called autoglucosylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The branching enzyme is also called:",
+      "options": [
+        "Amylo-α(1→4) → α(1→6)-transglucosidase",
+        "Glycogen phosphorylase",
+        "Phosphoglucomutase",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The branching enzyme transfers a segment of glucose residues from an α(1→4) chain and attaches it through an α(1→6) linkage, creating a branch.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Branching enzyme transfers a chain of approximately:",
+      "options": [
+        "6–8 glucosyl residues",
+        "1–2 glucosyl residues",
+        "20–30 glucosyl residues",
+        "100 residues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The branching enzyme removes 6–8 glucosyl residues from a non-reducing end and transfers them to form a new α(1→6) branch.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenolysis means:",
+      "options": [
+        "Breakdown of glycogen",
+        "Synthesis of glycogen",
+        "Synthesis of glucose from lactate",
+        "Oxidation of acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenolysis is the degradation of glycogen. It produces glucose-1-phosphate mainly, and free glucose from branch-point residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenolysis is:",
+      "options": [
+        "Not the reverse of glycogenesis",
+        "A simple reversal of glycogenesis",
+        "Always mitochondrial",
+        "The same as gluconeogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen breakdown uses a separate set of cytosolic enzymes, including glycogen phosphorylase and debranching enzyme. It is not simply glycogenesis running backward.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The primary product of glycogen phosphorylase action is:",
+      "options": [
+        "Glucose-1-phosphate",
+        "Free glucose only",
+        "UDP-glucose",
+        "Glucose-6-phosphate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase cleaves α(1→4) bonds by phosphorolysis, releasing glucose-1-phosphate from non-reducing ends.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen phosphorylase cleaves:",
+      "options": [
+        "α(1→4) glycosidic bonds",
+        "α(1→6) branch bonds",
+        "Peptide bonds",
+        "Phosphodiester bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase removes glucose residues from linear chains by breaking α(1→4) bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen phosphorylase works from the:",
+      "options": [
+        "Non-reducing ends",
+        "Reducing end only",
+        "Middle of branch points only",
+        "Free glucose pool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase starts at non-reducing ends and releases glucose residues as glucose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen phosphorylase requires which coenzyme?",
+      "options": [
+        "Pyridoxal phosphate",
+        "Biotin",
+        "FAD",
+        "NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase requires pyridoxal phosphate, or PLP, as a coenzyme. PLP is derived from vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogen phosphorylase stops when how many glucosyl residues remain before a branch point?",
+      "options": [
+        "Four",
+        "One",
+        "Eight",
+        "Ten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase cannot degrade glycogen all the way through a branch point. It stops when four glucosyl residues remain before the α(1→6) branch.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The structure left when phosphorylase stops near a branch point is called:",
+      "options": [
+        "Limit dextrin",
+        "UDP-glucose",
+        "Glycogenin",
+        "Free glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Limit dextrin is the branched structure remaining when glycogen phosphorylase can no longer continue because it is too close to a branch point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Branches are removed by:",
+      "options": [
+        "Debranching enzyme",
+        "Glycogen synthase",
+        "Glucokinase",
+        "PFK-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Debranching enzyme removes branches after phosphorylase has shortened chains to limit dextrin. It has two enzymatic activities.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The α(1→6)-glucosidase activity of debranching enzyme releases:",
+      "options": [
+        "Free glucose",
+        "Glucose-1-phosphate",
+        "UDP-glucose",
+        "Glucose-6-phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most glycogen breakdown produces glucose-1-phosphate, but the single glucose at an α(1→6) branch point is released as free glucose by amylo-α(1→6)-glucosidase activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
