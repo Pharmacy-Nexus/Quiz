@@ -192,11 +192,11 @@
       "section": "Carbohydrate",
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 40,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 40,
       "file": "data/bio-chemictry/krebs-cycle-tca-cycle.json"
     }
   ],
@@ -232,5 +232,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:03:48.063Z"
+  "updatedAt": "2026-05-31T22:07:48.414Z"
 }
