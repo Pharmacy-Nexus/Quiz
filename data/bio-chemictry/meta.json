@@ -194,9 +194,9 @@
       "difficultyBreakdown": {
         "easy": 40,
         "medium": 0,
-        "hard": 0
+        "hard": 40
       },
-      "questionsCount": 40,
+      "questionsCount": 80,
       "file": "data/bio-chemictry/krebs-cycle-tca-cycle.json"
     }
   ],
@@ -232,5 +232,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:07:48.414Z"
+  "updatedAt": "2026-05-31T22:17:03.844Z"
 }
