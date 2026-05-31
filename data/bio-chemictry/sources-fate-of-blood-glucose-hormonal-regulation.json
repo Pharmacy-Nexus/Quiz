@@ -2,6 +2,1197 @@
   "subjectId": "bio-chemictry",
   "topicId": "sources-fate-of-blood-glucose-hormonal-regulation",
   "topicName": "Sources & Fate of Blood Glucose + Hormonal Regulation",
-  "updatedAt": "2026-05-31T23:41:59.422Z",
-  "questions": []
+  "updatedAt": "2026-05-31T23:46:55.528Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The three major sources of blood glucose are:",
+      "options": [
+        "Intestinal absorption, glycogenolysis, and gluconeogenesis",
+        "Ketogenesis, urea cycle, and heme degradation",
+        "Fatty acid oxidation, cholesterol synthesis, and bile acid synthesis",
+        "Protein synthesis, DNA synthesis, and RNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood glucose comes from dietary carbohydrate absorption after meals, liver glycogen breakdown during early fasting, and gluconeogenesis during longer fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Intestinal absorption contributes to blood glucose mainly:",
+      "options": [
+        "After carbohydrate-containing meals",
+        "During prolonged starvation only",
+        "During complete absence of dietary intake",
+        "Only during exercise"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After digestion of dietary carbohydrates, monosaccharides are absorbed from the intestine and contribute directly to blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycogenolysis means:",
+      "options": [
+        "Breakdown of glycogen to release glucose or glucose intermediates",
+        "Synthesis of glycogen from glucose",
+        "Formation of glucose from lactate only",
+        "Oxidation of glucose to CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenolysis is the breakdown of stored glycogen. In liver, it helps maintain blood glucose during early fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Gluconeogenesis means:",
+      "options": [
+        "Synthesis of glucose from non-carbohydrate precursors",
+        "Breakdown of glucose to pyruvate",
+        "Storage of glucose as glycogen",
+        "Conversion of glucose to sorbitol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis forms glucose from lactate, glycerol, glucogenic amino acids, pyruvate, and other non-carbohydrate precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "One major fate of blood glucose is:",
+      "options": [
+        "Oxidation for energy production",
+        "Direct conversion to urea",
+        "Direct conversion to bilirubin",
+        "Direct excretion at all normal levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose can be oxidized through glycolysis, TCA cycle, and oxidative phosphorylation to produce energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Excess glucose may be stored as:",
+      "options": [
+        "Glycogen",
+        "Urea",
+        "Bilirubin",
+        "Ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When glucose is abundant, insulin favors glycogenesis, especially in liver and muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Excess glucose can also be converted into:",
+      "options": [
+        "Fat",
+        "DNA directly only",
+        "Heme only",
+        "Urea only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When glycogen stores are sufficient, excess glucose can contribute to fatty acid and triacylglycerol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal fasting blood glucose is approximately:",
+      "options": [
+        "70–110 mg/dL",
+        "20–40 mg/dL",
+        "180–250 mg/dL",
+        "300–400 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file gives the normal fasting blood glucose range as approximately 70–110 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Blood glucose after a meal may rise to approximately:",
+      "options": [
+        "120–140 mg/dL",
+        "20–30 mg/dL",
+        "300–500 mg/dL",
+        "50 mg/dL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After meals, blood glucose rises transiently, commonly reaching about 120–140 mg/dL after 30–60 minutes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "After a meal, blood glucose normally returns toward fasting range within about:",
+      "options": [
+        "2 hours",
+        "12 hours",
+        "24 hours",
+        "5 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that postprandial blood glucose usually returns to the fasting level by about 2 hours.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypoglycemia is generally considered when blood glucose falls below:",
+      "options": [
+        "50 mg/dL",
+        "100 mg/dL",
+        "140 mg/dL",
+        "200 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file defines hypoglycemia as blood glucose below approximately 50 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The only hypoglycemic hormone is:",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Epinephrine",
+        "Cortisol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin lowers blood glucose by increasing glucose uptake and storage and by reducing hepatic glucose production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Insulin is secreted by:",
+      "options": [
+        "Pancreatic β-cells",
+        "Pancreatic α-cells",
+        "Adrenal cortex",
+        "Adrenal medulla"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is produced by β-cells of the pancreatic islets and is secreted mainly in response to increased blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucagon is secreted by:",
+      "options": [
+        "Pancreatic α-cells",
+        "Pancreatic β-cells",
+        "Thyroid follicular cells",
+        "Adrenal cortex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon is secreted by α-cells of the pancreas, especially when blood glucose is low.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucagon is released mainly in response to:",
+      "options": [
+        "Hypoglycemia",
+        "Hyperglycemia after a meal",
+        "High insulin level",
+        "High glycogen synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon is a counter-regulatory hormone. It rises when blood glucose falls and stimulates hepatic glucose output.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Epinephrine is especially important during:",
+      "options": [
+        "Stress and emergency situations",
+        "Quiet fed-state storage only",
+        "Lactose digestion only",
+        "Normal sleeping after a meal only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine is a stress hormone. It mobilizes glucose rapidly during fight-or-flight situations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucocorticoids generally increase blood glucose by increasing:",
+      "options": [
+        "Gluconeogenesis from amino acids",
+        "Glycogenesis only",
+        "Glucose uptake in muscle only",
+        "Insulin secretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids promote protein catabolism and provide amino acid substrates for gluconeogenesis, increasing blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The brain depends strongly on:",
+      "options": [
+        "Glucose supply",
+        "Urea as the main fuel",
+        "Bilirubin as the main fuel",
+        "Glycogen stored inside neurons as the only fuel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brain depends heavily on blood glucose under normal conditions, so severe hypoglycemia can be dangerous.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Red blood cells depend on glucose because they:",
+      "options": [
+        "Lack mitochondria and rely on glycolysis",
+        "Have highly active TCA cycle",
+        "Use fatty acids as the only fuel",
+        "Store large amounts of glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mature RBCs do not have mitochondria, so they rely on glycolysis for ATP production and require continuous glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucose may appear in urine when:",
+      "options": [
+        "Blood glucose becomes excessively high",
+        "Blood glucose is normal fasting",
+        "Insulin is very high after a meal only",
+        "Glucose is completely absent from blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When blood glucose exceeds the renal handling capacity, glucose can be excreted in urine. This is commonly associated with marked hyperglycemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the balance of blood glucose sources across feeding and fasting?",
+      "options": [
+        "Absorption dominates after meals; glycogenolysis dominates early fasting; gluconeogenesis becomes more important later",
+        "Gluconeogenesis dominates immediately after every meal",
+        "Intestinal absorption is the only blood glucose source",
+        "Muscle glycogen directly maintains blood glucose in fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood glucose sources shift according to nutritional state. After meals, dietary absorption is important. During early fasting, liver glycogenolysis maintains glucose. During prolonged fasting, gluconeogenesis becomes increasingly important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fate of glucose is most directly related to immediate ATP production?",
+      "options": [
+        "Oxidation through glycolysis and aerobic metabolism",
+        "Storage as glycogen only",
+        "Conversion to lactose only",
+        "Conversion to mucopolysaccharides only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose oxidation produces ATP. Depending on oxygen and tissue type, glucose may be oxidized aerobically or converted to lactate anaerobically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fate of glucose is most directly related to carbohydrate storage?",
+      "options": [
+        "Glycogenesis",
+        "Gluconeogenesis",
+        "Urea synthesis",
+        "Bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenesis stores glucose as glycogen, mainly in liver and skeletal muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fate of glucose is most directly related to lipid storage?",
+      "options": [
+        "Conversion to fat",
+        "Conversion to urea",
+        "Conversion to ammonia",
+        "Conversion to bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When energy intake is high, glucose-derived carbon can be converted into fatty acids and triacylglycerols.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucose can contribute to synthesis of lactose mainly by providing:",
+      "options": [
+        "Glucose/galactose-related sugar intermediates",
+        "Acetyl-CoA only",
+        "Urea intermediates only",
+        "Heme degradation products"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose metabolism can provide sugar nucleotide intermediates needed for lactose synthesis, especially through UDP-glucose and UDP-galactose pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucose can contribute to nucleic acid synthesis through:",
+      "options": [
+        "Ribose-5-phosphate formation",
+        "Acetyl-CoA formation only",
+        "Lactate excretion only",
+        "Glycogen phosphorylase activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-6-phosphate can enter the pentose phosphate pathway to form ribose-5-phosphate, which is needed for nucleotide and nucleic acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucose can contribute to mucopolysaccharide synthesis through:",
+      "options": [
+        "Sugar derivatives such as UDP-glucuronate",
+        "Ketone bodies only",
+        "Urea only",
+        "Lactate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose can be converted through pathways such as the uronic acid pathway to UDP-glucuronate, which contributes to glycosaminoglycan/mucopolysaccharide synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is hypoglycemia potentially fatal?",
+      "options": [
+        "The brain depends strongly on glucose availability",
+        "RBCs stop producing bilirubin",
+        "Liver glycogen synthesis becomes too fast",
+        "Fat synthesis becomes excessive immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Severe hypoglycemia deprives the brain of its major fuel source under normal conditions. This can cause neurologic dysfunction, coma, and death.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is chronic hyperglycemia harmful?",
+      "options": [
+        "Excess glucose damages tissues and may exceed renal reabsorption capacity",
+        "It always improves brain function",
+        "It prevents all osmotic stress",
+        "It completely stops glucose entry into tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Persistent hyperglycemia is harmful because glucose can enter damaging pathways such as the polyol pathway, contribute to vascular injury, and spill into urine when levels are high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes insulin’s effect on glucose uptake?",
+      "options": [
+        "It increases glucose uptake in muscle and adipose tissue",
+        "It decreases glucose uptake in all tissues",
+        "It increases glucose release by liver",
+        "It has no effect on glucose metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin promotes glucose uptake especially in insulin-sensitive tissues such as skeletal muscle and adipose tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin promotes which pathway?",
+      "options": [
+        "Glycolysis",
+        "Glycogenolysis",
+        "Gluconeogenesis",
+        "Hepatic glucose release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin promotes glucose utilization. Increasing glycolysis helps lower blood glucose and use glucose for energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin promotes which storage pathway?",
+      "options": [
+        "Glycogenesis",
+        "Glycogenolysis",
+        "Gluconeogenesis",
+        "Proteolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin promotes glycogen synthesis in liver and muscle, helping store excess glucose after meals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin promotes which lipid pathway?",
+      "options": [
+        "Lipogenesis",
+        "Lipolysis",
+        "Ketogenesis",
+        "Fatty acid oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the fed state, insulin promotes conversion of excess glucose into fatty acids and triacylglycerols.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin inhibits:",
+      "options": [
+        "Glycogenolysis and gluconeogenesis",
+        "Glycolysis and glycogenesis",
+        "Glucose uptake in muscle",
+        "Lipogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin lowers blood glucose partly by reducing hepatic glucose production from glycogen breakdown and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucagon increases blood glucose mainly by acting on:",
+      "options": [
+        "Liver",
+        "Skeletal muscle glycogen directly",
+        "RBC mitochondria",
+        "Adipose glycogen stores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon acts primarily on liver to stimulate glycogenolysis and gluconeogenesis. It does not directly mobilize muscle glycogen for blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucagon stimulates:",
+      "options": [
+        "Hepatic glycogenolysis and gluconeogenesis",
+        "Muscle glucose uptake",
+        "Liver glycogenesis only",
+        "Insulin secretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon is released during hypoglycemia and stimulates hepatic pathways that raise blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does glucagon have no direct effect on muscle glycogen breakdown?",
+      "options": [
+        "Muscle lacks glucagon receptors for this response",
+        "Muscle lacks glycogen",
+        "Muscle lacks glycogen phosphorylase",
+        "Muscle can release free glucose into blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that glucagon has no effect on muscle glycogen. Muscle glycogen breakdown is more strongly regulated by epinephrine, calcium, and AMP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Epinephrine increases blood glucose availability by:",
+      "options": [
+        "Stimulating glycogenolysis in liver and muscle",
+        "Stimulating insulin secretion only",
+        "Increasing glucose uptake in adipose tissue",
+        "Inhibiting all glycogen breakdown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine rapidly mobilizes glucose during stress. In liver, this supports blood glucose; in muscle, it supports local ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Epinephrine decreases glucose uptake in some tissues mainly to:",
+      "options": [
+        "Spare glucose for critical tissues during stress",
+        "Increase glucose storage only",
+        "Prevent liver glucose release",
+        "Promote insulin action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During stress, epinephrine mobilizes fuels and reduces glucose uptake in some tissues, helping keep glucose available in blood for organs that need it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucocorticoids increase gluconeogenesis by:",
+      "options": [
+        "Mobilizing amino acids from protein catabolism",
+        "Increasing insulin-mediated glucose uptake",
+        "Stimulating glycogenesis only",
+        "Blocking hepatic glucose production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids increase protein breakdown, providing amino acids that can be converted into glucose through gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucocorticoids decrease glucose utilization mainly in:",
+      "options": [
+        "Extrahepatic tissues",
+        "Liver only",
+        "RBCs only",
+        "Intestinal lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that glucocorticoids decrease glucose utilization in extrahepatic tissues, contributing to increased blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone is most directly opposed to insulin in maintaining blood glucose during fasting?",
+      "options": [
+        "Glucagon",
+        "Melatonin",
+        "Calcitonin",
+        "Aldosterone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon counteracts insulin during fasting by increasing hepatic glucose production through glycogenolysis and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone provides rapid glucose mobilization during acute stress?",
+      "options": [
+        "Epinephrine",
+        "Insulin",
+        "Estrogen",
+        "Thyroxine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine acts rapidly in stress to increase glycogenolysis and glucose availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone provides a longer-term hyperglycemic effect through protein catabolism?",
+      "options": [
+        "Glucocorticoids",
+        "Insulin",
+        "Calcitonin",
+        "Parathyroid hormone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids increase gluconeogenesis by mobilizing amino acids from proteins, which is a longer-term metabolic effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best represents insulin’s fed-state actions?",
+      "options": [
+        "Increased glucose uptake, glycolysis, glycogenesis, and lipogenesis",
+        "Increased glycogenolysis and gluconeogenesis",
+        "Increased protein catabolism and decreased glucose uptake",
+        "Increased hepatic glucose output only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin promotes storage and utilization of glucose after meals. It increases uptake, oxidation, glycogen synthesis, and fat synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best represents glucagon’s fasting-state actions?",
+      "options": [
+        "Increased liver glycogenolysis and gluconeogenesis",
+        "Increased muscle glucose uptake and glycogenesis",
+        "Increased insulin secretion and lipogenesis",
+        "Increased lactose synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon raises blood glucose during fasting by stimulating liver glucose output.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best represents epinephrine’s stress actions?",
+      "options": [
+        "Increased glycogenolysis in liver and muscle with reduced glucose uptake",
+        "Increased glycogenesis in liver and muscle",
+        "Increased glucose uptake and fat storage only",
+        "Complete inhibition of hepatic glucose output"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine prepares the body for acute energy demand. It mobilizes glycogen and helps maintain circulating glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination best represents glucocorticoid effects?",
+      "options": [
+        "Increased gluconeogenesis from amino acids and decreased extrahepatic glucose utilization",
+        "Increased insulin-mediated glucose uptake",
+        "Increased glycogenesis only",
+        "Decreased hepatic glucose production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids are hyperglycemic hormones. They increase glucose production and reduce glucose use outside the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why insulin is called hypoglycemic?",
+      "options": [
+        "It lowers blood glucose by increasing uptake/storage and decreasing hepatic glucose output",
+        "It raises blood glucose by stimulating glycogenolysis",
+        "It increases gluconeogenesis from amino acids",
+        "It decreases glucose uptake in muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is the only major hormone that lowers blood glucose. It promotes glucose entry and storage and suppresses glucose production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glucagon is hyperglycemic?",
+      "options": [
+        "It raises blood glucose by increasing hepatic glucose production",
+        "It lowers blood glucose by increasing muscle uptake",
+        "It prevents glycogenolysis",
+        "It directly stimulates insulin secretion after meals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon increases blood glucose mainly through liver glycogenolysis and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the difference between liver and muscle during glucagon action?",
+      "options": [
+        "Glucagon acts on liver to raise blood glucose but does not act on muscle glycogen",
+        "Glucagon acts mainly on muscle glycogen to release blood glucose",
+        "Glucagon prevents liver glucose output",
+        "Muscle releases free glucose in response to glucagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a common trap. Muscle glycogen is for local energy, and glucagon does not directly stimulate muscle glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glucose fate is most characteristic of RBCs?",
+      "options": [
+        "Glycolysis to lactate",
+        "TCA cycle oxidation",
+        "Fatty acid β-oxidation",
+        "Ketone body oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RBCs lack mitochondria, so glucose is metabolized anaerobically to lactate through glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glucose fate is related to urinary excretion?",
+      "options": [
+        "Glucosuria during high blood glucose",
+        "Normal obligatory glucose loss at fasting glucose",
+        "Glucose conversion into urea",
+        "Glucose conversion into bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When blood glucose is too high, renal reabsorption may be exceeded, causing glucose to appear in urine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares hyperglycemia and hypoglycemia?",
+      "options": [
+        "Hyperglycemia is harmful chronically, while severe hypoglycemia may be immediately fatal",
+        "Hyperglycemia is always harmless",
+        "Hypoglycemia is never dangerous",
+        "Both are normal physiological states"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file emphasizes that hyperglycemia is harmful, but hypoglycemia is especially dangerous because of brain glucose dependence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes blood glucose regulation?",
+      "options": [
+        "Blood glucose is maintained by balancing absorption, glycogenolysis, gluconeogenesis, tissue uptake, storage, oxidation, and hormonal control",
+        "Blood glucose depends only on intestinal absorption",
+        "Blood glucose is regulated only by insulin",
+        "Muscle glycogen is the main direct source of blood glucose during fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood glucose homeostasis is dynamic. It depends on sources of glucose, tissue utilization, storage pathways, and opposing hormonal signals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-056",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient fasts overnight. Which source contributes most rapidly to maintain blood glucose early in fasting?",
+      "options": [
+        "Liver glycogenolysis",
+        "Muscle glycogen directly released into blood",
+        "Dietary absorption",
+        "Urinary glucose reabsorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Early fasting is supported mainly by liver glycogenolysis. Muscle glycogen cannot directly maintain blood glucose because muscle lacks glucose-6-phosphatase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-057",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has prolonged fasting after liver glycogen depletion. Which source becomes more important?",
+      "options": [
+        "Gluconeogenesis",
+        "Intestinal glucose absorption",
+        "Muscle glycogen directly released as free glucose",
+        "Glucose excretion in urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once liver glycogen stores fall, glucose must be synthesized from non-carbohydrate precursors such as lactate, glycerol, and amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-058",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has severe hypoglycemia with confusion and coma risk. Which tissue explains the danger most directly?",
+      "options": [
+        "Brain",
+        "Hair follicle",
+        "Adipose tissue",
+        "Bone matrix"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brain depends heavily on glucose under normal conditions. Severe hypoglycemia can rapidly cause neurologic symptoms, coma, and death.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-059",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has marked hyperglycemia and glucose in urine. What is the best explanation?",
+      "options": [
+        "Blood glucose exceeded renal reabsorptive capacity",
+        "Insulin increased renal glucose loss at normal levels",
+        "Glucose is normally excreted at fasting range",
+        "Brain converted glucose to urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When plasma glucose becomes too high, renal tubular glucose transporters become saturated, causing glucosuria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-060",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which hormonal pattern is most expected after a carbohydrate-rich meal?",
+      "options": [
+        "High insulin, increased glucose uptake, glycogenesis, glycolysis, and lipogenesis",
+        "High glucagon, increased gluconeogenesis and glycogenolysis",
+        "High epinephrine, decreased glucose uptake",
+        "High cortisol, increased protein catabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After a meal, insulin promotes glucose disposal and storage. This lowers blood glucose toward normal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-061",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which hormonal pattern is most expected during hypoglycemia?",
+      "options": [
+        "Increased glucagon stimulating liver glycogenolysis and gluconeogenesis",
+        "Increased insulin stimulating glycogenesis",
+        "Decreased hepatic glucose output",
+        "Increased glucose uptake into adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low blood glucose stimulates glucagon release from pancreatic α-cells. Glucagon raises blood glucose through hepatic glucose production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-062",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which hormonal pattern is most expected during acute stress?",
+      "options": [
+        "Increased epinephrine stimulating liver and muscle glycogenolysis",
+        "Increased insulin suppressing glycogenolysis",
+        "Increased glucagon acting on muscle glycogen directly",
+        "Increased glucose storage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine rapidly mobilizes glucose during stress. It acts in liver and muscle, unlike glucagon, which does not directly act on muscle glycogen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receiving excess glucocorticoids develops hyperglycemia. Which mechanism best explains this?",
+      "options": [
+        "Increased gluconeogenesis from amino acids and reduced extrahepatic glucose utilization",
+        "Increased insulin-mediated glucose uptake",
+        "Complete inhibition of hepatic glucose production",
+        "Increased glycogenesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids increase protein breakdown and hepatic gluconeogenesis while decreasing glucose use in peripheral tissues, causing hyperglycemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-064",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best corrects: “Glucagon raises blood glucose by breaking down muscle glycogen”?",
+      "options": [
+        "Glucagon raises blood glucose through liver, not muscle glycogen",
+        "Glucagon acts equally on liver and muscle glycogen",
+        "Muscle glycogen releases free glucose into blood under glucagon",
+        "Glucagon is a hypoglycemic hormone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon acts on liver glycogenolysis and gluconeogenesis. Muscle glycogen is used locally and is not directly regulated by glucagon for blood glucose release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best corrects: “Insulin only increases glucose uptake”?",
+      "options": [
+        "Insulin also increases glycolysis, glycogenesis, lipogenesis, and inhibits glycogenolysis/gluconeogenesis",
+        "Insulin only acts on RBCs",
+        "Insulin increases hepatic glucose output",
+        "Insulin activates glucagon secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin has broad anabolic effects. It promotes glucose use and storage and suppresses glucose production pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high insulin after a meal. Which hepatic processes are inhibited?",
+      "options": [
+        "Glycogenolysis and gluconeogenesis",
+        "Glycolysis and glycogenesis",
+        "Lipogenesis and glucose uptake",
+        "Lactose synthesis and glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin suppresses liver glucose output by inhibiting glycogen breakdown and new glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high glucagon during fasting. Which hepatic processes are stimulated?",
+      "options": [
+        "Glycogenolysis and gluconeogenesis",
+        "Glycogenesis and glycolysis only",
+        "Lipogenesis only",
+        "Glucose uptake in adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon increases hepatic glucose output to protect against hypoglycemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best describes glucose fate in RBCs versus liver?",
+      "options": [
+        "RBCs convert glucose to lactate for ATP; liver can store glucose as glycogen or release glucose during fasting",
+        "RBCs oxidize glucose through TCA; liver cannot store glycogen",
+        "RBCs release glucose into blood using glucose-6-phosphatase",
+        "Liver uses glucose only for lactate production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RBCs lack mitochondria and rely on anaerobic glycolysis. Liver is central to blood glucose homeostasis through glycogen storage, glycogenolysis, and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best describes the hormonal hierarchy of blood glucose control?",
+      "options": [
+        "Insulin lowers blood glucose; glucagon, epinephrine, and glucocorticoids raise or preserve blood glucose",
+        "Insulin, glucagon, and epinephrine all lower glucose",
+        "Glucagon is the only hypoglycemic hormone",
+        "Cortisol lowers blood glucose by increasing uptake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is the only hypoglycemic hormone. Counter-regulatory hormones protect against falling glucose and support glucose availability during fasting and stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-sources-fate-of-blood-glucose-hormonal-regulation-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes sources and fates of blood glucose?",
+      "options": [
+        "Blood glucose comes from absorption, glycogenolysis, and gluconeogenesis, and is used for energy, storage, biosynthesis, RBC glycolysis, or excreted when excessive",
+        "Blood glucose comes only from diet and is used only for ATP",
+        "Blood glucose is produced mainly by muscle glycogen release into blood",
+        "Blood glucose is regulated only by urinary excretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the complete summary of the topic. Blood glucose is controlled by input sources, tissue utilization, storage, biosynthetic fates, renal handling, and hormonal regulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
