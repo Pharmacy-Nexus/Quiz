@@ -267,11 +267,11 @@
       "section": "Carbohydrate",
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 15,
+        "medium": 25,
+        "hard": 15
       },
-      "questionsCount": 0,
+      "questionsCount": 55,
       "file": "data/bio-chemictry/galactose-metabolism.json"
     }
   ],
@@ -307,5 +307,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T23:30:57.511Z"
+  "updatedAt": "2026-05-31T23:33:27.443Z"
 }
