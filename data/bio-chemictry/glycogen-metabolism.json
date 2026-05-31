@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "glycogen-metabolism",
   "topicName": "Glycogen Metabolism",
-  "updatedAt": "2026-05-31T22:51:37.200Z",
+  "updatedAt": "2026-05-31T22:55:08.144Z",
   "questions": [
     {
       "id": "bio-chemictry-glycogen-metabolism-001",
@@ -680,6 +680,1366 @@
       ],
       "correctAnswer": 0,
       "explanation": "Most glycogen breakdown produces glucose-1-phosphate, but the single glucose at an α(1→6) branch point is released as free glucose by amylo-α(1→6)-glucosidase activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares liver and muscle glycogen?",
+      "options": [
+        "Liver glycogen maintains blood glucose, while muscle glycogen provides local energy",
+        "Muscle glycogen maintains blood glucose, while liver glycogen provides muscle contraction energy only",
+        "Both liver and muscle glycogen are used mainly to release glucose into blood",
+        "Both liver and muscle glycogen are used only during digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver glycogen is mainly used to maintain blood glucose, especially during early fasting. Muscle glycogen is used locally inside muscle cells to produce ATP during contraction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is dietary carbohydrate not always a reliable source of blood glucose?",
+      "options": [
+        "Food intake is intermittent, so glucose must also come from stored or newly synthesized sources",
+        "Dietary carbohydrate is never absorbed",
+        "Dietary carbohydrate only forms lactate",
+        "Dietary carbohydrate cannot raise blood glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary glucose depends on recent food intake. Between meals or during fasting, the body needs glycogenolysis and gluconeogenesis to maintain blood glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does glycogenolysis respond faster than gluconeogenesis to falling blood glucose?",
+      "options": [
+        "Glycogenolysis mobilizes already stored carbohydrate, while gluconeogenesis must synthesize glucose de novo",
+        "Glycogenolysis requires protein breakdown first",
+        "Gluconeogenesis is the fastest pathway in early fasting",
+        "Glycogenolysis occurs only after glycogen stores are depleted"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen is already stored as a glucose polymer, so it can be rapidly degraded. Gluconeogenesis is slower because it must build glucose from smaller non-carbohydrate precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In exercising muscle, glycogen is degraded mainly to provide:",
+      "options": [
+        "Glucose-6-phosphate for glycolysis and ATP production",
+        "Free glucose for release into blood",
+        "UDP-glucose for storage",
+        "Glucose for the liver only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscle glycogen is not mainly used to maintain blood glucose. It is degraded to glucose-1-phosphate, converted to glucose-6-phosphate, and used in glycolysis to produce ATP for contraction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can liver glycogen release free glucose into blood?",
+      "options": [
+        "Liver contains glucose-6-phosphatase",
+        "Liver lacks glucose-6-phosphatase",
+        "Liver glycogen produces only lactate",
+        "Liver glycogen cannot be degraded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In liver, glucose-6-phosphate can be dephosphorylated by glucose-6-phosphatase to free glucose. Free glucose can then enter the blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can muscle glycogen not directly maintain blood glucose?",
+      "options": [
+        "Muscle lacks glucose-6-phosphatase",
+        "Muscle lacks glycogen phosphorylase",
+        "Muscle cannot form glucose-6-phosphate",
+        "Muscle lacks glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscle can break glycogen down to glucose-6-phosphate, but it cannot convert glucose-6-phosphate to free glucose because it lacks glucose-6-phosphatase. Therefore, muscle glycogen is used locally.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the importance of glycogen branching?",
+      "options": [
+        "Branching creates many non-reducing ends for rapid synthesis and degradation",
+        "Branching prevents enzyme access to glycogen",
+        "Branching converts glycogen into a protein",
+        "Branching makes glycogen unable to store glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen enzymes act mainly at non-reducing ends. More branches mean more non-reducing ends, allowing faster glucose mobilization and faster glycogen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which linkage is cleaved repeatedly by glycogen phosphorylase?",
+      "options": [
+        "α(1→4)",
+        "α(1→6)",
+        "β(1→4)",
+        "Phosphodiester linkage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase removes glucose residues from linear glycogen chains by cleaving α(1→4) glycosidic bonds through phosphorolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which linkage requires debranching enzyme glucosidase activity?",
+      "options": [
+        "α(1→6)",
+        "α(1→4)",
+        "β(1→4)",
+        "Peptide bond"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The single glucose residue remaining at a branch point is linked by an α(1→6) bond. Amylo-α(1→6)-glucosidase activity removes it hydrolytically, releasing free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In glycogenesis, glucose is first converted to:",
+      "options": [
+        "Glucose-6-phosphate",
+        "UDP-glucose directly",
+        "Free glucose from glycogen",
+        "Limit dextrin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthesis begins with phosphorylation of glucose to glucose-6-phosphate. This step uses ATP and is catalyzed by hexokinase or glucokinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In glycogenesis, glucose-6-phosphate is converted to:",
+      "options": [
+        "Glucose-1-phosphate",
+        "Glucose directly",
+        "Lactate",
+        "Glycogenin directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase converts glucose-6-phosphate into glucose-1-phosphate. Glucose-1-phosphate is then activated to UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is UDP-glucose called activated glucose?",
+      "options": [
+        "It has high transfer potential for adding glucose to glycogen",
+        "It is free glucose released from the liver",
+        "It is the final product of glycogenolysis",
+        "It is glucose without energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is activated because the glucose residue is attached to UDP, making it ready to be transferred to the growing glycogen chain by glycogen synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme uses UDP-glucose to elongate glycogen chains?",
+      "options": [
+        "Glycogen synthase",
+        "Glycogen phosphorylase",
+        "Glucose-6-phosphatase",
+        "Debranching enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase transfers glucose from UDP-glucose to the non-reducing end of glycogen, forming α(1→4) glycosidic bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glycogen synthase adds glucose residues to the:",
+      "options": [
+        "Non-reducing ends of glycogen",
+        "Reducing end only",
+        "α(1→6) branch residue only",
+        "Center of glycogenin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase elongates chains at non-reducing ends. This is why branching increases the number of sites for rapid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule serves as a primer when glycogen stores are not totally depleted?",
+      "options": [
+        "An existing glycogen fragment",
+        "Free glucose",
+        "Lactate",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase cannot start synthesis from free glucose. If a glycogen fragment remains, it can serve as the primer for elongation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When no glycogen primer exists, glycogenin begins synthesis by attaching glucose to:",
+      "options": [
+        "Its own tyrosine residue",
+        "Free glucose in blood",
+        "A branch point glucose only",
+        "UDP alone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenin has a specific tyrosine residue with an OH group that receives the first glucose residue. This starts the primer chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After glycogenin forms a short primer, which enzyme continues elongation?",
+      "options": [
+        "Glycogen synthase",
+        "Glycogen phosphorylase",
+        "Glucose-6-phosphatase",
+        "Amylo-α(1→6)-glucosidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenin creates a short α(1→4)-linked glucose chain. Once the primer is long enough, glycogen synthase can extend it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes branching enzyme action?",
+      "options": [
+        "It transfers a block of glucose residues and creates an α(1→6) branch",
+        "It removes glucose-1-phosphate from glycogen",
+        "It releases free glucose from liver glycogen",
+        "It phosphorylates glucose to glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Branching enzyme removes a chain of 6–8 glucosyl residues from a non-reducing end and attaches it to another glucose residue through an α(1→6) linkage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Branching enzyme creates new non-reducing ends mainly to:",
+      "options": [
+        "Allow further elongation by glycogen synthase",
+        "Stop glycogen synthesis permanently",
+        "Convert glycogen into free glucose",
+        "Prevent glycogenolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After branching, the new non-reducing ends can be further elongated by glycogen synthase. This increases glycogen compactness and metabolic accessibility.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway requires ATP and UTP?",
+      "options": [
+        "Glycogenesis",
+        "Glycogenolysis",
+        "Lactate formation",
+        "TCA cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenesis requires ATP for glucose phosphorylation and UTP for synthesis of UDP-glucose. Glycogenolysis mainly uses inorganic phosphate through phosphorylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway uses PLP-dependent glycogen phosphorylase?",
+      "options": [
+        "Glycogenolysis",
+        "Glycogenesis",
+        "Gluconeogenesis only",
+        "Fatty acid synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase is a glycogenolytic enzyme and requires PLP as a coenzyme. It cleaves α(1→4) bonds by phosphorolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glycogen phosphorylase uses which mechanism to release glucose-1-phosphate?",
+      "options": [
+        "Phosphorolysis",
+        "Hydrolysis",
+        "Oxidative decarboxylation",
+        "Transamination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorolysis uses inorganic phosphate to cleave α(1→4) bonds, producing glucose-1-phosphate instead of free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product is released from α(1→4) cleavage by glycogen phosphorylase?",
+      "options": [
+        "Glucose-1-phosphate",
+        "Free glucose",
+        "UDP-glucose",
+        "Glucose-6-phosphate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main product of glycogen phosphorylase action is glucose-1-phosphate. It can then be converted to glucose-6-phosphate by phosphoglucomutase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product is released from α(1→6) branch hydrolysis?",
+      "options": [
+        "Free glucose",
+        "Glucose-1-phosphate",
+        "UDP-glucose",
+        "Glycogenin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The α(1→6)-linked branch residue is removed by glucosidase activity of the debranching enzyme, producing free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What is limit dextrin?",
+      "options": [
+        "A branched glycogen remnant left when phosphorylase stops near branch points",
+        "The activated glucose donor in glycogenesis",
+        "The first glucose attached to glycogenin",
+        "Free glucose released into blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase stops four residues before a branch point. The remaining branched structure is called limit dextrin and must be handled by debranching enzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Debranching enzyme is described as bifunctional because it has:",
+      "options": [
+        "Transferase and α(1→6)-glucosidase activities",
+        "Synthase and kinase activities",
+        "Phosphatase and dehydrogenase activities",
+        "Mutase and carboxylase activities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Debranching enzyme first transfers three glucosyl residues to another chain, then removes the remaining α(1→6)-linked glucose by hydrolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The transferase activity of debranching enzyme transfers how many glucosyl residues?",
+      "options": [
+        "Three",
+        "One",
+        "Six to eight",
+        "Ten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The transferase activity removes the outer three glucosyl residues from a branch and transfers them to the non-reducing end of another chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After transferase activity, the remaining single branch glucose is removed by:",
+      "options": [
+        "Amylo-α(1→6)-glucosidase",
+        "Glycogen synthase",
+        "UDP-glucose pyrophosphorylase",
+        "Phosphorylase kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The α(1→6)-glucosidase activity hydrolyzes the branch-point glucose and releases it as free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucose-1-phosphate from glycogenolysis is converted to glucose-6-phosphate by:",
+      "options": [
+        "Phosphoglucomutase",
+        "Glycogen synthase",
+        "Branching enzyme",
+        "Glucose phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase interconverts glucose-1-phosphate and glucose-6-phosphate. In glycogenolysis, it converts G1P into G6P.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In liver glycogenolysis, glucose-6-phosphate is finally converted into:",
+      "options": [
+        "Free glucose",
+        "Lactate only",
+        "UDP-glucose",
+        "Glycogenin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver contains glucose-6-phosphatase, which converts glucose-6-phosphate to free glucose. This glucose can be released into blood to maintain blood glucose concentration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glycogenolysis is not the reverse of glycogenesis?",
+      "options": [
+        "Different enzymes and different chemical mechanisms are used",
+        "The same enzymes simply reverse all reactions",
+        "Glycogenesis occurs in mitochondria while glycogenolysis occurs in nucleus",
+        "Glycogenolysis uses UDP-glucose as its main product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenesis uses UDP-glucose, glycogen synthase, and branching enzyme. Glycogenolysis uses glycogen phosphorylase and debranching enzyme. Therefore, it is not a direct reversal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the difference between phosphorolysis and hydrolysis during glycogenolysis?",
+      "options": [
+        "α(1→4) bonds are cleaved by phosphorolysis, while α(1→6) bonds are cleaved hydrolytically",
+        "Both α(1→4) and α(1→6) bonds are cleaved only by hydrolysis",
+        "Both α(1→4) and α(1→6) bonds are cleaved only by ATP",
+        "α(1→6) bonds are cleaved by glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase uses inorganic phosphate to cleave α(1→4) bonds, producing G1P. The debranching enzyme hydrolyzes α(1→6) linkages and releases free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is glucose-1-phosphate formation from glycogen energetically useful?",
+      "options": [
+        "It saves one ATP compared with starting glycolysis from free glucose",
+        "It consumes two ATP immediately",
+        "It cannot enter metabolism",
+        "It must be converted to UDP-glucose before energy production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen breakdown gives glucose-1-phosphate, which becomes glucose-6-phosphate without using ATP. Free glucose would require ATP for phosphorylation by hexokinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In muscle, glycogen-derived glucose enters glycolysis as:",
+      "options": [
+        "Glucose-6-phosphate",
+        "Free glucose",
+        "UDP-glucose",
+        "Glucose-1,6-bisphosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase produces G1P, which phosphoglucomutase converts to G6P. In muscle, G6P enters glycolysis to provide ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In liver, the major reason glycogen can support blood glucose is:",
+      "options": [
+        "G6P is dephosphorylated to glucose by glucose-6-phosphatase",
+        "G6P is converted to lactate and exported",
+        "Glycogen phosphorylase directly releases all glucose as free glucose",
+        "Muscle sends G6P directly to blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-6-phosphate cannot leave cells efficiently. Liver glucose-6-phosphatase removes the phosphate, producing free glucose that can be exported.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue difference explains why muscle glycogen serves only local energy needs?",
+      "options": [
+        "Muscle lacks glucose-6-phosphatase",
+        "Muscle lacks glycogen phosphorylase",
+        "Muscle lacks phosphoglucomutase",
+        "Muscle cannot form G6P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without glucose-6-phosphatase, muscle cannot release free glucose into blood. It uses glycogen-derived G6P in glycolysis for its own ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During early fasting, which pathway responds rapidly before gluconeogenesis becomes fully active?",
+      "options": [
+        "Liver glycogenolysis",
+        "Muscle glycogenesis",
+        "Fatty acid synthesis",
+        "Urea cycle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogenolysis quickly releases stored glucose from liver glycogen. Gluconeogenesis becomes more important later because it is slower.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During prolonged fasting after glycogen depletion, blood glucose depends more on:",
+      "options": [
+        "Gluconeogenesis",
+        "Glycogenesis",
+        "Muscle glycogen release into blood",
+        "UDP-glucose formation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When glycogen stores become depleted, glucose must be synthesized de novo from precursors such as amino acids, lactate, and glycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why a highly branched glycogen molecule can be rapidly degraded?",
+      "options": [
+        "Many glycogen phosphorylase molecules can work at many non-reducing ends",
+        "Only one enzyme can act on glycogen at a time",
+        "Branching blocks phosphorylase access completely",
+        "Branching converts α(1→4) bonds into peptide bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiple non-reducing ends allow simultaneous enzyme action. This supports rapid release of glucose-1-phosphate during muscle contraction or fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glycogen synthase needs branching enzyme cooperation?",
+      "options": [
+        "Synthase forms linear α(1→4) chains, while branching enzyme creates α(1→6) branches",
+        "Synthase makes α(1→6) bonds directly",
+        "Branching enzyme releases free glucose",
+        "Branching enzyme converts G1P to G6P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase elongates chains with α(1→4) bonds. Branching enzyme creates branch points by forming α(1→6) linkages.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glycogenin is necessary?",
+      "options": [
+        "Glycogen synthase cannot initiate synthesis without a primer",
+        "Glycogen phosphorylase cannot remove branches",
+        "Glycogenin degrades glycogen during fasting",
+        "Glycogenin releases free glucose into blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase can elongate an existing glucan chain but cannot start from free glucose. Glycogenin provides the initial primer when glycogen is depleted.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes glycogenesis?",
+      "options": [
+        "Glucose → G6P → G1P → UDP-glucose → glycogen primer elongation → branching",
+        "Glycogen → G1P → G6P → glucose",
+        "Lactate → pyruvate → glucose → glycogen",
+        "Glucose → UDP-glucose directly without phosphorylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct synthesis sequence: glucose is phosphorylated, rearranged to G1P, activated to UDP-glucose, added to glycogen, and branched.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes glycogenolysis?",
+      "options": [
+        "Glycogen phosphorylase shortening → limit dextrin → debranching enzyme → G1P to G6P",
+        "UDP-glucose formation → glycogen synthase → branching",
+        "Glucose → G6P → UDP-glucose → free glucose",
+        "Glycogenin autoglucosylation → free glucose release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase removes glucose residues until it reaches limit dextrin. Debranching enzyme resolves branches, and phosphoglucomutase converts G1P to G6P.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is responsible for the rate-limiting step of glycogenesis?",
+      "options": [
+        "Glycogen synthase",
+        "Glycogen phosphorylase",
+        "Glucose-6-phosphatase",
+        "Debranching enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase is the key rate-limiting enzyme controlling glycogen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is responsible for the rate-limiting step of glycogenolysis?",
+      "options": [
+        "Glycogen phosphorylase",
+        "Glycogen synthase",
+        "Branching enzyme",
+        "Glycogenin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase is the rate-limiting enzyme controlling glycogen degradation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glycogen synthase regulation by covalent modification?",
+      "options": [
+        "Active when dephosphorylated, inactive when phosphorylated",
+        "Active when phosphorylated, inactive when dephosphorylated",
+        "Active only when bound to PLP",
+        "Active only during fasting hormones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase is active in its dephosphorylated “a” form and inactive in its phosphorylated “b” form. This favors glycogen synthesis in the fed state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glycogen phosphorylase regulation by covalent modification?",
+      "options": [
+        "Active when phosphorylated, inactive when dephosphorylated",
+        "Active when dephosphorylated, inactive when phosphorylated",
+        "Active only when UDP-glucose is high",
+        "Inactive during muscle contraction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The opposite is true for glycogen phosphorylase compared with glycogen synthase. Phosphorylation activates phosphorylase and promotes glycogen degradation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme form is active for glycogen synthesis?",
+      "options": [
+        "Glycogen synthase a, dephosphorylated",
+        "Glycogen synthase b, phosphorylated",
+        "Glycogen phosphorylase a, phosphorylated",
+        "Phosphorylase kinase a, phosphorylated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen synthase a is the active dephosphorylated form. It promotes glycogen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme form is active for glycogen degradation?",
+      "options": [
+        "Glycogen phosphorylase a, phosphorylated",
+        "Glycogen phosphorylase b, dephosphorylated",
+        "Glycogen synthase a, dephosphorylated",
+        "Glycogen synthase b, phosphorylated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycogen phosphorylase is active in its phosphorylated “a” form. This promotes glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme activates glycogen phosphorylase through phosphorylation?",
+      "options": [
+        "Phosphorylase kinase",
+        "Glycogen synthase",
+        "Debranching enzyme",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorylase kinase phosphorylates glycogen phosphorylase b, converting it to the active phosphorylase a form.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which signal activates protein kinase A in hormonal glycogenolysis?",
+      "options": [
+        "cAMP",
+        "UDP-glucose",
+        "Glucose-1-phosphate",
+        "Glycogenin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon or epinephrine activates adenylate cyclase, increasing cAMP. cAMP activates protein kinase A, which promotes phosphorylation events that favor glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucagon promotes glycogenolysis mainly in:",
+      "options": [
+        "Liver only",
+        "Muscle only",
+        "Liver and muscle equally",
+        "RBCs only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that glucagon acts in the liver only. It promotes liver glycogen breakdown to maintain blood glucose during fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Epinephrine promotes glycogenolysis in:",
+      "options": [
+        "Liver and muscle",
+        "Liver only",
+        "Muscle only",
+        "RBCs only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine acts in both liver and muscle. It supports blood glucose maintenance in liver and rapid ATP production in muscle during stress or exercise.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin generally promotes:",
+      "options": [
+        "Glycogenesis",
+        "Glycogenolysis",
+        "Phosphorylation of glycogen synthase",
+        "Activation of glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a fed-state hormone. It activates glycogen synthesis and opposes glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucagon generally promotes:",
+      "options": [
+        "Liver glycogenolysis during fasting",
+        "Muscle glycogenesis during rest only",
+        "Glycogen synthesis after meals",
+        "UDP-glucose degradation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon rises during fasting and acts mainly on liver to increase glycogen breakdown and blood glucose release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition favors glycogenesis in liver?",
+      "options": [
+        "Well-fed state",
+        "Fasting state",
+        "Active exercise",
+        "Severe hypoglycemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the liver, glycogenesis increases during well-fed periods when glucose and insulin are available.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition favors glycogenolysis in liver?",
+      "options": [
+        "Fasting state",
+        "Fed state with high insulin",
+        "Rest after meal",
+        "Excess glucose storage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, liver glycogenolysis increases to maintain blood glucose concentration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition favors glycogenolysis in skeletal muscle?",
+      "options": [
+        "Active exercise",
+        "Resting fed state only",
+        "Liver fasting only",
+        "High insulin after meals only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During exercise, muscle glycogen is broken down to provide glucose-6-phosphate for glycolysis and ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition favors glycogenesis in skeletal muscle?",
+      "options": [
+        "Rest",
+        "Active contraction only",
+        "Severe AMP elevation",
+        "High calcium during contraction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that in skeletal muscle, glycogenolysis increases during active exercise, whereas glycogenesis begins at rest.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes hormonal control of glycogen metabolism?",
+      "options": [
+        "Insulin promotes glycogenesis; glucagon and epinephrine promote glycogenolysis",
+        "Insulin promotes glycogenolysis; glucagon promotes glycogenesis",
+        "Glucagon acts mainly on muscle glycogen only",
+        "Epinephrine inhibits glycogen breakdown in all tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is the fed-state storage hormone. Glucagon and epinephrine mobilize glycogen during fasting, stress, or exercise.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which allosteric signals favor glycogen synthesis in both liver and muscle?",
+      "options": [
+        "Excess glucose-6-phosphate and ATP",
+        "AMP and calcium",
+        "Glucagon and epinephrine",
+        "PLP and inorganic phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-6-phosphate and ATP indicate substrate and energy abundance. They activate glycogen synthase and inhibit glycogen phosphorylase, favoring storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Excess glucose-6-phosphate allosterically:",
+      "options": [
+        "Activates glycogen synthase and inhibits glycogen phosphorylase",
+        "Activates phosphorylase and inhibits synthase",
+        "Activates only glycogen phosphorylase",
+        "Has no effect on glycogen metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G6P signals that glucose is available. It favors glycogen storage by activating synthase and inhibiting breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Excess ATP allosterically:",
+      "options": [
+        "Inhibits glycogen phosphorylase",
+        "Activates glycogen phosphorylase strongly",
+        "Inhibits glycogen synthase",
+        "Blocks glycogenin autoglucosylation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP signals high energy availability. In both liver and muscle, it inhibits glycogen phosphorylase and reduces glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "AMP activates glycogen phosphorylase mainly in:",
+      "options": [
+        "Muscle",
+        "Liver only",
+        "RBCs only",
+        "Kidney only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMP signals low energy during muscle work. It activates muscle glycogen phosphorylase, increasing glycogen breakdown for ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Calcium activates glycogenolysis mainly because it is released during:",
+      "options": [
+        "Muscle contraction",
+        "Fed-state storage",
+        "Liver glucose release only",
+        "Glycogenin autoglucosylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcium is released during muscle contraction. It activates phosphorylase kinase, promoting glycogen phosphorylase activation and glycogen breakdown.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Excess glucose inhibits glycogen phosphorylase mainly in:",
+      "options": [
+        "Liver",
+        "Muscle",
+        "RBCs",
+        "Adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that excess glucose inhibits phosphorylase in liver. This makes sense because liver glycogen breakdown should slow when blood glucose is already high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best matches allosteric control with tissue need?",
+      "options": [
+        "Muscle AMP activates phosphorylase to meet local ATP demand",
+        "Liver AMP is the only signal for blood glucose release",
+        "Liver glucose activates phosphorylase during hyperglycemia",
+        "Muscle glucose-6-phosphate activates glycogenolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Allosteric control meets local tissue needs. In muscle, AMP rises during energy demand and activates glycogen breakdown to produce ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares hormonal and allosteric regulation?",
+      "options": [
+        "Hormonal control meets body-wide needs, while allosteric control meets local tissue needs",
+        "Hormonal control uses only PLP, while allosteric control uses cAMP",
+        "Both are identical and always affect one tissue only",
+        "Allosteric control is only for liver, and hormonal control is only for muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormones such as insulin, glucagon, and epinephrine coordinate metabolism for the whole body. Allosteric regulators such as AMP, ATP, G6P, calcium, and glucose respond to local cellular conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-109",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes phosphorylation effects?",
+      "options": [
+        "Phosphorylation inhibits glycogen synthase but activates glycogen phosphorylase",
+        "Phosphorylation activates both glycogen synthase and phosphorylase",
+        "Phosphorylation inhibits both enzymes",
+        "Phosphorylation has no effect on glycogen metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a major exam trap. Glycogen synthase is active when dephosphorylated, while glycogen phosphorylase is active when phosphorylated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes insulin’s effect on covalent modification?",
+      "options": [
+        "Insulin promotes dephosphorylation, activating synthase and inactivating phosphorylase",
+        "Insulin promotes phosphorylation, activating phosphorylase",
+        "Insulin activates cAMP-dependent protein kinase A",
+        "Insulin activates glycogen degradation in fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin activates phosphatase activity. Dephosphorylation turns glycogen synthase on and glycogen phosphorylase off, promoting glycogen storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-111",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glucagon’s effect in liver?",
+      "options": [
+        "It increases cAMP and phosphorylation, promoting glycogen breakdown",
+        "It activates glycogen synthase by dephosphorylation",
+        "It acts mainly in muscle only",
+        "It directly releases glucose from glycogen branches"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon binds liver receptors, activates adenylate cyclase, raises cAMP, activates PKA, and promotes phosphorylation of enzymes that favor glycogenolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-112",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes epinephrine’s effect?",
+      "options": [
+        "It stimulates glycogenolysis in liver and muscle",
+        "It acts only in liver",
+        "It stimulates glycogenesis only",
+        "It inhibits phosphorylase kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epinephrine prepares the body for stress or exercise. In muscle, it supports ATP production; in liver, it supports blood glucose availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-113",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme pair is reciprocally regulated by phosphorylation?",
+      "options": [
+        "Glycogen synthase and glycogen phosphorylase",
+        "Glycogenin and phosphoglucomutase",
+        "Branching enzyme and debranching enzyme",
+        "UDP-glucose pyrophosphorylase and glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorylation turns glycogen synthase off and glycogen phosphorylase on. Dephosphorylation has the opposite effect.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-114",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which state promotes the dephosphorylated active form of glycogen synthase?",
+      "options": [
+        "Fed state with insulin",
+        "Fasting state with glucagon",
+        "Stress state with epinephrine",
+        "Muscle contraction with calcium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin dominates in the fed state and promotes glycogen storage by activating glycogen synthase through dephosphorylation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-115",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which state promotes the phosphorylated active form of glycogen phosphorylase?",
+      "options": [
+        "Fasting or exercise signals",
+        "Fed state with insulin only",
+        "High glucose-6-phosphate storage signal",
+        "Resting muscle glycogenesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon in fasting and epinephrine/calcium during exercise activate phosphorylation cascades that convert glycogen phosphorylase to its active phosphorylated form.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-116",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is most accurate for liver during fasting?",
+      "options": [
+        "Glucagon stimulates glycogenolysis so liver releases glucose to blood",
+        "Insulin stimulates glycogenesis and liver releases no glucose",
+        "Muscle glycogen is released as free glucose into blood",
+        "Liver lacks glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, liver glycogen is degraded. Because liver has glucose-6-phosphatase, it can release free glucose into blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-117",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is most accurate for muscle during exercise?",
+      "options": [
+        "Epinephrine, calcium, and AMP promote glycogen breakdown for local ATP production",
+        "Glucagon directly stimulates muscle glycogen breakdown",
+        "Muscle releases free glucose into blood using glucose-6-phosphatase",
+        "Muscle glycogen is mainly used to maintain brain glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscle contraction increases calcium and AMP, and epinephrine supports glycogen breakdown. The resulting G6P enters glycolysis to make ATP for contraction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-118",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glycogen metabolism must be reciprocally regulated?",
+      "options": [
+        "To avoid simultaneous strong glycogen synthesis and breakdown",
+        "To keep both pathways maximally active at all times",
+        "To convert glycogen directly into fat only",
+        "To prevent glucose storage during fed state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If glycogenesis and glycogenolysis were both strongly active, energy would be wasted. Reciprocal control ensures storage in the fed state and mobilization in fasting/exercise.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-119",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes liver versus muscle glycogen fate?",
+      "options": [
+        "Liver glycogen can become blood glucose; muscle glycogen becomes local glycolytic fuel",
+        "Muscle glycogen becomes blood glucose; liver glycogen becomes lactate only",
+        "Both become blood glucose equally",
+        "Both are used only for local muscle ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver has glucose-6-phosphatase and releases glucose into blood. Muscle lacks glucose-6-phosphatase and uses G6P for its own energy production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycogen-metabolism-120",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes glycogen metabolism?",
+      "options": [
+        "Glycogen stores glucose as a branched polymer; glycogenesis uses UDP-glucose and synthase, while glycogenolysis uses phosphorylase and debranching enzyme under reciprocal regulation",
+        "Glycogen is a linear fructose polymer degraded only by hydrolysis",
+        "Muscle glycogen mainly maintains blood glucose through glucose-6-phosphatase",
+        "Glycogenesis and glycogenolysis are exact reverse pathways using identical enzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This combines the main points of the topic: glycogen structure, synthesis, degradation, and regulation. Glycogen metabolism is designed for rapid storage and rapid mobilization depending on fed, fasting, or exercise states.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
