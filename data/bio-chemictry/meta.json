@@ -228,6 +228,21 @@
       },
       "questionsCount": 160,
       "file": "data/bio-chemictry/glycogen-metabolism.json"
+    },
+    {
+      "id": "hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp",
+      "name": "Hexose Monophosphate Shunt / Pentose Phosphate Pathway (PPP)",
+      "description": "",
+      "order": 4,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp.json"
     }
   ],
   "sections": [
