@@ -335,7 +335,13 @@
       "name": "Carbohydrate",
       "description": "",
       "order": 5
+    },
+    {
+      "id": "lipids",
+      "name": "Lipids",
+      "description": "",
+      "order": 6
     }
   ],
-  "updatedAt": "2026-05-31T23:47:03.340Z"
+  "updatedAt": "2026-05-31T23:47:37.725Z"
 }
