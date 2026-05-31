@@ -223,10 +223,10 @@
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
         "easy": 40,
-        "medium": 0,
+        "medium": 80,
         "hard": 0
       },
-      "questionsCount": 40,
+      "questionsCount": 120,
       "file": "data/bio-chemictry/glycogen-metabolism.json"
     }
   ],
@@ -262,5 +262,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:51:43.755Z"
+  "updatedAt": "2026-05-31T22:55:14.768Z"
 }
