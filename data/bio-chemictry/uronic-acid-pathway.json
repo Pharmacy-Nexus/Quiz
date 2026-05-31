@@ -2,6 +2,772 @@
   "subjectId": "bio-chemictry",
   "topicId": "uronic-acid-pathway",
   "topicName": "Uronic Acid Pathway",
-  "updatedAt": "2026-05-31T23:25:18.777Z",
-  "questions": []
+  "updatedAt": "2026-05-31T23:27:04.860Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The uronic acid pathway occurs mainly in the:",
+      "options": [
+        "Liver cytosol",
+        "Mitochondrial matrix",
+        "Red blood cell membrane",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The uronic acid pathway occurs in the liver cytosol. It is an alternative pathway of glucose metabolism that forms UDP-glucuronate and other products rather than producing ATP directly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main active form of glucuronic acid produced by the uronic acid pathway is:",
+      "options": [
+        "UDP-glucuronate",
+        "Glucose-6-phosphate",
+        "UDP-galactose",
+        "Ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway converts glucose derivatives into UDP-glucuronate, which is the activated donor form of glucuronic acid used in conjugation and synthesis of glycosaminoglycans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucuronate is important for synthesis of:",
+      "options": [
+        "Glycosaminoglycans",
+        "Ketone bodies",
+        "Lactate",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate provides glucuronate units used in glycosaminoglycans, which are important structural components of proteoglycans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucuronate is used in conjugation of:",
+      "options": [
+        "Bilirubin, steroid hormones, and some drugs",
+        "DNA bases only",
+        "Fatty acids only",
+        "Amino acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate donates glucuronic acid for glucuronidation reactions. This helps conjugate compounds such as bilirubin, steroid hormones, and drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucuronide conjugation generally helps compounds become:",
+      "options": [
+        "More water-soluble and easier to excrete",
+        "More lipid-soluble and harder to excrete",
+        "Converted into ATP",
+        "Converted into glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucuronidation adds a polar glucuronic acid group to less polar substances. This usually increases water solubility and supports excretion in urine or bile.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Humans cannot synthesize ascorbic acid through the uronic acid pathway because they lack:",
+      "options": [
+        "L-gulonolactone oxidase",
+        "UDP-glucose pyrophosphorylase",
+        "Phosphoglucomutase",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans and other primates cannot produce vitamin C because they lack L-gulonolactone oxidase, the enzyme required for the final step of ascorbic acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In humans, ascorbic acid is considered:",
+      "options": [
+        "An essential vitamin in the diet",
+        "A product of the uronic acid pathway",
+        "A glycogen intermediate",
+        "A bile pigment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because humans cannot synthesize ascorbic acid, it must be obtained from the diet. This is why vitamin C is essential in humans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The uronic acid pathway begins from a glucose derivative and passes through:",
+      "options": [
+        "UDP-glucose",
+        "Acetyl-CoA",
+        "Lactate",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway involves conversion of glucose-6-phosphate to glucose-1-phosphate, then UDP-glucose, and finally UDP-glucuronate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucose-6-phosphate is converted to glucose-1-phosphate by:",
+      "options": [
+        "Phosphoglucomutase",
+        "UDP-glucose dehydrogenase",
+        "Lactonase",
+        "Aldolase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase interconverts glucose-6-phosphate and glucose-1-phosphate, preparing glucose for UDP-glucose formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucose is converted to UDP-glucuronate by:",
+      "options": [
+        "UDP-glucose dehydrogenase",
+        "Glucokinase",
+        "Galactokinase",
+        "Aldose reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose dehydrogenase oxidizes UDP-glucose to UDP-glucuronate. This is the key step that forms activated glucuronic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly represents the main uronic acid pathway toward UDP-glucuronate?",
+      "options": [
+        "Glucose-6-P → glucose-1-P → UDP-glucose → UDP-glucuronate",
+        "Glucose → fructose-1-P → DHAP → UDP-glucuronate",
+        "Glucose-6-P → pyruvate → acetyl-CoA → UDP-glucuronate",
+        "Glucose → galactose-1-P → UDP-galactose → UDP-glucuronate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway starts from glucose-6-phosphate, which is converted to glucose-1-phosphate by phosphoglucomutase. Glucose-1-phosphate forms UDP-glucose, which is then oxidized to UDP-glucuronate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme forms UDP-glucose from glucose-1-phosphate?",
+      "options": [
+        "UDP-glucose pyrophosphorylase",
+        "UDP-glucose dehydrogenase",
+        "Glucose-6-phosphatase",
+        "Galactose-1-phosphate uridyltransferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose pyrophosphorylase activates glucose-1-phosphate by reacting it with UTP to form UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Formation of UDP-glucose requires:",
+      "options": [
+        "UTP",
+        "ATP only",
+        "NADPH only",
+        "FADH₂ only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is formed from glucose-1-phosphate and UTP. This activation step prepares glucose for further metabolism, including UDP-glucuronate formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "UDP-glucose dehydrogenase uses which coenzyme according to the pathway diagram?",
+      "options": [
+        "NAD⁺",
+        "NADP⁺",
+        "FAD",
+        "CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose dehydrogenase oxidizes UDP-glucose to UDP-glucuronate while reducing NAD⁺ to NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-015",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the UDP-glucose dehydrogenase reaction, UDP-glucose is:",
+      "options": [
+        "Oxidized to UDP-glucuronate",
+        "Reduced to sorbitol",
+        "Converted to glucose-6-phosphate",
+        "Cleaved into pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose dehydrogenase oxidizes the terminal alcohol group of UDP-glucose to a carboxyl group, forming UDP-glucuronate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of the uronic acid pathway is used for conjugation reactions?",
+      "options": [
+        "UDP-glucuronate",
+        "Glucose-1-phosphate",
+        "Fructose-6-phosphate",
+        "Galactose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate is the active glucuronate donor used in glucuronidation reactions, especially for bilirubin, steroid hormones, and drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucuronidation of bilirubin is important because it:",
+      "options": [
+        "Increases bilirubin water solubility for excretion",
+        "Converts bilirubin into glucose",
+        "Produces ATP from bilirubin",
+        "Stores bilirubin as glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bilirubin is poorly water-soluble. Conjugation with glucuronic acid makes it more water-soluble and easier to excrete in bile.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes UDP-glucuronate in drug metabolism?",
+      "options": [
+        "It helps conjugate some drugs for urinary or biliary excretion",
+        "It activates drugs by converting them into ATP",
+        "It stores drugs in glycogen",
+        "It converts drugs into glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate participates in phase II conjugation reactions. This often increases polarity and facilitates drug elimination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The uronic acid pathway contributes to proteoglycan synthesis by providing:",
+      "options": [
+        "Glucuronate for glycosaminoglycans",
+        "Acetyl-CoA for fatty acids",
+        "Lactate for glycolysis",
+        "NADPH for glutathione"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycosaminoglycans often contain uronic acid residues. UDP-glucuronate is the activated form used to donate these residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is a major fate of UDP-glucuronate?",
+      "options": [
+        "Incorporation into glycosaminoglycans",
+        "Direct conversion into pyruvate",
+        "Conversion into lactate in RBCs",
+        "Entry into beta-oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate can be used structurally in glycosaminoglycans and proteoglycans, which are important extracellular matrix components.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is another major fate of UDP-glucuronate?",
+      "options": [
+        "Conjugation of less polar compounds",
+        "Direct formation of glycogen branches",
+        "Conversion of fructose to DHAP",
+        "Conversion of galactose to lactose only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate is used to conjugate less polar substances such as bilirubin, steroids, and drugs, making them easier to eliminate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which compound is not a typical target for glucuronide conjugation in this file?",
+      "options": [
+        "Acetyl-CoA",
+        "Bilirubin",
+        "Steroid hormones",
+        "Some drugs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists bilirubin, steroid hormones, and several drugs as examples of compounds undergoing glucuronide conjugation. Acetyl-CoA is not listed as a glucuronidation target.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which species group cannot synthesize ascorbic acid due to lack of L-gulonolactone oxidase?",
+      "options": [
+        "Humans and other primates",
+        "All mammals without exception",
+        "All bacteria",
+        "All plants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that humans and other primates lack L-gulonolactone oxidase, so they cannot synthesize ascorbic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which animal is also mentioned as unable to synthesize ascorbic acid?",
+      "options": [
+        "Guinea pig",
+        "Cow",
+        "Dog",
+        "Rabbit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that humans, other primates, and guinea pigs lack the ability to synthesize ascorbic acid, making vitamin C dietary for these species.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme absence explains why humans need dietary vitamin C?",
+      "options": [
+        "L-gulonolactone oxidase",
+        "Glucose-6-phosphate dehydrogenase",
+        "UDP-galactose epimerase",
+        "Fructokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The absence of L-gulonolactone oxidase prevents conversion of L-gulonolactone to ascorbic acid, so humans must obtain vitamin C from food.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ascorbic acid production in humans?",
+      "options": [
+        "The human uronic acid pathway does not generate ascorbic acid",
+        "Humans produce vitamin C efficiently in the liver",
+        "Humans produce vitamin C only during fasting",
+        "Humans produce ascorbic acid from fructose metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Although the uronic acid pathway can lead to ascorbic acid in some species, humans cannot complete this route because L-gulonolactone oxidase is absent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The uronic acid pathway can produce pentose-related metabolites such as:",
+      "options": [
+        "D-xylulose entering PPP",
+        "Acetyl-CoA entering TCA",
+        "Lactate entering Cori cycle",
+        "UDP-galactose entering lactose synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file connects the uronic acid pathway to pentose formation, including D-xylulose, which can enter the hexose monophosphate pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "D-xylulose-5-phosphate produced from the uronic acid pathway can enter:",
+      "options": [
+        "Hexose monophosphate pathway / PPP",
+        "TCA cycle directly",
+        "Glycogenolysis directly",
+        "Urea cycle directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D-xylulose-5-phosphate is a pentose phosphate intermediate and can enter the hexose monophosphate shunt.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the relationship between the uronic acid pathway and PPP?",
+      "options": [
+        "The uronic acid pathway can provide pentose derivatives that connect to PPP",
+        "PPP is the only pathway that makes UDP-glucuronate",
+        "Uronic acid pathway directly generates ATP through PPP",
+        "PPP converts bilirubin into UDP-glucuronate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file shows that the uronic acid pathway may produce D-xylulose or related pentose metabolites that connect with the HMP/PPP pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which function is most characteristic of the uronic acid pathway?",
+      "options": [
+        "Detoxification/conjugation through UDP-glucuronate",
+        "Direct ATP generation",
+        "Direct lactate formation",
+        "Direct ketone body production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main clinically important role of the uronic acid pathway is production of UDP-glucuronate for conjugation and excretion of less polar compounds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly contrasts uronic acid pathway with glycolysis?",
+      "options": [
+        "Uronic acid pathway supports conjugation and GAG synthesis, while glycolysis mainly produces energy",
+        "Uronic acid pathway produces lactate as its main product",
+        "Glycolysis mainly forms UDP-glucuronate",
+        "Both pathways have identical products"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis oxidizes glucose for energy production. The uronic acid pathway diverts glucose into UDP-glucuronate for conjugation and structural carbohydrate synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly describes UDP-glucuronate formation?",
+      "options": [
+        "It requires oxidation of UDP-glucose",
+        "It requires reduction of pyruvate",
+        "It requires cleavage of glycogen branches",
+        "It requires fructokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is oxidized by UDP-glucose dehydrogenase to form UDP-glucuronate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is directly before UDP-glucuronate in the pathway diagram?",
+      "options": [
+        "UDP-glucose",
+        "Glucose-6-phosphate",
+        "Glucose-1-phosphate",
+        "D-xylulose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway proceeds from glucose-1-phosphate to UDP-glucose, then UDP-glucose is converted into UDP-glucuronate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is directly before UDP-glucose in the pathway diagram?",
+      "options": [
+        "Glucose-1-phosphate",
+        "Fructose-1-phosphate",
+        "Lactate",
+        "Sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-1-phosphate reacts with UTP to form UDP-glucose through UDP-glucose pyrophosphorylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "The uronic acid pathway converts glucose derivatives into UDP-glucuronate for conjugation and GAG synthesis",
+        "The uronic acid pathway mainly produces ATP and lactate",
+        "The uronic acid pathway is the major source of vitamin C in humans",
+        "The uronic acid pathway occurs mainly in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the core function of the pathway: glucose is converted into activated glucuronate, which is used for structural and detoxification-related functions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-036",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired UDP-glucose dehydrogenase activity. Which product would be most directly decreased?",
+      "options": [
+        "UDP-glucuronate",
+        "Glucose-1-phosphate",
+        "UDP-glucose",
+        "Fructose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose dehydrogenase directly converts UDP-glucose into UDP-glucuronate. If this enzyme is impaired, activated glucuronate production decreases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-037",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Impaired UDP-glucuronate formation would most directly affect:",
+      "options": [
+        "Bilirubin and drug conjugation",
+        "Pyruvate oxidation",
+        "Lactate formation",
+        "Fructose phosphorylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate supplies glucuronic acid for glucuronidation. Reduced UDP-glucuronate availability would impair conjugation of bilirubin, steroid hormones, and drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-038",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in phosphoglucomutase would impair uronic acid pathway flux because:",
+      "options": [
+        "Glucose-6-phosphate could not efficiently become glucose-1-phosphate",
+        "UDP-glucose could not become UDP-glucuronate",
+        "Bilirubin could not bind albumin",
+        "L-gulonolactone oxidase would become overactive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase provides glucose-1-phosphate from glucose-6-phosphate. Without glucose-1-phosphate, UDP-glucose formation and later UDP-glucuronate synthesis are reduced.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-039",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in UDP-glucose pyrophosphorylase would most directly impair:",
+      "options": [
+        "UDP-glucose formation",
+        "UDP-glucuronate oxidation directly",
+        "CO₂ release from glucose",
+        "Ascorbic acid uptake from diet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose pyrophosphorylase catalyzes glucose-1-phosphate + UTP → UDP-glucose + PPi. Without UDP-glucose, UDP-glucuronate production would be limited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-040",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is it incorrect to say that humans can synthesize enough vitamin C through the uronic acid pathway?",
+      "options": [
+        "Humans lack L-gulonolactone oxidase",
+        "Humans lack UDP-glucose dehydrogenase completely",
+        "Humans cannot form glucuronic acid",
+        "Humans cannot absorb glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans can form UDP-glucuronate, but they cannot complete the ascorbic acid branch of the pathway because L-gulonolactone oxidase is absent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why glucuronidation supports excretion of steroid hormones and drugs?",
+      "options": [
+        "It attaches polar glucuronic acid, increasing water solubility",
+        "It converts them into glucose for glycolysis",
+        "It reduces them into fatty acids",
+        "It stores them as glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many steroid hormones and drugs are relatively less polar. Conjugation with glucuronic acid increases polarity and helps elimination through bile or urine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If UDP-glucuronate availability falls, which structural molecules may be affected?",
+      "options": [
+        "Glycosaminoglycans in proteoglycans",
+        "Hemoglobin chains",
+        "DNA bases only",
+        "Ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucuronate donates glucuronic acid for glycosaminoglycan synthesis. Reduced availability can affect proteoglycan-related structural carbohydrate synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pathway connection best explains why uronic acid metabolism is linked to pentose metabolism?",
+      "options": [
+        "D-xylulose derivatives from the pathway can enter HMP/PPP",
+        "UDP-glucuronate directly becomes ATP",
+        "Bilirubin conjugation produces ribose",
+        "Glycosaminoglycans are converted directly into NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file diagram shows conversion through xylulose/xylitol-related intermediates and connection to D-xylulose-5-phosphate, which can enter the HMP pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates the human uronic acid pathway from that of vitamin C-producing species?",
+      "options": [
+        "Humans can form glucuronate-related products but cannot complete ascorbate synthesis",
+        "Humans cannot form UDP-glucuronate at all",
+        "Humans synthesize more ascorbic acid than most animals",
+        "Humans use mitochondria instead of cytosol for the pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway still functions in humans for UDP-glucuronate formation, conjugation, and GAG synthesis. The missing part is ascorbic acid synthesis due to absence of L-gulonolactone oxidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-uronic-acid-pathway-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes the uronic acid pathway?",
+      "options": [
+        "It is a liver cytosolic glucose pathway producing UDP-glucuronate for conjugation and GAG synthesis, but it does not produce vitamin C in humans",
+        "It is a mitochondrial pathway producing ATP, lactate, and acetyl-CoA",
+        "It is mainly a fructose pathway producing DHAP and glyceraldehyde",
+        "It is the only pathway responsible for blood glucose regulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the complete high-yield summary. The uronic acid pathway occurs in liver cytosol, produces UDP-glucuronate, supports conjugation and glycosaminoglycan synthesis, connects to pentose metabolism, and cannot produce ascorbic acid in humans because L-gulonolactone oxidase is absent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
