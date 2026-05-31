@@ -183,6 +183,21 @@
       },
       "questionsCount": 180,
       "file": "data/bio-chemictry/glycolysis-pyruvate-metabolism.json"
+    },
+    {
+      "id": "krebs-cycle-tca-cycle",
+      "name": "Krebs Cycle / TCA Cycle",
+      "description": "",
+      "order": 1,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/krebs-cycle-tca-cycle.json"
     }
   ],
   "sections": [
