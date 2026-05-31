@@ -173,7 +173,7 @@
       "id": "glycolysis-pyruvate-metabolism",
       "name": "Glycolysis & Pyruvate Metabolism",
       "description": "",
-      "order": 0,
+      "order": 1,
       "section": "Carbohydrate",
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
