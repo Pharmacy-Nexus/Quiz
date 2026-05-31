@@ -243,6 +243,21 @@
       },
       "questionsCount": 140,
       "file": "data/bio-chemictry/hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp.json"
+    },
+    {
+      "id": "uronic-acid-pathway",
+      "name": "Uronic Acid Pathway",
+      "description": "",
+      "order": 5,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/uronic-acid-pathway.json"
     }
   ],
   "sections": [
