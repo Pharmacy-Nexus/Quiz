@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "krebs-cycle-tca-cycle",
   "topicName": "Krebs Cycle / TCA Cycle",
-  "updatedAt": "2026-05-31T22:07:44.370Z",
+  "updatedAt": "2026-05-31T22:16:57.772Z",
   "questions": [
     {
       "id": "bio-chemictry-krebs-cycle-tca-cycle-001",
@@ -680,6 +680,686 @@
       ],
       "correctAnswer": 0,
       "explanation": "The TCA cycle is catabolic because it oxidizes acetyl-CoA for energy. It is also anabolic because its intermediates are used to synthesize glucose, amino acids, fatty acids, cholesterol, and heme precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mitochondrial pathway produces 3 NADH, 1 FADH₂, 1 GTP, and 2 CO₂ per acetyl-CoA. Which pathway is described?",
+      "options": [
+        "TCA cycle",
+        "Glycolysis",
+        "Gluconeogenesis",
+        "Cori cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One turn of the TCA cycle oxidizes one acetyl-CoA and produces 3 NADH, 1 FADH₂, 1 GTP, and 2 CO₂. Most of the ATP yield comes later when NADH and FADH₂ are oxidized by the ETC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A researcher blocks citrate synthase. Which immediate reaction is prevented?",
+      "options": [
+        "Condensation of acetyl-CoA with oxaloacetate",
+        "Isomerization of citrate to isocitrate",
+        "Oxidation of succinate to fumarate",
+        "Hydration of fumarate to malate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate synthase catalyzes the first step of the cycle: acetyl-CoA + oxaloacetate → citrate. Blocking it prevents acetyl-CoA from entering the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in aconitase would most directly impair which conversion?",
+      "options": [
+        "Citrate to isocitrate",
+        "Isocitrate to α-ketoglutarate",
+        "Succinate to fumarate",
+        "Malate to oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aconitase performs isomerization of citrate into isocitrate. This rearrangement is needed before oxidative decarboxylation by isocitrate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired isocitrate dehydrogenase activity. Which products will decrease most directly?",
+      "options": [
+        "α-Ketoglutarate, NADH, and CO₂",
+        "Citrate, FADH₂, and GTP",
+        "Succinate, GTP, and CoA",
+        "Malate, FADH₂, and CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isocitrate dehydrogenase catalyzes irreversible oxidative decarboxylation of isocitrate. It forms α-ketoglutarate, the first NADH, and the first CO₂ of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired α-ketoglutarate dehydrogenase. Which products will decrease most directly?",
+      "options": [
+        "Succinyl-CoA, NADH, and CO₂",
+        "Fumarate, FADH₂, and CO₂",
+        "Citrate, NADH, and GTP",
+        "Oxaloacetate, FADH₂, and GTP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate dehydrogenase converts α-ketoglutarate into succinyl-CoA. It releases the second CO₂ and produces the second NADH of the cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug blocks succinyl-CoA synthetase. Which direct TCA product is most affected?",
+      "options": [
+        "GTP",
+        "NADH",
+        "FADH₂",
+        "CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA synthetase, also called succinate thiokinase, catalyzes the only substrate-level phosphorylation in TCA. It converts GDP to GTP while converting succinyl-CoA to succinate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A drug blocks succinate dehydrogenase. Which combination is most directly reduced?",
+      "options": [
+        "Fumarate and FADH₂",
+        "Citrate and NADH",
+        "Succinyl-CoA and GTP",
+        "Oxaloacetate and CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase oxidizes succinate to fumarate and reduces FAD to FADH₂. It is also Complex II of the ETC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in fumarase would most directly cause accumulation of:",
+      "options": [
+        "Fumarate",
+        "Malate",
+        "Oxaloacetate",
+        "α-Ketoglutarate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarase hydrates fumarate to malate. If fumarase is defective, fumarate accumulates upstream and malate formation decreases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in malate dehydrogenase would most directly reduce:",
+      "options": [
+        "Oxaloacetate and NADH formation",
+        "Fumarate and FADH₂ formation",
+        "Succinate and GTP formation",
+        "Citrate and CO₂ formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malate dehydrogenase oxidizes malate to oxaloacetate and produces the third NADH of the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which TCA enzyme is unique because it is embedded in the inner mitochondrial membrane?",
+      "options": [
+        "Succinate dehydrogenase",
+        "Citrate synthase",
+        "Isocitrate dehydrogenase",
+        "Malate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinate dehydrogenase is the only TCA enzyme embedded in the inner mitochondrial membrane. It also acts as Complex II of the electron transport chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-051",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says \"all TCA dehydrogenases are NAD-linked.\" What is the correction?",
+      "options": [
+        "Succinate dehydrogenase is FAD-linked",
+        "Isocitrate dehydrogenase is FAD-linked",
+        "Malate dehydrogenase is FAD-linked",
+        "α-Ketoglutarate dehydrogenase does not use coenzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most TCA dehydrogenases use NAD⁺, but succinate dehydrogenase is the exception. It uses FAD and produces FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-052",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says \"CO₂ is produced at every dehydrogenase step.\" What is the correction?",
+      "options": [
+        "CO₂ is produced only by isocitrate DH and α-ketoglutarate DH",
+        "CO₂ is produced by succinate DH and malate DH only",
+        "CO₂ is produced by fumarase only",
+        "CO₂ is produced only during substrate-level phosphorylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two CO₂ molecules are released during the two oxidative decarboxylation reactions: isocitrate to α-ketoglutarate and α-ketoglutarate to succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-053",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme pair is both irreversible and produces NADH?",
+      "options": [
+        "Isocitrate DH and α-ketoglutarate DH",
+        "Citrate synthase and aconitase",
+        "Succinate DH and fumarase",
+        "Succinate thiokinase and fumarase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both isocitrate dehydrogenase and α-ketoglutarate dehydrogenase are irreversible regulatory enzymes. They both produce NADH and release CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-054",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which irreversible TCA enzyme does not directly produce NADH?",
+      "options": [
+        "Citrate synthase",
+        "Isocitrate dehydrogenase",
+        "α-Ketoglutarate dehydrogenase",
+        "Malate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate synthase is irreversible and regulatory, but it does not produce NADH. It condenses acetyl-CoA with oxaloacetate to form citrate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-055",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If one acetyl-CoA completes one TCA turn, how many NADH molecules are formed?",
+      "options": [
+        "Three",
+        "Two",
+        "One",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH is formed at isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, and malate dehydrogenase. That gives three NADH per acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-056",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If two acetyl-CoA molecules complete the TCA cycle, how many NADH molecules are produced?",
+      "options": [
+        "Six",
+        "Three",
+        "Two",
+        "Twelve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each acetyl-CoA produces three NADH in one TCA turn. Two acetyl-CoA molecules therefore produce six NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-057",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If two acetyl-CoA molecules complete the TCA cycle, how many FADH₂ molecules are produced?",
+      "options": [
+        "Two",
+        "One",
+        "Four",
+        "Six"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each acetyl-CoA gives one FADH₂ at the succinate dehydrogenase step. Two acetyl-CoA molecules give two FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-058",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If two acetyl-CoA molecules complete the TCA cycle, how many GTP molecules are produced?",
+      "options": [
+        "Two",
+        "One",
+        "Four",
+        "Six"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each cycle turn produces one GTP at the succinyl-CoA synthetase step. Two turns produce two GTP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-059",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "According to the lecture’s ATP calculation, two turns of TCA produce:",
+      "options": [
+        "24 ATP equivalents",
+        "12 ATP equivalents",
+        "38 ATP equivalents",
+        "8 ATP equivalents"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One acetyl-CoA gives 12 ATP equivalents. Since one glucose gives two acetyl-CoA, TCA produces 24 ATP equivalents per glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-060",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "According to the lecture, complete aerobic oxidation of glucose gives 38 ATP. Which component contributes 24 ATP?",
+      "options": [
+        "TCA cycle oxidation of two acetyl-CoA",
+        "Glycolysis only",
+        "PDH only",
+        "Anaerobic lactate formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture divides 38 ATP as: glycolysis = 8 ATP, PDH = 6 ATP, and TCA = 24 ATP from two acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-061",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A thiamine deficiency would most directly impair which TCA-related enzyme complex?",
+      "options": [
+        "α-Ketoglutarate dehydrogenase",
+        "Succinate dehydrogenase",
+        "Fumarase",
+        "Citrate synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiamine is required as TPP for α-ketoglutarate dehydrogenase. This complex performs oxidative decarboxylation, similar to PDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-062",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Riboflavin deficiency would most directly impair which coenzyme-dependent reactions?",
+      "options": [
+        "FAD-dependent reactions including succinate DH and E3 of α-KG DH",
+        "NAD⁺-dependent reactions only",
+        "Biotin-dependent pyruvate carboxylation only",
+        "CoA-dependent reactions only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Riboflavin forms FAD. FAD is used by succinate dehydrogenase and by E3 of α-ketoglutarate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Niacin deficiency would most directly affect production of:",
+      "options": [
+        "NADH at isocitrate DH, α-KG DH, and malate DH",
+        "FADH₂ at succinate DH only",
+        "GTP at succinyl-CoA synthetase only",
+        "Citrate at citrate synthase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Niacin is needed for NAD⁺. NAD⁺ accepts electrons at three TCA dehydrogenase steps, forming NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-064",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Pantothenic acid deficiency would most directly affect formation or use of:",
+      "options": [
+        "Acetyl-CoA and succinyl-CoA",
+        "NADH only",
+        "FADH₂ only",
+        "Oxaloacetate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pantothenic acid is part of CoA. CoA is present in acetyl-CoA and succinyl-CoA, both of which are important acyl-group carriers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A high ATP and high NADH state would most likely:",
+      "options": [
+        "Inhibit citrate synthase, isocitrate DH, and α-KG DH",
+        "Activate all TCA regulatory enzymes",
+        "Increase acetyl-CoA oxidation strongly",
+        "Force oxaloacetate to become lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High ATP and NADH indicate high-energy status. The cycle slows by inhibiting major regulatory enzymes: citrate synthase, isocitrate dehydrogenase, and α-ketoglutarate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which condition best supports high TCA activity?",
+      "options": [
+        "Increased ATP demand with available acetyl-CoA and oxidized coenzymes",
+        "Very high ATP and very high NADH",
+        "Absence of oxygen",
+        "Lack of oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TCA activity increases when the cell needs ATP and when substrates/coenzymes are available. NAD⁺ and FAD must be regenerated by the ETC, which requires oxygen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the Pasteur effect, why does aerobic metabolism reduce glucose consumption?",
+      "options": [
+        "More ATP is produced, which inhibits glycolytic enzymes",
+        "Oxygen directly destroys glucose",
+        "TCA cycle converts glucose into glycogen directly",
+        "NADH activates hexokinase strongly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In aerobic conditions, cells produce much more ATP. This high ATP inhibits PFK-1 and pyruvate kinase, slowing glycolysis and reducing glucose consumption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the Pasteur effect, inhibition of PFK-1 most directly causes accumulation of:",
+      "options": [
+        "Fructose-6-phosphate",
+        "Pyruvate",
+        "Lactate",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 converts fructose-6-phosphate to fructose-1,6-bisphosphate. If PFK-1 is inhibited, F6P accumulates upstream.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the Pasteur effect, increased G6P causes decreased glucose uptake mainly by inhibiting:",
+      "options": [
+        "Hexokinase",
+        "Citrate synthase",
+        "Malate dehydrogenase",
+        "Succinate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Accumulated glucose-6-phosphate allosterically inhibits hexokinase. This reduces further phosphorylation and trapping of glucose inside the cell.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why TCA is described as a traffic circle rather than a closed circle?",
+      "options": [
+        "Intermediates can leave for biosynthesis and be refilled by anaplerotic reactions",
+        "TCA has no repeating intermediates",
+        "TCA only works once per cell",
+        "TCA occurs in the cytosol and mitochondria simultaneously"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TCA intermediates are not locked inside the cycle. They can exit to support biosynthesis, while anaplerotic reactions replenish them to maintain cycle function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell withdraws α-ketoglutarate for glutamate synthesis. What must happen to maintain TCA activity?",
+      "options": [
+        "Anaplerotic reactions must replenish cycle intermediates",
+        "Acetyl-CoA must become glucose directly",
+        "Succinate dehydrogenase must stop",
+        "Oxygen must directly convert citrate into α-ketoglutarate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Withdrawal of TCA intermediates for biosynthesis can slow the cycle unless intermediates are refilled. Anaplerotic reactions maintain the pool of TCA intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell withdraws oxaloacetate for gluconeogenesis. Which anaplerotic reaction is especially important?",
+      "options": [
+        "Pyruvate to oxaloacetate by pyruvate carboxylase",
+        "Acetyl-CoA to pyruvate by reverse PDH",
+        "Succinate to glucose by succinate dehydrogenase",
+        "Citrate to oxygen by citrate synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase replenishes oxaloacetate. This is essential when oxaloacetate is removed for gluconeogenesis or when more oxaloacetate is needed to combine with acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Acetyl-CoA accumulates during increased fatty acid oxidation. What is the expected effect on pyruvate metabolism?",
+      "options": [
+        "Activation of pyruvate carboxylase and inhibition of PDH",
+        "Inhibition of pyruvate carboxylase and activation of PDH",
+        "Direct conversion of acetyl-CoA to glucose",
+        "Complete inhibition of oxaloacetate formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA signals that enough acetyl-CoA is available. It diverts pyruvate toward oxaloacetate formation by activating pyruvate carboxylase and away from acetyl-CoA formation by inhibiting PDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why can acetyl-CoA not be used for net glucose synthesis?",
+      "options": [
+        "PDH is irreversible, so acetyl-CoA cannot be converted back to pyruvate",
+        "Acetyl-CoA directly becomes oxaloacetate",
+        "Acetyl-CoA contains too many carbons for glucose",
+        "Acetyl-CoA is converted directly to lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDH reaction is irreversible. Therefore, acetyl-CoA from fatty acids cannot return to pyruvate and cannot provide net carbon for glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which TCA intermediate withdrawal is correctly matched with product?",
+      "options": [
+        "Citrate → fatty acids and cholesterol",
+        "Succinyl-CoA → glucose directly without gluconeogenesis",
+        "Malate → heme directly",
+        "Fumarate → acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate can be exported and used for fatty acid and cholesterol synthesis. Succinyl-CoA supports heme synthesis, and oxaloacetate supports gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which intermediate-product pairing is correct?",
+      "options": [
+        "Succinyl-CoA → heme synthesis",
+        "Citrate → GABA directly",
+        "Fumarate → glucose directly without OAA",
+        "Oxaloacetate → fatty acids directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA is used for the porphyrin ring of heme. This is a classic anabolic use of a TCA intermediate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which intermediate-product pairing is correct?",
+      "options": [
+        "α-Ketoglutarate → glutamate",
+        "Succinate → citrate directly",
+        "Citrate → aspartate directly",
+        "Malate → acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate can be converted to glutamate by transamination or oxidative amination. Glutamate can then contribute to other amino acids and GABA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which intermediate-product pairing is correct?",
+      "options": [
+        "Oxaloacetate → aspartate",
+        "Citrate → succinyl-CoA directly",
+        "FADH₂ → glucose",
+        "GTP → acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate can undergo transamination to form aspartate. Aspartate contributes to synthesis of some amino acids and nucleotides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says \"TCA is only catabolic.\" What is the best correction?",
+      "options": [
+        "TCA is amphibolic because it oxidizes fuels and supplies biosynthetic intermediates",
+        "TCA is only anabolic and produces no ATP",
+        "TCA is unrelated to amino acid metabolism",
+        "TCA occurs only during anaerobic glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TCA is catabolic because it oxidizes acetyl-CoA and generates energy. It is anabolic because intermediates support synthesis of glucose, amino acids, heme, fatty acids, and cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-krebs-cycle-tca-cycle-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "TCA requires mitochondrial function and oxygen-dependent ETC activity, oxidizes acetyl-CoA, produces reduced coenzymes and GTP, and also supplies biosynthetic precursors",
+        "TCA occurs fully in cytosol, directly uses oxygen in every step, and produces lactate as its main product",
+        "TCA is a simple closed circle with no intermediates leaving or entering",
+        "TCA produces glucose directly from acetyl-CoA by reversing PDH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full logic of the topic. TCA is mitochondrial and depends on oxygen indirectly through the ETC. It produces NADH, FADH₂, GTP, and CO₂ while also supplying intermediates for anabolic pathways.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
