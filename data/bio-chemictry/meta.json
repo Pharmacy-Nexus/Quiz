@@ -237,11 +237,11 @@
       "section": "Carbohydrate",
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 35,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 35,
       "file": "data/bio-chemictry/hexose-monophosphate-shunt-pentose-phosphate-pathway-ppp.json"
     }
   ],
@@ -277,5 +277,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T23:01:48.286Z"
+  "updatedAt": "2026-05-31T23:05:20.294Z"
 }
