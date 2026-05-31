@@ -2,6 +2,1367 @@
   "subjectId": "bio-chemictry",
   "topicId": "fructose-metabolism-polyol-pathway",
   "topicName": "Fructose Metabolism + Polyol Pathway",
-  "updatedAt": "2026-05-31T23:40:07.613Z",
-  "questions": []
+  "updatedAt": "2026-05-31T23:40:46.141Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The major dietary source of fructose is:",
+      "options": [
+        "Sucrose",
+        "Lactose",
+        "Glycogen",
+        "Starch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sucrose is a major dietary source of fructose. Intestinal sucrase hydrolyzes sucrose into glucose and fructose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Free fructose is naturally found in:",
+      "options": [
+        "Fruits and honey",
+        "Meat and eggs",
+        "Fish and milk proteins",
+        "Glycogen granules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that free fructose is found in many fruits and in honey.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose entry into cells is:",
+      "options": [
+        "Insulin independent",
+        "Completely insulin dependent",
+        "Dependent on glucagon only",
+        "Dependent on glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unlike glucose uptake in some tissues, fructose entry into cells does not require insulin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose does not significantly promote secretion of:",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Cortisol",
+        "Epinephrine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that fructose does not promote insulin secretion, unlike glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The primary enzyme phosphorylating fructose in liver is:",
+      "options": [
+        "Fructokinase",
+        "Hexokinase",
+        "Galactokinase",
+        "Glucokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructokinase is the primary enzyme for fructose phosphorylation. It converts fructose into fructose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructokinase converts fructose into:",
+      "options": [
+        "Fructose-1-phosphate",
+        "Fructose-6-phosphate",
+        "Glucose-6-phosphate",
+        "Galactose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructokinase uses ATP to phosphorylate fructose at carbon 1, forming fructose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructokinase is found mainly in:",
+      "options": [
+        "Liver, kidney, and small intestinal mucosa",
+        "Red blood cells only",
+        "Brain only",
+        "Skeletal muscle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that fructokinase is found in liver, kidney, and small intestinal mucosa.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The minor pathway of fructose phosphorylation is catalyzed by:",
+      "options": [
+        "Hexokinase",
+        "Fructokinase",
+        "Aldolase B",
+        "Sorbitol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexokinase can phosphorylate fructose to fructose-6-phosphate, but this is a minor mechanism because hexokinase has low affinity for fructose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hexokinase converts fructose into:",
+      "options": [
+        "Fructose-6-phosphate",
+        "Fructose-1-phosphate",
+        "DHAP",
+        "Sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The minor hexokinase pathway converts fructose to fructose-6-phosphate, which can enter glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hexokinase phosphorylates little fructose because:",
+      "options": [
+        "It has low affinity for fructose and is usually saturated by glucose",
+        "It has high affinity for fructose only",
+        "It is absent from all tissues",
+        "It converts fructose to sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexokinase normally works on glucose. Because glucose concentrations saturate the enzyme and hexokinase has low affinity for fructose, little fructose follows this route.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose-1-phosphate is cleaved by:",
+      "options": [
+        "Aldolase B",
+        "Aldolase A",
+        "Lactase",
+        "GALT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase B cleaves fructose-1-phosphate into glyceraldehyde and DHAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Aldolase B cleaves fructose-1-phosphate into:",
+      "options": [
+        "Glyceraldehyde and DHAP",
+        "Glucose and galactose",
+        "Lactate and pyruvate",
+        "Sorbitol and glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main products of fructose-1-phosphate cleavage are glyceraldehyde and dihydroxyacetone phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "DHAP produced from fructose metabolism can enter:",
+      "options": [
+        "Glycolysis or gluconeogenesis",
+        "Urea cycle only",
+        "Heme degradation only",
+        "Ketone body synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHAP is a glycolytic/gluconeogenic intermediate, so it can move into either pathway depending on metabolic state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glyceraldehyde is phosphorylated to glyceraldehyde-3-phosphate by:",
+      "options": [
+        "Triose kinase",
+        "Fructokinase",
+        "Aldose reductase",
+        "Sorbitol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glyceraldehyde is phosphorylated by triose kinase using ATP to form glyceraldehyde-3-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glyceraldehyde-3-phosphate from fructose metabolism can enter:",
+      "options": [
+        "Glycolysis or gluconeogenesis",
+        "Glycogen breakdown only",
+        "Uronic acid pathway only",
+        "Heme synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GAP is a central three-carbon intermediate that can enter glycolysis or gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glyceraldehyde can be reduced to glycerol by:",
+      "options": [
+        "Alcohol dehydrogenase",
+        "Fructokinase",
+        "Aldolase B",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway diagram shows glyceraldehyde can be reduced to glycerol by alcohol dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycerol can be phosphorylated by:",
+      "options": [
+        "Glycerol kinase",
+        "Fructokinase",
+        "Aldolase B",
+        "Hexokinase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerol kinase converts glycerol to glycerol phosphate, which can contribute to phospholipid or triacylglycerol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose is converted to sorbitol in the polyol pathway by:",
+      "options": [
+        "Aldose reductase",
+        "Sorbitol dehydrogenase",
+        "Fructokinase",
+        "Aldolase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the polyol pathway, aldose reductase reduces glucose to sorbitol using NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Sorbitol is converted to fructose by:",
+      "options": [
+        "Sorbitol dehydrogenase",
+        "Aldose reductase",
+        "Triose kinase",
+        "Fructokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase oxidizes sorbitol to fructose using NAD⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose is the major energy source for:",
+      "options": [
+        "Sperm",
+        "Mature RBCs only",
+        "Liver mitochondria only",
+        "Bone marrow only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The polyol pathway slide states that fructose is the major energy source for sperm, especially related to seminal vesicle metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes the main fructose metabolic pathway?",
+      "options": [
+        "Fructose → fructose-1-P → glyceraldehyde + DHAP",
+        "Fructose → sorbitol → glucose → glycogen",
+        "Fructose → galactose-1-P → UDP-galactose",
+        "Fructose → UDP-glucuronate → bilirubin conjugate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The major pathway uses fructokinase to form fructose-1-phosphate, then aldolase B cleaves it into glyceraldehyde and DHAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme pair correctly matches fructose metabolism?",
+      "options": [
+        "Fructokinase forms fructose-1-P; aldolase B cleaves fructose-1-P",
+        "Galactokinase forms fructose-1-P; GALT cleaves fructose-1-P",
+        "Aldose reductase forms fructose-1-P; fructokinase forms DHAP",
+        "Sorbitol dehydrogenase forms DHAP directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructokinase and aldolase B are the major enzymes in hepatic fructose metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissues contain both fructokinase and aldolase B?",
+      "options": [
+        "Liver, kidney, and small intestinal mucosa",
+        "RBCs, brain, and lens",
+        "Skeletal muscle only",
+        "Adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that fructokinase is found in liver, kidney, and small intestinal mucosa, and these tissues also contain aldolase B.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is fructose metabolism faster than glucose metabolism?",
+      "options": [
+        "It bypasses glucokinase and PFK-1",
+        "It requires insulin secretion first",
+        "It must pass through glycogen first",
+        "It is blocked by aldolase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose metabolism enters glycolytic pathways below important glucose control steps, especially glucokinase and PFK-1, so it can proceed rapidly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glycolytic rate-limiting enzyme is bypassed by fructose metabolism?",
+      "options": [
+        "PFK-1",
+        "Enolase",
+        "Lactate dehydrogenase",
+        "Phosphoglucomutase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose metabolism forms triose phosphates downstream of PFK-1, bypassing this major regulatory point.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fructose may be better utilized than glucose in diabetic patients because:",
+      "options": [
+        "Fructokinase is not insulin-dependent",
+        "Fructose requires insulin for cell entry",
+        "Fructose stimulates more insulin than glucose",
+        "Fructose cannot enter cells without glucagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that fructokinase is not dependent on insulin, so fructose can be utilized even when insulin action is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can high-fructose intake be harmful in diabetic patients?",
+      "options": [
+        "Rapid fructose metabolism increases fatty acid synthesis, triglycerides, and LDL",
+        "Fructose cannot be absorbed",
+        "Fructose directly lowers all lipid levels",
+        "Fructose blocks all glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Although fructose utilization is insulin-independent, rapid metabolism can drive lipogenesis, increasing serum triglycerides and LDL cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of fructose metabolism can contribute to triacylglycerol synthesis?",
+      "options": [
+        "Glycerol phosphate",
+        "UDP-glucuronate",
+        "Galactose-1-phosphate",
+        "Ribulose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glyceraldehyde can be converted to glycerol, then glycerol phosphate. Glycerol phosphate is a backbone for phospholipids and triacylglycerols.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fructose-derived intermediate can directly enter glycolysis?",
+      "options": [
+        "DHAP",
+        "UDP-galactose",
+        "Sorbitol only",
+        "Glucose-1-phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHAP is directly part of glycolysis/gluconeogenesis and can be converted to GAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fructose-derived intermediate must be phosphorylated before entering glycolysis as GAP?",
+      "options": [
+        "Glyceraldehyde",
+        "DHAP",
+        "Fructose-1-phosphate",
+        "Sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glyceraldehyde must be phosphorylated by triose kinase to glyceraldehyde-3-phosphate before entering glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why hexokinase is only a minor route for fructose?",
+      "options": [
+        "Hexokinase has low affinity for fructose and is normally saturated by glucose",
+        "Hexokinase has no activity toward glucose",
+        "Hexokinase converts fructose to sorbitol",
+        "Hexokinase requires aldolase B first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Although hexokinase can phosphorylate fructose to F6P, this route is minor because glucose competitively dominates normal hexokinase activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares fructokinase and hexokinase in fructose metabolism?",
+      "options": [
+        "Fructokinase is the primary route to F1P; hexokinase is a minor route to F6P",
+        "Hexokinase is the primary route to F1P; fructokinase is a minor route to F6P",
+        "Both produce sorbitol",
+        "Both cleave F1P to DHAP and glyceraldehyde"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructokinase dominates fructose phosphorylation in liver, kidney, and small intestinal mucosa. Hexokinase plays only a minor role.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the polyol pathway?",
+      "options": [
+        "Glucose is converted to fructose via sorbitol",
+        "Fructose is converted to galactose via lactose",
+        "Glucose is converted to UDP-glucuronate only",
+        "Sorbitol is converted to glycogen directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The polyol pathway converts glucose to sorbitol by aldose reductase, then sorbitol to fructose by sorbitol dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aldose reductase uses which cofactor?",
+      "options": [
+        "NADPH",
+        "NAD⁺",
+        "FAD",
+        "CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase reduces glucose to sorbitol using NADPH, producing NADP⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol dehydrogenase uses which cofactor?",
+      "options": [
+        "NAD⁺",
+        "NADPH",
+        "FADH₂",
+        "ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase oxidizes sorbitol to fructose using NAD⁺, producing NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol dehydrogenase is present in:",
+      "options": [
+        "Seminal vesicles",
+        "Lens, retina, kidney, and nerves",
+        "Mature RBCs only",
+        "Adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that sorbitol dehydrogenase is present in seminal vesicles and absent in lens, retina, kidney, and nerves.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol dehydrogenase is absent in:",
+      "options": [
+        "Lens, retina, kidney, and nerves",
+        "Seminal vesicles only",
+        "Liver only",
+        "Small intestinal mucosa only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These tissues cannot efficiently convert sorbitol to fructose, so sorbitol can accumulate under hyperglycemic conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does sorbitol accumulate in lens, retina, kidney, and nerves during hyperglycemia?",
+      "options": [
+        "Glucose enters these cells without insulin, and sorbitol dehydrogenase is absent",
+        "These cells cannot take up glucose",
+        "Sorbitol easily leaves these cells",
+        "Fructokinase converts sorbitol to fructose rapidly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In hyperglycemia, large amounts of glucose enter these cells. Aldose reductase converts glucose to sorbitol, but sorbitol dehydrogenase is absent, so sorbitol accumulates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol accumulation causes cellular injury mainly by:",
+      "options": [
+        "Osmotic water retention and swelling",
+        "Direct ATP production",
+        "Increased DNA synthesis",
+        "Increased insulin secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol does not pass efficiently through cell membranes and remains trapped. It creates osmotic pressure, causing water retention and swelling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol accumulation in the lens can cause:",
+      "options": [
+        "Cataract",
+        "Hepatitis",
+        "Hemolysis",
+        "Ketosis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In uncontrolled diabetes, sorbitol accumulation in the lens causes osmotic damage and contributes to cataract formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol accumulation in the retina can cause:",
+      "options": [
+        "Retinopathy",
+        "Glycogen storage disease",
+        "Lactose intolerance",
+        "Jaundice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol accumulation in retinal cells contributes to diabetic retinopathy through osmotic and oxidative stress-related injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol accumulation in kidney cells can cause:",
+      "options": [
+        "Nephropathy",
+        "Cataract only",
+        "Neuropathy only",
+        "Hyperinsulinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists nephropathy as a major complication of uncontrolled diabetes linked to sorbitol accumulation in kidney cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sorbitol accumulation in peripheral nerves can cause:",
+      "options": [
+        "Peripheral neuropathy",
+        "Cataract only",
+        "Retinopathy only",
+        "Lactose synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol accumulation in Schwann cells/peripheral nerves causes osmotic injury and contributes to diabetic neuropathy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best links diabetes to polyol pathway damage?",
+      "options": [
+        "Hyperglycemia increases intracellular glucose in insulin-independent tissues, increasing sorbitol formation",
+        "Hypoglycemia increases sorbitol formation in liver only",
+        "Insulin blocks glucose entry into lens and retina",
+        "Sorbitol dehydrogenase is overactive in lens"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lens, retina, kidney, and nerves take up glucose without insulin. In uncontrolled diabetes, excess intracellular glucose is converted to sorbitol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is responsible for sorbitol formation from glucose?",
+      "options": [
+        "Aldose reductase",
+        "Sorbitol dehydrogenase",
+        "Fructokinase",
+        "Triose kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase catalyzes the reduction of glucose to sorbitol using NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme would prevent sorbitol accumulation if present in lens, retina, kidney, and nerves?",
+      "options": [
+        "Sorbitol dehydrogenase",
+        "Aldose reductase",
+        "Fructokinase",
+        "Galactokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase converts sorbitol to fructose. Its absence in these tissues explains why sorbitol accumulates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why seminal vesicles use the polyol pathway physiologically?",
+      "options": [
+        "They convert glucose to fructose, the major energy source for sperm",
+        "They accumulate sorbitol to cause osmotic swelling",
+        "They convert fructose to glycogen",
+        "They prevent sperm from using energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In seminal vesicles, sorbitol dehydrogenase is present, allowing conversion of sorbitol to fructose. Fructose supports sperm energy metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fructose and glucose metabolism?",
+      "options": [
+        "Fructose bypasses glucokinase and PFK-1, so its metabolism can be faster",
+        "Fructose must pass through PFK-1 before forming triose phosphates",
+        "Glucose bypasses all regulatory steps more than fructose",
+        "Fructose cannot enter glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose forms triose phosphates downstream of important glucose regulatory steps. This explains its rapid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why high fructose intake may increase serum triglycerides?",
+      "options": [
+        "Rapid triose phosphate formation provides substrate for fatty acid/TG synthesis",
+        "Fructose blocks lipogenesis completely",
+        "Fructose prevents glycerol phosphate formation",
+        "Fructose cannot enter liver cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose metabolism can rapidly provide DHAP, GAP, and glycerol phosphate-related intermediates, promoting fatty acid and triacylglycerol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which metabolic consequence is linked to high fructose diet in the file?",
+      "options": [
+        "Increased serum triglycerides and LDL cholesterol",
+        "Decreased LDL cholesterol always",
+        "Complete prevention of atherosclerosis",
+        "Reduced fatty acid synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that high-fructose diet can be deleterious because it increases fatty acid synthesis, serum triglycerides, and LDL cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes fructose use in diabetic patients?",
+      "options": [
+        "Fructose can be utilized without insulin, but high intake may worsen lipid profile",
+        "Fructose cannot enter cells unless insulin is high",
+        "Fructose strongly stimulates insulin secretion",
+        "Fructose prevents triglyceride formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose utilization is insulin independent, which may appear useful in diabetes. However, high fructose intake promotes lipogenesis and may worsen triglycerides and LDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme cleaves fructose-1-phosphate but is also important in hereditary fructose intolerance contexts?",
+      "options": [
+        "Aldolase B",
+        "Aldose reductase",
+        "Sorbitol dehydrogenase",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase B cleaves fructose-1-phosphate into glyceraldehyde and DHAP. It is the key fructose-cleaving enzyme in liver-type fructose metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glyceraldehyde fates after fructose-1-phosphate cleavage?",
+      "options": [
+        "It can become GAP by triose kinase or glycerol by alcohol dehydrogenase",
+        "It can only become lactate directly",
+        "It can only become UDP-glucose",
+        "It can only become galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file shows glyceraldehyde can be phosphorylated to GAP or reduced to glycerol. These routes connect fructose metabolism to glycolysis/gluconeogenesis and lipid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes DHAP fate after fructose-1-phosphate cleavage?",
+      "options": [
+        "It directly enters glycolysis or gluconeogenesis",
+        "It must first become UDP-glucose",
+        "It becomes sorbitol by aldose reductase",
+        "It cannot be metabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHAP is already an intermediate shared by glycolysis and gluconeogenesis, so it can enter either pathway directly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why fructose metabolism can drive lipogenesis?",
+      "options": [
+        "It rapidly generates triose phosphates and glycerol phosphate precursors downstream of PFK-1",
+        "It is blocked at PFK-1",
+        "It cannot form acetyl-CoA or glycerol precursors",
+        "It only produces UDP-galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By bypassing PFK-1, fructose can rapidly produce intermediates that contribute to acetyl-CoA and glycerol phosphate, supporting fatty acid and triacylglycerol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the polyol pathway, which reaction consumes NADPH?",
+      "options": [
+        "Glucose → sorbitol",
+        "Sorbitol → fructose",
+        "Fructose → fructose-1-phosphate",
+        "Glyceraldehyde → GAP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase uses NADPH to reduce glucose into sorbitol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the polyol pathway, which reaction produces NADH?",
+      "options": [
+        "Sorbitol → fructose",
+        "Glucose → sorbitol",
+        "Fructose → fructose-1-phosphate",
+        "Fructose-1-phosphate → DHAP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase uses NAD⁺ and produces NADH while oxidizing sorbitol to fructose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissues are vulnerable to hyperglycemia-induced sorbitol accumulation?",
+      "options": [
+        "Lens, retina, kidney, and peripheral nerves",
+        "Seminal vesicles only",
+        "Liver only",
+        "Small intestinal mucosa only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These tissues take up glucose without insulin and lack sorbitol dehydrogenase, causing sorbitol accumulation in hyperglycemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which diabetic complication is matched correctly with the affected tissue?",
+      "options": [
+        "Lens — cataract",
+        "Retina — nephropathy",
+        "Kidney — cataract",
+        "Peripheral nerves — retinopathy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file specifically links excess glucose/sorbitol in the lens to cataract formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes fructose and polyol metabolism?",
+      "options": [
+        "Fructose enters mainly through fructokinase/aldolase B, while glucose can form fructose through sorbitol in the polyol pathway",
+        "Fructose metabolism requires insulin and stops in diabetes",
+        "Polyol pathway occurs only in RBCs",
+        "Sorbitol accumulation is protective in lens and nerves"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose metabolism and polyol metabolism are linked but distinct. Dietary fructose is mainly metabolized by fructokinase and aldolase B, while the polyol pathway converts glucose to sorbitol and then fructose in tissues with sorbitol dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-061",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A diabetic patient has hyperglycemia with lens damage. Which pathway best explains the complication?",
+      "options": [
+        "Polyol pathway causing sorbitol accumulation",
+        "Galactose metabolism producing UDP-galactose",
+        "Uronic acid pathway producing UDP-glucuronate",
+        "TCA cycle producing citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In uncontrolled diabetes, excess glucose enters the lens independently of insulin. Aldose reductase converts glucose to sorbitol, but sorbitol dehydrogenase is absent, so sorbitol accumulates and causes osmotic damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-062",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tissue has aldose reductase but lacks sorbitol dehydrogenase. What happens during hyperglycemia?",
+      "options": [
+        "Sorbitol accumulates and causes osmotic swelling",
+        "Fructose is rapidly produced and exported",
+        "Glucose uptake stops completely",
+        "Sorbitol is converted to glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase forms sorbitol from glucose. Without sorbitol dehydrogenase, sorbitol cannot be efficiently converted to fructose, so it remains trapped and draws water into cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which tissue is physiologically suited to convert sorbitol into fructose for sperm energy?",
+      "options": [
+        "Seminal vesicles",
+        "Lens",
+        "Retina",
+        "Peripheral nerves"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase is present in seminal vesicles, allowing fructose production. Fructose is the major energy source for sperm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-064",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has uncontrolled diabetes and develops peripheral neuropathy. Which mechanism is most consistent with the file?",
+      "options": [
+        "Sorbitol accumulation in peripheral nerve Schwann cells causes osmotic injury",
+        "Fructokinase directly damages nerves",
+        "Insulin causes excessive sorbitol export",
+        "Sorbitol dehydrogenase overactivity removes all sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peripheral nerves take up glucose without insulin. In hyperglycemia, sorbitol accumulates because sorbitol dehydrogenase is absent, causing osmotic water retention and nerve injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why fructose metabolism bypassing PFK-1 matters clinically?",
+      "options": [
+        "It can rapidly provide substrates for lipogenesis without normal glycolytic rate control",
+        "It prevents all fatty acid synthesis",
+        "It makes fructose metabolism slower than glucose metabolism",
+        "It forces fructose to be stored only as glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 is a major regulatory enzyme of glycolysis. Fructose metabolism bypasses this step, allowing rapid triose phosphate formation and increased lipid synthesis when intake is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A high-fructose diet increases serum triglycerides. Which pathway event best explains this?",
+      "options": [
+        "Fructose rapidly forms DHAP and glyceraldehyde-derived intermediates",
+        "Fructose is completely blocked at glucokinase",
+        "Fructose cannot enter liver cells",
+        "Fructose directly inhibits lipogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DHAP and glyceraldehyde/GAP can supply carbon for acetyl-CoA and glycerol phosphate formation, both of which support triacylglycerol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best corrects: \"Fructose is always safer than glucose in diabetes\"?",
+      "options": [
+        "Fructose is insulin-independent, but high intake can increase fatty acid synthesis, TG, and LDL",
+        "Fructose cannot be metabolized in diabetics",
+        "Fructose strongly stimulates insulin secretion",
+        "Fructose prevents atherosclerosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file explicitly notes the paradox: fructose may be better utilized without insulin, but excessive fructose can be deleterious by worsening lipid parameters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would most directly impair cleavage of fructose-1-phosphate?",
+      "options": [
+        "Aldolase B",
+        "Fructokinase",
+        "Triose kinase",
+        "Aldose reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase B is responsible for splitting fructose-1-phosphate into glyceraldehyde and DHAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would most directly impair conversion of fructose to fructose-1-phosphate?",
+      "options": [
+        "Fructokinase",
+        "Aldolase B",
+        "Triose kinase",
+        "Alcohol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructokinase catalyzes the primary phosphorylation of fructose to fructose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would most directly impair conversion of glyceraldehyde to GAP?",
+      "options": [
+        "Triose kinase",
+        "Aldolase B",
+        "Fructokinase",
+        "Sorbitol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triose kinase phosphorylates glyceraldehyde to glyceraldehyde-3-phosphate, allowing it to enter glycolysis or gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would impair conversion of glucose to sorbitol?",
+      "options": [
+        "Aldose reductase",
+        "Sorbitol dehydrogenase",
+        "Fructokinase",
+        "Glycerol kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase is the enzyme that reduces glucose to sorbitol using NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would impair conversion of sorbitol to fructose?",
+      "options": [
+        "Sorbitol dehydrogenase",
+        "Aldose reductase",
+        "Fructokinase",
+        "Aldolase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sorbitol dehydrogenase converts sorbitol to fructose. Its absence in certain tissues explains diabetic sorbitol complications.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which cofactor pattern correctly describes the polyol pathway?",
+      "options": [
+        "Aldose reductase uses NADPH; sorbitol dehydrogenase uses NAD⁺",
+        "Aldose reductase uses NAD⁺; sorbitol dehydrogenase uses NADPH",
+        "Both enzymes use ATP",
+        "Both enzymes use UTP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This cofactor distinction is high yield. Glucose-to-sorbitol consumes NADPH, while sorbitol-to-fructose uses NAD⁺ and forms NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence is correct for polyol pathway?",
+      "options": [
+        "Glucose → sorbitol → fructose",
+        "Fructose → sorbitol → glucose",
+        "Glucose → fructose-1-P → sorbitol",
+        "Sorbitol → glucose-6-P → fructose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The polyol pathway converts glucose to sorbitol by aldose reductase, then sorbitol to fructose by sorbitol dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence is correct for major fructose metabolism?",
+      "options": [
+        "Fructose → fructose-1-P → glyceraldehyde + DHAP → GAP/glycolysis or lipid precursors",
+        "Fructose → galactose-1-P → UDP-galactose",
+        "Fructose → UDP-glucuronate → bilirubin conjugate",
+        "Fructose → sorbitol only → glucose only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the core fructose pathway. It explains how fructose contributes to energy metabolism and why excess fructose can support lipogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why hyperglycemia damages lens, retina, kidney, and nerves but seminal vesicles can complete fructose production?",
+      "options": [
+        "Sorbitol dehydrogenase is absent in those vulnerable tissues but present in seminal vesicles",
+        "Aldose reductase is absent in lens and retina",
+        "Glucose cannot enter lens or nerves",
+        "Seminal vesicles lack sorbitol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file contrasts these tissues clearly. Seminal vesicles have sorbitol dehydrogenase and make fructose, while lens, retina, kidney, and nerves lack it and accumulate sorbitol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which diabetic complication pairing is correct?",
+      "options": [
+        "Lens cataract, retina retinopathy, kidney nephropathy, peripheral nerves neuropathy",
+        "Lens nephropathy, retina cataract, kidney neuropathy",
+        "Lens retinopathy, retina nephropathy, kidney cataract",
+        "All tissues cause only cataract"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists these complications directly as effects of excess glucose/sorbitol accumulation in specific tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best links aldose reductase activity to oxidative stress risk?",
+      "options": [
+        "Aldose reductase consumes NADPH, which may reduce NADPH availability for antioxidant defense",
+        "Aldose reductase produces NADPH from glucose",
+        "Aldose reductase produces ATP directly",
+        "Aldose reductase prevents sorbitol formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldose reductase uses NADPH to reduce glucose to sorbitol. In hyperglycemia, increased flux through this reaction can consume NADPH, potentially compromising other NADPH-dependent protective systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best compares fructose metabolism with glucose metabolism?",
+      "options": [
+        "Fructose enters downstream of major glycolytic control and is insulin-independent, while glucose metabolism is more tightly regulated by GK/PFK-1 and insulin-sensitive uptake in some tissues",
+        "Fructose requires more insulin than glucose",
+        "Glucose bypasses PFK-1 more than fructose",
+        "Fructose cannot contribute to lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This captures the key metabolic distinction: fructose can be rapidly metabolized because it avoids some important glucose control steps and does not depend on insulin for entry.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fructose-metabolism-polyol-pathway-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes fructose and polyol pathway clinical relevance?",
+      "options": [
+        "Fructose is insulin-independent and rapidly metabolized to triose phosphates, but excess fructose promotes lipogenesis; hyperglycemia drives sorbitol accumulation in vulnerable tissues causing diabetic complications",
+        "Fructose requires insulin and protects against diabetic complications",
+        "Sorbitol freely exits all tissues, so it has no osmotic effect",
+        "High fructose intake always lowers triglycerides and LDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the complete high-yield summary. Fructose has insulin-independent metabolism and enters as triose phosphates, but high intake can worsen lipids. In diabetes, excess glucose enters insulin-independent tissues and is converted to trapped sorbitol, causing cataract, retinopathy, nephropathy, and neuropathy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
