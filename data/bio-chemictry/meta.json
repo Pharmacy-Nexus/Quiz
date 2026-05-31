@@ -282,11 +282,11 @@
       "section": "Carbohydrate",
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 20,
+        "medium": 40,
+        "hard": 20
       },
-      "questionsCount": 0,
+      "questionsCount": 80,
       "file": "data/bio-chemictry/fructose-metabolism-polyol-pathway.json"
     }
   ],
@@ -322,5 +322,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T23:40:19.481Z"
+  "updatedAt": "2026-05-31T23:40:47.961Z"
 }
