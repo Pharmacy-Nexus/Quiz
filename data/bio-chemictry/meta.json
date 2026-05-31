@@ -198,6 +198,21 @@
       },
       "questionsCount": 160,
       "file": "data/bio-chemictry/krebs-cycle-tca-cycle.json"
+    },
+    {
+      "id": "gluconeogenesis",
+      "name": "Gluconeogenesis",
+      "description": "",
+      "order": 2,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/gluconeogenesis.json"
     }
   ],
   "sections": [
