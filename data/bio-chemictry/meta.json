@@ -168,6 +168,21 @@
       },
       "questionsCount": 170,
       "file": "data/bio-chemictry/bioenergetics-oxidative-phosphorylation.json"
+    },
+    {
+      "id": "glycolysis-pyruvate-metabolism",
+      "name": "Glycolysis & Pyruvate Metabolism",
+      "description": "",
+      "order": 0,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/glycolysis-pyruvate-metabolism.json"
     }
   ],
   "sections": [
@@ -199,7 +214,7 @@
       "id": "carbohydrate",
       "name": "Carbohydrate",
       "description": "",
-      "order": 0
+      "order": 5
     }
   ],
   "updatedAt": "2026-05-29T22:34:47.762Z"
