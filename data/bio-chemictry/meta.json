@@ -209,9 +209,9 @@
       "difficultyBreakdown": {
         "easy": 35,
         "medium": 75,
-        "hard": 0
+        "hard": 40
       },
-      "questionsCount": 110,
+      "questionsCount": 150,
       "file": "data/bio-chemictry/gluconeogenesis.json"
     }
   ],
@@ -247,5 +247,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:27:47.149Z"
+  "updatedAt": "2026-05-31T22:31:44.708Z"
 }
