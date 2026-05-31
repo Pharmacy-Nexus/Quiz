@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "gluconeogenesis",
   "topicName": "Gluconeogenesis",
-  "updatedAt": "2026-05-31T22:23:43.740Z",
+  "updatedAt": "2026-05-31T22:27:40.250Z",
   "questions": [
     {
       "id": "bio-chemictry-gluconeogenesis-001",
@@ -595,6 +595,1281 @@
       ],
       "correctAnswer": 0,
       "explanation": "The lecture states that synthesis of one glucose molecule from two pyruvate molecules consumes 4 ATP and 2 GTP, equivalent to 6 ATP, and requires 2 NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Gluconeogenesis mainly becomes important during:",
+      "options": [
+        "Fasting and starvation",
+        "Immediately after a high-carbohydrate meal only",
+        "Complete absence of liver function",
+        "DNA replication only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis maintains blood glucose when dietary glucose is unavailable. During fasting and starvation, the body uses non-carbohydrate precursors such as lactate, glycerol, and glucogenic amino acids to synthesize glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are liver and kidney the major gluconeogenic tissues?",
+      "options": [
+        "They contain the necessary enzymes for glucose production and release",
+        "They lack mitochondria",
+        "They cannot use lactate",
+        "They do not contain glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver and kidney contain key gluconeogenic enzymes, including glucose-6-phosphatase, which allows them to release free glucose into blood. Many other tissues can form glucose-6-phosphate but cannot release free glucose efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue depends strongly on blood glucose because it lacks mitochondria?",
+      "options": [
+        "Red blood cells",
+        "Liver",
+        "Kidney cortex",
+        "Adipose tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RBCs lack mitochondria, so they depend on glycolysis for ATP. They need a continuous glucose supply and produce lactate, which can return to the liver for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why gluconeogenesis cannot be a simple reversal of glycolysis?",
+      "options": [
+        "Some glycolytic reactions are irreversible and must be bypassed",
+        "All glycolytic reactions are reversible",
+        "Gluconeogenesis happens only in RBCs",
+        "Gluconeogenesis does not require energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The irreversible glycolytic steps catalyzed by hexokinase/glucokinase, PFK-1, and pyruvate kinase cannot simply run backward. Gluconeogenesis uses different enzymes to bypass these steps.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair correctly matches an irreversible glycolytic enzyme with its gluconeogenic bypass?",
+      "options": [
+        "PFK-1 — fructose-1,6-bisphosphatase",
+        "Enolase — glucose-6-phosphatase",
+        "Aldolase — pyruvate carboxylase",
+        "GAP dehydrogenase — PEPCK"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 converts fructose-6-phosphate to fructose-1,6-bisphosphate in glycolysis. The gluconeogenic bypass is fructose-1,6-bisphosphatase, which converts fructose-1,6-bisphosphate back to fructose-6-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair correctly bypasses the pyruvate kinase reaction?",
+      "options": [
+        "Pyruvate carboxylase and PEPCK",
+        "Hexokinase and glucokinase",
+        "Aldolase and triose phosphate isomerase",
+        "Fumarase and malate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate kinase converts PEP to pyruvate in glycolysis. In gluconeogenesis, pyruvate is converted first to oxaloacetate by pyruvate carboxylase, then to PEP by PEPCK.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme bypasses the hexokinase/glucokinase reaction?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Fructose-1,6-bisphosphatase",
+        "Pyruvate carboxylase",
+        "PEPCK"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexokinase/glucokinase converts glucose to glucose-6-phosphate in glycolysis. Glucose-6-phosphatase bypasses this step by converting glucose-6-phosphate to free glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pyruvate carboxylase forms oxaloacetate mainly to:",
+      "options": [
+        "Start the conversion of pyruvate into PEP",
+        "Convert glucose into glycogen",
+        "Convert acetyl-CoA directly into glucose",
+        "Produce lactate in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate cannot be converted directly to PEP by reversing pyruvate kinase. It is first carboxylated to oxaloacetate, then oxaloacetate is converted to PEP by PEPCK.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The pyruvate carboxylase reaction is also important because it:",
+      "options": [
+        "Replenishes oxaloacetate for the TCA cycle",
+        "Produces glucose directly",
+        "Converts lactate to alanine",
+        "Removes glucose from blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase is both a gluconeogenic enzyme and an anaplerotic enzyme. It replenishes oxaloacetate when TCA intermediates are depleted.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which coenzyme is essential for pyruvate carboxylase?",
+      "options": [
+        "Biotin",
+        "TPP",
+        "FAD",
+        "NAD⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase uses biotin to carry activated CO₂ during carboxylation of pyruvate to oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which energy molecule is used by pyruvate carboxylase?",
+      "options": [
+        "ATP",
+        "GTP",
+        "NADH",
+        "FADH₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase requires ATP to drive the carboxylation of pyruvate to oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which energy molecule is used by PEPCK?",
+      "options": [
+        "GTP",
+        "ATP",
+        "FADH₂",
+        "NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PEPCK converts oxaloacetate to PEP using GTP as the phosphate donor. CO₂ is released during this reaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the pyruvate → OAA → PEP sequence?",
+      "options": [
+        "ATP is used first, then GTP is used, and CO₂ is added then released",
+        "GTP is used first, then ATP is produced",
+        "No energy is required",
+        "CO₂ is released first, then added again"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase uses ATP and CO₂ to form oxaloacetate. PEPCK then uses GTP and releases CO₂ to form PEP. This two-step bypass replaces the irreversible pyruvate kinase reaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why must oxaloacetate be converted before leaving the mitochondria?",
+      "options": [
+        "Oxaloacetate cannot directly cross the inner mitochondrial membrane",
+        "Oxaloacetate is destroyed immediately in cytosol",
+        "Oxaloacetate is not involved in gluconeogenesis",
+        "Oxaloacetate is converted directly to glucose inside mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate cannot cross the inner mitochondrial membrane directly. It must be converted to malate, citrate, or aspartate to move its carbon skeleton to the cytosol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which conversion allows oxaloacetate carbon to leave mitochondria as malate?",
+      "options": [
+        "Oxaloacetate is reduced to malate by mitochondrial malate dehydrogenase",
+        "Oxaloacetate is converted directly to glucose",
+        "Oxaloacetate is phosphorylated by hexokinase",
+        "Oxaloacetate is oxidized to acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrial malate dehydrogenase reduces oxaloacetate to malate. Malate can cross to the cytosol and be reoxidized to oxaloacetate by cytosolic malate dehydrogenase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which route transports oxaloacetate carbon through citrate?",
+      "options": [
+        "OAA combines with acetyl-CoA to form citrate, which exits and is cleaved back to OAA",
+        "OAA becomes glucose directly inside mitochondria",
+        "OAA becomes lactate in the mitochondria",
+        "OAA becomes acetyl-CoA by reversing PDH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate can be converted to citrate by citrate synthase. Citrate can move to the cytosol and be converted back to oxaloacetate by ATP-citrate lyase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which route transports oxaloacetate carbon through amino acid metabolism?",
+      "options": [
+        "Transamination to aspartate",
+        "Conversion to lactate",
+        "Conversion to fatty acid",
+        "Conversion to acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate can be transaminated to aspartate. Aspartate can be transported to the cytosol and converted back to oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After PEP is formed, many gluconeogenic reactions use:",
+      "options": [
+        "Reversible glycolytic enzymes in reverse direction",
+        "Completely new enzymes at every step",
+        "TCA enzymes only",
+        "ETC complexes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis is not a simple full reversal of glycolysis, but many reversible glycolytic steps can be used in reverse after PEP formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fructose-1,6-bisphosphatase produces:",
+      "options": [
+        "Fructose-6-phosphate",
+        "Fructose-2,6-bisphosphate",
+        "Glucose directly",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-1,6-bisphosphatase hydrolyzes fructose-1,6-bisphosphate to fructose-6-phosphate, bypassing PFK-1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glucose-6-phosphatase produces free glucose mainly so that:",
+      "options": [
+        "Liver and kidney can release glucose into blood",
+        "RBCs can perform TCA cycle",
+        "Muscle can export glucose efficiently",
+        "Adipose tissue can phosphorylate glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free glucose can leave liver and kidney cells and enter blood. Glucose-6-phosphate itself is trapped inside cells because of its phosphate group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is glucose-6-phosphatase absent from most glucose-consuming tissues useful?",
+      "options": [
+        "It prevents those tissues from releasing glucose instead of using it",
+        "It makes all tissues gluconeogenic",
+        "It allows RBCs to release glucose",
+        "It forces liver to consume all glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tissues like muscle use glucose for their own energy needs. Lack of glucose-6-phosphatase prevents them from converting G6P into free glucose for export.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor enters gluconeogenesis through pyruvate?",
+      "options": [
+        "Lactate",
+        "Fatty acid acetyl-CoA",
+        "Ketone bodies",
+        "Cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate is converted to pyruvate by lactate dehydrogenase. Pyruvate can then enter the gluconeogenic pathway through pyruvate carboxylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor enters gluconeogenesis through DHAP?",
+      "options": [
+        "Glycerol",
+        "Lactate",
+        "Propionate",
+        "Alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerol is converted to glycerol-3-phosphate and then to dihydroxyacetone phosphate, which enters gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor enters gluconeogenesis through succinyl-CoA?",
+      "options": [
+        "Propionate",
+        "Lactate",
+        "Glycerol",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionate is converted to succinyl-CoA, enters the citric acid cycle, and can eventually contribute to oxaloacetate and glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor enters gluconeogenesis through α-ketoacids and TCA intermediates?",
+      "options": [
+        "Glucogenic amino acids",
+        "Ketone bodies only",
+        "Even-chain fatty acids only",
+        "Acetyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucogenic amino acids are converted by transamination or deamination into α-ketoacids. These can enter TCA cycle and form oxaloacetate for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does lactate support gluconeogenesis during intense exercise?",
+      "options": [
+        "It is produced by anaerobic glycolysis and can be converted back to pyruvate in liver",
+        "It is converted directly to acetyl-CoA for glucose synthesis",
+        "It bypasses all energy requirements",
+        "It is a ketogenic precursor only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exercising muscle produces lactate when glycolysis is anaerobic. Lactate travels to the liver, where it is converted to pyruvate and then glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction converts lactate to pyruvate during gluconeogenesis from lactate?",
+      "options": [
+        "Lactate dehydrogenase",
+        "Pyruvate carboxylase",
+        "PEPCK",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate dehydrogenase converts lactate to pyruvate while reducing NAD⁺ to NADH. This pyruvate then enters the gluconeogenic pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In gluconeogenesis from lactate, the lactate dehydrogenase step produces:",
+      "options": [
+        "NADH",
+        "FADH₂",
+        "ATP",
+        "GTP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate is oxidized to pyruvate, and NAD⁺ is reduced to NADH. This NADH can help supply the reducing equivalents needed for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is lactate especially useful as a gluconeogenic substrate?",
+      "options": [
+        "Its conversion to pyruvate provides NADH needed later in the pathway",
+        "It directly produces glucose without ATP",
+        "It converts to acetyl-CoA and reverses PDH",
+        "It does not require liver enzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis from two pyruvate requires 2 NADH. When lactate is converted to pyruvate, NADH is generated, helping support the gluconeogenic process.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the Cori cycle?",
+      "options": [
+        "Muscle/RBC lactate goes to liver; liver makes glucose and releases it back to blood",
+        "Liver lactate goes to muscle to become ketone bodies",
+        "Brain lactate becomes fatty acids in RBCs",
+        "Adipose glucose becomes lactate and stays in adipose tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Cori cycle transfers lactate from anaerobic tissues to the liver. The liver converts lactate to glucose, which returns to blood and can be used again by muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue releases glycerol during fasting?",
+      "options": [
+        "Adipose tissue",
+        "RBCs",
+        "Brain",
+        "Kidney medulla only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, lipolysis in adipose tissue breaks triacylglycerol into fatty acids and glycerol. Glycerol is transported to the liver for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is glycerol delivered to the liver after lipolysis?",
+      "options": [
+        "Adipocytes lack glycerol kinase, while liver can phosphorylate glycerol",
+        "Liver cannot use glycerol",
+        "Glycerol is toxic to liver",
+        "Glycerol directly inhibits gluconeogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipocytes cannot efficiently phosphorylate glycerol due to lack of glycerol kinase. Liver has glycerol kinase and can convert glycerol into gluconeogenic intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes glycerol entry into gluconeogenesis?",
+      "options": [
+        "Glycerol → glycerol-3-phosphate → DHAP",
+        "Glycerol → acetyl-CoA → pyruvate",
+        "Glycerol → lactate → glucose directly",
+        "Glycerol → succinyl-CoA → ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerol kinase forms glycerol-3-phosphate. Glycerol-3-phosphate dehydrogenase then converts it to DHAP, which can proceed toward glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fasting increases gluconeogenesis from amino acids because:",
+      "options": [
+        "Tissue proteins are hydrolyzed and glucogenic amino acids provide carbon skeletons",
+        "Amino acids all become acetyl-CoA only",
+        "Protein breakdown stops completely",
+        "RBCs synthesize amino acids from glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting or starvation, tissue proteins can be broken down. Glucogenic amino acids are converted into α-ketoacids that enter TCA and form oxaloacetate, then glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid can form pyruvate by transamination according to the diagram?",
+      "options": [
+        "Alanine",
+        "Leucine",
+        "Lysine",
+        "Tyrosine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine is transaminated to pyruvate. This is one of the major links between amino acid metabolism and gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid can form oxaloacetate by transamination?",
+      "options": [
+        "Aspartate",
+        "Alanine",
+        "Leucine",
+        "Lysine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate can be transaminated to oxaloacetate. Oxaloacetate can then be converted to PEP and glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid can form α-ketoglutarate?",
+      "options": [
+        "Glutamate",
+        "Alanine",
+        "Aspartate",
+        "Glycine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate can form α-ketoglutarate through transamination or deamination. α-Ketoglutarate can enter TCA and contribute to gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propionate is formed from:",
+      "options": [
+        "Odd-chain fatty acids and isoleucine oxidation",
+        "Even-chain fatty acids only",
+        "Ketone bodies only",
+        "Lactate oxidation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that propionate comes from oxidation of odd-chain fatty acids and from oxidation of isoleucine. It enters gluconeogenesis through succinyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is propionate a minor glucose precursor in humans but major in ruminants?",
+      "options": [
+        "Ruminants produce large amounts of propionate from fermentation",
+        "Humans cannot convert propionate to succinyl-CoA",
+        "Propionate is ketogenic only",
+        "Ruminants lack gluconeogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states propionate is a major source in ruminants and minor in humans. In ruminants, microbial fermentation produces significant propionate, which supports glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which compounds cannot form glucose because they become acetyl-CoA?",
+      "options": [
+        "Fatty acids, acetoacetate, and ketogenic amino acids",
+        "Lactate, glycerol, and alanine",
+        "Pyruvate, propionate, and aspartate",
+        "Oxaloacetate and malate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids, acetoacetate, and ketogenic amino acids form acetyl-CoA. Acetyl-CoA cannot be converted back to pyruvate because PDH is irreversible, so it cannot provide net glucose carbon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does acetyl-CoA not support net gluconeogenesis?",
+      "options": [
+        "It cannot be converted back to pyruvate due to irreversible PDH",
+        "It directly crosses into glucose",
+        "It becomes lactate in RBCs",
+        "It is converted directly to glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pyruvate dehydrogenase reaction converts pyruvate to acetyl-CoA irreversibly. Therefore, acetyl-CoA cannot return to pyruvate and cannot yield net glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition increases glycerol availability for gluconeogenesis?",
+      "options": [
+        "Fasting and diabetes due to increased lipolysis",
+        "Fed state with low lipolysis",
+        "Complete inhibition of adipose tissue breakdown",
+        "Low cortisol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting and diabetes, lipolysis increases in adipose tissue. This releases glycerol, which travels to liver for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition increases glucogenic amino acid availability?",
+      "options": [
+        "Diabetes, excess cortisol, fasting, and protein catabolism",
+        "High insulin after a meal",
+        "Complete inhibition of muscle protein breakdown",
+        "High glucose storage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture notes that diabetes and excess cortisol favor protein catabolism and mobilization of amino acids from muscle, providing carbon skeletons for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "What supplies much of the ATP and NADH needed for gluconeogenesis?",
+      "options": [
+        "Fatty acid catabolism",
+        "Anaerobic glycolysis in RBCs",
+        "DNA synthesis",
+        "Urea cycle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that ATP and NADH for gluconeogenesis are primarily provided by fatty acid catabolism. This is important during fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The energy cost of forming glucose from two pyruvate molecules is equivalent to:",
+      "options": [
+        "6 ATP plus 2 NADH",
+        "2 ATP only",
+        "2 NADH only",
+        "38 ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis from two pyruvate consumes 4 ATP and 2 GTP, equivalent to 6 ATP, and also requires 2 NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step uses ATP in the pyruvate-to-PEP bypass?",
+      "options": [
+        "Pyruvate carboxylase",
+        "PEPCK",
+        "Fructose-1,6-bisphosphatase",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate carboxylase uses ATP to carboxylate pyruvate into oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step uses GTP in the pyruvate-to-PEP bypass?",
+      "options": [
+        "PEPCK",
+        "Pyruvate carboxylase",
+        "Glucose-6-phosphatase",
+        "Fructose-1,6-bisphosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PEPCK uses GTP to convert oxaloacetate to PEP, releasing CO₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is required to release free glucose from glucose-6-phosphate?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Hexokinase",
+        "PFK-1",
+        "Pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-6-phosphatase hydrolyzes glucose-6-phosphate to free glucose. This step allows glucose export from liver and kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why cannot skeletal muscle contribute significantly to blood glucose release via gluconeogenesis?",
+      "options": [
+        "It lacks glucose-6-phosphatase",
+        "It lacks glycolysis",
+        "It lacks mitochondria",
+        "It cannot produce lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Skeletal muscle can form glucose-6-phosphate but cannot convert it to free glucose for release because it lacks glucose-6-phosphatase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes fructose-1,6-bisphosphatase?",
+      "options": [
+        "It bypasses PFK-1 and is a major regulatory enzyme of gluconeogenesis",
+        "It produces fructose-2,6-bisphosphate",
+        "It converts pyruvate to oxaloacetate",
+        "It releases glucose into blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-1,6-bisphosphatase converts fructose-1,6-bisphosphate to fructose-6-phosphate. It is a key control point opposing PFK-1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which regulator inhibits fructose-1,6-bisphosphatase according to the regulation slide?",
+      "options": [
+        "AMP and fructose-2,6-bisphosphate",
+        "Acetyl-CoA only",
+        "ATP only",
+        "Citrate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMP indicates low energy and should favor glycolysis, not gluconeogenesis. Fructose-2,6-bisphosphate also favors glycolysis by activating PFK-1 and inhibiting fructose-1,6-bisphosphatase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which regulator activates pyruvate carboxylase?",
+      "options": [
+        "Acetyl-CoA",
+        "AMP",
+        "Fructose-2,6-bisphosphate",
+        "Glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA activates pyruvate carboxylase, diverting pyruvate toward oxaloacetate and gluconeogenesis/anaplerosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetyl-CoA inhibits which enzyme according to the regulation slide?",
+      "options": [
+        "Pyruvate dehydrogenase",
+        "Pyruvate carboxylase",
+        "PEPCK",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA inhibits PDH and activates pyruvate carboxylase. This diverts pyruvate away from acetyl-CoA formation and toward oxaloacetate formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During starvation, acetyl-CoA increases mainly because of:",
+      "options": [
+        "Increased fatty acid oxidation",
+        "Increased glucose intake",
+        "Decreased lipolysis",
+        "Increased insulin secretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During starvation, fatty acid oxidation increases, producing acetyl-CoA. This acetyl-CoA supports gluconeogenesis by activating pyruvate carboxylase and inhibiting PDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes acetyl-CoA’s role in starvation?",
+      "options": [
+        "It diverts pyruvate away from TCA entry as acetyl-CoA and toward gluconeogenesis",
+        "It directly becomes glucose",
+        "It inhibits pyruvate carboxylase",
+        "It activates PFK-1 strongly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High acetyl-CoA inhibits pyruvate dehydrogenase and activates pyruvate carboxylase. This channels pyruvate into oxaloacetate formation, supporting gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-091",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormonal state generally favors gluconeogenesis?",
+      "options": [
+        "High glucagon, epinephrine, cortisol, starvation, and diabetes",
+        "High insulin after a carbohydrate meal",
+        "Low cortisol and high insulin",
+        "High insulin with low substrate availability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The regulation slide lists cortisol, epinephrine, glucagon, starvation, and diabetes as conditions that increase synthesis of regulatory enzymes for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-092",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin generally has which effect on gluconeogenesis?",
+      "options": [
+        "It decreases synthesis of gluconeogenic regulatory enzymes",
+        "It strongly activates gluconeogenesis",
+        "It increases protein catabolism for glucose production",
+        "It stimulates fatty acid oxidation for ATP supply"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a fed-state hormone. It generally suppresses gluconeogenesis and promotes glucose storage and utilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-093",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does cortisol support gluconeogenesis?",
+      "options": [
+        "It favors protein catabolism, providing glucogenic amino acids",
+        "It directly converts acetyl-CoA to glucose",
+        "It inhibits substrate availability",
+        "It prevents amino acid mobilization"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess cortisol promotes protein breakdown and mobilization of amino acids from muscle. These amino acids provide carbon skeletons for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-094",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition provides glycerol for gluconeogenesis?",
+      "options": [
+        "Increased lipolysis during fasting or diabetes",
+        "Increased glycogen synthesis after meals",
+        "Reduced adipose breakdown",
+        "RBC mitochondrial oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fasting and diabetes increase lipolysis in adipose tissue. This releases glycerol, which is delivered to liver and converted into DHAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-095",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why gluconeogenesis requires fatty acid oxidation during fasting?",
+      "options": [
+        "Fatty acid oxidation supplies ATP/NADH and acetyl-CoA to drive and regulate gluconeogenesis",
+        "Fatty acids directly convert into glucose through acetyl-CoA",
+        "Fatty acid oxidation replaces all gluconeogenic enzymes",
+        "Fatty acids provide glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis is energy-expensive. During fasting, fatty acid oxidation provides much of the ATP and NADH required, and acetyl-CoA activates pyruvate carboxylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-096",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why high AMP inhibits gluconeogenesis?",
+      "options": [
+        "AMP signals low energy, so the cell should not spend energy making glucose",
+        "AMP activates fructose-1,6-bisphosphatase",
+        "AMP indicates excess ATP",
+        "AMP converts lactate to pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis consumes ATP and GTP. If AMP is high, energy is low, so gluconeogenesis is inhibited, especially at fructose-1,6-bisphosphatase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-097",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule reciprocally regulates glycolysis and gluconeogenesis?",
+      "options": [
+        "Fructose-2,6-bisphosphate",
+        "Glucose only",
+        "Lactate only",
+        "Succinyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-2,6-bisphosphate activates PFK-1 in glycolysis and inhibits fructose-1,6-bisphosphatase in gluconeogenesis. This prevents simultaneous full activation of both pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-098",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement is correct about fructose-2,6-bisphosphate?",
+      "options": [
+        "It activates glycolysis and inhibits gluconeogenesis",
+        "It inhibits glycolysis and activates gluconeogenesis",
+        "It activates both pathways maximally",
+        "It is the final product of gluconeogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-2,6-bisphosphate promotes PFK-1 activity and inhibits fructose-1,6-bisphosphatase. This favors glucose breakdown over glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-099",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why fatty acids cannot be gluconeogenic in humans?",
+      "options": [
+        "Even-chain fatty acids form acetyl-CoA, which cannot produce net glucose",
+        "Fatty acids cannot be oxidized",
+        "Fatty acids become lactate directly",
+        "Fatty acids form pyruvate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even-chain fatty acids produce acetyl-CoA. Because acetyl-CoA cannot reverse through PDH to pyruvate and its carbons are lost as CO₂ in TCA, it cannot produce net glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-100",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipid-derived molecule can enter gluconeogenesis?",
+      "options": [
+        "Glycerol",
+        "Even-chain fatty acid acetyl-CoA",
+        "Ketone bodies",
+        "Acetoacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerol from triacylglycerol breakdown can be converted into DHAP. Fatty acid acetyl-CoA and ketone bodies do not provide net glucose carbon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-101",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes propionate in humans?",
+      "options": [
+        "It is a minor gluconeogenic precursor",
+        "It is the main glucose source in humans",
+        "It cannot enter TCA cycle",
+        "It is converted only to acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture states that propionate is a minor precursor in humans, but a major glucose source in ruminants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-102",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why propionate can be gluconeogenic?",
+      "options": [
+        "It becomes succinyl-CoA, a TCA intermediate that can lead to oxaloacetate",
+        "It becomes acetyl-CoA only",
+        "It becomes ketone bodies directly",
+        "It bypasses the TCA cycle completely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionate enters metabolism as succinyl-CoA. Succinyl-CoA can proceed through TCA to oxaloacetate, which can form PEP and glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-103",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor contributes to gluconeogenesis without passing through pyruvate first?",
+      "options": [
+        "Glycerol",
+        "Lactate",
+        "Alanine",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerol enters at DHAP, bypassing pyruvate. Lactate and alanine are converted to pyruvate first.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-104",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor contributes to gluconeogenesis through lactate dehydrogenase?",
+      "options": [
+        "Lactate",
+        "Glycerol",
+        "Propionate",
+        "Aspartate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate dehydrogenase converts lactate to pyruvate. This is the entry route for lactate from RBCs and exercising muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-105",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor contributes to gluconeogenesis through transamination to pyruvate?",
+      "options": [
+        "Alanine",
+        "Glycerol",
+        "Propionate",
+        "Fatty acid acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine can be converted to pyruvate by transamination, allowing its carbon skeleton to enter gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-106",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor contributes to gluconeogenesis through transamination to oxaloacetate?",
+      "options": [
+        "Aspartate",
+        "Alanine",
+        "Glycerol",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate can be transaminated to oxaloacetate. Oxaloacetate can then be converted to PEP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-107",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which precursor contributes to gluconeogenesis through α-ketoglutarate?",
+      "options": [
+        "Glutamate",
+        "Glycerol",
+        "Lactate",
+        "Propionate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate can be converted to α-ketoglutarate, which enters the TCA cycle and can lead to oxaloacetate formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-108",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why gluconeogenesis is energetically expensive?",
+      "options": [
+        "It consumes 4 ATP, 2 GTP, and 2 NADH per glucose from 2 pyruvate",
+        "It produces 38 ATP per glucose",
+        "It consumes no energy because it reverses glycolysis",
+        "It uses only one ATP per glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis is not simply glycolysis in reverse. It requires energy input to bypass irreversible glycolytic reactions and drive glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-109",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the relationship between gluconeogenesis and glycolysis?",
+      "options": [
+        "They are reciprocally regulated to avoid a futile cycle",
+        "They are always maximally active together",
+        "They use the same enzymes for all steps",
+        "Gluconeogenesis is glycolysis with oxygen added"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Opposing pathways must be coordinated. Fructose-2,6-bisphosphate and AMP help favor glycolysis when energy is needed and suppress gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-gluconeogenesis-110",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes gluconeogenesis?",
+      "options": [
+        "It forms glucose in liver/kidney from lactate, glycerol, amino acids, pyruvate, and propionate using bypass enzymes and energy",
+        "It breaks glucose down to lactate in RBCs",
+        "It oxidizes acetyl-CoA to CO₂ and water",
+        "It converts fatty acid acetyl-CoA directly to glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis is a liver/kidney pathway that maintains blood glucose during fasting. It uses non-carbohydrate precursors, bypasses irreversible glycolytic reactions, and consumes ATP, GTP, and NADH.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
