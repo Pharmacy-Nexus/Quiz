@@ -208,10 +208,10 @@
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
         "easy": 35,
-        "medium": 0,
+        "medium": 75,
         "hard": 0
       },
-      "questionsCount": 35,
+      "questionsCount": 110,
       "file": "data/bio-chemictry/gluconeogenesis.json"
     }
   ],
@@ -247,5 +247,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T22:23:49.391Z"
+  "updatedAt": "2026-05-31T22:27:47.149Z"
 }
