@@ -179,9 +179,9 @@
       "difficultyBreakdown": {
         "easy": 45,
         "medium": 65,
-        "hard": 30
+        "hard": 70
       },
-      "questionsCount": 140,
+      "questionsCount": 180,
       "file": "data/bio-chemictry/glycolysis-pyruvate-metabolism.json"
     }
   ],
@@ -217,5 +217,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T21:57:42.466Z"
+  "updatedAt": "2026-05-31T22:00:08.578Z"
 }
