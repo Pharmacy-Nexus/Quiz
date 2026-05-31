@@ -2,6 +2,772 @@
   "subjectId": "bio-chemictry",
   "topicId": "glycolysis-pyruvate-metabolism",
   "topicName": "Glycolysis & Pyruvate Metabolism",
-  "updatedAt": "2026-05-31T21:50:19.277Z",
-  "questions": []
+  "updatedAt": "2026-05-31T21:52:26.232Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The principal sites of dietary carbohydrate digestion are:",
+      "options": [
+        "Mouth and intestinal lumen",
+        "Stomach and liver",
+        "Kidney and pancreas only",
+        "Blood and muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary carbohydrate digestion mainly occurs in the mouth and intestinal lumen. The goal is to break glycosidic bonds and produce absorbable monosaccharides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carbohydrate digestion is catalyzed mainly by:",
+      "options": [
+        "Glycosidases",
+        "Lipases",
+        "Proteases",
+        "Nucleases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycosidases hydrolyze glycosidic bonds between carbohydrate units. This converts dietary carbohydrates into smaller sugars and finally into monosaccharides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The final absorbable products of carbohydrate digestion include:",
+      "options": [
+        "Glucose, galactose, and fructose",
+        "Glucose, lactose, and starch",
+        "Glycogen, sucrose, and maltose",
+        "Pyruvate, lactate, and acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The final products of carbohydrate digestion are monosaccharides: glucose, galactose, and fructose. These are absorbed by cells of the small intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Metabolism is best defined as:",
+      "options": [
+        "The sum of all chemical changes occurring in the cell, tissue, or body",
+        "Glycolysis only",
+        "Digestion only",
+        "Oxidation of glucose only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metabolism includes all chemical reactions in living cells. It includes both breakdown pathways that release energy and synthetic pathways that build complex molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In a metabolic pathway:",
+      "options": [
+        "The product of one reaction becomes the substrate of the next reaction",
+        "Every reaction occurs completely isolated from the others",
+        "Only one enzyme is involved",
+        "Products cannot enter other pathways"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metabolic pathways are multistep sequences. The product formed in one step is used as the substrate for the following step, creating an organized flow of metabolites.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Catabolism is generally described as:",
+      "options": [
+        "Degradative and convergent",
+        "Synthetic and divergent",
+        "Always cyclic",
+        "Always anabolic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Catabolism breaks complex nutrients into simpler products. Many different fuels converge into common end products or intermediates, so catabolism is considered convergent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Anabolism is generally described as:",
+      "options": [
+        "Synthetic and divergent",
+        "Degradative and convergent",
+        "Always energy-releasing",
+        "Only carbohydrate breakdown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anabolism builds complex molecules from simpler precursors. From a limited number of precursors, many different complex molecules can be formed, so anabolism is divergent.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cycles are metabolic pathways that:",
+      "options": [
+        "Regenerate one of their components",
+        "Always produce lactate",
+        "Occur only in the cytoplasm",
+        "Never involve enzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cycle is a pathway in which a component is regenerated as part of the sequence. This allows the pathway to continue repeatedly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycolysis is:",
+      "options": [
+        "Oxidation of glucose or glycogen to pyruvate or lactate",
+        "Synthesis of glycogen from glucose",
+        "Formation of glucose from non-carbohydrate sources",
+        "Oxidation of acetyl-CoA in the TCA cycle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis breaks down glucose or glycogen for energy production. Under aerobic conditions, pyruvate is produced; under anaerobic conditions, lactate is produced.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Under aerobic conditions, glycolysis yields:",
+      "options": [
+        "Two molecules of pyruvate",
+        "Two molecules of lactate only",
+        "One molecule of glucose",
+        "One molecule of acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aerobic glycolysis converts one glucose molecule into two molecules of pyruvate. Pyruvate can then enter mitochondria for further oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Under anaerobic conditions, glycolysis yields:",
+      "options": [
+        "Two molecules of lactate",
+        "Two molecules of acetyl-CoA",
+        "One molecule of glucose",
+        "Two molecules of oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In anaerobic conditions, pyruvate is reduced to lactate. This is important in exercising muscle and red blood cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "All enzymes of glycolysis are located in the:",
+      "options": [
+        "Cytoplasm",
+        "Mitochondrial matrix",
+        "Nucleus",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All enzymes of glycolysis are found in the cytoplasm. This is why glycolysis can occur even in cells lacking mitochondria, such as mature RBCs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most glycolytic reactions are:",
+      "options": [
+        "Reversible",
+        "Irreversible",
+        "Non-enzymatic",
+        "Mitochondrial only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most reactions of glycolysis are reversible. However, three key reactions are irreversible and serve as important regulatory points.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The irreversible steps of glycolysis are catalyzed by:",
+      "options": [
+        "Hexokinase/glucokinase, PFK-1, and pyruvate kinase",
+        "Aldolase, enolase, and phosphoglycerate mutase",
+        "Lactate dehydrogenase only",
+        "PDH complex only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis has three irreversible steps: glucose phosphorylation, fructose-6-phosphate phosphorylation, and PEP conversion to pyruvate. These are catalyzed by hexokinase/glucokinase, PFK-1, and pyruvate kinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycolysis is divided into:",
+      "options": [
+        "Energy investment phase and energy generation phase",
+        "Mitochondrial phase and nuclear phase",
+        "Glycogenesis phase and glycogenolysis phase",
+        "Oxidation phase and urea phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first phase consumes ATP to prepare glucose for breakdown. The second phase generates ATP and NADH, producing pyruvate or lactate depending on oxygen availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first phase of glycolysis is called the:",
+      "options": [
+        "Energy-consuming or investment phase",
+        "Payoff phase only",
+        "Oxidative decarboxylation phase",
+        "TCA phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first five reactions consume ATP and convert glucose into two molecules of glyceraldehyde-3-phosphate. This phase prepares the molecule for energy generation later.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The second phase of glycolysis is called the:",
+      "options": [
+        "Energy-generating or payoff phase",
+        "Digestion phase",
+        "Storage phase",
+        "Glycogen synthesis phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The second phase includes steps 6–10. Two molecules of GAP are converted into pyruvate, generating ATP and NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first reaction of glycolysis converts glucose into:",
+      "options": [
+        "Glucose-6-phosphate",
+        "Fructose-6-phosphate",
+        "Fructose-1,6-bisphosphate",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first glycolytic step phosphorylates glucose to glucose-6-phosphate. This reaction uses ATP and is catalyzed by hexokinase or glucokinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first reaction of glycolysis is catalyzed by:",
+      "options": [
+        "Hexokinase or glucokinase",
+        "PFK-1 only",
+        "Aldolase",
+        "Enolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose phosphorylation is catalyzed by hexokinase in most tissues or glucokinase in the liver. This step is irreversible.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The glucose phosphorylation reaction requires:",
+      "options": [
+        "ATP and Mg²⁺",
+        "NADH only",
+        "FADH₂ only",
+        "CO₂ and biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first step of glycolysis uses ATP as phosphate donor and energy source. Mg²⁺ is required for kinase activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphorylation of glucose traps it inside the cell because:",
+      "options": [
+        "Glucose-6-phosphate is too polar and lacks transmembrane carriers",
+        "Glucose-6-phosphate becomes lipid-soluble",
+        "Glucose-6-phosphate immediately crosses the membrane faster",
+        "Glucose-6-phosphate is converted into lactate outside the cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorylated sugars cannot easily diffuse through the lipid core of membranes. Also, there are no transmembrane carriers for these phosphorylated compounds, so glucose is trapped as G6P.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The second step of glycolysis converts:",
+      "options": [
+        "Glucose-6-phosphate into fructose-6-phosphate",
+        "Fructose-6-phosphate into fructose-1,6-bisphosphate",
+        "GAP into 1,3-BPG",
+        "PEP into pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphohexose isomerase converts G6P, an aldose sugar phosphate, into F6P, a ketose sugar phosphate. This reaction is reversible.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme of step 2 of glycolysis is:",
+      "options": [
+        "Phosphohexose isomerase",
+        "Hexokinase",
+        "Aldolase",
+        "Pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphohexose isomerase catalyzes the reversible conversion of glucose-6-phosphate to fructose-6-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The third step of glycolysis converts fructose-6-phosphate into:",
+      "options": [
+        "Fructose-1,6-bisphosphate",
+        "Glucose-6-phosphate",
+        "DHAP only",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 phosphorylates fructose-6-phosphate using ATP to produce fructose-1,6-bisphosphate. This is an irreversible and highly regulated step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The third step of glycolysis is catalyzed by:",
+      "options": [
+        "Phosphofructokinase-1",
+        "Phosphofructokinase-2",
+        "Pyruvate kinase",
+        "Lactate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 catalyzes phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate. It is the main rate-limiting enzyme of glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main rate-limiting step of glycolysis is catalyzed by:",
+      "options": [
+        "PFK-1",
+        "Hexokinase",
+        "Aldolase",
+        "Enolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 is the principal regulatory and rate-limiting enzyme of glycolysis. It responds strongly to cellular energy status.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "PFK-1 is inhibited by:",
+      "options": [
+        "High ATP and citrate",
+        "High AMP and fructose-2,6-bisphosphate",
+        "Low ATP only",
+        "Lactate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High ATP indicates abundant energy, so glycolysis slows. Citrate also signals energy sufficiency and inhibits PFK-1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "PFK-1 is activated by:",
+      "options": [
+        "AMP and fructose-2,6-bisphosphate",
+        "ATP and citrate",
+        "Glucose-6-phosphate only",
+        "Acetyl-CoA and NADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMP signals low cellular energy and activates glycolysis. Fructose-2,6-bisphosphate is the most potent activator of PFK-1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose-2,6-bisphosphate is formed by:",
+      "options": [
+        "PFK-2",
+        "PFK-1",
+        "Hexokinase",
+        "Pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-2,6-bisphosphate is produced by PFK-2, which is different from PFK-1. PFK-1 uses fructose-6-phosphate to form fructose-1,6-bisphosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fructose-2,6-bisphosphate:",
+      "options": [
+        "Activates glycolysis and inhibits gluconeogenesis",
+        "Inhibits glycolysis and activates gluconeogenesis",
+        "Activates both pathways fully at the same time",
+        "Has no role in reciprocal regulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-2,6-bisphosphate activates PFK-1 and inhibits fructose-1,6-bisphosphatase. This prevents glycolysis and gluconeogenesis from being fully active simultaneously.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The fourth step of glycolysis cleaves fructose-1,6-bisphosphate into:",
+      "options": [
+        "DHAP and GAP",
+        "Pyruvate and lactate",
+        "Glucose and galactose",
+        "Acetyl-CoA and CO₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase cleaves fructose-1,6-bisphosphate into two triose phosphates: dihydroxyacetone phosphate and glyceraldehyde-3-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that cleaves fructose-1,6-bisphosphate is:",
+      "options": [
+        "Aldolase",
+        "Enolase",
+        "Phosphoglycerate kinase",
+        "Pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase catalyzes the reversible cleavage of fructose-1,6-bisphosphate into DHAP and GAP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "DHAP is converted into GAP by:",
+      "options": [
+        "Phosphotriose isomerase",
+        "Aldolase",
+        "Hexokinase",
+        "Lactate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphotriose isomerase converts DHAP into GAP. This allows both three-carbon fragments from glucose to continue through the same payoff pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "After the first five steps of glycolysis, the net product is:",
+      "options": [
+        "Two molecules of glyceraldehyde-3-phosphate",
+        "Two molecules of glucose",
+        "Two molecules of acetyl-CoA",
+        "One molecule of lactate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phase one converts one glucose molecule into two molecules of GAP. These two GAP molecules proceed through the energy-generating phase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first oxidation-reduction reaction of glycolysis is catalyzed by:",
+      "options": [
+        "Glyceraldehyde-3-phosphate dehydrogenase",
+        "Hexokinase",
+        "Aldolase",
+        "Phosphoglycerate mutase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GAP dehydrogenase oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate and reduces NAD⁺ to NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the GAP dehydrogenase step, NAD⁺ is converted into:",
+      "options": [
+        "NADH + H⁺",
+        "FADH₂",
+        "ATP",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GAP is oxidized, while NAD⁺ is reduced to NADH + H⁺. This is the first redox step of glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first substrate-level phosphorylation in glycolysis occurs during conversion of:",
+      "options": [
+        "1,3-bisphosphoglycerate to 3-phosphoglycerate",
+        "Glucose to glucose-6-phosphate",
+        "Fructose-6-phosphate to fructose-1,6-bisphosphate",
+        "Pyruvate to lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglycerate kinase transfers phosphate from 1,3-BPG to ADP, forming ATP. This is the first ATP-producing step in glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme of the first ATP-forming step in glycolysis is:",
+      "options": [
+        "Phosphoglycerate kinase",
+        "Pyruvate kinase",
+        "Hexokinase",
+        "Enolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglycerate kinase catalyzes ATP formation from 1,3-BPG and ADP. Because two GAP molecules are processed, this step produces two ATP per glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The conversion of 3-phosphoglycerate to 2-phosphoglycerate is catalyzed by:",
+      "options": [
+        "Phosphoglycerate mutase",
+        "Enolase",
+        "Pyruvate kinase",
+        "PFK-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglycerate mutase shifts the phosphate group from carbon 3 to carbon 2, producing 2-phosphoglycerate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enolase converts:",
+      "options": [
+        "2-phosphoglycerate into phosphoenolpyruvate",
+        "PEP into pyruvate",
+        "Glucose into G6P",
+        "Pyruvate into lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enolase dehydrates 2-phosphoglycerate to form phosphoenolpyruvate. This step is reversible and produces a high-energy phosphate compound.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-041",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fluoride inhibits glycolysis by inhibiting:",
+      "options": [
+        "Enolase",
+        "Hexokinase",
+        "PFK-1",
+        "Lactate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluoride inhibits enolase. This is why fluoride is added to blood samples to inhibit glycolysis before blood glucose estimation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-042",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The last step of glycolysis converts PEP into:",
+      "options": [
+        "Pyruvate",
+        "Lactate",
+        "Glucose",
+        "Fructose-1,6-bisphosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate kinase converts phosphoenolpyruvate into pyruvate while producing ATP. This is the second substrate-level phosphorylation step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-043",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The last step of glycolysis is catalyzed by:",
+      "options": [
+        "Pyruvate kinase",
+        "Lactate dehydrogenase",
+        "Pyruvate dehydrogenase",
+        "Enolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate kinase catalyzes the irreversible conversion of PEP to pyruvate with ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-044",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Under anaerobic conditions, pyruvate is reduced to lactate by:",
+      "options": [
+        "Lactate dehydrogenase",
+        "Pyruvate kinase",
+        "Pyruvate dehydrogenase",
+        "Aldolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate dehydrogenase converts pyruvate to lactate. This regenerates NAD⁺ so glycolysis can continue in anaerobic conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-045",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxidative decarboxylation of pyruvate converts pyruvate into:",
+      "options": [
+        "Acetyl-CoA",
+        "Lactate",
+        "Glucose",
+        "Fructose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate dehydrogenase complex converts pyruvate into acetyl-CoA inside mitochondria. This reaction links glycolysis to the citric acid cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
