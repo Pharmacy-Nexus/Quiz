@@ -178,10 +178,10 @@
       "sectionId": "carbohydrate",
       "difficultyBreakdown": {
         "easy": 45,
-        "medium": 0,
-        "hard": 0
+        "medium": 65,
+        "hard": 30
       },
-      "questionsCount": 45,
+      "questionsCount": 140,
       "file": "data/bio-chemictry/glycolysis-pyruvate-metabolism.json"
     }
   ],
@@ -217,5 +217,5 @@
       "order": 5
     }
   ],
-  "updatedAt": "2026-05-31T21:52:30.144Z"
+  "updatedAt": "2026-05-31T21:57:42.466Z"
 }
