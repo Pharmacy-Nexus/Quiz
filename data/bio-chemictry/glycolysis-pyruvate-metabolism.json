@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "glycolysis-pyruvate-metabolism",
   "topicName": "Glycolysis & Pyruvate Metabolism",
-  "updatedAt": "2026-05-31T21:57:38.168Z",
+  "updatedAt": "2026-05-31T22:00:01.597Z",
   "questions": [
     {
       "id": "bio-chemictry-glycolysis-pyruvate-metabolism-001",
@@ -2380,6 +2380,686 @@
       ],
       "correctAnswer": 0,
       "explanation": "This links the central ideas: glycolysis is cytoplasmic, its final product depends on oxygen/mitochondrial status, and pyruvate can be further oxidized by PDH in mitochondria to form acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-141",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell has high ATP and high citrate levels. Which glycolytic enzyme will be most directly inhibited?",
+      "options": [
+        "Phosphofructokinase-1",
+        "Phosphoglycerate kinase",
+        "Lactate dehydrogenase",
+        "Aldolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 is inhibited by high ATP and citrate. ATP signals that the cell has enough energy, while citrate indicates that mitochondrial metabolism and energy supply are abundant. So glycolysis slows at its main rate-limiting step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-142",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A muscle cell has low ATP and high AMP. What is the expected effect on glycolysis?",
+      "options": [
+        "Glycolysis increases through activation of PFK-1",
+        "Glycolysis stops because AMP inhibits PFK-1",
+        "Pyruvate dehydrogenase becomes the first enzyme of glycolysis",
+        "Hexokinase becomes mitochondrial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMP is a low-energy signal. When AMP rises, it activates PFK-1, increasing glycolytic flux so the cell can generate more ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-143",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A high level of fructose-2,6-bisphosphate is present in liver cells. Which paired effect is most expected?",
+      "options": [
+        "Increased glycolysis and decreased gluconeogenesis",
+        "Decreased glycolysis and increased gluconeogenesis",
+        "Increased glycolysis and increased gluconeogenesis",
+        "Decreased PFK-1 activity and increased fructose-1,6-bisphosphatase activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fructose-2,6-bisphosphate activates PFK-1 and inhibits fructose-1,6-bisphosphatase. This reciprocal regulation prevents a useless cycle where glucose is broken down and resynthesized at the same time.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-144",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student confuses PFK-1 and PFK-2. Which statement is correct?",
+      "options": [
+        "PFK-1 forms fructose-1,6-bisphosphate, while PFK-2 forms fructose-2,6-bisphosphate",
+        "PFK-1 forms fructose-2,6-bisphosphate, while PFK-2 forms pyruvate",
+        "PFK-2 is the main enzyme that converts PEP to pyruvate",
+        "PFK-1 is only involved in gluconeogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 is the glycolytic enzyme that phosphorylates fructose-6-phosphate to fructose-1,6-bisphosphate. PFK-2 forms fructose-2,6-bisphosphate, a regulator that strongly activates PFK-1.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-145",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A liver cell after a carbohydrate-rich meal has high insulin. Which enzyme is expected to be induced?",
+      "options": [
+        "Glucokinase",
+        "Hexokinase",
+        "Enolase",
+        "Lactate dehydrogenase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucokinase is induced by insulin and is mainly present in liver. This allows the liver to phosphorylate and trap glucose efficiently after meals when blood glucose is high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-146",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A tissue needs to phosphorylate glucose even when blood glucose is low. Which enzyme property is most suitable?",
+      "options": [
+        "Hexokinase with low Km and high affinity",
+        "Glucokinase with high Km and low affinity",
+        "Glucokinase with no response to glucose concentration",
+        "Enolase inhibition by fluoride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexokinase has high affinity for glucose, meaning it can work at low glucose concentrations. This is useful for most tissues that need continuous glucose metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-147",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which finding best distinguishes glucokinase from hexokinase?",
+      "options": [
+        "Glucokinase is not inhibited by glucose-6-phosphate",
+        "Glucokinase is present in all tissues",
+        "Glucokinase has low Km",
+        "Glucokinase acts on all hexoses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexokinase is inhibited by high glucose-6-phosphate, but glucokinase is not. This allows liver glucokinase to keep phosphorylating glucose during the fed state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-148",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In untreated diabetes, hepatic glucokinase level decreases. What is the best explanation based on the lecture?",
+      "options": [
+        "Glucokinase is induced by insulin, so insulin deficiency or resistance reduces its level",
+        "Glucokinase is inhibited directly by glucose-6-phosphate",
+        "Glucokinase is present only in RBCs",
+        "Glucokinase is activated by glucagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture table shows that diabetes decreases glucokinase enzyme level. Since insulin induces glucokinase, impaired insulin action reduces hepatic glucose phosphorylation capacity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-149",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A blood sample is left without fluoride before glucose measurement. What may happen?",
+      "options": [
+        "Measured glucose may falsely decrease because glycolysis continues",
+        "Measured glucose will falsely increase because glycolysis produces glucose",
+        "Enolase will be activated by fluoride absence and stop glycolysis",
+        "Pyruvate will convert directly to glucose in the tube"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood cells can continue glycolysis after sample collection and consume glucose. Fluoride is added to inhibit enolase and stop glycolysis before glucose estimation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-150",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Fluoride is added to a blood sample. Which metabolite is expected to accumulate upstream of the inhibited step?",
+      "options": [
+        "2-phosphoglycerate",
+        "Pyruvate",
+        "Acetyl-CoA",
+        "Fructose-1,6-bisphosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluoride inhibits enolase, which converts 2-phosphoglycerate into phosphoenolpyruvate. If enolase is inhibited, 2-phosphoglycerate accumulates upstream.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-151",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in lactate dehydrogenase occurs during anaerobic conditions. Which effect is most likely?",
+      "options": [
+        "NAD⁺ regeneration decreases and glycolysis slows",
+        "NADH oxidation through ETC increases immediately",
+        "Pyruvate kinase becomes the source of NAD⁺",
+        "Glucose is converted directly into acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under anaerobic conditions, lactate dehydrogenase regenerates NAD⁺ by reducing pyruvate to lactate. Without this reaction, GAP dehydrogenase lacks NAD⁺ and glycolysis cannot continue efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-152",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why do red blood cells produce lactate even when oxygen is present in blood?",
+      "options": [
+        "RBCs lack mitochondria, so they cannot oxidize pyruvate through PDH/TCA",
+        "RBCs do not contain glycolytic enzymes",
+        "RBCs have excessive PDH activity",
+        "RBCs convert lactate directly to acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mature RBCs lack mitochondria. Therefore, they depend on anaerobic glycolysis for ATP and reduce pyruvate to lactate to regenerate NAD⁺.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-153",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "During intense exercise, pyruvate is mostly converted to lactate. What is the main biochemical benefit?",
+      "options": [
+        "Regeneration of NAD⁺ to maintain glycolysis",
+        "Production of acetyl-CoA for TCA cycle",
+        "Direct production of 8 ATP from lactate",
+        "Inhibition of PFK-1 by AMP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When oxygen is limited, mitochondrial oxidation of NADH is insufficient. Lactate formation regenerates NAD⁺, allowing glycolysis to continue producing ATP rapidly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-154",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "According to the lecture, why does aerobic glycolysis yield more ATP than anaerobic glycolysis?",
+      "options": [
+        "Aerobic NADH can be oxidized through the respiratory chain to generate ATP",
+        "Anaerobic glycolysis consumes four ATP in the first phase",
+        "Aerobic glycolysis produces no pyruvate",
+        "Anaerobic glycolysis bypasses pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture calculates aerobic glycolysis as 8 ATP because the two NADH produced can generate ATP through the respiratory chain. Anaerobic glycolysis uses NADH to produce lactate, so the net yield remains 2 ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-155",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the lecture’s ATP yield system, two cytosolic NADH from glycolysis produce:",
+      "options": [
+        "6 ATP aerobically",
+        "2 ATP aerobically",
+        "0 ATP aerobically",
+        "10 ATP aerobically"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture uses the classical yield where each NADH gives 3 ATP. Since glycolysis produces two NADH per glucose, this contributes 6 ATP aerobically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-156",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student calculates anaerobic glycolysis as 8 ATP because NADH is produced at GAP dehydrogenase. What is the correction?",
+      "options": [
+        "Under anaerobic conditions, NADH is used to reduce pyruvate to lactate and does not yield respiratory-chain ATP",
+        "NADH produces 6 ATP anaerobically",
+        "Pyruvate kinase is inactive anaerobically",
+        "Anaerobic glycolysis consumes no ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anaerobic glycolysis still forms NADH, but that NADH is immediately used to regenerate NAD⁺ through lactate formation. Therefore, it does not add ATP through the respiratory chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-157",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If one glucose molecule passes through glycolysis, how many ATP are directly formed by substrate-level phosphorylation?",
+      "options": [
+        "Four ATP formed, with net two ATP after investment",
+        "Two ATP formed, with net zero",
+        "Eight ATP formed directly",
+        "Six ATP formed directly from NADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From two GAP molecules, phosphoglycerate kinase produces two ATP and pyruvate kinase produces two ATP. Since two ATP are consumed in the investment phase, the net direct ATP gain is two.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-158",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If aldolase works but phosphotriose isomerase is blocked, which product cannot efficiently enter the payoff phase?",
+      "options": [
+        "DHAP",
+        "GAP",
+        "1,3-BPG",
+        "Pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldolase produces DHAP and GAP. Only GAP proceeds directly through the payoff phase. Phosphotriose isomerase converts DHAP to GAP, so blocking it prevents full energy extraction from glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-159",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which glycolytic step is both irreversible and ATP-producing?",
+      "options": [
+        "Pyruvate kinase reaction",
+        "PFK-1 reaction",
+        "Hexokinase reaction",
+        "GAP dehydrogenase reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate kinase catalyzes irreversible conversion of PEP to pyruvate and produces ATP. Hexokinase and PFK-1 are irreversible but consume ATP, while GAP dehydrogenase produces NADH, not ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-160",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which glycolytic step is irreversible and ATP-consuming?",
+      "options": [
+        "PFK-1 reaction",
+        "Phosphoglycerate kinase reaction",
+        "Enolase reaction",
+        "Phosphoglycerate mutase reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PFK-1 uses ATP to phosphorylate fructose-6-phosphate to fructose-1,6-bisphosphate. It is irreversible and is the main rate-limiting step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-161",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Pyruvate produced in cytoplasmic glycolysis moves into mitochondria. What is its major aerobic fate before entering the TCA cycle?",
+      "options": [
+        "Conversion to acetyl-CoA by PDH complex",
+        "Conversion to lactate by lactate dehydrogenase",
+        "Conversion to glucose-6-phosphate",
+        "Conversion to fructose-2,6-bisphosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under aerobic conditions, pyruvate enters mitochondria and undergoes oxidative decarboxylation by PDH to form acetyl-CoA, which enters the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-162",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why PDH is called the link reaction?",
+      "options": [
+        "It links cytoplasmic glycolysis to mitochondrial TCA cycle by forming acetyl-CoA",
+        "It links glycolysis directly to glycogenesis",
+        "It links lactate to glucose inside RBCs",
+        "It links fructose digestion to glycogen breakdown only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PDH connects glycolysis and the TCA cycle. Pyruvate from glycolysis is converted to acetyl-CoA, the two-carbon substrate for the citric acid cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-163",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has thiamine deficiency. Which PDH component is most directly affected?",
+      "options": [
+        "E1 pyruvate decarboxylase",
+        "E2 transacetylase",
+        "E3 dehydrogenase",
+        "Lactate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E1 of PDH requires TPP, which is derived from thiamine. Thiamine deficiency can impair oxidative decarboxylation of pyruvate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-164",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Lipoic acid deficiency would most directly impair which PDH component?",
+      "options": [
+        "E2 dihydrolipoyl transacetylase",
+        "E1 pyruvate decarboxylase",
+        "E3 dihydrolipoyl dehydrogenase",
+        "Pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E2 requires lipoic acid and CoA-SH. It transfers the acetyl group to CoA to form acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-165",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "FAD or NAD deficiency would most directly affect which PDH component?",
+      "options": [
+        "E3 dihydrolipoyl dehydrogenase",
+        "E1 pyruvate decarboxylase",
+        "E2 dihydrolipoyl transacetylase",
+        "Hexokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E3 uses FAD and NAD to regenerate oxidized lipoamide and produce NADH. Therefore, FAD or NAD deficiency impairs E3 function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-166",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination correctly matches PDH enzyme components and coenzymes?",
+      "options": [
+        "E1—TPP; E2—lipoic acid and CoA; E3—FAD and NAD",
+        "E1—biotin; E2—THF; E3—B12",
+        "E1—FAD and NAD; E2—TPP; E3—CoA only",
+        "E1—CoA; E2—NAD; E3—lipoic acid only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDH complex consists of three enzymes requiring five coenzymes: TPP for E1, lipoic acid and CoA for E2, and FAD and NAD for E3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-167",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "High acetyl-CoA, NADH, and ATP levels inhibit PDH because they indicate:",
+      "options": [
+        "Energy abundance and sufficient product formation",
+        "Severe energy deficiency",
+        "Need for more acetyl-CoA formation",
+        "Complete absence of mitochondrial metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA and NADH are products of PDH-related metabolism, and ATP signals high energy status. Their rise inhibits PDH to reduce further pyruvate oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-168",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why does PDH irreversibility matter metabolically?",
+      "options": [
+        "It prevents conversion of acetyl-CoA back to pyruvate for glucose synthesis",
+        "It allows fatty acids to produce glucose efficiently",
+        "It makes glycolysis reversible from pyruvate to glucose",
+        "It converts lactate directly into acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because PDH is irreversible, acetyl-CoA cannot return to pyruvate. Therefore, acetyl-CoA from fatty acids cannot be used to form glucose through gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-169",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pyruvate fate requires biotin, ATP, CO₂, and acetyl-CoA activation?",
+      "options": [
+        "Conversion of pyruvate to oxaloacetate by pyruvate carboxylase",
+        "Conversion of pyruvate to lactate by LDH",
+        "Conversion of pyruvate to acetyl-CoA by PDH",
+        "Conversion of PEP to pyruvate by pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The alternative fates diagram shows pyruvate carboxylase converting pyruvate to oxaloacetate using ATP, CO₂, biotin, and acetyl-CoA. This links pyruvate to gluconeogenesis and anaplerotic replenishment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-170",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pyruvate fate directly links amino acid metabolism with pyruvate?",
+      "options": [
+        "Transamination between pyruvate and alanine",
+        "Reduction of pyruvate to lactate",
+        "Conversion of pyruvate to acetyl-CoA only",
+        "Conversion of pyruvate to PEP by enolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate can accept or donate amino groups through transamination, interconverting with alanine. This connects carbohydrate metabolism with amino acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-171",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In an exercising muscle with low oxygen, pyruvate mainly becomes lactate. Which enzyme and cofactor change are involved?",
+      "options": [
+        "Lactate dehydrogenase; NADH is oxidized to NAD⁺",
+        "PDH; NAD⁺ is reduced to NADH",
+        "Pyruvate kinase; ATP is consumed",
+        "Pyruvate carboxylase; biotin is released"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate dehydrogenase reduces pyruvate to lactate while oxidizing NADH back to NAD⁺. This is essential for continued anaerobic glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-172",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A liver cell receives lactate from exercising muscle. What can the liver do with lactate according to the lecture?",
+      "options": [
+        "Use it to make glucose by gluconeogenesis",
+        "Convert it directly into glycogen inside RBCs",
+        "Use it as final electron acceptor",
+        "Convert it directly into fructose-2,6-bisphosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate diffuses into blood and can reach the liver. The liver can convert lactate back into glucose through gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-173",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best distinguishes lactate formation from PDH reaction?",
+      "options": [
+        "Lactate formation is reversible and regenerates NAD⁺; PDH reaction is irreversible and forms acetyl-CoA",
+        "Lactate formation forms acetyl-CoA; PDH regenerates NAD⁺ anaerobically",
+        "Both reactions are irreversible and mitochondrial",
+        "Both reactions require the same five coenzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactate dehydrogenase interconverts pyruvate and lactate and helps regenerate NAD⁺. PDH irreversibly converts pyruvate to acetyl-CoA in mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-174",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in PDH would most likely cause pyruvate to be diverted toward:",
+      "options": [
+        "Lactate formation",
+        "Glucose-6-phosphate formation directly",
+        "Fructose-1,6-bisphosphate formation",
+        "PEP formation by pyruvate kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If pyruvate cannot efficiently become acetyl-CoA, more pyruvate may be reduced to lactate, especially when NADH/NAD⁺ balance favors it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-175",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme is not part of glycolysis but is included because it links glycolysis to further oxidation?",
+      "options": [
+        "Pyruvate dehydrogenase complex",
+        "Pyruvate kinase",
+        "Enolase",
+        "PFK-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PDH is not a glycolytic enzyme and not part of the TCA cycle. It is the link reaction converting pyruvate into acetyl-CoA for complete oxidation in the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-176",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combined condition would strongly slow both glycolysis and pyruvate oxidation?",
+      "options": [
+        "High ATP inhibiting PFK-1/pyruvate kinase and ATP inhibiting PDH",
+        "High AMP activating PFK-1 and low ATP activating PDH",
+        "Low citrate and high AMP",
+        "High fructose-2,6-bisphosphate and high ADP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High ATP indicates energy sufficiency. It inhibits glycolysis through PFK-1 and pyruvate kinase and also inhibits PDH, reducing pyruvate conversion to acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-177",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says glycolysis and gluconeogenesis can be fully active at the same time because they are opposite pathways. What is the correction?",
+      "options": [
+        "Reciprocal regulation prevents both pathways from being fully active simultaneously",
+        "Both pathways must always run maximally together",
+        "Fructose-2,6-bisphosphate activates gluconeogenesis and inhibits glycolysis",
+        "ATP activates both PFK-1 and fructose-1,6-bisphosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lecture emphasizes that fructose-2,6-bisphosphate activates glycolysis and inhibits gluconeogenesis. This avoids a futile cycle where glucose is degraded and resynthesized at the same time.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-178",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which sequence correctly traces glucose to pyruvate through the key irreversible control steps?",
+      "options": [
+        "Glucose → G6P by hexokinase/glucokinase; F6P → F1,6BP by PFK-1; PEP → pyruvate by pyruvate kinase",
+        "Glucose → F6P by PFK-1; G6P → lactate by enolase; pyruvate → acetyl-CoA by aldolase",
+        "Glucose → pyruvate by PDH; pyruvate → PEP by pyruvate kinase",
+        "Glucose → G6P by enolase; F1,6BP → pyruvate by hexokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are the three irreversible glycolytic reactions. They are important because they are major regulatory points and are bypassed by different enzymes in gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-179",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement about glycolytic regulation is most accurate?",
+      "options": [
+        "Hexokinase is inhibited by G6P, PFK-1 is inhibited by ATP/citrate and activated by AMP/F2,6BP, and pyruvate kinase is activated by F1,6BP and inhibited by ATP",
+        "Hexokinase is activated by G6P, PFK-1 is activated by ATP/citrate, and pyruvate kinase is inhibited by F1,6BP",
+        "Glucokinase is inhibited by G6P and unaffected by insulin",
+        "PFK-1 is mainly inhibited by AMP and activated by citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This combines the key regulatory diagram: hexokinase responds to product accumulation, PFK-1 responds to energy signals and fructose-2,6-bisphosphate, and pyruvate kinase is feed-forward activated by fructose-1,6-bisphosphate and inhibited by high ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-glycolysis-pyruvate-metabolism-180",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes the fate of pyruvate?",
+      "options": [
+        "Pyruvate can become lactate anaerobically, acetyl-CoA aerobically via PDH, oxaloacetate via pyruvate carboxylase, or alanine by transamination",
+        "Pyruvate has only one fate: lactate formation",
+        "Pyruvate can become glucose directly by reversing PDH",
+        "Pyruvate cannot enter mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate is a central metabolic branch point. Depending on oxygen, energy state, tissue, and metabolic need, it can support anaerobic glycolysis, aerobic oxidation, gluconeogenesis/anaplerosis, or amino acid metabolism.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
