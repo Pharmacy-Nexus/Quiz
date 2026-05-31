@@ -2,6 +2,942 @@
   "subjectId": "bio-chemictry",
   "topicId": "galactose-metabolism",
   "topicName": "Galactose Metabolism",
-  "updatedAt": "2026-05-31T23:30:48.606Z",
-  "questions": []
+  "updatedAt": "2026-05-31T23:33:19.540Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-galactose-metabolism-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The major dietary source of galactose is:",
+      "options": [
+        "Lactose in milk and milk products",
+        "Sucrose in fruits",
+        "Starch in rice",
+        "Glycogen in meat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is mainly obtained from lactose, the disaccharide found in milk and milk products. Lactose digestion releases glucose and galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first step of galactose metabolism is:",
+      "options": [
+        "Phosphorylation of galactose to galactose-1-phosphate",
+        "Conversion of galactose to fructose-1-phosphate",
+        "Conversion of galactose to lactate",
+        "Oxidation of galactose to UDP-glucuronate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is first phosphorylated to galactose-1-phosphate. This traps galactose inside the cell and prepares it for further metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that phosphorylates galactose is:",
+      "options": [
+        "Galactokinase",
+        "Glucokinase",
+        "Aldolase B",
+        "UDP-glucose dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactokinase catalyzes the ATP-dependent conversion of galactose into galactose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Galactokinase uses:",
+      "options": [
+        "ATP",
+        "UTP",
+        "NADPH",
+        "FAD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phosphorylation of galactose requires ATP. ATP donates the phosphate group to form galactose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Galactose-1-phosphate reacts with UDP-glucose through which enzyme?",
+      "options": [
+        "Galactose-1-phosphate uridyltransferase",
+        "UDP-galactose-4-epimerase",
+        "Phosphoglucomutase",
+        "Sorbitol dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose-1-phosphate uridyltransferase, or GALT, catalyzes the exchange reaction between galactose-1-phosphate and UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The abbreviation GALT refers to:",
+      "options": [
+        "Galactose-1-phosphate uridyltransferase",
+        "Glucose-6-phosphate aldolase",
+        "Galactose aldose lactonase transferase",
+        "Glyceraldehyde-3-phosphate transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT is the key enzyme that converts galactose-1-phosphate into glucose-1-phosphate while forming UDP-galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The GALT reaction produces:",
+      "options": [
+        "Glucose-1-phosphate and UDP-galactose",
+        "Glucose-6-phosphate and UDP-glucuronate",
+        "Fructose-1-phosphate and DHAP",
+        "Lactate and NADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT transfers UDP from UDP-glucose to galactose-1-phosphate. The products are glucose-1-phosphate and UDP-galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-galactose is important because it serves as a galactose donor for synthesis of:",
+      "options": [
+        "Lactose, glycoproteins, and glycolipids",
+        "Ketone bodies only",
+        "Urea only",
+        "Fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose is the activated donor form of galactose. It is used in synthesis of lactose, glycoproteins, and glycolipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-galactose can be converted to UDP-glucose by:",
+      "options": [
+        "UDP-galactose-4-epimerase",
+        "Galactokinase",
+        "Glucose-6-phosphatase",
+        "Aldose reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose-4-epimerase converts UDP-galactose to UDP-glucose by changing the configuration at carbon 4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-galactose-4-epimerase is also called:",
+      "options": [
+        "GALE",
+        "GALT",
+        "GALK",
+        "GLUT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALE stands for UDP-galactose-4-epimerase. It interconverts UDP-galactose and UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucose-1-phosphate is converted to glucose-6-phosphate by:",
+      "options": [
+        "Phosphoglucomutase",
+        "Galactokinase",
+        "GALT",
+        "GALE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase converts glucose-1-phosphate into glucose-6-phosphate. This allows galactose carbon to enter glycolysis, glycogenesis, or other glucose pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucose-6-phosphate formed from galactose metabolism can enter:",
+      "options": [
+        "Glycolysis",
+        "Beta-oxidation directly",
+        "Urea cycle directly",
+        "Heme degradation directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once galactose is converted to glucose-6-phosphate, it can enter glycolysis for energy production or other glucose metabolic pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "UDP-glucose formed from UDP-galactose can be used for:",
+      "options": [
+        "Glycogenesis",
+        "Ketogenesis only",
+        "Lactate oxidation only",
+        "Urea synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose is the activated glucose donor used in glycogen synthesis. The pathway diagram shows UDP-glucose linked to glycogen formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In the absence of dietary galactose, UDP-galactose can still be formed from:",
+      "options": [
+        "UDP-glucose",
+        "Lactate",
+        "Acetyl-CoA",
+        "Sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that even without dietary galactose, UDP-galactose requirements can be met by epimerase acting on UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Galactose metabolism connects dietary galactose to glucose metabolism mainly through formation of:",
+      "options": [
+        "Glucose-1-phosphate and glucose-6-phosphate",
+        "Acetyl-CoA and ketone bodies",
+        "Sorbitol and fructose",
+        "Bilirubin and glucuronide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is converted to galactose-1-phosphate, then through GALT to glucose-1-phosphate, which becomes glucose-6-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes the main pathway of galactose metabolism?",
+      "options": [
+        "Galactose → galactose-1-P → glucose-1-P → glucose-6-P",
+        "Galactose → fructose-1-P → DHAP → pyruvate",
+        "Galactose → sorbitol → fructose → glycerol",
+        "Galactose → UDP-glucuronate → bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is phosphorylated by galactokinase to galactose-1-phosphate. GALT then forms glucose-1-phosphate, which phosphoglucomutase converts to glucose-6-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is catalyzed by GALT?",
+      "options": [
+        "Galactose-1-P + UDP-glucose → glucose-1-P + UDP-galactose",
+        "Galactose + ATP → galactose-1-P",
+        "UDP-galactose → UDP-glucose only",
+        "Glucose-1-P → glucose-6-P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT catalyzes an exchange reaction. UDP is transferred from UDP-glucose to galactose-1-phosphate, forming UDP-galactose and glucose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme directly forms galactose-1-phosphate?",
+      "options": [
+        "Galactokinase",
+        "GALT",
+        "GALE",
+        "Phosphoglucomutase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactokinase is responsible for the first step of galactose metabolism. It uses ATP to phosphorylate galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme directly forms glucose-1-phosphate from galactose-1-phosphate?",
+      "options": [
+        "GALT",
+        "Galactokinase",
+        "GALE",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT converts galactose-1-phosphate into glucose-1-phosphate through reaction with UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme directly regenerates UDP-glucose from UDP-galactose?",
+      "options": [
+        "UDP-galactose-4-epimerase",
+        "Galactokinase",
+        "Phosphoglucomutase",
+        "Fructokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose-4-epimerase converts UDP-galactose back to UDP-glucose. This maintains UDP-glucose availability for continued galactose metabolism and glycogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is UDP-glucose required in galactose metabolism?",
+      "options": [
+        "It provides the UDP group needed for conversion of galactose-1-P to UDP-galactose",
+        "It directly phosphorylates galactose",
+        "It converts glucose-6-P to glucose",
+        "It reduces galactose to sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT uses UDP-glucose as a co-substrate. UDP-glucose gives the UDP group to galactose-1-phosphate, producing UDP-galactose and glucose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "UDP-galactose is useful in structural carbohydrate synthesis because it donates galactose for:",
+      "options": [
+        "Glycoproteins and glycolipids",
+        "Ketone bodies and fatty acids",
+        "Lactate and pyruvate",
+        "Bilirubin and bile acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is an important component of cell structural carbohydrates. UDP-galactose donates galactose units for glycoproteins and glycolipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of galactose metabolism can enter glycogen metabolism?",
+      "options": [
+        "UDP-glucose",
+        "Lactate",
+        "Sorbitol",
+        "Acetyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose can be epimerized to UDP-glucose. UDP-glucose is used in glycogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product of galactose metabolism can enter glycolysis after conversion?",
+      "options": [
+        "Glucose-6-phosphate",
+        "UDP-galactose directly",
+        "Lactose directly",
+        "Glycolipid directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose-1-phosphate formed by GALT is converted to glucose-6-phosphate by phosphoglucomutase. G6P can then enter glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why galactose can support energy metabolism?",
+      "options": [
+        "It can be converted to glucose-6-phosphate, which enters glycolysis",
+        "It directly enters TCA cycle as citrate",
+        "It directly produces acetyl-CoA without glycolysis",
+        "It cannot be metabolized after absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose is not wasted after absorption. It is metabolically converted into glucose-derived intermediates that can enter energy pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why galactose is important beyond energy production?",
+      "options": [
+        "It is used in lactose, glycoprotein, and glycolipid synthesis",
+        "It is only oxidized to CO₂",
+        "It only produces lactate",
+        "It only forms ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file emphasizes that galactose contributes to structural carbohydrates. UDP-galactose is a donor for lactose, glycoproteins, and glycolipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about dietary galactose absence is correct?",
+      "options": [
+        "UDP-galactose can still be made from UDP-glucose by epimerase",
+        "UDP-galactose can no longer be formed at all",
+        "Lactose synthesis becomes completely impossible in all tissues",
+        "Galactose must be produced from sorbitol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that in the absence of dietary galactose, UDP-galactose requirements can be met by epimerase action on UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme allows conversion between UDP-glucose and UDP-galactose?",
+      "options": [
+        "UDP-galactose-4-epimerase",
+        "Galactokinase",
+        "GALT",
+        "Triose kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALE allows interconversion between UDP-glucose and UDP-galactose by epimerization at carbon 4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes UDP-galactose-4-epimerase?",
+      "options": [
+        "It makes UDP-glucose from UDP-galactose and can also help form UDP-galactose from UDP-glucose",
+        "It phosphorylates free galactose",
+        "It cleaves lactose in intestine",
+        "It converts glucose-6-P into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reaction is reversible. This is important because UDP-galactose can be produced from glucose-derived UDP-glucose even without dietary galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway intermediate is shared by galactose metabolism and glycogen metabolism?",
+      "options": [
+        "Glucose-1-phosphate",
+        "Fructose-1-phosphate",
+        "Sorbitol",
+        "Ribulose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose metabolism produces glucose-1-phosphate. Glucose-1-phosphate is also an important intermediate in glycogen metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme links glucose-1-phosphate to glucose-6-phosphate?",
+      "options": [
+        "Phosphoglucomutase",
+        "Galactokinase",
+        "Aldolase B",
+        "UDP-glucose dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase interconverts G1P and G6P, connecting galactose metabolism with glycolysis and glycogen metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway can use glucose-6-phosphate derived from galactose?",
+      "options": [
+        "Glycolysis",
+        "Fructose-specific metabolism only",
+        "Urea cycle only",
+        "Heme degradation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G6P is a central carbohydrate intermediate. After galactose is converted to G6P, it can enter glycolysis or other pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In liver, glucose-6-phosphate from galactose metabolism may be converted to free glucose by:",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Galactokinase",
+        "GALE",
+        "GALT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway diagram shows glucose-6-phosphate can be converted to free glucose through glucose-6-phosphatase in tissues that contain this enzyme, especially liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly describes the relationship between galactose and lactose?",
+      "options": [
+        "Dietary lactose provides galactose, and UDP-galactose can be used for lactose synthesis",
+        "Lactose is formed from acetyl-CoA only",
+        "Galactose cannot be derived from lactose",
+        "UDP-glucose is unrelated to lactose synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactose digestion provides galactose. Conversely, UDP-galactose is used as a galactose donor in lactose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes galactose metabolism as shown in the diagram?",
+      "options": [
+        "It connects galactose to glucose metabolism and to structural carbohydrate synthesis",
+        "It only produces ATP directly",
+        "It only occurs in mitochondria",
+        "It converts galactose directly to fatty acids without intermediates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pathway shows galactose becoming glucose-1-phosphate/glucose-6-phosphate for glucose pathways and UDP-galactose for lactose, glycoproteins, and glycolipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step in galactose metabolism consumes ATP?",
+      "options": [
+        "Galactose → galactose-1-phosphate",
+        "Galactose-1-P + UDP-glucose → glucose-1-P + UDP-galactose",
+        "UDP-galactose → UDP-glucose",
+        "Glucose-1-P → glucose-6-P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactokinase uses ATP to phosphorylate galactose. The other listed reactions use different mechanisms and do not represent the ATP-consuming phosphorylation step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step in galactose metabolism is an exchange reaction?",
+      "options": [
+        "Galactose-1-P + UDP-glucose → glucose-1-P + UDP-galactose",
+        "Galactose → galactose-1-P",
+        "Glucose-1-P → glucose-6-P",
+        "UDP-galactose → lactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The GALT reaction is an exchange reaction. Galactose-1-phosphate receives UDP from UDP-glucose, forming UDP-galactose and glucose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step in galactose metabolism is an epimerization reaction?",
+      "options": [
+        "UDP-galactose → UDP-glucose",
+        "Galactose → galactose-1-P",
+        "Glucose-1-P → glucose-6-P",
+        "Glucose-6-P → glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose-4-epimerase changes UDP-galactose into UDP-glucose by epimerization at carbon 4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule serves as the UDP donor in the GALT reaction?",
+      "options": [
+        "UDP-glucose",
+        "UDP-glucuronate",
+        "UDP-fructose",
+        "UTP directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-glucose donates the UDP group to galactose-1-phosphate, forming UDP-galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Galactose is phosphorylated to Gal-1-P, converted by GALT with UDP-glucose to G1P and UDP-galactose, then linked to G6P and UDP-glucose pathways",
+        "Galactose is directly converted to fructose-1-P by fructokinase",
+        "Galactose is metabolized only by the polyol pathway",
+        "Galactose cannot contribute to structural carbohydrates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the central logic of galactose metabolism. It connects dietary galactose to glucose metabolism, glycogen metabolism, and synthesis of galactose-containing molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in galactokinase would most directly decrease formation of:",
+      "options": [
+        "Galactose-1-phosphate",
+        "UDP-galactose from galactose-1-phosphate",
+        "Glucose-1-phosphate from GALT",
+        "Glucose-6-phosphate from glucose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactokinase catalyzes the first step of galactose metabolism. If it is defective, galactose cannot be efficiently phosphorylated to galactose-1-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in GALT would most directly impair which reaction?",
+      "options": [
+        "Galactose-1-P + UDP-glucose → glucose-1-P + UDP-galactose",
+        "Galactose → galactose-1-P",
+        "UDP-galactose → UDP-glucose",
+        "Glucose-1-P → glucose-6-P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT catalyzes the uridyltransferase exchange reaction. A defect would block conversion of galactose-1-phosphate into glucose-1-phosphate and UDP-galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in UDP-galactose-4-epimerase would most directly impair:",
+      "options": [
+        "Interconversion between UDP-galactose and UDP-glucose",
+        "Phosphorylation of galactose",
+        "Conversion of glucose-1-P to glucose-6-P",
+        "Hydrolysis of lactose in intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALE converts UDP-galactose to UDP-glucose and can also help form UDP-galactose from UDP-glucose. A defect affects this reversible epimerization step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If phosphoglucomutase is impaired, which conversion in galactose metabolism is directly affected?",
+      "options": [
+        "Glucose-1-phosphate to glucose-6-phosphate",
+        "Galactose to galactose-1-phosphate",
+        "UDP-galactose to UDP-glucose",
+        "Galactose-1-phosphate to UDP-galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphoglucomutase links G1P to G6P. If impaired, galactose-derived G1P cannot efficiently enter glycolysis as G6P.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell has no dietary galactose available but still needs UDP-galactose for glycoprotein synthesis. Which enzyme allows this?",
+      "options": [
+        "UDP-galactose-4-epimerase",
+        "Galactokinase",
+        "Aldolase B",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that dietary galactose is not strictly required to meet UDP-galactose needs, because epimerase can form UDP-galactose from UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which outcome best follows impaired GALT activity?",
+      "options": [
+        "Reduced formation of glucose-1-phosphate from galactose-1-phosphate",
+        "Increased conversion of galactose directly to glucose-6-phosphate",
+        "Increased fructose-1-phosphate production",
+        "Direct conversion of galactose to sorbitol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT normally converts galactose-1-phosphate into glucose-1-phosphate through reaction with UDP-glucose. Impairment reduces this flow into glucose metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule links galactose metabolism to glycogen synthesis?",
+      "options": [
+        "UDP-glucose",
+        "Lactate",
+        "Sorbitol",
+        "Fructose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose can be epimerized to UDP-glucose. UDP-glucose is the activated glucose donor for glycogen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule links galactose metabolism to glycolysis?",
+      "options": [
+        "Glucose-6-phosphate",
+        "UDP-galactose directly",
+        "Lactose directly",
+        "Glycolipid directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactose metabolism produces glucose-1-phosphate, which phosphoglucomutase converts to glucose-6-phosphate. G6P can enter glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why UDP-galactose is metabolically valuable?",
+      "options": [
+        "It donates galactose units for lactose, glycoprotein, and glycolipid synthesis",
+        "It is the main ATP donor in cells",
+        "It directly releases free glucose into blood",
+        "It is used only for ketone body synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UDP-galactose is an activated sugar nucleotide. It is useful because enzymes can transfer galactose from UDP-galactose into biosynthetic products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates galactokinase and GALT?",
+      "options": [
+        "Galactokinase phosphorylates free galactose; GALT transfers UDP from UDP-glucose to galactose-1-P",
+        "Galactokinase converts UDP-galactose to UDP-glucose; GALT phosphorylates glucose",
+        "Both enzymes perform the same reaction",
+        "Galactokinase forms glucose-6-P directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galactokinase is the first kinase step. GALT is the uridyltransferase exchange step that produces glucose-1-phosphate and UDP-galactose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-051",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates GALT and GALE?",
+      "options": [
+        "GALT forms UDP-galactose from Gal-1-P and UDP-glucose; GALE interconverts UDP-galactose and UDP-glucose",
+        "GALT phosphorylates galactose; GALE converts G1P to G6P",
+        "Both enzymes only form lactose",
+        "GALT is the same enzyme as phosphoglucomutase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT performs the transferase exchange reaction. GALE performs reversible epimerization between UDP-galactose and UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-052",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A student says galactose metabolism only matters after eating galactose. What is the best correction?",
+      "options": [
+        "UDP-galactose can also be produced from UDP-glucose when dietary galactose is absent",
+        "Galactose metabolism is unrelated to biosynthesis",
+        "UDP-galactose cannot be made without milk intake",
+        "Galactose has no structural role"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file clearly states that in the absence of dietary galactose, UDP-galactose needs can be met by epimerase acting on UDP-glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-053",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated defect would most directly reduce both UDP-galactose availability and glucose-1-phosphate formation from dietary galactose?",
+      "options": [
+        "GALT deficiency",
+        "GALE deficiency only",
+        "Phosphoglucomutase deficiency only",
+        "Glucose-6-phosphatase deficiency only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GALT produces both glucose-1-phosphate and UDP-galactose from galactose-1-phosphate and UDP-glucose. A defect blocks both products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-054",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best explains how galactose can contribute to both energy and biosynthesis?",
+      "options": [
+        "Galactose forms G1P/G6P for energy pathways and UDP-galactose for lactose/glycoprotein/glycolipid synthesis",
+        "Galactose only forms lactate and cannot be used structurally",
+        "Galactose directly forms acetyl-CoA and ketone bodies",
+        "Galactose only enters the polyol pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the key integrated concept. Galactose metabolism creates glucose pathway intermediates for energy and activated galactose donors for biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-galactose-metabolism-055",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes galactose metabolism?",
+      "options": [
+        "Dietary galactose from lactose is phosphorylated by galactokinase, converted by GALT with UDP-glucose to G1P and UDP-galactose, and linked by GALE/phosphoglucomutase to UDP-glucose and G6P pathways",
+        "Galactose is mainly converted to fructose by aldose reductase and sorbitol dehydrogenase",
+        "Galactose metabolism occurs only through fructokinase and aldolase B",
+        "Galactose cannot be used for lactose, glycoproteins, or glycolipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the full pathway. Galactose metabolism connects dietary lactose-derived galactose to glucose metabolism, glycogen synthesis, lactose synthesis, glycoproteins, and glycolipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
