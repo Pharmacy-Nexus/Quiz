@@ -288,6 +288,21 @@
       },
       "questionsCount": 80,
       "file": "data/bio-chemictry/fructose-metabolism-polyol-pathway.json"
+    },
+    {
+      "id": "sources-fate-of-blood-glucose-hormonal-regulation",
+      "name": "Sources & Fate of Blood Glucose + Hormonal Regulation",
+      "description": "",
+      "order": 7,
+      "section": "Carbohydrate",
+      "sectionId": "carbohydrate",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/sources-fate-of-blood-glucose-hormonal-regulation.json"
     }
   ],
   "sections": [
