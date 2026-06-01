@@ -101,24 +101,34 @@ async function initNexusStudyCore(root) {
   coreGroup.add(glow);
 
   const ringBase = new THREE.Mesh(
-    new THREE.RingGeometry(2.08, 2.12, 96),
+    new THREE.RingGeometry(2.1, 2.16, 96),
     new THREE.MeshBasicMaterial({
       color: cyan,
       transparent: true,
-      opacity: 0.18,
+      opacity: 0.28,
       side: THREE.DoubleSide
     })
   );
   const ringProgress = new THREE.Mesh(
-    new THREE.RingGeometry(2.04, 2.16, 96, 1, -0.8, Math.PI * 1.45),
+    new THREE.RingGeometry(2.02, 2.24, 96, 1, -0.8, Math.PI * 1.45),
     new THREE.MeshBasicMaterial({
       color: gold,
       transparent: true,
-      opacity: 0.7,
+      opacity: 0.88,
       side: THREE.DoubleSide
     })
   );
-  coreGroup.add(ringBase, ringProgress);
+  const ringHalo = new THREE.Mesh(
+    new THREE.RingGeometry(1.92, 2.34, 96),
+    new THREE.MeshBasicMaterial({
+      color: cyan,
+      transparent: true,
+      opacity: 0.07,
+      side: THREE.DoubleSide,
+      blending: THREE.AdditiveBlending
+    })
+  );
+  coreGroup.add(ringHalo, ringBase, ringProgress);
 
   const orbitMaterial = new THREE.MeshBasicMaterial({
     color: cyan,
@@ -159,23 +169,25 @@ async function initNexusStudyCore(root) {
   });
 
   const labels = [
-    ['Clinical', -2.35, 1.08, 0.15],
-    ['Practice', 2.35, 0.8, -0.1],
-    ['Recall', -2.08, -1.16, 0.2],
-    ['Final Exam', 2.05, -1.12, 0.05]
+    { label: 'Clinical', x: -2.32, y: 1.12, z: 0.15, width: 1.22, height: 0.5 },
+    { label: 'Practice', x: 2.28, y: 0.94, z: -0.08, width: 1.28, height: 0.5 },
+    { label: 'Recall', x: -2.04, y: -1.12, z: 0.18, width: 1.12, height: 0.5 },
+    { label: 'Final Exam', x: 2.06, y: -1.1, z: 0.05, width: 1.48, height: 0.52, gold: true },
+    { label: "Today's Mission", subtitle: '12 weak Qs', x: 2.18, y: -0.12, z: 0.34, width: 1.72, height: 0.62, dark: true },
+    { label: 'Saved Mistakes', subtitle: 'Antibiotics', x: -2.18, y: 0.02, z: 0.28, width: 1.64, height: 0.62, dark: true, gold: true }
   ];
-  const cards = labels.map(([label, x, y, z], index) => {
-    const texture = makeCardTexture(THREE, label, index === 3);
+  const cards = labels.map((item, index) => {
+    const texture = makeCardTexture(THREE, item.label, item);
     const card = new THREE.Mesh(
-      new THREE.PlaneGeometry(index === 3 ? 1.52 : 1.28, 0.54),
+      new THREE.PlaneGeometry(item.width, item.height),
       new THREE.MeshBasicMaterial({
         map: texture,
         transparent: true,
         depthWrite: false
       })
     );
-    card.position.set(x, y, z);
-    card.userData = { baseY: y, phase: index * 1.4 };
+    card.position.set(item.x, item.y, item.z);
+    card.userData = { baseY: item.y, phase: index * 1.4 };
     cardGroup.add(card);
     return card;
   });
@@ -266,7 +278,7 @@ async function initNexusStudyCore(root) {
   animate();
 }
 
-function makeCardTexture(THREE, label, isGold) {
+function makeCardTexture(THREE, label, options = {}) {
   const canvas = document.createElement('canvas');
   canvas.width = 512;
   canvas.height = 216;
@@ -285,17 +297,25 @@ function makeCardTexture(THREE, label, isGold) {
   ctx.lineTo(18, radius);
   ctx.quadraticCurveTo(18, 18, radius, 18);
   ctx.closePath();
-  ctx.fillStyle = isGold ? 'rgba(255,224,136,0.92)' : 'rgba(255,255,255,0.92)';
+  ctx.fillStyle = options.dark ? 'rgba(0,21,27,0.78)' : options.gold ? 'rgba(255,224,136,0.92)' : 'rgba(255,255,255,0.92)';
   ctx.fill();
-  ctx.strokeStyle = isGold ? 'rgba(255,255,255,0.58)' : 'rgba(155,217,234,0.45)';
+  ctx.strokeStyle = options.gold ? 'rgba(255,224,136,0.55)' : 'rgba(155,217,234,0.45)';
   ctx.lineWidth = 3;
   ctx.stroke();
 
-  ctx.fillStyle = isGold ? '#4e3d00' : '#00151b';
-  ctx.font = '900 46px Manrope, Arial, sans-serif';
+  ctx.fillStyle = options.dark ? '#ffffff' : options.gold ? '#4e3d00' : '#00151b';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(label.toUpperCase(), canvas.width / 2, canvas.height / 2 + 2);
+  if (options.subtitle) {
+    ctx.font = '900 30px Manrope, Arial, sans-serif';
+    ctx.fillText(label.toUpperCase(), canvas.width / 2, canvas.height / 2 - 16);
+    ctx.fillStyle = options.gold ? '#ffe088' : '#9bd9ea';
+    ctx.font = '800 24px Manrope, Arial, sans-serif';
+    ctx.fillText(options.subtitle.toUpperCase(), canvas.width / 2, canvas.height / 2 + 26);
+  } else {
+    ctx.font = `900 ${label.length > 12 ? 35 : 46}px Manrope, Arial, sans-serif`;
+    ctx.fillText(label.toUpperCase(), canvas.width / 2, canvas.height / 2 + 2);
+  }
 
   const texture = new THREE.CanvasTexture(canvas);
   texture.colorSpace = THREE.SRGBColorSpace;
