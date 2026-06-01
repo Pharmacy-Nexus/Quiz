@@ -1,4 +1,5 @@
-
+/* Pharmacy Nexus — Global Homepage V7
+   Design-only layer. Keeps the original app logic untouched. */
 :root{
   --pn-ink:#00151b;
   --pn-ink-2:#062c35;
@@ -120,3 +121,59 @@ html.dark body{background:#0c1215!important;}html.dark .pn-v6-shell:before{opaci
 @media (max-width:820px){.pn-nexus-core{min-height:410px}.pn-nexus-card{font-size:10px;padding:9px 12px}.pn-nexus-metrics{grid-template-columns:repeat(2,1fr);bottom:0}.pn-nexus-metrics div{padding:9px 8px}}
 @media (max-width:520px){.pn-v6-shell{padding:10px}.pn-v6-hero{padding:22px}.pn-v6-hero h1{font-size:34px;line-height:1.04}.pn-v6-lead{font-size:14px;line-height:1.65}.pn-v6-btn{width:100%;min-height:46px}.pn-v6-proof-row div{width:100%;justify-content:space-between}.pn-v6-stat-strip article{padding:14px}.pn-v6-product-stage{min-height:370px}.pn-v6-dashboard-grid{gap:10px;padding:11px}.pn-v6-score-card strong{font-size:32px}.pn-v6-panel-head{flex-direction:column}.pn-v6-panel-head button{width:100%}.pn-v6-command-card,.pn-v6-feature-card,.pn-v6-steps article{padding:20px}.pn-v6-daily-actions .pn-v6-btn{width:auto;min-width:140px}.pn-v6-daily-meta span{max-width:100%;overflow-wrap:anywhere}.pn-nexus-core{min-height:360px}.pn-nexus-pill{width:148px;height:62px}.pn-nexus-ring{width:min(82%,270px)}.pn-nexus-card-clinical{left:2%;top:16%}.pn-nexus-card-practice{right:2%;top:21%}.pn-nexus-card-recall{left:3%;bottom:25%}.pn-nexus-card-final{right:2%;bottom:22%}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.pn-reveal{opacity:1!important;transform:none!important}.pn-v6-dashboard-3d{transform:none!important}.pn-nexus-canvas{display:none!important}.pn-nexus-fallback{opacity:1!important;visibility:visible!important}}
+
+/* Nexus Study Core refinements */
+.pn-v6-hero{grid-template-columns:minmax(0,.9fr) minmax(430px,1.1fr);gap:clamp(34px,4.4vw,58px);align-items:center;margin-bottom:32px;padding:clamp(38px,5vw,64px) clamp(34px,5vw,62px) clamp(44px,5vw,68px);background:linear-gradient(135deg,#001018 0%,#001b25 46%,#062f38 100%);}
+.pn-v6-hero-copy{max-width:555px;}
+.pn-v6-hero h1{max-width:575px;font-size:clamp(42px,4.7vw,68px);letter-spacing:-.055em;}
+.pn-v6-lead{max-width:535px;color:rgba(255,255,255,.78);}
+.pn-v6-actions{margin-top:26px;}
+.pn-v6-proof-row{margin-top:24px;}
+.pn-v6-stat-strip{margin-block:30px 66px;}
+.pn-nexus-core{min-height:470px;border-radius:32px;background:radial-gradient(circle at 52% 42%,rgba(155,217,234,.2),transparent 48%),linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01));box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);}
+.pn-nexus-core:after{content:"";position:absolute;left:10%;right:8%;bottom:11%;height:1px;background:linear-gradient(90deg,transparent,rgba(155,217,234,.42),rgba(255,224,136,.32),transparent);opacity:.85;}
+.pn-nexus-ring{width:min(82%,360px);filter:drop-shadow(0 0 34px rgba(155,217,234,.24)) drop-shadow(0 0 18px rgba(255,224,136,.12));}
+.pn-nexus-ring:after{inset:13px;background:radial-gradient(circle at 50% 48%,#062b34 0 38%,#00151b 72%);border-color:rgba(155,217,234,.18);}
+.pn-nexus-pill{width:188px;height:76px;box-shadow:0 32px 78px rgba(0,0,0,.36),0 0 48px rgba(155,217,234,.24),inset 0 1px 0 rgba(255,255,255,.9);}
+.pn-nexus-card{border-radius:14px;background:rgba(255,255,255,.88);box-shadow:0 18px 40px rgba(0,0,0,.16);font-size:10px;}
+.pn-nexus-card-clinical{left:9%;top:19%;}
+.pn-nexus-card-practice{right:9%;top:20%;}
+.pn-nexus-card-recall{left:13%;bottom:26%;}
+.pn-nexus-card-final{right:10%;bottom:25%;}
+.pn-nexus-insight{position:absolute;z-index:5;max-width:190px;padding:13px 15px;border-radius:18px;background:rgba(0,21,27,.66);border:1px solid rgba(155,217,234,.18);box-shadow:0 20px 46px rgba(0,0,0,.24);backdrop-filter:blur(16px);}
+.pn-nexus-insight span{display:block;margin-bottom:5px;color:#9bd9ea;font-size:8.5px;font-weight:950;letter-spacing:.16em;text-transform:uppercase;}
+.pn-nexus-insight strong{display:block;color:#fff;font-size:12px;font-weight:900;line-height:1.25;}
+.pn-nexus-mission{right:4%;top:42%;}
+.pn-nexus-weak{left:5%;top:45%;border-color:rgba(255,224,136,.2);}
+.pn-nexus-weak span{color:#ffe088;}
+.pn-nexus-metrics{bottom:12px;width:min(92%,410px);}
+
+@media (max-width:1180px){
+  .pn-v6-hero{grid-template-columns:1fr;gap:28px;}
+  .pn-v6-hero-copy{max-width:680px;}
+  .pn-nexus-core{min-height:430px;}
+}
+@media (max-width:820px){
+  .pn-v6-hero{padding:28px 24px 34px;margin-bottom:28px;}
+  .pn-v6-hero h1{font-size:clamp(33px,8vw,46px);line-height:1.05;}
+  .pn-v6-lead{font-size:14px;line-height:1.62;}
+  .pn-nexus-core{min-height:335px;border-radius:26px;}
+  .pn-nexus-ring{width:min(74%,270px);}
+  .pn-nexus-pill{width:146px;height:60px;}
+  .pn-nexus-insight{display:none;}
+  .pn-nexus-card{font-size:9px;padding:8px 10px;}
+  .pn-nexus-card-recall{display:none;}
+  .pn-nexus-card-clinical{left:5%;top:18%;}
+  .pn-nexus-card-practice{right:5%;top:18%;}
+  .pn-nexus-card-final{right:6%;bottom:27%;}
+  .pn-nexus-metrics{grid-template-columns:repeat(2,1fr);bottom:0;width:min(96%,360px);}
+  .pn-v6-stat-strip{margin-block:26px 58px;}
+}
+@media (max-width:520px){
+  .pn-v6-hero{padding:24px 20px 30px;border-radius:26px;}
+  .pn-v6-hero h1{font-size:32px;letter-spacing:-.04em;}
+  .pn-nexus-core{min-height:300px;}
+  .pn-nexus-card-clinical,.pn-nexus-card-practice{display:none;}
+  .pn-nexus-card-final{right:50%;bottom:26%;transform:translateX(50%);}
+  .pn-nexus-metrics div{padding:8px 7px;}
+}
