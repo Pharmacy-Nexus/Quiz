@@ -329,9 +329,9 @@
       "difficultyBreakdown": {
         "easy": 30,
         "medium": 60,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 90,
+      "questionsCount": 120,
       "file": "data/bio-chemictry/fatty-acids-triacylglycerol-metabolism.json"
     }
   ],
@@ -373,5 +373,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-05T14:59:33.002Z"
+  "updatedAt": "2026-06-05T15:03:51.552Z"
 }
