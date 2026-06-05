@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T03:40:43.044Z",
+  "updatedAt": "2026-06-05T03:44:03.082Z",
   "subjects": [
     {
       "id": "pharmacology",
@@ -43,7 +43,7 @@
       "theme": "primary",
       "order": 1,
       "topicsCount": 21,
-      "questionsCount": 2616,
+      "questionsCount": 2676,
       "file": "data/bio-chemictry/meta.json"
     }
   ]
