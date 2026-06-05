@@ -573,8 +573,8 @@ tailwind.config = {
           <span class="material-symbols-outlined">verified</span>
           Clinical Mastery Suite
         </div>
-        <h1 id="pn-v6-title">Your next pharmacy study move is already clear.</h1>
-        <p class="pn-v6-lead">Practice high-yield questions, rescue weak topics, review saved mistakes, and walk into exams with a real plan.</p>
+        <h1 id="pn-v6-title">Study smarter. Review faster. Walk into pharmacy exams ready.</h1>
+        <p class="pn-v6-lead">A focused exam-prep platform for future pharmacists — clear modules, high-yield question sets, saved pearls, and progress signals that tell you exactly what to do next.</p>
         <div class="pn-v6-actions">
           <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary">
             Explore Subjects <span class="material-symbols-outlined">arrow_forward</span>
@@ -590,25 +590,54 @@ tailwind.config = {
         </div>
       </div>
 
-      <div class="pn-nexus-core" data-nexus-core aria-label="Animated Nexus Study Core">
-        <div class="pn-nexus-canvas" data-nexus-canvas aria-hidden="true"></div>
-        <div class="pn-nexus-fallback" data-nexus-fallback>
-          <div class="pn-nexus-ring" aria-hidden="true"></div>
-          <div class="pn-nexus-pill" aria-hidden="true">
-            <span></span>
+      <div class="pn-v6-product-stage" aria-label="Pharmacy Nexus dashboard preview">
+        <div class="pn-v6-stage-glow"></div>
+        <div class="pn-v6-dashboard-3d" data-tilt-card>
+          <div class="pn-v6-browser-bar">
+            <div><span></span><span></span><span></span></div>
+            <p>Pharmacy Nexus Command Center</p>
           </div>
-          <div class="pn-nexus-card pn-nexus-card-clinical">Clinical</div>
-          <div class="pn-nexus-card pn-nexus-card-practice">Practice</div>
-          <div class="pn-nexus-card pn-nexus-card-recall">Recall</div>
-          <div class="pn-nexus-card pn-nexus-card-final">Final Exam</div>
-          <div class="pn-nexus-insight pn-nexus-mission"><span>Today's Mission</span><strong>Rescue 12 weak questions</strong></div>
-          <div class="pn-nexus-insight pn-nexus-weak"><span>Saved Mistakes</span><strong>Antibiotics review</strong></div>
-          <div class="pn-nexus-metrics" aria-label="Study progress snapshot">
-            <div><span>Readiness</span><strong id="home-accuracy">6%</strong></div>
-            <div><span>Saved</span><strong id="home-saved-count">12</strong></div>
-            <div><span>Notes</span><strong id="home-notes-count">4</strong></div>
-            <div><span>Exams</span><strong id="home-final-exams-count">2</strong></div>
+          <div class="pn-v6-dashboard-grid">
+            <div class="pn-v6-panel pn-v6-panel-main">
+              <div class="pn-v6-panel-head">
+                <div>
+                  <span>Next Best Action</span>
+                  <h3>Review Antibiotics</h3>
+                </div>
+                <button onclick="navigateTo('study')">Resume</button>
+              </div>
+              <div class="pn-v6-question-card">
+                <span class="material-symbols-outlined">psychology_alt</span>
+                <p>Which mechanism best explains the interaction between linezolid and SSRIs?</p>
+              </div>
+              <div class="pn-v6-mini-bars"><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-score-card">
+              <span>Readiness</span>
+              <strong id="home-accuracy">6%</strong>
+              <div class="pn-v6-ring"><b></b></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-saved-card" onclick="navigateTo('saved')" role="button" tabindex="0">
+              <span class="material-symbols-outlined">bookmark</span>
+              <div><strong id="home-saved-count">12</strong><p>Saved Qs</p></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-note-card" onclick="navigateTo('saved')" role="button" tabindex="0">
+              <span class="material-symbols-outlined">edit_note</span>
+              <div><strong id="home-notes-count">4</strong><p>Notes</p></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-exam-card" onclick="navigateTo('dashboard')" role="button" tabindex="0">
+              <span>Final Exams</span>
+              <strong id="home-final-exams-count">2</strong>
+            </div>
           </div>
+        </div>
+        <div class="pn-v6-float-card pn-v6-float-one" data-float-card>
+          <span class="material-symbols-outlined">monitoring</span>
+          <div><strong>Analytics</strong><p>Weakness map ready</p></div>
+        </div>
+        <div class="pn-v6-float-card pn-v6-float-two" data-float-card>
+          <span class="material-symbols-outlined">auto_stories</span>
+          <div><strong>Study Sets</strong><p>20 questions/session</p></div>
         </div>
       </div>
     </section>
@@ -2201,7 +2230,6 @@ tailwind.config = {
 <script src="assets/js/admin-config.js"></script>
 <script src="assets/js/app.js?v=28"></script>
 <script src="./assets/js/pn-global-home-v7.js"></script>
-<script type="module" src="./assets/js/pn-nexus-study-core.js"></script>
 <script src="./assets/js/pn-skill-tree-v17.js"></script>
 
 <div id="pn-modal-root"></div>
