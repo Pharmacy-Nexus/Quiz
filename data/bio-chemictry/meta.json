@@ -313,10 +313,10 @@
       "sectionId": "lipids",
       "difficultyBreakdown": {
         "easy": 30,
-        "medium": 0,
+        "medium": 60,
         "hard": 0
       },
-      "questionsCount": 30,
+      "questionsCount": 90,
       "file": "data/bio-chemictry/lipid-digestion-absorption-transport.json"
     }
   ],
@@ -358,5 +358,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-05T03:40:42.107Z"
+  "updatedAt": "2026-06-05T03:44:02.016Z"
 }
