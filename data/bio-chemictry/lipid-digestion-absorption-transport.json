@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "lipid-digestion-absorption-transport",
   "topicName": "Lipid Digestion, Absorption & Transport",
-  "updatedAt": "2026-06-05T03:40:30.305Z",
+  "updatedAt": "2026-06-05T03:43:55.658Z",
   "questions": [
     {
       "id": "bio-chemictry-lipid-digestion-absorption-transport-001",
@@ -510,6 +510,1026 @@
       ],
       "correctAnswer": 0,
       "explanation": "Short- and medium-chain fatty acids are more water-soluble than long-chain fatty acids. They can be absorbed without needing micelle formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are dietary lipids poorly digested in the mouth and stomach of adults?",
+      "options": [
+        "Most lipid digestion requires bile salts and pancreatic enzymes in the small intestine",
+        "Lipids are completely water-soluble in the stomach",
+        "Gastric lipase is the main adult lipid-digesting enzyme",
+        "Pancreatic lipase is secreted into the mouth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adult lipid digestion occurs mainly in the small intestine because emulsification by bile salts and hydrolysis by pancreatic enzymes are needed for efficient digestion. Mouth and stomach digestion is limited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is gastric lipase more relevant in infants than adults?",
+      "options": [
+        "It helps degrade milk lipids",
+        "It digests cholesterol esters only",
+        "It requires bile salts to work",
+        "It forms chylomicrons directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gastric lipase can digest milk lipids and has a role in infants. In adults, dietary lipid digestion in the stomach is limited.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is emulsification required before efficient enzymatic lipid digestion?",
+      "options": [
+        "Lipid hydrolysis occurs mainly at the lipid-water interface",
+        "Lipase acts only inside mitochondria",
+        "Emulsification converts fat into glucose",
+        "Emulsification destroys pancreatic enzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipids are water-insoluble. Enzymes can access lipid droplets mainly at their surface. Emulsification increases surface area, allowing pancreatic enzymes to act more effectively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which two mechanisms produce lipid emulsification in the small intestine?",
+      "options": [
+        "Bile salt detergent action and intestinal peristalsis",
+        "Insulin secretion and glycogenolysis",
+        "Pepsin action and gastric acid",
+        "Albumin binding and renal filtration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile salts act as detergents because they are amphipathic. Peristalsis mechanically mixes intestinal contents. Together, they break fat into smaller droplets.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CCK is important in lipid digestion because it stimulates:",
+      "options": [
+        "Gallbladder contraction and pancreatic enzyme secretion",
+        "Gastric acid secretion only",
+        "Intestinal glucose absorption only",
+        "Bile salt synthesis in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCK is released in response to lipids in the duodenum. It causes the gallbladder to contract and stimulates pancreatic digestive enzyme release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Secretin improves lipid digestion mainly by:",
+      "options": [
+        "Stimulating pancreatic bicarbonate secretion to neutralize acidic chyme",
+        "Activating lipoprotein lipase in adipose tissue",
+        "Stimulating insulin release from beta cells only",
+        "Forming chylomicrons directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secretin is released in response to low pH. Bicarbonate neutralizes acidic chyme and provides a suitable pH for pancreatic enzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme specifically requires colipase for efficient activity at the lipid-water interface?",
+      "options": [
+        "Pancreatic lipase",
+        "Cholesterol esterase",
+        "Phospholipase A2",
+        "Lysophospholipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Colipase anchors and stabilizes pancreatic lipase at the lipid-water interface, allowing lipase to hydrolyze triacylglycerols efficiently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pancreatic lipase digestion of TAG mainly produces:",
+      "options": [
+        "2-monoacylglycerol and two free fatty acids",
+        "Free glycerol and three fatty acids only",
+        "Cholesterol and glucose",
+        "Phosphatidylcholine and lysolecithin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic lipase hydrolyzes ester bonds at C1 and C3 of triacylglycerol, leaving 2-monoacylglycerol plus two free fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cholesterol esterase is needed because dietary cholesterol often exists as:",
+      "options": [
+        "Cholesterol esters",
+        "Glucose esters",
+        "Amino acid esters",
+        "Free glycerol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esterase hydrolyzes cholesterol esters into free cholesterol and fatty acid, allowing absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phospholipase A2 converts phospholipids into:",
+      "options": [
+        "Lysophospholipids and free fatty acids",
+        "Cholesterol esters and glycerol",
+        "Triacylglycerol and glucose",
+        "Chylomicron remnants directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A2 removes the fatty acid at carbon 2 of phospholipids, producing a lysophospholipid and a free fatty acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme further removes the remaining fatty acid from lysophospholipid?",
+      "options": [
+        "Lysophospholipase",
+        "Colipase",
+        "Cholesterol esterase",
+        "Pancreatic amylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After phospholipase A2 forms a lysophospholipid, lysophospholipase can remove the remaining fatty acid, producing a glycerylphosphoryl base.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product pair is correctly matched with its digestive enzyme?",
+      "options": [
+        "Cholesterol esterase → cholesterol + free fatty acid",
+        "Pancreatic lipase → ribose-5-phosphate + NADPH",
+        "Phospholipase A2 → glucose + galactose",
+        "Colipase → bile acid + cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esterase hydrolyzes cholesterol esters. The products are free cholesterol and free fatty acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Micelles are best described as:",
+      "options": [
+        "Bile salt-containing particles that solubilize lipid digestion products",
+        "Protein-only particles secreted by liver",
+        "Mitochondrial carriers for fatty acid oxidation",
+        "Glycogen granules in intestinal cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Micelles contain bile salts and lipid digestion products. Their hydrophobic interior carries lipids, while their hydrophilic exterior allows movement through intestinal fluid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are micelles amphipathic?",
+      "options": [
+        "They have a hydrophobic inside and hydrophilic outside",
+        "They contain only water-soluble proteins",
+        "They are made only of glucose",
+        "They are completely nonpolar on the outside"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Micelles organize lipid molecules so that hydrophobic parts are inside and hydrophilic parts face the aqueous intestinal lumen. This allows lipid transport to the brush border.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which digestion products are delivered by micelles to intestinal mucosal cells?",
+      "options": [
+        "Free fatty acids, free cholesterol, and 2-monoacylglycerol",
+        "Amino acids, urea, and ammonia",
+        "Glucose, galactose, and fructose only",
+        "Acetyl-CoA and citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Micelles transport lipid digestion products to the brush border membrane for absorption into intestinal mucosal cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Short- and medium-chain fatty acids enter which route after absorption?",
+      "options": [
+        "Portal circulation bound to serum albumin",
+        "Lymphatic system as chylomicrons only",
+        "Directly into mitochondria with carnitine",
+        "Directly into bile salts for enterohepatic circulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Short- and medium-chain fatty acids do not require micelles or chylomicron packaging to the same extent. They enter portal circulation and are carried by albumin to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Long-chain fatty acids absorbed by intestinal mucosal cells are first activated to:",
+      "options": [
+        "Acyl-CoA",
+        "Acetyl-CoA only",
+        "UDP-glucose",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inside intestinal mucosal cells, fatty acids are activated to acyl-CoA before being re-esterified into triacylglycerols and cholesterol esters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Re-esterification inside intestinal mucosal cells reforms:",
+      "options": [
+        "Triacylglycerols and cholesterol esters",
+        "Lactate and pyruvate",
+        "Glycogen and glucose",
+        "Urea and ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After absorption, lipid digestion products are rebuilt into hydrophobic storage/transport forms such as TAG and cholesterol esters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Because TAG and cholesterol esters are very hydrophobic, they must be packaged as:",
+      "options": [
+        "Chylomicrons",
+        "Free glucose",
+        "Glycogen particles",
+        "Albumin-only particles inside intestinal cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TAG and cholesterol esters are too hydrophobic to move freely in aqueous body fluids. Intestinal cells package them into chylomicrons for transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chylomicrons are assembled in:",
+      "options": [
+        "Intestinal mucosal cells",
+        "RBCs",
+        "Kidney cortex only",
+        "Adrenal medulla"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are formed in intestinal mucosal cells after dietary lipid absorption and re-esterification.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nascent chylomicrons contain which apoprotein?",
+      "options": [
+        "ApoB-48",
+        "ApoB-100",
+        "ApoA-I only",
+        "ApoC-II only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intestinal mucosal cells synthesize ApoB-48, which is required for chylomicron formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "If ApoB-48 is not synthesized, which disorder can occur?",
+      "options": [
+        "Abetalipoproteinemia",
+        "Pernicious anemia",
+        "G6PD deficiency",
+        "Hereditary fructose intolerance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-48 is necessary for chylomicron formation. If it is absent, TAG accumulates in intestinal mucosal cells, causing abetalipoproteinemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chylomicrons leave intestinal mucosal cells first through:",
+      "options": [
+        "Lymphatic vessels",
+        "Portal vein directly",
+        "Renal vein",
+        "Bile duct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are too large to enter portal capillaries directly. They are secreted into lymphatic vessels, pass through the thoracic duct, and then enter blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chylomicrons mainly transport:",
+      "options": [
+        "Exogenous dietary lipid",
+        "Endogenous liver-synthesized TAG only",
+        "Ketone bodies only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons carry dietary, or exogenous, triacylglycerol and other lipids from the intestine to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipoprotein mainly carries endogenous fat from liver to tissues?",
+      "options": [
+        "VLDL",
+        "Chylomicron",
+        "HDL only",
+        "Albumin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons carry exogenous dietary fat. VLDL carries endogenous triacylglycerol synthesized in the liver to peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has impaired bile salt secretion. Which process is most directly impaired?",
+      "options": [
+        "Emulsification and micelle formation",
+        "Protein digestion by pepsin",
+        "Glycogen synthesis in liver",
+        "RBC glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile salts emulsify dietary lipids and form micelles. Without bile salts, digestion and absorption of long-chain lipids are impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipid product would be least dependent on micelle formation?",
+      "options": [
+        "Medium-chain fatty acid",
+        "Long-chain fatty acid",
+        "Cholesterol",
+        "2-monoacylglycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Short- and medium-chain fatty acids are relatively more water-soluble and can enter portal circulation without requiring micelle formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A defect in pancreatic lipase would most directly reduce formation of:",
+      "options": [
+        "2-monoacylglycerol and free fatty acids from TAG",
+        "Free cholesterol from cholesterol ester",
+        "Lysolecithin from lecithin",
+        "ApoB-48 from intestinal cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic lipase digests triacylglycerols at C1 and C3. A defect would impair formation of 2-monoacylglycerol and free fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A defect in colipase would mainly impair:",
+      "options": [
+        "Stabilization of pancreatic lipase during TAG digestion",
+        "Cholesterol ester hydrolysis",
+        "Bile salt synthesis",
+        "Chylomicron receptor binding in liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Colipase supports pancreatic lipase function at the lipid-water interface. Without colipase, TAG digestion becomes less efficient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A defect in cholesterol esterase would most directly impair absorption of:",
+      "options": [
+        "Cholesterol from cholesterol esters",
+        "Glucose from starch",
+        "Amino acids from proteins",
+        "Free glycerol from TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esterase hydrolyzes cholesterol esters into free cholesterol and fatty acid. Free cholesterol is the absorbable form.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A defect in phospholipase A2 would reduce formation of:",
+      "options": [
+        "Lysophospholipids",
+        "2-monoacylglycerol",
+        "Chylomicron remnant receptors",
+        "ApoB-100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A2 removes the fatty acid at carbon 2 of phospholipids, producing lysophospholipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone best explains gallbladder contraction after a fatty meal?",
+      "options": [
+        "CCK",
+        "Secretin",
+        "Insulin",
+        "Cortisol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipids in the duodenum stimulate CCK release. CCK causes gallbladder contraction and pancreatic enzyme release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone best explains bicarbonate-rich pancreatic secretion after acidic chyme enters the intestine?",
+      "options": [
+        "Secretin",
+        "CCK",
+        "Glucagon",
+        "Epinephrine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secretin responds to low pH and stimulates pancreatic bicarbonate secretion, neutralizing acid and optimizing enzyme activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes dietary TAG processing?",
+      "options": [
+        "Emulsification → pancreatic lipase digestion → micelle formation → absorption → re-esterification → chylomicron formation",
+        "Chylomicron formation → stomach digestion → urea cycle → renal excretion",
+        "TCA cycle → micelles → bile synthesis → glucose absorption",
+        "Protein digestion → ApoB-100 formation → VLDL secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary lipid handling requires emulsification, enzymatic digestion, micellar transport, mucosal absorption, re-esterification, and packaging into chylomicrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step occurs inside intestinal mucosal cells?",
+      "options": [
+        "Re-synthesis of TAG and cholesterol esters",
+        "Emulsification by bile salts",
+        "Hydrolysis by pancreatic lipase in the lumen",
+        "Activation of phospholipase A2 by trypsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After absorption, intestinal mucosal cells re-esterify fatty acids and monoacylglycerol to form TAG and cholesterol esters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which apoprotein is required for chylomicron assembly in intestinal mucosal cells?",
+      "options": [
+        "ApoB-48",
+        "ApoB-100",
+        "ApoC-II",
+        "ApoA-I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-48 is synthesized by intestinal mucosal cells and is necessary for chylomicron formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which apoprotein is obtained by nascent chylomicrons from HDL and activates lipoprotein lipase?",
+      "options": [
+        "ApoC-II",
+        "ApoB-48",
+        "ApoB-100",
+        "ApoA-I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nascent chylomicrons receive ApoC-II from HDL. ApoC-II activates lipoprotein lipase in capillaries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which apoprotein helps chylomicron remnants bind hepatic receptors?",
+      "options": [
+        "ApoE",
+        "ApoA-I",
+        "ApoC-II only",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicron remnants are recognized by liver receptors through ApoE together with ApoB-48.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lipoprotein lipase is located mainly:",
+      "options": [
+        "On capillary walls of tissues such as adipose tissue and muscle",
+        "Inside the intestinal lumen only",
+        "Inside RBC mitochondria",
+        "In bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipoprotein lipase is found on capillary walls, especially in adipose tissue and muscle, where it hydrolyzes TAG in chylomicrons and VLDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lipoprotein lipase hydrolyzes TAG in chylomicrons to produce:",
+      "options": [
+        "Free fatty acids and glycerol/monoacylglycerol products",
+        "Glucose and galactose",
+        "Ribose and NADPH",
+        "Bilirubin and glucuronide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL breaks down TAG carried by chylomicrons, releasing fatty acids for uptake by tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After most TAG is removed from chylomicrons, the remaining particles are called:",
+      "options": [
+        "Chylomicron remnants",
+        "VLDL",
+        "LDL",
+        "HDL only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As LPL removes TAG, chylomicrons become smaller and denser. The remaining particles are called chylomicron remnants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chylomicron remnants are removed mainly by:",
+      "options": [
+        "Liver",
+        "Kidney medulla",
+        "RBCs",
+        "Brain neurons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicron remnants bind hepatic receptors and are taken up by the liver through receptor-mediated endocytosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Chylomicron remnants bind liver receptors mainly through:",
+      "options": [
+        "ApoB-48 and ApoE",
+        "ApoA-I and albumin",
+        "ApoC-II only",
+        "Hemoglobin and myoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatocyte receptors recognize the combination of ApoB-48 and ApoE on chylomicron remnants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process occurs after chylomicron remnants enter hepatocytes?",
+      "options": [
+        "Fusion with lysosomes and degradation to components",
+        "Direct conversion into RBCs",
+        "Direct excretion unchanged in urine",
+        "Conversion to bile salts in intestinal lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After endocytosis, chylomicron remnants fuse with lysosomes and are degraded into amino acids, free cholesterol, fatty acids, and glycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ApoC-II is returned to which particle after TAG removal from chylomicrons?",
+      "options": [
+        "HDL",
+        "LDL",
+        "Albumin",
+        "Bile salt micelles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During chylomicron metabolism, ApoC-II is transferred from HDL to chylomicrons, activates LPL, and then is returned to HDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes digestion from absorption in lipid handling?",
+      "options": [
+        "Digestion hydrolyzes dietary lipids in the lumen; absorption moves lipid products into intestinal mucosal cells",
+        "Digestion occurs only after chylomicron secretion",
+        "Absorption occurs only in the stomach",
+        "Digestion and absorption are identical processes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digestion breaks lipids into absorbable products. Absorption transfers those products into intestinal mucosal cells for re-esterification and packaging.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes micelles from chylomicrons?",
+      "options": [
+        "Micelles aid absorption in the intestinal lumen; chylomicrons transport re-esterified lipids from intestinal cells through lymph/blood",
+        "Micelles are secreted into lymph; chylomicrons remain in intestinal lumen",
+        "Both are identical particles",
+        "Chylomicrons are made only of bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Micelles are luminal transport structures formed with bile salts. Chylomicrons are lipoprotein particles assembled inside intestinal mucosal cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes long-chain fatty acid transport from short/medium-chain fatty acid transport?",
+      "options": [
+        "Long-chain fatty acids are packaged into chylomicrons; short/medium-chain fatty acids go to portal blood bound to albumin",
+        "Short-chain fatty acids require ApoB-48 chylomicrons",
+        "Long-chain fatty acids go directly to portal blood only",
+        "All fatty acids require identical lymphatic transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acids are re-esterified and packaged into chylomicrons. Short- and medium-chain fatty acids can enter portal circulation more directly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient cannot synthesize ApoB-48. What is the expected intestinal problem?",
+      "options": [
+        "TAG accumulates in intestinal mucosal cells due to impaired chylomicron formation",
+        "Excess chylomicron secretion into lymph",
+        "Increased pancreatic lipase activity",
+        "Increased bile salt recycling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-48 is required for chylomicron assembly. Without it, intestinal cells cannot efficiently export TAG, causing lipid accumulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why chylomicrons are secreted into lymph first?",
+      "options": [
+        "They are large lipoprotein particles that enter lymphatics before reaching blood through the thoracic duct",
+        "They are small enough to enter portal blood directly",
+        "They are bile salts that must return to liver through enterohepatic circulation",
+        "They are absorbed only into RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are large particles and leave intestinal mucosal cells through lymphatic vessels, then enter blood via the thoracic duct.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes HDL’s role in chylomicron maturation?",
+      "options": [
+        "HDL donates ApoC-II and ApoE to nascent chylomicrons",
+        "HDL digests TAG directly inside the intestine",
+        "HDL forms micelles with bile salts",
+        "HDL removes C1 and C3 fatty acids from TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nascent chylomicrons receive ApoC-II and ApoE from circulating HDL. These apoproteins are essential for LPL activation and remnant recognition.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ApoC-II deficiency resembles lipoprotein lipase deficiency?",
+      "options": [
+        "ApoC-II is needed to activate LPL",
+        "ApoC-II is needed to form bile salts",
+        "ApoC-II is the structural protein of chylomicrons",
+        "ApoC-II hydrolyzes cholesterol esters directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If ApoC-II is deficient, LPL cannot be properly activated. This impairs TAG hydrolysis in chylomicrons, similar to LPL deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Deficiency of LPL or ApoC-II causes accumulation of:",
+      "options": [
+        "TAG-rich lipoprotein particles in plasma",
+        "Free glucose in urine",
+        "Ketone bodies only",
+        "UDP-glucuronate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL hydrolyzes TAG in chylomicrons and VLDL. If LPL or its activator ApoC-II is deficient, TAG-rich particles accumulate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Familial hyperchylomicronemia is also known as:",
+      "options": [
+        "Type I hyperlipidemia",
+        "Type II diabetes",
+        "Pernicious anemia",
+        "Abetalipoproteinemia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that deficiency of lipoprotein lipase or ApoC-II causes accumulation of TAG-rich lipoproteins, leading to type I hyperlipidemia, also called familial hyperchylomicronemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Heparin can be used experimentally to measure LPL because it:",
+      "options": [
+        "Dissociates LPL from capillary walls",
+        "Activates bile salt synthesis",
+        "Blocks micelle formation",
+        "Converts chylomicrons into HDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL is attached to capillary walls. Heparin can release it into plasma, allowing post-heparin LPL measurement.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains chylomicron remnant clearance?",
+      "options": [
+        "Remnants are recognized by hepatic receptors through ApoE and ApoB-48 and taken up by endocytosis",
+        "Remnants are excreted unchanged in urine",
+        "Remnants are digested by pancreatic lipase in blood",
+        "Remnants return to the intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After TAG removal, chylomicron remnants retain ApoE and ApoB-48. Hepatic receptors recognize these apoproteins and internalize the remnants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why chylomicrons become smaller and denser during circulation?",
+      "options": [
+        "LPL removes TAG from their core",
+        "They gain large amounts of TAG from tissues",
+        "They lose all protein coat immediately",
+        "Bile salts dissolve them in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are TAG-rich. As LPL hydrolyzes their TAG, the particles shrink and become relatively denser, forming remnants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares chylomicrons and VLDL?",
+      "options": [
+        "Chylomicrons carry exogenous dietary fat; VLDL carries endogenous liver-made fat",
+        "Chylomicrons are made in liver; VLDL is made in intestine",
+        "Both are only cholesterol particles",
+        "VLDL transports dietary fat from intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a very important distinction. Chylomicrons transport dietary lipids from the intestine, while VLDL transports liver-synthesized TAG to peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which event occurs after most TAG is removed from chylomicrons?",
+      "options": [
+        "ApoC-II returns to HDL and remnant is taken up by liver",
+        "ApoB-48 returns to HDL",
+        "The particle becomes VLDL directly",
+        "The particle becomes bile salt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After LPL removes TAG, ApoC-II is returned to HDL. The remaining chylomicron remnant is cleared by the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes dietary lipid transport?",
+      "options": [
+        "Dietary lipids are digested in the intestine, absorbed as lipid products, re-esterified in mucosal cells, packaged with ApoB-48 into chylomicrons, secreted through lymph, and delivered to tissues by LPL",
+        "Dietary lipids are converted directly into glucose in the stomach",
+        "Dietary TAG enters portal blood unchanged and is used directly by RBCs",
+        "Chylomicrons are made in liver and carry endogenous fat only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This captures the full pathway: digestion, micellar absorption, intracellular re-esterification, chylomicron assembly, lymphatic transport, blood delivery, LPL-mediated TAG hydrolysis, and hepatic remnant clearance.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
