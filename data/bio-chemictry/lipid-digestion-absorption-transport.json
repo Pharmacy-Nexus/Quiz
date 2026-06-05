@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "lipid-digestion-absorption-transport",
   "topicName": "Lipid Digestion, Absorption & Transport",
-  "updatedAt": "2026-06-05T12:30:33.424Z",
+  "updatedAt": "2026-06-05T12:37:20.975Z",
   "questions": [
     {
       "id": "bio-chemictry-lipid-digestion-absorption-transport-031",
@@ -1530,6 +1530,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "This statement links the whole topic together: luminal digestion, bile salt micelles, mucosal re-esterification, chylomicron assembly and secretion, LPL-mediated TAG delivery, and remnant uptake by the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-091",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Simple lipids are best defined as:",
+      "options": [
+        "Esters of fatty acids with various alcohols",
+        "Lipids containing carbohydrate only",
+        "Lipids containing phosphate and nitrogen base only",
+        "Proteins combined with lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple lipids are esters formed between fatty acids and alcohols. Examples include fats, oils, and waxes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-092",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Triacylglycerols are esters of fatty acids with:",
+      "options": [
+        "Glycerol",
+        "Cholesterol only",
+        "Sphingosine only",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerols, also called triglycerides, are formed when three fatty acids are esterified to glycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-093",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A fat in the liquid state is called:",
+      "options": [
+        "Oil",
+        "Wax",
+        "Phospholipid",
+        "Sterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fats and oils are both triacylglycerols. The difference is mainly physical state: fats are solid, while oils are liquid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-094",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Waxes are esters of fatty acids with:",
+      "options": [
+        "Higher molecular weight monohydric alcohols",
+        "Glycerol only",
+        "Glucose only",
+        "Amino acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Waxes are simple lipids made from fatty acids esterified with high molecular weight alcohols. Examples include cholesterol esters and vitamin A/D esters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-095",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Compound lipids differ from simple lipids because they contain:",
+      "options": [
+        "Additional groups besides fatty acid and alcohol",
+        "Only fatty acids and glycerol",
+        "Only hydrocarbons",
+        "No fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Compound lipids contain fatty acids and alcohol, but also additional groups such as phosphate, nitrogenous bases, carbohydrate, or protein components.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-096",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipids contain fatty acids, alcohol, and:",
+      "options": [
+        "Phosphoric acid residue",
+        "Urea",
+        "Bilirubin",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids are compound lipids that contain phosphoric acid in addition to fatty acids and an alcohol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-097",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycolipids contain fatty acids with:",
+      "options": [
+        "Carbohydrate",
+        "Phosphate only",
+        "Urea",
+        "Heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolipids contain fatty acids and carbohydrate. They also contain nitrogen but no phosphoric acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-098",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Derived lipids include:",
+      "options": [
+        "Fatty acids, glycerol, steroids, and ketone bodies",
+        "Proteins only",
+        "DNA and RNA only",
+        "Amino acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derived lipids are substances produced from simple or compound lipids by hydrolysis. Examples include fatty acids, glycerol, steroids, fatty aldehydes, ketone bodies, fat-soluble vitamins, and carotenoids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-099",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Neutral lipids are called neutral because they are:",
+      "options": [
+        "Uncharged",
+        "Strongly acidic",
+        "Strongly basic",
+        "Always water-soluble"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acylglycerols, cholesterol, and cholesterol esters are called neutral lipids because they do not carry an electrical charge.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-100",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "More than 90% of dietary lipids are usually:",
+      "options": [
+        "Triacylglycerols",
+        "Cholesterol only",
+        "Phospholipids only",
+        "Free fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most dietary fat is triacylglycerol. Smaller fractions include cholesterol, cholesterol esters, phospholipids, and free fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-101",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In adults, lipid digestion in the mouth and stomach is generally:",
+      "options": [
+        "Limited",
+        "Complete",
+        "The major site of lipid digestion",
+        "More important than intestinal digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary lipids are not digested to a major extent in the mouth or stomach in adults. Most lipid digestion occurs in the small intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-102",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Gastric lipase is more important in:",
+      "options": [
+        "Infants",
+        "Healthy adults only",
+        "RBCs",
+        "Liver mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gastric lipase can degrade milk lipids and has a role in infants, but it is not a major lipid-digesting enzyme in adults.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-103",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main site of dietary lipid digestion is the:",
+      "options": [
+        "Small intestine",
+        "Mouth",
+        "Stomach",
+        "Colon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most lipid digestion occurs in the small intestine, where bile salts and pancreatic enzymes act together.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-104",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Emulsification of dietary lipids is important because it:",
+      "options": [
+        "Increases surface area for enzymatic digestion",
+        "Converts lipids directly into glucose",
+        "Produces ATP from fats",
+        "Prevents pancreatic enzyme action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipids are water-insoluble, and enzymes can act mainly at the surface of lipid droplets. Emulsification breaks large lipid droplets into smaller droplets, increasing the surface area.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-105",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Emulsification is mainly achieved by:",
+      "options": [
+        "Bile salts and mechanical mixing by peristalsis",
+        "DNA polymerase and ribosomes",
+        "Hemoglobin and albumin only",
+        "Insulin and glucagon only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile salts act like detergents, and peristalsis mechanically mixes intestinal contents. Together, they emulsify dietary fat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-106",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Bile salts help lipid digestion because they have:",
+      "options": [
+        "Detergent properties",
+        "Protease activity",
+        "Glycolytic activity",
+        "DNA-binding activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile salts are amphipathic molecules. Their detergent action helps emulsify lipid droplets and makes lipid digestion more efficient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-107",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cholecystokinin is secreted mainly in response to:",
+      "options": [
+        "Lipids in the duodenum",
+        "Low blood glucose only",
+        "High blood calcium only",
+        "High blood oxygen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholecystokinin, or CCK, is released from the lower duodenum in response to lipids. It stimulates gallbladder contraction and pancreatic enzyme secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-108",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CCK causes:",
+      "options": [
+        "Gallbladder contraction and pancreatic enzyme release",
+        "Inhibition of bile release",
+        "Inhibition of pancreatic enzymes",
+        "Complete closure of the intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CCK promotes bile release from the gallbladder and digestive enzyme secretion from the pancreas, both important for lipid digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-109",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Secretin is released in response to:",
+      "options": [
+        "Low pH of chyme",
+        "High lipid storage in adipose tissue",
+        "High blood cholesterol only",
+        "High bile salt concentration only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secretin is released when acidic chyme enters the intestine. It stimulates pancreatic bicarbonate secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-110",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Secretin stimulates secretion of:",
+      "options": [
+        "Bicarbonate from the pancreas",
+        "Insulin only",
+        "Bile salts only",
+        "Gastric acid only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bicarbonate neutralizes acidic chyme, creating a suitable pH for pancreatic digestive enzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-111",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pancreatic lipase hydrolyzes triacylglycerol mainly at:",
+      "options": [
+        "Carbon 1 and carbon 3",
+        "Carbon 2 only",
+        "Carbon 1 only",
+        "All carbons equally without specificity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic lipase removes fatty acids from positions C1 and C3 of triacylglycerol, producing two free fatty acids and 2-monoacylglycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-112",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main products of pancreatic lipase action on triacylglycerol are:",
+      "options": [
+        "Two fatty acids and 2-monoacylglycerol",
+        "Three glucose molecules",
+        "Cholesterol and glycerol only",
+        "Amino acids and phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic lipase does not completely hydrolyze all ester bonds. It mainly produces free fatty acids from C1/C3 and leaves 2-monoacylglycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-113",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Colipase helps pancreatic lipase by:",
+      "options": [
+        "Anchoring and stabilizing lipase",
+        "Digesting DNA",
+        "Converting cholesterol to bile acids",
+        "Producing insulin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Colipase is secreted by the pancreas and helps pancreatic lipase remain active at the lipid-water interface.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-114",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cholesterol esterase hydrolyzes cholesterol esters to:",
+      "options": [
+        "Cholesterol and free fatty acid",
+        "Glucose and galactose",
+        "Glycerol and phosphate",
+        "Lactate and pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esterase breaks cholesterol esters into free cholesterol and fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-115",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipase A2 removes a fatty acid from which position of phospholipids?",
+      "options": [
+        "Carbon 2",
+        "Carbon 1 only",
+        "Carbon 3 only",
+        "The phosphate group only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A2 removes the fatty acid at carbon 2 of a phospholipid, producing a lysophospholipid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-116",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipase A2 is activated in the intestine by:",
+      "options": [
+        "Trypsin",
+        "Pepsin",
+        "Insulin",
+        "Glucagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that phospholipase A2 is activated by trypsin in the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-117",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Lecithin is another name for:",
+      "options": [
+        "Phosphatidylcholine",
+        "Phosphatidylserine",
+        "Cardiolipin",
+        "Sphingomyelin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lecithin is phosphatidylcholine. When phospholipase A2 acts on it, lysolecithin is formed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-118",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The primary products of dietary lipid degradation absorbed by intestinal mucosal cells include:",
+      "options": [
+        "Free fatty acids, free cholesterol, and 2-monoacylglycerol",
+        "Glucose, amino acids, and urea",
+        "Lactate, pyruvate, and acetyl-CoA",
+        "Bilirubin, heme, and ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary lipid digestion produces free fatty acids, free cholesterol, and 2-monoacylglycerol, which are absorbed by intestinal mucosal cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-119",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Micelles are formed from lipid digestion products together with:",
+      "options": [
+        "Bile salts",
+        "Hemoglobin",
+        "DNA",
+        "Glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile salts combine with lipid digestion products to form micelles. Micelles help transport lipids through the aqueous intestinal lumen to the brush border.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-120",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Short- and medium-chain fatty acids differ from long-chain fatty acids because they:",
+      "options": [
+        "Do not require micelle formation for absorption",
+        "Must be packaged into chylomicrons first",
+        "Cannot be absorbed",
+        "Require ApoB-48 for intestinal entry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Short- and medium-chain fatty acids are more water-soluble than long-chain fatty acids. They can be absorbed without needing micelle formation.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
