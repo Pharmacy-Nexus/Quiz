@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "fatty-acids-triacylglycerol-metabolism",
   "topicName": "Fatty Acids & Triacylglycerol Metabolism",
-  "updatedAt": "2026-06-05T14:55:25.606Z",
+  "updatedAt": "2026-06-05T14:59:23.046Z",
   "questions": [
     {
       "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-001",
@@ -510,6 +510,1026 @@
       ],
       "correctAnswer": 0,
       "explanation": "Triacylglycerol synthesis occurs primarily in the liver and adipose tissue. Liver can export TG as VLDL, while adipose tissue stores TG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are long-chain fatty acids transported in blood bound to albumin?",
+      "options": [
+        "Because their hydrophobic chains make them poorly soluble in plasma",
+        "Because albumin converts them into glucose",
+        "Because fatty acids are fully water-soluble",
+        "Because albumin activates fatty acid synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acids contain a large hydrophobic hydrocarbon chain. Although they have a polar carboxyl group, the hydrophobic part dominates, so they need albumin for transport in aqueous plasma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the amphipathic nature of fatty acids?",
+      "options": [
+        "They have a hydrophobic hydrocarbon chain and a hydrophilic carboxyl group",
+        "They contain only hydrophilic groups",
+        "They contain only hydrophobic steroid rings",
+        "They are made of glucose and phosphate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids are amphipathic because the carboxyl group is polar, while the hydrocarbon chain is nonpolar. In long-chain fatty acids, the hydrophobic portion is dominant.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fatty acid is non-essential because it can be synthesized in the body?",
+      "options": [
+        "Palmitoleic acid",
+        "Linoleic acid",
+        "α-Linolenic acid",
+        "Essential omega-3 fatty acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists palmitoleic acid as a non-essential fatty acid. Non-essential fatty acids can be synthesized by the body.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fatty acid is essential and must be supplied by diet?",
+      "options": [
+        "Linoleic acid",
+        "Palmitoleic acid",
+        "Oleic acid only",
+        "Palmitic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linoleic acid is an essential fatty acid because humans cannot synthesize it in adequate amounts. It must be obtained from dietary sources.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does arachidonic acid become essential when linoleic acid is absent?",
+      "options": [
+        "Arachidonic acid can normally be synthesized from linoleic acid",
+        "Arachidonic acid is made directly from glucose only",
+        "Linoleic acid prevents arachidonic acid absorption",
+        "Arachidonic acid is not found in any tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arachidonic acid can be produced from linoleic acid. If linoleic acid is not available in the diet, arachidonic acid cannot be synthesized adequately and becomes essential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which physical property is increased by longer fatty acid chain length?",
+      "options": [
+        "Melting temperature",
+        "Water solubility",
+        "Number of phosphate groups",
+        "Rate of DNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Longer hydrocarbon chains interact more strongly with each other, increasing melting temperature.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which physical property is decreased by the presence of double bonds?",
+      "options": [
+        "Melting temperature",
+        "Membrane fluidity",
+        "Susceptibility to oxidation",
+        "Unsaturation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double bonds introduce bends into fatty acid chains, preventing tight packing. This lowers melting temperature and increases membrane fluidity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are unsaturated fatty acids more easily oxidized in air?",
+      "options": [
+        "Their double bonds are more chemically reactive",
+        "They contain no carbon atoms",
+        "They are completely saturated",
+        "They lack hydrophobic chains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double bonds are vulnerable to oxidation. This explains why unsaturated fatty acids are more prone to rancidity when exposed to air.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes fatty acid synthesis after a carbohydrate-rich meal?",
+      "options": [
+        "It is favored because excess carbohydrate can be converted into fatty acids",
+        "It is completely blocked because insulin is high",
+        "It occurs mainly during starvation",
+        "It occurs only inside mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After carbohydrate-rich meals, excess glucose can be converted into acetyl-CoA and then fatty acids. High insulin also favors fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormonal state favors fatty acid synthesis?",
+      "options": [
+        "High insulin/glucagon ratio",
+        "Low insulin/glucagon ratio",
+        "High glucagon only",
+        "High epinephrine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis is a fed-state pathway. It is favored by high insulin and low glucagon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormonal state favors fatty acid degradation rather than synthesis?",
+      "options": [
+        "Low insulin/glucagon ratio",
+        "High insulin/glucagon ratio",
+        "High insulin after meals",
+        "High glucose uptake only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid degradation is favored during fasting and starvation, when insulin is low and glucagon is relatively high.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue is a major site of fatty acid synthesis?",
+      "options": [
+        "Liver",
+        "Mature RBCs",
+        "Skeletal muscle as the primary site",
+        "Kidney medulla only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver is the major site for de novo fatty acid synthesis. Lactating mammary gland is also active in fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue is a major site of fatty acid synthesis during lactation?",
+      "options": [
+        "Mammary gland",
+        "RBC",
+        "Brain white matter only",
+        "Bone marrow only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lactating mammary gland synthesizes fatty acids for milk lipid production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which subcellular location is most associated with fatty acid synthesis?",
+      "options": [
+        "Cytosol",
+        "Mitochondrial matrix",
+        "Lysosome",
+        "Peroxisome only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis occurs mainly in the cytosol, whereas fatty acid degradation occurs mainly in mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which subcellular location is most associated with fatty acid degradation?",
+      "options": [
+        "Mitochondria",
+        "Cytosol only",
+        "Nucleus",
+        "Golgi apparatus only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid degradation by β-oxidation occurs mainly in mitochondria. This contrasts with cytosolic fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is citrate important in fatty acid synthesis?",
+      "options": [
+        "It transports acetyl units from mitochondria to cytosol",
+        "It directly becomes palmitate without enzymes",
+        "It transports fatty acids into mitochondria",
+        "It activates lipoprotein lipase in plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA cannot directly cross the inner mitochondrial membrane. It is exported as citrate, then cleaved in the cytosol to regenerate acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which carrier is important for transporting fatty acyl groups into mitochondria for degradation?",
+      "options": [
+        "Carnitine",
+        "Citrate",
+        "UDP-glucose",
+        "Albumin inside mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carnitine transports long-chain fatty acyl groups from cytosol into mitochondria for β-oxidation. Citrate is used in the opposite direction for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly compares citrate and carnitine?",
+      "options": [
+        "Citrate carries acetyl units to cytosol for synthesis; carnitine carries fatty acyl groups into mitochondria for degradation",
+        "Citrate carries fatty acids into mitochondria; carnitine carries acetyl-CoA to cytosol",
+        "Both carry glucose into mitochondria",
+        "Both are apoproteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a high-yield comparison. Citrate supports fatty acid synthesis by exporting acetyl units. Carnitine supports fatty acid oxidation by importing fatty acyl groups.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetyl-CoA carboxylase is important because it produces:",
+      "options": [
+        "Malonyl-CoA",
+        "Acetyl-CoA",
+        "Palmitate directly in one step",
+        "Ketone bodies directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA. This is a key committed and regulated step of fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule activates acetyl-CoA carboxylase?",
+      "options": [
+        "Citrate",
+        "Fatty acyl-CoA",
+        "Malonyl-CoA only",
+        "Carnitine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate signals abundant acetyl units and energy. It activates acetyl-CoA carboxylase and promotes fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule inhibits acetyl-CoA carboxylase?",
+      "options": [
+        "Fatty acyl-CoA",
+        "Citrate",
+        "Insulin only",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acyl-CoA indicates that fatty acid products are already abundant. It inhibits acetyl-CoA carboxylase by feedback inhibition.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Malonyl-CoA inhibits:",
+      "options": [
+        "Carnitine acyltransferase I",
+        "Acetyl-CoA carboxylase only",
+        "Fatty acid synthase completely",
+        "Glucose-6-phosphatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA inhibits carnitine acyltransferase I, preventing fatty acyl-CoA entry into mitochondria. This prevents simultaneous fatty acid synthesis and degradation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does malonyl-CoA inhibit carnitine acyltransferase I?",
+      "options": [
+        "To prevent newly synthesized fatty acids from being immediately degraded",
+        "To increase β-oxidation during synthesis",
+        "To activate ketogenesis after meals",
+        "To transport acetyl-CoA into cytosol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When fatty acid synthesis is active, malonyl-CoA is high. Inhibiting CAT-I blocks fatty acid oxidation, avoiding a futile cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule provides reducing equivalents for fatty acid synthesis?",
+      "options": [
+        "NADPH",
+        "NAD⁺",
+        "FAD",
+        "CoA-SH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis uses NADPH for reduction steps. Fatty acid degradation uses NAD⁺ and FAD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which coenzymes are mainly used in fatty acid degradation?",
+      "options": [
+        "NAD⁺ and FAD",
+        "NADPH only",
+        "TPP and biotin only",
+        "NADP⁺ and UDP-glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-oxidation uses NAD⁺ and FAD to generate NADH and FADH₂. These reduced coenzymes can then support ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fatty acid synthesis and degradation by nutritional state?",
+      "options": [
+        "Synthesis is active after carbohydrate-rich meals; degradation is active during starvation",
+        "Synthesis is active during starvation; degradation is active after meals",
+        "Both are maximally active after meals",
+        "Both are inactive during fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis stores excess energy after feeding. Fatty acid degradation mobilizes stored energy during fasting or starvation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fatty acid synthesis and degradation by location?",
+      "options": [
+        "Synthesis is mainly cytosolic; degradation is mainly mitochondrial",
+        "Synthesis is mitochondrial; degradation is cytosolic",
+        "Both are only nuclear",
+        "Both are only lysosomal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This separation helps regulate the pathways independently. Cytosolic synthesis builds fatty acids, while mitochondrial β-oxidation breaks them down.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fatty acid synthesis and degradation by carbon carrier?",
+      "options": [
+        "Synthesis uses citrate to bring acetyl units to cytosol; degradation uses carnitine to bring acyl groups into mitochondria",
+        "Synthesis uses carnitine; degradation uses citrate",
+        "Both use UDP-glucose",
+        "Both use ApoB-48"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate and carnitine move carbon in opposite metabolic directions. Citrate supports synthesis, while carnitine supports degradation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fatty acid synthesis and degradation by redox coenzymes?",
+      "options": [
+        "Synthesis uses NADPH; degradation uses NAD⁺ and FAD",
+        "Synthesis uses NAD⁺ and FAD; degradation uses NADPH",
+        "Both use NADPH only",
+        "Both use NADP⁺ and TPP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis is reductive and requires NADPH. β-oxidation is oxidative and uses NAD⁺ and FAD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares the two-carbon unit in synthesis versus degradation?",
+      "options": [
+        "Malonyl-CoA donates two-carbon units in synthesis; acetyl-CoA is produced in degradation",
+        "Acetyl-CoA donates all two-carbon units directly in synthesis; malonyl-CoA is produced in degradation",
+        "Glucose donates two-carbon units in degradation",
+        "Carnitine is the two-carbon donor in synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis uses malonyl-CoA for chain elongation. Fatty acid degradation removes two-carbon units as acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product is formed by fatty acid synthesis?",
+      "options": [
+        "Palmitate",
+        "Acetyl-CoA",
+        "Ketone body only",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main product of the fatty acid synthase complex is palmitate, a 16-carbon saturated fatty acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product is formed by fatty acid degradation?",
+      "options": [
+        "Acetyl-CoA",
+        "Palmitate",
+        "Malonyl-CoA",
+        "Citrate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-oxidation breaks fatty acids down into acetyl-CoA units. These can enter the TCA cycle or ketogenesis depending on metabolic state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition most strongly supports acetyl-CoA export as citrate?",
+      "options": [
+        "High mitochondrial acetyl-CoA and adequate energy in the fed state",
+        "Severe starvation with high β-oxidation only",
+        "Lack of carbohydrate intake",
+        "Absence of insulin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After feeding, glucose metabolism increases acetyl-CoA and citrate production. Citrate exits mitochondria to supply cytosolic acetyl-CoA for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cytosolic enzyme regenerates acetyl-CoA from citrate?",
+      "options": [
+        "ATP-citrate lyase",
+        "Carnitine acyltransferase I",
+        "Lipoprotein lipase",
+        "Hormone-sensitive lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP-citrate lyase cleaves citrate in the cytosol to form acetyl-CoA and oxaloacetate. This supplies acetyl-CoA for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway supplies NADPH and ribose-5-phosphate but no ATP?",
+      "options": [
+        "Pentose phosphate pathway",
+        "β-oxidation",
+        "TCA cycle",
+        "Glycogenolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pentose phosphate pathway is a major NADPH source. NADPH is needed for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Malic enzyme supports fatty acid synthesis because it:",
+      "options": [
+        "Produces NADPH in the cytosol",
+        "Produces FADH₂ in mitochondria",
+        "Activates LPL in plasma",
+        "Converts fatty acids into albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malic enzyme converts malate to pyruvate while producing NADPH. This NADPH can be used for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is the major regulated enzyme of fatty acid synthesis?",
+      "options": [
+        "Acetyl-CoA carboxylase",
+        "Carnitine acyltransferase I",
+        "Lipoprotein lipase",
+        "Glycogen phosphorylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA carboxylase catalyzes formation of malonyl-CoA and is a major control point of fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the role of biotin in fatty acid synthesis?",
+      "options": [
+        "It carries CO₂ in the acetyl-CoA carboxylase reaction",
+        "It carries fatty acids in plasma",
+        "It reduces malonyl-CoA to palmitate",
+        "It activates lipoprotein lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotin is required by carboxylases. In fatty acid synthesis, acetyl-CoA carboxylase uses biotin to transfer CO₂ to acetyl-CoA, forming malonyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would inhibit fatty acid synthesis by feedback?",
+      "options": [
+        "High fatty acyl-CoA",
+        "High citrate",
+        "High insulin after meals",
+        "High carbohydrate intake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acyl-CoA is a product signal. When fatty acyl-CoA accumulates, it inhibits acetyl-CoA carboxylase and decreases further fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would activate acetyl-CoA carboxylase allosterically?",
+      "options": [
+        "High citrate",
+        "High fatty acyl-CoA",
+        "Low substrate availability",
+        "High carnitine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citrate activates acetyl-CoA carboxylase, signaling that acetyl-CoA and energy are abundant enough for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes malonyl-CoA as a metabolic regulator?",
+      "options": [
+        "It promotes fatty acid synthesis and inhibits fatty acid oxidation",
+        "It promotes fatty acid oxidation and inhibits synthesis",
+        "It activates carnitine acyltransferase I",
+        "It is produced only during starvation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is the two-carbon donor for fatty acid synthesis and inhibits CAT-I, preventing mitochondrial entry and oxidation of fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Triacylglycerol synthesis requires fatty acyl-CoA and:",
+      "options": [
+        "Glycerol-3-phosphate",
+        "Ribose-5-phosphate",
+        "UDP-glucuronate",
+        "Lactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerol synthesis esterifies fatty acyl-CoA molecules to a glycerol-3-phosphate backbone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In liver, glycerol-3-phosphate can be formed from:",
+      "options": [
+        "Glycerol by glycerol kinase",
+        "Albumin by lipoprotein lipase",
+        "Bile salts by cholesterol esterase",
+        "Ketone bodies by thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver contains glycerol kinase, so it can phosphorylate glycerol to glycerol-3-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In adipose tissue, glycerol-3-phosphate is mainly obtained from:",
+      "options": [
+        "Glucose metabolism through DHAP",
+        "Free glycerol phosphorylation by abundant glycerol kinase",
+        "Ketone body oxidation",
+        "Bile salt metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue lacks significant glycerol kinase activity. Therefore, it depends on glucose metabolism to generate DHAP, which can be reduced to glycerol-3-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is insulin important for TAG synthesis in adipose tissue?",
+      "options": [
+        "It increases glucose uptake, providing DHAP for glycerol-3-phosphate formation",
+        "It prevents glucose entry into adipocytes",
+        "It blocks all fatty acid uptake",
+        "It activates ketogenesis in adipose tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue needs glucose to produce glycerol-3-phosphate because it cannot efficiently use free glycerol. Insulin increases glucose uptake, supporting TAG synthesis and fat storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares liver and adipose tissue in TAG synthesis?",
+      "options": [
+        "Liver can use glycerol directly via glycerol kinase; adipose tissue depends mainly on glucose-derived DHAP",
+        "Adipose tissue can use glycerol directly more efficiently than liver",
+        "Liver cannot synthesize TAG",
+        "Both tissues lack glycerol-3-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver has glycerol kinase and can use free glycerol. Adipose tissue lacks this enzyme, so it needs glucose to generate glycerol-3-phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does adipose tissue release glycerol during TAG breakdown instead of reusing it efficiently?",
+      "options": [
+        "Adipose tissue lacks glycerol kinase",
+        "Adipose tissue lacks lipoprotein lipase",
+        "Adipose tissue lacks insulin receptors",
+        "Adipose tissue lacks fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without glycerol kinase, adipocytes cannot efficiently phosphorylate glycerol to glycerol-3-phosphate. Released glycerol travels to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipoprotein exports endogenously synthesized TAG from liver?",
+      "options": [
+        "VLDL",
+        "Chylomicron",
+        "HDL",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver packages endogenous TAG into VLDL for delivery to peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipoprotein transports dietary TAG from intestine?",
+      "options": [
+        "Chylomicron",
+        "VLDL",
+        "LDL",
+        "HDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons transport exogenous dietary TAG. VLDL transports endogenous TAG synthesized in the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme hydrolyzes TAG from circulating chylomicrons and VLDL?",
+      "options": [
+        "Lipoprotein lipase",
+        "Pancreatic lipase",
+        "Hormone-sensitive lipase",
+        "Acetyl-CoA carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipoprotein lipase is located on capillary walls of adipose tissue and muscle. It hydrolyzes TAG in lipoproteins, releasing fatty acids for uptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme hydrolyzes stored TAG inside adipocytes?",
+      "options": [
+        "Hormone-sensitive lipase",
+        "Lipoprotein lipase",
+        "Pancreatic lipase",
+        "Cholesterol esterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormone-sensitive lipase acts inside adipocytes to mobilize stored TAG during fasting or stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates LPL from hormone-sensitive lipase?",
+      "options": [
+        "LPL hydrolyzes TAG in circulating lipoproteins; HSL hydrolyzes stored TAG inside adipocytes",
+        "LPL acts inside adipocytes only; HSL acts in intestinal lumen",
+        "Both enzymes digest dietary fat in the intestine",
+        "HSL activates chylomicron assembly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL delivers fatty acids from blood lipoproteins into tissues. HSL mobilizes stored fat from adipose tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone favors TAG storage in adipose tissue?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Epinephrine",
+        "Cortisol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin increases glucose uptake and TAG synthesis in adipose tissue. It supports fat storage after meals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormones favor TAG mobilization from adipose tissue?",
+      "options": [
+        "Glucagon and epinephrine",
+        "Insulin only",
+        "High glucose only",
+        "Secretin and CCK only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fasting and stress hormones stimulate lipolysis through cAMP-dependent pathways, mobilizing fatty acids from adipose tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway provides glycerol-3-phosphate in adipose tissue after a carbohydrate-rich meal?",
+      "options": [
+        "Glycolysis",
+        "β-oxidation directly",
+        "Ketogenesis",
+        "Urea cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose enters adipocytes under insulin influence and is metabolized to DHAP. DHAP can be converted to glycerol-3-phosphate for TAG synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why carbohydrate intake promotes fat storage?",
+      "options": [
+        "It provides acetyl-CoA for fatty acid synthesis and glycerol-3-phosphate for TAG synthesis",
+        "It blocks insulin secretion completely",
+        "It prevents TAG synthesis in adipose tissue",
+        "It directly converts glucose into bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess carbohydrate can be converted into fatty acids through acetyl-CoA and can also provide glycerol-3-phosphate through glycolysis. Together, these support TAG formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the fate of fatty acids entering adipocytes after LPL action?",
+      "options": [
+        "They can be re-esterified into TAG for storage",
+        "They are converted directly into glucose",
+        "They are excreted unchanged in urine",
+        "They become bile salts immediately"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids released by LPL from circulating lipoproteins can enter adipocytes. In the fed state, they are re-esterified with glycerol-3-phosphate to form stored TAG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the fate of glycerol released from TAG hydrolysis?",
+      "options": [
+        "It travels to liver for glycolysis or gluconeogenesis",
+        "It is reused efficiently by adipose tissue through glycerol kinase",
+        "It becomes chylomicron directly",
+        "It cannot be metabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue lacks glycerol kinase, so glycerol released during TAG breakdown goes to liver, where it can be converted to glycerol-3-phosphate and enter glycolysis or gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes TAG storage after a meal?",
+      "options": [
+        "Insulin increases glucose uptake in adipose tissue, providing glycerol-3-phosphate, while LPL supplies fatty acids for TAG synthesis",
+        "Glucagon activates adipose TAG storage by increasing glucose uptake",
+        "TAG storage occurs only in liver mitochondria",
+        "Adipose tissue stores TAG without needing glucose metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose TAG storage requires fatty acids and a glycerol backbone. Insulin supports both by increasing glucose uptake and promoting lipid storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fatty-acids-triacylglycerol-metabolism-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes fatty acid and TAG metabolism?",
+      "options": [
+        "Fatty acid synthesis is a fed-state cytosolic NADPH-dependent process producing palmitate, while TAG synthesis stores fatty acids on glycerol-3-phosphate mainly in liver and adipose tissue",
+        "Fatty acid synthesis is a starvation pathway occurring in mitochondria and using NAD⁺/FAD",
+        "TAG synthesis occurs only in RBCs and requires no glycerol backbone",
+        "Fatty acids cannot be stored as TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This combines the core concepts. Fatty acid synthesis stores excess energy after feeding, uses cytosolic acetyl units and NADPH, and produces palmitate. TAG synthesis stores fatty acids as neutral fat using glycerol-3-phosphate.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
