@@ -694,7 +694,7 @@ async function loadQuestionList() {
     currentTopicFileSha = topicFile.sha;
     currentTopicJsonDraft = topicFile.json;
     currentQuestionsDraftMode = false;
-    renderQuestionResults(currentQuestions);
+    filterQuestionResults();
     setMsg('question-json-message', `Loaded ${currentQuestions.length} questions from selected topic JSON.`);
   } catch (e) {
     setMsg('question-message', e.message, false);
@@ -703,6 +703,8 @@ async function loadQuestionList() {
 function renderQuestionResults(items) {
   const box = $('question-results');
   if (!box) return;
+  items = Array.isArray(items) ? items : [];
+  updateQuestionFilterStatus(items.length);
   const total = currentQuestions.length || 0;
   if (!items.length) {
     box.innerHTML = `<div class="text-sm text-slate-500 p-3">No questions found. ${total ? 'Try another search term.' : 'Load or import a topic JSON first.'}</div>`;
@@ -758,14 +760,21 @@ function loadQuestionIntoForm(qid) {
   $('correct-answer').value = Number.isInteger(q.correctAnswer) ? q.correctAnswer + 1 : '';
   $('question-explanation').value = q.explanation || '';
 }
-function filterQuestionResults() {
-  const term = $('question-search').value.trim().toLowerCase();
-  if (!term) { renderQuestionResults(currentQuestions); return; }
-  const filtered = currentQuestions.filter(q => {
+function getQuestionListDifficultyFilter() {
+  const value = $('question-list-difficulty-filter')?.value || 'all';
+  return ['easy', 'medium', 'hard'].includes(value) ? value : 'all';
+}
+function getFilteredQuestionResults() {
+  const term = ($('question-search')?.value || '').trim().toLowerCase();
+  const difficulty = getQuestionListDifficultyFilter();
+  return (currentQuestions || []).filter(q => {
+    const qDifficulty = ['easy', 'medium', 'hard'].includes(q.difficulty) ? q.difficulty : 'medium';
+    if (difficulty !== 'all' && qDifficulty !== difficulty) return false;
+    if (!term) return true;
     const haystack = [
       q.id,
       q.type,
-      q.difficulty,
+      qDifficulty,
       q.questionText,
       q.caseText,
       q.imageUrl,
@@ -775,6 +784,24 @@ function filterQuestionResults() {
     ].join(' ').toLowerCase();
     return haystack.includes(term);
   });
+}
+function updateQuestionFilterStatus(visibleCount = 0) {
+  const el = $('question-filter-status');
+  if (!el) return;
+  const total = (currentQuestions || []).length;
+  const counts = (currentQuestions || []).reduce((acc, q) => {
+    const key = ['easy', 'medium', 'hard'].includes(q.difficulty) ? q.difficulty : 'medium';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, { easy: 0, medium: 0, hard: 0 });
+  const difficulty = getQuestionListDifficultyFilter();
+  const label = difficulty === 'all' ? 'all difficulties' : `${difficulty} only`;
+  el.textContent = total
+    ? `Showing ${visibleCount}/${total} questions (${label}) • Easy ${counts.easy || 0} • Medium ${counts.medium || 0} • Hard ${counts.hard || 0}`
+    : 'No questions loaded yet.';
+}
+function filterQuestionResults() {
+  const filtered = getFilteredQuestionResults();
   renderQuestionResults(filtered);
 }
 
@@ -848,7 +875,7 @@ function importLocalQuestionJsonFile(file) {
       currentQuestionsDraftMode = true;
       currentEditingQuestionId = '';
       resetQuestionForm();
-      renderQuestionResults(currentQuestions);
+      filterQuestionResults();
       setMsg('question-json-message', `Imported ${currentQuestions.length} questions from ${file.name}. Review/edit them, then click “Save current list to topic JSON”.`);
     } catch (e) {
       setMsg('question-json-message', e.message, false);
@@ -923,6 +950,30 @@ async function deleteQuestion(forcedId) {
     await saveCurrentQuestionsToSelectedTopic(`Delete question: ${qid}`);
     resetQuestionForm();
     setMsg('question-message', `Question deleted: ${qid}`);
+  } catch (e) {
+    setMsg('question-message', e.message, false);
+  }
+}
+async function deleteQuestionsBySelectedDifficulty() {
+  try {
+    requireSession();
+    const subjectId = $('question-subject-select').value;
+    const topicId = $('question-topic-select').value;
+    const difficulty = getQuestionListDifficultyFilter();
+    if (!subjectId || !topicId) throw new Error('Choose subject and topic first.');
+    if (difficulty === 'all') throw new Error('Choose Easy, Medium, or Hard first. This button will not delete all questions by mistake.');
+    const before = (currentQuestions || []).length;
+    const toDelete = (currentQuestions || []).filter(q => (['easy', 'medium', 'hard'].includes(q.difficulty) ? q.difficulty : 'medium') === difficulty);
+    if (!toDelete.length) throw new Error(`No ${difficulty} questions found in this topic.`);
+    const ok = window.confirm(`Delete ${toDelete.length} ${difficulty} questions from this topic? This cannot be undone from the admin page.`);
+    if (!ok) return;
+    currentQuestions = (currentQuestions || []).filter(q => (['easy', 'medium', 'hard'].includes(q.difficulty) ? q.difficulty : 'medium') !== difficulty);
+    if (currentQuestions.length === before) throw new Error('No questions were deleted.');
+    await saveCurrentQuestionsToSelectedTopic(`Delete ${difficulty} questions from ${topicId}`);
+    currentEditingQuestionId = '';
+    resetQuestionForm();
+    filterQuestionResults();
+    setMsg('question-message', `Deleted ${toDelete.length} ${difficulty} questions. Other difficulties stayed unchanged.`);
   } catch (e) {
     setMsg('question-message', e.message, false);
   }
@@ -1057,6 +1108,8 @@ window.addEventListener('DOMContentLoaded', () => {
     resetQuestionForm();
   });
   $('question-search').addEventListener('input', filterQuestionResults);
+  $('question-list-difficulty-filter')?.addEventListener('change', filterQuestionResults);
+  $('delete-filtered-difficulty-btn')?.addEventListener('click', deleteQuestionsBySelectedDifficulty);
   $('question-image')?.addEventListener('input', updateQuestionImagePreview);
   $('choose-question-image-btn')?.addEventListener('click', () => $('question-image-file')?.click());
   $('question-image-file')?.addEventListener('change', () => {
