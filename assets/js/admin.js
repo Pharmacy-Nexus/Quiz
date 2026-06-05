@@ -293,22 +293,58 @@ function getMergedSections(subjectJson = {}) {
   });
   return [...map.values()].filter(Boolean).sort((a, b) => (a.order || 999) - (b.order || 999) || a.name.localeCompare(b.name));
 }
-async function syncSectionSelectors() {
-  const subjectId = $('section-subject-select')?.value || $('topic-subject-select')?.value || '';
+function buildSectionOptions(sections = [], firstLabel = 'All sections') {
+  return `<option value="">${firstLabel}</option>` + sections.map(s => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('');
+}
+function buildTopicOptions(topics = [], sectionId = '') {
+  const normalizedSectionId = slugify(sectionId || '');
+  const filteredTopics = (topics || [])
+    .filter(t => !normalizedSectionId || slugify(t.sectionId || t.section || '') === normalizedSectionId)
+    .sort((a,b)=>(a.order||0)-(b.order||0));
+  const emptyLabel = normalizedSectionId ? 'No topics in this section' : 'Select topic';
+  return `<option value="">${filteredTopics.length ? 'Select topic' : emptyLabel}</option>` +
+    filteredTopics.map(t => `<option value="${escapeHtml(t.id)}">${escapeHtml(t.name)}${t.section ? ` — ${escapeHtml(t.section)}` : ''}</option>`).join('');
+}
+async function fillSectionFilter(subjectSelectId, sectionSelectId, firstLabel = 'All sections') {
+  const subjectId = $(subjectSelectId)?.value || '';
+  const sectionEl = $(sectionSelectId);
+  if (!sectionEl) return;
   if (!subjectId) {
-    if ($('section-edit-select')) $('section-edit-select').innerHTML = '<option value="">Select section</option>';
-    if ($('topic-section-select')) $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>';
+    sectionEl.innerHTML = `<option value="">${firstLabel}</option>`;
     return;
   }
+  const previousValue = sectionEl.value;
+  const subjectFile = await getSubjectFile(subjectId);
+  const sections = getMergedSections(subjectFile.json);
+  sectionEl.innerHTML = buildSectionOptions(sections, firstLabel);
+  if ([...sectionEl.options].some(opt => opt.value === previousValue)) sectionEl.value = previousValue;
+}
+async function syncSectionSelectors() {
   try {
-    const subjectFile = await getSubjectFile(subjectId);
-    const sections = getMergedSections(subjectFile.json);
-    if ($('section-edit-select') && $('section-subject-select')?.value === subjectId) {
-      $('section-edit-select').innerHTML = '<option value="">Create new section</option>' + sections.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
+    const sectionSubjectId = $('section-subject-select')?.value || '';
+    if ($('section-edit-select')) {
+      if (!sectionSubjectId) $('section-edit-select').innerHTML = '<option value="">Select section</option>';
+      else {
+        const subjectFile = await getSubjectFile(sectionSubjectId);
+        const sections = getMergedSections(subjectFile.json);
+        $('section-edit-select').innerHTML = '<option value="">Create new section</option>' + sections.map(s => `<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('');
+      }
     }
-    if ($('topic-section-select') && $('topic-subject-select')?.value === subjectId) {
-      $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>' + sections.map(s => `<option value="${s.name}">${s.name}</option>`).join('');
+
+    const topicSubjectId = $('topic-subject-select')?.value || '';
+    if ($('topic-section-select')) {
+      if (!topicSubjectId) $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>';
+      else {
+        const subjectFile = await getSubjectFile(topicSubjectId);
+        const sections = getMergedSections(subjectFile.json);
+        const previousValue = $('topic-section-select').value;
+        $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>' + sections.map(s => `<option value="${escapeHtml(s.name)}">${escapeHtml(s.name)}</option>`).join('');
+        if ([...$('topic-section-select').options].some(opt => opt.value === previousValue)) $('topic-section-select').value = previousValue;
+      }
     }
+
+    await fillSectionFilter('question-subject-select', 'question-section-select', 'All sections');
+    await fillSectionFilter('bulk-subject-select', 'bulk-section-select', 'All sections');
   } catch (e) {
     setMsg('section-message', e.message, false);
   }
@@ -383,19 +419,24 @@ async function deleteSection() {
 }
 
 async function syncTopicSelectors() {
-  const subjectId = $('topic-subject-select').value || $('question-subject-select').value || $('bulk-subject-select').value || '';
-  if (!subjectId) {
-    ['topic-edit-select', 'question-topic-select', 'bulk-topic-select'].forEach(id => { if ($(id)) $(id).innerHTML = '<option value="">Select topic</option>'; });
-    if ($('topic-section-select')) $('topic-section-select').innerHTML = '<option value="">Choose saved section or type manually</option>';
-    return;
+  const tasks = [
+    { subjectId: $('topic-subject-select')?.value || '', topicSelectId: 'topic-edit-select', sectionId: '' },
+    { subjectId: $('question-subject-select')?.value || '', topicSelectId: 'question-topic-select', sectionId: $('question-section-select')?.value || '' },
+    { subjectId: $('bulk-subject-select')?.value || '', topicSelectId: 'bulk-topic-select', sectionId: $('bulk-section-select')?.value || '' }
+  ];
+
+  for (const task of tasks) {
+    const target = $(task.topicSelectId);
+    if (!target) continue;
+    if (!task.subjectId) {
+      target.innerHTML = '<option value="">Select topic</option>';
+      continue;
+    }
+    const previousValue = target.value;
+    const subjectFile = await getSubjectFile(task.subjectId);
+    target.innerHTML = buildTopicOptions(subjectFile.json.topics || [], task.sectionId);
+    if ([...target.options].some(opt => opt.value === previousValue)) target.value = previousValue;
   }
-  const subjectFile = await getSubjectFile(subjectId);
-  const options = '<option value="">Select topic</option>' + (subjectFile.json.topics || [])
-    .sort((a,b)=>(a.order||0)-(b.order||0))
-    .map(t => `<option value="${t.id}">${t.name}</option>`).join('');
-  if ($('topic-subject-select').value === subjectId) $('topic-edit-select').innerHTML = options;
-  if ($('question-subject-select').value === subjectId) $('question-topic-select').innerHTML = options;
-  if ($('bulk-subject-select').value === subjectId) $('bulk-topic-select').innerHTML = options;
   await syncSectionSelectors();
 }
 async function loadTopicsForQuestionSubject() {
@@ -912,7 +953,12 @@ async function bulkImportQuestions() {
       $('question-topic-select').value = topicId;
       await loadQuestionList();
     }
-    setMsg('bulk-message', `${prepared.length} questions imported successfully.`);
+    setMsg('bulk-message', `${prepared.length} questions imported successfully. The bulk box will clear in 5 seconds.`);
+    clearTimeout(bulkImportQuestions._clearTimer);
+    bulkImportQuestions._clearTimer = setTimeout(() => {
+      if ($('bulk-json')) $('bulk-json').value = '';
+      setMsg('bulk-message', 'Bulk box cleared. Ready for the next import.');
+    }, 5000);
   } catch (e) {
     setMsg('bulk-message', e.message, false);
   }
@@ -992,7 +1038,17 @@ window.addEventListener('DOMContentLoaded', () => {
   $('delete-topic-btn').addEventListener('click', deleteTopic);
 
   $('question-subject-select').addEventListener('change', async () => {
+    if ($('question-section-select')) $('question-section-select').value = '';
+    await syncSectionSelectors();
     await syncTopicSelectors();
+    renderQuestionResults([]);
+    resetQuestionForm();
+  });
+  $('question-section-select')?.addEventListener('change', async () => {
+    await syncTopicSelectors();
+    if ($('question-topic-select')) $('question-topic-select').value = '';
+    currentQuestions = [];
+    currentTopicFileSha = null;
     renderQuestionResults([]);
     resetQuestionForm();
   });
@@ -1018,7 +1074,12 @@ window.addEventListener('DOMContentLoaded', () => {
   $('reset-question-btn').addEventListener('click', resetQuestionForm);
   $('delete-question-btn').addEventListener('click', () => deleteQuestion());
 
-  $('bulk-subject-select').addEventListener('change', syncTopicSelectors);
+  $('bulk-subject-select').addEventListener('change', async () => {
+    if ($('bulk-section-select')) $('bulk-section-select').value = '';
+    await syncSectionSelectors();
+    await syncTopicSelectors();
+  });
+  $('bulk-section-select')?.addEventListener('change', syncTopicSelectors);
   $('bulk-topic-select').addEventListener('change', () => {});
   $('bulk-import-btn').addEventListener('click', bulkImportQuestions);
   $('bulk-template-btn').addEventListener('click', insertBulkTemplate);
