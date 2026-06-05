@@ -163,7 +163,13 @@
               <select id="question-subject-select" class="field"></select>
               <select id="question-section-select" class="field"><option value="">All sections</option></select>
               <select id="question-topic-select" class="field"></select>
-              <input id="question-search" class="field" placeholder="Search by question, ID, option, explanation, difficulty..." />
+              <select id="question-list-difficulty-filter" class="field">
+                <option value="all">All difficulties</option>
+                <option value="easy">Easy only</option>
+                <option value="medium">Medium only</option>
+                <option value="hard">Hard only</option>
+              </select>
+              <input id="question-search" class="field md:col-span-2" placeholder="Search within the selected difficulty..." />
             </div>
             <div class="soft-panel mb-5">
               <div class="flex items-center justify-between gap-3 flex-wrap">
@@ -217,7 +223,13 @@
             </div>
 
             <div class="questions-list-shell">
-              <div class="flex items-center justify-between gap-3 flex-wrap mb-3"><h3 class="font-black text-slate-900">Loaded questions list</h3><p class="text-sm text-slate-500">Appears below the form so the page stays wide and comfortable.</p></div>
+              <div class="flex items-center justify-between gap-3 flex-wrap mb-3">
+                <div>
+                  <h3 class="font-black text-slate-900">Loaded questions list</h3>
+                  <p id="question-filter-status" class="text-sm text-slate-500 mt-1">Choose a topic to load questions.</p>
+                </div>
+                <button id="delete-filtered-difficulty-btn" class="mini-btn btn-danger" type="button">Delete selected difficulty</button>
+              </div>
               <div id="question-results" class="question-results-grid"></div>
             </div>
           </div>
