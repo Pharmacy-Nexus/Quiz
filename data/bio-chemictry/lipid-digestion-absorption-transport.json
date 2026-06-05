@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "lipid-digestion-absorption-transport",
   "topicName": "Lipid Digestion, Absorption & Transport",
-  "updatedAt": "2026-06-05T03:45:37.164Z",
+  "updatedAt": "2026-06-05T03:51:20.394Z",
   "questions": [
     {
       "id": "bio-chemictry-lipid-digestion-absorption-transport-001",
@@ -2040,6 +2040,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "This statement links the whole topic together: luminal digestion, bile salt micelles, mucosal re-esterification, chylomicron assembly and secretion, LPL-mediated TAG delivery, and remnant uptake by the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-121",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty acids contain a hydrophobic hydrocarbon chain and a:",
+      "options": [
+        "Hydrophilic carboxyl group",
+        "Phosphate group only",
+        "Nitrogenous base",
+        "Steroid nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids have a long nonpolar hydrocarbon chain and a polar carboxyl group. At physiological pH, the carboxyl group is usually ionized, but long-chain fatty acids are still mainly hydrophobic because the hydrocarbon chain dominates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-122",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Long-chain fatty acids are transported in plasma mainly bound to:",
+      "options": [
+        "Albumin",
+        "Hemoglobin",
+        "Glycogen",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acids are poorly soluble in water. Therefore, free fatty acids released into blood are transported bound to serum albumin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-123",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty acids may be classified according to saturation into:",
+      "options": [
+        "Saturated and unsaturated fatty acids",
+        "Acidic and basic fatty acids only",
+        "Protein-bound and DNA-bound fatty acids",
+        "Ketogenic and glucogenic fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Saturated fatty acids have no double bonds, while unsaturated fatty acids contain one or more double bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-124",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A saturated fatty acid contains:",
+      "options": [
+        "No double bonds",
+        "One or more double bonds",
+        "A phosphate group",
+        "A sugar residue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Saturated fatty acids contain only single bonds between carbon atoms in their hydrocarbon chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-125",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "An unsaturated fatty acid contains:",
+      "options": [
+        "One or more double bonds",
+        "No carbon-carbon double bonds",
+        "A steroid ring",
+        "A peptide bond"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unsaturated fatty acids contain at least one carbon-carbon double bond. Polyunsaturated fatty acids contain two or more double bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-126",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Essential fatty acids are fatty acids that:",
+      "options": [
+        "Cannot be synthesized by the body and must be supplied by diet",
+        "Are synthesized only during fasting",
+        "Are never found in food",
+        "Are produced only from cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Essential fatty acids must be obtained from the diet because the human body cannot synthesize them in sufficient amounts.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-127",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Linoleic acid is classified as:",
+      "options": [
+        "An essential fatty acid",
+        "A ketone body",
+        "A bile acid",
+        "A steroid hormone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linoleic acid is an essential fatty acid and must be obtained from the diet. It can also serve as a precursor for other polyunsaturated fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-128",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "α-Linolenic acid is classified as:",
+      "options": [
+        "An essential fatty acid",
+        "A saturated fatty acid made only in liver",
+        "A cholesterol ester",
+        "A phospholipid head group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Linolenic acid is an essential fatty acid. It must be supplied by diet because humans cannot introduce double bonds at the required positions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-129",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Arachidonic acid is considered essential mainly when the diet lacks:",
+      "options": [
+        "Linoleic acid",
+        "Glucose",
+        "Cholesterol",
+        "Glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arachidonic acid can be synthesized from linoleic acid by elongation and desaturation. Therefore, it becomes essential if linoleic acid is absent from the diet.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-130",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Saturated fatty acids are relatively:",
+      "options": [
+        "Resistant to oxidation",
+        "Easily oxidized in air compared with unsaturated fatty acids",
+        "Always liquid at room temperature",
+        "Always essential"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Saturated fatty acids are more resistant to spontaneous oxidation. Unsaturated fatty acids are more easily oxidized in air, which can lead to rancidity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-131",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Unsaturated fatty acids help maintain membrane:",
+      "options": [
+        "Fluidity",
+        "Rigidity only",
+        "DNA replication",
+        "Protein folding only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double bonds introduce bends in fatty acid chains. This reduces tight packing and helps maintain the fluid nature of biological membranes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-132",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Increasing fatty acid chain length generally:",
+      "options": [
+        "Increases melting temperature",
+        "Decreases melting temperature always",
+        "Has no effect on melting temperature",
+        "Converts fatty acid into cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Longer fatty acid chains have stronger hydrophobic interactions, so their melting temperature increases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-133",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adding double bonds to a fatty acid generally:",
+      "options": [
+        "Decreases melting temperature",
+        "Increases melting temperature",
+        "Converts it into a steroid",
+        "Makes it unable to form lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double bonds disrupt tight packing of fatty acid chains, lowering the melting temperature and increasing fluidity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-134",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most fatty acids used by the body are supplied by:",
+      "options": [
+        "Diet",
+        "DNA breakdown only",
+        "Bile salts only",
+        "Hemoglobin degradation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that most fatty acids used by the body come from the diet. However, excess carbohydrate and protein can also be converted into fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-135",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Excess carbohydrates and proteins can be converted into:",
+      "options": [
+        "Fatty acids and triacylglycerols",
+        "DNA only",
+        "Bilirubin only",
+        "Urea only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When energy intake exceeds immediate needs, carbon from carbohydrates and proteins can be converted to fatty acids and stored as triacylglycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-136",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "De novo fatty acid synthesis occurs mainly in:",
+      "options": [
+        "Liver and lactating mammary glands",
+        "Mature RBCs only",
+        "Brain only",
+        "Stomach lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In humans, fatty acid synthesis occurs mainly in the liver and lactating mammary glands. These tissues are active in lipid biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-137",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty acid synthesis occurs primarily in the:",
+      "options": [
+        "Cytosol",
+        "Mitochondrial matrix only",
+        "Lysosome",
+        "Nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis is mainly cytosolic. This contrasts with fatty acid degradation, which occurs mainly in mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-138",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The building unit for fatty acid synthesis is derived from:",
+      "options": [
+        "Acetyl-CoA",
+        "Lactate only",
+        "Urea",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis incorporates carbons from acetyl-CoA into the growing fatty acid chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-139",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetyl-CoA is transported from mitochondria to cytosol mainly as:",
+      "options": [
+        "Citrate",
+        "Carnitine",
+        "Albumin",
+        "Bile salt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA cannot cross the inner mitochondrial membrane directly. It is exported to the cytosol as citrate, then cleaved to regenerate acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-140",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty acid synthesis requires reducing power mainly in the form of:",
+      "options": [
+        "NADPH",
+        "NADH only",
+        "FADH₂ only",
+        "ATP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADPH provides the reducing equivalents needed for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-141",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The major source of NADPH for fatty acid synthesis is:",
+      "options": [
+        "Hexose monophosphate shunt / PPP",
+        "TCA cycle only",
+        "Glycogenolysis only",
+        "Urea cycle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The HMP shunt, also called the pentose phosphate pathway, is the major source of NADPH required for fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-142",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Another source of NADPH for fatty acid synthesis is:",
+      "options": [
+        "Malic enzyme",
+        "Lactate dehydrogenase",
+        "Glycogen phosphorylase",
+        "Hexokinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malic enzyme, a cytosolic NADP⁺-dependent malate dehydrogenase, can produce NADPH and support fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-143",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetyl-CoA carboxylase converts acetyl-CoA into:",
+      "options": [
+        "Malonyl-CoA",
+        "Palmitate directly",
+        "Acetoacetate",
+        "Cholesterol ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA carboxylase catalyzes the carboxylation of acetyl-CoA to malonyl-CoA, an important committed step in fatty acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-144",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetyl-CoA carboxylase requires which vitamin-derived coenzyme?",
+      "options": [
+        "Biotin",
+        "Thiamine pyrophosphate",
+        "FAD",
+        "PLP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA carboxylase is a carboxylase enzyme. Biotin acts as a CO₂ carrier in carboxylation reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-145",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malonyl-CoA is important in fatty acid synthesis because it is:",
+      "options": [
+        "The two-carbon donor used for chain elongation",
+        "The final product of β-oxidation",
+        "The main carrier of dietary cholesterol",
+        "The enzyme that activates lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA donates two-carbon units during fatty acid synthesis. It is formed from acetyl-CoA by acetyl-CoA carboxylase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-146",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The final product of normal de novo fatty acid synthesis is mainly:",
+      "options": [
+        "Palmitate",
+        "Cholesterol",
+        "Acetoacetate",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The major product of fatty acid synthase is palmitate, a 16-carbon saturated fatty acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-147",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Triacylglycerols are also called:",
+      "options": [
+        "Triglycerides",
+        "Ketone bodies",
+        "Sterols",
+        "Glycolipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerols are commonly called triglycerides. They are made of glycerol esterified with three fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-148",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Triacylglycerols are:",
+      "options": [
+        "Neutral, water-insoluble fats",
+        "Charged water-soluble sugars",
+        "Proteins with phosphate groups",
+        "Nucleotides used for DNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerols are neutral lipids. They are highly hydrophobic and coalesce inside adipocytes as oily droplets.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-149",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The major energy storage form in adipose tissue is:",
+      "options": [
+        "Triacylglycerol",
+        "Free glucose",
+        "Glycogen only",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerol is the major stored energy form in adipose tissue. It stores more energy per gram than carbohydrate or protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipid-digestion-absorption-transport-150",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Triacylglycerol synthesis occurs mainly in:",
+      "options": [
+        "Liver and adipose tissue",
+        "RBCs only",
+        "Brain neurons only",
+        "Bile canaliculi only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Triacylglycerol synthesis occurs primarily in the liver and adipose tissue. Liver can export TG as VLDL, while adipose tissue stores TG.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
