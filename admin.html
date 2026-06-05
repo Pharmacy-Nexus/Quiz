@@ -48,6 +48,10 @@
       .mono{white-space:pre-wrap;word-break:break-word}
       textarea.field{min-height:110px}
       .questions-list-shell{margin-top:1rem!important;padding-top:1rem!important}
+      .admin-main>.card{width:100%!important;max-width:100%!important;overflow:hidden!important}
+      select.field{background-position:right .75rem center!important;padding-right:2.2rem!important}
+      #bulk-json{min-height:260px!important;max-height:55vh!important;overflow:auto!important}
+      #question-search{min-width:0!important}
       #question-image-preview img{max-width:100%!important;height:auto!important;border-radius:1rem}
       .flex{min-width:0}
       .space-y-3>*+*,.space-y-4>*+*{margin-top:.75rem!important}
@@ -157,8 +161,9 @@
             <div class="admin-section-title"><div><h2><span class="step-badge">4</span>Question manager</h2><p>Load questions from topic JSON, search, edit as a normal form, delete, import local JSON, and save back.</p></div></div>
             <div class="question-tools-row mb-4">
               <select id="question-subject-select" class="field"></select>
+              <select id="question-section-select" class="field"><option value="">All sections</option></select>
               <select id="question-topic-select" class="field"></select>
-              <input id="question-search" class="field md:col-span-2" placeholder="Search by question, ID, option, explanation, difficulty..." />
+              <input id="question-search" class="field" placeholder="Search by question, ID, option, explanation, difficulty..." />
             </div>
             <div class="soft-panel mb-5">
               <div class="flex items-center justify-between gap-3 flex-wrap">
@@ -221,7 +226,8 @@
             <div class="admin-section-title"><div><h2><span class="step-badge">5</span>Bulk import questions</h2><p>Bulk upload is still here. Paste a JSON array and append many questions to a topic.</p></div></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <select id="bulk-subject-select" class="field"></select>
-              <select id="bulk-topic-select" class="field"></select>
+              <select id="bulk-section-select" class="field"><option value="">All sections</option></select>
+              <select id="bulk-topic-select" class="field md:col-span-2"></select>
               <textarea id="bulk-json" class="field md:col-span-2 min-h-[330px] mono" placeholder='[
   {
     "type": "mcq",
