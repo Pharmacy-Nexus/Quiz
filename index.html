@@ -478,27 +478,28 @@ tailwind.config = {
   }
   .pn-section-panel > * { position: relative; z-index: 1; }
   .pn-section-chip-row {
-    display: flex;
-    gap: .7rem;
-    overflow-x: auto;
-    padding-bottom: .25rem;
-    scroll-snap-type: x proximity;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .75rem;
+    overflow: visible;
+    padding-bottom: 0;
   }
-  .pn-section-chip-row::-webkit-scrollbar { height: 4px; }
+  .pn-section-chip-row::-webkit-scrollbar { display: none; }
   .pn-section-chip {
-    min-height: 46px;
-    display: inline-flex;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: .45rem;
-    white-space: nowrap;
-    scroll-snap-align: start;
-    border-radius: 999px;
-    padding: .82rem 1rem;
-    font-size: .88rem;
+    justify-content: space-between;
+    gap: .75rem;
+    white-space: normal;
+    text-align: left;
+    border-radius: 1.15rem;
+    padding: .9rem 1rem;
+    font-size: .9rem;
     font-weight: 900;
     border: 1px solid rgba(193,199,203,.32);
-    background: rgba(255,255,255,.72);
+    background: rgba(255,255,255,.74);
     color: #00151b;
     box-shadow: 0 8px 18px rgba(0,21,27,.045);
     transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
