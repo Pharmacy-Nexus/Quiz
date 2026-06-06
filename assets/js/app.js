@@ -955,17 +955,34 @@ function renderTopicsPage(query = '') {
 
   const topicsWrapper = document.getElementById('topics-list');
   if (!topicsWrapper) return;
+  const activeSectionName = activeSection === 'all' ? 'All Topics' : getSectionName(activeSection, sections);
   const sectionSummary = sections.length ? `
-    <aside class="rounded-[2rem] bg-surface-container-lowest p-5 md:p-6 ambient-shadow ghost-border mb-2">
-      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5">
-        <div><p class="text-xs font-black uppercase tracking-[0.24em] text-tertiary mb-1">Sections</p><h3 class="text-2xl font-black text-primary tracking-tight">Choose a chapter</h3></div>
-        <span class="text-xs font-black uppercase tracking-[0.2em] text-on-surface-variant">${sections.length} sections • ${allTopics.length} topics</span>
+    <aside class="pn-section-panel p-5 md:p-7 mb-5">
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-5 mb-5">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed px-3 py-1 mb-3">
+            <span class="material-symbols-outlined text-base">auto_stories</span>
+            <span class="text-[11px] font-black uppercase tracking-[0.24em]">Sections</span>
+          </div>
+          <h3 class="text-2xl md:text-3xl font-black text-primary tracking-tight">Choose a chapter</h3>
+          <p class="text-sm text-on-surface-variant mt-2 max-w-2xl">Filter the library by chapter so the topic list stays focused and easier to study.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-3 min-w-[220px]">
+          <div class="rounded-[1.2rem] bg-white/70 border border-outline-variant/20 px-4 py-3">
+            <div class="text-2xl font-black text-primary">${sections.length}</div>
+            <div class="text-[10px] font-black uppercase tracking-[0.18em] text-on-surface-variant">Sections</div>
+          </div>
+          <div class="rounded-[1.2rem] bg-white/70 border border-outline-variant/20 px-4 py-3">
+            <div class="text-2xl font-black text-primary">${topics.length}</div>
+            <div class="text-[10px] font-black uppercase tracking-[0.18em] text-on-surface-variant">Shown</div>
+          </div>
+        </div>
       </div>
-      <div class="flex flex-wrap gap-3">
-        <button onclick="setTopicSection('all')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === 'all' ? 'bg-primary text-on-primary border-primary' : 'bg-surface-container-low text-primary border-outline-variant/20'}">All Topics</button>
+      <div class="pn-section-chip-row">
+        <button onclick="setTopicSection('all')" class="pn-section-chip ${activeSection === 'all' ? 'is-active' : ''}"><span class="material-symbols-outlined text-base">apps</span>All Topics <span class="opacity-60">${allTopics.length}</span></button>
         ${sections.map(section => {
           const count = allTopics.filter(t => getTopicSectionId(t) === section.id).length;
-          return `<button onclick="setTopicSection('${escapeHtml(section.id)}')" class="px-4 py-3 rounded-full text-sm font-black border ${activeSection === section.id ? 'bg-tertiary-fixed text-on-tertiary-fixed border-tertiary-fixed' : 'bg-surface-container-low text-primary border-outline-variant/20 hover:bg-surface-container'}">${escapeHtml(section.name)} <span class="opacity-60">${count}</span></button>`;
+          return `<button onclick="setTopicSection('${escapeHtml(section.id)}')" class="pn-section-chip ${activeSection === section.id ? 'is-active is-gold' : ''}">${escapeHtml(section.name)} <span class="opacity-60">${count}</span></button>`;
         }).join('')}
       </div>
     </aside>` : '';
@@ -981,21 +998,36 @@ function renderTopicsPage(query = '') {
     const hard = Number(topic.difficultyBreakdown?.hard || 0);
     const total = Number(topic.questionsCount || easy + medium + hard || 0);
     const sectionName = getSectionName(getTopicSectionId(topic), sections);
-    const statusLabel = index === 0 ? 'Available' : 'Topic';
-    const statusAccent = index === 0 ? 'text-tertiary' : 'text-on-surface-variant';
+    const progress = total ? Math.round(((easy + medium) / total) * 100) : 0;
+    const statusLabel = index === 0 ? 'Start here' : 'Topic';
     return `
-      <article class="group bg-surface-container-lowest rounded-xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start relative overflow-hidden hover:bg-surface-bright transition-colors cursor-pointer" onclick="selectTopic('${escapeHtml(subjectId)}','${escapeHtml(topic.id || slugify(topic.name))}')">
-        <div class="absolute left-0 top-0 bottom-0 w-1.5 ${index === 0 ? 'bg-tertiary' : 'bg-secondary'} opacity-80 rounded-l-xl"></div>
-        <div class="flex-1 pl-2">
-          <div class="flex items-center gap-3 mb-3 flex-wrap"><span class="material-symbols-outlined ${index === 0 ? 'text-secondary' : 'text-outline'} text-base" style="font-variation-settings:'FILL' 1">${index === 0 ? 'check_circle' : 'menu_book'}</span><span class="text-xs font-bold uppercase tracking-widest ${statusAccent}">${statusLabel}</span><span class="px-2.5 py-0.5 bg-tertiary-fixed/30 text-on-tertiary-fixed rounded-full text-xs font-bold">${escapeHtml(sectionName)}</span><span class="px-2.5 py-0.5 bg-surface-container rounded-full text-xs font-bold text-primary">${total} Questions</span></div>
-          <h3 class="text-xl font-extrabold text-primary mb-2">${escapeHtml(topic.name)}</h3>
-          <p class="text-on-surface-variant text-sm leading-relaxed mb-4">${escapeHtml(topic.description || '')}</p>
-          <div class="flex flex-wrap gap-2"><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Easy ${easy}</span><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Medium ${medium}</span><span class="px-3 py-1 bg-surface-container-low text-primary rounded-lg text-xs font-bold border border-outline-variant/15">Hard ${hard}</span></div>
+      <article class="pn-topic-card p-5 md:p-6 lg:p-7 cursor-pointer" onclick="selectTopic('${escapeHtml(subjectId)}','${escapeHtml(topic.id || slugify(topic.name))}')">
+        <div class="pn-topic-accent"></div>
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-5 lg:gap-7 items-center pl-3 md:pl-4">
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 mb-4 flex-wrap">
+              <span class="pn-topic-meta-pill"><span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1">${index === 0 ? 'flag_circle' : 'menu_book'}</span>${statusLabel}</span>
+              <span class="pn-topic-meta-pill bg-tertiary-fixed/30 text-on-tertiary-fixed">${escapeHtml(sectionName)}</span>
+              <span class="pn-topic-meta-pill">${total} Questions</span>
+            </div>
+            <h3 class="text-xl md:text-2xl font-black text-primary tracking-tight mb-2 leading-tight">${escapeHtml(topic.name)}</h3>
+            ${topic.description ? `<p class="text-on-surface-variant text-sm leading-relaxed mb-4 max-w-3xl">${escapeHtml(topic.description)}</p>` : ''}
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="pn-difficulty-pill">Easy <strong>${easy}</strong></span>
+              <span class="pn-difficulty-pill">Medium <strong>${medium}</strong></span>
+              <span class="pn-difficulty-pill">Hard <strong>${hard}</strong></span>
+            </div>
+            <div class="h-2.5 rounded-full bg-surface-container overflow-hidden max-w-xl">
+              <div class="h-full rounded-full bg-gradient-to-r from-secondary to-tertiary-container" style="width:${Math.max(progress, total ? 8 : 0)}%"></div>
+            </div>
+          </div>
+          <div class="w-full lg:w-auto flex lg:flex-col items-stretch lg:items-end gap-3">
+            <button class="pn-topic-open-btn w-full lg:w-auto px-6 py-3 bg-primary text-on-primary font-black text-sm hover:scale-[0.98] transition-transform flex items-center gap-2">Open Topic <span class="material-symbols-outlined text-base">arrow_forward</span></button>
+          </div>
         </div>
-        <div class="w-full md:w-auto flex items-center md:items-end gap-4 pl-2"><button class="px-5 py-2.5 bg-primary text-on-primary rounded-xl font-bold text-sm hover:bg-on-primary-fixed transition-colors flex items-center gap-2">Open Topic <span class="material-symbols-outlined text-base">arrow_forward</span></button></div>
       </article>`;
   }).join('');
-  topicsWrapper.innerHTML = sectionSummary + cards;
+  topicsWrapper.innerHTML = `<div class="pn-topic-shell space-y-4">${sectionSummary}${cards}</div>`;
 }
 
 async function loadTopicQuestions(subjectId, topicId) {
