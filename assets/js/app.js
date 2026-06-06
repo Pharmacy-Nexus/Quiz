@@ -1047,7 +1047,8 @@ async function loadTopicQuestions(subjectId, topicId) {
     subjectName: PN_DATA.subjectsMap.get(subjectId)?.name || '',
     subjectId
   };
-  appState.currentTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
+  const rawTopicQuestions = Array.isArray(topicJson.questions) ? topicJson.questions : [];
+  appState.currentTopicQuestions = buildMixedDifficultyQuestions(rawTopicQuestions, topicId);
   appState.currentSetIndex = 0;
   clearCurrentSetSessionQuestions();
   beginStudySession('set');
@@ -1060,6 +1061,36 @@ function chunkQuestions(questions = []) {
   const chunks = [];
   for (let i = 0; i < questions.length; i += STUDY_SET_SIZE) chunks.push(questions.slice(i, i + STUDY_SET_SIZE));
   return chunks.length ? chunks : [[]];
+}
+
+function getQuestionDifficultyKey(question = {}) {
+  const key = String(question.difficulty || 'easy').toLowerCase().trim();
+  if (key === 'hard') return 'hard';
+  if (key === 'medium') return 'medium';
+  return 'easy';
+}
+
+function buildMixedDifficultyQuestions(questions = [], topicId = '') {
+  const list = Array.isArray(questions) ? questions : [];
+  if (list.length <= 1) return [...list];
+
+  const groups = { easy: [], medium: [], hard: [] };
+  list.forEach(question => groups[getQuestionDifficultyKey(question)].push(question));
+
+  Object.keys(groups).forEach(key => {
+    groups[key] = shuffleWithSeed(groups[key], `topic-${topicId || 'unknown'}-${key}-${list.length}`);
+  });
+
+  const cycle = shuffleWithSeed(['easy', 'medium', 'hard'], `topic-${topicId || 'unknown'}-difficulty-cycle-${list.length}`);
+  const mixed = [];
+
+  while (groups.easy.length || groups.medium.length || groups.hard.length) {
+    cycle.forEach(key => {
+      if (groups[key].length) mixed.push(groups[key].shift());
+    });
+  }
+
+  return mixed;
 }
 
 function getPrimaryStudyQuestions() {
