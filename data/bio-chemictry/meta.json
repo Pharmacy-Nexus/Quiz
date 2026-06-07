@@ -358,10 +358,10 @@
       "sectionId": "lipids",
       "difficultyBreakdown": {
         "easy": 26,
-        "medium": 0,
+        "medium": 45,
         "hard": 0
       },
-      "questionsCount": 26,
+      "questionsCount": 71,
       "file": "data/bio-chemictry/ketone-bodies.json"
     }
   ],
@@ -403,5 +403,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T16:10:09.227Z"
+  "updatedAt": "2026-06-07T16:12:01.489Z"
 }
