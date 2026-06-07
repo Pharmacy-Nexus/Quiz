@@ -342,11 +342,11 @@
       "section": "Lipids",
       "sectionId": "lipids",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 30,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 30,
       "file": "data/bio-chemictry/lipolysis-oxidation.json"
     }
   ],
@@ -388,5 +388,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T15:57:27.301Z"
+  "updatedAt": "2026-06-07T15:57:46.901Z"
 }
