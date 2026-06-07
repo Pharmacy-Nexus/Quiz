@@ -2,6 +2,1537 @@
   "subjectId": "bio-chemictry",
   "topicId": "amino-acid-catabolism-transamination-deamination-transdeamination",
   "topicName": "Amino Acid Catabolism: Transamination, Deamination & Transdeamination",
-  "updatedAt": "2026-06-07T21:39:44.428Z",
-  "questions": []
+  "updatedAt": "2026-06-07T21:43:43.203Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Deamination means:",
+      "options": [
+        "Removal of the amino group from an amino acid",
+        "Addition of an amino group to glucose",
+        "Transfer of phosphate to amino acid",
+        "Formation of peptide bond"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deamination removes the amino group from amino acids, producing ammonia and the corresponding keto acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main sites of deamination are:",
+      "options": [
+        "Liver and kidney",
+        "Brain and RBCs",
+        "Adipose tissue only",
+        "Intestinal lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that deamination occurs mainly in liver and kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Deamination of an amino acid produces:",
+      "options": [
+        "Keto acid and ammonia",
+        "Glucose and glycogen",
+        "Fatty acid and glycerol",
+        "Cholesterol and bile acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid loses its amino group as ammonia, while the remaining carbon skeleton becomes a keto acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxidative deamination of glutamate is catalyzed by:",
+      "options": [
+        "Glutamate dehydrogenase",
+        "Alanine aminotransferase",
+        "Aspartate aminotransferase",
+        "Serine dehydratase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate dehydrogenase, or GDH, removes the amino group from glutamate, forming α-ketoglutarate and ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamate dehydrogenase converts glutamate into:",
+      "options": [
+        "α-Ketoglutarate and NH₃",
+        "Pyruvate and NH₃",
+        "Oxaloacetate and urea",
+        "Acetyl-CoA and ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH catalyzes oxidative deamination of glutamate to α-ketoglutarate and ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamate dehydrogenase is located in the:",
+      "options": [
+        "Mitochondria",
+        "Cytosol only",
+        "Lysosome only",
+        "Nucleus only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH is a mitochondrial enzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamate dehydrogenase is stimulated allosterically by:",
+      "options": [
+        "ADP",
+        "ATP",
+        "NADH",
+        "H⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ADP signals low-energy state, so it stimulates GDH to promote amino acid catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamate dehydrogenase is inhibited by:",
+      "options": [
+        "ATP and NADH",
+        "ADP only",
+        "AMP only",
+        "PLP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High-energy signals such as ATP and NADH inhibit GDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "L-amino acid oxidase uses which coenzyme?",
+      "options": [
+        "FMN",
+        "FAD",
+        "PLP",
+        "Biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L-amino acid oxidase deaminates L-amino acids and uses FMN as coenzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "D-amino acid oxidase uses which coenzyme?",
+      "options": [
+        "FAD",
+        "FMN",
+        "PLP",
+        "NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D-amino acid oxidase deaminates D-amino acids and uses FAD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "D-amino acid oxidase is described as:",
+      "options": [
+        "More active than L-amino acid oxidase",
+        "Less active than L-amino acid oxidase",
+        "Inactive in the body",
+        "Same as transaminase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that D-amino acid oxidase is highly active compared with L-amino acid oxidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Non-oxidative deamination by dehydration occurs with:",
+      "options": [
+        "Serine and threonine",
+        "Leucine and lysine",
+        "Phenylalanine and tyrosine",
+        "Arginine and histidine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydroxy amino acids such as serine and threonine can undergo non-oxidative deamination by dehydration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Non-oxidative deamination by dehydration requires:",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that dehydration of serine and threonine uses vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Non-oxidative deamination by desulfhydration occurs with:",
+      "options": [
+        "Cysteine",
+        "Alanine",
+        "Glycine",
+        "Valine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cysteine is a sulfur-containing amino acid and can undergo desulfhydration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Desulfhydration of cysteine requires:",
+      "options": [
+        "Vitamin B6",
+        "Vitamin B12",
+        "Vitamin D",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Desulfhydration of sulfur-containing amino acids such as cysteine uses vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Transamination means:",
+      "options": [
+        "Transfer of an α-amino group from amino acid to α-ketoglutarate",
+        "Removal of water from amino acids",
+        "Conversion of ammonia to urea only",
+        "Oxidation of fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transamination transfers the amino group from an amino acid to an α-keto acid, commonly α-ketoglutarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The usual amino group acceptor in transamination is:",
+      "options": [
+        "α-Ketoglutarate",
+        "Acetyl-CoA",
+        "Glucose",
+        "Cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate commonly accepts amino groups and becomes glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Transamination produces:",
+      "options": [
+        "Corresponding α-keto acid and glutamate",
+        "Urea and glucose",
+        "Ammonia only",
+        "Fatty acid and glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The amino acid becomes its corresponding keto acid, and α-ketoglutarate becomes glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enzymes of transamination are called:",
+      "options": [
+        "Transaminases / aminotransferases",
+        "Lipases",
+        "Kinases only",
+        "Carboxylases only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaminases transfer amino groups between amino acids and keto acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Transaminases require which coenzyme?",
+      "options": [
+        "Pyridoxal phosphate",
+        "NADPH",
+        "FAD",
+        "Biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyridoxal phosphate, derived from vitamin B6, is the coenzyme for transaminases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main site of transamination is:",
+      "options": [
+        "Liver, in cytoplasm and mitochondria",
+        "RBC nucleus",
+        "Adipose tissue only",
+        "Bone matrix only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that transamination occurs mainly in liver and can occur in cytoplasm and mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Clinically important transaminases include:",
+      "options": [
+        "ALT and AST",
+        "LPL and HSL",
+        "LCAT and ACAT",
+        "GDH and pepsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT and AST are clinically significant aminotransferases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ALT is also called:",
+      "options": [
+        "GPT",
+        "GOT",
+        "GDH",
+        "MAO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT stands for alanine aminotransferase and is also called glutamate pyruvate transaminase, GPT.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "AST is also called:",
+      "options": [
+        "GOT",
+        "GPT",
+        "LCAT",
+        "CPS-I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST stands for aspartate aminotransferase and is also called glutamate oxaloacetate transaminase, GOT.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Transdeamination is:",
+      "options": [
+        "Coupling of transamination and deamination by GDH",
+        "Direct protein digestion in stomach",
+        "Formation of peptide bonds",
+        "Conversion of glucose to glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdeamination means amino groups are first collected by transamination, then removed from glutamate by GDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the role of glutamate in amino acid catabolism?",
+      "options": [
+        "It acts as a major collector of amino groups",
+        "It stores amino acids permanently",
+        "It prevents nitrogen excretion",
+        "It converts ammonia directly to glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most transamination reactions transfer amino groups to α-ketoglutarate, forming glutamate. Therefore, glutamate collects amino nitrogen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is catalyzed by ALT?",
+      "options": [
+        "Alanine + α-ketoglutarate ⇌ pyruvate + glutamate",
+        "Aspartate + α-ketoglutarate ⇌ oxaloacetate + glutamate",
+        "Glutamate ⇌ α-ketoglutarate + NH₃",
+        "Serine → pyruvate + NH₃"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT transfers the amino group of alanine to α-ketoglutarate, producing pyruvate and glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ALT is especially linked to which keto acid product?",
+      "options": [
+        "Pyruvate",
+        "Oxaloacetate",
+        "Acetoacetate",
+        "Succinyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT converts alanine into pyruvate during transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During amino acid catabolism, most aminotransferases function in the direction of:",
+      "options": [
+        "Glutamate synthesis",
+        "Cholesterol synthesis",
+        "Fatty acid oxidation",
+        "Urea degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that ALT, like most aminotransferases, functions during catabolism in the direction of glutamate synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes AST during amino acid catabolism?",
+      "options": [
+        "It transfers amino groups from glutamate to oxaloacetate forming aspartate",
+        "It converts alanine to pyruvate only",
+        "It removes ammonia directly from serine",
+        "It hydrolyzes peptide bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST is an exception because it transfers amino groups from glutamate to oxaloacetate to form aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aspartate formed by AST is important because it contributes nitrogen to:",
+      "options": [
+        "Urea cycle",
+        "Fatty acid synthesis",
+        "Ketone body synthesis",
+        "Glycogen synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate supplies one nitrogen atom in the urea cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction is catalyzed by AST?",
+      "options": [
+        "Glutamate + oxaloacetate ⇌ α-ketoglutarate + aspartate",
+        "Alanine + α-ketoglutarate ⇌ pyruvate + glutamate",
+        "Glutamate → α-ketoglutarate + NH₃",
+        "Cysteine → pyruvate + NH₃"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST transfers an amino group between glutamate and oxaloacetate, forming aspartate and α-ketoglutarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acids are exceptions to transamination?",
+      "options": [
+        "Lysine, threonine, proline, and hydroxyproline",
+        "Alanine, glutamate, and aspartate",
+        "Glycine, serine, and cysteine",
+        "Tyrosine, phenylalanine, and tryptophan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists lysine, threonine, proline, and hydroxyproline as exceptions to transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Transamination generally does not directly release:",
+      "options": [
+        "Free ammonia",
+        "Glutamate",
+        "α-keto acid",
+        "Amino group transfer product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transamination transfers amino groups but does not release ammonia directly. Free ammonia is produced during deamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Oxidative deamination directly releases:",
+      "options": [
+        "NH₃",
+        "Peptide bond",
+        "Glucose",
+        "Chylomicron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deamination removes the amino group as ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme links amino acid catabolism to free ammonia production most directly?",
+      "options": [
+        "Glutamate dehydrogenase",
+        "ALT",
+        "AST",
+        "Aminopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH deaminates glutamate, releasing ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is glutamate central in transdeamination?",
+      "options": [
+        "It receives amino groups by transamination and releases ammonia by GDH",
+        "It is stored as protein reserve",
+        "It is the only essential amino acid",
+        "It forms cholesterol directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdeamination depends on glutamate as the intermediate between transamination and oxidative deamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes transdeamination?",
+      "options": [
+        "Amino acids transfer amino groups to form glutamate, then glutamate is deaminated by GDH",
+        "Amino acids are absorbed in intestine only",
+        "Glutamate is converted to peptide bonds",
+        "Ammonia is converted directly into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdeamination combines amino group transfer with ammonia release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which coenzyme is shared by transamination and non-oxidative deamination of serine/threonine?",
+      "options": [
+        "Vitamin B6 / PLP",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaminases require PLP, and dehydration reactions of serine/threonine also require vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Serine deamination by dehydration produces mainly:",
+      "options": [
+        "Pyruvate and NH₃",
+        "Oxaloacetate and urea",
+        "Acetyl-CoA and bile salts",
+        "Glutamate and alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Serine can undergo dehydration and deamination to form pyruvate and ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Threonine is unusual because it is:",
+      "options": [
+        "An exception to transamination and can undergo non-oxidative deamination",
+        "Purely ketogenic only",
+        "Not metabolized",
+        "A lipoprotein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Threonine is listed as an exception to transamination and can undergo non-oxidative deamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cysteine undergoes non-oxidative deamination by:",
+      "options": [
+        "Desulfhydration",
+        "Hydroxylation",
+        "Carboxylation",
+        "Methylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sulfur-containing amino acids such as cysteine undergo desulfhydration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "L-amino acid oxidase — FMN",
+        "D-amino acid oxidase — PLP",
+        "GDH — biotin",
+        "ALT — FAD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L-amino acid oxidase uses FMN.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "D-amino acid oxidase — FAD",
+        "L-amino acid oxidase — biotin",
+        "ALT — FMN",
+        "AST — NADPH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D-amino acid oxidase uses FAD.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Transaminases — PLP",
+        "GDH — PLP only",
+        "D-amino acid oxidase — NADPH",
+        "L-amino acid oxidase — biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaminases require pyridoxal phosphate, derived from vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "GDH — mitochondrial enzyme",
+        "ALT — lysosomal digestive enzyme",
+        "AST — pancreatic zymogen",
+        "L-amino acid oxidase — intestinal brush border enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH is located in mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule inhibits GDH and signals high energy?",
+      "options": [
+        "ATP",
+        "ADP",
+        "AMP",
+        "α-Ketoglutarate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP inhibits GDH, reducing amino acid oxidation when energy is abundant.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule stimulates GDH and signals low energy?",
+      "options": [
+        "ADP",
+        "ATP",
+        "NADH",
+        "H⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ADP stimulates GDH, promoting amino acid catabolism when energy is needed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is both produced by transamination and substrate for GDH?",
+      "options": [
+        "Glutamate",
+        "Alanine",
+        "Pyruvate",
+        "Oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate is formed by transamination and then deaminated by GDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which α-keto acid is regenerated when glutamate is deaminated?",
+      "options": [
+        "α-Ketoglutarate",
+        "Pyruvate",
+        "Oxaloacetate",
+        "Fumarate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH converts glutamate back to α-ketoglutarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why α-ketoglutarate is central in transamination?",
+      "options": [
+        "It accepts amino groups and becomes glutamate",
+        "It directly forms urea",
+        "It is the end product of protein digestion",
+        "It is a vitamin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate is the common amino group acceptor in transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes ALT clinical relevance?",
+      "options": [
+        "ALT is a clinically significant transaminase and is present in many tissues",
+        "ALT digests proteins in stomach",
+        "ALT is a pancreatic zymogen",
+        "ALT forms bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists ALT as a clinically significant transaminase present in many tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes AST clinical relevance?",
+      "options": [
+        "AST is a clinically significant transaminase and participates in aspartate formation",
+        "AST is a digestive exopeptidase",
+        "AST activates trypsinogen",
+        "AST hydrolyzes TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST is clinically important and helps form aspartate during amino acid catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In amino acid catabolism, ALT helps collect nitrogen from:",
+      "options": [
+        "Alanine",
+        "Cholesterol",
+        "Glucose",
+        "Palmitate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT transfers alanine's amino group to α-ketoglutarate, forming glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In amino acid catabolism, AST forms:",
+      "options": [
+        "Aspartate",
+        "Alanine only",
+        "Serine only",
+        "Cysteine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST transfers an amino group from glutamate to oxaloacetate, producing aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aspartate is important in nitrogen disposal because it:",
+      "options": [
+        "Provides nitrogen to the urea cycle",
+        "Forms cholesterol directly",
+        "Activates LPL",
+        "Forms ketone bodies only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate contributes one of the nitrogen atoms of urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process produces ammonia from glutamine in kidney?",
+      "options": [
+        "Renal glutaminase and glutamate dehydrogenase actions",
+        "HMG-CoA reductase action",
+        "Pancreatic lipase action",
+        "Enteropeptidase action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kidney generates ammonia from glutamine using glutaminase and GDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Intestinal bacteria can form ammonia from:",
+      "options": [
+        "Urea by bacterial urease",
+        "Cholesterol by LCAT",
+        "Glucose by hexokinase",
+        "Fatty acids by β-oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bacterial urease in the intestinal lumen can split urea, forming ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amines can give rise to ammonia by:",
+      "options": [
+        "Amine oxidase / MAO",
+        "LPL",
+        "HMG-CoA reductase",
+        "Trypsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amines from diet or monoamine neurotransmitters can be degraded by amine oxidases to produce ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nucleotide catabolism can contribute to ammonia formation from:",
+      "options": [
+        "Purine and pyrimidine catabolism",
+        "Glycogen synthesis",
+        "Cholesterol esterification",
+        "Lipoprotein transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Purine and pyrimidine breakdown can generate nitrogen waste including ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which source of ammonia is renal?",
+      "options": [
+        "Glutamine metabolism by glutaminase and GDH",
+        "Bacterial urease only",
+        "Dietary cholesterol",
+        "Chylomicron remnants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kidneys produce ammonia from glutamine, important in acid-base and nitrogen handling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which source of ammonia is intestinal bacterial?",
+      "options": [
+        "Urea breakdown by urease",
+        "Alanine transamination only",
+        "Glutamate synthesis only",
+        "Glycogenolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bacteria in the intestine produce urease, which converts urea to ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates transamination from deamination?",
+      "options": [
+        "Transamination transfers amino groups; deamination removes amino groups as ammonia",
+        "Transamination releases free ammonia directly; deamination never releases ammonia",
+        "Both are identical",
+        "Deamination forms peptide bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transamination moves amino nitrogen to another keto acid. Deamination releases ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates oxidative and non-oxidative deamination?",
+      "options": [
+        "Oxidative deamination involves oxidation; non-oxidative deamination removes amino group without oxidation such as dehydration/desulfhydration",
+        "Both require peptide digestion",
+        "Both occur only in intestine",
+        "Non-oxidative deamination uses LPL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative deamination uses redox chemistry. Non-oxidative routes include dehydration and desulfhydration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why transamination is reversible?",
+      "options": [
+        "Amino groups can be transferred between amino acids and keto acids depending on metabolic need",
+        "It destroys amino acids irreversibly",
+        "It always produces ammonia directly",
+        "It only occurs in stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many transaminase reactions are readily reversible, allowing amino acid synthesis or catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction best shows glutamate as a nitrogen collector?",
+      "options": [
+        "Alanine + α-ketoglutarate → pyruvate + glutamate",
+        "Glutamate → cholesterol",
+        "Pyruvate → glucose only",
+        "Urea → fatty acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine donates nitrogen to α-ketoglutarate, forming glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction best shows glutamate as a nitrogen donor for urea cycle nitrogen?",
+      "options": [
+        "Glutamate + oxaloacetate → α-ketoglutarate + aspartate",
+        "Glutamate → glucose directly",
+        "Glutamate → fatty acid directly",
+        "Glutamate → cholesterol ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST forms aspartate from glutamate and oxaloacetate. Aspartate donates nitrogen to urea cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence describes transdeamination?",
+      "options": [
+        "Amino acid + α-ketoglutarate → glutamate → α-ketoglutarate + NH₃",
+        "Glucose → pyruvate → acetyl-CoA → fatty acid",
+        "Protein → chylomicron → TAG",
+        "Cholesterol → bile salts → glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First, transamination forms glutamate. Then GDH deaminates glutamate to release ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process most directly prepares amino nitrogen for urea formation?",
+      "options": [
+        "Transdeamination producing free ammonia and aspartate formation by AST",
+        "Chylomicron assembly",
+        "Cholesterol esterification",
+        "Glycogen storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Urea nitrogen comes from free ammonia and aspartate. These are linked to GDH and AST activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes this topic?",
+      "options": [
+        "Amino acid nitrogen is transferred mainly to glutamate by transamination, released as ammonia by GDH, and connected to urea formation through ammonia and aspartate",
+        "Amino acid catabolism stores nitrogen in glycogen",
+        "Transamination always releases ammonia directly",
+        "Deamination is unrelated to nitrogen disposal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the central logic of amino acid catabolism: collect nitrogen, release or transfer it safely, and dispose of it through urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has vitamin B6 deficiency. Which process is most directly impaired?",
+      "options": [
+        "Transamination reactions",
+        "HMG-CoA reductase activity",
+        "LPL activation",
+        "Cholesterol esterification"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transaminases require PLP, derived from vitamin B6. B6 deficiency impairs aminotransferase reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Vitamin B6 deficiency would also impair non-oxidative deamination of:",
+      "options": [
+        "Serine and threonine",
+        "Leucine and lysine only",
+        "Tyrosine and phenylalanine only",
+        "Alanine and glutamate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Serine and threonine dehydratase reactions require vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in glutamate dehydrogenase would most directly impair:",
+      "options": [
+        "Oxidative deamination of glutamate",
+        "Conversion of alanine to pyruvate by ALT",
+        "Protein digestion in intestine",
+        "Serine dehydration only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GDH catalyzes glutamate deamination to α-ketoglutarate and NH₃.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If GDH is inhibited by high ATP and NADH, what does this indicate?",
+      "options": [
+        "High-energy state reduces amino acid oxidation",
+        "Low-energy state activates amino acid oxidation",
+        "Protein digestion must increase",
+        "Transamination stops completely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ATP and NADH signal sufficient energy, so amino acid catabolism through GDH is suppressed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If ADP is high, what happens to GDH?",
+      "options": [
+        "It is stimulated",
+        "It is inhibited",
+        "It is degraded",
+        "It becomes a digestive enzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ADP signals low-energy state and stimulates GDH activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in ALT would most directly affect which reaction?",
+      "options": [
+        "Alanine to pyruvate with amino group transfer to α-ketoglutarate",
+        "Glutamate to aspartate formation only",
+        "Serine to pyruvate by dehydration",
+        "Cysteine desulfhydration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT specifically catalyzes alanine transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in AST would most directly affect formation of:",
+      "options": [
+        "Aspartate from oxaloacetate and glutamate",
+        "Pyruvate from alanine",
+        "Serine from glycine",
+        "Creatine from arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST forms aspartate by transferring amino group from glutamate to oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is AST an exception among aminotransferases during amino acid catabolism?",
+      "options": [
+        "It transfers amino groups from glutamate to oxaloacetate to form aspartate",
+        "It always forms glutamate from amino acids",
+        "It releases ammonia directly",
+        "It requires FAD instead of PLP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most aminotransferases collect nitrogen into glutamate. AST instead uses glutamate to make aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid cannot normally undergo transamination according to the file?",
+      "options": [
+        "Lysine",
+        "Alanine",
+        "Aspartate",
+        "Glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine is listed as an exception to transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid cannot normally undergo transamination according to the file?",
+      "options": [
+        "Proline",
+        "Alanine",
+        "Tyrosine",
+        "Phenylalanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proline is one of the exceptions to transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid cannot normally undergo transamination according to the file?",
+      "options": [
+        "Hydroxyproline",
+        "Glutamate",
+        "Alanine",
+        "Aspartate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydroxyproline is listed as an exception to transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid is both an exception to transamination and can undergo dehydration-type non-oxidative deamination?",
+      "options": [
+        "Threonine",
+        "Alanine",
+        "Glutamate",
+        "Valine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Threonine is an exception to transamination and can undergo deamination by dehydration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A high rate of transdeamination would directly increase production of:",
+      "options": [
+        "Free ammonia from glutamate",
+        "Cholesterol esters",
+        "Glycogen",
+        "Chylomicrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdeamination ends with oxidative deamination of glutamate by GDH, releasing ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired α-ketoglutarate availability. Which process is most directly affected?",
+      "options": [
+        "Collection of amino groups by transamination",
+        "Pepsin activation",
+        "Bile salt synthesis",
+        "Fat absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate is the major amino group acceptor in transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which process links amino acid catabolism to TCA intermediates most directly?",
+      "options": [
+        "Formation of α-keto acids from amino acids",
+        "Formation of chylomicrons",
+        "Formation of cholesterol esters",
+        "Formation of bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After transamination or deamination, amino acid carbon skeletons become keto acids, many of which enter central metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has increased intestinal bacterial urease activity. Which nitrogen compound may increase?",
+      "options": [
+        "Ammonia",
+        "Cholesterol ester",
+        "Glycogen",
+        "Ketone bodies only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bacterial urease breaks urea into ammonia in the intestinal lumen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Monoamine neurotransmitter degradation can produce ammonia through:",
+      "options": [
+        "Monoamine oxidase",
+        "LCAT",
+        "ALT only",
+        "Enteropeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amines, including monoamines, can be oxidized by MAO, producing ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination provides the two major nitrogen inputs to the urea cycle?",
+      "options": [
+        "Free ammonia and aspartate",
+        "Cholesterol and glucose",
+        "Glycogen and fatty acids",
+        "Acetyl-CoA and ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free ammonia can come from GDH, while aspartate is formed through AST. Both contribute nitrogen to urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence is most accurate for alanine nitrogen disposal?",
+      "options": [
+        "Alanine transfers nitrogen to α-ketoglutarate → glutamate forms → GDH releases NH₃",
+        "Alanine forms cholesterol directly → bile salts → urea",
+        "Alanine becomes chylomicron → LPL → ammonia",
+        "Alanine is excreted unchanged only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT transfers alanine nitrogen to α-ketoglutarate, forming glutamate. GDH can then release ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-catabolism-transamination-deamination-transdeamination-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes amino acid catabolism?",
+      "options": [
+        "Transamination collects amino groups mainly as glutamate, GDH releases ammonia, AST forms aspartate for urea cycle, and carbon skeletons become keto acids for metabolism",
+        "Amino acid catabolism stores all amino groups as glycogen",
+        "GDH transfers amino groups without releasing ammonia",
+        "ALT and AST are digestive enzymes in the stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full high-yield summary. Amino acid catabolism separates nitrogen handling from carbon skeleton metabolism, allowing nitrogen disposal and energy use.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
