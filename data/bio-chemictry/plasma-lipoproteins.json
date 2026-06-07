@@ -2,6 +2,517 @@
   "subjectId": "bio-chemictry",
   "topicId": "plasma-lipoproteins",
   "topicName": "Plasma Lipoproteins",
-  "updatedAt": "2026-06-07T21:16:56.767Z",
-  "questions": []
+  "updatedAt": "2026-06-07T21:18:54.044Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Plasma lipoproteins are best described as:",
+      "options": [
+        "Molecular complexes of lipids and apolipoproteins",
+        "Free fatty acids dissolved directly in plasma",
+        "Glycogen particles in blood",
+        "Ketone bodies bound to albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasma lipoproteins are complexes of lipids with specific proteins called apolipoproteins. They keep hydrophobic lipids soluble in blood and deliver them to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main function of plasma lipoproteins is to:",
+      "options": [
+        "Transport lipids in plasma and deliver them to tissues",
+        "Produce ATP directly in plasma",
+        "Convert glucose to glycogen",
+        "Degrade amino acids in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipids are poorly soluble in aqueous plasma. Lipoproteins package them in soluble particles and provide an efficient transport system.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The major plasma lipoproteins include:",
+      "options": [
+        "Chylomicrons, VLDL, LDL, and HDL",
+        "Hemoglobin, myoglobin, and albumin only",
+        "Glycogen, starch, and cellulose",
+        "Lactate, pyruvate, and citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main classes of plasma lipoproteins are chylomicrons, very low density lipoproteins, low density lipoproteins, and high density lipoproteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The neutral lipid core of lipoproteins contains mainly:",
+      "options": [
+        "Triacylglycerol and cholesterol esters",
+        "Phospholipids and apoproteins only",
+        "Free glucose and amino acids",
+        "Bile salts and bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The core of lipoproteins is hydrophobic and contains neutral lipids, mainly TAG and cholesterol esters.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The surface shell of lipoproteins contains:",
+      "options": [
+        "Apoproteins, phospholipids, and non-esterified cholesterol",
+        "Glycogen and glucose",
+        "DNA and RNA",
+        "Urea and ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lipoprotein surface contains amphipathic molecules with polar portions exposed to plasma. This makes the particle soluble.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Lipoproteins are soluble in plasma because their surface exposes:",
+      "options": [
+        "Polar groups",
+        "Only hydrophobic cholesterol esters",
+        "Only TAG core",
+        "Only fatty acid tails"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids, free cholesterol, and apoproteins orient their polar portions toward the aqueous plasma, allowing the particle to remain soluble.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chylomicrons are the:",
+      "options": [
+        "Largest and least dense lipoproteins",
+        "Smallest and most dense lipoproteins",
+        "Main protein-only particles",
+        "Most dense lipoproteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons contain the most lipid and the lowest percentage of protein, making them very large and low in density.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "HDL is the:",
+      "options": [
+        "Most dense lipoprotein",
+        "Least dense lipoprotein",
+        "Largest lipoprotein",
+        "Main dietary TAG carrier only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL has the highest protein content and lowest TAG content among major lipoproteins, making it the most dense.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "As lipoprotein density increases, protein content generally:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Becomes zero",
+        "Has no relationship"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein is denser than lipid. Therefore, lipoproteins with higher protein percentage are more dense.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chylomicrons mainly transport:",
+      "options": [
+        "Exogenous dietary lipids",
+        "Endogenous liver-made TAG only",
+        "Cholesterol from tissues to liver only",
+        "Oxygen in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are formed in intestinal mucosal cells and transport dietary TAG and cholesterol from the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "VLDL mainly transports:",
+      "options": [
+        "Endogenous triacylglycerol from liver to tissues",
+        "Dietary fat from intestine only",
+        "Cholesterol from tissues to liver only",
+        "Ketone bodies from liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL is produced by the liver and carries endogenously synthesized TAG to peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LDL mainly carries:",
+      "options": [
+        "Cholesterol esters to peripheral tissues",
+        "Dietary TAG from intestine",
+        "Ketone bodies to brain",
+        "Free fatty acids bound to albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDL is cholesterol-rich and delivers cholesterol to peripheral cells through LDL receptor-mediated uptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "HDL mainly participates in:",
+      "options": [
+        "Reverse cholesterol transport",
+        "Dietary TAG absorption only",
+        "Glucose transport into muscle",
+        "Ketone body synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL picks up cholesterol from tissues and other lipoproteins and helps return it to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Reverse cholesterol transport means:",
+      "options": [
+        "Transport of cholesterol from peripheral tissues back to liver",
+        "Transport of glucose from liver to muscle",
+        "Transport of TAG from intestine to adipose tissue",
+        "Transport of fatty acids on albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL removes cholesterol from tissues and carries it back toward the liver for reuse or excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Apoproteins serve as:",
+      "options": [
+        "Structural components, receptor recognition sites, and enzyme activators",
+        "DNA templates",
+        "Glycogen storage proteins only",
+        "Ketone body carriers only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apoproteins stabilize lipoproteins, allow receptor recognition, and activate enzymes involved in lipoprotein metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ApoB-48 is characteristic of:",
+      "options": [
+        "Chylomicrons",
+        "LDL only",
+        "HDL only",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-48 is synthesized in intestinal mucosal cells and is essential for chylomicron formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ApoB-100 is characteristic of:",
+      "options": [
+        "VLDL and LDL",
+        "Chylomicrons only",
+        "HDL only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL is secreted by liver with ApoB-100. LDL is derived from VLDL and retains ApoB-100.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ApoC-II is important because it activates:",
+      "options": [
+        "Lipoprotein lipase",
+        "HMG-CoA reductase",
+        "Thiophorase",
+        "Phospholipase C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoC-II activates LPL, which hydrolyzes TAG in chylomicrons and VLDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ApoE is important for:",
+      "options": [
+        "Remnant recognition and hepatic uptake",
+        "Fatty acid synthesis",
+        "Glucose uptake into RBCs",
+        "Ketone body synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoE helps liver receptors recognize remnant particles such as chylomicron remnants and IDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ApoA-I activates:",
+      "options": [
+        "LCAT",
+        "LPL",
+        "HMG-CoA reductase",
+        "Pancreatic lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoA-I activates lecithin-cholesterol acyltransferase, which esterifies cholesterol on HDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LPL hydrolyzes TAG in:",
+      "options": [
+        "Chylomicrons and VLDL",
+        "HDL only",
+        "LDL only",
+        "Albumin-bound fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipoprotein lipase acts on TAG-rich lipoproteins, mainly chylomicrons and VLDL, releasing fatty acids for tissue uptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chylomicrons are formed in:",
+      "options": [
+        "Intestinal mucosal cells",
+        "Liver only",
+        "RBCs",
+        "Adrenal cortex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicrons are assembled by intestinal mucosal cells after dietary lipid absorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "VLDL is formed in:",
+      "options": [
+        "Liver",
+        "Intestinal mucosal cells only",
+        "RBCs",
+        "Brain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL is synthesized and secreted by the liver to transport endogenous TAG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nascent chylomicrons receive ApoC-II and ApoE from:",
+      "options": [
+        "HDL",
+        "LDL",
+        "Albumin",
+        "RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL donates ApoC-II and ApoE to nascent chylomicrons, allowing them to become mature particles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nascent VLDL receives ApoC-II and ApoE from:",
+      "options": [
+        "HDL",
+        "Chylomicron remnants",
+        "Albumin",
+        "Bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL also receives ApoC-II and ApoE from HDL. ApoC-II is needed for LPL activation, and ApoE helps remnant uptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "VLDL is converted in plasma into:",
+      "options": [
+        "IDL then LDL",
+        "Chylomicrons then HDL",
+        "Albumin then ketone bodies",
+        "Bile salts then cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As VLDL loses TAG by LPL action, it becomes smaller and denser, forming IDL and then LDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LDL is considered atherogenic because it is associated with:",
+      "options": [
+        "Cholesterol delivery to tissues and plaque formation risk",
+        "Reverse cholesterol transport only",
+        "Removal of cholesterol from vessel walls only",
+        "Ketone body utilization"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High LDL cholesterol is associated with atherosclerotic plaque formation and increased risk of cardiovascular disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "HDL is considered protective because it:",
+      "options": [
+        "Removes cholesterol from tissues and returns it to liver",
+        "Delivers dietary TAG from intestine",
+        "Activates ketogenesis",
+        "Converts glucose to cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL participates in reverse cholesterol transport and is associated with protection against atherosclerosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LCAT converts cholesterol into:",
+      "options": [
+        "Cholesterol ester",
+        "Acetyl-CoA",
+        "Ketone bodies",
+        "Bile salts directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT esterifies free cholesterol, especially on HDL, converting it into hydrophobic cholesterol ester.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CETP transfers cholesterol esters from HDL to VLDL in exchange for:",
+      "options": [
+        "TAG or phospholipid",
+        "Glucose",
+        "Ketone bodies",
+        "Bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CETP mediates exchange of cholesterol esters from HDL to VLDL with reverse transfer of TAG or phospholipid from VLDL to HDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
