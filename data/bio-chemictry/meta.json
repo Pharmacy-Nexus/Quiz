@@ -404,9 +404,9 @@
       "difficultyBreakdown": {
         "easy": 30,
         "medium": 60,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 90,
+      "questionsCount": 120,
       "file": "data/bio-chemictry/plasma-lipoproteins.json"
     }
   ],
@@ -448,5 +448,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T21:21:36.862Z"
+  "updatedAt": "2026-06-07T21:23:34.768Z"
 }
