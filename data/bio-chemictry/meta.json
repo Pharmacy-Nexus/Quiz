@@ -333,6 +333,21 @@
       },
       "questionsCount": 120,
       "file": "data/bio-chemictry/fatty-acids-triacylglycerol-metabolism.json"
+    },
+    {
+      "id": "lipolysis-oxidation",
+      "name": "Lipolysis & β-Oxidation",
+      "description": "",
+      "order": 2,
+      "section": "Lipids",
+      "sectionId": "lipids",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/lipolysis-oxidation.json"
     }
   ],
   "sections": [
