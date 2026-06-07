@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "ketone-bodies",
   "topicName": "Ketone Bodies",
-  "updatedAt": "2026-06-07T16:10:01.950Z",
+  "updatedAt": "2026-06-07T16:11:54.487Z",
   "questions": [
     {
       "id": "bio-chemictry-ketone-bodies-001",
@@ -442,6 +442,771 @@
       ],
       "correctAnswer": 0,
       "explanation": "Acetoacetate and β-hydroxybutyrate are acidic. When produced excessively, especially in uncontrolled diabetes, they can lower blood pH and cause ketoacidosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Ketogenesis occurs mainly when the liver has excess:",
+      "options": [
+        "Acetyl-CoA from fatty acid oxidation",
+        "Glucose-6-phosphate from glycogenesis",
+        "UDP-glucose from glycogen synthesis",
+        "Ribose-5-phosphate from PPP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are formed from acetyl-CoA. During fasting or uncontrolled diabetes, fatty acid oxidation increases and produces large amounts of acetyl-CoA in liver mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition increases fatty acid oxidation and therefore promotes ketogenesis?",
+      "options": [
+        "Fasting",
+        "Fed state with high insulin",
+        "High carbohydrate intake",
+        "Increased glycogenesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, insulin decreases and lipolysis increases. Fatty acids released from adipose tissue travel to the liver and undergo β-oxidation, producing acetyl-CoA for ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In uncontrolled diabetes, ketogenesis increases because:",
+      "options": [
+        "Low effective insulin increases lipolysis and fatty acid oxidation",
+        "Insulin strongly inhibits lipolysis",
+        "Glucose uptake into adipose tissue increases markedly",
+        "Fatty acid oxidation is completely blocked"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In uncontrolled diabetes, insulin action is low. This increases adipose lipolysis, raises plasma fatty acids, increases hepatic β-oxidation, and promotes ketone body production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does oxaloacetate depletion favor ketogenesis?",
+      "options": [
+        "Less oxaloacetate limits TCA use of acetyl-CoA",
+        "More oxaloacetate converts acetyl-CoA directly into glucose",
+        "Oxaloacetate directly inhibits fatty acid oxidation",
+        "Oxaloacetate is required to form acetone directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA needs oxaloacetate to enter the TCA cycle as citrate. During fasting, oxaloacetate is diverted toward gluconeogenesis, so acetyl-CoA accumulates and is directed toward ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which metabolic pathway uses oxaloacetate during fasting and indirectly promotes ketogenesis?",
+      "options": [
+        "Gluconeogenesis",
+        "Glycogenesis",
+        "Fatty acid synthesis",
+        "Urea synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, oxaloacetate supports glucose production by gluconeogenesis. This reduces TCA cycle capacity and favors conversion of excess acetyl-CoA into ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme condenses two acetyl-CoA molecules to form acetoacetyl-CoA?",
+      "options": [
+        "Thiolase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "Thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In ketogenesis, two acetyl-CoA molecules condense to form acetoacetyl-CoA. This reaction is catalyzed by thiolase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetoacetyl-CoA combines with another acetyl-CoA to form:",
+      "options": [
+        "HMG-CoA",
+        "Succinyl-CoA",
+        "Malonyl-CoA",
+        "Citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrial HMG-CoA synthase adds another acetyl-CoA to acetoacetyl-CoA, forming HMG-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The enzyme that forms HMG-CoA in ketogenesis is:",
+      "options": [
+        "HMG-CoA synthase",
+        "HMG-CoA reductase",
+        "HMG-CoA lyase",
+        "Thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMG-CoA synthase catalyzes formation of HMG-CoA from acetoacetyl-CoA and acetyl-CoA. In mitochondria, this step is important for ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HMG-CoA is cleaved to acetoacetate by:",
+      "options": [
+        "HMG-CoA lyase",
+        "HMG-CoA reductase",
+        "Thiophorase",
+        "β-hydroxybutyrate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMG-CoA lyase cleaves HMG-CoA to form acetoacetate and acetyl-CoA. Acetoacetate is the central ketone body.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetoacetate can be reduced to:",
+      "options": [
+        "β-hydroxybutyrate",
+        "Glucose",
+        "Glycerol",
+        "Palmitate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate can be converted to β-hydroxybutyrate by β-hydroxybutyrate dehydrogenase. This reaction depends on the mitochondrial NADH/NAD⁺ ratio.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetoacetate can spontaneously decarboxylate to:",
+      "options": [
+        "Acetone",
+        "Lactate",
+        "Pyruvate",
+        "Oxaloacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate can lose CO₂ spontaneously to form acetone. Acetone is volatile and can be exhaled.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ketone body is not significantly used for energy?",
+      "options": [
+        "Acetone",
+        "Acetoacetate",
+        "β-hydroxybutyrate",
+        "Acetoacetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate and β-hydroxybutyrate are useful fuels. Acetone is mainly a volatile byproduct and is exhaled.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "β-Hydroxybutyrate is technically not a true ketone because it:",
+      "options": [
+        "Has a hydroxyl group instead of a keto group",
+        "Contains no carbon atoms",
+        "Is a carbohydrate",
+        "Is a protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Hydroxybutyrate is grouped with ketone bodies clinically and metabolically, but chemically it has a hydroxyl group rather than a ketone group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ketone body pair is interconverted by β-hydroxybutyrate dehydrogenase?",
+      "options": [
+        "Acetoacetate and β-hydroxybutyrate",
+        "Acetone and glucose",
+        "Acetoacetate and pyruvate",
+        "β-hydroxybutyrate and lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Hydroxybutyrate dehydrogenase reversibly interconverts acetoacetate and β-hydroxybutyrate depending on NADH/NAD⁺ availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A high mitochondrial NADH/NAD⁺ ratio favors formation of:",
+      "options": [
+        "β-hydroxybutyrate",
+        "Glucose",
+        "Oxaloacetate",
+        "Malonyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High NADH favors reduction of acetoacetate to β-hydroxybutyrate. This often occurs when fatty acid oxidation is highly active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Ketone bodies are exported from liver because:",
+      "options": [
+        "Liver lacks thiophorase and cannot utilize them",
+        "Liver lacks HMG-CoA synthase",
+        "Liver cannot perform β-oxidation",
+        "Liver lacks mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver produces ketone bodies but cannot use them for energy because it lacks thiophorase. Therefore, ketone bodies are exported to extrahepatic tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Extrahepatic tissues convert acetoacetate to acetoacetyl-CoA using:",
+      "options": [
+        "Thiophorase",
+        "HMG-CoA lyase",
+        "HMG-CoA synthase",
+        "Acetyl-CoA carboxylase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiophorase transfers CoA from succinyl-CoA to acetoacetate, forming acetoacetyl-CoA. This is required for ketone body utilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thiophorase uses which molecule as the CoA donor?",
+      "options": [
+        "Succinyl-CoA",
+        "Malonyl-CoA",
+        "Palmitoyl-CoA",
+        "UDP-glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiophorase is also called succinyl-CoA:acetoacetate CoA transferase. It uses succinyl-CoA to activate acetoacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acetoacetyl-CoA is cleaved into two acetyl-CoA molecules by:",
+      "options": [
+        "Thiolase",
+        "HMG-CoA reductase",
+        "Glucokinase",
+        "Lipoprotein lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After acetoacetate is activated to acetoacetyl-CoA, thiolase splits it into two acetyl-CoA molecules, which can enter the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The acetyl-CoA produced from ketone body utilization enters:",
+      "options": [
+        "TCA cycle",
+        "Glycogenesis directly",
+        "Gluconeogenesis directly",
+        "Uronic acid pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extrahepatic tissues convert ketone bodies to acetyl-CoA. Acetyl-CoA enters the TCA cycle to produce energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue is a major user of ketone bodies during prolonged fasting?",
+      "options": [
+        "Brain",
+        "Mature RBCs",
+        "Liver",
+        "Intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brain normally depends strongly on glucose, but during prolonged fasting it adapts to use ketone bodies significantly. RBCs cannot use ketones because they lack mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue uses ketone bodies efficiently but does not produce them as its main role?",
+      "options": [
+        "Heart muscle",
+        "Liver",
+        "Mature RBCs",
+        "Adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heart muscle is highly oxidative and can use ketone bodies efficiently. The liver produces ketone bodies but cannot use them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue cannot use ketone bodies because it lacks mitochondria?",
+      "options": [
+        "Red blood cells",
+        "Heart",
+        "Kidney cortex",
+        "Skeletal muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone body oxidation requires mitochondria and TCA cycle enzymes. Mature RBCs lack mitochondria, so they rely on glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ketone bodies are useful fasting fuels?",
+      "options": [
+        "They are water-soluble acetyl-CoA equivalents that can be delivered to extrahepatic tissues",
+        "They require albumin transport like long-chain fatty acids",
+        "They are converted directly into glucose in liver",
+        "They cannot cross into brain after fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies carry energy from liver fatty acid oxidation to other tissues. They are water-soluble and can circulate without lipoproteins or albumin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does ketone body production reduce muscle protein breakdown during prolonged fasting?",
+      "options": [
+        "Brain ketone use reduces glucose demand and therefore reduces need for amino acid-derived gluconeogenesis",
+        "Ketone bodies directly synthesize muscle protein",
+        "Ketone bodies become glycogen in muscle",
+        "Ketone bodies block all fatty acid oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the brain uses more ketone bodies, less glucose is needed. This decreases reliance on amino acids for gluconeogenesis, helping preserve muscle protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would most strongly suppress ketogenesis?",
+      "options": [
+        "Fed state with high insulin",
+        "Starvation",
+        "Uncontrolled type 1 diabetes",
+        "Prolonged fasting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin suppresses adipose lipolysis and fatty acid delivery to liver. Less hepatic β-oxidation means less acetyl-CoA available for ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition would most strongly increase ketogenesis?",
+      "options": [
+        "Uncontrolled diabetes with low effective insulin",
+        "High insulin after carbohydrate meal",
+        "Low fatty acid oxidation",
+        "High malonyl-CoA blocking fatty acid entry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low effective insulin causes increased lipolysis and hepatic fatty acid oxidation. This produces excess acetyl-CoA and promotes ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best connects β-oxidation and ketogenesis?",
+      "options": [
+        "β-Oxidation supplies acetyl-CoA and NADH that favor ketone body production",
+        "β-Oxidation directly produces glucose",
+        "Ketogenesis blocks all fatty acid oxidation",
+        "β-Oxidation produces only lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, β-oxidation in liver mitochondria produces acetyl-CoA. High NADH also favors β-hydroxybutyrate formation from acetoacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ketogenesis occurs in liver but ketolysis occurs in extrahepatic tissues?",
+      "options": [
+        "Liver has ketogenesis enzymes but lacks thiophorase, while extrahepatic tissues have thiophorase",
+        "Liver lacks mitochondria",
+        "Extrahepatic tissues cannot use acetyl-CoA",
+        "RBCs are the major ketone body users"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver mitochondria produce ketone bodies, but liver cannot activate acetoacetate because it lacks thiophorase. Extrahepatic tissues use thiophorase to oxidize ketones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step is present in ketolysis but absent in liver?",
+      "options": [
+        "Acetoacetate activation by thiophorase",
+        "Formation of HMG-CoA",
+        "Cleavage of HMG-CoA",
+        "Formation of acetoacetate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketolysis requires thiophorase to convert acetoacetate into acetoacetyl-CoA. Liver lacks this enzyme, so it cannot use ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme distinguishes ketogenesis from cholesterol synthesis despite both using HMG-CoA?",
+      "options": [
+        "HMG-CoA lyase in ketogenesis versus HMG-CoA reductase in cholesterol synthesis",
+        "Hexokinase in ketogenesis versus glucokinase in cholesterol synthesis",
+        "GALT in ketogenesis versus GALE in cholesterol synthesis",
+        "Lipoprotein lipase in ketogenesis versus pancreatic lipase in cholesterol synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMG-CoA is used in different pathways depending on location and enzymes. Mitochondrial HMG-CoA lyase supports ketogenesis, while cytosolic HMG-CoA reductase supports cholesterol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Ketogenesis uses mitochondrial HMG-CoA, while cholesterol synthesis uses HMG-CoA mainly in the:",
+      "options": [
+        "Cytosol",
+        "Lysosome",
+        "RBC cytoplasm only",
+        "Intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone body synthesis occurs in mitochondria, whereas cholesterol synthesis occurs mainly in cytosol/smooth ER. This compartment difference helps separate the pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ketone body is most associated with fruity breath?",
+      "options": [
+        "Acetone",
+        "Succinyl-CoA",
+        "Acetoacetyl-CoA",
+        "Citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetone is volatile and can be exhaled, producing a fruity odor in marked ketosis or ketoacidosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which ketone bodies contribute most to metabolic acidosis?",
+      "options": [
+        "Acetoacetate and β-hydroxybutyrate",
+        "Acetone only",
+        "Acetyl-CoA only",
+        "Succinyl-CoA and citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate and β-hydroxybutyrate are acidic. Excess accumulation can lower blood pH and cause ketoacidosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes ketosis from ketoacidosis?",
+      "options": [
+        "Ketosis is increased ketone production; ketoacidosis is excessive acidic ketone accumulation causing low blood pH",
+        "Ketosis means no ketones are present",
+        "Ketoacidosis means only acetone is present without acidosis",
+        "Ketosis and ketoacidosis are always identical"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketosis can occur physiologically during fasting. Ketoacidosis is more dangerous and involves excessive ketone accumulation with metabolic acidosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence correctly describes ketogenesis?",
+      "options": [
+        "Acetyl-CoA → acetoacetyl-CoA → HMG-CoA → acetoacetate → β-hydroxybutyrate/acetone",
+        "Glucose → lactate → pyruvate → ketone bodies",
+        "Fatty acid → malonyl-CoA → palmitate → acetone",
+        "Acetoacetate → succinyl-CoA → glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenesis starts from acetyl-CoA. Two acetyl-CoA form acetoacetyl-CoA, then HMG-CoA is formed, then acetoacetate, which can become β-hydroxybutyrate or acetone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence correctly describes ketone body utilization?",
+      "options": [
+        "β-hydroxybutyrate → acetoacetate → acetoacetyl-CoA → acetyl-CoA → TCA cycle",
+        "Acetone → glucose → glycogen",
+        "Acetoacetate → HMG-CoA → cholesterol",
+        "Acetyl-CoA → acetoacetate → liver ketolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extrahepatic tissues oxidize β-hydroxybutyrate back to acetoacetate. Thiophorase activates acetoacetate to acetoacetyl-CoA, which is split into acetyl-CoA for TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is essential for ketone body utilization but absent in liver?",
+      "options": [
+        "Thiophorase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "β-hydroxybutyrate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiophorase activates acetoacetate using succinyl-CoA. Since liver lacks thiophorase, it cannot use ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why liver exports ketone bodies?",
+      "options": [
+        "Liver produces ketones from acetyl-CoA but lacks the enzyme needed to oxidize them",
+        "Liver lacks mitochondria",
+        "Liver cannot perform β-oxidation",
+        "Liver converts ketones directly into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver has mitochondrial ketogenesis enzymes but lacks thiophorase. This ensures ketone bodies are exported as fuels for other tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition combines low insulin, high lipolysis, high β-oxidation, and high ketogenesis?",
+      "options": [
+        "Uncontrolled type 1 diabetes",
+        "Fed state after carbohydrate meal",
+        "High insulin therapy with glucose infusion",
+        "Low fatty acid delivery to liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In uncontrolled type 1 diabetes, insulin deficiency causes high lipolysis. Fatty acids flood the liver, β-oxidation increases, and ketogenesis becomes excessive.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can ketone body production become excessive in uncontrolled diabetes despite high blood glucose?",
+      "options": [
+        "Cells behave as if starved because insulin action is low, causing lipolysis and ketogenesis",
+        "High glucose directly blocks ketogenesis",
+        "Insulin is high and suppresses fatty acid release",
+        "Ketones are produced from glucose directly in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even if blood glucose is high, low insulin means many tissues cannot use glucose properly. The body responds like fasting, increasing fat breakdown and ketone production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can ketogenesis increase when gluconeogenesis is active?",
+      "options": [
+        "Gluconeogenesis consumes oxaloacetate, limiting TCA use of acetyl-CoA",
+        "Gluconeogenesis produces malonyl-CoA that activates β-oxidation",
+        "Gluconeogenesis directly produces acetone",
+        "Gluconeogenesis blocks fatty acid oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, oxaloacetate is pulled toward glucose synthesis. With less oxaloacetate available for citrate formation, acetyl-CoA accumulates and goes toward ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ketone bodies are not converted into glucose?",
+      "options": [
+        "They are converted to acetyl-CoA, and acetyl-CoA cannot produce net glucose",
+        "They are converted to pyruvate directly",
+        "They contain ribose",
+        "They are converted to oxaloacetate directly in liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are acetyl-CoA equivalents. Acetyl-CoA cannot be converted back to pyruvate, so ketone bodies are not net glucose precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why RBCs still need glucose during prolonged fasting?",
+      "options": [
+        "RBCs lack mitochondria and cannot use ketone bodies",
+        "RBCs prefer ketone bodies over glucose",
+        "RBCs oxidize fatty acids directly",
+        "RBCs produce ketone bodies from hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even when the brain adapts to ketone bodies, RBCs still require glucose because they lack mitochondria and depend on anaerobic glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes ketone body metabolism?",
+      "options": [
+        "Liver mitochondria produce ketone bodies from excess acetyl-CoA during fasting/diabetes, and extrahepatic tissues use them as acetyl-CoA fuel because liver lacks thiophorase",
+        "Ketone bodies are made mainly in RBCs and used mainly by liver",
+        "Ketone bodies are glucose precursors used directly for glycogenesis",
+        "Ketogenesis is highest in the fed insulin-rich state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the core logic of ketone metabolism. The liver produces and exports ketones, while extrahepatic tissues convert them back to acetyl-CoA for energy.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
