@@ -408,6 +408,21 @@
       },
       "questionsCount": 120,
       "file": "data/bio-chemictry/plasma-lipoproteins.json"
+    },
+    {
+      "id": "amino-acid-pool-nitrogen-balance-classification",
+      "name": "Amino Acid Pool, Nitrogen Balance & Classification",
+      "description": "",
+      "order": 1,
+      "section": "Protein",
+      "sectionId": "protein",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/amino-acid-pool-nitrogen-balance-classification.json"
     }
   ],
   "sections": [
