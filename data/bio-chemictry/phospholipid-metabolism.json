@@ -2,6 +2,432 @@
   "subjectId": "bio-chemictry",
   "topicId": "phospholipid-metabolism",
   "topicName": "Phospholipid Metabolism",
-  "updatedAt": "2026-06-07T16:40:01.836Z",
-  "questions": []
+  "updatedAt": "2026-06-07T16:40:32.775Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipids are classified as:",
+      "options": [
+        "Compound lipids",
+        "Simple lipids only",
+        "Derived carbohydrates",
+        "Ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids are compound lipids because they contain fatty acids, an alcohol, and additional groups such as phosphate and often a nitrogen-containing base.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipids contain fatty acids, alcohol, and:",
+      "options": [
+        "Phosphoric acid residue",
+        "Urea",
+        "Bilirubin",
+        "Glucose only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The defining feature of phospholipids is the presence of a phosphate group in addition to fatty acids and an alcohol backbone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipids are described as amphipathic because they contain:",
+      "options": [
+        "A hydrophilic head and hydrophobic tails",
+        "Only hydrophilic groups",
+        "Only hydrophobic chains",
+        "Only steroid rings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids have a polar phosphate-containing head and nonpolar fatty acid tails. This amphipathic nature makes them ideal for biological membranes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The hydrophilic part of phospholipids usually contains:",
+      "options": [
+        "Phosphate group and head group",
+        "Fatty acid tails only",
+        "Cholesterol ester only",
+        "Acetyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The hydrophilic head includes the phosphate group and attached alcohol or nitrogen-containing head group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The hydrophobic part of glycerophospholipids is mainly formed by:",
+      "options": [
+        "Fatty acid chains",
+        "Phosphate group",
+        "Choline only",
+        "Inositol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fatty acid chains are nonpolar and hydrophobic. In membranes, they face inward away from water.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The two major classes of membrane phospholipids are:",
+      "options": [
+        "Glycerophospholipids and sphingolipids",
+        "Glycogen and starch",
+        "Ketone bodies and bile salts",
+        "Cholesterol and bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Major membrane lipids include glycerophospholipids and sphingolipids. They differ mainly in their backbone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The backbone of glycerophospholipids is:",
+      "options": [
+        "Glycerol",
+        "Sphingosine",
+        "Cholesterol",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerophospholipids are based on a glycerol backbone with fatty acids and phosphate-containing substituents attached.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The backbone of sphingolipids is:",
+      "options": [
+        "Sphingosine",
+        "Glycerol",
+        "Ribose",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingolipids use sphingosine as the backbone instead of glycerol. Sphingosine is an alcohol derived from serine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Sphingolipids are especially important in forming:",
+      "options": [
+        "Myelin sheath in the CNS",
+        "Glycogen granules",
+        "Ketone bodies",
+        "Bile pigments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingolipids are major membrane lipids and are particularly important in myelin sheath structure in the central nervous system.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The simplest glycerophospholipid and precursor of other members is:",
+      "options": [
+        "Phosphatidic acid",
+        "Sphingomyelin",
+        "Cholesterol ester",
+        "Acetone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidic acid is the simplest glycerophospholipid and serves as a precursor for many other phosphoglycerides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphatidylcholine is also called:",
+      "options": [
+        "Lecithin",
+        "Cephalin",
+        "Cardiolipin",
+        "Plasmalogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylcholine is commonly called lecithin. It is an important membrane phospholipid and also contributes to lung surfactant.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphatidylethanolamine is also called:",
+      "options": [
+        "Cephalin",
+        "Lecithin",
+        "Sphingomyelin",
+        "Cardiolipin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylethanolamine is known as cephalin. It is one of the phospholipids derived from phosphatidic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphatidylserine is formed from phosphatidic acid plus:",
+      "options": [
+        "Serine",
+        "Choline",
+        "Ethanolamine",
+        "Glycerol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylserine is formed when serine is attached as the head group to phosphatidic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphatidylinositol is formed from phosphatidic acid plus:",
+      "options": [
+        "Inositol",
+        "Serine",
+        "Choline",
+        "Acetone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylinositol contains inositol as its head group and is important in membrane signaling pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phosphatidylglycerol is formed from phosphatidic acid plus:",
+      "options": [
+        "Glycerol",
+        "Choline",
+        "Serine",
+        "Sphingosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylglycerol is one of the phospholipids derived from phosphatidic acid by addition of glycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cardiolipin is mainly present in:",
+      "options": [
+        "Inner mitochondrial membrane",
+        "RBC cytosol",
+        "Intestinal lumen",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiolipin is a special phospholipid found in the inner mitochondrial membrane and also in bacterial membranes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cardiolipin consists of:",
+      "options": [
+        "Two phosphatidic acid molecules linked through glycerol",
+        "One sphingosine molecule only",
+        "One cholesterol ester and one bile salt",
+        "Three glucose molecules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiolipin is formed from two phosphatidic acid molecules esterified through their phosphate groups to an additional glycerol molecule.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cardiolipin is notable because it is the only human phospholipid that is:",
+      "options": [
+        "Antigenic",
+        "A ketone body",
+        "Water-soluble only",
+        "A carbohydrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that cardiolipin is the only human phospholipid that is antigenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Plasmalogens are classified as:",
+      "options": [
+        "Ether glycerophospholipids",
+        "Ketone bodies",
+        "Simple sugars",
+        "Cholesterol esters only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasmalogens are ether lipids. In them, an alkyl group is attached to carbon 1 of glycerol by an ether linkage rather than an ester linkage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In ether lipids, the alkyl group is attached to glycerol by:",
+      "options": [
+        "Ether linkage",
+        "Peptide linkage",
+        "Glycosidic linkage",
+        "Phosphodiester linkage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ether lipids differ from typical glycerophospholipids because the group at carbon 1 is attached through an ether bond instead of an ester bond.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Platelet activating factor is an example of:",
+      "options": [
+        "Ether lipid",
+        "Ketone body",
+        "Glycolytic intermediate",
+        "Bile acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Platelet activating factor, or PAF, is an ether glycerophospholipid. It is grouped with ether lipids such as plasmalogens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycerophospholipids are important components of:",
+      "options": [
+        "Cellular membranes, lipoproteins, bile, and lung surfactant",
+        "DNA bases only",
+        "Urea cycle enzymes only",
+        "Glycogen granules only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerophospholipids are major membrane lipids. They are also found in blood lipoproteins, bile, and lung surfactant.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Lung surfactant helps prevent:",
+      "options": [
+        "Adhesion/collapse of alveoli",
+        "Ketone body formation",
+        "Glycogen breakdown",
+        "RBC hemolysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lung surfactant reduces surface tension and prevents alveoli from sticking together or collapsing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipids can serve as sources of polyunsaturated fatty acids, especially:",
+      "options": [
+        "Arachidonic acid",
+        "Glucose",
+        "Acetone",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Membrane phospholipids can release PUFA, especially arachidonic acid, which is a precursor for prostaglandins and other eicosanoids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phospholipid degradation is mainly carried out by:",
+      "options": [
+        "Phospholipases",
+        "Hexokinase",
+        "HMG-CoA reductase",
+        "Glycogen synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids are degraded by phospholipases located in cell membranes, lysosomes, and some secretions such as pancreatic juice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
