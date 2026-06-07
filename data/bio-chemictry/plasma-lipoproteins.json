@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "plasma-lipoproteins",
   "topicName": "Plasma Lipoproteins",
-  "updatedAt": "2026-06-07T21:21:28.882Z",
+  "updatedAt": "2026-06-07T21:23:27.480Z",
   "questions": [
     {
       "id": "bio-chemictry-plasma-lipoproteins-001",
@@ -1530,6 +1530,516 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is the central functional summary of lipoproteins. Each particle has a main transport role: exogenous TAG, endogenous TAG, cholesterol delivery, or cholesterol removal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-091",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has deficiency of ApoB-48. Which lipoprotein formation is most directly impaired?",
+      "options": [
+        "Chylomicron",
+        "VLDL",
+        "LDL",
+        "HDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-48 is required for chylomicron assembly in intestinal mucosal cells. Without ApoB-48, dietary TAG and cholesterol cannot be packaged efficiently into chylomicrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-092",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has deficiency of ApoB-100. Which process is most directly impaired?",
+      "options": [
+        "VLDL assembly and LDL receptor binding",
+        "Chylomicron assembly only",
+        "LCAT activation",
+        "HDL cholesterol esterification only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoB-100 is the structural apoprotein of VLDL and remains on IDL/LDL. It also serves as the ligand for LDL receptor-mediated uptake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-093",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has ApoC-II deficiency. Which enzyme activity is functionally reduced?",
+      "options": [
+        "Lipoprotein lipase",
+        "LCAT",
+        "HMG-CoA reductase",
+        "ACAT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoC-II activates lipoprotein lipase. If ApoC-II is deficient, LPL cannot efficiently hydrolyze TAG in chylomicrons and VLDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-094",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has LPL deficiency. Which plasma finding is most expected?",
+      "options": [
+        "Accumulation of TAG-rich lipoproteins",
+        "Complete absence of HDL",
+        "Isolated low cholesterol esters only",
+        "Increased ketone bodies only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL normally hydrolyzes TAG in chylomicrons and VLDL. Deficiency causes poor TAG clearance and accumulation of TAG-rich particles, especially chylomicrons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-095",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Type I hyperlipidemia is most classically caused by deficiency of:",
+      "options": [
+        "LPL or ApoC-II",
+        "LDL receptor only",
+        "ApoA-I only",
+        "CETP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Type I hyperlipidemia, also called familial hyperchylomicronemia, results from impaired TAG hydrolysis due to LPL deficiency or ApoC-II deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-096",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has ApoE deficiency. Which process is most directly impaired?",
+      "options": [
+        "Hepatic uptake of remnant particles",
+        "LPL activation",
+        "LCAT activation",
+        "LDL receptor binding through ApoB-100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoE is required for hepatic recognition and uptake of chylomicron remnants and IDL. Deficiency leads to remnant accumulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-097",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has ApoA-I deficiency. Which pathway is most directly impaired?",
+      "options": [
+        "HDL maturation and reverse cholesterol transport",
+        "Chylomicron assembly",
+        "VLDL assembly",
+        "LPL activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoA-I is the major HDL apoprotein and activates LCAT. Deficiency reduces cholesterol esterification on HDL and impairs reverse cholesterol transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-098",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has LCAT deficiency. Which process is most directly reduced?",
+      "options": [
+        "Esterification of free cholesterol on HDL",
+        "Hydrolysis of TAG in chylomicrons",
+        "Formation of ApoB-48",
+        "Formation of ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT converts free cholesterol into cholesterol ester on HDL. This step is important for HDL maturation and cholesterol transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why does LCAT activity help HDL continue accepting cholesterol?",
+      "options": [
+        "Cholesterol ester moves into HDL core, freeing surface capacity for more cholesterol",
+        "LCAT destroys HDL particles",
+        "LCAT converts cholesterol directly into bile salts in plasma",
+        "LCAT activates LPL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free cholesterol is located at the HDL surface. After esterification by LCAT, cholesterol ester becomes hydrophobic and moves to the core, allowing HDL to collect more free cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has increased LDL receptor function. Which effect is expected?",
+      "options": [
+        "Increased LDL clearance from plasma",
+        "Increased chylomicron formation",
+        "Increased LPL activation",
+        "Decreased LDL uptake by tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDL receptors bind LDL through ApoB-100 and internalize LDL particles. Increased receptor function lowers circulating LDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in LDL receptor function would most directly cause:",
+      "options": [
+        "Increased plasma LDL cholesterol",
+        "Decreased chylomicron TAG only",
+        "Increased HDL reverse cholesterol transport only",
+        "Complete failure of dietary fat absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDL receptors clear LDL from plasma. If receptor function is defective, LDL remains in circulation and plasma LDL cholesterol rises.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is LDL considered atherogenic?",
+      "options": [
+        "It delivers cholesterol to tissues and can contribute to arterial cholesterol deposition",
+        "It removes cholesterol from vessel walls",
+        "It is the major reverse cholesterol transport particle",
+        "It mainly transports ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDL is cholesterol-rich. High LDL promotes cholesterol deposition in arterial walls and increases atherosclerosis risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why is HDL considered protective?",
+      "options": [
+        "It removes cholesterol from peripheral tissues and returns it to liver",
+        "It delivers cholesterol to arterial plaques",
+        "It activates HMG-CoA reductase",
+        "It carries dietary TAG from intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL performs reverse cholesterol transport. This helps clear cholesterol from tissues and is associated with reduced atherosclerotic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which particle is expected to increase after excessive hepatic TAG synthesis?",
+      "options": [
+        "VLDL",
+        "Chylomicron",
+        "RBC",
+        "Albumin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver exports endogenous TAG as VLDL. Therefore, increased hepatic TAG synthesis tends to increase VLDL secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which lipoprotein pathway is most directly linked to dietary fat absorption?",
+      "options": [
+        "Chylomicron pathway",
+        "LDL receptor pathway only",
+        "HDL reverse cholesterol transport only",
+        "Ketone body pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary lipids are absorbed by intestinal mucosal cells, re-esterified, and packaged into chylomicrons for transport through lymph and blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which lipoprotein pathway is most directly linked to endogenous TAG transport?",
+      "options": [
+        "VLDL pathway",
+        "Chylomicron pathway only",
+        "HDL pathway only",
+        "Albumin pathway only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL is produced by liver and transports endogenous TAG to peripheral tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which lipoprotein pathway is most directly linked to cholesterol delivery to cells?",
+      "options": [
+        "LDL pathway",
+        "Chylomicron pathway only",
+        "Albumin pathway",
+        "Ketone body transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDL is the major cholesterol delivery particle. It binds LDL receptors through ApoB-100 and is taken up by cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which lipoprotein pathway is most directly linked to cholesterol removal from tissues?",
+      "options": [
+        "HDL pathway",
+        "LDL pathway",
+        "VLDL pathway only",
+        "Chylomicron pathway only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL collects cholesterol from peripheral tissues and participates in reverse cholesterol transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best distinguishes chylomicron remnants from LDL?",
+      "options": [
+        "Chylomicron remnants contain ApoB-48 and ApoE; LDL contains ApoB-100",
+        "Chylomicron remnants contain ApoB-100 only; LDL contains ApoB-48",
+        "Both are identical particles",
+        "LDL is cleared mainly through ApoE only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chylomicron remnants are intestinal-origin particles cleared by liver through ApoE and ApoB-48. LDL is derived from VLDL and carries ApoB-100.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best distinguishes IDL from LDL?",
+      "options": [
+        "IDL contains ApoE and can be taken up by liver; LDL mainly contains ApoB-100",
+        "LDL contains ApoB-48 and ApoE",
+        "IDL is made directly in intestine",
+        "LDL is the precursor of VLDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IDL is a VLDL remnant and contains ApoE. It may be taken up by liver or further converted to LDL, which is cholesterol-rich and contains ApoB-100.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme helps convert IDL to LDL by removing remaining TAG?",
+      "options": [
+        "Hepatic lipase",
+        "LCAT",
+        "ACAT",
+        "HMG-CoA reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatic lipase removes remaining TAG from IDL, generating the smaller, cholesterol-rich LDL particle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best describes CETP in lipoprotein exchange?",
+      "options": [
+        "It transfers cholesterol esters from HDL to VLDL in exchange for TAG/phospholipid",
+        "It hydrolyzes TAG in chylomicrons",
+        "It activates LCAT directly",
+        "It forms ApoB-48"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CETP mediates lipid exchange between HDL and apoB-containing lipoproteins, especially VLDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which change occurs as VLDL becomes LDL?",
+      "options": [
+        "TAG decreases and cholesterol ester becomes relatively enriched",
+        "Protein content becomes zero",
+        "ApoB-100 is replaced by ApoB-48",
+        "The particle becomes larger and less dense"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLDL loses TAG through LPL and hepatic lipase action. As TAG decreases, the particle becomes smaller, denser, and cholesterol-rich.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which change occurs as chylomicrons become remnants?",
+      "options": [
+        "TAG content decreases after LPL action",
+        "ApoB-48 disappears completely",
+        "They become HDL directly",
+        "They gain large amounts of dietary TAG in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL removes TAG from chylomicrons. The remaining particle becomes a chylomicron remnant and is cleared by liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best describes the clinical problem in impaired chylomicron clearance?",
+      "options": [
+        "TAG-rich particles accumulate in plasma",
+        "LDL disappears completely",
+        "HDL becomes the largest lipoprotein",
+        "Ketone bodies cannot be used"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If chylomicron clearance is impaired, especially with LPL or ApoC-II defects, TAG-rich particles remain elevated in plasma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why HDL needs ApoA-I?",
+      "options": [
+        "ApoA-I activates LCAT and supports HDL maturation",
+        "ApoA-I activates LPL on chylomicrons",
+        "ApoA-I is the LDL receptor ligand",
+        "ApoA-I forms chylomicron core TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoA-I is the major apoprotein of HDL. It activates LCAT, allowing esterification of cholesterol and maturation of HDL particles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why ApoE is high-yield in remnant metabolism?",
+      "options": [
+        "It allows liver receptors to recognize chylomicron remnants and IDL",
+        "It activates LCAT on HDL",
+        "It activates LPL on chylomicrons",
+        "It forms LDL receptor ligand on LDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ApoE is the major hepatic recognition signal for remnant uptake. Defects impair clearance of remnant particles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence best describes exogenous lipid transport?",
+      "options": [
+        "Intestine forms chylomicrons with ApoB-48 → HDL donates ApoC-II/ApoE → LPL removes TAG → liver clears remnants",
+        "Liver forms VLDL → VLDL becomes LDL → LDL returns cholesterol to intestine",
+        "HDL forms chylomicrons → chylomicrons become ketone bodies",
+        "LDL forms bile salts in plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the exogenous pathway: dietary lipids are handled by chylomicrons, TAG is delivered to tissues by LPL, and the cholesterol-rich remnant returns to liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence best describes endogenous TAG/cholesterol delivery?",
+      "options": [
+        "Liver forms VLDL with ApoB-100 → LPL removes TAG → IDL → LDL → LDL receptor uptake",
+        "Intestine forms HDL → HDL becomes LDL → kidney clears LDL",
+        "Chylomicron becomes VLDL directly",
+        "LDL activates LPL and becomes chylomicron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the endogenous pathway. VLDL exports liver TAG. After TAG removal, it becomes IDL and then LDL, which delivers cholesterol to tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-plasma-lipoproteins-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes plasma lipoproteins clinically and biochemically?",
+      "options": [
+        "Chylomicrons transport dietary TAG, VLDL transports hepatic TAG, LDL delivers cholesterol and is atherogenic, while HDL removes cholesterol and is protective through reverse cholesterol transport",
+        "Chylomicrons are made in liver and transport endogenous TAG, while HDL delivers cholesterol to plaques",
+        "LDL is the main TAG-rich dietary lipoprotein, and VLDL is the main reverse cholesterol transport particle",
+        "Plasma lipoproteins are unnecessary because lipids dissolve freely in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the complete high-yield summary. Lipoproteins solve the problem of lipid transport in blood, and each particle has a distinct role in lipid delivery, cholesterol transport, and cardiovascular risk.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
