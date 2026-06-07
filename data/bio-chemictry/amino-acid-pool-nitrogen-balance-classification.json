@@ -2,6 +2,347 @@
   "subjectId": "bio-chemictry",
   "topicId": "amino-acid-pool-nitrogen-balance-classification",
   "topicName": "Amino Acid Pool, Nitrogen Balance & Classification",
-  "updatedAt": "2026-06-07T21:32:09.730Z",
-  "questions": []
+  "updatedAt": "2026-06-07T21:32:45.405Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-001",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient consumes excess protein beyond body needs. What happens to the extra amino acids?",
+      "options": [
+        "They are catabolized because there is no amino acid storage form",
+        "They are stored as reserve amino acid proteins",
+        "They are stored unchanged in adipocytes",
+        "They are converted directly into DNA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess amino acids cannot be stored as amino acids. Their amino groups are removed, and carbon skeletons are metabolized.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-002",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A diet lacks lysine and tryptophan. Which problem is most directly expected?",
+      "options": [
+        "Impaired protein synthesis due to essential amino acid deficiency",
+        "Increased essential amino acid synthesis",
+        "Complete prevention of nitrogen loss",
+        "Increased amino acid storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine and tryptophan are essential amino acids. If deficient, protein synthesis is limited even if total calories are adequate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-003",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A pregnant female is gaining fetal and maternal tissue. Which nitrogen state is expected?",
+      "options": [
+        "Positive nitrogen balance",
+        "Negative nitrogen balance",
+        "Nitrogen equilibrium only",
+        "Zero nitrogen turnover"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pregnancy requires net protein synthesis and tissue growth, so nitrogen intake exceeds nitrogen excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-004",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient recovering from major illness begins rebuilding tissue. Which nitrogen state is expected?",
+      "options": [
+        "Positive nitrogen balance",
+        "Negative nitrogen balance",
+        "Protein-free state",
+        "No urea formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recovery involves tissue repair and protein synthesis, which increases nitrogen retention.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A malnourished patient has protein intake below requirement. Which nitrogen state is expected?",
+      "options": [
+        "Negative nitrogen balance",
+        "Positive nitrogen balance",
+        "Nitrogen equilibrium",
+        "Excess amino acid pool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inadequate protein intake forces body protein breakdown, increasing nitrogen excretion relative to intake.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has normal calories but lacks essential amino acids. Which nitrogen state may occur?",
+      "options": [
+        "Negative nitrogen balance",
+        "Positive nitrogen balance",
+        "No nitrogen excretion",
+        "Amino acid storage state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calories alone do not guarantee protein synthesis. Essential amino acid deficiency limits protein formation and promotes nitrogen loss.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-007",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which scenario best represents nitrogen equilibrium?",
+      "options": [
+        "Healthy adult with adequate protein intake",
+        "Growing child",
+        "Pregnant female",
+        "Starved patient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Healthy adults with adequate diet usually maintain stable body protein mass, so nitrogen intake equals excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-008",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which scenario best represents positive nitrogen balance?",
+      "options": [
+        "Child during growth",
+        "Patient with severe burns and inadequate protein",
+        "Starvation",
+        "Essential amino acid deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Growth requires new protein synthesis and tissue expansion, so nitrogen is retained.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which scenario best represents negative nitrogen balance?",
+      "options": [
+        "Severe physiological stress",
+        "Pregnancy",
+        "Growth",
+        "Recovery from illness with adequate nutrition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stress increases protein breakdown and nitrogen excretion, especially if intake is insufficient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-010",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An amino acid is degraded to products that form both glucose and ketone bodies. It is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Pure ketogenic only",
+        "Pure glucogenic only",
+        "Nonessential only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mixed amino acids produce both gluconeogenic intermediates and ketone-forming products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-011",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An amino acid is degraded only to ketone-body-forming products. It is classified as:",
+      "options": [
+        "Ketogenic",
+        "Glucogenic",
+        "Semi-essential",
+        "Nitrogen-free"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pure ketogenic amino acids produce ketone-forming products on catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-012",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An amino acid is degraded to pyruvate or TCA intermediates that can support glucose synthesis. It is classified as:",
+      "options": [
+        "Glucogenic",
+        "Pure ketogenic",
+        "Essential only",
+        "Semi-essential only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucogenic amino acids form intermediates that can be converted to glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-013",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which group contains only ketogenic amino acids?",
+      "options": [
+        "Leucine and lysine",
+        "Phenylalanine and tyrosine",
+        "Isoleucine and threonine",
+        "Tryptophan and alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine and lysine are the only purely ketogenic amino acids listed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-014",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which group contains mixed amino acids?",
+      "options": [
+        "Phenylalanine, tyrosine, tryptophan, isoleucine, threonine",
+        "Leucine, lysine, alanine, glycine",
+        "Alanine, serine, glycine, proline",
+        "Arginine, histidine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These amino acids produce both glucose- and ketone-related products on catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-015",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why leucine cannot be considered glucogenic?",
+      "options": [
+        "It is classified as purely ketogenic",
+        "It is semi-essential",
+        "It is nonessential",
+        "It cannot be catabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine catabolism yields ketone-forming products and does not provide net glucose-forming carbon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-016",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why histidine and arginine are called semi-essential?",
+      "options": [
+        "They are synthesized but may not meet requirements during growth",
+        "They are never synthesized",
+        "They are always purely ketogenic",
+        "They are not needed in adults or children"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Semi-essential amino acids can be made, but synthesis may be insufficient in children or high-demand states.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-017",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A protein-poor grain-based diet lacking tryptophan and lysine most directly affects:",
+      "options": [
+        "Essential amino acid availability",
+        "Cholesterol synthesis only",
+        "Fat digestion only",
+        "Bile salt recycling only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan and lysine are essential amino acids. Diets poor in them can cause deficiency states.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-018",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best links amino acid catabolism with urea formation?",
+      "options": [
+        "Amino groups are removed and nitrogen is converted to waste products such as urea",
+        "Carbon skeletons are converted directly to urea",
+        "Urea is the storage form of amino acids",
+        "Urea is converted into essential amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Urea formation is a major pathway for disposing of amino acid nitrogen safely.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates amino acid pool from protein storage?",
+      "options": [
+        "The amino acid pool is a small dynamic pool, not a dedicated storage depot",
+        "The amino acid pool is a large storage protein organ",
+        "The amino acid pool is identical to adipose tissue",
+        "The amino acid pool contains only essential amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pool represents free amino acids available for metabolism. It is constantly turning over and is not a storage reserve like glycogen or fat.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-amino-acid-pool-nitrogen-balance-classification-020",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Amino acid metabolism integrates dietary intake, protein turnover, nitrogen balance, special product synthesis, and glucogenic/ketogenic carbon skeleton fate",
+        "Amino acids are stored permanently and rarely metabolized",
+        "Nitrogen balance depends only on carbohydrate intake",
+        "Essential amino acids are unnecessary if calories are sufficient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the best overall summary. Amino acid metabolism links nutrition, protein turnover, nitrogen disposal, biosynthesis, and energy metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
