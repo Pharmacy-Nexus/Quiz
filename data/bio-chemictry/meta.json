@@ -373,10 +373,10 @@
       "sectionId": "lipids",
       "difficultyBreakdown": {
         "easy": 25,
-        "medium": 0,
+        "medium": 45,
         "hard": 0
       },
-      "questionsCount": 25,
+      "questionsCount": 70,
       "file": "data/bio-chemictry/phospholipid-metabolism.json"
     }
   ],
@@ -418,5 +418,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T16:40:35.711Z"
+  "updatedAt": "2026-06-07T16:44:09.462Z"
 }
