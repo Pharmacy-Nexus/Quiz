@@ -378,6 +378,21 @@
       },
       "questionsCount": 90,
       "file": "data/bio-chemictry/phospholipid-metabolism.json"
+    },
+    {
+      "id": "cholesterol-metabolism",
+      "name": "Cholesterol Metabolism",
+      "description": "",
+      "order": 5,
+      "section": "Lipids",
+      "sectionId": "lipids",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/bio-chemictry/cholesterol-metabolism.json"
     }
   ],
   "sections": [
