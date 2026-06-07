@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "phospholipid-metabolism",
   "topicName": "Phospholipid Metabolism",
-  "updatedAt": "2026-06-07T16:40:32.775Z",
+  "updatedAt": "2026-06-07T16:44:02.845Z",
   "questions": [
     {
       "id": "bio-chemictry-phospholipid-metabolism-001",
@@ -425,6 +425,771 @@
       ],
       "correctAnswer": 0,
       "explanation": "Phospholipids are degraded by phospholipases located in cell membranes, lysosomes, and some secretions such as pancreatic juice.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why phospholipids are ideal membrane components?",
+      "options": [
+        "They are amphipathic molecules with hydrophilic heads and hydrophobic tails",
+        "They are completely water-soluble molecules",
+        "They are stored mainly as neutral fat droplets",
+        "They are used mainly as glucose precursors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids naturally form bilayers because their hydrophilic heads interact with water, while their hydrophobic fatty acid tails avoid water and face inward. This structure is the basis of biological membranes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which part of a glycerophospholipid forms the hydrophobic region of membranes?",
+      "options": [
+        "Fatty acid chains",
+        "Phosphate group",
+        "Choline head group only",
+        "Inositol head group only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fatty acid chains are nonpolar and hydrophobic. In a membrane bilayer, they orient toward the interior of the membrane away from the aqueous environment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which part of a glycerophospholipid forms the hydrophilic region?",
+      "options": [
+        "Phosphate-containing head group",
+        "Fatty acid tails",
+        "Cholesterol ester core",
+        "Ketone body group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phosphate group and its attached alcohol/head group form the polar hydrophilic part of the molecule. This part faces water on either side of the membrane.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates glycerophospholipids from sphingolipids?",
+      "options": [
+        "Glycerophospholipids have glycerol backbone; sphingolipids have sphingosine backbone",
+        "Glycerophospholipids have sphingosine backbone; sphingolipids have glycerol backbone",
+        "Both contain only cholesterol",
+        "Both are ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main structural difference is the backbone. Glycerophospholipids are built on glycerol, while sphingolipids are built on sphingosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is the simplest precursor for many glycerophospholipids?",
+      "options": [
+        "Phosphatidic acid",
+        "Cardiolipin",
+        "Sphingomyelin",
+        "Platelet activating factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidic acid is the basic glycerophospholipid structure. Different head groups can be added to form phosphatidylcholine, phosphatidylethanolamine, phosphatidylserine, phosphatidylinositol, and others.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phosphatidic acid contains glycerol, two fatty acids, and:",
+      "options": [
+        "Phosphate",
+        "Cholesterol",
+        "Glucose",
+        "Acetone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidic acid consists of a glycerol backbone with two fatty acids and a phosphate group. It is the parent structure for many glycerophospholipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which head group is present in phosphatidylcholine?",
+      "options": [
+        "Choline",
+        "Serine",
+        "Inositol",
+        "Glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylcholine, or lecithin, contains choline as the head group attached through phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which head group is present in phosphatidylethanolamine?",
+      "options": [
+        "Ethanolamine",
+        "Choline",
+        "Inositol",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylethanolamine, also called cephalin, contains ethanolamine as its head group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which head group is present in phosphatidylserine?",
+      "options": [
+        "Serine",
+        "Choline",
+        "Glycerol",
+        "Sphingosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylserine is a glycerophospholipid containing serine as the attached head group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which head group is present in phosphatidylinositol?",
+      "options": [
+        "Inositol",
+        "Choline",
+        "Serine",
+        "Ethanolamine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylinositol contains inositol as the head group. It is especially important in cell signaling pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is especially important in lung surfactant?",
+      "options": [
+        "Dipalmitoyl phosphatidylcholine",
+        "Cardiolipin only",
+        "Phosphatidylinositol only",
+        "Sphingomyelin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dipalmitoyl phosphatidylcholine, a type of lecithin, is a major component of lung surfactant. It reduces surface tension in alveoli and helps prevent collapse.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lung surfactant deficiency is most directly associated with:",
+      "options": [
+        "Respiratory distress due to alveolar collapse",
+        "Increased ketone body synthesis",
+        "Increased glycogen storage",
+        "Increased bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surfactant reduces alveolar surface tension. If surfactant is deficient, alveoli tend to collapse, making breathing difficult, especially in premature infants.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is mainly located in the inner mitochondrial membrane?",
+      "options": [
+        "Cardiolipin",
+        "Lecithin",
+        "Platelet activating factor",
+        "Phosphatidylinositol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiolipin is highly characteristic of the inner mitochondrial membrane and is important for mitochondrial membrane structure and function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cardiolipin is structurally unusual because it contains:",
+      "options": [
+        "Two phosphatidic acid molecules linked by glycerol",
+        "Two cholesterol rings linked by glucose",
+        "One sphingosine and one ketone body",
+        "One phosphate and no fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiolipin is essentially diphosphatidylglycerol. It has two phosphatidic acid units linked through glycerol, making it structurally distinct.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes plasmalogens?",
+      "options": [
+        "Ether phospholipids containing an ether linkage at carbon 1 of glycerol",
+        "Ketone bodies produced from acetyl-CoA",
+        "Cholesterol-derived steroid hormones",
+        "Glycolipids containing only carbohydrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasmalogens differ from ordinary glycerophospholipids because the group at carbon 1 is attached by an ether linkage rather than the usual ester linkage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Plasmalogens are especially abundant in:",
+      "options": [
+        "Brain and muscle tissue",
+        "RBC cytosol only",
+        "Intestinal lumen only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasmalogens are important ether lipids found in high amounts in nervous tissue and muscle. They contribute to membrane properties.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Platelet activating factor is important because it can:",
+      "options": [
+        "Mediate platelet aggregation and inflammatory responses",
+        "Directly synthesize glucose",
+        "Convert ketone bodies to acetyl-CoA",
+        "Store fatty acids as TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Platelet activating factor, or PAF, is a potent signaling ether lipid. It is involved in platelet activation and inflammatory reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sphingomyelin contains sphingosine, fatty acid, phosphate, and:",
+      "options": [
+        "Choline",
+        "Glucose only",
+        "Inositol",
+        "Glycerol backbone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingomyelin is a phosphosphingolipid. It contains a sphingosine backbone, a fatty acid, phosphate, and choline.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sphingomyelin is especially important in:",
+      "options": [
+        "Myelin sheath",
+        "Glycogen granules",
+        "Ketone body synthesis",
+        "Urea cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingomyelin is a major sphingolipid in membranes and is particularly important in the myelin sheath of nervous tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the relationship between phospholipids and eicosanoid synthesis?",
+      "options": [
+        "Membrane phospholipids can release arachidonic acid for eicosanoid synthesis",
+        "Phospholipids are converted directly into glucose",
+        "Phospholipids prevent all inflammatory mediator formation",
+        "Eicosanoids are made only from cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arachidonic acid is stored mainly in membrane phospholipids. When released, it can be converted into prostaglandins, thromboxanes, and leukotrienes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme releases arachidonic acid from membrane phospholipids?",
+      "options": [
+        "Phospholipase A2",
+        "Phospholipase C",
+        "Phospholipase D",
+        "Sphingomyelinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A2 cleaves the fatty acid at carbon 2 of glycerophospholipids. Arachidonic acid is commonly located at this position, so PLA2 releases it for eicosanoid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phospholipase A1 cleaves the fatty acid at:",
+      "options": [
+        "Carbon 1",
+        "Carbon 2",
+        "The phosphate bond",
+        "The head group only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A1 removes the fatty acid at position 1 of glycerophospholipids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phospholipase A2 cleaves the fatty acid at:",
+      "options": [
+        "Carbon 2",
+        "Carbon 1",
+        "The phosphate-head group bond only",
+        "The glycerol-phosphate bond only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase A2 removes the fatty acid from carbon 2. This is clinically important because arachidonic acid is often located at carbon 2.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phospholipase C cleaves phospholipids to produce:",
+      "options": [
+        "Diacylglycerol and phosphorylated head group",
+        "Free fatty acid and lysophospholipid",
+        "Phosphatidic acid and free head group",
+        "Acetyl-CoA and glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase C cleaves before the phosphate group, producing DAG and a phosphorylated head group. In signaling, PIP2 is cleaved into DAG and IP3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phospholipase D cleaves phospholipids to produce:",
+      "options": [
+        "Phosphatidic acid and free head group",
+        "DAG and IP3 only",
+        "Lysophospholipid and arachidonic acid",
+        "Sphingosine and choline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase D cleaves after the phosphate group, releasing the head group and leaving phosphatidic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipase produces lysophospholipid?",
+      "options": [
+        "Phospholipase A2",
+        "Phospholipase C",
+        "Phospholipase D",
+        "HMG-CoA reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When phospholipase A2 removes one fatty acid, the remaining molecule is a lysophospholipid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipase is directly involved in PIP2 signaling?",
+      "options": [
+        "Phospholipase C",
+        "Phospholipase A1",
+        "Phospholipase A2",
+        "Phospholipase D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase C cleaves phosphatidylinositol bisphosphate, or PIP2, into DAG and IP3, two important second messengers.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "PIP2 cleavage by phospholipase C produces:",
+      "options": [
+        "DAG and IP3",
+        "Acetoacetate and acetone",
+        "Glycerol and fatty acids only",
+        "Cholesterol and bile acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PIP2 is cleaved by phospholipase C to form diacylglycerol and inositol trisphosphate. Both are important signaling molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DAG mainly activates:",
+      "options": [
+        "Protein kinase C",
+        "Glycogen synthase only",
+        "G6PD only",
+        "Thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diacylglycerol remains in the membrane and activates protein kinase C, which phosphorylates target proteins in signaling pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "IP3 mainly causes:",
+      "options": [
+        "Calcium release from intracellular stores",
+        "Direct fatty acid synthesis",
+        "Direct cholesterol excretion",
+        "Albumin binding in plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IP3 diffuses through the cytosol and stimulates calcium release from the endoplasmic reticulum. This calcium acts as a second messenger.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is the precursor of PIP2?",
+      "options": [
+        "Phosphatidylinositol",
+        "Cardiolipin",
+        "Sphingomyelin",
+        "Phosphatidylcholine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylinositol can be phosphorylated to phosphatidylinositol phosphates, including PIP2, which participates in signal transduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why phosphatidylinositol is important despite being a membrane lipid?",
+      "options": [
+        "It can generate second messengers after phospholipase C activation",
+        "It is the main storage form of fatty acids",
+        "It is converted directly into ketone bodies",
+        "It transports glucose into cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylinositol derivatives are involved in signaling. PIP2 cleavage produces DAG and IP3, linking membrane phospholipids to intracellular responses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme degrades sphingomyelin?",
+      "options": [
+        "Sphingomyelinase",
+        "Phospholipase A2",
+        "Phospholipase C only",
+        "Lecithin cholesterol acyltransferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingomyelinase hydrolyzes sphingomyelin into ceramide and phosphorylcholine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Sphingomyelin degradation produces:",
+      "options": [
+        "Ceramide and phosphorylcholine",
+        "DAG and IP3",
+        "Acetoacetate and β-hydroxybutyrate",
+        "Glucose and galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingomyelinase breaks sphingomyelin to form ceramide and phosphorylcholine. Ceramide can have structural and signaling roles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best differentiates glycerophospholipid degradation from sphingomyelin degradation?",
+      "options": [
+        "Glycerophospholipids are degraded by phospholipases; sphingomyelin is degraded by sphingomyelinase",
+        "Both are degraded only by hexokinase",
+        "Sphingomyelin is degraded by glycogen phosphorylase",
+        "Glycerophospholipids cannot be degraded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Different phospholipid classes require different enzymes. Glycerophospholipids are cleaved by phospholipases A1, A2, C, and D, while sphingomyelin is cleaved by sphingomyelinase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes phospholipase A2 action?",
+      "options": [
+        "It removes the fatty acid at C2 and may release arachidonic acid",
+        "It cleaves PIP2 into DAG and IP3",
+        "It releases the head group and leaves phosphatidic acid",
+        "It converts sphingomyelin to cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PLA2 is high-yield because it releases arachidonic acid from membrane phospholipids. Arachidonic acid is then used for eicosanoid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes phospholipase C action?",
+      "options": [
+        "It cleaves PIP2 into DAG and IP3",
+        "It removes fatty acid from carbon 2",
+        "It releases phosphatidic acid and free head group",
+        "It converts sphingomyelin into ceramide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase C is central in signal transduction. DAG activates PKC, while IP3 increases intracellular calcium.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best summarizes phospholipase D action?",
+      "options": [
+        "It produces phosphatidic acid and free head group",
+        "It produces DAG and IP3",
+        "It releases arachidonic acid from C2",
+        "It hydrolyzes cholesterol esters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipase D cleaves the bond between phosphate and the head group, leaving phosphatidic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A signal activates phospholipase C. Which intracellular changes are expected?",
+      "options": [
+        "Increased DAG, IP3, PKC activation, and calcium release",
+        "Increased acetone and ketoacidosis",
+        "Increased cholesterol ester hydrolysis only",
+        "Decreased all second messenger production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PLC activation cleaves PIP2 into DAG and IP3. DAG activates PKC, and IP3 releases calcium from intracellular stores.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is most directly linked to intracellular calcium signaling?",
+      "options": [
+        "Phosphatidylinositol derivatives",
+        "Cardiolipin only",
+        "Phosphatidic acid only",
+        "Sphingomyelin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphatidylinositol derivatives such as PIP2 are cleaved to form IP3, which releases calcium from the endoplasmic reticulum.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is most directly linked to mitochondrial membrane function?",
+      "options": [
+        "Cardiolipin",
+        "Phosphatidylserine only",
+        "Platelet activating factor",
+        "Lecithin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiolipin is highly enriched in the inner mitochondrial membrane. It helps maintain mitochondrial membrane structure and supports respiratory chain function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is most directly linked to alveolar stability?",
+      "options": [
+        "Dipalmitoyl phosphatidylcholine",
+        "Cardiolipin",
+        "Sphingomyelin",
+        "Phosphatidylinositol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dipalmitoyl phosphatidylcholine is a major lung surfactant phospholipid. It reduces surface tension and helps prevent alveolar collapse.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid is most directly linked to platelet activation?",
+      "options": [
+        "Platelet activating factor",
+        "Phosphatidic acid",
+        "Cardiolipin",
+        "Sphingomyelin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Platelet activating factor is an ether lipid that participates in platelet aggregation and inflammatory signaling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phospholipid class is most associated with myelin?",
+      "options": [
+        "Sphingolipids",
+        "Ketone bodies",
+        "Triacylglycerols only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sphingolipids, especially sphingomyelin and related lipids, are important structural components of myelin sheaths.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-phospholipid-metabolism-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes phospholipid metabolism?",
+      "options": [
+        "Phospholipids are amphipathic membrane lipids that support membrane structure, signaling, surfactant function, mitochondrial membranes, myelin, and arachidonic acid release",
+        "Phospholipids are mainly stored as neutral fat droplets and used only for ATP storage",
+        "Phospholipids are ketone bodies produced by liver mitochondria",
+        "Phospholipids are only dietary digestion products with no signaling role"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This summarizes the topic well. Phospholipids are not only structural membrane components; they also participate in signaling, inflammation, surfactant action, mitochondrial function, and nervous tissue structure.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
