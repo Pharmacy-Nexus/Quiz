@@ -2,6 +2,313 @@
   "subjectId": "bio-chemictry",
   "topicId": "ketone-bodies",
   "topicName": "Ketone Bodies",
-  "updatedAt": "2026-06-07T16:07:49.854Z",
-  "questions": []
+  "updatedAt": "2026-06-07T16:08:20.621Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-ketone-bodies-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The three ketone bodies are:",
+      "options": [
+        "Acetoacetate, β-hydroxybutyrate, and acetone",
+        "Lactate, pyruvate, and alanine",
+        "Citrate, malate, and oxaloacetate",
+        "Cholesterol, bile acids, and steroid hormones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are small water-soluble molecules produced mainly in liver mitochondria from acetyl-CoA. The three ketone bodies are acetoacetate, β-hydroxybutyrate, and acetone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are synthesized mainly in the:",
+      "options": [
+        "Liver",
+        "Skeletal muscle",
+        "Red blood cells",
+        "Brain only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver is the major site of ketone body synthesis. It produces ketone bodies during fasting, starvation, prolonged exercise, and uncontrolled diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketogenesis occurs in the:",
+      "options": [
+        "Mitochondria",
+        "Cytosol only",
+        "Nucleus",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone body synthesis occurs in liver mitochondria. This is important because acetyl-CoA from β-oxidation is also produced in mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main precursor for ketone body synthesis is:",
+      "options": [
+        "Acetyl-CoA",
+        "Glucose-6-phosphate",
+        "Ribose-5-phosphate",
+        "UDP-glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are formed from acetyl-CoA, especially when fatty acid β-oxidation is increased.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Increased ketogenesis is commonly seen during:",
+      "options": [
+        "Fasting and uncontrolled diabetes",
+        "Fed state with high insulin",
+        "Immediately after carbohydrate-rich meals",
+        "High glycogen synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting or uncontrolled diabetes, fatty acid oxidation increases, producing large amounts of acetyl-CoA. Excess acetyl-CoA is diverted into ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first ketone body formed directly in the pathway is commonly:",
+      "options": [
+        "Acetoacetate",
+        "Lactate",
+        "Pyruvate",
+        "Glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate is a central ketone body. It can be reduced to β-hydroxybutyrate or spontaneously decarboxylated to acetone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "β-Hydroxybutyrate is formed from:",
+      "options": [
+        "Acetoacetate",
+        "Acetone",
+        "Glucose",
+        "Citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate can be reduced to β-hydroxybutyrate. The ratio between acetoacetate and β-hydroxybutyrate depends partly on the mitochondrial NADH/NAD⁺ ratio.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetone is formed from:",
+      "options": [
+        "Acetoacetate",
+        "β-hydroxybutyrate directly only",
+        "Glucose",
+        "Fatty acyl-carnitine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate may undergo spontaneous decarboxylation to acetone. Acetone is volatile and can be exhaled, giving a fruity odor in ketosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which ketone body is volatile and can be exhaled?",
+      "options": [
+        "Acetone",
+        "β-hydroxybutyrate",
+        "Acetoacetate",
+        "Succinyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetone is volatile. It can be eliminated through breath and contributes to the fruity breath odor associated with marked ketosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are important because they can serve as:",
+      "options": [
+        "Alternative fuels for extrahepatic tissues",
+        "Direct DNA bases",
+        "Structural proteins",
+        "Bile pigments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are water-soluble fuels. During fasting, they provide energy to tissues such as heart, skeletal muscle, kidney cortex, and later the brain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The liver produces ketone bodies but cannot use them because it lacks:",
+      "options": [
+        "Thiophorase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "β-hydroxybutyrate dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver lacks thiophorase, also called succinyl-CoA:acetoacetate CoA transferase. Therefore, it exports ketone bodies instead of using them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Extrahepatic tissues use ketone bodies by converting them back to:",
+      "options": [
+        "Acetyl-CoA",
+        "Glucose directly",
+        "Fatty acids directly",
+        "Glycogen directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are oxidized in extrahepatic tissues. They are converted back into acetyl-CoA, which enters the TCA cycle for ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Red blood cells cannot use ketone bodies because they lack:",
+      "options": [
+        "Mitochondria",
+        "Glucose transporters",
+        "Hemoglobin",
+        "Glycolytic enzymes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone body utilization requires mitochondrial enzymes and the TCA cycle. Mature RBCs lack mitochondria, so they cannot oxidize ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The brain can use ketone bodies significantly during:",
+      "options": [
+        "Prolonged fasting or starvation",
+        "The first few minutes after a meal only",
+        "Complete absence of mitochondria",
+        "Red blood cell glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In prolonged fasting, the brain adapts to use ketone bodies as an important fuel. This reduces the need for glucose and helps spare body protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are water-soluble compared with fatty acids because they are:",
+      "options": [
+        "Small molecules",
+        "Large TAG particles",
+        "Bound only to chylomicrons",
+        "Stored only in adipose tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unlike long-chain fatty acids, ketone bodies are small and water-soluble. Therefore, they can circulate in blood without requiring albumin or lipoproteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are transported in blood:",
+      "options": [
+        "Freely dissolved in plasma",
+        "Only inside chylomicrons",
+        "Only bound to ApoB-48",
+        "Only inside RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are water-soluble, so they can travel freely in blood. This makes them useful fuels during fasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketogenesis increases when β-oxidation produces excess:",
+      "options": [
+        "Acetyl-CoA",
+        "Glucose",
+        "UDP-galactose",
+        "Ribose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid β-oxidation generates acetyl-CoA. When acetyl-CoA production exceeds TCA cycle capacity, ketogenesis increases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Low carbohydrate availability promotes ketogenesis partly because:",
+      "options": [
+        "Oxaloacetate is diverted toward gluconeogenesis",
+        "Insulin strongly increases",
+        "Fatty acid oxidation stops",
+        "Acetyl-CoA becomes glucose directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, oxaloacetate is used for gluconeogenesis. With less oxaloacetate available for the TCA cycle, acetyl-CoA accumulates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
