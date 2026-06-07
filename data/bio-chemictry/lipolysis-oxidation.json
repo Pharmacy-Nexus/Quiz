@@ -2,6 +2,517 @@
   "subjectId": "bio-chemictry",
   "topicId": "lipolysis-oxidation",
   "topicName": "Lipolysis & β-Oxidation",
-  "updatedAt": "2026-06-07T15:57:15.287Z",
-  "questions": []
+  "updatedAt": "2026-06-07T15:57:45.907Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Lipolysis is best defined as:",
+      "options": [
+        "Breakdown of stored triacylglycerol into fatty acids and glycerol",
+        "Synthesis of fatty acids from acetyl-CoA",
+        "Synthesis of glycogen from glucose",
+        "Formation of ketone bodies from glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipolysis is the mobilization of stored fat. In adipose tissue, triacylglycerol is hydrolyzed to release free fatty acids and glycerol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main storage form of fatty acids in adipose tissue is:",
+      "options": [
+        "Triacylglycerol",
+        "Free fatty acid",
+        "Cholesterol ester only",
+        "Ketone body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue stores energy mainly as triacylglycerol. During fasting or stress, TAG is broken down to release fatty acids for energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main enzyme responsible for mobilizing stored TAG in adipose tissue is:",
+      "options": [
+        "Hormone-sensitive lipase",
+        "Lipoprotein lipase",
+        "Pancreatic lipase",
+        "Cholesterol esterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormone-sensitive lipase acts inside adipocytes and participates in breakdown of stored triacylglycerol during fasting or stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hormone-sensitive lipase is activated mainly by:",
+      "options": [
+        "Glucagon and epinephrine",
+        "Insulin only",
+        "Secretin only",
+        "CCK only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon and epinephrine stimulate lipolysis through a cAMP-dependent pathway. This activates hormone-sensitive lipase and promotes fatty acid release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Insulin generally has which effect on adipose lipolysis?",
+      "options": [
+        "Inhibits lipolysis",
+        "Strongly activates hormone-sensitive lipase",
+        "Increases free fatty acid release during fed state",
+        "Activates ketogenesis directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a fed-state hormone. It favors fat storage and inhibits breakdown of stored TAG in adipose tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucagon and epinephrine activate lipolysis mainly through:",
+      "options": [
+        "cAMP and protein kinase A",
+        "NADPH and fatty acid synthase",
+        "UDP-glucose and glycogen synthase",
+        "Bile salts and micelles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon and epinephrine increase cAMP. cAMP activates protein kinase A, which phosphorylates proteins involved in lipolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The fatty acids released from adipose tissue travel in blood mainly bound to:",
+      "options": [
+        "Albumin",
+        "Hemoglobin",
+        "Glycogen",
+        "ApoB-48 only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free fatty acids are hydrophobic, so they cannot travel freely in plasma. Albumin carries them to tissues such as liver and muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The glycerol released during adipose lipolysis is mainly sent to:",
+      "options": [
+        "Liver",
+        "RBCs",
+        "Brain only",
+        "Intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue lacks significant glycerol kinase activity, so glycerol is released into blood and transported to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycerol released from adipose tissue can be used by the liver for:",
+      "options": [
+        "Gluconeogenesis or glycolysis",
+        "Ketone body use only",
+        "DNA replication only",
+        "Bile salt emulsification only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In liver, glycerol can be converted to glycerol-3-phosphate and then DHAP. DHAP can enter gluconeogenesis or glycolysis depending on metabolic state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "β-Oxidation is the pathway responsible for:",
+      "options": [
+        "Degradation of fatty acids to acetyl-CoA",
+        "Synthesis of fatty acids from acetyl-CoA",
+        "Storage of glucose as glycogen",
+        "Conversion of galactose to glucose-1-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Oxidation breaks fatty acids down by removing two-carbon units as acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "β-Oxidation occurs mainly in the:",
+      "options": [
+        "Mitochondria",
+        "Cytosol only",
+        "Nucleus",
+        "Intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrial β-oxidation is the major pathway for fatty acid degradation and energy production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Before β-oxidation, fatty acids must first be converted to:",
+      "options": [
+        "Fatty acyl-CoA",
+        "Free glucose",
+        "UDP-glucose",
+        "Ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids are activated by attachment to CoA, forming fatty acyl-CoA. This activation step prepares fatty acids for metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty acid activation requires:",
+      "options": [
+        "ATP and CoA",
+        "NADPH only",
+        "FAD only",
+        "UTP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid activation uses ATP and CoA to form fatty acyl-CoA. This is an energy-consuming step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The enzyme that activates fatty acids to fatty acyl-CoA is:",
+      "options": [
+        "Acyl-CoA synthetase",
+        "Acetyl-CoA carboxylase",
+        "Fatty acid synthase",
+        "Lipoprotein lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acyl-CoA synthetase, also called thiokinase, activates fatty acids by converting them into fatty acyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Long-chain fatty acyl-CoA enters mitochondria using:",
+      "options": [
+        "Carnitine shuttle",
+        "Citrate shuttle",
+        "Urea cycle",
+        "Glucose transporter only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acyl-CoA cannot freely cross the inner mitochondrial membrane. The carnitine shuttle transports fatty acyl groups into mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carnitine acyltransferase I is located on the:",
+      "options": [
+        "Outer mitochondrial membrane",
+        "Nuclear membrane",
+        "Lysosome",
+        "Ribosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carnitine acyltransferase I, or CAT-I, transfers the fatty acyl group from CoA to carnitine on the outer mitochondrial membrane.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CAT-I converts fatty acyl-CoA into:",
+      "options": [
+        "Fatty acyl-carnitine",
+        "Malonyl-CoA",
+        "Palmitate",
+        "Citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CAT-I transfers the fatty acyl group to carnitine, forming fatty acyl-carnitine, which can cross into the mitochondrial matrix.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carnitine acyltransferase II is located on the:",
+      "options": [
+        "Inner mitochondrial membrane, matrix side",
+        "Plasma membrane only",
+        "Golgi apparatus",
+        "Intestinal brush border"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CAT-II converts fatty acyl-carnitine back to fatty acyl-CoA inside the mitochondria, allowing β-oxidation to proceed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CAT-II converts fatty acyl-carnitine back to:",
+      "options": [
+        "Fatty acyl-CoA",
+        "Malonyl-CoA",
+        "Free glucose",
+        "Glycerol-3-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once inside the mitochondria, the fatty acyl group is transferred back to CoA by CAT-II, reforming fatty acyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malonyl-CoA inhibits:",
+      "options": [
+        "Carnitine acyltransferase I",
+        "Hormone-sensitive lipase",
+        "Pancreatic lipase",
+        "Glycerol kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA inhibits CAT-I. This prevents newly synthesized fatty acids from entering mitochondria for immediate oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Malonyl-CoA inhibition of CAT-I helps prevent:",
+      "options": [
+        "Simultaneous fatty acid synthesis and oxidation",
+        "Glucose absorption",
+        "Chylomicron formation",
+        "Bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is produced during fatty acid synthesis. By inhibiting CAT-I, it blocks β-oxidation when synthesis is active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Each round of β-oxidation removes:",
+      "options": [
+        "Two carbon atoms",
+        "One carbon atom",
+        "Four carbon atoms always",
+        "Six carbon atoms always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Oxidation shortens the fatty acyl chain by two carbons each cycle, releasing one acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Each round of β-oxidation produces:",
+      "options": [
+        "FADH₂, NADH, and acetyl-CoA",
+        "NADPH and ribose-5-phosphate",
+        "UDP-glucose and glycogen",
+        "Lactate and ATP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each β-oxidation cycle includes oxidation steps that produce FADH₂ and NADH, and thiolysis releases acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The first oxidation step of β-oxidation produces:",
+      "options": [
+        "FADH₂",
+        "NADPH",
+        "GTP",
+        "UDP-glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first oxidation step is catalyzed by acyl-CoA dehydrogenase and produces FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The second oxidation step of β-oxidation produces:",
+      "options": [
+        "NADH",
+        "NADPH",
+        "FADH₂",
+        "ATP directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The second oxidation step converts β-hydroxyacyl-CoA to β-ketoacyl-CoA and reduces NAD⁺ to NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The final cleavage step of β-oxidation is called:",
+      "options": [
+        "Thiolysis",
+        "Glycolysis",
+        "Glucuronidation",
+        "Transamination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiolysis cleaves β-ketoacyl-CoA using CoA-SH, releasing acetyl-CoA and a fatty acyl-CoA shortened by two carbons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-027",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main products of complete β-oxidation of even-chain fatty acids are:",
+      "options": [
+        "Acetyl-CoA units",
+        "Propionyl-CoA only",
+        "Glucose molecules",
+        "Ribose phosphates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even-chain fatty acids are broken down entirely into acetyl-CoA units.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-028",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Odd-chain fatty acid oxidation produces acetyl-CoA plus:",
+      "options": [
+        "Propionyl-CoA",
+        "Only glucose",
+        "Only lactate",
+        "Only palmitate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Odd-chain fatty acids cannot be completely divided into two-carbon acetyl-CoA units. The final three-carbon fragment is propionyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-029",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Propionyl-CoA is converted eventually into:",
+      "options": [
+        "Succinyl-CoA",
+        "Palmitate",
+        "Acetoacetate only",
+        "Cholesterol ester only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionyl-CoA from odd-chain fatty acids is converted into succinyl-CoA, which can enter the TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-030",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Conversion of methylmalonyl-CoA to succinyl-CoA requires:",
+      "options": [
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonyl-CoA mutase requires vitamin B12. This is important in odd-chain fatty acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
