@@ -374,9 +374,9 @@
       "difficultyBreakdown": {
         "easy": 25,
         "medium": 45,
-        "hard": 0
+        "hard": 20
       },
-      "questionsCount": 70,
+      "questionsCount": 90,
       "file": "data/bio-chemictry/phospholipid-metabolism.json"
     }
   ],
@@ -418,5 +418,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T16:44:09.462Z"
+  "updatedAt": "2026-06-07T16:46:44.288Z"
 }
