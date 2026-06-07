@@ -388,10 +388,10 @@
       "sectionId": "lipids",
       "difficultyBreakdown": {
         "easy": 25,
-        "medium": 0,
+        "medium": 45,
         "hard": 0
       },
-      "questionsCount": 25,
+      "questionsCount": 70,
       "file": "data/bio-chemictry/cholesterol-metabolism.json"
     }
   ],
@@ -433,5 +433,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T21:09:39.775Z"
+  "updatedAt": "2026-06-07T21:13:42.263Z"
 }
