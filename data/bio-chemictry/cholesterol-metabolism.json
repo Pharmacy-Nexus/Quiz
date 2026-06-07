@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "cholesterol-metabolism",
   "topicName": "Cholesterol Metabolism",
-  "updatedAt": "2026-06-07T21:09:38.635Z",
+  "updatedAt": "2026-06-07T21:13:35.255Z",
   "questions": [
     {
       "id": "bio-chemictry-cholesterol-metabolism-001",
@@ -425,6 +425,771 @@
       ],
       "correctAnswer": 0,
       "explanation": "Squalene undergoes cyclization to form lanosterol, which is then converted through further steps into cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule provides all carbon atoms for cholesterol synthesis?",
+      "options": [
+        "Acetyl-CoA",
+        "Glucose-6-phosphate",
+        "Ribose-5-phosphate",
+        "Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol is synthesized from acetyl-CoA. Multiple acetyl-CoA units are used to build the sterol structure through the mevalonate pathway.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cholesterol synthesis requires NADPH mainly because it is a:",
+      "options": [
+        "Reductive biosynthetic pathway",
+        "Glycolytic ATP-generating pathway",
+        "Protein degradation pathway",
+        "Urea-producing pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis involves reduction reactions. NADPH supplies reducing equivalents needed to convert intermediates toward cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway is a major source of NADPH for cholesterol synthesis?",
+      "options": [
+        "Pentose phosphate pathway",
+        "Glycolysis only",
+        "β-oxidation only",
+        "Urea cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pentose phosphate pathway produces NADPH. NADPH is needed for reductive biosynthesis, including fatty acid and cholesterol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cholesterol synthesis occurs in enzymes located mainly in:",
+      "options": [
+        "Cytosol and endoplasmic reticulum",
+        "Mitochondrial matrix only",
+        "Lysosome only",
+        "Intestinal lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis occurs in the cytoplasmic compartment, with enzymes distributed between the cytosol and endoplasmic reticulum.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The rate-limiting enzyme of cholesterol synthesis is:",
+      "options": [
+        "HMG-CoA reductase",
+        "HMG-CoA lyase",
+        "Thiophorase",
+        "Acyl-CoA synthetase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMG-CoA reductase is the major regulatory enzyme in cholesterol synthesis. It converts HMG-CoA to mevalonate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HMG-CoA reductase converts HMG-CoA into:",
+      "options": [
+        "Mevalonate",
+        "Acetoacetate",
+        "Acetyl-CoA",
+        "Malonyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The HMG-CoA reductase step produces mevalonate. This is a key committed step in cholesterol biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "HMG-CoA reductase uses:",
+      "options": [
+        "NADPH",
+        "FADH₂",
+        "NAD⁺",
+        "Biotin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reduction of HMG-CoA to mevalonate requires NADPH as the electron donor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug class inhibits HMG-CoA reductase?",
+      "options": [
+        "Statins",
+        "Fibrates only",
+        "Sulfonylureas",
+        "Proton pump inhibitors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Statins inhibit HMG-CoA reductase. This reduces hepatic cholesterol synthesis and can increase LDL receptor expression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway intermediate is produced after HMG-CoA reduction?",
+      "options": [
+        "Mevalonate",
+        "Acetoacetate",
+        "β-hydroxybutyrate",
+        "Propionyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mevalonate is the product of HMG-CoA reductase and continues through later steps toward cholesterol formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which compound is formed by cyclization of squalene?",
+      "options": [
+        "Lanosterol",
+        "Mevalonate",
+        "Acetyl-CoA",
+        "Bile salt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Squalene is converted into a cyclic sterol structure. The first cyclic sterol formed is lanosterol, which is later converted to cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lanosterol is eventually converted into:",
+      "options": [
+        "Cholesterol",
+        "Glucose",
+        "Glycogen",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lanosterol undergoes multiple modifications, including removal of methyl groups and rearrangements, to form cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes cholesterol esters?",
+      "options": [
+        "Storage/transport forms of cholesterol formed by esterifying the C3 hydroxyl group",
+        "Water-soluble glucose derivatives",
+        "Ketone body precursors",
+        "Direct products of glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esters are formed when a fatty acid is attached to the C3 hydroxyl group of cholesterol. They are more hydrophobic than free cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are cholesterol esters found in the core of lipoproteins?",
+      "options": [
+        "They are highly hydrophobic",
+        "They are highly water-soluble",
+        "They are charged molecules",
+        "They are proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol esters are nonpolar and hydrophobic, so they are carried in the hydrophobic core of lipoproteins along with triacylglycerols.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Free cholesterol is found mainly in which part of lipoproteins?",
+      "options": [
+        "Surface layer",
+        "Hydrophobic core only",
+        "DNA region",
+        "Protein-only center"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free cholesterol has a polar hydroxyl group, so it can sit near the lipoprotein surface with phospholipids and apoproteins. Cholesterol esters are more hydrophobic and move to the core.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme esterifies cholesterol in plasma HDL?",
+      "options": [
+        "LCAT",
+        "HMG-CoA reductase",
+        "Thiophorase",
+        "Pancreatic lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT, lecithin-cholesterol acyltransferase, esterifies free cholesterol in plasma, especially on HDL particles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "LCAT uses fatty acid from lecithin to form:",
+      "options": [
+        "Cholesterol ester",
+        "Mevalonate",
+        "Acetoacetate",
+        "Malonyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT transfers a fatty acid from lecithin/phosphatidylcholine to cholesterol, producing cholesterol ester.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In cells, cholesterol esterification is mainly catalyzed by:",
+      "options": [
+        "ACAT",
+        "LCAT",
+        "HMG-CoA lyase",
+        "Lipoprotein lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACAT esterifies cholesterol inside cells. LCAT esterifies cholesterol in plasma, especially in HDL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is most associated with intracellular cholesterol storage?",
+      "options": [
+        "ACAT",
+        "LCAT",
+        "Phospholipase A2",
+        "GALT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACAT converts free cholesterol into cholesterol esters inside cells, allowing cholesterol storage in a less disruptive hydrophobic form.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares LCAT and ACAT?",
+      "options": [
+        "LCAT acts in plasma; ACAT acts inside cells",
+        "LCAT acts inside mitochondria; ACAT acts in bile",
+        "Both are glycolytic enzymes",
+        "Both produce mevalonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT esterifies cholesterol on circulating lipoproteins, especially HDL. ACAT esterifies cholesterol intracellularly for storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes cholesterol in membranes?",
+      "options": [
+        "It modulates membrane fluidity and stability",
+        "It produces ATP directly",
+        "It is the main genetic material",
+        "It is only found in mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol inserts between phospholipids in membranes and helps regulate membrane fluidity, permeability, and stability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which source contributes dietary cholesterol to the liver?",
+      "options": [
+        "Chylomicron remnants",
+        "RBCs only",
+        "Ketone bodies",
+        "Glycerol from adipose tissue only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary cholesterol absorbed by the intestine is packaged into chylomicrons. After TAG removal, chylomicron remnants deliver cholesterol to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which lipoprotein helps return cholesterol from peripheral tissues to the liver?",
+      "options": [
+        "HDL",
+        "Chylomicron only",
+        "VLDL only",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HDL participates in reverse cholesterol transport. It collects cholesterol from extrahepatic tissues and returns it to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process is called reverse cholesterol transport?",
+      "options": [
+        "Transport of cholesterol from peripheral tissues back to liver by HDL",
+        "Transport of glucose from liver to muscle",
+        "Transport of fatty acids from adipose tissue to liver by albumin",
+        "Transport of ketone bodies from liver to brain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reverse cholesterol transport removes cholesterol from tissues and delivers it to the liver for reuse or excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which route eliminates cholesterol from the body most directly?",
+      "options": [
+        "Secretion into bile as cholesterol or bile acids",
+        "Conversion into glucose",
+        "Complete oxidation to CO₂ and water",
+        "Conversion into urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans cannot degrade the steroid nucleus completely to CO₂ and water. Cholesterol is eliminated mainly through bile as free cholesterol or after conversion to bile acids/salts.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cholesterol fate supports digestion of dietary lipids?",
+      "options": [
+        "Conversion to bile acids and bile salts",
+        "Conversion to glycogen",
+        "Conversion to ketone bodies",
+        "Conversion to ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile acids and bile salts are derived from cholesterol. They emulsify dietary fats and help micelle formation during lipid digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cholesterol fate supports endocrine hormone synthesis?",
+      "options": [
+        "Conversion to steroid hormones",
+        "Conversion to glucose",
+        "Conversion to lactate",
+        "Conversion to urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steroid hormones, including cortisol, aldosterone, estrogen, progesterone, and testosterone, are synthesized from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cholesterol fate is linked to calcium and bone metabolism?",
+      "options": [
+        "Vitamin D synthesis",
+        "Ketone body formation",
+        "Glycogen synthesis",
+        "Bilirubin conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol is a precursor for vitamin D synthesis. Vitamin D is important in calcium homeostasis and bone health.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue is especially active in steroid hormone production from cholesterol?",
+      "options": [
+        "Adrenal cortex",
+        "Mature RBCs",
+        "Skeletal muscle only",
+        "Intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adrenal cortex synthesizes steroid hormones from cholesterol. Ovaries, testes, and placenta are also steroidogenic tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue is especially active in reproductive steroid synthesis?",
+      "options": [
+        "Ovaries and testes",
+        "RBCs",
+        "Hair shaft only",
+        "Platelets only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ovaries and testes use cholesterol to synthesize sex steroid hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best distinguishes HMG-CoA use in ketogenesis from cholesterol synthesis?",
+      "options": [
+        "Ketogenesis uses mitochondrial HMG-CoA lyase; cholesterol synthesis uses cytosolic/ER HMG-CoA reductase",
+        "Both pathways use the same enzyme in the same compartment",
+        "Ketogenesis uses HMG-CoA reductase; cholesterol synthesis uses thiophorase",
+        "Cholesterol synthesis occurs mainly in liver mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both pathways involve HMG-CoA, but ketogenesis occurs in mitochondria and uses HMG-CoA lyase, while cholesterol synthesis occurs in cytosol/ER and uses HMG-CoA reductase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which regulatory effect is expected when intracellular cholesterol is high?",
+      "options": [
+        "Decreased cholesterol synthesis",
+        "Increased HMG-CoA reductase activity",
+        "Increased LDL receptor expression always",
+        "Complete activation of mevalonate pathway"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High intracellular cholesterol provides negative feedback. It reduces cholesterol synthesis, especially by decreasing HMG-CoA reductase activity/expression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which regulatory effect is expected when intracellular cholesterol is low?",
+      "options": [
+        "Increased cholesterol synthesis and increased LDL receptor expression",
+        "Decreased LDL uptake",
+        "Complete inhibition of HMG-CoA reductase",
+        "Decreased cholesterol need"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When cells need cholesterol, they increase endogenous synthesis and also increase LDL receptor expression to take up cholesterol from plasma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why do statins reduce plasma LDL?",
+      "options": [
+        "They inhibit hepatic cholesterol synthesis, increasing LDL receptor-mediated uptake",
+        "They directly dissolve LDL in plasma",
+        "They inhibit insulin secretion",
+        "They increase chylomicron production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By inhibiting HMG-CoA reductase, statins lower hepatic cholesterol. The liver compensates by increasing LDL receptor expression, removing more LDL from plasma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why cholesterol must be transported by lipoproteins?",
+      "options": [
+        "Cholesterol and cholesterol esters are hydrophobic and poorly soluble in plasma",
+        "Cholesterol is fully water-soluble",
+        "Cholesterol is a protein",
+        "Cholesterol is converted to glucose before transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasma is aqueous, so hydrophobic lipids require lipoprotein packaging for transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the liver cholesterol pool?",
+      "options": [
+        "It receives cholesterol from diet, synthesis, and extrahepatic tissues, then sends it to bile, bile acids, or lipoproteins",
+        "It only receives cholesterol from RBCs",
+        "It only secretes cholesterol into urine",
+        "It cannot synthesize cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver is central in cholesterol balance. It integrates input from chylomicron remnants, de novo synthesis, and HDL-mediated return from tissues, then directs cholesterol to several fates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly summarizes early cholesterol synthesis?",
+      "options": [
+        "Acetyl-CoA → HMG-CoA → mevalonate",
+        "Glucose → sorbitol → fructose",
+        "Acetyl-CoA → acetoacetate → acetone only",
+        "Cholesterol → glucose → glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis starts from acetyl-CoA. HMG-CoA is formed and then reduced by HMG-CoA reductase to mevalonate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly summarizes later cholesterol synthesis?",
+      "options": [
+        "Mevalonate → isoprenoid units → squalene → lanosterol → cholesterol",
+        "Mevalonate → pyruvate → glucose",
+        "Squalene → acetone → ketone bodies",
+        "Lanosterol → bile salts directly without cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mevalonate is converted into activated isoprenoid units. These form squalene, then lanosterol, and finally cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step is the major committed regulatory point in cholesterol synthesis?",
+      "options": [
+        "HMG-CoA to mevalonate",
+        "Squalene to lanosterol",
+        "Cholesterol to bile acids",
+        "Cholesterol to cholesterol ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The HMG-CoA reductase step is the major regulated, rate-limiting step of cholesterol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why cholesterol synthesis is linked to the fed state?",
+      "options": [
+        "Fed state provides acetyl-CoA, ATP, and NADPH for biosynthesis",
+        "Fasting strongly increases insulin and lipogenesis",
+        "Cholesterol synthesis uses FAD and NAD⁺ from β-oxidation only",
+        "Cholesterol synthesis occurs only during starvation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis is an anabolic process requiring acetyl-CoA, ATP, and NADPH. These are more available in the fed state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares cholesterol synthesis and fatty acid synthesis?",
+      "options": [
+        "Both use acetyl-CoA and NADPH and are anabolic lipid synthesis pathways",
+        "Cholesterol synthesis uses NAD⁺, while fatty acid synthesis uses FAD",
+        "Cholesterol synthesis occurs only in mitochondria",
+        "Fatty acid synthesis produces mevalonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both cholesterol and fatty acid synthesis are reductive anabolic pathways. They use acetyl-CoA as carbon source and NADPH as reducing power.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best contrasts cholesterol synthesis and β-oxidation?",
+      "options": [
+        "Cholesterol synthesis uses NADPH; β-oxidation produces NADH and FADH₂",
+        "Cholesterol synthesis produces acetyl-CoA; β-oxidation consumes NADPH",
+        "Both are the same pathway in reverse",
+        "β-oxidation produces mevalonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis is reductive and requires NADPH. β-oxidation is oxidative and generates NADH and FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why cholesterol cannot be used as an energy fuel like fatty acids?",
+      "options": [
+        "The steroid ring cannot be degraded to generate significant ATP in humans",
+        "Cholesterol is converted directly to glucose",
+        "Cholesterol is fully oxidized by glycolysis",
+        "Cholesterol enters β-oxidation normally"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans cannot completely degrade the cholesterol ring system for energy. Cholesterol is used mainly structurally or as a precursor, and eliminated via bile/bile acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why cholesterol balance depends strongly on bile?",
+      "options": [
+        "Bile is the major route for cholesterol elimination as free cholesterol and bile acids",
+        "Bile converts cholesterol directly into glucose",
+        "Bile stores cholesterol inside RBCs",
+        "Bile prevents any cholesterol secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol can be secreted into bile directly or converted to bile acids/salts and then secreted. This is a key route of removal from the body.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes cholesterol's role in lipoproteins?",
+      "options": [
+        "It is transported as free cholesterol on the surface and cholesterol ester in the core",
+        "It is transported only as free cholesterol dissolved in water",
+        "It is transported only inside RBCs",
+        "It is converted to ketone bodies during transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free cholesterol has a polar hydroxyl group and can reside in the surface layer. Cholesterol ester is more hydrophobic and is stored in the lipoprotein core.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes cholesterol metabolism?",
+      "options": [
+        "Cholesterol is synthesized from acetyl-CoA using NADPH through the mevalonate pathway, regulated by HMG-CoA reductase, and used for membranes, bile acids, steroid hormones, and vitamin D",
+        "Cholesterol is synthesized from glucose through glycolysis and used mainly for ATP production",
+        "Cholesterol is produced only in RBCs and converted directly to glucose",
+        "Cholesterol synthesis is identical to ketogenesis and uses thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the central summary. Cholesterol is an important structural and precursor molecule. Its synthesis is controlled mainly at HMG-CoA reductase and its balance is managed mainly by the liver.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
