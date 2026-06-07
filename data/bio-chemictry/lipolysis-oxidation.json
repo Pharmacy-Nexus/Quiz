@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "lipolysis-oxidation",
   "topicName": "Lipolysis & β-Oxidation",
-  "updatedAt": "2026-06-07T15:57:45.907Z",
+  "updatedAt": "2026-06-07T15:59:21.871Z",
   "questions": [
     {
       "id": "bio-chemictry-lipolysis-oxidation-001",
@@ -510,6 +510,1026 @@
       ],
       "correctAnswer": 0,
       "explanation": "Methylmalonyl-CoA mutase requires vitamin B12. This is important in odd-chain fatty acid metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes adipose lipolysis during fasting?",
+      "options": [
+        "Stored TAG is hydrolyzed to release fatty acids and glycerol",
+        "Fatty acids are synthesized from acetyl-CoA",
+        "Glucose is stored as glycogen inside adipocytes",
+        "Ketone bodies are converted into TAG inside adipocytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, adipose tissue mobilizes stored triacylglycerol. TAG is hydrolyzed, producing free fatty acids for energy use and glycerol that travels mainly to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is mainly responsible for hormone-regulated TAG breakdown inside adipocytes?",
+      "options": [
+        "Hormone-sensitive lipase",
+        "Lipoprotein lipase",
+        "Pancreatic lipase",
+        "Cholesterol esterase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormone-sensitive lipase acts inside adipocytes during fasting and stress. It is stimulated by hormones such as glucagon and epinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormone inhibits hormone-sensitive lipase?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Epinephrine",
+        "Norepinephrine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin promotes fat storage after meals. It inhibits adipose lipolysis and reduces release of fatty acids into blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormones activate hormone-sensitive lipase?",
+      "options": [
+        "Glucagon and epinephrine",
+        "Insulin and secretin",
+        "CCK and insulin",
+        "Secretin and cortisol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon and epinephrine activate lipolysis through cAMP and protein kinase A. This prepares fatty acids for energy production during fasting or stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which second messenger increases during glucagon/epinephrine stimulation of lipolysis?",
+      "options": [
+        "cAMP",
+        "UDP-glucose",
+        "NADPH",
+        "Ribose-5-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon and epinephrine activate adenylate cyclase, increasing cAMP. cAMP activates protein kinase A, leading to activation of lipolytic machinery.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which kinase mediates phosphorylation events in hormone-stimulated lipolysis?",
+      "options": [
+        "Protein kinase A",
+        "Pyruvate kinase",
+        "Hexokinase",
+        "Creatine kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "cAMP activates protein kinase A. PKA phosphorylates proteins involved in adipose TAG mobilization.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule carries free fatty acids in plasma after adipose lipolysis?",
+      "options": [
+        "Albumin",
+        "ApoB-48",
+        "Hemoglobin",
+        "Bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free fatty acids are hydrophobic and poorly soluble in plasma. Albumin binds and transports them to tissues such as liver, heart, and skeletal muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is glycerol released from adipose tissue rather than reused efficiently?",
+      "options": [
+        "Adipose tissue lacks significant glycerol kinase activity",
+        "Adipose tissue lacks stored TAG",
+        "Adipose tissue cannot release fatty acids",
+        "Glycerol is toxic to liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipocytes cannot efficiently phosphorylate glycerol to glycerol-3-phosphate. Therefore, glycerol released from TAG breakdown travels to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In the liver, glycerol from adipose tissue can enter metabolism after conversion to:",
+      "options": [
+        "Glycerol-3-phosphate and DHAP",
+        "Acetyl-CoA directly",
+        "Fatty acyl-carnitine directly",
+        "Malonyl-CoA directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver contains glycerol kinase. Glycerol can be phosphorylated to glycerol-3-phosphate and then converted to DHAP, which can enter gluconeogenesis or glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Before fatty acids undergo β-oxidation, they must be:",
+      "options": [
+        "Activated to fatty acyl-CoA",
+        "Converted to glucose",
+        "Converted to UDP-glucose",
+        "Conjugated with bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free fatty acids are first activated by acyl-CoA synthetase. This forms fatty acyl-CoA, which can proceed toward mitochondrial oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fatty acid activation consumes energy equivalent to:",
+      "options": [
+        "Two ATP equivalents",
+        "One NADPH",
+        "One FADH₂",
+        "One GTP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Activation uses ATP and converts it to AMP and PPi. Since ATP is cleaved to AMP, this costs two high-energy phosphate bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The enzyme responsible for fatty acid activation is:",
+      "options": [
+        "Acyl-CoA synthetase",
+        "Acyl-CoA dehydrogenase",
+        "Enoyl-CoA hydratase",
+        "Thiolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acyl-CoA synthetase, also called thiokinase, converts fatty acid + CoA + ATP into fatty acyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Long-chain fatty acyl-CoA cannot directly cross the:",
+      "options": [
+        "Inner mitochondrial membrane",
+        "Plasma membrane",
+        "Nuclear membrane only",
+        "Lysosomal membrane only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acyl-CoA needs the carnitine shuttle to enter the mitochondrial matrix because it cannot cross the inner mitochondrial membrane directly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The carnitine shuttle is mainly needed for:",
+      "options": [
+        "Long-chain fatty acid transport into mitochondria",
+        "Short-chain fatty acid digestion in the intestine",
+        "Glucose transport into RBCs",
+        "Citrate export for fatty acid synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acids require carnitine-dependent transport into mitochondria before β-oxidation. Shorter fatty acids can enter mitochondria more easily.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CAT-I converts fatty acyl-CoA into:",
+      "options": [
+        "Fatty acyl-carnitine",
+        "Malonyl-CoA",
+        "Acetyl-CoA",
+        "Propionyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carnitine acyltransferase I transfers the fatty acyl group from CoA to carnitine, forming fatty acyl-carnitine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CAT-II converts fatty acyl-carnitine into:",
+      "options": [
+        "Fatty acyl-CoA",
+        "Malonyl-CoA",
+        "Citrate",
+        "Free glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inside mitochondria, CAT-II transfers the fatty acyl group back to CoA, regenerating fatty acyl-CoA for β-oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule inhibits CAT-I?",
+      "options": [
+        "Malonyl-CoA",
+        "Acetyl-CoA",
+        "NADH",
+        "Glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA inhibits CAT-I. This blocks fatty acid entry into mitochondria when fatty acid synthesis is active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why does malonyl-CoA inhibit CAT-I?",
+      "options": [
+        "To prevent simultaneous fatty acid synthesis and degradation",
+        "To increase ketogenesis after meals",
+        "To activate carnitine transport during lipogenesis",
+        "To convert fatty acids into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is produced during fatty acid synthesis. By inhibiting CAT-I, it prevents newly synthesized fatty acids from being immediately oxidized.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step of β-oxidation produces FADH₂?",
+      "options": [
+        "First oxidation by acyl-CoA dehydrogenase",
+        "Hydration by enoyl-CoA hydratase",
+        "Second oxidation by hydroxyacyl-CoA dehydrogenase",
+        "Thiolysis by thiolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first oxidation introduces a double bond and reduces FAD to FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme catalyzes the hydration step of β-oxidation?",
+      "options": [
+        "Enoyl-CoA hydratase",
+        "Acyl-CoA dehydrogenase",
+        "Thiolase",
+        "Acyl-CoA synthetase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enoyl-CoA hydratase adds water across the double bond formed in the first oxidation step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step of β-oxidation produces NADH?",
+      "options": [
+        "Oxidation of β-hydroxyacyl-CoA to β-ketoacyl-CoA",
+        "Activation of fatty acid to acyl-CoA",
+        "Formation of fatty acyl-carnitine",
+        "Hydration of enoyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The second oxidation step uses NAD⁺ and produces NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme catalyzes the final cleavage step of β-oxidation?",
+      "options": [
+        "Thiolase",
+        "Acyl-CoA dehydrogenase",
+        "Enoyl-CoA hydratase",
+        "CAT-I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiolase cleaves β-ketoacyl-CoA using CoA-SH, releasing acetyl-CoA and a fatty acyl-CoA shortened by two carbons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence correctly describes one round of β-oxidation?",
+      "options": [
+        "Oxidation → hydration → oxidation → thiolysis",
+        "Hydration → carboxylation → reduction → hydrolysis",
+        "Phosphorylation → isomerization → cleavage → ligation",
+        "Oxidation → decarboxylation → transamination → conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The β-oxidation spiral has four recurring steps: FAD-dependent oxidation, hydration, NAD⁺-dependent oxidation, and thiolytic cleavage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Each β-oxidation cycle shortens the fatty acyl chain by:",
+      "options": [
+        "Two carbons",
+        "One carbon",
+        "Three carbons",
+        "Six carbons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each cycle removes one two-carbon acetyl-CoA unit from the fatty acyl chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Each cycle of β-oxidation produces one:",
+      "options": [
+        "FADH₂, one NADH, and one acetyl-CoA",
+        "NADPH and ribose-5-phosphate",
+        "ATP and glucose",
+        "GTP and succinyl-CoA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each round produces FADH₂ and NADH from oxidation steps and acetyl-CoA from thiolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares lipoprotein lipase and hormone-sensitive lipase?",
+      "options": [
+        "LPL hydrolyzes TAG in circulating lipoproteins; HSL hydrolyzes stored TAG inside adipocytes",
+        "LPL acts inside adipocytes; HSL acts in intestinal lumen",
+        "Both digest dietary fat in the small intestine",
+        "HSL activates chylomicrons in blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LPL helps tissues obtain fatty acids from chylomicrons/VLDL. HSL mobilizes stored TAG from adipocytes during fasting or stress.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition most strongly activates adipose lipolysis?",
+      "options": [
+        "Fasting with increased glucagon/epinephrine signaling",
+        "Fed state with high insulin",
+        "High glucose uptake into adipocytes",
+        "Active TAG synthesis after a meal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fasting and stress increase lipolytic hormones. These activate cAMP/PKA signaling and stimulate hormone-sensitive lipase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which condition most strongly inhibits adipose lipolysis?",
+      "options": [
+        "Fed state with high insulin",
+        "Starvation",
+        "Exercise stress",
+        "High epinephrine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin suppresses HSL activity and promotes TAG storage. This prevents unnecessary fatty acid release after meals.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A patient has increased adipose lipolysis. Which plasma molecule increases as a carrier of released fatty acids?",
+      "options": [
+        "Albumin-bound free fatty acids",
+        "UDP-glucose",
+        "Ribose-5-phosphate",
+        "Hemoglobin-bound TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free fatty acids released from adipose tissue bind albumin in plasma and travel to energy-demanding tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissue can use glycerol from lipolysis for gluconeogenesis?",
+      "options": [
+        "Liver",
+        "Adipose tissue mainly",
+        "Mature RBCs",
+        "Lens"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liver contains glycerol kinase and can convert glycerol to DHAP, allowing entry into gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why adipose tissue cannot efficiently use glycerol from lipolysis?",
+      "options": [
+        "It lacks glycerol kinase",
+        "It lacks stored TAG",
+        "It lacks insulin receptors",
+        "It cannot release fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adipose tissue lacks significant glycerol kinase activity, so glycerol is not efficiently reused locally and is sent to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step explains why fatty acid activation has an energetic cost of two ATP equivalents?",
+      "options": [
+        "ATP is converted to AMP and PPi",
+        "ATP is converted only to ADP",
+        "NADPH is converted to NADP⁺",
+        "FAD is converted to FADH₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid activation uses ATP → AMP + PPi. This consumes two high-energy phosphate equivalents.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement correctly describes activated fatty acid before mitochondrial entry?",
+      "options": [
+        "Fatty acyl-CoA is formed in the cytosol/outer mitochondrial area",
+        "Free fatty acid enters β-oxidation directly without activation",
+        "Fatty acid becomes glucose-6-phosphate",
+        "Fatty acid must become citrate before oxidation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acids are first activated to fatty acyl-CoA. Long-chain fatty acyl groups then need the carnitine shuttle to enter mitochondria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the role of carnitine in β-oxidation?",
+      "options": [
+        "It transports long-chain fatty acyl groups across the inner mitochondrial membrane",
+        "It carries acetyl-CoA from mitochondria to cytosol for synthesis",
+        "It activates acetyl-CoA carboxylase",
+        "It converts fatty acids into ketone bodies directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carnitine accepts fatty acyl groups from CoA and allows them to be transported into the mitochondrial matrix.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step occurs at CAT-I?",
+      "options": [
+        "Fatty acyl-CoA + carnitine → fatty acyl-carnitine + CoA",
+        "Fatty acyl-carnitine + CoA → fatty acyl-CoA + carnitine",
+        "Acetyl-CoA → malonyl-CoA",
+        "β-ketoacyl-CoA → acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CAT-I transfers the fatty acyl group from CoA to carnitine, forming fatty acyl-carnitine outside the inner mitochondrial membrane.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which step occurs at CAT-II?",
+      "options": [
+        "Fatty acyl-carnitine + CoA → fatty acyl-CoA + carnitine",
+        "Fatty acyl-CoA + carnitine → fatty acyl-carnitine",
+        "Acetyl-CoA → malonyl-CoA",
+        "Free fatty acid → fatty acyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CAT-II regenerates fatty acyl-CoA inside the mitochondrial matrix and releases carnitine to be recycled.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule prevents fatty acid oxidation when fatty acid synthesis is active?",
+      "options": [
+        "Malonyl-CoA",
+        "Acetyl-CoA",
+        "Citrate",
+        "Propionyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is produced during fatty acid synthesis. It inhibits CAT-I, preventing mitochondrial entry and oxidation of fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes β-oxidation of even-chain saturated fatty acids?",
+      "options": [
+        "It repeatedly removes two-carbon acetyl-CoA units",
+        "It produces only propionyl-CoA",
+        "It directly produces glucose",
+        "It occurs mainly in cytosol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even-chain saturated fatty acids are degraded through repeated β-oxidation cycles, producing acetyl-CoA units.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "For an even-chain fatty acid with 16 carbons, how many acetyl-CoA molecules are produced?",
+      "options": [
+        "8",
+        "7",
+        "16",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An even-chain fatty acid produces carbon number ÷ 2 acetyl-CoA molecules. Palmitate has 16 carbons, so it produces 8 acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "For palmitate, how many β-oxidation cycles occur?",
+      "options": [
+        "7",
+        "8",
+        "16",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an even-chain fatty acid, number of β-oxidation cycles = number of acetyl-CoA molecules − 1. Palmitate produces 8 acetyl-CoA, so it undergoes 7 cycles.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Complete β-oxidation of palmitate produces how many NADH from β-oxidation itself?",
+      "options": [
+        "7",
+        "8",
+        "16",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each β-oxidation cycle produces one NADH. Palmitate undergoes 7 cycles, so β-oxidation itself produces 7 NADH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Complete β-oxidation of palmitate produces how many FADH₂ from β-oxidation itself?",
+      "options": [
+        "7",
+        "8",
+        "16",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each β-oxidation cycle produces one FADH₂. Palmitate undergoes 7 cycles, so it produces 7 FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why β-oxidation yields large amounts of ATP?",
+      "options": [
+        "It produces NADH, FADH₂, and acetyl-CoA that feed TCA/ETC",
+        "It directly produces glucose",
+        "It directly produces ATP at every step",
+        "It consumes NADPH for energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NADH and FADH₂ donate electrons to the electron transport chain, while acetyl-CoA enters TCA. Together, they generate large ATP output.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Odd-chain fatty acid oxidation differs from even-chain oxidation because it produces:",
+      "options": [
+        "Propionyl-CoA as the final three-carbon fragment",
+        "Only acetyl-CoA",
+        "Only ketone bodies",
+        "Only lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Odd-chain fatty acids are degraded by removing two-carbon acetyl-CoA units until a three-carbon propionyl-CoA remains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propionyl-CoA enters metabolism after conversion to:",
+      "options": [
+        "Succinyl-CoA",
+        "Acetoacetate",
+        "Palmitate",
+        "Malonyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionyl-CoA is converted to succinyl-CoA, a TCA cycle intermediate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme converts propionyl-CoA to methylmalonyl-CoA?",
+      "options": [
+        "Propionyl-CoA carboxylase",
+        "Methylmalonyl-CoA mutase",
+        "Acyl-CoA dehydrogenase",
+        "Thiolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionyl-CoA is first carboxylated to methylmalonyl-CoA. This carboxylation requires biotin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Propionyl-CoA carboxylase requires:",
+      "options": [
+        "Biotin",
+        "Vitamin B12",
+        "PLP",
+        "Vitamin C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Propionyl-CoA carboxylase is a carboxylase enzyme, and carboxylases commonly require biotin as a CO₂-carrying coenzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methylmalonyl-CoA mutase converts methylmalonyl-CoA to:",
+      "options": [
+        "Succinyl-CoA",
+        "Acetyl-CoA",
+        "Malonyl-CoA",
+        "Citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methylmalonyl-CoA mutase rearranges methylmalonyl-CoA to succinyl-CoA, allowing odd-chain fatty acid carbon to enter TCA cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methylmalonyl-CoA mutase requires:",
+      "options": [
+        "Vitamin B12",
+        "Biotin",
+        "NADPH",
+        "FAD"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The conversion of methylmalonyl-CoA to succinyl-CoA requires vitamin B12. B12 deficiency can impair this step.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Vitamin B12 deficiency may cause accumulation of:",
+      "options": [
+        "Methylmalonic acid",
+        "Palmitate",
+        "Malonyl-CoA only",
+        "Citrate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If methylmalonyl-CoA mutase activity is impaired due to B12 deficiency, methylmalonyl-CoA accumulates and is converted to methylmalonic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why odd-chain fatty acids can be partly glucogenic?",
+      "options": [
+        "Propionyl-CoA becomes succinyl-CoA, which can lead to oxaloacetate",
+        "Acetyl-CoA directly becomes glucose",
+        "Palmitate directly becomes pyruvate",
+        "Ketone bodies directly become glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Odd-chain fatty acids produce propionyl-CoA, which becomes succinyl-CoA. Succinyl-CoA can enter TCA and contribute to oxaloacetate, which can support gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why are even-chain fatty acids not net glucogenic?",
+      "options": [
+        "They produce only acetyl-CoA, which cannot be converted back to pyruvate",
+        "They produce only succinyl-CoA",
+        "They directly produce glucose",
+        "They produce propionyl-CoA as the main product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even-chain fatty acids yield acetyl-CoA. Because pyruvate dehydrogenase is irreversible and acetyl-CoA carbons are lost as CO₂ in TCA, there is no net glucose production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway uses FAD and NAD⁺ rather than NADPH?",
+      "options": [
+        "β-Oxidation",
+        "Fatty acid synthesis",
+        "Pentose phosphate pathway",
+        "Cholesterol synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Oxidation is oxidative and produces FADH₂ and NADH. Fatty acid synthesis is reductive and uses NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pathway uses NADPH rather than FAD and NAD⁺?",
+      "options": [
+        "Fatty acid synthesis",
+        "β-Oxidation",
+        "TCA cycle only",
+        "Electron transport chain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis requires NADPH for reduction steps. This contrasts with β-oxidation, which generates NADH and FADH₂.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares fatty acid synthesis and β-oxidation?",
+      "options": [
+        "Synthesis occurs mainly in cytosol and uses NADPH; β-oxidation occurs mainly in mitochondria and uses FAD/NAD⁺",
+        "Synthesis occurs mainly in mitochondria and uses FAD/NAD⁺",
+        "β-oxidation occurs mainly in cytosol and uses NADPH",
+        "Both pathways use the same enzymes in reverse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid synthesis and degradation are separate pathways, not direct reverses. They differ in location, enzymes, carriers, and redox coenzymes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why carnitine deficiency impairs fasting energy production?",
+      "options": [
+        "Long-chain fatty acids cannot efficiently enter mitochondria for β-oxidation",
+        "Fatty acids cannot bind albumin in plasma",
+        "Glucose cannot enter RBCs",
+        "Glycerol cannot enter liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, tissues rely heavily on fatty acid oxidation. Carnitine deficiency limits mitochondrial entry of long-chain fatty acids, reducing energy production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why high malonyl-CoA suppresses β-oxidation?",
+      "options": [
+        "It inhibits CAT-I and blocks long-chain fatty acyl entry into mitochondria",
+        "It activates CAT-I and increases β-oxidation",
+        "It converts fatty acids to ketone bodies directly",
+        "It increases albumin binding of fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malonyl-CoA is the key signal that fatty acid synthesis is active. It inhibits CAT-I to stop fatty acids from entering mitochondria for oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the metabolic fate of acetyl-CoA from β-oxidation in liver during fasting?",
+      "options": [
+        "It can enter TCA cycle or be used for ketone body synthesis",
+        "It is converted directly to glucose",
+        "It becomes UDP-glucose",
+        "It is converted directly to glycerol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In liver, acetyl-CoA from β-oxidation can be oxidized in TCA if oxaloacetate is available. During fasting, more acetyl-CoA may be diverted to ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence correctly describes fatty acid mobilization and oxidation?",
+      "options": [
+        "Adipose TAG → fatty acids bound to albumin → fatty acyl-CoA → carnitine shuttle → β-oxidation → acetyl-CoA",
+        "Adipose TAG → chylomicron → bile salt → glucose → glycogen",
+        "Fatty acid → UDP-glucose → ribose-5-phosphate → lactate",
+        "TAG → bilirubin → glucuronide → acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full logic: stored TAG is mobilized, fatty acids travel bound to albumin, are activated, enter mitochondria through carnitine, and undergo β-oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-lipolysis-oxidation-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes lipolysis and β-oxidation?",
+      "options": [
+        "Fasting hormones activate adipose lipolysis, releasing albumin-bound fatty acids that enter mitochondria through carnitine and undergo β-oxidation to produce acetyl-CoA, NADH, and FADH₂",
+        "Insulin activates adipose lipolysis and β-oxidation after meals",
+        "β-Oxidation occurs mainly in cytosol and uses NADPH",
+        "Malonyl-CoA activates CAT-I to increase fatty acid oxidation during synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lipolysis and β-oxidation are fasting-energy pathways. They mobilize stored fat and convert fatty acids into high-energy products that support ATP production.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
