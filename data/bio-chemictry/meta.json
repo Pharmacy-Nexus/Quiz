@@ -359,9 +359,9 @@
       "difficultyBreakdown": {
         "easy": 26,
         "medium": 45,
-        "hard": 0
+        "hard": 20
       },
-      "questionsCount": 71,
+      "questionsCount": 91,
       "file": "data/bio-chemictry/ketone-bodies.json"
     }
   ],
@@ -403,5 +403,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T16:12:01.489Z"
+  "updatedAt": "2026-06-07T16:14:47.866Z"
 }
