@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "ketone-bodies",
   "topicName": "Ketone Bodies",
-  "updatedAt": "2026-06-07T16:08:20.621Z",
+  "updatedAt": "2026-06-07T16:10:01.950Z",
   "questions": [
     {
       "id": "bio-chemictry-ketone-bodies-001",
@@ -306,6 +306,142 @@
       ],
       "correctAnswer": 0,
       "explanation": "During fasting, oxaloacetate is used for gluconeogenesis. With less oxaloacetate available for the TCA cycle, acetyl-CoA accumulates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Low carbohydrate availability promotes ketogenesis partly because:",
+      "options": [
+        "Oxaloacetate is diverted toward gluconeogenesis",
+        "Insulin strongly increases",
+        "Fatty acid oxidation stops",
+        "Acetyl-CoA becomes glucose directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, oxaloacetate is used for gluconeogenesis. With less oxaloacetate available for the TCA cycle, acetyl-CoA from fatty acid oxidation accumulates and is diverted toward ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketogenesis is increased when acetyl-CoA production exceeds:",
+      "options": [
+        "TCA cycle capacity",
+        "Glycolysis capacity only",
+        "Glycogen synthesis capacity only",
+        "Urea cycle capacity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When fatty acid oxidation produces large amounts of acetyl-CoA and the TCA cycle cannot use it fast enough, acetyl-CoA is redirected to ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are synthesized from acetyl-CoA mainly during:",
+      "options": [
+        "Increased fatty acid oxidation",
+        "Increased glucose storage only",
+        "Increased protein synthesis only",
+        "Increased glycogenesis after meals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty acid β-oxidation produces acetyl-CoA. When β-oxidation is high, especially during fasting or uncontrolled diabetes, ketone body synthesis increases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies are mainly produced in the liver but used by:",
+      "options": [
+        "Extrahepatic tissues",
+        "Liver only",
+        "RBCs only",
+        "Intestinal lumen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver exports ketone bodies into blood. Extrahepatic tissues can convert them back to acetyl-CoA and oxidize them for energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which tissue cannot use ketone bodies despite producing them?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Skeletal muscle",
+        "Kidney cortex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver lacks thiophorase, the enzyme required for ketone body utilization. Therefore, the liver produces ketone bodies for other tissues but cannot consume them itself.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which enzyme is absent in liver and prevents ketone body utilization?",
+      "options": [
+        "Thiophorase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "Acetoacetyl-CoA thiolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thiophorase, also called succinyl-CoA:acetoacetate CoA transferase, is required to activate acetoacetate for ketone body oxidation. Liver lacks this enzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketone bodies help spare glucose during prolonged fasting because they:",
+      "options": [
+        "Provide an alternative fuel for many tissues",
+        "Convert directly into glycogen in RBCs",
+        "Stop fatty acid oxidation completely",
+        "Prevent brain from using any fuel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During prolonged fasting, ketone bodies become an important fuel source for extrahepatic tissues, including the brain after adaptation. This reduces glucose demand and helps spare muscle protein from breakdown for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-026",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Excessive ketone body accumulation can cause:",
+      "options": [
+        "Ketoacidosis",
+        "Alkalosis only",
+        "Hypoglycemia only",
+        "Glycogen storage disease only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate and β-hydroxybutyrate are acidic. When produced excessively, especially in uncontrolled diabetes, they can lower blood pH and cause ketoacidosis.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
