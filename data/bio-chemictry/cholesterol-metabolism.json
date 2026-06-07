@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "cholesterol-metabolism",
   "topicName": "Cholesterol Metabolism",
-  "updatedAt": "2026-06-07T21:13:35.255Z",
+  "updatedAt": "2026-06-07T21:15:08.320Z",
   "questions": [
     {
       "id": "bio-chemictry-cholesterol-metabolism-001",
@@ -1190,6 +1190,346 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is the central summary. Cholesterol is an important structural and precursor molecule. Its synthesis is controlled mainly at HMG-CoA reductase and its balance is managed mainly by the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient receives a statin. Which enzyme is directly inhibited?",
+      "options": [
+        "HMG-CoA reductase",
+        "HMG-CoA lyase",
+        "LCAT",
+        "ACAT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Statins are competitive inhibitors of HMG-CoA reductase. This decreases mevalonate formation and reduces hepatic cholesterol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Statins lower plasma LDL mainly because the liver:",
+      "options": [
+        "Increases LDL receptor-mediated uptake after cholesterol synthesis decreases",
+        "Stops forming bile acids completely",
+        "Directly dissolves LDL particles in plasma",
+        "Converts LDL cholesterol into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When hepatic cholesterol synthesis falls, liver cells compensate by increasing LDL receptor expression. More LDL is removed from plasma, lowering LDL cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "High intracellular cholesterol inhibits cholesterol synthesis mainly by inhibiting:",
+      "options": [
+        "HMG-CoA reductase",
+        "HMG-CoA lyase",
+        "Thiophorase",
+        "Pancreatic lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol provides negative feedback on HMG-CoA reductase. This reduces further endogenous cholesterol synthesis when cellular cholesterol is already sufficient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which hormonal state favors active cholesterol synthesis?",
+      "options": [
+        "High insulin state",
+        "High glucagon state",
+        "Starvation",
+        "Low carbohydrate availability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin favors the active unphosphorylated form of HMG-CoA reductase. Therefore, cholesterol synthesis is favored in the fed state.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which hormonal state inhibits cholesterol synthesis?",
+      "options": [
+        "High glucagon/starvation state",
+        "High insulin after meals",
+        "Fed state with high substrate availability",
+        "High LDL receptor expression only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucagon favors phosphorylation and inactivation of HMG-CoA reductase. Starvation therefore inhibits cholesterol synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the phosphorylation regulation of HMG-CoA reductase?",
+      "options": [
+        "Dephosphorylated form is active; phosphorylated form is inactive",
+        "Phosphorylated form is active; dephosphorylated form is inactive",
+        "Phosphorylation has no effect",
+        "HMG-CoA reductase is controlled only by bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol synthesis regulation is similar to glycogen synthase regulation. Insulin favors dephosphorylation and activation, while glucagon favors phosphorylation and inactivation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell is starved for cholesterol. Which response is expected?",
+      "options": [
+        "Increased LDL receptor expression and increased cholesterol synthesis",
+        "Decreased LDL receptor expression",
+        "Increased ACAT storage only",
+        "Complete inhibition of HMG-CoA reductase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When cells need cholesterol, they increase both endogenous synthesis and LDL uptake by increasing LDL receptor expression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A cell has excess cholesterol after LDL uptake. Which response is expected?",
+      "options": [
+        "Decreased HMG-CoA reductase activity and decreased new LDL receptor synthesis",
+        "Increased HMG-CoA reductase activity",
+        "Increased LDL receptor synthesis indefinitely",
+        "Complete conversion of cholesterol into glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Endocytosed cholesterol suppresses further cholesterol synthesis by inhibiting HMG-CoA reductase and decreases LDL receptor gene transcription to limit additional cholesterol entry.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If cholesterol is not immediately needed inside a cell, it is stored mainly by:",
+      "options": [
+        "ACAT-mediated esterification",
+        "LCAT-mediated esterification in plasma",
+        "HMG-CoA lyase cleavage",
+        "7α-hydroxylase activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACAT acts inside cells and esterifies cholesterol for storage as cholesterol ester in lipid droplets.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme esterifies cholesterol associated with HDL in blood?",
+      "options": [
+        "LCAT",
+        "ACAT",
+        "HMG-CoA reductase",
+        "HMG-CoA lyase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LCAT is located in blood and esterifies cholesterol on HDL particles. ACAT works inside cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates ACAT from LCAT?",
+      "options": [
+        "ACAT esterifies cholesterol inside cells; LCAT esterifies cholesterol in plasma HDL",
+        "ACAT works only in bile; LCAT works only in mitochondria",
+        "ACAT produces mevalonate; LCAT produces HMG-CoA",
+        "Both enzymes perform ketone body synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACAT is intracellular and supports cholesterol storage. LCAT is plasma-associated and supports HDL cholesterol esterification.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "The rate-limiting step in bile acid synthesis is catalyzed by:",
+      "options": [
+        "7α-hydroxylase",
+        "HMG-CoA reductase",
+        "LCAT",
+        "Thiophorase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile acid synthesis begins with hydroxylation at carbon 7 of the steroid ring. This step is catalyzed by 7α-hydroxylase and is rate-limiting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "7α-hydroxylase is inhibited by:",
+      "options": [
+        "Cholic acid",
+        "Glucose",
+        "Insulin directly only",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholic acid provides feedback inhibition of 7α-hydroxylase, reducing further bile acid synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "The primary bile acids synthesized in liver include:",
+      "options": [
+        "Cholic acid and chenodeoxycholic acid",
+        "Acetone and acetoacetate",
+        "Palmitate and stearate",
+        "Lactate and pyruvate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver synthesizes the primary bile acids cholic acid and chenodeoxycholic acid from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Bile acids are conjugated in liver with:",
+      "options": [
+        "Glycine or taurine",
+        "Glucose or galactose",
+        "Acetyl-CoA or malonyl-CoA",
+        "Ribose or deoxyribose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bile acids are conjugated with glycine or taurine to form bile salts such as glycocholic acid and taurocholic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Taurine used in bile salt conjugation is derived from:",
+      "options": [
+        "Cysteine",
+        "Glycine",
+        "Glucose",
+        "Cholesterol directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that taurine is derived from the amino acid cysteine. Taurine conjugation forms tauro-bile salts.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Intestinal bacteria can convert primary bile acids into secondary bile acids by:",
+      "options": [
+        "Removing hydroxyl groups and deconjugating bile salts",
+        "Converting them into glucose",
+        "Adding fatty acids to C3 hydroxyl group",
+        "Converting them into ketone bodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intestinal bacteria can remove glycine or taurine from bile salts and convert primary bile acids to secondary bile acids by removing hydroxyl groups, forming compounds such as deoxycholic and lithocholic acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best differentiates HMG-CoA in cholesterol synthesis from HMG-CoA in ketogenesis?",
+      "options": [
+        "Cytosolic HMG-CoA is used for cholesterol synthesis; mitochondrial HMG-CoA is used for ketogenesis",
+        "Both pathways use only mitochondrial HMG-CoA reductase",
+        "Cholesterol synthesis uses HMG-CoA lyase, while ketogenesis uses HMG-CoA reductase",
+        "Both pathways occur in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver contains cytosolic and mitochondrial HMG-CoA synthase isoenzymes. Cytosolic HMG-CoA participates in cholesterol synthesis, while mitochondrial HMG-CoA participates in ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best explains how high LDL-derived cholesterol affects a cell?",
+      "options": [
+        "It inhibits HMG-CoA reductase, activates ACAT storage, and decreases new LDL receptor synthesis",
+        "It activates HMG-CoA reductase and increases LDL receptor synthesis",
+        "It forces cholesterol to become glucose",
+        "It directly activates ketogenesis in RBCs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When LDL delivers cholesterol to cells, excess cholesterol suppresses new synthesis, promotes ester storage by ACAT, and reduces further LDL receptor production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-cholesterol-metabolism-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes cholesterol metabolism regulation and fate?",
+      "options": [
+        "Cholesterol synthesis from acetyl-CoA is controlled mainly by HMG-CoA reductase, inhibited by cholesterol/statins/glucagon and activated by insulin; cholesterol is used for membranes, steroid hormones, vitamin D, bile acids, or stored as esters",
+        "Cholesterol synthesis is controlled mainly by thiophorase and produces ketone bodies",
+        "Cholesterol is degraded completely to CO₂ and water for ATP production",
+        "Cholesterol is transported freely in plasma without lipoproteins because it is water-soluble"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the complete high-yield summary. Cholesterol is synthesized through the mevalonate pathway, regulated mainly by HMG-CoA reductase, transported by lipoproteins, stored as cholesterol ester, and eliminated mainly through bile/bile acids.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
