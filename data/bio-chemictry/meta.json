@@ -432,11 +432,11 @@
       "section": "Protein",
       "sectionId": "protein",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 25,
+        "medium": 45,
+        "hard": 20
       },
-      "questionsCount": 0,
+      "questionsCount": 90,
       "file": "data/bio-chemictry/protein-digestion-absorption-transport.json"
     }
   ],
@@ -478,5 +478,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T21:35:23.351Z"
+  "updatedAt": "2026-06-07T21:37:25.547Z"
 }
