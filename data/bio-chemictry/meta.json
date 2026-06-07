@@ -402,11 +402,11 @@
       "section": "Lipids",
       "sectionId": "lipids",
       "difficultyBreakdown": {
-        "easy": 0,
+        "easy": 30,
         "medium": 0,
         "hard": 0
       },
-      "questionsCount": 0,
+      "questionsCount": 30,
       "file": "data/bio-chemictry/plasma-lipoproteins.json"
     }
   ],
@@ -448,5 +448,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T21:17:05.602Z"
+  "updatedAt": "2026-06-07T21:19:01.424Z"
 }
