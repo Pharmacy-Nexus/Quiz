@@ -344,9 +344,9 @@
       "difficultyBreakdown": {
         "easy": 30,
         "medium": 60,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 90,
+      "questionsCount": 120,
       "file": "data/bio-chemictry/lipolysis-oxidation.json"
     }
   ],
@@ -388,5 +388,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T15:59:28.696Z"
+  "updatedAt": "2026-06-07T16:06:03.907Z"
 }
