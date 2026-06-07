@@ -2,7 +2,7 @@
   "subjectId": "bio-chemictry",
   "topicId": "ketone-bodies",
   "topicName": "Ketone Bodies",
-  "updatedAt": "2026-06-07T16:11:54.487Z",
+  "updatedAt": "2026-06-07T16:14:40.306Z",
   "questions": [
     {
       "id": "bio-chemictry-ketone-bodies-001",
@@ -1207,6 +1207,346 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is the core logic of ketone metabolism. The liver produces and exports ketones, while extrahepatic tissues convert them back to acetyl-CoA for energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A fasting patient has high hepatic β-oxidation and increased gluconeogenesis. Why does ketogenesis increase?",
+      "options": [
+        "β-oxidation produces excess acetyl-CoA, while gluconeogenesis decreases oxaloacetate availability for TCA",
+        "Gluconeogenesis directly converts glucose into ketone bodies",
+        "Insulin activates ketone body synthesis after fasting",
+        "Oxaloacetate strongly increases TCA use of acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, fatty acid oxidation produces large amounts of acetyl-CoA. At the same time, oxaloacetate is pulled toward gluconeogenesis, so acetyl-CoA cannot enter TCA efficiently and is diverted to ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with uncontrolled type 1 diabetes has high blood glucose but also severe ketogenesis. What is the best explanation?",
+      "options": [
+        "Low effective insulin makes the body behave like it is fasting, increasing lipolysis and β-oxidation",
+        "High blood glucose directly prevents fatty acid release",
+        "Insulin strongly activates glucose uptake into adipose tissue",
+        "Ketone bodies are formed directly from circulating glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even though blood glucose is high, cells cannot use glucose properly when insulin is absent or ineffective. This increases adipose lipolysis, fatty acid delivery to liver, β-oxidation, and ketone body production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme deficiency would prevent the liver from forming acetoacetate from HMG-CoA?",
+      "options": [
+        "HMG-CoA lyase deficiency",
+        "Thiophorase deficiency",
+        "β-hydroxybutyrate dehydrogenase deficiency",
+        "Acyl-CoA synthetase deficiency only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HMG-CoA lyase cleaves mitochondrial HMG-CoA to produce acetoacetate. If this enzyme is deficient, ketone body formation from HMG-CoA is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme is essential for ketogenesis but not for ketone body utilization?",
+      "options": [
+        "Mitochondrial HMG-CoA synthase",
+        "Thiophorase",
+        "Succinyl-CoA:acetoacetate CoA transferase",
+        "Citrate synthase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrial HMG-CoA synthase forms HMG-CoA during ketogenesis. Thiophorase is needed for ketone body utilization in extrahepatic tissues, not for hepatic ketogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A liver cell produces ketone bodies but cannot consume them. Which missing enzyme explains this?",
+      "options": [
+        "Thiophorase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "Thiolase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver lacks thiophorase, also called succinyl-CoA:acetoacetate CoA transferase. Without this enzyme, liver cannot activate acetoacetate for oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A heart muscle cell uses acetoacetate for energy. Which reaction must occur first?",
+      "options": [
+        "Acetoacetate receives CoA from succinyl-CoA via thiophorase",
+        "Acetoacetate is converted directly into glucose",
+        "Acetoacetate is converted into HMG-CoA by HMG-CoA synthase",
+        "Acetoacetate becomes fatty acid directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extrahepatic tissues use thiophorase to convert acetoacetate into acetoacetyl-CoA. This activation step is required before acetoacetyl-CoA can be split into acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why ketone bodies are called 'acetyl-CoA equivalents'?",
+      "options": [
+        "They are converted back to acetyl-CoA in extrahepatic tissues",
+        "They are converted directly into glucose in liver",
+        "They are stored as glycogen in muscle",
+        "They are transported only inside chylomicrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are produced from acetyl-CoA in liver and exported. In extrahepatic tissues, they are converted back into acetyl-CoA, which enters TCA cycle for ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why can ketone bodies cross blood more easily than long-chain fatty acids?",
+      "options": [
+        "Ketone bodies are small and water-soluble",
+        "Ketone bodies require chylomicrons",
+        "Ketone bodies must bind albumin strongly",
+        "Ketone bodies are large hydrophobic TAG particles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Long-chain fatty acids are hydrophobic and need albumin transport. Ketone bodies are small water-soluble molecules, so they circulate freely in plasma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has very high β-hydroxybutyrate compared with acetoacetate. What does this suggest metabolically?",
+      "options": [
+        "High mitochondrial NADH/NAD⁺ ratio",
+        "High cytosolic UDP-glucose",
+        "Low fatty acid oxidation",
+        "Complete absence of acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High NADH favors reduction of acetoacetate to β-hydroxybutyrate. This often occurs when hepatic fatty acid β-oxidation is very active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which ketone body is most directly responsible for fruity breath in ketoacidosis?",
+      "options": [
+        "Acetone",
+        "β-hydroxybutyrate",
+        "Acetoacetate",
+        "Acetyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetone is volatile and can be exhaled through the lungs. This produces the characteristic fruity odor in marked ketosis or diabetic ketoacidosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why can ketone bodies cause acidosis?",
+      "options": [
+        "Acetoacetate and β-hydroxybutyrate are acidic compounds",
+        "Acetone is strongly basic",
+        "Ketone bodies directly consume all protons",
+        "Ketone bodies are converted to bicarbonate directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate and β-hydroxybutyrate are organic acids. When they accumulate excessively, they increase acid load and can lower blood pH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which situation is more likely to cause dangerous ketoacidosis rather than mild physiologic ketosis?",
+      "options": [
+        "Uncontrolled diabetes with severe insulin deficiency",
+        "Normal overnight fasting",
+        "Fed state after a carbohydrate meal",
+        "High insulin with low fatty acid release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mild ketosis can occur during fasting. Dangerous ketoacidosis is more likely when insulin deficiency causes uncontrolled lipolysis and massive hepatic ketone production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A prolonged fasting brain begins using ketone bodies. What is the major benefit?",
+      "options": [
+        "It reduces glucose requirement and decreases muscle protein breakdown for gluconeogenesis",
+        "It completely eliminates the need for glucose in RBCs",
+        "It converts ketone bodies into glycogen",
+        "It stops fatty acid oxidation in liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the brain adapts to ketone use, less glucose is needed. This reduces the need to break down muscle protein for amino acid-derived gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why do RBCs continue to require glucose even when ketone bodies are abundant?",
+      "options": [
+        "RBCs lack mitochondria and cannot oxidize ketone bodies",
+        "RBCs lack glycolysis",
+        "RBCs mainly use fatty acids through β-oxidation",
+        "RBCs convert ketones directly to glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone body utilization requires mitochondria and the TCA cycle. Mature RBCs lack mitochondria, so they depend on glucose through anaerobic glycolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best distinguishes ketone bodies from fatty acids as blood fuels?",
+      "options": [
+        "Ketone bodies are water-soluble and circulate freely; long-chain fatty acids require albumin",
+        "Ketone bodies require chylomicrons; fatty acids circulate freely",
+        "Both must be transported only by ApoB-48",
+        "Ketone bodies cannot enter extrahepatic tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are useful fasting fuels partly because they are soluble in blood. Long-chain fatty acids are hydrophobic and travel mainly bound to albumin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best distinguishes ketogenesis from ketolysis by tissue location?",
+      "options": [
+        "Ketogenesis occurs mainly in liver mitochondria; ketolysis occurs in extrahepatic mitochondria",
+        "Ketogenesis occurs in RBCs; ketolysis occurs in liver cytosol",
+        "Ketogenesis and ketolysis both occur mainly in liver",
+        "Ketogenesis occurs only in intestinal lumen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver produces ketone bodies but cannot use them. Extrahepatic tissues with mitochondria and thiophorase can oxidize ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best compares ketogenesis and cholesterol synthesis regarding HMG-CoA?",
+      "options": [
+        "Ketogenesis uses mitochondrial HMG-CoA and HMG-CoA lyase; cholesterol synthesis uses cytosolic HMG-CoA and HMG-CoA reductase",
+        "Both pathways use the same HMG-CoA pool and same enzyme",
+        "Ketogenesis uses HMG-CoA reductase, while cholesterol synthesis uses thiophorase",
+        "Cholesterol synthesis occurs in liver mitochondria only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both pathways involve HMG-CoA, but they are separated by compartment and enzyme. Ketogenesis is mitochondrial and uses HMG-CoA lyase. Cholesterol synthesis is cytosolic/smooth ER and uses HMG-CoA reductase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why acetyl-CoA from ketone bodies cannot give net glucose?",
+      "options": [
+        "Acetyl-CoA cannot be converted back to pyruvate, and its carbons are lost as CO₂ in TCA",
+        "Acetyl-CoA directly forms oxaloacetate in mammals",
+        "Ketone bodies contain ribose",
+        "β-hydroxybutyrate is converted directly into glucose-6-phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketone bodies are converted into acetyl-CoA. Acetyl-CoA cannot produce net glucose in humans because pyruvate dehydrogenase is irreversible and TCA does not give net oxaloacetate from acetyl-CoA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence best describes ketone body use by extrahepatic tissues?",
+      "options": [
+        "β-hydroxybutyrate → acetoacetate → acetoacetyl-CoA → 2 acetyl-CoA → TCA cycle",
+        "Acetone → glucose → glycogen → lactate",
+        "Acetoacetate → HMG-CoA → cholesterol",
+        "Acetyl-CoA → acetoacetate → liver thiophorase reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β-Hydroxybutyrate is oxidized to acetoacetate. Thiophorase activates acetoacetate to acetoacetyl-CoA. Thiolase splits acetoacetyl-CoA into two acetyl-CoA molecules for TCA oxidation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ketone-bodies-091",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes ketone bodies clinically and biochemically?",
+      "options": [
+        "Ketone bodies are liver-produced, water-soluble acetyl-CoA fuels that rise in fasting/diabetes; they spare glucose during fasting but can cause ketoacidosis when excessive",
+        "Ketone bodies are made mainly in RBCs and used by liver for glycogen synthesis",
+        "Ketone bodies are direct glucose precursors and prevent acidosis",
+        "Ketogenesis is highest after carbohydrate-rich meals because insulin stimulates lipolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the high-yield summary. Ketone bodies are produced from acetyl-CoA in liver mitochondria, exported for use by extrahepatic tissues, become important during fasting, and may accumulate dangerously in uncontrolled diabetes.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
