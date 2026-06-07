@@ -389,9 +389,9 @@
       "difficultyBreakdown": {
         "easy": 25,
         "medium": 45,
-        "hard": 0
+        "hard": 20
       },
-      "questionsCount": 70,
+      "questionsCount": 90,
       "file": "data/bio-chemictry/cholesterol-metabolism.json"
     }
   ],
@@ -433,5 +433,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-07T21:13:42.263Z"
+  "updatedAt": "2026-06-07T21:15:15.978Z"
 }
