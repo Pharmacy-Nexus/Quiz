@@ -2,6 +2,1537 @@
   "subjectId": "bio-chemictry",
   "topicId": "protein-digestion-absorption-transport",
   "topicName": "Protein Digestion, Absorption & Transport",
-  "updatedAt": "2026-06-07T21:35:14.937Z",
-  "questions": []
+  "updatedAt": "2026-06-07T21:37:16.406Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Protein digestion is carried out mainly by:",
+      "options": [
+        "Endopeptidases and exopeptidases",
+        "Lipases only",
+        "Amylases only",
+        "Nucleases only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proteins are digested by enzymes that cleave peptide bonds. Endopeptidases cut internal peptide bonds, while exopeptidases remove amino acids from chain ends.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The gastric phase accounts for approximately:",
+      "options": [
+        "15% of protein digestion",
+        "60% of protein digestion",
+        "25% of protein digestion",
+        "100% of protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that the gastric phase contributes about 15% of protein digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pepsin is secreted as:",
+      "options": [
+        "Pepsinogen",
+        "Trypsinogen",
+        "Chymotrypsinogen",
+        "Proelastase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsin is secreted in an inactive form called pepsinogen. It is activated in the acidic stomach environment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pepsinogen is activated by:",
+      "options": [
+        "H⁺ and autocatalysis",
+        "Bile salts",
+        "Insulin",
+        "Lipoprotein lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gastric acid helps convert pepsinogen to pepsin. Pepsin can also activate more pepsinogen autocatalytically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pepsin is classified as:",
+      "options": [
+        "Endopeptidase",
+        "Exopeptidase",
+        "Aminotransferase",
+        "Lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsin cleaves internal peptide bonds in proteins, so it is an endopeptidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pepsin digestion produces:",
+      "options": [
+        "Oligopeptides, polypeptides, and amino acids",
+        "Glucose and galactose",
+        "Fatty acids and glycerol",
+        "Cholesterol and bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsin partially digests proteins in the stomach into smaller peptides and some amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Rennin is important mainly for digestion of protein in:",
+      "options": [
+        "Infants",
+        "Adults only",
+        "RBCs",
+        "Liver mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rennin helps digest milk protein in infants by acting on casein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Rennin acts on:",
+      "options": [
+        "Casein",
+        "Glycogen",
+        "Cholesterol",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rennin converts casein into paracasein, which combines with calcium to form calcium paracaseinate clot.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The pancreatic phase accounts for approximately:",
+      "options": [
+        "60% of protein digestion",
+        "15% of protein digestion",
+        "25% of protein digestion",
+        "5% of protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pancreatic phase is the major phase of protein digestion and contributes about 60%.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pancreatic proteases are secreted mainly as:",
+      "options": [
+        "Inactive zymogens",
+        "Active enzymes only",
+        "Free amino acids",
+        "Bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic proteases are secreted as inactive precursors to prevent digestion of pancreatic tissue.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Trypsinogen is activated to trypsin by:",
+      "options": [
+        "Enteropeptidase",
+        "Pepsin",
+        "Amylase",
+        "LCAT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enteropeptidase is present on the luminal surface of intestinal mucosal cells and converts trypsinogen into trypsin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Enteropeptidase is synthesized by:",
+      "options": [
+        "Intestinal mucosal cells",
+        "RBCs",
+        "Adipocytes",
+        "Skeletal muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enteropeptidase is made by intestinal mucosal cells and is present on their luminal surface.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Trypsin is important because it:",
+      "options": [
+        "Activates all pancreatic zymogens",
+        "Synthesizes bile salts",
+        "Forms chylomicrons",
+        "Converts glucose into glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin is the common activator of pancreatic zymogens, making it central in intestinal protein digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Trypsin is classified as:",
+      "options": [
+        "Endopeptidase",
+        "Exopeptidase",
+        "Carboxylase",
+        "Dehydrogenase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin cleaves internal peptide bonds, so it is an endopeptidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chymotrypsinogen is activated to:",
+      "options": [
+        "Chymotrypsin",
+        "Trypsin",
+        "Pepsin",
+        "Aminopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsinogen is the inactive precursor of chymotrypsin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Chymotrypsin is classified as:",
+      "options": [
+        "Endopeptidase",
+        "Exopeptidase",
+        "Lipase",
+        "Transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsin cleaves internal peptide bonds in polypeptides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carboxypeptidase is classified as:",
+      "options": [
+        "Exopeptidase",
+        "Endopeptidase",
+        "Lipase",
+        "Oxidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase removes single amino acids from the carboxyl end of peptide chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carboxypeptidase acts on the peptide bond at the free:",
+      "options": [
+        "COOH end",
+        "NH₂ end",
+        "Middle only",
+        "Phosphate end"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase is an exopeptidase that releases amino acids from the free carboxyl terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The intestinal phase accounts for approximately:",
+      "options": [
+        "25% of protein digestion",
+        "60% of protein digestion",
+        "15% of protein digestion",
+        "100% of protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intestinal phase contributes about 25% of protein digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Aminopeptidase is found on the:",
+      "options": [
+        "Luminal surface of intestine",
+        "RBC membrane",
+        "Mitochondrial matrix",
+        "Adipose tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase is located on the luminal surface of intestinal cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Aminopeptidase removes amino acids from the free:",
+      "options": [
+        "NH₂ end",
+        "COOH end",
+        "Middle of peptide chain only",
+        "Steroid nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase is an exopeptidase that releases single amino acids from the amino terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Free amino acids and dipeptides are absorbed by:",
+      "options": [
+        "Intestinal epithelial cells",
+        "RBCs",
+        "Bile canaliculi",
+        "Pancreatic beta cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids and dipeptides are absorbed across intestinal epithelial cells before entering the portal system.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Dipeptides absorbed into intestinal cells are hydrolyzed in the:",
+      "options": [
+        "Cytosol",
+        "Nucleus",
+        "Mitochondrial matrix only",
+        "Lysosome only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dipeptides are hydrolyzed into amino acids inside the cytosol of intestinal epithelial cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "L-amino acids are absorbed mainly by:",
+      "options": [
+        "Active transport",
+        "Simple diffusion only",
+        "Chylomicrons",
+        "Albumin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that L-amino acids, dipeptides, and tripeptides use active transport systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "D-amino acids are absorbed mainly by:",
+      "options": [
+        "Simple diffusion",
+        "Active transport only",
+        "Chylomicron formation",
+        "Enteropeptidase activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D-amino acids are absorbed by simple diffusion, unlike L-amino acids that mainly use active transport systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes gastric protein digestion?",
+      "options": [
+        "Pepsinogen secretion → H⁺ activation → pepsin action → peptides and amino acids",
+        "Trypsinogen secretion → bile activation → glucose formation",
+        "Chylomicron formation → LPL action → amino acid release",
+        "Aminopeptidase activation → casein clotting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gastric digestion begins with pepsinogen secretion. Acid activates pepsinogen into pepsin, which partially digests proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is pepsin secreted as pepsinogen?",
+      "options": [
+        "To prevent premature protein digestion inside gastric cells",
+        "To increase glucose absorption",
+        "To transport amino acids in blood",
+        "To form bile salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proteolytic enzymes are often secreted as inactive precursors to protect the tissue that produces them.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes rennin action in infants?",
+      "options": [
+        "Rennin converts casein to paracasein, which forms calcium paracaseinate clot",
+        "Rennin activates trypsinogen",
+        "Rennin digests starch",
+        "Rennin absorbs amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rennin is important in infants because it helps clot milk protein, allowing slower and more efficient digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phase contributes the greatest percentage of protein digestion?",
+      "options": [
+        "Pancreatic phase",
+        "Gastric phase",
+        "Intestinal phase",
+        "Oral phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pancreatic phase accounts for about 60%, making it the major contributor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why pancreatic proteases are secreted as zymogens?",
+      "options": [
+        "To avoid autodigestion of the pancreas",
+        "To increase bile salt synthesis",
+        "To improve glucose transport",
+        "To increase cholesterol absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inactive zymogen secretion prevents pancreatic enzymes from digesting proteins within the pancreas.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which hormones mediate release and activation of pancreatic zymogens?",
+      "options": [
+        "Cholecystokinin and secretin",
+        "Insulin and glucagon",
+        "Cortisol and aldosterone",
+        "Thyroxine and calcitonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that release and activation of pancreatic zymogens are mediated by CCK and secretin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme begins the activation cascade of pancreatic zymogens?",
+      "options": [
+        "Enteropeptidase",
+        "Aminopeptidase",
+        "Carboxypeptidase",
+        "Pepsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enteropeptidase activates trypsinogen to trypsin. Trypsin then activates other pancreatic zymogens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is the common activator of pancreatic zymogens?",
+      "options": [
+        "Trypsin",
+        "Pepsin",
+        "Rennin",
+        "Aminopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin activates pancreatic zymogens, making it the central enzyme in the activation cascade.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is activated directly by enteropeptidase?",
+      "options": [
+        "Trypsinogen",
+        "Chymotrypsinogen",
+        "Procarboxypeptidase A only",
+        "Proelastase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enteropeptidase specifically converts trypsinogen into trypsin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pancreatic enzyme cleaves after basic amino acids such as arginine and lysine?",
+      "options": [
+        "Trypsin",
+        "Chymotrypsin",
+        "Elastase",
+        "Carboxypeptidase A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin preferentially cleaves peptide bonds after basic amino acids, especially arginine and lysine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pancreatic enzyme cleaves near aromatic amino acids such as phenylalanine, tyrosine, and tryptophan?",
+      "options": [
+        "Chymotrypsin",
+        "Trypsin",
+        "Carboxypeptidase B",
+        "Aminopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsin has specificity for aromatic amino acids such as phenylalanine, tyrosine, and tryptophan.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pancreatic enzyme cleaves near small neutral amino acids such as alanine, glycine, and serine?",
+      "options": [
+        "Elastase",
+        "Trypsin",
+        "Chymotrypsin",
+        "Carboxypeptidase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elastase cleaves peptide bonds near small neutral amino acid residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Carboxypeptidase A preferentially removes:",
+      "options": [
+        "Hydrophobic/neutral amino acids from the C-terminal end",
+        "Basic amino acids only from the N-terminal end",
+        "Internal aromatic amino acids only",
+        "D-amino acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase A is an exopeptidase that removes certain amino acids from the carboxyl terminal end, especially neutral/hydrophobic residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Carboxypeptidase B preferentially removes:",
+      "options": [
+        "Basic amino acids such as arginine and lysine from the C-terminal end",
+        "Aromatic amino acids from the middle",
+        "Small neutral amino acids from the N-terminal end",
+        "Glucose residues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase B removes basic amino acids from the free carboxyl end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Trypsin — endopeptidase",
+        "Carboxypeptidase — endopeptidase",
+        "Aminopeptidase — endopeptidase",
+        "Pepsin — exopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin cleaves internal peptide bonds, so it is an endopeptidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Carboxypeptidase — exopeptidase",
+        "Chymotrypsin — exopeptidase",
+        "Pepsin — amino acid transporter",
+        "Rennin — transaminase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase removes amino acids from the carboxyl terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Aminopeptidase — removes amino acids from free NH₂ end",
+        "Carboxypeptidase — removes from free NH₂ end",
+        "Trypsin — removes only C-terminal amino acids",
+        "Chymotrypsin — activates pepsinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase acts at the amino terminal end of peptides.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which phase occurs mainly on the luminal surface of intestinal cells?",
+      "options": [
+        "Intestinal phase",
+        "Gastric phase",
+        "Oral phase",
+        "Renal phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intestinal phase involves enzymes such as aminopeptidase on the luminal surface.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme on intestinal surface releases single amino acids from the NH₂ end?",
+      "options": [
+        "Aminopeptidase",
+        "Carboxypeptidase",
+        "Chymotrypsin",
+        "Pepsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase is an exopeptidase located on the luminal surface of the intestine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes absorption of dipeptides?",
+      "options": [
+        "Dipeptides are absorbed into intestinal epithelial cells and hydrolyzed to amino acids in cytosol",
+        "Dipeptides enter portal blood unchanged mainly",
+        "Dipeptides are converted to chylomicrons",
+        "Dipeptides are absorbed only in the stomach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dipeptides are absorbed by epithelial cells and broken into amino acids before entering the portal system.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After intestinal absorption, amino acids enter mainly the:",
+      "options": [
+        "Portal system",
+        "Lymphatic system only",
+        "Bile duct",
+        "Renal tubule directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absorbed amino acids enter the portal circulation and go first to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "After entering the portal system, absorbed amino acids are:",
+      "options": [
+        "Metabolized by liver or released into circulation",
+        "Stored permanently in intestinal cells",
+        "Converted directly to chylomicrons",
+        "Excreted directly in bile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The liver may metabolize amino acids or release them into systemic circulation for other tissues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Active transport systems absorb:",
+      "options": [
+        "L-amino acids, dipeptides, and tripeptides",
+        "D-amino acids only",
+        "Cholesterol esters only",
+        "Long-chain fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that L-amino acids, dipeptides, and tripeptides are transported actively.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Simple diffusion absorbs mainly:",
+      "options": [
+        "D-amino acids",
+        "L-amino acids only",
+        "Tripeptides only",
+        "Large proteins only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D-amino acids are transported by simple diffusion according to the file.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The intestine has at least how many amino acid carrier transport systems?",
+      "options": [
+        "Seven",
+        "Two",
+        "Three",
+        "Twenty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file mentions at least 7 different amino acid carrier systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Amino acid transport systems may be specific for:",
+      "options": [
+        "Neutral, basic, or acidic amino acids",
+        "Cholesterol, TAG, and bile salts",
+        "Glucose, fructose, and galactose only",
+        "DNA, RNA, and ATP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Different transporters exist for different amino acid groups, such as neutral, basic, and acidic amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is a fate of absorbed amino acids?",
+      "options": [
+        "Protein synthesis",
+        "Chylomicron formation only",
+        "Bile salt emulsification only",
+        "Direct storage as amino acid reserve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absorbed L-amino acids can be used for synthesis of structural and functional proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is another fate of absorbed amino acids?",
+      "options": [
+        "Small peptide biosynthesis such as glutathione",
+        "Conversion directly into bile salts only",
+        "Storage as glycogen without nitrogen removal",
+        "Conversion into cholesterol esters only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids can form small biologically active peptides such as GSH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Glycine can contribute to synthesis of:",
+      "options": [
+        "Heme",
+        "Glycogen only",
+        "Ketone bodies only",
+        "Bile pigments directly only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists glycine as a precursor for heme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenylalanine can contribute to synthesis of:",
+      "options": [
+        "Epinephrine",
+        "Glycogen directly",
+        "Urea only",
+        "Cholesterol ester only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine can be converted through tyrosine-related pathways into catecholamines such as epinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tryptophan can contribute to synthesis of:",
+      "options": [
+        "5-hydroxytryptamine and nicotinic acid",
+        "Bile salts only",
+        "Glycogen only",
+        "Cholesterol ester only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan is a precursor of serotonin, also called 5-HT, and nicotinic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tyrosine can contribute to synthesis of:",
+      "options": [
+        "T3, T4, and melanin",
+        "Glycogen only",
+        "Urea only",
+        "Fatty acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is a precursor for thyroid hormones and melanin pigment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fate of absorbed amino acids removes amino groups?",
+      "options": [
+        "Deamination",
+        "Glycogenesis only",
+        "Cholesterol esterification",
+        "Chylomicron formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deamination removes amino groups from amino acids and produces ammonia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which fate involves transfer of amino groups?",
+      "options": [
+        "Transamination",
+        "Lipolysis",
+        "Glycogenolysis",
+        "Ketogenesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transamination transfers amino groups from amino acids to keto acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Transdeamination refers to:",
+      "options": [
+        "Coupled transamination and deamination",
+        "Protein absorption only",
+        "Pepsin activation only",
+        "Dipeptide diffusion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transdeamination combines amino group transfer with removal of ammonia, usually through glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Fixation of ammonia into urea is a fate related to:",
+      "options": [
+        "Nitrogen disposal",
+        "Glucose absorption",
+        "Fat digestion",
+        "Cholesterol transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid nitrogen is safely disposed of mainly through conversion into urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which sequence best describes overall protein digestion?",
+      "options": [
+        "Gastric partial digestion → pancreatic digestion → intestinal surface digestion → absorption",
+        "Absorption → gastric digestion → chylomicron formation → urea",
+        "Liver synthesis → stomach absorption → renal digestion",
+        "Bile salt emulsification → LPL activation → amino acid uptake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein digestion begins in stomach, continues mainly in small intestine by pancreatic enzymes, finishes at intestinal surface, then amino acids are absorbed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme specificity is correct?",
+      "options": [
+        "Trypsin cleaves near arginine and lysine",
+        "Chymotrypsin cleaves only after glycine",
+        "Carboxypeptidase removes amino acids from NH₂ end",
+        "Aminopeptidase removes amino acids from COOH end"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin is specific for basic amino acid residues such as arginine and lysine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme specificity is correct?",
+      "options": [
+        "Chymotrypsin cleaves near aromatic amino acids",
+        "Trypsin cleaves only after glycine",
+        "Elastase removes C-terminal lysine",
+        "Aminopeptidase activates trypsinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsin prefers aromatic residues such as phenylalanine, tyrosine, and tryptophan.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme specificity is correct?",
+      "options": [
+        "Elastase cleaves near small neutral residues",
+        "Elastase removes amino acids from COOH end only",
+        "Elastase activates pepsinogen",
+        "Elastase absorbs dipeptides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elastase acts as an endopeptidase and cleaves near small neutral amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is NOT an endopeptidase?",
+      "options": [
+        "Carboxypeptidase",
+        "Trypsin",
+        "Chymotrypsin",
+        "Pepsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase is an exopeptidase because it removes amino acids from the terminal end of peptide chains.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which enzyme is NOT an exopeptidase?",
+      "options": [
+        "Chymotrypsin",
+        "Carboxypeptidase",
+        "Aminopeptidase",
+        "Carboxypeptidase B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsin is an endopeptidase, not an exopeptidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best compares carboxypeptidase and aminopeptidase?",
+      "options": [
+        "Carboxypeptidase acts at COOH end; aminopeptidase acts at NH₂ end",
+        "Both act only at internal peptide bonds",
+        "Carboxypeptidase acts at NH₂ end; aminopeptidase acts at COOH end",
+        "Both activate zymogens"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both are exopeptidases, but they work at opposite ends of the peptide chain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why different pancreatic proteases have different specificity?",
+      "options": [
+        "They recognize different amino acid R groups adjacent to peptide bonds",
+        "They all cleave only the same peptide bond",
+        "They digest only carbohydrates",
+        "They work only in blood plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that pancreatic proteases differ in specificity according to amino acid R groups near the peptide bond.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes protein digestion and absorption?",
+      "options": [
+        "Proteins are digested by gastric, pancreatic, and intestinal proteases into amino acids/peptides, then absorbed into epithelial cells and portal circulation",
+        "Proteins are absorbed intact mainly through lymph as chylomicrons",
+        "Proteins are digested only in the stomach",
+        "Amino acids are absorbed only by simple diffusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full process: digestion by peptidases, absorption into intestinal cells, intracellular peptide hydrolysis, and delivery to the portal blood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has defective enteropeptidase. Which event is most directly impaired?",
+      "options": [
+        "Conversion of trypsinogen to trypsin",
+        "Activation of pepsinogen by H⁺",
+        "Aminopeptidase action at NH₂ end",
+        "Absorption of D-amino acids by diffusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enteropeptidase activates trypsinogen. Without it, the trypsin-dependent activation cascade of pancreatic zymogens is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "If trypsinogen is not activated, which consequence is expected?",
+      "options": [
+        "Reduced activation of other pancreatic zymogens",
+        "Increased chylomicron formation",
+        "Increased pepsin secretion only",
+        "Complete normal pancreatic protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin is the common activator of pancreatic zymogens, so failure to form trypsin reduces activation of other proteases.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mutation reduces trypsin specificity for lysine and arginine. Which digestion process is most affected?",
+      "options": [
+        "Cleavage after basic amino acid residues",
+        "Cleavage after aromatic amino acids only",
+        "Removal from free COOH end only",
+        "Removal from free NH₂ end only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trypsin normally cleaves peptide bonds next to basic residues such as arginine and lysine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in chymotrypsin most directly impairs cleavage near:",
+      "options": [
+        "Phenylalanine, tyrosine, and tryptophan",
+        "Arginine and lysine only",
+        "Free amino terminal residues only",
+        "Free carboxyl terminal residues only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chymotrypsin targets aromatic amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in carboxypeptidase B would most directly impair removal of:",
+      "options": [
+        "C-terminal arginine and lysine",
+        "N-terminal glycine and alanine",
+        "Internal phenylalanine and tyrosine",
+        "D-amino acids from intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carboxypeptidase B removes basic amino acids from the free carboxyl end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in aminopeptidase would most directly impair:",
+      "options": [
+        "Removal of amino acids from the free NH₂ end on intestinal surface",
+        "Activation of trypsinogen",
+        "Gastric pepsin activation",
+        "C-terminal amino acid removal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase is an intestinal exopeptidase that removes amino acids from the amino terminal end.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme would still be classified as an exopeptidase?",
+      "options": [
+        "Aminopeptidase",
+        "Trypsin",
+        "Pepsin",
+        "Chymotrypsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aminopeptidase removes terminal amino acids, so it is an exopeptidase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme would still be classified as an endopeptidase?",
+      "options": [
+        "Pepsin",
+        "Carboxypeptidase A",
+        "Carboxypeptidase B",
+        "Aminopeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsin cleaves internal peptide bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why pancreatic protein digestion is more extensive than gastric digestion?",
+      "options": [
+        "Pancreatic phase contributes about 60% and uses multiple proteases with different specificity",
+        "Gastric phase contributes 100%",
+        "Intestinal phase occurs before stomach digestion",
+        "Pancreatic enzymes absorb amino acids directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic digestion is the major phase because multiple proteases act on different peptide bonds.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why amino acid transport requires multiple carrier systems?",
+      "options": [
+        "Amino acids differ in charge and side-chain properties",
+        "All amino acids are chemically identical",
+        "Only D-amino acids are transported",
+        "Amino acids are transported only as chylomicrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Different carrier systems handle neutral, acidic, basic, and other amino acid groups.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in active intestinal amino acid transport would most affect absorption of:",
+      "options": [
+        "L-amino acids, dipeptides, and tripeptides",
+        "D-amino acids only",
+        "Cholesterol esters only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that these are absorbed by active transport systems.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in cytosolic peptidases inside intestinal epithelial cells would most directly impair:",
+      "options": [
+        "Hydrolysis of absorbed dipeptides into amino acids",
+        "Pepsinogen activation in stomach",
+        "Trypsinogen activation by enteropeptidase",
+        "Carboxypeptidase secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dipeptides are absorbed into epithelial cells and then hydrolyzed into amino acids in the cytosol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why do absorbed amino acids go first to the liver?",
+      "options": [
+        "They enter the portal circulation",
+        "They enter lymph as chylomicrons",
+        "They enter bile directly",
+        "They enter RBCs only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids absorbed from intestine enter portal blood, which carries them to the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which absorbed amino acid fate is most directly related to structural and functional proteins?",
+      "options": [
+        "Protein synthesis",
+        "Urea fixation only",
+        "Deamination only",
+        "Simple diffusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Absorbed L-amino acids are used to synthesize body proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which absorbed amino acid fate is most directly related to nitrogen waste disposal?",
+      "options": [
+        "Fixation of ammonia into urea",
+        "Synthesis of melanin only",
+        "Synthesis of heme only",
+        "Active transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid nitrogen is eventually disposed of as urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which combination correctly matches amino acid precursors with specialized products?",
+      "options": [
+        "Glycine → heme; tyrosine → T3/T4 and melanin; tryptophan → 5-HT and nicotinic acid",
+        "Glycine → cholesterol; tyrosine → glycogen; tryptophan → bile salts only",
+        "Phenylalanine → glucose only; glycine → ketone bodies only",
+        "Tyrosine → urea only; tryptophan → TAG only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists these examples of amino acids forming specialized products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which sequence best represents protein digestion from stomach to portal blood?",
+      "options": [
+        "Pepsin digestion → pancreatic protease digestion → intestinal peptidases → epithelial absorption → portal system",
+        "Portal system → pepsin digestion → bile salts → chylomicrons",
+        "Intestinal absorption → stomach digestion → pancreatic activation",
+        "Amino acid storage → digestion → urea synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct anatomical and biochemical order.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the difference between pancreatic and intestinal phases?",
+      "options": [
+        "Pancreatic phase uses secreted pancreatic proteases; intestinal phase uses surface aminopeptidase",
+        "Pancreatic phase occurs in stomach only",
+        "Intestinal phase is only pepsin action",
+        "Both phases are identical"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic enzymes digest luminal peptides, while intestinal surface enzymes finish digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which enzyme activation map is correct?",
+      "options": [
+        "Enteropeptidase activates trypsinogen; trypsin activates other pancreatic zymogens",
+        "Pepsin activates all pancreatic zymogens",
+        "Aminopeptidase activates pepsinogen",
+        "Carboxypeptidase activates enteropeptidase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the key zymogen activation cascade in pancreatic protein digestion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-protein-digestion-absorption-transport-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes this topic?",
+      "options": [
+        "Protein digestion starts in stomach, is mainly completed by pancreatic and intestinal peptidases, and absorbed amino acids/peptides enter epithelial cells then portal blood for liver handling",
+        "Protein digestion occurs only in the stomach and amino acids enter lymph as chylomicrons",
+        "Pancreatic zymogens are active when secreted and do not need activation",
+        "Dipeptides remain unchanged and circulate permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This captures the full topic: gastric initiation, major pancreatic digestion, intestinal brush-border digestion, epithelial absorption, cytosolic peptide hydrolysis, and portal transport.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
