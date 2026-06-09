@@ -2,6 +2,1537 @@
   "subjectId": "3",
   "topicId": "myocardial-infarction-cardiac-biomarkers",
   "topicName": "Myocardial Infarction & Cardiac Biomarkers",
-  "updatedAt": "2026-06-09T21:36:48.296Z",
-  "questions": []
+  "updatedAt": "2026-06-09T21:37:17.066Z",
+  "questions": [
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Myocardial infarction is best described as:",
+      "options": [
+        "Reversible ischemia of cardiac muscle",
+        "Necrosis of cardiac muscle due to coronary artery obstruction",
+        "Inflammation of the pericardium",
+        "Enlargement of cardiac muscle due to chronic hypertension"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Myocardial infarction is necrosis of part of the cardiac muscle caused by obstruction of a coronary artery, commonly due to atherosclerosis or embolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "An infarct is a localized area of:",
+      "options": [
+        "Edema caused by excess fluid",
+        "Necrosis caused by tissue anoxia",
+        "Hyperplasia caused by hormonal stimulation",
+        "Inflammation caused by infection only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An infarct means localized necrosis in a tissue or organ due to anoxia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The most common vascular event leading to MI is:",
+      "options": [
+        "Obstruction of a coronary artery",
+        "Occlusion of a pulmonary vein",
+        "Rupture of the mitral valve",
+        "Dilatation of the aorta only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI occurs when blood supply to cardiac muscle is blocked, usually by coronary artery obstruction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The typical pain of MI is usually:",
+      "options": [
+        "Crushing chest pain that may radiate",
+        "Mild skin burning",
+        "Painless abdominal distension",
+        "Pain limited to the lower limb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI classically causes crushing chest pain that may radiate to the left arm, neck, or epigastrium.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "MI pain may sometimes mimic:",
+      "options": [
+        "Acute indigestion or gallbladder attack",
+        "Otitis media",
+        "Migraine aura",
+        "Urinary retention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI may present with epigastric discomfort and may be mistaken for indigestion or gallbladder pain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which group of signs is most compatible with acute MI?",
+      "options": [
+        "Clammy skin, shortness of breath, anxiety",
+        "Increased appetite, dry warm skin, polyuria",
+        "Jaundice, itching, pale stool",
+        "Rash, sneezing, watery eyes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI may cause the patient to become ashen, clammy, short of breath, faint, and anxious.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which sign may be seen in MI onset?",
+      "options": [
+        "Tachycardia",
+        "Severe bradycardia in all cases",
+        "Persistent hypertension in all cases",
+        "Increased urine output"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Typical signs include tachycardia, barely perceptible pulse, low blood pressure, and elevated temperature.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A normal ECG early after chest pain:",
+      "options": [
+        "Always excludes MI",
+        "Does not necessarily exclude MI",
+        "Confirms liver injury",
+        "Replaces biochemical testing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Characteristic ECG changes may not appear for up to 24 hours after infarction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Biochemical tests in MI are mainly used to:",
+      "options": [
+        "Complement ECG findings",
+        "Replace all clinical assessment",
+        "Diagnose diabetes mellitus only",
+        "Measure coronary artery diameter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biochemical tests support diagnosis and follow-up of MI alongside history and ECG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The classical enzymes used in MI diagnosis and follow-up include:",
+      "options": [
+        "CK, AST, LDH",
+        "ALT, ALP, GGT",
+        "Amylase, lipase, trypsin",
+        "Urea, creatinine, uric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists CK, AST, and LDH as commonly used enzymes for MI diagnosis and follow-up.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CK catalyzes the reaction:",
+      "options": [
+        "Creatine phosphate + ADP → Creatine + ATP",
+        "Lactate + NAD⁺ → Pyruvate + NADH",
+        "Alanine + α-ketoglutarate → Pyruvate + glutamate",
+        "Glucose → Lactate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine kinase transfers phosphate from creatine phosphate to ADP, forming creatine and ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CK activity is greatest in:",
+      "options": [
+        "Skeletal muscle and heart muscle",
+        "Skin and lung",
+        "Pancreas and bile",
+        "Plasma only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK is abundant in skeletal and cardiac muscle, with appreciable amounts in brain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In MI, serum CK usually begins to rise within:",
+      "options": [
+        "3–6 hours",
+        "24–48 hours",
+        "5–7 days",
+        "2–3 weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK is an early enzyme marker and begins rising within 3–6 hours after MI.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Serum CK usually peaks after MI at around:",
+      "options": [
+        "24 hours",
+        "5 minutes",
+        "7 days",
+        "1 month"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK reaches its average peak around 24 hours after MI.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "CK usually returns to normal after MI within:",
+      "options": [
+        "2–3 days",
+        "10–14 days",
+        "1 month",
+        "6 weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK returns to normal within about 2–3 days.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The CK isoenzyme most useful for cardiac muscle damage is:",
+      "options": [
+        "CK-MB",
+        "CK-BB",
+        "CK-MM only",
+        "CK-LDH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB is more specific for cardiac muscle injury than total CK.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "LDH catalyzes conversion between:",
+      "options": [
+        "Lactate and pyruvate",
+        "Creatine and ATP",
+        "Cholesterol and bile acids",
+        "Glucose and glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH catalyzes the reversible conversion of lactate to pyruvate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In MI, LDH reaches its maximum activity at about:",
+      "options": [
+        "48 hours",
+        "3 hours",
+        "12 days",
+        "1 month"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH begins to rise within 6–12 hours and peaks around 48 hours.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The earliest but nonspecific marker of cardiac damage is:",
+      "options": [
+        "Myoglobin",
+        "Albumin",
+        "ALP",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is rapidly released because of its small size, but it is also released from skeletal muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The most cardiac-specific troponins are:",
+      "options": [
+        "Troponin I and Troponin T",
+        "Troponin C only",
+        "Troponin C and LDH-5",
+        "Troponin B and Troponin M"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cardiac Troponin I and T can be detected by specific monoclonal antibodies, while Troponin C has no cardiac-specific structure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is CK-MB more useful than total CK in suspected MI?",
+      "options": [
+        "CK-MB is more specific for cardiac muscle damage",
+        "CK-MB is mainly found in liver",
+        "CK-MB rises only in brain disease",
+        "Total CK never changes in MI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total CK can rise in skeletal or cardiac muscle damage, while CK-MB is more useful for cardiac injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A small MI may be detected by:",
+      "options": [
+        "Elevated CK-MB even if total CK is normal",
+        "Elevated albumin only",
+        "Low LDH-1",
+        "High Troponin C only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In small MI, CK-MB may become elevated while total CK remains within normal limits.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CK is a dimeric enzyme composed of:",
+      "options": [
+        "B and M subunits",
+        "H and M subunits",
+        "T and I subunits",
+        "A and C subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK consists of B brain-type and M muscle-type subunits.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The three CK isoenzymes are:",
+      "options": [
+        "CK-BB, CK-MB, CK-MM",
+        "LDH-1, LDH-2, LDH-3",
+        "AST, ALT, ALP",
+        "TpT, TpI, TpC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK isoenzymes are CK-BB, CK-MB, and CK-MM.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Skeletal muscle contains mainly:",
+      "options": [
+        "CK-MM",
+        "CK-BB",
+        "CK-MB",
+        "LDH-1 only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Skeletal muscle contains about 99% CK-MM and only a small amount of CK-MB.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Heart muscle contains approximately:",
+      "options": [
+        "Mostly CK-MM with a significant CK-MB fraction",
+        "Only CK-BB",
+        "Only CK-MB",
+        "Only LDH-5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heart muscle contains mostly CK-MM, but also about 15–20% CK-MB.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about CK-MB after moderate to severe MI is correct?",
+      "options": [
+        "It rises rapidly, peaks within 24 hours, then falls rapidly",
+        "It peaks after 14 days",
+        "It never changes",
+        "It is only elevated in liver disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB rises rapidly after moderate to severe MI, reaches maximum within 24 hours, then falls.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A subsequent rise in serum CK after an initial fall suggests:",
+      "options": [
+        "Extension of infarction",
+        "Complete recovery only",
+        "Normal biological variation",
+        "Liver origin of CK"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A new rise in CK after it starts falling may indicate extension or reinfarction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The maximum CK rise in severe MI may reach:",
+      "options": [
+        "10–20 fold the upper limit of normal",
+        "2 fold only",
+        "100 fold always",
+        "No increase at all"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Severe MI may produce a 10–20 fold CK rise, and higher rise indicates worse prognosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker pattern is most useful for detecting infarct extension?",
+      "options": [
+        "Serial CK/CK-MB showing a second rise",
+        "One isolated albumin value",
+        "Normal ALT only",
+        "Low calcium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because CK normalizes within days, a second increase is useful evidence of extension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "LDH is composed of:",
+      "options": [
+        "Four subunits",
+        "Two subunits only",
+        "One subunit",
+        "Six subunits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH is a tetramer composed of combinations of H and M subunits.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "LDH subunits are:",
+      "options": [
+        "H and M",
+        "B and M",
+        "T and I",
+        "C and K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH contains H heart-type and M muscle-type subunits.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "How many LDH isoenzymes exist?",
+      "options": [
+        "Five",
+        "Three",
+        "Two",
+        "Seven"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH has five isoenzymes: LDH-1 to LDH-5.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The LDH isoenzymes most increased in MI are:",
+      "options": [
+        "LDH-1 and LDH-2",
+        "LDH-4 and LDH-5",
+        "LDH-3 only",
+        "LDH-5 only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI mainly increases LDH-1 and LDH-2.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "LDH may be useful in delayed presentation of MI because:",
+      "options": [
+        "It takes longer to return to normal",
+        "It rises only in the first 10 minutes",
+        "It is not found in heart muscle",
+        "It is destroyed immediately after release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LDH remains abnormal longer than CK, so it can help when the patient presents late.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "LDH measurement can be invalidated by:",
+      "options": [
+        "In vitro hemolysis",
+        "Fasting",
+        "Measuring serum instead of urine",
+        "Normal CK-MB"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red cells contain LDH-1, so hemolysis can falsely elevate LDH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Blood for LDH measurement should not remain unseparated because:",
+      "options": [
+        "Red cells may release LDH-1",
+        "Troponin becomes CK",
+        "ALT becomes AST",
+        "CK-MB disappears instantly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Delayed separation can allow hemolysis and red cell LDH release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "AST is not specific for MI because it can also rise in:",
+      "options": [
+        "Liver and skeletal muscle disorders",
+        "Only kidney disorders",
+        "Only thyroid disease",
+        "Only pancreatic disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AST is present in cardiac muscle but also rises in liver and skeletal muscle pathology.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ALT helps interpret AST elevation because ALT is more concentrated in:",
+      "options": [
+        "Liver",
+        "Cardiac muscle",
+        "Red blood cells",
+        "Brain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT is more liver-associated, so high ALT with high AST suggests liver source.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High AST with high ALT suggests:",
+      "options": [
+        "Liver origin of AST",
+        "Definite cardiac origin",
+        "Normal result",
+        "CK-MB interference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When both AST and ALT are elevated, liver origin is more likely.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High AST with normal ALT in suspected MI suggests:",
+      "options": [
+        "AST may originate from heart",
+        "AST must originate from liver",
+        "MI is impossible",
+        "ALT is the best MI marker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal ALT with elevated AST supports a non-hepatic source such as heart, if clinical context fits MI.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Myoglobin is:",
+      "options": [
+        "Oxygen-binding protein of striated muscle",
+        "Liver-specific enzyme",
+        "Plasma clotting factor",
+        "Lipid transport protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin binds oxygen in cardiac and skeletal muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Myoglobin is rapidly released because it is:",
+      "options": [
+        "Small and monomeric",
+        "Very large and tetrameric",
+        "Bound permanently to collagen",
+        "Present only in plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is monomeric and smaller than hemoglobin, so it is released quickly after muscle damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A limitation of myoglobin in MI diagnosis is:",
+      "options": [
+        "It also rises in skeletal muscle injury",
+        "It is never released early",
+        "It is cardiac-specific only",
+        "It is not measurable in serum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is early but nonspecific because skeletal muscle injury also increases it.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Myoglobin is cleared from blood within about:",
+      "options": [
+        "12–24 hours",
+        "5–7 days",
+        "2–3 weeks",
+        "1 month"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is rapidly cleared, limiting its usefulness in late presentation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Troponin complex is found in:",
+      "options": [
+        "Thin filaments of striated muscle",
+        "Thick filaments only",
+        "Red blood cells",
+        "Plasma albumin fraction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thin filaments contain actin, tropomyosin, and troponin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thick filaments contain chiefly:",
+      "options": [
+        "Myosin",
+        "Actin",
+        "Troponin I",
+        "LDH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thick filaments mainly contain myosin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The troponin complex consists of:",
+      "options": [
+        "Troponin T, I, and C",
+        "Troponin A, B, and M",
+        "CK-BB, CK-MB, CK-MM",
+        "LDH-1, LDH-2, LDH-3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin is composed of TpT, TpI, and TpC.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Troponin T mainly:",
+      "options": [
+        "Binds to tropomyosin",
+        "Binds oxygen",
+        "Converts lactate to pyruvate",
+        "Produces ATP from creatine phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin T binds to tropomyosin and other troponin components.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Troponin I mainly:",
+      "options": [
+        "Inhibits actin-myosin interaction",
+        "Binds calcium",
+        "Forms CK-MB",
+        "Converts AST into ALT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin I inhibits actin-myosin interaction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Troponin C mainly:",
+      "options": [
+        "Binds calcium",
+        "Binds LDL",
+        "Detects liver necrosis",
+        "Forms LDH tetramers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin C is a calcium-binding polypeptide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Troponin C is not used as a cardiac-specific marker because:",
+      "options": [
+        "It has no cardiac-specific structure",
+        "It is absent from muscle",
+        "It is only found in liver",
+        "It cannot bind calcium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin C lacks cardiac specificity, unlike Troponin I and T.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Monoclonal antibodies are used to assay:",
+      "options": [
+        "Cardiac Troponin I and Troponin T",
+        "Troponin C only",
+        "LDH-5 only",
+        "AST only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These antibodies specifically detect cardiac Troponin I and T.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker is more useful for late presentation than myoglobin?",
+      "options": [
+        "LDH",
+        "Albumin",
+        "ALP",
+        "Chloride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin clears rapidly, while LDH remains elevated longer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which combination gives better cardiac specificity than total CK alone?",
+      "options": [
+        "CK-MB and Troponin I/T",
+        "ALT and ALP",
+        "Albumin and globulin",
+        "Urea and creatinine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB and cardiac troponins are more specific for myocardial injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which result may be misleading due to hemolysis?",
+      "options": [
+        "Increased LDH-1",
+        "Increased Troponin C",
+        "Low albumin",
+        "High ALP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red blood cells release LDH-1 during hemolysis, creating possible false elevation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which marker rises earliest but needs confirmation with more specific markers?",
+      "options": [
+        "Myoglobin",
+        "LDH-5",
+        "ALT",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is early but nonspecific; CK-MB and Troponin I/T improve specificity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pattern best fits uncomplicated MI enzyme timing?",
+      "options": [
+        "CK rises early and peaks around 24 h; LDH peaks around 48 h",
+        "LDH peaks before CK",
+        "ALT is the earliest cardiac marker",
+        "Myoglobin remains high for weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK rises within 3–6 hours and peaks around 24 hours; LDH peaks later.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A definite diagnosis is important before starting streptokinase because:",
+      "options": [
+        "Thrombus-reducing therapy should not be started without definite diagnosis",
+        "Streptokinase diagnoses MI",
+        "Streptokinase lowers ALT only",
+        "CK-MB must be normal first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file emphasizes that streptokinase or similar agents should not be started unless diagnosis is definite.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Early diagnosis of MI is important because:",
+      "options": [
+        "Earlier treatment improves prognosis",
+        "Delayed diagnosis always improves outcome",
+        "ECG is never useful early",
+        "Enzymes cannot be measured later"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Early treatment improves prognosis, so early diagnosis is clinically important.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-061",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 52-year-old patient is admitted 6 hours after severe chest pain. ECG is normal. Which biochemical tests are most appropriate?",
+      "options": [
+        "CK-MB and cardiac Troponin I/T",
+        "ALT and bilirubin only",
+        "ALP and calcium only",
+        "Urea and creatinine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ECG may be normal early. The file's case recommends CK-MB and Troponin I/T after severe chest pain with normal ECG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-062",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 60-year-old male has abnormal ECG during routine investigation. Labs show total CK = 200 IU/L, normal up to 150; CK-MB = 180 IU/L, normal up to 50; LDH is normal; Troponin I = 6 µg/L, normal 1–3. What is the best interpretation?",
+      "options": [
+        "Strong biochemical evidence of myocardial injury",
+        "MI is excluded because LDH is normal",
+        "Liver injury is the most likely explanation",
+        "CK-MB is within normal range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB is markedly elevated and Troponin I is above normal. Normal LDH does not exclude MI, especially depending on timing.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-063",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In the previous case, CK-MB = 180 IU/L with an upper normal limit of 50 IU/L. Approximately how many times the upper limit is CK-MB?",
+      "options": [
+        "1.2 times",
+        "2 times",
+        "3.6 times",
+        "20 times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "180 ÷ 50 = 3.6. This is a significant CK-MB elevation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-064",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has CK = 1800 U/L after severe MI. Male upper normal limit is 130 U/L. Approximately how many times the upper limit is this?",
+      "options": [
+        "About 2-fold",
+        "About 5-fold",
+        "About 14-fold",
+        "About 40-fold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "1800 ÷ 130 ≈ 13.8, which fits the severe MI range where CK may rise 10–20 fold.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-065",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A 58-year-old man has severe chest pain 5 hours ago. Myoglobin is elevated, CK-MB is beginning to rise, and LDH is normal. Which explanation is best?",
+      "options": [
+        "Early MI is possible; LDH may still be normal",
+        "MI is excluded because LDH is normal",
+        "This pattern proves liver disease",
+        "Myoglobin elevation excludes cardiac injury"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin rises earliest, CK-MB can rise early, and LDH may still be normal because it rises later.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-066",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents 4 days after severe chest pain. CK and CK-MB are normal, but LDH-1 and LDH-2 are elevated. The sample was rapidly separated and not hemolyzed. What is the best interpretation?",
+      "options": [
+        "Delayed presentation of MI may be supported",
+        "MI is excluded because CK is normal",
+        "LDH cannot be useful after 48 hours",
+        "The result proves skeletal muscle exercise only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK normalizes within 2–3 days, while LDH remains elevated longer. LDH-1/LDH-2 predominance supports MI if hemolysis is excluded.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-067",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hemolyzed sample shows elevated LDH-1 in a patient with vague chest discomfort. Which is the safest interpretation?",
+      "options": [
+        "LDH result may be falsely elevated due to red cell release",
+        "MI is confirmed",
+        "Hemolysis lowers LDH-1",
+        "CK-MB must also be falsely elevated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red cells release LDH-1 during hemolysis, so LDH interpretation becomes unreliable.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-068",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient had an MI 2 days ago. CK was falling, but today CK rises again. What does this suggest?",
+      "options": [
+        "Extension of infarction",
+        "Complete recovery",
+        "Hemolysis only",
+        "Liver origin of CK"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A second CK rise after initial decline suggests extension or reinfarction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-069",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high total CK and high myoglobin after heavy exercise. CK-MB and Troponin I are normal. Which diagnosis is more likely?",
+      "options": [
+        "Skeletal muscle injury",
+        "Definite MI",
+        "Liver necrosis",
+        "Hemolyzed LDH sample"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exercise can increase total CK and myoglobin from skeletal muscle. Normal CK-MB and Troponin I make MI less likely.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-070",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents with chest pain. AST is high, ALT is normal, and CK-MB is high. Which interpretation is best?",
+      "options": [
+        "AST may be cardiac in origin",
+        "AST must be hepatic",
+        "ALT confirms MI",
+        "MI is excluded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In suspected MI, high AST with normal ALT supports cardiac origin, especially with high CK-MB.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high AST and high ALT with abdominal symptoms and normal CK-MB. Which source of AST is most likely?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Red cells only",
+        "Brain only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALT is more concentrated in liver; parallel AST and ALT elevation suggests hepatic source.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient arrives 2 hours after crushing chest pain. Which marker may be elevated earliest but is not cardiac-specific?",
+      "options": [
+        "Myoglobin",
+        "LDH",
+        "ALT",
+        "Albumin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin rises very early but is also released from skeletal muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient arrives 18 hours after chest pain. Myoglobin is normal, but CK-MB and Troponin I are elevated. Which explanation is best?",
+      "options": [
+        "Myoglobin may have cleared, while cardiac markers remain useful",
+        "MI is excluded because myoglobin is normal",
+        "Troponin I indicates liver disease",
+        "CK-MB is only skeletal muscle marker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin is cleared within 12–24 hours, so it may normalize while CK-MB and Troponin I remain informative.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has Troponin T = 0.2 mg/L. Normal range in the file is 0–0.1 mg/L. What is the best interpretation?",
+      "options": [
+        "Elevated and supportive of myocardial injury in the correct context",
+        "Normal result",
+        "Diagnostic of liver disease",
+        "Caused only by hemolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin T is above the stated normal range and supports myocardial injury when symptoms fit.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has Troponin I = 6 µg/L. Normal range is 1–3 µg/L. What is the best interpretation?",
+      "options": [
+        "About two times the upper limit of normal",
+        "Normal",
+        "Below normal",
+        "Invalid because Troponin I cannot be measured"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Upper limit is 3 µg/L; 6 µg/L is about two-fold elevated.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has elevated total LDH but the sample was left unseparated overnight. What is the main preanalytical problem?",
+      "options": [
+        "In vitro hemolysis may invalidate LDH results",
+        "CK-MB becomes Troponin I",
+        "ALT disappears completely",
+        "Troponin C becomes cardiac-specific"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Delayed separation may cause hemolysis, releasing LDH from red cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with previous myocardial damage develops new symptoms. ECG is difficult to interpret. Which biochemical finding helps most?",
+      "options": [
+        "New rise in CK/CK-MB after previous fall",
+        "Isolated normal ALT",
+        "Low albumin",
+        "Normal LDH sample"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ECG is harder to interpret in a previously damaged heart. Serial CK/CK-MB can detect extension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has typical MI symptoms, but total CK is normal. Which result would still suggest small MI?",
+      "options": [
+        "Elevated CK-MB",
+        "Low albumin",
+        "Normal ALT",
+        "Low LDH-5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB may rise in small MI even if total CK remains normal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents 30 hours after chest pain. CK has peaked and is falling, while LDH is increasing. Which statement is most accurate?",
+      "options": [
+        "This is compatible with expected MI marker timing",
+        "MI is impossible",
+        "LDH always peaks before CK",
+        "CK should remain elevated for weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK peaks around 24 hours and then falls; LDH peaks later around 48 hours.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has elevated LDH-5 more than LDH-1/LDH-2 with high ALT. Which interpretation is most cautious?",
+      "options": [
+        "Pattern is less typical for MI and may suggest non-cardiac source",
+        "Classic MI pattern",
+        "CK-MB must be normal in MI",
+        "Troponin C confirms cardiac damage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MI mainly increases LDH-1 and LDH-2. ALT elevation and LDH-5 predominance suggest another source, especially liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A physician wants to distinguish MI from skeletal muscle injury after trauma. Which marker combination is most helpful?",
+      "options": [
+        "CK-MB and cardiac Troponin I/T",
+        "Total CK and myoglobin only",
+        "CK-MM and myoglobin",
+        "AST alone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trauma can raise total CK, CK-MM, and myoglobin. CK-MB and cardiac troponins improve cardiac specificity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents 10 hours after chest pain. Myoglobin is elevated but expected to clear soon. Which follow-up marker is more specific for myocardial injury?",
+      "options": [
+        "Troponin I/T",
+        "Albumin",
+        "ALP",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin I/T are more cardiac-specific than myoglobin and help confirm myocardial injury.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high CK-MB and high Troponin I with typical crushing chest pain. ALT is normal. Which interpretation is best?",
+      "options": [
+        "Strong evidence of MI",
+        "Liver disease is confirmed",
+        "MI is excluded because ALT is normal",
+        "Hemolysis explains Troponin I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Typical symptoms plus elevated CK-MB and Troponin I strongly support MI. Normal ALT does not exclude MI.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has vague chest pain and elevated myoglobin only. CK-MB and Troponin I are normal. What is the main limitation of relying on myoglobin alone?",
+      "options": [
+        "It lacks cardiac specificity",
+        "It never rises early",
+        "It is liver-specific",
+        "It is not released by muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Myoglobin rises with both cardiac and skeletal muscle injury, so isolated elevation is not enough.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has suspected MI and a normal ECG at admission. The physician says ECG must be diagnostic before biochemical tests. Which response is correct?",
+      "options": [
+        "ECG may be non-diagnostic for up to 24 hours; biomarkers can help",
+        "Biomarkers are useless in early MI",
+        "Normal ECG always rules out MI",
+        "LDH must be ignored after chest pain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ECG changes may not appear early, so biochemical tests complement ECG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has CK-MB elevated, total CK mildly elevated, and LDH normal. Which is the best explanation?",
+      "options": [
+        "Early or small MI may still be possible",
+        "MI is excluded by normal LDH",
+        "LDH must rise before CK-MB",
+        "CK-MB elevation proves liver injury"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB can rise in early/small MI; LDH may still be normal early.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents with severe MI. CK reaches 15-fold the upper limit of normal. What does this imply?",
+      "options": [
+        "Larger enzyme rise is associated with worse prognosis",
+        "Better prognosis",
+        "No relation to severity",
+        "Only hemolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that the higher the CK rise, the worse the prognosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has elevated Troponin C but normal Troponin I/T. Which statement is most correct?",
+      "options": [
+        "Troponin C is not the preferred cardiac-specific marker",
+        "Troponin C is the most specific marker for MI",
+        "Troponin C confirms coronary thrombosis",
+        "Troponin C is a CK isoenzyme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troponin C has no cardiac-specific structure; Troponin I and T are diagnostically preferred.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient presents with suspected MI, but also has liver disease. Which result would best support a cardiac rather than hepatic source?",
+      "options": [
+        "Elevated CK-MB and Troponin I",
+        "Elevated ALT and AST only",
+        "Elevated bilirubin only",
+        "Elevated ALP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CK-MB and cardiac Troponin I are more cardiac-directed than AST/ALT alone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-myocardial-infarction-cardiac-biomarkers-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with chest pain is being considered for streptokinase. What is the safest principle?",
+      "options": [
+        "Start only after definite diagnosis using clinical, ECG, and biochemical evidence",
+        "Start for any mild chest discomfort",
+        "Wait only for LDH to peak",
+        "Use ALT alone to confirm MI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thrombus-reducing treatment such as streptokinase should not be started unless a definite diagnosis has been made.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
