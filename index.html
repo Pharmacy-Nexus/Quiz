@@ -660,163 +660,146 @@ tailwind.config = {
 <main class="flex-1 min-h-screen pt-16 md:pt-0 pb-20 md:pb-0">
 
 <!-- ===================== PAGE: HOME ===================== -->
-<div id="page-home" class="page active fade-in pn-v6-home">
-  <div class="pn-v6-shell">
+<div id="page-home" class="page active fade-in pn-v6-home pn-r-home">
+  <div class="pn-r-shell">
 
-    <!-- Global SaaS / EdTech Hero -->
-    <section class="pn-v6-hero pn-reveal" aria-labelledby="pn-v6-title">
-      <div class="pn-v6-hero-bg" aria-hidden="true">
+    <!-- Cinematic portfolio-style hero -->
+    <section class="pn-v6-hero pn-r-hero pn-reveal" aria-labelledby="pn-v6-title">
+      <div class="pn-v6-hero-bg pn-r-hero-bg" aria-hidden="true">
         <div class="pn-v6-orb pn-v6-orb-a"></div>
         <div class="pn-v6-orb pn-v6-orb-b"></div>
         <div class="pn-v6-mesh"></div>
+        <span class="pn-r-constellation pn-r-constellation-a"></span>
+        <span class="pn-r-constellation pn-r-constellation-b"></span>
+        <span class="pn-r-constellation pn-r-constellation-c"></span>
       </div>
 
-      <div class="pn-v6-hero-copy">
-        <div class="pn-v6-eyebrow">
-          <span class="material-symbols-outlined">verified</span>
-          Clinical Mastery Suite
+      <div class="pn-r-hero-copy pn-v6-hero-copy">
+        <div class="pn-v6-eyebrow pn-r-eyebrow">
+          <span class="material-symbols-outlined">bolt</span>
+          Pharmacy Nexus OS · Licensure prep command center
         </div>
-        <h1 id="pn-v6-title">Study smarter. Review faster. Walk into pharmacy exams ready.</h1>
-        <p class="pn-v6-lead">A focused exam-prep platform for future pharmacists — clear modules, high-yield question sets, saved pearls, and progress signals that tell you exactly what to do next.</p>
-        <div class="pn-v6-actions">
-          <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary">
-            Explore Subjects <span class="material-symbols-outlined">arrow_forward</span>
+        <h1 id="pn-v6-title">Not a question bank. A pharmacy exam cockpit.</h1>
+        <p class="pn-v6-lead pn-r-lead">Solve, review, save, retry, and track your weak points inside one premium static platform built for pharmacy students who need structure — not chaos.</p>
+
+        <div class="pn-r-hero-actions pn-v6-actions">
+          <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary pn-r-primary-cta">
+            Enter Study Mode <span class="material-symbols-outlined">arrow_forward</span>
           </button>
-          <button onclick="navigateTo('finalexam')" class="pn-v6-btn pn-v6-btn-soft">
-            Go to Final Exam <span class="material-symbols-outlined">school</span>
+          <button onclick="navigateTo('finalexam')" class="pn-v6-btn pn-v6-btn-soft pn-r-secondary-cta">
+            Simulate Final Exam <span class="material-symbols-outlined">school</span>
           </button>
         </div>
-        <div class="pn-v6-proof-row" aria-label="Platform highlights">
+
+        <div class="pn-r-trust-row pn-v6-proof-row" aria-label="Live platform metrics">
           <div><strong id="hero-subject-count">4</strong><span>Subjects</span></div>
           <div><strong id="hero-question-count">1627</strong><span>Questions</span></div>
-          <div><strong>Local</strong><span>Saved progress</span></div>
+          <div><strong id="home-accuracy">6%</strong><span>Readiness</span></div>
+        </div>
+
+        <div class="pn-r-mini-route" aria-label="Study route preview">
+          <span>Choose topic</span><i></i><span>Finish set</span><i></i><span>Save trap</span><i></i><span>Retry weak points</span>
         </div>
       </div>
 
-      <div class="pn-v6-product-stage" aria-label="Pharmacy Nexus dashboard preview">
-        <div class="pn-v6-stage-glow"></div>
-        <div class="pn-v6-dashboard-3d" data-tilt-card>
-          <div class="pn-v6-browser-bar">
+      <div class="pn-v6-product-stage pn-r-product-stage" aria-label="Pharmacy Nexus live product preview">
+        <div class="pn-r-orbit" aria-hidden="true"></div>
+        <div class="pn-r-product-card pn-r-product-card-main" data-tilt-card>
+          <div class="pn-r-browser-top">
             <div><span></span><span></span><span></span></div>
-            <p>Pharmacy Nexus Command Center</p>
+            <p>Live Study Console</p>
           </div>
-          <div class="pn-v6-dashboard-grid">
-            <div class="pn-v6-panel pn-v6-panel-main">
-              <div class="pn-v6-panel-head">
-                <div>
-                  <span>Next Best Action</span>
-                  <h3>Review Antibiotics</h3>
-                </div>
-                <button onclick="navigateTo('study')">Resume</button>
-              </div>
-              <div class="pn-v6-question-card">
-                <span class="material-symbols-outlined">psychology_alt</span>
-                <p>Which mechanism best explains the interaction between linezolid and SSRIs?</p>
-              </div>
-              <div class="pn-v6-mini-bars"><i></i><i></i><i></i><i></i></div>
-            </div>
-            <div class="pn-v6-panel pn-v6-score-card">
-              <span>Readiness</span>
-              <strong id="home-accuracy">6%</strong>
-              <div class="pn-v6-ring"><b></b></div>
-            </div>
-            <div class="pn-v6-panel pn-v6-saved-card" onclick="navigateTo('saved')" role="button" tabindex="0">
-              <span class="material-symbols-outlined">bookmark</span>
-              <div><strong id="home-saved-count">12</strong><p>Saved Qs</p></div>
-            </div>
-            <div class="pn-v6-panel pn-v6-note-card" onclick="navigateTo('saved')" role="button" tabindex="0">
-              <span class="material-symbols-outlined">edit_note</span>
-              <div><strong id="home-notes-count">4</strong><p>Notes</p></div>
-            </div>
-            <div class="pn-v6-panel pn-v6-exam-card" onclick="navigateTo('dashboard')" role="button" tabindex="0">
-              <span>Final Exams</span>
-              <strong id="home-final-exams-count">2</strong>
-            </div>
+          <div class="pn-r-console-grid">
+            <article class="pn-r-console-main">
+              <span class="pn-r-label">Current Mission</span>
+              <h3>Clinical Pharmacy · Drug Interactions</h3>
+              <p>Linezolid + SSRI: identify the mechanistic risk and choose the safer counseling point.</p>
+              <div class="pn-r-answer-bars"><i></i><i></i><i></i></div>
+              <button onclick="navigateTo('subjects')">Resume set</button>
+            </article>
+            <article class="pn-r-console-score">
+              <span class="pn-r-label">Accuracy</span>
+              <strong id="pn-v6-accuracy-mirror">6%</strong>
+              <b></b>
+            </article>
+            <article class="pn-r-console-chip" onclick="navigateTo('saved')" role="button" tabindex="0"><span class="material-symbols-outlined">bookmark</span><div><strong id="home-saved-count">12</strong><p>Saved</p></div></article>
+            <article class="pn-r-console-chip" onclick="navigateTo('saved')" role="button" tabindex="0"><span class="material-symbols-outlined">edit_note</span><div><strong id="home-notes-count">4</strong><p>Notes</p></div></article>
+            <article class="pn-r-console-chip pn-r-console-gold" onclick="navigateTo('finalexam')" role="button" tabindex="0"><span class="material-symbols-outlined">workspace_premium</span><div><strong id="home-final-exams-count">2</strong><p>Finals</p></div></article>
           </div>
         </div>
-        <div class="pn-v6-float-card pn-v6-float-one" data-float-card>
+
+        <div class="pn-r-product-card pn-r-float-analysis" data-float-card>
           <span class="material-symbols-outlined">monitoring</span>
-          <div><strong>Analytics</strong><p>Weakness map ready</p></div>
+          <div><strong>Weak area detected</strong><p>Interactions · MAOI trap</p></div>
         </div>
-        <div class="pn-v6-float-card pn-v6-float-two" data-float-card>
-          <span class="material-symbols-outlined">auto_stories</span>
-          <div><strong>Study Sets</strong><p>20 questions/session</p></div>
+        <div class="pn-r-product-card pn-r-float-streak" data-float-card>
+          <span class="material-symbols-outlined">local_fire_department</span>
+          <div><strong>Daily streak</strong><p>Keep the mission alive</p></div>
         </div>
       </div>
     </section>
 
-    <!-- Operating system stats strip -->
-    <section class="pn-v6-stat-strip pn-reveal" aria-label="Study progress quick stats">
-      <article onclick="navigateTo('dashboard')"><span class="material-symbols-outlined">track_changes</span><div><strong id="pn-v6-accuracy-mirror">6%</strong><p>Current accuracy</p></div></article>
-      <article onclick="navigateTo('saved')"><span class="material-symbols-outlined">bookmark_added</span><div><strong id="pn-v6-saved-mirror">12</strong><p>Knowledge bank</p></div></article>
-      <article onclick="navigateTo('saved')"><span class="material-symbols-outlined">sticky_note_2</span><div><strong id="pn-v6-notes-mirror">4</strong><p>Personal notes</p></div></article>
-      <article onclick="navigateTo('finalexam')"><span class="material-symbols-outlined">workspace_premium</span><div><strong id="pn-v6-exams-mirror">2</strong><p>Exam attempts</p></div></article>
+    <!-- Fast stats -->
+    <section class="pn-r-metrics pn-reveal" aria-label="Study progress quick stats">
+      <article onclick="navigateTo('dashboard')" data-tilt-card><span class="material-symbols-outlined">track_changes</span><div><strong id="pn-r-accuracy-mirror">6%</strong><p>Current readiness</p></div></article>
+      <article onclick="navigateTo('saved')" data-tilt-card><span class="material-symbols-outlined">bookmark_added</span><div><strong id="pn-v6-saved-mirror">12</strong><p>Saved questions</p></div></article>
+      <article onclick="navigateTo('saved')" data-tilt-card><span class="material-symbols-outlined">sticky_note_2</span><div><strong id="pn-v6-notes-mirror">4</strong><p>Clinical notes</p></div></article>
+      <article onclick="navigateTo('finalexam')" data-tilt-card><span class="material-symbols-outlined">workspace_premium</span><div><strong id="pn-v6-exams-mirror">2</strong><p>Exam attempts</p></div></article>
     </section>
 
-    <!-- Value proposition -->
-    <section class="pn-v6-section pn-reveal">
-      <div class="pn-v6-section-head">
-        <span>Platform system</span>
-        <h2>A learning loop that feels clean, useful, and premium.</h2>
-        <p>Pick a topic, solve focused sets, understand the trap, save the pearl, then return through smart review and final exam simulation.</p>
+    <!-- Story/journey section -->
+    <section class="pn-r-story pn-reveal">
+      <div class="pn-r-section-kicker">The experience</div>
+      <div class="pn-r-story-head">
+        <h2>It should feel like opening a serious product, not a random study folder.</h2>
+        <p>The home page now works like a portfolio/product landing page: it introduces the system, proves the value, then pushes the student into action.</p>
       </div>
-      <div class="pn-v6-feature-grid">
-        <article class="pn-v6-feature-card" data-tilt-card>
-          <span class="material-symbols-outlined">account_tree</span>
-          <h3>Structured learning path</h3>
-          <p>Subjects break into topics and 20-question sets, so revision feels controlled instead of chaotic.</p>
-        </article>
-        <article class="pn-v6-feature-card" data-tilt-card>
-          <span class="material-symbols-outlined">fact_check</span>
-          <h3>Exam-grade practice</h3>
-          <p>Practice mode gives instant feedback, while final exam mode keeps the pressure realistic.</p>
-        </article>
-        <article class="pn-v6-feature-card" data-tilt-card>
-          <span class="material-symbols-outlined">hub</span>
-          <h3>Personal knowledge bank</h3>
-          <p>Saved questions and notes become a reusable notebook for high-yield traps and clinical pearls.</p>
-        </article>
+      <div class="pn-r-story-grid">
+        <article data-tilt-card><b>01</b><span class="material-symbols-outlined">schema</span><h3>Structure</h3><p>Subjects, topics, and sets give the student a controlled path instead of scrolling through endless questions.</p></article>
+        <article data-tilt-card><b>02</b><span class="material-symbols-outlined">psychology_alt</span><h3>Feedback</h3><p>Every session should push the student toward what they missed, saved, or need to retry.</p></article>
+        <article data-tilt-card><b>03</b><span class="material-symbols-outlined">rocket_launch</span><h3>Momentum</h3><p>Daily missions, final exams, and dashboard signals turn boring revision into a repeatable loop.</p></article>
       </div>
     </section>
 
-    <!-- Product workflow -->
-    <section class="pn-v6-workflow pn-reveal">
-      <div class="pn-v6-workflow-copy">
-        <span>Study flow</span>
-        <h2>From first question to confident review.</h2>
-        <p>Start from a subject, move through short focused sets, capture mistakes, then convert your weak points into the next study session.</p>
-        <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary">Start the flow <span class="material-symbols-outlined">play_arrow</span></button>
+    <!-- Feature cards -->
+    <section class="pn-r-feature-board pn-reveal">
+      <div class="pn-r-board-copy">
+        <span>Core modules</span>
+        <h2>Everything points to one goal: answer better under exam pressure.</h2>
+        <p>Each module has a clear role: practice, save, review, simulate, and return stronger.</p>
+        <button onclick="navigateTo('dashboard')" class="pn-v6-btn pn-v6-btn-primary">Open Command Dashboard</button>
       </div>
-      <div class="pn-v6-steps">
-        <article><b>01</b><div><h3>Pick a subject</h3><p>Jump into Pharmacology, Clinical, Pharmaceutics, or Calculations.</p></div></article>
-        <article><b>02</b><div><h3>Solve focused sets</h3><p>Short enough to finish, deep enough to reveal weak points.</p></div></article>
-        <article><b>03</b><div><h3>Review mistakes</h3><p>Turn wrong answers into notes and retry opportunities.</p></div></article>
-        <article><b>04</b><div><h3>Simulate finals</h3><p>Use exam mode to test readiness under timed conditions.</p></div></article>
+      <div class="pn-r-feature-grid">
+        <article data-tilt-card><span class="material-symbols-outlined">quiz</span><h3>Focused Sets</h3><p>20-question sessions keep practice short, measurable, and repeatable.</p></article>
+        <article data-tilt-card><span class="material-symbols-outlined">bookmark</span><h3>Knowledge Bank</h3><p>Saved questions and notes become a personal high-yield notebook.</p></article>
+        <article data-tilt-card><span class="material-symbols-outlined">timer</span><h3>Final Mode</h3><p>Timed exam simulation checks readiness before the real pressure starts.</p></article>
+        <article data-tilt-card><span class="material-symbols-outlined">analytics</span><h3>Weakness Map</h3><p>The dashboard shows where the next session should start.</p></article>
       </div>
     </section>
 
-    <!-- Browse Subjects / dynamic grid target kept for app.js -->
-    <section class="pn-v6-section pn-v6-subject-zone pn-reveal">
-      <div class="pn-v6-section-head pn-v6-section-head-row">
+    <!-- Dynamic subject library target preserved for app.js -->
+    <section class="pn-r-subject-section pn-reveal">
+      <div class="pn-r-section-row">
         <div>
           <span>Subject library</span>
-          <h2>Continue from the module that matters today.</h2>
+          <h2>Pick today’s battlefield.</h2>
+          <p>The cards below are still loaded by your existing JavaScript/data system. I only redesigned the stage around them.</p>
         </div>
-        <button onclick="navigateTo('subjects')" class="pn-v6-text-btn">View all subjects <span class="material-symbols-outlined">arrow_forward</span></button>
+        <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-soft pn-r-dark-soft">View all subjects <span class="material-symbols-outlined">arrow_forward</span></button>
       </div>
-      <div id="home-subjects-grid" class="pn-v6-subject-grid">
+      <div id="home-subjects-grid" class="pn-r-subject-grid pn-v6-subject-grid">
         <div class="pn-v6-subject-skeleton"></div>
         <div class="pn-v6-subject-skeleton"></div>
         <div class="pn-v6-subject-skeleton"></div>
       </div>
     </section>
 
-    <!-- Daily mission -->
-    <section class="pn-v6-daily pn-reveal">
+    <!-- Daily mission preserved IDs -->
+    <section class="pn-v6-daily pn-r-daily pn-reveal">
       <div class="pn-v6-daily-left">
         <span class="pn-v6-pill">Daily Clinical Mission</span>
-        <h2>One short mission to keep momentum alive.</h2>
-        <p>Generate a tiny focused challenge from your question data. Quick enough to start, useful enough to keep your streak moving.</p>
+        <h2>Spin one mission. Win today’s small battle.</h2>
+        <p>A tiny challenge chosen from your loaded data. Enough to keep consistency alive without needing a full study session.</p>
         <div class="pn-v6-daily-meta">
           <span id="daily-subject">CLICK SPIN TO GENERATE TODAY’S SET</span>
           <span id="daily-topic-pill">Topic</span>
@@ -848,37 +831,27 @@ tailwind.config = {
       </div>
     </section>
 
-    <!-- Dashboard teaser + Activity -->
-    <section class="pn-v6-bottom-grid pn-reveal">
-      <article class="pn-v6-command-card">
-        <div class="pn-v6-command-copy">
-          <span>Command dashboard</span>
-          <h2>Know your next move before you waste energy.</h2>
-          <p>Accuracy, weak topics, recent activity, final exam averages, and saved notes guide the next session instead of leaving the student guessing.</p>
+    <!-- Big command center / CTA -->
+    <section class="pn-r-final-cta pn-reveal">
+      <div class="pn-r-final-copy">
+        <span>Command center</span>
+        <h2>The dashboard tells the student what to do next.</h2>
+        <p>Accuracy, saved traps, notes, exam attempts, and weak-topic signals turn the platform from “questions on a page” into a study operating system.</p>
+        <div class="pn-r-final-actions">
           <button onclick="navigateTo('dashboard')" class="pn-v6-btn pn-v6-btn-primary">Open Dashboard</button>
+          <button onclick="navigateTo('finalexam')" class="pn-v6-btn pn-v6-btn-soft">Start Final Exam</button>
         </div>
-        <div class="pn-v6-command-visual">
-          <div><strong>82%</strong><span>Target readiness</span></div>
-          <div><strong>Weak</strong><span>Antibiotics interactions</span></div>
-          <div><strong>Next</strong><span>Retry wrong answers</span></div>
-        </div>
-      </article>
-      <aside class="pn-v6-activity-card">
-        <div class="pn-v6-activity-head">
-          <h2>Recent activity</h2>
-          <button onclick="navigateTo('dashboard')">View all</button>
-        </div>
-        <div class="pn-v6-timeline">
-          <article><b></b><div><h3>Completed: Antibiotics Set 1</h3><p>30 questions · progress saved locally</p><span>Today</span></div></article>
-          <article><b></b><div><h3>Saved: Dabigatran dosing</h3><p>Added to knowledge bank</p><span>Yesterday</span></div></article>
-          <article><b></b><div><h3>Added note: CYP450 rule</h3><p>Personal clinical insight saved</p><span>3 days ago</span></div></article>
-        </div>
-      </aside>
+      </div>
+      <div class="pn-r-dashboard-wall" data-tilt-card>
+        <article><span>Target</span><strong>80%+</strong><p>Readiness goal</p></article>
+        <article><span>Next</span><strong>Retry</strong><p>Wrong answers</p></article>
+        <article><span>Focus</span><strong>Weak</strong><p>Topic analysis</p></article>
+      </div>
     </section>
 
-    <footer class="pn-v6-footer">
+    <footer class="pn-r-footer">
       <p>Pharmacy Nexus</p>
-      <span>Built for pharmacy students · Structured practice · Local-first progress</span>
+      <span>Premium static pharmacy learning platform · GitHub Pages ready</span>
       <button onclick="navigateTo('about')">About platform</button>
     </footer>
   </div>
