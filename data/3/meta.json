@@ -4,5 +4,21 @@
   "description": "Lab interpretation: LFT, KFT, glucose tests, lipid profile, electrolytes, ABG.",
   "order": 3,
   "sections": [],
-  "topics": []
+  "topics": [
+    {
+      "id": "myocardial-infarction-cardiac-biomarkers",
+      "name": "Myocardial Infarction & Cardiac Biomarkers",
+      "description": "",
+      "order": 0,
+      "section": "",
+      "sectionId": "",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/3/myocardial-infarction-cardiac-biomarkers.json"
+    }
+  ]
 }
