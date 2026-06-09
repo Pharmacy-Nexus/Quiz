@@ -2,6 +2,1537 @@
   "subjectId": "bio-chemictry",
   "topicId": "fate-of-carbon-skeletons-of-amino-acids",
   "topicName": "Fate of Carbon Skeletons of Amino Acids",
-  "updatedAt": "2026-06-09T20:48:34.881Z",
-  "questions": []
+  "updatedAt": "2026-06-09T20:50:45.013Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "After removal of the amino group, the remaining part of an amino acid is called:",
+      "options": [
+        "Carbon skeleton",
+        "Urea",
+        "Ammonia",
+        "Peptide bond"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid catabolism separates the amino group from the carbon skeleton. The carbon skeleton then enters energy metabolism or biosynthetic pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Amino acid carbon skeletons can be converted into:",
+      "options": [
+        "Glucose, fat, ketone bodies, CO₂, and H₂O",
+        "Only ammonia",
+        "Only urea",
+        "Only nitrogen gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After nitrogen removal, amino acid carbon skeletons can be oxidized or converted to glucose, glycogen, fatty acids, or ketone bodies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucogenic amino acids are degraded into intermediates that can form:",
+      "options": [
+        "Glucose",
+        "Only ketone bodies",
+        "Only cholesterol",
+        "Only ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucogenic amino acids produce pyruvate or TCA cycle intermediates that can enter gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketogenic amino acids are degraded into products that can form:",
+      "options": [
+        "Ketone bodies",
+        "Only glucose",
+        "Only urea",
+        "Only glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenic amino acids produce acetyl-CoA or acetoacetate-related products, which can be used for ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Mixed amino acids can produce:",
+      "options": [
+        "Both glucose and ketone bodies",
+        "Only glucose",
+        "Only ketone bodies",
+        "Only ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mixed amino acids have catabolic products that can contribute to both glucogenic and ketogenic pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The purely ketogenic amino acids are:",
+      "options": [
+        "Leucine and lysine",
+        "Alanine and glycine",
+        "Aspartate and glutamate",
+        "Serine and proline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine and lysine are the classic purely ketogenic amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Phenylalanine is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Purely ketogenic only",
+        "Purely glucogenic only",
+        "Non-metabolizable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine produces both glucose-forming and ketone-forming catabolic products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tyrosine is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Purely ketogenic only",
+        "Purely glucogenic only",
+        "Nonessential only, with no metabolic fate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is one of the mixed amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Tryptophan is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Purely glucogenic only",
+        "Purely ketogenic only",
+        "Non-catabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan can produce products contributing to both glucose and ketone body formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Isoleucine is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Purely ketogenic",
+        "Purely glucogenic",
+        "Not metabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isoleucine has both glucogenic and ketogenic catabolic products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Threonine is classified as:",
+      "options": [
+        "Mixed glucogenic and ketogenic",
+        "Purely ketogenic only",
+        "Purely glucogenic only",
+        "Not used in metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Threonine is listed among mixed amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Alanine is commonly degraded to:",
+      "options": [
+        "Pyruvate",
+        "Acetoacetate only",
+        "Urea directly",
+        "Cholesterol directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine undergoes transamination to pyruvate, making it glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pyruvate can be used for:",
+      "options": [
+        "Gluconeogenesis",
+        "Urea formation directly",
+        "Ammonia storage only",
+        "Protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate is a glucogenic intermediate and can be converted toward glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "α-Ketoglutarate is an intermediate of:",
+      "options": [
+        "TCA cycle",
+        "Glycogen storage only",
+        "Urea final product",
+        "Protein digestion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate is a TCA cycle intermediate and is also central in amino group transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Succinyl-CoA is an intermediate of:",
+      "options": [
+        "TCA cycle",
+        "Glycolysis only",
+        "Protein digestion only",
+        "Ammonia excretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA is a TCA cycle intermediate and can be produced from some amino acid carbon skeletons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fumarate is an intermediate of:",
+      "options": [
+        "TCA cycle",
+        "Glycogen synthesis only",
+        "Ketone body transport only",
+        "Urea excretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarate is a TCA cycle intermediate and can also connect urea cycle metabolism with TCA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Oxaloacetate is important because it can support:",
+      "options": [
+        "Gluconeogenesis",
+        "Direct urea excretion only",
+        "Lipoprotein digestion only",
+        "Ammonia storage only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate is a major glucogenic TCA intermediate that can be converted toward glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acetyl-CoA is commonly associated with:",
+      "options": [
+        "Ketogenic fate",
+        "Direct glucose formation",
+        "Direct urea synthesis",
+        "Peptide absorption"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA can enter ketone body synthesis, but it cannot produce net glucose in humans.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Carbon skeletons entering TCA cycle can be:",
+      "options": [
+        "Oxidized for energy",
+        "Converted directly to ammonia",
+        "Stored as amino acid reserve",
+        "Excreted unchanged only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TCA intermediates can be oxidized to produce reducing equivalents and ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Amino acid carbon skeletons can contribute to fatty acid synthesis mainly when:",
+      "options": [
+        "Energy and carbon supply are excessive",
+        "Protein intake is zero",
+        "Nitrogen excretion stops",
+        "Urea cycle is absent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess amino acid carbon skeletons can be converted to acetyl-CoA or related intermediates and used for fat synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The carbon skeleton of amino acids can enter metabolism after:",
+      "options": [
+        "Removal or transfer of amino group",
+        "Protein digestion only in stomach",
+        "Direct urea excretion",
+        "Conversion to nitrogen gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The amino group must be handled separately before the carbon skeleton enters central metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glucogenic amino acids commonly form:",
+      "options": [
+        "Pyruvate or TCA cycle intermediates",
+        "Only acetone",
+        "Only ammonia",
+        "Only urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These intermediates can be converted toward glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Ketogenic amino acids commonly form:",
+      "options": [
+        "Acetyl-CoA or acetoacetate-related products",
+        "Oxaloacetate only",
+        "Glucose directly",
+        "Urea directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenic amino acids produce products that can be used for ketone body synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The \"common intermediates\" of amino acid degradation include:",
+      "options": [
+        "Acetyl-CoA, pyruvate, α-ketoglutarate, succinyl-CoA, fumarate, and oxaloacetate",
+        "Urea, ammonia, uric acid, and creatinine only",
+        "Glycogen, starch, and cellulose",
+        "HDL, LDL, and VLDL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are central metabolic intermediates that connect amino acid catabolism with energy metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Amino acid carbon skeletons are mainly handled by:",
+      "options": [
+        "Central metabolic pathways",
+        "Digestive enzymes only",
+        "Plasma lipoproteins only",
+        "Bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon skeletons enter central metabolism through pyruvate, acetyl-CoA, or TCA intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why alanine is glucogenic?",
+      "options": [
+        "It can be converted to pyruvate",
+        "It produces only acetoacetate",
+        "It produces only acetone",
+        "It cannot enter metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine transamination forms pyruvate. Pyruvate can enter gluconeogenesis, so alanine is glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which intermediate makes an amino acid glucogenic?",
+      "options": [
+        "Oxaloacetate",
+        "Acetoacetate only",
+        "Acetone only",
+        "Cholesterol ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate can be converted to phosphoenolpyruvate and then glucose, so amino acids forming oxaloacetate are glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which intermediate makes an amino acid glucogenic?",
+      "options": [
+        "α-Ketoglutarate",
+        "Acetyl-CoA only",
+        "Acetoacetate only",
+        "β-Hydroxybutyrate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate is a TCA intermediate that can support gluconeogenesis through the TCA cycle and oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which intermediate makes an amino acid glucogenic?",
+      "options": [
+        "Succinyl-CoA",
+        "Acetoacetate only",
+        "Acetyl-CoA only",
+        "Acetone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA enters TCA cycle and can contribute to oxaloacetate formation, supporting gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which intermediate makes an amino acid glucogenic?",
+      "options": [
+        "Fumarate",
+        "Acetyl-CoA only",
+        "Acetoacetate only",
+        "Cholesterol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarate is a TCA intermediate that can eventually form oxaloacetate and support glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product makes an amino acid ketogenic?",
+      "options": [
+        "Acetyl-CoA",
+        "Oxaloacetate",
+        "α-Ketoglutarate",
+        "Pyruvate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA can be used for ketone body synthesis, so amino acids forming acetyl-CoA have ketogenic potential.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which product makes an amino acid ketogenic?",
+      "options": [
+        "Acetoacetate",
+        "Fumarate only",
+        "Oxaloacetate only",
+        "Pyruvate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetoacetate is directly related to ketone body metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is acetyl-CoA not considered net glucogenic in humans?",
+      "options": [
+        "Acetyl-CoA cannot be converted back to pyruvate for net glucose synthesis",
+        "Acetyl-CoA always becomes glucose directly",
+        "Acetyl-CoA contains nitrogen",
+        "Acetyl-CoA is a protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate dehydrogenase is irreversible, and acetyl-CoA carbons are lost as CO₂ in TCA cycle, so acetyl-CoA cannot give net glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acids are purely ketogenic?",
+      "options": [
+        "Leucine and lysine",
+        "Alanine and glycine",
+        "Aspartate and glutamate",
+        "Proline and serine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine and lysine produce only ketone-forming products on catabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mixed glucogenic and ketogenic?",
+      "options": [
+        "Phenylalanine",
+        "Leucine",
+        "Lysine",
+        "Alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine is mixed because it can produce both glucose-forming and ketone-forming products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mixed glucogenic and ketogenic?",
+      "options": [
+        "Tyrosine",
+        "Leucine",
+        "Lysine",
+        "Aspartate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is classified as mixed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mixed glucogenic and ketogenic?",
+      "options": [
+        "Tryptophan",
+        "Alanine",
+        "Glycine",
+        "Glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan is listed among mixed amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mixed glucogenic and ketogenic?",
+      "options": [
+        "Isoleucine",
+        "Leucine",
+        "Lysine",
+        "Alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isoleucine has both glucogenic and ketogenic degradation products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is mixed glucogenic and ketogenic?",
+      "options": [
+        "Threonine",
+        "Glycine",
+        "Alanine",
+        "Aspartate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Threonine is included in the mixed group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes \"rest of amino acids\" in the file's classification?",
+      "options": [
+        "They are glucogenic",
+        "They are purely ketogenic",
+        "They are not metabolized",
+        "They are all semi-essential"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After ketogenic and mixed amino acids, the rest are classified as glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Alanine → pyruvate",
+        "Alanine → acetone only",
+        "Alanine → urea directly",
+        "Alanine → cholesterol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alanine is converted to pyruvate by transamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Glutamate → α-ketoglutarate",
+        "Glutamate → acetone only",
+        "Glutamate → cholesterol ester only",
+        "Glutamate → bile salt directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate can be deaminated to α-ketoglutarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Aspartate → oxaloacetate",
+        "Aspartate → acetone only",
+        "Aspartate → cholesterol only",
+        "Aspartate → bile salts only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate can be transaminated to oxaloacetate, making it glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Phenylalanine → mixed fate",
+        "Phenylalanine → purely ketogenic only",
+        "Phenylalanine → non-metabolized",
+        "Phenylalanine → urea only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine is both glucogenic and ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Leucine → ketogenic",
+        "Leucine → purely glucogenic",
+        "Leucine → mixed",
+        "Leucine → not catabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine is purely ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which pair is correctly matched?",
+      "options": [
+        "Lysine → ketogenic",
+        "Lysine → purely glucogenic",
+        "Lysine → mixed",
+        "Lysine → converted directly to pyruvate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine is purely ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains how amino acid carbon skeletons can produce energy?",
+      "options": [
+        "They can enter TCA cycle and be oxidized",
+        "They are excreted unchanged",
+        "They directly become urea",
+        "They become ammonia only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon skeletons entering TCA cycle can produce NADH/FADH₂ and support ATP production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains how amino acid carbon skeletons can produce glucose?",
+      "options": [
+        "They form pyruvate or TCA intermediates that support gluconeogenesis",
+        "They form only acetyl-CoA",
+        "They form ammonia directly",
+        "They form urea directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose production requires glucogenic intermediates, especially pyruvate and TCA intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains how amino acid carbon skeletons can produce fat?",
+      "options": [
+        "Excess carbon skeletons can be converted to acetyl-CoA and fatty acids",
+        "Amino groups directly form fat",
+        "Urea is converted into fatty acids",
+        "Ammonia is converted into TAG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When energy is abundant, amino acid carbon can be converted into lipid storage forms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why glucogenic amino acids are important during fasting?",
+      "options": [
+        "They can supply carbon for gluconeogenesis",
+        "They directly form urea as energy fuel",
+        "They prevent all protein breakdown",
+        "They are stored unchanged"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During fasting, glucogenic amino acids help maintain blood glucose by providing substrates for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why ketogenic amino acids cannot maintain blood glucose alone?",
+      "options": [
+        "Their products do not provide net glucose carbon",
+        "They directly form oxaloacetate only",
+        "They are not metabolized",
+        "They contain no carbon skeleton"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenic amino acids form acetyl-CoA/acetoacetate-related products, which do not generate net glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acids are most clearly unable to give net glucose?",
+      "options": [
+        "Leucine and lysine",
+        "Alanine and glycine",
+        "Aspartate and glutamate",
+        "Serine and proline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because leucine and lysine are purely ketogenic, they cannot contribute to net glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which group can contribute to both glucose and ketone body formation?",
+      "options": [
+        "Phenylalanine, tyrosine, tryptophan, isoleucine, threonine",
+        "Leucine and lysine only",
+        "Alanine and glycine only",
+        "Aspartate and glutamate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are the mixed glucogenic and ketogenic amino acids listed in the file.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with pyruvate?",
+      "options": [
+        "Glucogenic fate",
+        "Pure ketogenic fate only",
+        "Urea synthesis directly",
+        "Ammonia storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pyruvate can enter gluconeogenesis, making amino acids degraded to pyruvate glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with acetyl-CoA?",
+      "options": [
+        "Ketogenic fate",
+        "Direct urea formation",
+        "Direct ammonia storage",
+        "Protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA can form ketone bodies but cannot form net glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with oxaloacetate?",
+      "options": [
+        "Glucogenic fate",
+        "Pure ketogenic fate",
+        "Direct urea formation only",
+        "Lipoprotein transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate can support gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with fumarate?",
+      "options": [
+        "Glucogenic fate",
+        "Pure ketogenic fate only",
+        "Ammonia storage only",
+        "Protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarate can enter TCA cycle and support formation of oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with succinyl-CoA?",
+      "options": [
+        "Glucogenic fate",
+        "Pure ketogenic fate only",
+        "Direct urea formation",
+        "Cholesterol transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Succinyl-CoA can enter TCA cycle and contribute to gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid fate is most connected with α-ketoglutarate?",
+      "options": [
+        "Glucogenic fate",
+        "Pure ketogenic fate only",
+        "Urea excretion only",
+        "Bile salt transport only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "α-Ketoglutarate can proceed through TCA cycle to oxaloacetate, supporting glucose formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the link between amino acid catabolism and TCA cycle?",
+      "options": [
+        "Many amino acid carbon skeletons enter as TCA intermediates",
+        "Amino acid carbon skeletons never enter TCA",
+        "TCA produces amino groups only",
+        "TCA occurs only in intestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid degradation produces intermediates such as α-ketoglutarate, succinyl-CoA, fumarate, and oxaloacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the link between amino acid catabolism and gluconeogenesis?",
+      "options": [
+        "Some amino acids produce pyruvate or TCA intermediates that can form glucose",
+        "All amino acids produce acetone only",
+        "Amino acids cannot form glucose",
+        "Only urea forms glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the glucogenic concept.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains the link between amino acid catabolism and ketogenesis?",
+      "options": [
+        "Some amino acids produce acetyl-CoA or acetoacetate-related products",
+        "All amino acids produce oxaloacetate only",
+        "Urea produces ketone bodies directly",
+        "Ammonia is converted directly to acetone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenic amino acids can support ketone body formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the fate of amino acid carbon skeletons in energy excess?",
+      "options": [
+        "They may be converted to fatty acids",
+        "They must all be excreted unchanged",
+        "They are stored as amino acid reserves",
+        "They cannot enter metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess carbon can be directed toward lipogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the fate of amino acid carbon skeletons when energy is needed?",
+      "options": [
+        "They may be oxidized via TCA cycle",
+        "They are converted only to urea",
+        "They are stored unchanged",
+        "They are converted only to ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon skeletons can be oxidized to produce energy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process directly handles the carbon skeleton rather than nitrogen?",
+      "options": [
+        "Gluconeogenesis",
+        "Urea formation only",
+        "Ammonia excretion only",
+        "Glutamine nitrogen transport only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluconeogenesis uses carbon skeletons, not amino nitrogen.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which process directly handles amino nitrogen rather than carbon skeleton?",
+      "options": [
+        "Urea cycle",
+        "Fatty acid synthesis only",
+        "TCA oxidation only",
+        "Gluconeogenesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The urea cycle disposes of nitrogen, while carbon skeletons enter metabolic pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best separates nitrogen fate from carbon skeleton fate?",
+      "options": [
+        "Amino groups become ammonia/urea, while carbon skeletons enter energy or biosynthetic pathways",
+        "Amino groups become glucose, while carbon skeletons become ammonia",
+        "Both are excreted unchanged",
+        "Both are stored as protein reserves only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid catabolism has two parallel parts: nitrogen disposal and carbon skeleton metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence is correct for a glucogenic amino acid?",
+      "options": [
+        "Amino acid → keto acid/TCA intermediate → oxaloacetate → glucose",
+        "Amino acid → acetone only → glucose",
+        "Amino acid → urea → glucose",
+        "Amino acid → ammonia → glycogen directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucogenic amino acids enter gluconeogenesis through pyruvate or TCA intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated sequence is correct for a ketogenic amino acid?",
+      "options": [
+        "Amino acid → acetyl-CoA/acetoacetate-related product → ketone bodies",
+        "Amino acid → oxaloacetate → glucose only",
+        "Amino acid → urea → glycogen",
+        "Amino acid → ammonia → pyruvate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ketogenic amino acids form ketone body precursors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes this topic?",
+      "options": [
+        "Amino acid carbon skeletons enter metabolism as pyruvate, acetyl-CoA, or TCA intermediates, allowing oxidation, gluconeogenesis, ketogenesis, or fat synthesis",
+        "Amino acid carbon skeletons are always excreted as urea",
+        "Amino acid carbon skeletons are stored unchanged in proteins",
+        "Amino acid carbon skeleton metabolism is unrelated to TCA cycle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the central concept: carbon skeletons connect amino acid catabolism to major energy and biosynthetic pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A fasting patient uses amino acids to maintain blood glucose. Which amino acid type is most useful?",
+      "options": [
+        "Glucogenic amino acids",
+        "Pure ketogenic amino acids",
+        "Amino acids that form only acetone",
+        "Amino acids that cannot be catabolized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucogenic amino acids provide pyruvate or TCA intermediates for gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid would be least useful for net glucose production?",
+      "options": [
+        "Leucine",
+        "Alanine",
+        "Aspartate",
+        "Glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine is purely ketogenic and cannot provide net glucose-forming carbon.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid would be least useful for net glucose production?",
+      "options": [
+        "Lysine",
+        "Alanine",
+        "Glycine",
+        "Serine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine is purely ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient is breaking down muscle protein during starvation. Which carbon skeleton fate helps maintain blood glucose?",
+      "options": [
+        "Conversion to pyruvate or TCA intermediates for gluconeogenesis",
+        "Conversion only to acetone",
+        "Conversion only to urea",
+        "Conversion directly to ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscle protein breakdown supplies glucogenic amino acids, which support hepatic gluconeogenesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A mixed amino acid can be useful in both:",
+      "options": [
+        "Gluconeogenesis and ketogenesis",
+        "Urea formation only",
+        "Ammonia storage only",
+        "Protein digestion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mixed amino acids generate both glucose-forming and ketone-forming products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pair contains only mixed amino acids?",
+      "options": [
+        "Phenylalanine and tyrosine",
+        "Leucine and lysine",
+        "Alanine and glycine",
+        "Aspartate and glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine and tyrosine are mixed glucogenic and ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pair contains only purely ketogenic amino acids?",
+      "options": [
+        "Leucine and lysine",
+        "Phenylalanine and tyrosine",
+        "Isoleucine and threonine",
+        "Alanine and serine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine and lysine are the only purely ketogenic amino acids listed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which group contains only mixed amino acids?",
+      "options": [
+        "Tryptophan, isoleucine, threonine",
+        "Leucine, lysine, alanine",
+        "Aspartate, glutamate, glycine",
+        "Serine, proline, alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan, isoleucine, and threonine are mixed amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why can amino acids form fatty acids when energy intake is high?",
+      "options": [
+        "Their carbon skeletons can be converted to acetyl-CoA and lipogenic intermediates",
+        "Their amino groups directly form TAG",
+        "Urea becomes fatty acid",
+        "Ammonia becomes cholesterol ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess carbon skeletons may enter lipogenesis after nitrogen removal.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why does amino acid catabolism require nitrogen disposal before carbon skeleton use?",
+      "options": [
+        "Amino nitrogen must be removed or transferred because free ammonia is toxic",
+        "Carbon skeletons contain no carbon",
+        "Amino acids cannot be metabolized",
+        "Nitrogen is stored as glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrogen handling is essential to prevent ammonia toxicity while allowing carbon skeleton metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which carbon skeleton product can enter TCA but cannot give net glucose?",
+      "options": [
+        "Acetyl-CoA",
+        "Oxaloacetate",
+        "Fumarate",
+        "Succinyl-CoA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acetyl-CoA enters TCA cycle but does not generate net oxaloacetate or glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which carbon skeleton product can directly support net glucose formation?",
+      "options": [
+        "Oxaloacetate",
+        "Acetyl-CoA only",
+        "Acetoacetate only",
+        "Acetone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxaloacetate is a gluconeogenic intermediate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid type can be converted into acetyl-CoA/acetoacetate but not net glucose?",
+      "options": [
+        "Pure ketogenic",
+        "Pure glucogenic",
+        "Essential only",
+        "Semi-essential only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pure ketogenic amino acids form ketone precursors and do not contribute to net glucose synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the metabolic fate of leucine?",
+      "options": [
+        "It is purely ketogenic and contributes to ketone body formation",
+        "It is purely glucogenic and forms oxaloacetate",
+        "It is not catabolized",
+        "It forms urea directly as its carbon fate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leucine is a classic ketogenic amino acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the metabolic fate of lysine?",
+      "options": [
+        "It is purely ketogenic and contributes to ketone body formation",
+        "It is purely glucogenic and forms pyruvate",
+        "It is mixed like tyrosine",
+        "It forms glucose directly without intermediates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysine is purely ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the metabolic fate of phenylalanine?",
+      "options": [
+        "It is mixed and can produce both glucose- and ketone-forming products",
+        "It is purely ketogenic like leucine",
+        "It is purely glucogenic like alanine",
+        "It has no carbon skeleton fate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine is listed as mixed glucogenic and ketogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains the metabolic fate of tyrosine?",
+      "options": [
+        "It is mixed and can produce both glucose- and ketone-forming products",
+        "It is purely ketogenic like lysine",
+        "It is purely glucogenic only",
+        "It cannot be degraded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is also mixed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated sequence best represents amino acid catabolism?",
+      "options": [
+        "Amino acid → amino group handling + carbon skeleton → central metabolic intermediates",
+        "Amino acid → storage protein only → no metabolism",
+        "Amino acid → cholesterol directly → no nitrogen disposal",
+        "Amino acid → urea only with no carbon fate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid catabolism separates nitrogen disposal from carbon skeleton metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best explains glucogenic vs ketogenic classification?",
+      "options": [
+        "Classification depends on whether carbon skeletons form glucose-producing intermediates, ketone-producing intermediates, or both",
+        "Classification depends only on whether amino acid is essential",
+        "Classification depends only on protein digestion site",
+        "Classification depends only on nitrogen excretion route"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Metabolic fate classification is based on carbon skeleton products, not dietary requirement.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-fate-of-carbon-skeletons-of-amino-acids-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Amino acid carbon skeletons connect protein metabolism with TCA cycle, gluconeogenesis, ketogenesis, and fatty acid synthesis",
+        "Amino acid carbon skeletons are converted only to urea",
+        "Amino acid carbon skeletons are never oxidized",
+        "Amino acid carbon skeletons cannot enter glucose or fat metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full high-yield summary. After nitrogen removal, amino acid carbon skeletons become central metabolic intermediates and can be used for energy or biosynthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
