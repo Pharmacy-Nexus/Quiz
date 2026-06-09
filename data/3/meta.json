@@ -13,13 +13,13 @@
       "section": "",
       "sectionId": "",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
-        "hard": 0
+        "easy": 20,
+        "medium": 40,
+        "hard": 30
       },
-      "questionsCount": 0,
+      "questionsCount": 90,
       "file": "data/3/myocardial-infarction-cardiac-biomarkers.json"
     }
   ],
-  "updatedAt": "2026-06-09T21:36:51.168Z"
+  "updatedAt": "2026-06-09T21:37:18.576Z"
 }
