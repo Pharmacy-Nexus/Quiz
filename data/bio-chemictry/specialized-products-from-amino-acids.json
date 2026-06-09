@@ -2,6 +2,1537 @@
   "subjectId": "bio-chemictry",
   "topicId": "specialized-products-from-amino-acids",
   "topicName": "Specialized Products from Amino Acids",
-  "updatedAt": "2026-06-09T20:50:09.636Z",
-  "questions": []
+  "updatedAt": "2026-06-09T20:56:26.746Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine is classified as:",
+      "options": [
+        "Nonessential glycogenic amino acid",
+        "Essential ketogenic amino acid",
+        "Semi-essential ketogenic amino acid",
+        "Non-metabolizable amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine can be synthesized in the body and its carbon skeleton can contribute to glucose-forming pathways.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine contributes atoms to the synthesis of:",
+      "options": [
+        "Purine bases",
+        "Fatty acids only",
+        "Cholesterol only",
+        "Ketone bodies only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine contributes carbon atoms 4 and 5 and nitrogen atom 7 in purine ring synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutathione is formed from:",
+      "options": [
+        "Glutamate, cysteine, and glycine",
+        "Glycine, alanine, and lysine",
+        "Methionine, tyrosine, and leucine",
+        "Arginine, histidine, and tryptophan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione is a tripeptide made of glutamate, cysteine, and glycine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutathione is important mainly for:",
+      "options": [
+        "Defense against toxic compounds and oxidative stress",
+        "Storage of glucose",
+        "Synthesis of cholesterol esters only",
+        "Formation of bile acids only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione is an important protective molecule against toxic compounds, drugs, carcinogens, and oxidative damage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Creatine is synthesized from:",
+      "options": [
+        "Glycine, arginine, and methionine",
+        "Leucine, lysine, and valine",
+        "Alanine, serine, and cysteine only",
+        "Tyrosine, phenylalanine, and tryptophan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine synthesis requires glycine and arginine for guanidoacetate formation, and methionine as methyl donor through SAM.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Creatine phosphate is found mainly in:",
+      "options": [
+        "Muscle",
+        "RBCs only",
+        "Adipose tissue only",
+        "Bile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate acts as a high-energy phosphate reserve in muscle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Creatine phosphate donates phosphate to:",
+      "options": [
+        "ADP to form ATP",
+        "Glucose to form glycogen",
+        "Cholesterol to form bile acids",
+        "Urea to form ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate can transfer its phosphate group to ADP, rapidly regenerating ATP during muscle activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The end product of creatine metabolism is:",
+      "options": [
+        "Creatinine",
+        "Urea",
+        "Ammonia",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate loses water and phosphate to form creatinine, which is excreted in urine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Creatinine is normally excreted by:",
+      "options": [
+        "Kidney in urine",
+        "Lung in breath",
+        "Liver in bile only",
+        "Skin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatinine is rapidly removed from blood and excreted by the kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine conjugates with cholic acid to form:",
+      "options": [
+        "Glycocholic acid",
+        "Creatinine",
+        "Dopamine",
+        "Melanin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine combines with cholic acid to form glycocholic acid, a bile salt.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine and succinyl-CoA form:",
+      "options": [
+        "δ-Aminolevulinic acid",
+        "Dopamine",
+        "Homocysteine",
+        "Creatinine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine + succinyl-CoA form δ-aminolevulinic acid, the first precursor in heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Heme combines with globin protein to form:",
+      "options": [
+        "Hemoglobin",
+        "Creatine",
+        "Glutathione",
+        "Serotonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin is composed of heme plus globin protein.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine can be converted reversibly into:",
+      "options": [
+        "Serine",
+        "Leucine",
+        "Cholesterol",
+        "Creatinine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine and serine can be interconverted through a one-carbon transfer reaction involving tetrahydrofolate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glycine conjugates with benzoate to form:",
+      "options": [
+        "Hippuric acid",
+        "Uric acid",
+        "Lactic acid",
+        "Acetoacetic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine detoxifies benzoate by forming hippuric acid in the liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In collagen, glycine is present at:",
+      "options": [
+        "Every third position",
+        "Every first position only",
+        "Only the C-terminal end",
+        "Only the N-terminal end"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen has a repeating pattern where glycine occurs at every third amino acid position.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-016",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamic acid is classified as:",
+      "options": [
+        "Nonessential glycogenic amino acid",
+        "Essential ketogenic amino acid",
+        "Semi-essential ketogenic amino acid",
+        "Purely ketogenic amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamic acid can be synthesized and is glucogenic.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-017",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamate is important in removal of amino groups by:",
+      "options": [
+        "Transdeamination",
+        "Lipolysis",
+        "Cholesterol esterification",
+        "Glycogenolysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate collects amino groups by transamination and can release ammonia by oxidative deamination.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-018",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Glutamine is synthesized from:",
+      "options": [
+        "Glutamate and ammonia",
+        "Glycine and cholic acid",
+        "Tyrosine and iodine",
+        "Methionine and ATP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamine synthetase amidates glutamate to form glutamine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-019",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "N-acetylglutamate activates:",
+      "options": [
+        "Carbamoyl phosphate synthase I",
+        "HMG-CoA reductase",
+        "LCAT",
+        "Creatine kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N-acetylglutamate is the essential activator of CPS-I in the urea cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-020",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "GABA is derived from:",
+      "options": [
+        "Glutamate",
+        "Lysine",
+        "Cholesterol",
+        "Glycine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate can be decarboxylated to form GABA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-021",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "GABA functions mainly as:",
+      "options": [
+        "Inhibitory neurotransmitter",
+        "Bile salt",
+        "Steroid hormone",
+        "Plasma lipoprotein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GABA is an inhibitory transmitter in the brain and spinal cord.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-022",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Arginine is classified as:",
+      "options": [
+        "Semi-essential glycogenic amino acid",
+        "Purely ketogenic amino acid",
+        "Essential only in all adults",
+        "Non-metabolizable amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine can be synthesized but may be insufficient during growth and some physiological states.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-023",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Arginine is involved in:",
+      "options": [
+        "Urea formation",
+        "Cholesterol ester formation only",
+        "Ketone body synthesis only",
+        "Glycogen digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine is an intermediate in the urea cycle and is cleaved by arginase to form urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-024",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "L-arginine is precursor of:",
+      "options": [
+        "Nitric oxide",
+        "Cholesterol",
+        "Glycogen",
+        "Creatinine directly only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitric oxide synthase converts L-arginine into nitric oxide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-025",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Nitric oxide causes:",
+      "options": [
+        "Smooth muscle relaxation and vasodilation",
+        "Glycogen storage only",
+        "Peptide bond hydrolysis",
+        "Urea inhibition only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NO acts as a signaling molecule and causes vasodilation through cGMP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glutathione?",
+      "options": [
+        "A tripeptide made of glutamate, cysteine, and glycine",
+        "A bile salt made of glycine and cholic acid",
+        "A steroid hormone precursor",
+        "A ketone body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutathione is γ-glutamyl cysteinyl glycine and functions in cellular defense.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid provides the sulfur-containing functional group important in glutathione?",
+      "options": [
+        "Cysteine",
+        "Glycine",
+        "Alanine",
+        "Tyrosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cysteine provides the sulfhydryl group that is important for glutathione’s reducing and detoxifying function.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which molecule is formed in kidney during creatine synthesis?",
+      "options": [
+        "Guanidoacetate",
+        "Dopamine",
+        "Melanin",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the kidney, arginine transfers its guanidino group to glycine, forming guanidoacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which reaction occurs in the liver during creatine synthesis?",
+      "options": [
+        "Methylation of guanidoacetate by SAM",
+        "Iodination of tyrosine",
+        "Decarboxylation of glutamate",
+        "Conjugation of glycine with benzoate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In liver, SAM donates a methyl group to guanidoacetate to form creatine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid supplies the methyl group for creatine synthesis through SAM?",
+      "options": [
+        "Methionine",
+        "Leucine",
+        "Lysine",
+        "Alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methionine forms S-adenosylmethionine, the major methyl donor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Creatine kinase catalyzes:",
+      "options": [
+        "Creatine + ATP ⇌ creatine phosphate + ADP",
+        "Glycine + cholic acid → glycocholic acid",
+        "Glutamate → GABA + CO₂",
+        "Tyrosine → melanin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine kinase phosphorylates creatine in muscle, forming creatine phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Creatine phosphate is important during muscle exercise because it:",
+      "options": [
+        "Rapidly regenerates ATP from ADP",
+        "Stores glucose as glycogen",
+        "Produces bile salts",
+        "Activates CPS-I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate provides a fast phosphate reserve for ATP regeneration.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Creatinine is formed from creatine phosphate by loss of:",
+      "options": [
+        "Water and phosphate",
+        "Carbon dioxide only",
+        "Ammonia only",
+        "Iodine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine phosphate loses water and phosphate to form creatinine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glycine product is important in bile salt formation?",
+      "options": [
+        "Glycocholic acid",
+        "Dopamine",
+        "Histamine",
+        "GABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine conjugates with cholic acid to form glycocholic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glycine product is important in heme synthesis?",
+      "options": [
+        "δ-Aminolevulinic acid",
+        "Creatinine",
+        "Nitric oxide",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine and succinyl-CoA condense to form δ-aminolevulinic acid, the first committed precursor of heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cofactor is important for glycine + succinyl-CoA → ALA?",
+      "options": [
+        "Pyridoxal phosphate",
+        "Biotin",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase requires PLP, derived from vitamin B6.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes glycine in collagen?",
+      "options": [
+        "It appears every third residue in the triple helix",
+        "It is absent from collagen",
+        "It appears only once in the whole molecule",
+        "It is replaced by glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine’s small size allows tight packing of the collagen triple helix.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "X and Y positions in collagen are commonly:",
+      "options": [
+        "Proline/hydroxyproline and lysine/hydroxylysine",
+        "Leucine and lysine only",
+        "Glucose and galactose",
+        "Cholesterol and bile acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collagen repeating units commonly contain glycine every third residue, with proline/hydroxyproline and lysine/hydroxylysine in other positions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hippuric acid formation is an example of:",
+      "options": [
+        "Detoxification by glycine conjugation",
+        "Ketogenesis",
+        "Cholesterol synthesis",
+        "Protein digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine conjugates with benzoate to form non-toxic hippuric acid in liver.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which amino acid is a precursor for folic acid structure?",
+      "options": [
+        "Glutamic acid",
+        "Leucine",
+        "Lysine",
+        "Isoleucine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Folic acid contains pteridine, PABA, and one or more glutamic acid residues.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-041",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which glutamate derivative activates the first step of the urea cycle?",
+      "options": [
+        "N-acetylglutamate",
+        "GABA",
+        "Creatinine",
+        "Dopamine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N-acetylglutamate activates carbamoyl phosphate synthase I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-042",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GABA is formed by:",
+      "options": [
+        "Decarboxylation of glutamate",
+        "Methylation of glycine",
+        "Conjugation of glycine with cholic acid",
+        "Hydroxylation of phenylalanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate decarboxylase converts glutamate to GABA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-043",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which vitamin-derived coenzyme is required for glutamate decarboxylation to GABA?",
+      "options": [
+        "PLP",
+        "Biotin",
+        "FAD",
+        "NADPH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acid decarboxylation reactions commonly require PLP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-044",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes arginine in urea cycle?",
+      "options": [
+        "Arginine is cleaved by arginase to urea and ornithine",
+        "Arginine is converted directly to dopamine",
+        "Arginine is a precursor of thyroid hormones",
+        "Arginine is a pure ketogenic amino acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine is the immediate precursor of urea in the urea cycle.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-045",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Arginine contributes to creatine synthesis by donating:",
+      "options": [
+        "Guanidino group",
+        "Methyl group",
+        "Iodine group",
+        "Heme group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine transfers the guanidino group to glycine to form guanidoacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-046",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nitric oxide synthase uses L-arginine to form:",
+      "options": [
+        "Nitric oxide",
+        "Dopamine",
+        "Glycocholic acid",
+        "Creatinine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L-arginine is the precursor of nitric oxide.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-047",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nitric oxide acts through:",
+      "options": [
+        "cGMP",
+        "cAMP only",
+        "NADH only",
+        "ATP synthase only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NO activates signaling that increases cGMP, leading to smooth muscle relaxation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-048",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Nitric oxide synthase requires several cofactors including:",
+      "options": [
+        "NAD, FAD, FMN, heme, and tetrahydrobiopterin",
+        "Biotin only",
+        "Vitamin C only",
+        "Coenzyme A only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists these cofactors for nitric oxide synthase.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-049",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Methionine is converted into:",
+      "options": [
+        "S-adenosylmethionine",
+        "Glycocholic acid",
+        "Creatinine directly",
+        "Melanin directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methionine reacts with ATP to form SAM.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-050",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "SAM is best described as:",
+      "options": [
+        "Major methyl group donor",
+        "Major phosphate donor only",
+        "Bile salt",
+        "Ketone body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SAM donates active methyl groups in transmethylation reactions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "One methyl acceptor for SAM is:",
+      "options": [
+        "Norepinephrine",
+        "Glycine only",
+        "Glucose only",
+        "Urea only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SAM can donate methyl groups to norepinephrine to form epinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "SAM methylates guanidoacetate to form:",
+      "options": [
+        "Creatine",
+        "Dopamine",
+        "Melanin",
+        "GABA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Guanidoacetate is methylated by SAM to form creatine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "SAM participates in conversion of uracil into:",
+      "options": [
+        "Thymine",
+        "Adenine",
+        "Guanine",
+        "Cytosine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists uracil → thymine as a methylation reaction involving methyl group transfer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenylalanine is converted mainly in liver into:",
+      "options": [
+        "Tyrosine",
+        "Glutamate",
+        "Glycine",
+        "Arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine hydroxylase converts phenylalanine to tyrosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Phenylalanine hydroxylase requires:",
+      "options": [
+        "Tetrahydrobiopterin",
+        "Biotin",
+        "Vitamin K",
+        "FAD only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine hydroxylation requires tetrahydrobiopterin as coenzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tetrahydrobiopterin becomes:",
+      "options": [
+        "Dihydrobiopterin",
+        "Creatinine",
+        "Glycocholic acid",
+        "Heme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During phenylalanine hydroxylation, tetrahydrobiopterin is oxidized to dihydrobiopterin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dihydrobiopterin is regenerated by:",
+      "options": [
+        "Dihydrobiopterin reductase using NADPH",
+        "Creatine kinase using ATP",
+        "Arginase using water",
+        "LCAT using lecithin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dihydrobiopterin reductase regenerates tetrahydrobiopterin using NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tyrosine becomes essential in deficiency of:",
+      "options": [
+        "Phenylalanine hydroxylase",
+        "Arginase",
+        "Creatine kinase",
+        "LCAT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If phenylalanine cannot be converted to tyrosine, tyrosine must be supplied in the diet.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tyrosine is precursor of:",
+      "options": [
+        "Catecholamines, melanin, and thyroid hormones",
+        "Bile salts, creatinine, and urea only",
+        "Purines only",
+        "Ketone bodies only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine gives rise to dopamine, norepinephrine, epinephrine, melanin, T3, and T4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Catecholamines are synthesized from tyrosine in:",
+      "options": [
+        "Adrenergic neurons and adrenal medulla",
+        "RBCs only",
+        "Bile ducts only",
+        "Skeletal muscle only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine-derived catecholamines are synthesized at storage sites such as adrenergic neurons and adrenal medulla.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The first step in catecholamine synthesis is:",
+      "options": [
+        "Tyrosine hydroxylation to DOPA",
+        "Dopamine methylation to tyrosine",
+        "Glycine conjugation with benzoate",
+        "Arginine conversion to urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is first hydroxylated to form DOPA.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "DOPA is converted into:",
+      "options": [
+        "Dopamine",
+        "Glycocholic acid",
+        "Creatinine",
+        "Hippuric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DOPA is decarboxylated to dopamine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dopamine is converted into:",
+      "options": [
+        "Norepinephrine",
+        "Glycine",
+        "Creatinine",
+        "Thyroxine directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine β-hydroxylase converts dopamine into norepinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dopamine β-hydroxylase contains:",
+      "options": [
+        "Copper",
+        "Zinc only",
+        "Iron only",
+        "Iodine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that dopamine β-hydroxylase is a copper-containing enzyme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In adrenal medulla, norepinephrine is converted to epinephrine by:",
+      "options": [
+        "Methylation",
+        "Deamination",
+        "Transamination",
+        "Desulfhydration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Norepinephrine is methylated to epinephrine using a methyl donor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The methyl donor for norepinephrine → epinephrine is:",
+      "options": [
+        "SAM",
+        "Glycine",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SAM donates the methyl group needed to convert norepinephrine to epinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Melanin is derived from:",
+      "options": [
+        "Tyrosine",
+        "Glycine",
+        "Arginine",
+        "Methionine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine is a precursor for melanin pigment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thyroid hormones are derived from:",
+      "options": [
+        "Tyrosine",
+        "Glycine",
+        "Arginine",
+        "Glutamate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine residues participate in thyroid hormone synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tryptophan can form:",
+      "options": [
+        "5-hydroxytryptamine and nicotinic acid",
+        "Creatine and creatinine only",
+        "Bile salts only",
+        "Heme only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tryptophan is a precursor of serotonin and niacin/nicotinic acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which integrated statement best summarizes specialized products?",
+      "options": [
+        "Amino acids serve as precursors for peptides, heme, bile salts, creatine, neurotransmitters, hormones, pigments, and detoxification products",
+        "Amino acids are used only for protein synthesis",
+        "Amino acids produce only urea",
+        "Amino acids cannot form biologically active molecules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amino acids have many biosynthetic roles beyond protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-071",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in glycine availability would most directly affect synthesis of:",
+      "options": [
+        "Purines, heme, glutathione, creatine, collagen, and bile salts",
+        "Cholesterol esters only",
+        "Ketone bodies only",
+        "Glycogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine is a highly versatile precursor used in several specialized products.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-072",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired glycine conjugation with benzoate. Which detoxification product decreases?",
+      "options": [
+        "Hippuric acid",
+        "Creatinine",
+        "Dopamine",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benzoate is detoxified by conjugation with glycine to form hippuric acid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-073",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in ALA synthase would most directly impair:",
+      "options": [
+        "Heme synthesis",
+        "Creatine synthesis",
+        "NO synthesis",
+        "Catecholamine synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALA synthase forms δ-aminolevulinic acid from glycine and succinyl-CoA, initiating heme synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-074",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in creatine kinase would most directly impair:",
+      "options": [
+        "Rapid ATP regeneration in muscle",
+        "Heme synthesis",
+        "Thyroid hormone synthesis",
+        "Melanin synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Creatine kinase catalyzes reversible transfer of phosphate between creatine phosphate and ADP/ATP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-075",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in renal creatine synthesis step would impair formation of:",
+      "options": [
+        "Guanidoacetate",
+        "Epinephrine",
+        "Melanin",
+        "Glycocholic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The kidney step transfers the guanidino group from arginine to glycine to form guanidoacetate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-076",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in SAM formation would most directly impair:",
+      "options": [
+        "Transmethylation reactions",
+        "Glycine conjugation with benzoate only",
+        "Pepsin activation",
+        "Urea hydrolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SAM is the major methyl donor; impaired SAM formation affects methylation reactions such as creatine and epinephrine synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-077",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pathway requires glycine, arginine, and methionine together?",
+      "options": [
+        "Creatine synthesis",
+        "Heme synthesis",
+        "GABA synthesis",
+        "Thyroid hormone synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine forms the backbone, arginine donates the guanidino group, and methionine via SAM donates the methyl group.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-078",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pathway requires glycine and succinyl-CoA together?",
+      "options": [
+        "Heme synthesis",
+        "Nitric oxide synthesis",
+        "Dopamine synthesis",
+        "Melanin synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycine and succinyl-CoA condense to form ALA, leading to heme.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-079",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pathway requires arginine and produces a vasodilator?",
+      "options": [
+        "Nitric oxide synthesis",
+        "Melanin synthesis",
+        "Heme synthesis",
+        "Glycocholic acid synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NO is synthesized from L-arginine and functions as a smooth muscle relaxant and vasodilator.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-080",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has impaired nitric oxide synthase activity. Which function is most directly reduced?",
+      "options": [
+        "cGMP-mediated vasodilation",
+        "Creatinine excretion",
+        "Glycine conjugation",
+        "Purine ring formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NO mediates smooth muscle relaxation through cGMP.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-081",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which amino acid links urea cycle, creatine synthesis, and nitric oxide synthesis?",
+      "options": [
+        "Arginine",
+        "Leucine",
+        "Lysine",
+        "Alanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine is involved in urea formation, creatine synthesis, and NO production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-082",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in glutamate decarboxylase would reduce:",
+      "options": [
+        "GABA synthesis",
+        "Creatine synthesis",
+        "Bile salt synthesis",
+        "Catecholamine synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GABA is formed by decarboxylation of glutamate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-083",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in N-acetylglutamate synthesis would impair:",
+      "options": [
+        "CPS-I activation and urea cycle initiation",
+        "Creatinine excretion only",
+        "Dopamine synthesis only",
+        "Glycine conjugation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N-acetylglutamate is required to activate carbamoyl phosphate synthase I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-084",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Phenylalanine hydroxylase deficiency would make which amino acid conditionally essential?",
+      "options": [
+        "Tyrosine",
+        "Glycine",
+        "Alanine",
+        "Glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If phenylalanine cannot be converted to tyrosine, tyrosine must be obtained from the diet.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-085",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which cofactor system links phenylalanine hydroxylation to NADPH?",
+      "options": [
+        "Tetrahydrobiopterin regeneration by dihydrobiopterin reductase",
+        "Creatine kinase reaction",
+        "Arginase reaction",
+        "Glycine conjugation reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phenylalanine hydroxylation uses tetrahydrobiopterin, which is regenerated from dihydrobiopterin using NADPH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-086",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in tyrosine hydroxylase would most directly impair:",
+      "options": [
+        "DOPA and catecholamine synthesis",
+        "Glycocholic acid synthesis",
+        "Creatinine formation",
+        "GABA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tyrosine hydroxylation to DOPA is the first step in catecholamine synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-087",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in dopamine β-hydroxylase would directly reduce:",
+      "options": [
+        "Norepinephrine formation",
+        "Dopamine formation from DOPA",
+        "Glycine formation from serine",
+        "Urea formation from arginine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dopamine β-hydroxylase converts dopamine to norepinephrine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-088",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in SAM-dependent methylation in adrenal medulla would impair:",
+      "options": [
+        "Epinephrine formation from norepinephrine",
+        "Dopamine formation from tyrosine",
+        "Glycine formation from benzoate",
+        "GABA formation from glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Norepinephrine is methylated to epinephrine using SAM.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-089",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated map is correct?",
+      "options": [
+        "Phenylalanine → tyrosine → DOPA → dopamine → norepinephrine → epinephrine",
+        "Glycine → dopamine → norepinephrine → melanin",
+        "Arginine → tyrosine → thyroxine → creatinine",
+        "Glutamate → glycocholic acid → creatine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct catecholamine-related pathway beginning with phenylalanine conversion to tyrosine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-specialized-products-from-amino-acids-090",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Glycine, glutamate, arginine, methionine, phenylalanine, tyrosine, and tryptophan generate many specialized products including heme, GSH, creatine, NO, SAM-dependent methylated products, catecholamines, melanin, thyroid hormones, serotonin, and nicotinic acid",
+        "Amino acids form only proteins and urea",
+        "Tyrosine produces only ketone bodies",
+        "Methionine has no role in methylation reactions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full high-yield summary of specialized amino acid products. Amino acids are not only protein building blocks; they are precursors of many essential biochemical molecules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
