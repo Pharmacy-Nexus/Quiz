@@ -549,9 +549,19 @@ tailwind.config = {
 </style>
   <link rel="stylesheet" href="./assets/css/pharmacy-bot.css">
   <link rel="stylesheet" href="./assets/css/pn-global-home-v7.css">
+  <link rel="stylesheet" href="./assets/css/pn-subjects-3d-clean-v14.css">
   <link rel="stylesheet" href="./assets/css/pn-skill-tree-v17.css">
 </head>
 <body class="min-h-screen flex">
+<div id="pn-premium-loader" aria-hidden="true">
+  <div class="pn-loader-grid"></div>
+  <div class="pn-loader-core">
+    <span class="pn-loader-kicker">Initializing</span>
+    <strong>PHARMACY<br/>NEXUS</strong>
+    <div class="pn-loader-line"><i></i></div>
+    <p>Building your clinical command center</p>
+  </div>
+</div>
 
 <!-- ============================================================ SIDEBAR ============================================================ -->
 <aside id="sidebar" class="hidden md:flex flex-col h-screen w-64 fixed left-0 top-0 bg-surface-container-low z-50 py-8 px-4 gap-2">
@@ -2322,7 +2332,10 @@ tailwind.config = {
 
 <script src="assets/js/admin-config.js"></script>
 <script src="assets/js/app.js?v=28"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 <script src="./assets/js/pn-global-home-v7.js"></script>
+<script src="./assets/js/pn-premium-effects-v1.js"></script>
 <script src="./assets/js/pn-skill-tree-v17.js"></script>
 
 <div id="pn-modal-root"></div>
