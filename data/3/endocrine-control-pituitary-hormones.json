@@ -2,7 +2,7 @@
   "subjectId": "3",
   "topicId": "endocrine-control-pituitary-hormones",
   "topicName": "Endocrine Control & Pituitary Hormones",
-  "updatedAt": "2026-06-09T21:54:20.609Z",
+  "updatedAt": "2026-06-09T21:59:50.332Z",
   "questions": [
     {
       "id": "3-endocrine-control-pituitary-hormones-001",
@@ -510,6 +510,1026 @@
       ],
       "correctAnswer": 0,
       "explanation": "Paracrine regulation involves local factors acting on adjacent cells without entering systemic circulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Endocrinology is the study of:",
+      "options": [
+        "Enzymes only",
+        "Hormones secreted into blood to act on distant cells",
+        "Blood clotting factors only",
+        "Structural proteins only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Endocrinology studies hormones, which are chemical agents secreted from specialized glands into blood to influence cells at distant sites.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Endocrine regulation differs from paracrine regulation because endocrine signals:",
+      "options": [
+        "Act only on the same cell",
+        "Are secreted into blood and act at distant sites",
+        "Act only inside mitochondria",
+        "Never require receptors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Endocrine hormones travel through blood to distant target cells, while paracrine factors act on nearby cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Autocrine regulation means that a factor:",
+      "options": [
+        "Acts on distant cells through blood",
+        "Acts on adjacent cells only",
+        "Acts on the same cell that produced it",
+        "Acts without receptors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Autocrine factors stimulate or regulate the same cell responsible for their synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "All hormonal regulators act through:",
+      "options": [
+        "Receptor proteins",
+        "Hemoglobin",
+        "Albumin only",
+        "DNA only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormonal regulators act via receptor proteins, which may be on the cell surface or inside target cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hormone receptors may be located:",
+      "options": [
+        "Only in plasma",
+        "Only in urine",
+        "On the cell surface or within target cells",
+        "Only inside red blood cells"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Receptors can be located on the cell membrane or intracellularly, depending on hormone type.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The three broad structural classes of hormones are:",
+      "options": [
+        "Proteins/peptides, amino acid derivatives, steroids",
+        "Lipids, carbohydrates, minerals",
+        "Vitamins, enzymes, antibodies",
+        "Albumins, globulins, fibrinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormones are classified structurally into peptide/protein hormones, amino acid derivatives, and steroid hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most hormones are:",
+      "options": [
+        "Steroid hormones",
+        "Peptides or proteins",
+        "Glycolipids",
+        "Bile salts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The file states that most hormones fall into the peptide or protein class.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Thyrotropin-releasing hormone is an example of:",
+      "options": [
+        "A small peptide hormone",
+        "A steroid hormone",
+        "A glycolipid hormone",
+        "A mineral hormone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TRH is a small hypothalamic peptide containing only three amino acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Insulin is an example of:",
+      "options": [
+        "Large peptide/protein hormone",
+        "Steroid hormone",
+        "Amino acid derivative only",
+        "Glycolipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin is a relatively large peptide/protein hormone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Adrenaline and thyroid hormones are examples of:",
+      "options": [
+        "Amino acid derivatives",
+        "Steroid hormones",
+        "Glycolipids",
+        "Nucleotides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrenaline and thyroid hormones are classified as amino acid derivative hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-041",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Steroid hormones are derivatives of:",
+      "options": [
+        "Cholesterol",
+        "Glucose",
+        "Amino acids",
+        "Glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steroid hormones are all derived from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-042",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which hormones bind to specific hormone-binding glycoproteins in plasma?",
+      "options": [
+        "Steroid and thyroid hormones",
+        "All peptide hormones only",
+        "Insulin only",
+        "ADH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steroid and thyroid hormones bind to specific plasma hormone-binding glycoproteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-043",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The biologically active hormone fraction in plasma is usually:",
+      "options": [
+        "Bound fraction",
+        "Free/unbound fraction",
+        "Degraded fraction",
+        "Urinary fraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The free or unbound hormone fraction is biologically active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-044",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Many hormones such as GnRH are released in:",
+      "options": [
+        "Pulsatile fashion",
+        "Constant non-variable fashion",
+        "Urine only",
+        "Red blood cells only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GnRH and many other hormones are secreted in pulses.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-045",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "ACTH and cortisol are examples of hormones with:",
+      "options": [
+        "Circadian rhythm",
+        "No daily variation",
+        "No relation to time",
+        "Constant urinary secretion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH, and consequently cortisol, show circadian rhythm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-046",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The pituitary gland is located:",
+      "options": [
+        "At the base of the skull",
+        "Inside the liver",
+        "Inside the pancreas",
+        "In the adrenal cortex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pituitary lies in a bony cavity at the base of the skull.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-047",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The pituitary gland weighs approximately:",
+      "options": [
+        "0.5 g",
+        "5 g",
+        "50 g",
+        "500 g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that the pituitary is a small organ weighing about 0.5 g.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-048",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most of the pituitary gland is:",
+      "options": [
+        "Anterior pituitary",
+        "Posterior pituitary",
+        "Pineal tissue",
+        "Thyroid tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About 75% of the gland is anterior pituitary or adenohypophysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-049",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Posterior pituitary is also called:",
+      "options": [
+        "Neurohypophysis",
+        "Adenohypophysis",
+        "Thyroid gland",
+        "Adrenal medulla"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior pituitary is the neurohypophysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-050",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The anterior pituitary is also called:",
+      "options": [
+        "Adenohypophysis",
+        "Neurohypophysis",
+        "Pancreatic islet",
+        "Pineal body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anterior pituitary is called the adenohypophysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why can a single random plasma hormone measurement be misleading?",
+      "options": [
+        "Hormone concentrations are normally variable",
+        "Hormones never circulate in blood",
+        "All hormones are constant all day",
+        "Hormones cannot be measured"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hormone concentrations may vary due to pulsatile release, circadian rhythm, feedback, drugs, and physiological stimuli.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor may influence hormone synthesis or release?",
+      "options": [
+        "Hypothalamic peptides",
+        "Neurotransmitters",
+        "Drugs",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hormone secretion may be influenced by hypothalamic peptides, neurotransmitters, other hormones, and drugs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The anterior pituitary is regulated mainly by:",
+      "options": [
+        "Hypothalamic hormones through portal capillaries",
+        "Direct urine flow",
+        "Bile acids",
+        "Red blood cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anterior pituitary is influenced by stimulatory and inhibitory hypothalamic hormones through portal capillaries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The posterior pituitary is mainly:",
+      "options": [
+        "Specialized nerve endings derived from hypothalamus",
+        "A group of thyroid follicles",
+        "Adrenal cortical tissue",
+        "Pancreatic beta cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior pituitary is a collection of specialized nerve endings from hypothalamic neurons.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "TRH from hypothalamus stimulates release of:",
+      "options": [
+        "TSH",
+        "ACTH",
+        "FSH only",
+        "AVP only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TRH stimulates anterior pituitary release of TSH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "CRH stimulates release of:",
+      "options": [
+        "ACTH",
+        "TSH",
+        "GH only",
+        "Oxytocin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corticotropin-releasing hormone stimulates ACTH secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GnRH stimulates release of:",
+      "options": [
+        "LH and FSH",
+        "ACTH only",
+        "TSH only",
+        "Prolactin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GnRH stimulates secretion of the gonadotropins LH and FSH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GHRH stimulates release of:",
+      "options": [
+        "Growth hormone",
+        "Prolactin only",
+        "ADH only",
+        "Oxytocin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GHRH stimulates GH release from the anterior pituitary.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Dopamine mainly inhibits:",
+      "options": [
+        "Prolactin",
+        "TSH",
+        "ACTH",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diagram shows dopamine exerting inhibitory control over prolactin secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH is chemically a:",
+      "options": [
+        "Polypeptide hormone",
+        "Steroid hormone",
+        "Glycolipid",
+        "Bile acid derivative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Growth hormone is a polypeptide hormone.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH stimulates protein synthesis by:",
+      "options": [
+        "Increasing amino acid transport into muscle cells",
+        "Decreasing amino acid uptake",
+        "Blocking ribosomes completely",
+        "Inhibiting protein synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH increases amino acid transport into muscle and stimulates protein synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH effect on carbohydrate metabolism is:",
+      "options": [
+        "Hyperglycemic and antagonistic to insulin",
+        "Strongly hypoglycemic only",
+        "Identical to insulin",
+        "No effect on glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH is hyperglycemic and generally antagonizes the effects of insulin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH secretion is inhibited by:",
+      "options": [
+        "Hyperglycemia",
+        "Hypoglycemia",
+        "Deep sleep",
+        "Exercise"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In normal subjects, hyperglycemia suppresses GH secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH promotes lipid metabolism mainly by:",
+      "options": [
+        "Increasing lipolysis and circulating free fatty acids",
+        "Blocking lipolysis completely",
+        "Decreasing circulating fatty acids",
+        "Converting fat to glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH promotes lipolysis from adipose tissue and increases circulating FFAs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH promotes positive balance of:",
+      "options": [
+        "Calcium, magnesium, and phosphate",
+        "Sodium only",
+        "Chloride only",
+        "Iron only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH promotes positive Ca, Mg, and phosphate balance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH secretion is mainly stimulated by:",
+      "options": [
+        "Hypothalamic GHRH",
+        "Dopamine only",
+        "Oxytocin",
+        "Aldosterone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH secretion from anterior pituitary is mainly stimulated by GHRH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH secretion is usually associated with:",
+      "options": [
+        "Exercise",
+        "Onset of deep sleep",
+        "Falling plasma glucose before meals",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "GH pulses are associated with exercise, deep sleep, and falling plasma glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Somatostatin is also known as:",
+      "options": [
+        "GH-release inhibiting hormone",
+        "GH-releasing hormone",
+        "TSH",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Somatostatin inhibits GH secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Somatostatin is found in:",
+      "options": [
+        "Hypothalamus, brain, gastrointestinal tract, and pancreatic islet cells",
+        "Only adrenal cortex",
+        "Only red blood cells",
+        "Only kidney tubules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Somatostatin is widely distributed, including hypothalamus, brain, GIT, and pancreatic islets.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following stimulates GH secretion?",
+      "options": [
+        "Stress",
+        "Glucagon",
+        "Arginine",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "GH may be stimulated by stress, glucagon, amino acids such as arginine, L-dopa, clonidine, and deep sleep.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which drug can stimulate GH secretion?",
+      "options": [
+        "Clonidine",
+        "Furosemide",
+        "Warfarin",
+        "Aspirin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonidine is listed as a GH stimulant.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High-dose glucose suppression of GH is used in investigation of:",
+      "options": [
+        "Acromegaly and gigantism",
+        "Diabetes insipidus",
+        "Hyperprolactinemia only",
+        "Hypocalcemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH suppression by glucose is used to investigate suspected acromegaly and gigantism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Most patients with GH excess have:",
+      "options": [
+        "Anterior pituitary adenomas",
+        "Pancreatic tumors only",
+        "Thyroid nodules only",
+        "Kidney stones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH excess is commonly due to adenomas of the anterior pituitary.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Gigantism results from GH excess:",
+      "options": [
+        "Before fusion of epiphyseal plates",
+        "After epiphyseal fusion only",
+        "Only in elderly adults",
+        "Only after menopause"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH excess in childhood before epiphyseal fusion causes gigantism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Acromegaly results from GH excess:",
+      "options": [
+        "After epiphyseal fusion",
+        "Before epiphyseal fusion only",
+        "Only during infancy",
+        "Only during fetal life"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH excess in adults after epiphyseal fusion causes acromegaly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A feature of acromegaly is:",
+      "options": [
+        "Enlargement of hands, jaw, soft tissues, and heart",
+        "Severe loss of jaw size",
+        "Reduced soft tissue bulk",
+        "Absence of metabolic effects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acromegaly causes increased bone and soft tissue bulk, including hands, jaw, sinuses, and heart.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Impaired glucose tolerance in acromegaly occurs because GH:",
+      "options": [
+        "Antagonizes insulin",
+        "Acts exactly like insulin",
+        "Always lowers glucose",
+        "Has no effect on carbohydrate metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH is hyperglycemic and antagonizes insulin, so excess GH may impair glucose tolerance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lack of GH suppression during OGTT suggests:",
+      "options": [
+        "Acromegaly",
+        "Diabetes insipidus",
+        "Hypoprolactinemia",
+        "Gonadal failure only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lack of GH suppression after oral glucose is diagnostic for acromegaly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "IGF-1 is useful in GH excess because it:",
+      "options": [
+        "Is produced in response to GH",
+        "Is produced only by red cells",
+        "Blocks GH release completely",
+        "Measures ADH directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IGF-1 is produced in response to GH and is useful for diagnosis and monitoring treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "First-line treatment for most acromegalic patients is:",
+      "options": [
+        "Hypophysectomy",
+        "Insulin only",
+        "Antibiotics",
+        "Iron therapy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surgery, specifically hypophysectomy, is first-line for most acromegalic patients.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Medical treatment for acromegaly may include:",
+      "options": [
+        "Synthetic somatostatin analogues",
+        "Insulin only",
+        "Oxytocin blockers only",
+        "Antibiotics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Somatostatin analogues inhibit GH secretion and are used medically.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH deficiency in children causes:",
+      "options": [
+        "Dwarfism",
+        "Gigantism",
+        "Acromegaly",
+        "Hyperprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH deficiency in children causes dwarfism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "GH deficiency in adults:",
+      "options": [
+        "Rarely causes clinical symptoms",
+        "Always causes gigantism",
+        "Always causes acromegaly",
+        "Always causes galactorrhea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In adults, GH deficiency rarely causes clinical symptoms.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which test can be used as preliminary screening for GH insufficiency?",
+      "options": [
+        "Exercise test",
+        "LDH test",
+        "Serum bilirubin only",
+        "Urinalysis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exercise can be used as a preliminary screening test for GH secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is a potent GH stimulant used in testing?",
+      "options": [
+        "Clonidine",
+        "Albumin",
+        "Cortisol",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonidine is described as a potent stimulant for GH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Insulin-induced hypoglycemia testing in children is less used because:",
+      "options": [
+        "It has hazards",
+        "It cannot stimulate GH",
+        "It measures only prolactin",
+        "It is unrelated to GH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that many centers avoid insulin-induced hypoglycemia in children due to hazards.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Treatment of proven GH deficiency in children uses:",
+      "options": [
+        "Genetically engineered GH",
+        "Steroid withdrawal only",
+        "Antibiotics",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetically engineered GH is used to treat children with proven GH deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Prolactin is:",
+      "options": [
+        "A polypeptide derived from the same parent molecule as GH",
+        "A steroid hormone",
+        "A thyroid hormone",
+        "A mineralocorticoid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PRL is a polypeptide derived from the same parent molecule as GH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Prolactin after parturition mainly:",
+      "options": [
+        "Stimulates milk secretion",
+        "Initiates uterine contraction",
+        "Increases renal water reabsorption",
+        "Stimulates adrenal steroid synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After parturition, prolactin stimulates milk secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Initiation of milk flow is induced by:",
+      "options": [
+        "Oxytocin",
+        "Prolactin",
+        "ACTH",
+        "TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prolactin stimulates milk secretion, but oxytocin induces the initiation of milk flow.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
