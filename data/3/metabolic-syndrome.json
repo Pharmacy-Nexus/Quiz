@@ -2,6 +2,1027 @@
   "subjectId": "3",
   "topicId": "metabolic-syndrome",
   "topicName": "Metabolic Syndrome",
-  "updatedAt": "2026-06-09T21:40:13.203Z",
-  "questions": []
+  "updatedAt": "2026-06-09T21:40:52.490Z",
+  "questions": [
+    {
+      "id": "3-metabolic-syndrome-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Obesity is best defined as:",
+      "options": [
+        "A temporary increase in body water",
+        "Accumulation of excess body fat due to disturbance in body weight regulation",
+        "Increase in muscle mass only",
+        "Reduction in adipocyte number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Obesity is a disorder of body weight regulatory systems characterized by excess body fat accumulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which indirect measure is commonly used to assess body fat in most individuals?",
+      "options": [
+        "Serum albumin",
+        "Body mass index",
+        "Blood glucose only",
+        "Serum sodium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Body fat is difficult to measure directly, so BMI is commonly used as an indirect measure that correlates with body fat in most people.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "BMI is calculated as:",
+      "options": [
+        "Weight in kg × height in meters",
+        "Weight in kg / height in meters²",
+        "Height in meters / weight in kg",
+        "Weight in pounds / age"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BMI = weight in kilograms divided by height in meters squared.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The healthy BMI range stated in the file is:",
+      "options": [
+        "10–15",
+        "18.5–24.9",
+        "25–29.9",
+        "≥40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A BMI between 18.5 and 24.9 is considered healthy.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A BMI between 25 and 29.9 is classified as:",
+      "options": [
+        "Underweight",
+        "Healthy weight",
+        "Overweight",
+        "Extremely obese"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Individuals with BMI 25–29.9 are considered overweight.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A BMI equal to or greater than 30 is classified as:",
+      "options": [
+        "Healthy",
+        "Overweight only",
+        "Obese",
+        "Underweight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BMI ≥30 is defined as obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "A BMI over 40 is considered:",
+      "options": [
+        "Healthy weight",
+        "Mild overweight",
+        "Extremely obese",
+        "Normal variation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file states that BMI over 40 is considered extremely obese.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which disease is associated with increased adiposity?",
+      "options": [
+        "Arthritis",
+        "Diabetes",
+        "Hypertension",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Obesity increases the risk of several diseases, including arthritis, diabetes, hypertension, cardiovascular disease, and cancer.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The file describes childhood and adolescent obesity as alarming because:",
+      "options": [
+        "It disappeared completely",
+        "It showed a three-fold increase in prevalence over two decades",
+        "It affects adults only",
+        "It is unrelated to lifestyle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The file highlights a three-fold rise in childhood and adolescent obesity prevalence over the last two decades.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Apple-shaped obesity refers mainly to:",
+      "options": [
+        "Lower body obesity",
+        "Upper body obesity",
+        "Lean body mass",
+        "Bone mass increase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Apple-shaped obesity is upper body obesity with more fat deposition in the trunk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Pear-shaped obesity refers mainly to:",
+      "options": [
+        "Upper body obesity",
+        "Lower body obesity",
+        "Visceral-only obesity",
+        "Brain fat deposition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pear-shaped obesity reflects more fat distributed in the hips and thighs.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which fat distribution carries higher metabolic risk?",
+      "options": [
+        "Apple-shaped obesity",
+        "Pear-shaped obesity",
+        "Fat limited to hips and thighs",
+        "Low waist-to-hip ratio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Upper body/apple-shaped obesity is associated with higher risk of metabolic disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most body fat is stored in:",
+      "options": [
+        "Visceral depots",
+        "Subcutaneous depots",
+        "Blood plasma",
+        "Bone marrow only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About 80–90% of body fat is stored in subcutaneous depots.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Visceral fat is located:",
+      "options": [
+        "Just under the skin only",
+        "Within the abdominal cavity near the digestive tract",
+        "Inside bones only",
+        "In skeletal muscle fibers only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visceral fat is stored in omental and mesenteric depots within the abdominal cavity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most obesity is due to:",
+      "options": [
+        "Only increased adipocyte number",
+        "Only increased adipocyte size",
+        "Increased adipocyte size and number",
+        "Loss of adipocytes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most obesity involves both hypertrophy, increased fat cell size, and hyperplasia, increased fat cell number.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is BMI useful in obesity assessment?",
+      "options": [
+        "It directly measures every fat depot",
+        "It provides relative weight adjusted for height",
+        "It measures visceral fat exactly",
+        "It identifies adipocyte age"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BMI adjusts weight for height, allowing comparison within and between populations.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which is a limitation of BMI?",
+      "options": [
+        "It does not directly measure body fat",
+        "It cannot be calculated from weight and height",
+        "It only applies to children",
+        "It measures adipocyte number directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI is indirect; it correlates with body fat in most individuals but does not directly measure fat mass or distribution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A BMI of 28 kg/m² is classified as:",
+      "options": [
+        "Healthy weight",
+        "Overweight",
+        "Obese",
+        "Extremely obese"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BMI 25–29.9 is overweight.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A BMI of 32 kg/m² is classified as:",
+      "options": [
+        "Healthy weight",
+        "Overweight",
+        "Obese",
+        "Underweight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BMI ≥30 is classified as obese.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A BMI of 42 kg/m² is classified as:",
+      "options": [
+        "Healthy",
+        "Overweight",
+        "Obese but not severe",
+        "Extremely obese"
+      ],
+      "correctAnswer": 3,
+      "explanation": "BMI over 40 is considered extremely obese.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which waist-to-hip ratio defines apple-shaped obesity in women?",
+      "options": [
+        "Less than 0.5",
+        "More than 0.8",
+        "Less than 0.8",
+        "Exactly 0.6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In women, waist-to-hip ratio >0.8 is defined as android/apple-shaped obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which waist-to-hip ratio defines apple-shaped obesity in men?",
+      "options": [
+        "More than 1.0",
+        "Less than 1.0",
+        "Less than 0.8",
+        "Exactly 0.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In men, waist-to-hip ratio >1.0 indicates android/apple-shaped obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pear-shaped obesity in women is defined by waist-to-hip ratio:",
+      "options": [
+        "More than 1.0",
+        "More than 0.8",
+        "Less than 0.8",
+        "More than 1.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In women, WHR <0.8 reflects gynoid/pear-shaped obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pear-shaped obesity in men is defined by waist-to-hip ratio:",
+      "options": [
+        "Less than 1.0",
+        "More than 1.0",
+        "More than 1.5",
+        "Exactly 0.8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In men, WHR <1.0 reflects gynoid/pear-shaped obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Why is waist-to-hip ratio clinically useful?",
+      "options": [
+        "It estimates body shape and metabolic risk",
+        "It measures serum lipids directly",
+        "It replaces all biochemical tests",
+        "It measures adipocyte lifespan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Body shape indices help identify patients at higher risk for metabolic disease associated with obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about pear-shaped obesity is correct?",
+      "options": [
+        "It usually has higher metabolic risk than apple shape",
+        "It is associated with lower metabolic risk",
+        "It means visceral fat predominance",
+        "It occurs only in men"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pear-shaped obesity has lower metabolic risk and may even be protective in some studies.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Subcutaneous fat represents approximately:",
+      "options": [
+        "10–20% of body fat",
+        "30–40% of body fat",
+        "80–90% of body fat",
+        "100% of body fat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "About 80–90% of stored fat is subcutaneous.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Visceral fat represents approximately:",
+      "options": [
+        "10–20% of body fat",
+        "80–90% of body fat",
+        "60–70% of body fat",
+        "Less than 1% always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About 10–20% of body fat is stored in visceral depots.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Visceral adipocytes are described as:",
+      "options": [
+        "The least metabolically active adipocytes",
+        "The most metabolically active adipocytes",
+        "Completely inactive fat stores",
+        "Unable to release fatty acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The file states that visceral adipocytes are the most metabolically active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Higher risk in upper body obesity is partly related to:",
+      "options": [
+        "Increased free fatty acid availability from lipolysis",
+        "Complete absence of lipolysis",
+        "Lower visceral metabolic activity",
+        "Reduced abdominal fat activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abdominal subcutaneous and visceral depots have high lipolysis rates, increasing free fatty acid availability.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Lower-body subcutaneous adipocytes, especially in women, tend to:",
+      "options": [
+        "Mobilize fatty acids more slowly",
+        "Be smaller and inactive only",
+        "Cause the highest metabolic risk",
+        "Convert directly into muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gluteal-femoral adipocytes are larger, efficient at fat deposition, and mobilize fatty acids more slowly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which depot is more closely associated with the digestive tract?",
+      "options": [
+        "Visceral depot",
+        "Subcutaneous gluteal-femoral depot",
+        "Bone marrow fat only",
+        "Intramuscular glycogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Visceral fat includes omental and mesenteric depots located near the digestive tract.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Abdominal subcutaneous fat and visceral fat in obese subjects both show:",
+      "options": [
+        "High rates of lipolysis",
+        "Complete resistance to fat mobilization",
+        "No relation to free fatty acids",
+        "Lower risk than gluteal-femoral fat always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These depots contribute to increased free fatty acid availability through high lipolysis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Adipocyte hypertrophy means:",
+      "options": [
+        "Increase in fat cell size",
+        "Increase in fat cell number",
+        "Death of adipocytes",
+        "Conversion into muscle cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypertrophy refers to enlargement of existing fat cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Adipocyte hyperplasia means:",
+      "options": [
+        "Increase in fat cell size",
+        "Increase in fat cell number",
+        "Loss of stored triacylglycerols",
+        "Dehydration of adipose tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hyperplasia means increased number of adipocytes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-036",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "During modest weight gain or loss in a non-obese person, the main change is usually:",
+      "options": [
+        "Fat cell size",
+        "Fat cell number only",
+        "Bone mass",
+        "Red blood cell number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The page 10 diagram states that modest weight gain/loss mainly affects adipocyte size, not number.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-037",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "When adipocytes reach maximum size, further weight gain occurs mainly by:",
+      "options": [
+        "Recruitment and proliferation of new preadipocytes",
+        "Loss of fat cells",
+        "Muscle protein breakdown only",
+        "Conversion of fat to bone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once adipocytes reach their expansion limit, preadipocytes proliferate and differentiate into mature fat cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-038",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Weight loss in established obesity occurs mainly by:",
+      "options": [
+        "Decrease in fat cell size",
+        "Immediate disappearance of all adipocytes",
+        "Increase in adipocyte number",
+        "Conversion of adipocytes to hepatocytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diagram indicates that weight loss mainly decreases fat cell size, not number.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-039",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The average age of an adipocyte is estimated to be about:",
+      "options": [
+        "10 days",
+        "10 months",
+        "10 years",
+        "50 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file states that some studies estimate average adipocyte age as 10 years.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-040",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement best explains why obesity may persist after weight loss?",
+      "options": [
+        "Fat cell number may remain increased even when fat cell size decreases",
+        "Weight loss always removes all adipocytes permanently",
+        "BMI becomes impossible to calculate",
+        "Visceral fat cannot mobilize fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weight loss mainly reduces adipocyte size; increased adipocyte number may persist, which can contribute to weight regain tendency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A person weighs 90 kg and is 1.70 m tall. What is the BMI?",
+      "options": [
+        "24.5 kg/m²",
+        "27.2 kg/m²",
+        "31.1 kg/m²",
+        "40.0 kg/m²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BMI = 90 / 1.70² = 90 / 2.89 = 31.1 kg/m², which is obese.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A person weighs 72 kg and is 1.75 m tall. What is the BMI classification?",
+      "options": [
+        "Healthy weight",
+        "Overweight",
+        "Obese",
+        "Extremely obese"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI = 72 / 1.75² = 72 / 3.06 = 23.5 kg/m². This is within the healthy range 18.5–24.9.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A person has BMI = 29.5 kg/m². Which interpretation is correct?",
+      "options": [
+        "Healthy weight",
+        "Overweight, close to obesity threshold",
+        "Extremely obese",
+        "Underweight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BMI 25–29.9 is overweight. A BMI of 29.5 is near the obesity cutoff of 30.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A person weighs 120 kg and is 1.70 m tall. What is the BMI and classification?",
+      "options": [
+        "24.2, healthy",
+        "28.8, overweight",
+        "35.0, obese",
+        "41.5, extremely obese"
+      ],
+      "correctAnswer": 3,
+      "explanation": "BMI = 120 / 1.70² = 120 / 2.89 = 41.5 kg/m², which is over 40 and therefore extremely obese.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A female patient has waist circumference 88 cm and hip circumference 100 cm. What is her waist-to-hip ratio and classification?",
+      "options": [
+        "0.88, apple-shaped obesity",
+        "0.70, pear-shaped obesity",
+        "1.20, pear-shaped obesity",
+        "0.50, healthy BMI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WHR = 88 / 100 = 0.88. In women, WHR >0.8 indicates apple-shaped/android obesity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has waist circumference 95 cm and hip circumference 105 cm. What is his waist-to-hip ratio and body-shape category?",
+      "options": [
+        "0.90, pear-shaped/lower body pattern",
+        "1.20, apple-shaped",
+        "0.60, apple-shaped",
+        "1.50, extremely obese by BMI"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WHR = 95 / 105 = 0.90. In men, WHR <1.0 indicates pear-shaped/gynoid distribution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has waist 110 cm and hip 100 cm. What is the best interpretation?",
+      "options": [
+        "WHR 1.1, apple-shaped obesity with higher metabolic risk",
+        "WHR 0.9, lower-risk pear shape",
+        "WHR 0.5, healthy BMI",
+        "BMI is 1.1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WHR = 110 / 100 = 1.1. In men, WHR >1.0 indicates apple-shaped obesity, linked to higher metabolic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Two patients have the same BMI of 32 kg/m². Patient A has upper body obesity; Patient B has lower body obesity. Which patient is at higher metabolic risk based on the file?",
+      "options": [
+        "Patient A",
+        "Patient B",
+        "Both have identical risk regardless of fat distribution",
+        "Risk cannot be affected by fat distribution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Upper body/apple-shaped obesity and visceral fat accumulation are associated with higher metabolic disease risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman has BMI 31 kg/m² and WHR 0.76. What is the best interpretation?",
+      "options": [
+        "Obese BMI with pear-shaped lower body fat distribution",
+        "Healthy BMI with apple-shaped distribution",
+        "Underweight with visceral obesity",
+        "BMI cannot coexist with WHR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI ≥30 indicates obesity. WHR <0.8 in women indicates pear-shaped/lower body distribution.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A man has BMI 27 kg/m² and WHR 1.08. What is the best interpretation?",
+      "options": [
+        "Overweight with apple-shaped fat distribution",
+        "Healthy weight with pear-shaped distribution",
+        "Extremely obese by BMI",
+        "Underweight with no risk"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI 27 is overweight. WHR >1.0 in men indicates apple-shaped obesity, associated with higher risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-051",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient would be expected to have the highest metabolic risk?",
+      "options": [
+        "BMI 24, WHR normal",
+        "BMI 28, pear-shaped fat distribution",
+        "BMI 32, apple-shaped fat distribution",
+        "BMI 22, lower body fat distribution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Obesity plus upper body/apple-shaped distribution indicates higher metabolic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-052",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high abdominal fat and high free fatty acid availability. Which adipose tissue behavior best explains this?",
+      "options": [
+        "High lipolysis in abdominal subcutaneous and visceral depots",
+        "Complete inhibition of lipolysis in visceral fat",
+        "Slow mobilization from gluteal-femoral depots only",
+        "Absence of adipocytes in abdomen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In obese subjects, abdominal subcutaneous and visceral depots show high lipolysis and contribute to increased free fatty acids.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-053",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient loses weight successfully. Which adipocyte change is most likely responsible for most of the weight loss?",
+      "options": [
+        "Decrease in fat cell size",
+        "Complete loss of fat cell number",
+        "Formation of new adipocytes",
+        "Conversion of adipocytes into muscle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weight loss mainly decreases adipocyte size, while adipocyte number may remain increased.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-054",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with prolonged overnutrition reaches the expansion limit of existing adipocytes. What happens next?",
+      "options": [
+        "Preadipocytes proliferate and differentiate into mature adipocytes",
+        "All adipocytes disappear",
+        "Fat storage becomes impossible",
+        "BMI becomes independent of weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When fat cells reach their size limit, additional weight gain involves recruitment and proliferation of preadipocytes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-055",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A person has gained modest weight but is not obese. According to the diagram, what mainly changes?",
+      "options": [
+        "Fat cell size",
+        "Fat cell number",
+        "Troponin concentration",
+        "Lean bone mass only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modest weight gain/loss in a non-obese person mainly affects adipocyte size, not number.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-056",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why visceral fat is more harmful than gluteal-femoral fat?",
+      "options": [
+        "Visceral adipocytes are more metabolically active and contribute to free fatty acid availability",
+        "Visceral fat is completely inactive",
+        "Gluteal-femoral fat has the highest lipolysis rate",
+        "Lower body fat is always linked to higher metabolic disease risk"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Visceral adipocytes are highly metabolically active and abdominal/visceral depots have high lipolysis rates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-057",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has mainly gluteal-femoral fat deposition. Which statement best matches this pattern?",
+      "options": [
+        "Fatty acids tend to mobilize more slowly",
+        "It is always the highest-risk obesity pattern",
+        "It indicates visceral fat predominance",
+        "It is defined by WHR >1.0 in women"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lower-body subcutaneous adipocytes are efficient at fat deposition and tend to mobilize fatty acids more slowly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-058",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clinician wants a simple bedside index to identify obesity-related metabolic risk beyond BMI. Which is most useful from the file?",
+      "options": [
+        "Waist-to-hip ratio",
+        "Serum sodium",
+        "Blood urea",
+        "Skin color"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WHR helps identify apple vs pear fat distribution, which affects metabolic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-059",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has BMI 41 kg/m² but a low waist-to-hip ratio. Which statement is most accurate?",
+      "options": [
+        "BMI indicates extreme obesity, but fat distribution still modifies metabolic risk",
+        "BMI is healthy because WHR is low",
+        "WHR replaces BMI completely",
+        "BMI cannot be calculated if WHR is available"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI classifies overall obesity severity, while WHR gives additional information about body fat distribution and metabolic risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-060",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement is most accurate?",
+      "options": [
+        "Obesity risk depends not only on total fat amount but also on fat distribution and adipocyte biology",
+        "BMI directly measures visceral fat",
+        "Pear-shaped obesity is always more harmful than apple-shaped obesity",
+        "Weight loss mainly removes all adipocytes permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file emphasizes BMI, body fat distribution, visceral/subcutaneous depots, lipolysis differences, and adipocyte size/number as important determinants of obesity risk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
