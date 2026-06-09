@@ -2,6 +2,517 @@
   "subjectId": "3",
   "topicId": "thyroid-adrenocortical-pathophysiology",
   "topicName": "Thyroid & Adrenocortical Pathophysiology",
-  "updatedAt": "2026-06-09T22:01:19.129Z",
-  "questions": []
+  "updatedAt": "2026-06-09T22:01:39.101Z",
+  "questions": [
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The adrenal cortical hormones are mainly derived from:",
+      "options": [
+        "Cholesterol",
+        "Glucose",
+        "Glycogen",
+        "Hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrenal cortical hormones are steroidal hormones derived from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Zona glomerulosa mainly secretes:",
+      "options": [
+        "Aldosterone",
+        "Cortisol",
+        "Adrenaline",
+        "T4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zona glomerulosa secretes aldosterone, a mineralocorticoid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Zona fasciculata and zona reticularis mainly secrete:",
+      "options": [
+        "Cortisol and adrenal androgens",
+        "Aldosterone only",
+        "Calcitonin only",
+        "Thyroxine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zona fasciculata and reticularis synthesize cortisol and adrenal androgens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cushing's syndrome is caused by excess circulating:",
+      "options": [
+        "Cortisol",
+        "TSH",
+        "Calcitonin",
+        "Aldosterone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cushing's syndrome is caused by excess circulating cortisol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Addison's disease is caused by:",
+      "options": [
+        "Bilateral destruction of adrenal cortical zones",
+        "Excess cortisol secretion",
+        "Excess TSH secretion",
+        "Increased TBG concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Addison's disease is primary adrenocortical hypofunction due to bilateral destruction of adrenal cortex.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-006",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cortisol and adrenal androgen synthesis are mainly stimulated by:",
+      "options": [
+        "ACTH",
+        "TSH",
+        "Calcitonin",
+        "TBG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH from the anterior pituitary stimulates cortisol and adrenal androgen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-007",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aldosterone synthesis is mainly controlled by:",
+      "options": [
+        "Renin-angiotensin system",
+        "TSH",
+        "Thyroid hormone feedback",
+        "TBG concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldosterone synthesis is controlled mainly by the renin-angiotensin system, not normally by ACTH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-008",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACTH deficiency does not significantly reduce aldosterone output because:",
+      "options": [
+        "Aldosterone is mainly regulated by renin-angiotensin",
+        "Aldosterone is secreted by the thyroid",
+        "Aldosterone is mainly regulated by TSH",
+        "ACTH has no relationship to adrenal cortex growth at all"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH helps maintain zona glomerulosa growth, but aldosterone secretion depends mainly on renin-angiotensin regulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-009",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High plasma free cortisol suppresses:",
+      "options": [
+        "CRH secretion and ACTH response to CRH",
+        "TBG synthesis only",
+        "TSH secretion directly only",
+        "Thyroid hormone binding only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High free cortisol acts by negative feedback on both hypothalamus and anterior pituitary, suppressing CRH and altering ACTH response.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-010",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "ACTH pulses are followed by cortisol secretion after about:",
+      "options": [
+        "5-10 minutes",
+        "2-3 hours",
+        "24 hours",
+        "7 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH is secreted episodically, and each pulse is followed by cortisol secretion about 5-10 minutes later.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-011",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Plasma cortisol is usually highest:",
+      "options": [
+        "Between 07:00 and 09:00",
+        "Between 23:00 and 04:00",
+        "Only at midnight",
+        "Only after meals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol normally has a marked diurnal rhythm, with high levels in the morning around 07:00-09:00.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-012",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Plasma cortisol is usually lowest:",
+      "options": [
+        "Between 23:00 and 04:00",
+        "Between 07:00 and 09:00",
+        "Immediately after ACTH pulse",
+        "During early morning only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol is usually low between 23:00 and 04:00.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-013",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Single random serum cortisol measurement is often of limited value because:",
+      "options": [
+        "Cortisol fluctuates widely during the day",
+        "Cortisol is never present in blood",
+        "Cortisol is not bound to proteins",
+        "Cortisol is secreted only by thyroid gland"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol secretion fluctuates widely and follows a diurnal rhythm, so isolated measurements can mislead.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-014",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "In plasma, cortisol binds mainly to:",
+      "options": [
+        "Cortisol-binding globulin and albumin",
+        "Hemoglobin only",
+        "TBG only",
+        "LDL receptors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Circulating cortisol is bound to cortisol-binding globulin, also called transcortin, and to albumin.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-015",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "At normal concentrations, the physiologically active cortisol fraction is about:",
+      "options": [
+        "5% free/unbound",
+        "50% free/unbound",
+        "95% free/unbound",
+        "100% bound and active"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Only about 5% of cortisol is unbound and physiologically active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-016",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has suspected cortisol excess. Morning cortisol is mildly high, but the clinician wants confirmation. Why should a single value not be overinterpreted?",
+      "options": [
+        "Cortisol has marked diurnal variation and fluctuates widely",
+        "Cortisol is always constant throughout the day",
+        "Cortisol is not measurable in serum",
+        "Cortisol is unrelated to Cushing's syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol levels vary by time of day and pulsatile ACTH secretion, so a single serum value may not reliably diagnose adrenal disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-017",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has plasma cortisol of 20 mg/dL. The file's normal serum cortisol level is 6-12 mg/dL. Which is the best interpretation?",
+      "options": [
+        "It is elevated, but timing and clinical context are essential",
+        "It is definitely normal",
+        "It proves Addison's disease",
+        "It proves TBG deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The value is above the stated normal range, but cortisol interpretation depends on timing because of diurnal rhythm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-018",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has truncal obesity, round red moon face, hyperglycemia, hypertension, thin skin, muscle weakness, and osteoporosis. Which hormone excess explains most features?",
+      "options": [
+        "Cortisol",
+        "TSH",
+        "Calcitonin",
+        "T4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are characteristic metabolic and clinical features of Cushing's syndrome due to cortisol excess.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Impaired glucose tolerance in Cushing's syndrome is best explained by:",
+      "options": [
+        "Cortisol stimulates gluconeogenesis and opposes insulin",
+        "Cortisol acts exactly like insulin",
+        "Cortisol blocks protein and fat breakdown",
+        "Cortisol suppresses all glucose production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids stimulate gluconeogenesis and breakdown of protein and fat, opposing some insulin actions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-020",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Muscle wasting, thin skin, weakness, and osteoporosis in Cushing's syndrome mainly reflect:",
+      "options": [
+        "Increased protein catabolism and negative nitrogen balance",
+        "Increased protein synthesis and positive nitrogen balance",
+        "Excess TBG concentration",
+        "Reduced glucose production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol excess accelerates protein breakdown, causing negative nitrogen balance, muscle wasting, skin thinning, and osteoporosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-021",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hypertension in Cushing's syndrome is partly due to:",
+      "options": [
+        "Sodium and water retention from mineralocorticoid effect of cortisol",
+        "Complete sodium loss",
+        "Reduced extracellular fluid volume",
+        "Lack of cortisol action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol excess can produce mineralocorticoid effects, causing sodium and water retention and hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-022",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with Cushingoid features also has greasy skin and acne. Which associated hormone effect may explain this?",
+      "options": [
+        "Androgen excess",
+        "Calcitonin excess",
+        "TBG deficiency",
+        "T4 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file links androgen excess with greasy skin and acne in Cushing's syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-023",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Excess cortisol production in Cushing's syndrome may be caused by all EXCEPT:",
+      "options": [
+        "ACTH from pituitary gland",
+        "Ectopic ACTH source",
+        "Adrenal adenoma or carcinoma",
+        "TBG deficiency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Causes include ACTH from pituitary or ectopic sources, adrenal adenoma, and adrenal carcinoma; TBG deficiency is not a cause.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-024",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has cortisol excess due to an adrenal adenoma. Which classification best fits?",
+      "options": [
+        "Adrenocortical hyperfunction due to autonomous adrenal cortisol production",
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism",
+        "Euthyroidism due to binding protein abnormality"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrenal adenoma can directly produce excess cortisol, causing Cushing's syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-025",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with severe chronic adrenal failure presents with shock and volume depletion. What is the most appropriate interpretation?",
+      "options": [
+        "Adrenal crisis requiring urgent treatment",
+        "Mild thyroid dysfunction only",
+        "TBG excess",
+        "Primary hyperthyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file describes shock with volume depletion as adrenal crisis, which should be treated urgently.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-026",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with Addison's disease develops pigmentation of the skin and buccal mucosa. What is the likely mechanism?",
+      "options": [
+        "High ACTH due to lack of cortisol negative feedback",
+        "High aldosterone suppressing melanin",
+        "Low TBG increasing pigmentation",
+        "Excess calcitonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pigmentation in Addison's disease is likely due to high ACTH levels caused by loss of cortisol suppression of feedback.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-027",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has primary adrenal failure but aldosterone is also deficient. Which anatomical explanation fits Addison's disease?",
+      "options": [
+        "Bilateral destruction of all adrenal cortical zones",
+        "Isolated pituitary TSH deficiency",
+        "Overproduction by adrenal medulla",
+        "Increased TBG concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Addison's disease involves bilateral destruction of adrenal cortical tissue, affecting multiple adrenal cortical hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-028",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high ACTH and low cortisol. Which feedback principle explains the high ACTH?",
+      "options": [
+        "Low cortisol fails to suppress hypothalamic-pituitary ACTH drive",
+        "Low cortisol directly suppresses ACTH",
+        "ACTH is controlled only by TBG",
+        "ACTH is secreted by adrenal cortex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol normally suppresses CRH and ACTH via negative feedback; low cortisol removes this suppression.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-029",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Cortisone is administered therapeutically. Why does it need conversion in vivo?",
+      "options": [
+        "Cortisone is biologically inactive until converted to cortisol/hydrocortisone",
+        "Cortisone is already TSH",
+        "Cortisone is a thyroid hormone",
+        "Cortisone is converted to aldosterone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisone is not secreted significantly by adrenal cortex and is biologically inactive until converted to cortisol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-030",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Glucocorticoid metabolites are excreted in urine mainly after:",
+      "options": [
+        "Conjugation with glucuronate and sulphate in the liver",
+        "Binding permanently to CBG",
+        "Conversion to TSH",
+        "Conversion to thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucocorticoids are conjugated in the liver with glucuronate and sulphate into water-soluble inactive metabolites for urinary excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
