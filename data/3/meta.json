@@ -60,11 +60,11 @@
       "difficultyBreakdown": {
         "easy": 0,
         "medium": 0,
-        "hard": 0
+        "hard": 30
       },
-      "questionsCount": 0,
+      "questionsCount": 30,
       "file": "data/3/endocrine-control-pituitary-hormones.json"
     }
   ],
-  "updatedAt": "2026-06-09T21:54:09.504Z"
+  "updatedAt": "2026-06-09T21:54:21.898Z"
 }
