@@ -549,7 +549,6 @@ tailwind.config = {
 </style>
   <link rel="stylesheet" href="./assets/css/pharmacy-bot.css">
   <link rel="stylesheet" href="./assets/css/pn-global-home-v7.css">
-  <link rel="stylesheet" href="./assets/css/pn-subjects-3d-clean-v14.css">
   <link rel="stylesheet" href="./assets/css/pn-skill-tree-v17.css">
 </head>
 <body class="min-h-screen flex">
@@ -651,89 +650,149 @@ tailwind.config = {
 <main class="flex-1 min-h-screen pt-16 md:pt-0 pb-20 md:pb-0">
 
 <!-- ===================== PAGE: HOME ===================== -->
-<div id="page-home" class="page active fade-in pn-story-home">
-  <div class="pn-story-shell">
-    <header class="pn-story-topbar" aria-label="Pharmacy Nexus story navigation">
-      <div class="pn-story-brand">
-        <div class="pn-story-logo">PN</div>
+<div id="page-home" class="page active fade-in pn-v6-home">
+  <div class="pn-v6-shell">
+
+    <!-- Global SaaS / EdTech Hero -->
+    <section class="pn-v6-hero pn-reveal" aria-labelledby="pn-v6-title">
+      <div class="pn-v6-hero-bg" aria-hidden="true">
+        <div class="pn-v6-orb pn-v6-orb-a"></div>
+        <div class="pn-v6-orb pn-v6-orb-b"></div>
+        <div class="pn-v6-mesh"></div>
+      </div>
+
+      <div class="pn-v6-hero-copy">
+        <div class="pn-v6-eyebrow">
+          <span class="material-symbols-outlined">verified</span>
+          Clinical Mastery Suite
+        </div>
+        <h1 id="pn-v6-title">Study smarter. Review faster. Walk into pharmacy exams ready.</h1>
+        <p class="pn-v6-lead">A focused exam-prep platform for future pharmacists — clear modules, high-yield question sets, saved pearls, and progress signals that tell you exactly what to do next.</p>
+        <div class="pn-v6-actions">
+          <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary">
+            Explore Subjects <span class="material-symbols-outlined">arrow_forward</span>
+          </button>
+          <button onclick="navigateTo('finalexam')" class="pn-v6-btn pn-v6-btn-soft">
+            Go to Final Exam <span class="material-symbols-outlined">school</span>
+          </button>
+        </div>
+        <div class="pn-v6-proof-row" aria-label="Platform highlights">
+          <div><strong id="hero-subject-count">4</strong><span>Subjects</span></div>
+          <div><strong id="hero-question-count">1627</strong><span>Questions</span></div>
+          <div><strong>Local</strong><span>Saved progress</span></div>
+        </div>
+      </div>
+
+      <div class="pn-v6-product-stage" aria-label="Pharmacy Nexus dashboard preview">
+        <div class="pn-v6-stage-glow"></div>
+        <div class="pn-v6-dashboard-3d" data-tilt-card>
+          <div class="pn-v6-browser-bar">
+            <div><span></span><span></span><span></span></div>
+            <p>Pharmacy Nexus Command Center</p>
+          </div>
+          <div class="pn-v6-dashboard-grid">
+            <div class="pn-v6-panel pn-v6-panel-main">
+              <div class="pn-v6-panel-head">
+                <div>
+                  <span>Next Best Action</span>
+                  <h3>Review Antibiotics</h3>
+                </div>
+                <button onclick="navigateTo('study')">Resume</button>
+              </div>
+              <div class="pn-v6-question-card">
+                <span class="material-symbols-outlined">psychology_alt</span>
+                <p>Which mechanism best explains the interaction between linezolid and SSRIs?</p>
+              </div>
+              <div class="pn-v6-mini-bars"><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-score-card">
+              <span>Readiness</span>
+              <strong id="home-accuracy">6%</strong>
+              <div class="pn-v6-ring"><b></b></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-saved-card" onclick="navigateTo('saved')" role="button" tabindex="0">
+              <span class="material-symbols-outlined">bookmark</span>
+              <div><strong id="home-saved-count">12</strong><p>Saved Qs</p></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-note-card" onclick="navigateTo('saved')" role="button" tabindex="0">
+              <span class="material-symbols-outlined">edit_note</span>
+              <div><strong id="home-notes-count">4</strong><p>Notes</p></div>
+            </div>
+            <div class="pn-v6-panel pn-v6-exam-card" onclick="navigateTo('dashboard')" role="button" tabindex="0">
+              <span>Final Exams</span>
+              <strong id="home-final-exams-count">2</strong>
+            </div>
+          </div>
+        </div>
+        <div class="pn-v6-float-card pn-v6-float-one" data-float-card>
+          <span class="material-symbols-outlined">monitoring</span>
+          <div><strong>Analytics</strong><p>Weakness map ready</p></div>
+        </div>
+        <div class="pn-v6-float-card pn-v6-float-two" data-float-card>
+          <span class="material-symbols-outlined">auto_stories</span>
+          <div><strong>Study Sets</strong><p>20 questions/session</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Operating system stats strip -->
+    <section class="pn-v6-stat-strip pn-reveal" aria-label="Study progress quick stats">
+      <article onclick="navigateTo('dashboard')"><span class="material-symbols-outlined">track_changes</span><div><strong id="pn-v6-accuracy-mirror">6%</strong><p>Current accuracy</p></div></article>
+      <article onclick="navigateTo('saved')"><span class="material-symbols-outlined">bookmark_added</span><div><strong id="pn-v6-saved-mirror">12</strong><p>Knowledge bank</p></div></article>
+      <article onclick="navigateTo('saved')"><span class="material-symbols-outlined">sticky_note_2</span><div><strong id="pn-v6-notes-mirror">4</strong><p>Personal notes</p></div></article>
+      <article onclick="navigateTo('finalexam')"><span class="material-symbols-outlined">workspace_premium</span><div><strong id="pn-v6-exams-mirror">2</strong><p>Exam attempts</p></div></article>
+    </section>
+
+    <!-- Value proposition -->
+    <section class="pn-v6-section pn-reveal">
+      <div class="pn-v6-section-head">
+        <span>Platform system</span>
+        <h2>A learning loop that feels clean, useful, and premium.</h2>
+        <p>Pick a topic, solve focused sets, understand the trap, save the pearl, then return through smart review and final exam simulation.</p>
+      </div>
+      <div class="pn-v6-feature-grid">
+        <article class="pn-v6-feature-card" data-tilt-card>
+          <span class="material-symbols-outlined">account_tree</span>
+          <h3>Structured learning path</h3>
+          <p>Subjects break into topics and 20-question sets, so revision feels controlled instead of chaotic.</p>
+        </article>
+        <article class="pn-v6-feature-card" data-tilt-card>
+          <span class="material-symbols-outlined">fact_check</span>
+          <h3>Exam-grade practice</h3>
+          <p>Practice mode gives instant feedback, while final exam mode keeps the pressure realistic.</p>
+        </article>
+        <article class="pn-v6-feature-card" data-tilt-card>
+          <span class="material-symbols-outlined">hub</span>
+          <h3>Personal knowledge bank</h3>
+          <p>Saved questions and notes become a reusable notebook for high-yield traps and clinical pearls.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Product workflow -->
+    <section class="pn-v6-workflow pn-reveal">
+      <div class="pn-v6-workflow-copy">
+        <span>Study flow</span>
+        <h2>From first question to confident review.</h2>
+        <p>Start from a subject, move through short focused sets, capture mistakes, then convert your weak points into the next study session.</p>
+        <button onclick="navigateTo('subjects')" class="pn-v6-btn pn-v6-btn-primary">Start the flow <span class="material-symbols-outlined">play_arrow</span></button>
+      </div>
+      <div class="pn-v6-steps">
+        <article><b>01</b><div><h3>Pick a subject</h3><p>Jump into Pharmacology, Clinical, Pharmaceutics, or Calculations.</p></div></article>
+        <article><b>02</b><div><h3>Solve focused sets</h3><p>Short enough to finish, deep enough to reveal weak points.</p></div></article>
+        <article><b>03</b><div><h3>Review mistakes</h3><p>Turn wrong answers into notes and retry opportunities.</p></div></article>
+        <article><b>04</b><div><h3>Simulate finals</h3><p>Use exam mode to test readiness under timed conditions.</p></div></article>
+      </div>
+    </section>
+
+    <!-- Browse Subjects / dynamic grid target kept for app.js -->
+    <section class="pn-v6-section pn-v6-subject-zone pn-reveal">
+      <div class="pn-v6-section-head pn-v6-section-head-row">
         <div>
-          <strong>Pharmacy Nexus</strong>
-          <span>Exam cockpit · Study flow · Weak-point review</span>
+          <span>Subject library</span>
+          <h2>Continue from the module that matters today.</h2>
         </div>
-      </div>
-      <nav class="pn-story-nav">
-        <button onclick="document.getElementById('story-01')?.scrollIntoView({behavior:'smooth'})">01 Hero</button>
-        <button onclick="document.getElementById('story-02')?.scrollIntoView({behavior:'smooth'})">02 Flow</button>
-        <button onclick="document.getElementById('story-03')?.scrollIntoView({behavior:'smooth'})">03 Tools</button>
-        <button onclick="document.getElementById('story-04')?.scrollIntoView({behavior:'smooth'})">04 Plan</button>
-        <button onclick="navigateTo('subjects')" class="pn-story-gold">Start Study</button>
-      </nav>
-    </header>
-
-    <aside class="pn-story-progress" aria-label="Home story progress">
-      <a href="#story-01" class="is-active" aria-label="Hero section"></a>
-      <a href="#story-02" aria-label="Study flow section"></a>
-      <a href="#story-03" aria-label="Tools section"></a>
-      <a href="#story-04" aria-label="Plan section"></a>
-    </aside>
-
-    <section id="story-01" class="pn-story-section pn-story-reveal" data-story-section>
-      <div class="pn-story-stage">
-        <div class="pn-story-tag"><b>01</b> Command Center</div>
-        <img src="./assets/img/nexus-section-01-hero.png" alt="Pharmacy Nexus hero dashboard mockup" loading="eager">
-        <div class="pn-story-caption">
-          <h2>أول لقطة لازم تبيع الفكرة من غير شرح كتير.</h2>
-          <p>بدل كارت صغير في النص، دي Hero كاملة: عنوان قوي، Dashboard حقيقي، CTA واضح، وإحساس product محترم.</p>
-        </div>
-      </div>
-      <div class="pn-story-live" aria-label="Live platform stats">
-        <article class="pn-story-metric"><span class="material-symbols-outlined">menu_book</span><div><strong id="hero-subject-count">4</strong><span>Subjects</span></div></article>
-        <article class="pn-story-metric"><span class="material-symbols-outlined">quiz</span><div><strong id="hero-question-count">4864</strong><span>Questions</span></div></article>
-        <article class="pn-story-metric"><span class="material-symbols-outlined">track_changes</span><div><strong id="home-accuracy">0%</strong><span>Readiness</span></div></article>
-        <article class="pn-story-metric"><span class="material-symbols-outlined">workspace_premium</span><div><strong id="home-final-exams-count">7</strong><span>Exam attempts</span></div></article>
-      </div>
-    </section>
-
-    <section id="story-02" class="pn-story-section pn-story-reveal" data-story-section>
-      <div class="pn-story-stage">
-        <div class="pn-story-tag"><b>02</b> Study Journey</div>
-        <img src="./assets/img/nexus-section-02-flow.png" alt="Three-step study flow from subject choice to weak point review" loading="lazy">
-        <div class="pn-story-caption">
-          <h2>الصفحة تحكي رحلة: اختار، حل، راجع.</h2>
-          <p>نفس فكرة الفيديو: كل Scroll ينزل على مرحلة واضحة، مش كل حاجة مرمية في أول شاشة.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="story-03" class="pn-story-section pn-story-reveal" data-story-section>
-      <div class="pn-story-stage">
-        <div class="pn-story-tag"><b>03</b> Outcomes & Tools</div>
-        <img src="./assets/img/nexus-section-03-tools.png" alt="Pharmacy Nexus tools and analytics dashboard" loading="lazy">
-        <div class="pn-story-caption">
-          <h2>بعد ما يفهم الرحلة، ورّيه الأدوات.</h2>
-          <p>Daily Challenge، Final Exam، Dashboard، Saved Notes، Wrong Answers Review — كلها تظهر كمنتج كامل مش بنك أسئلة بس.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="story-04" class="pn-story-section pn-story-reveal" data-story-section>
-      <div class="pn-story-stage">
-        <div class="pn-story-tag"><b>04</b> Exam Plan</div>
-        <img src="./assets/img/nexus-section-04-cta.png" alt="Final exam preparation plan dashboard" loading="lazy">
-        <div class="pn-story-caption">
-          <h2>اقفلها بوعد واضح: ادخل الامتحان بخطة.</h2>
-          <p>دي تبقى آخر لقطة قبل ما الطالب يضغط Start Practicing أو يدخل Subjects.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="pn-story-library pn-story-reveal" aria-labelledby="story-library-title">
-      <div class="pn-story-library-head">
-        <div>
-          <span>Live subject library</span>
-          <h2 id="story-library-title">الموكابات فوق للانبهار، والبيانات الحقيقية هنا للشغل.</h2>
-        </div>
-        <p>سيبت IDs المهمة زي <code>home-subjects-grid</code> عشان app.js يفضل يعبي المواد الحقيقية من JSON بدون ما نكسر أي وظيفة.</p>
+        <button onclick="navigateTo('subjects')" class="pn-v6-text-btn">View all subjects <span class="material-symbols-outlined">arrow_forward</span></button>
       </div>
       <div id="home-subjects-grid" class="pn-v6-subject-grid">
         <div class="pn-v6-subject-skeleton"></div>
@@ -742,20 +801,79 @@ tailwind.config = {
       </div>
     </section>
 
-    <section class="pn-story-live pn-story-reveal" aria-label="Saved and notes stats">
-      <article class="pn-story-metric" onclick="navigateTo('saved')"><span class="material-symbols-outlined">bookmark_added</span><div><strong id="home-saved-count">3</strong><span>Saved questions</span></div></article>
-      <article class="pn-story-metric" onclick="navigateTo('saved')"><span class="material-symbols-outlined">sticky_note_2</span><div><strong id="home-notes-count">2</strong><span>Clinical notes</span></div></article>
-      <article class="pn-story-metric" onclick="navigateTo('subjects')"><span class="material-symbols-outlined">play_circle</span><div><strong>20</strong><span>Questions / set</span></div></article>
-      <article class="pn-story-metric" onclick="navigateTo('finalexam')"><span class="material-symbols-outlined">school</span><div><strong>Final</strong><span>Exam mode</span></div></article>
+    <!-- Daily mission -->
+    <section class="pn-v6-daily pn-reveal">
+      <div class="pn-v6-daily-left">
+        <span class="pn-v6-pill">Daily Clinical Mission</span>
+        <h2>One short mission to keep momentum alive.</h2>
+        <p>Generate a tiny focused challenge from your question data. Quick enough to start, useful enough to keep your streak moving.</p>
+        <div class="pn-v6-daily-meta">
+          <span id="daily-subject">CLICK SPIN TO GENERATE TODAY’S SET</span>
+          <span id="daily-topic-pill">Topic</span>
+          <span id="daily-count-pill">5 Questions</span>
+        </div>
+        <div class="pn-v6-daily-preview">
+          <span class="material-symbols-outlined">clinical_notes</span>
+          <p id="daily-question-preview">Spin the mission core and the app will choose a subject, a topic, and a random number of questions from 1 to 10.</p>
+        </div>
+        <div class="pn-v6-daily-actions">
+          <button onclick="startDailyChallenge()" class="pn-v6-btn pn-v6-btn-primary">Start Mission</button>
+          <button id="daily-reroll-btn" onclick="spinWheel()" class="pn-v6-btn pn-v6-btn-soft">Spin Again</button>
+          <span id="daily-status">Ready to spin</span>
+        </div>
+      </div>
+      <div class="pn-v6-daily-core">
+        <div class="daily-wheel-shell">
+          <div class="daily-wheel-pointer"></div>
+          <div class="daily-wheel-ring"></div>
+          <div id="daily-wheel" class="daily-wheel-disc" onclick="spinWheel()" role="button" aria-label="Spin daily challenge wheel" tabindex="0">
+            <div class="daily-wheel-center">
+              <span class="daily-wheel-label">Today</span>
+              <span id="daily-count" class="daily-wheel-count">5</span>
+              <span class="daily-wheel-sub">Questions</span>
+            </div>
+          </div>
+          <button type="button" class="daily-spin-btn" onclick="spinWheel()">Spin</button>
+        </div>
+      </div>
     </section>
 
-    <footer class="pn-story-footer">
-      <strong>Pharmacy Nexus</strong>
-      <span>Story-based homepage V3 · AI boards embedded · existing app logic preserved</span>
-      <button onclick="navigateTo('subjects')">Open Subjects</button>
+    <!-- Dashboard teaser + Activity -->
+    <section class="pn-v6-bottom-grid pn-reveal">
+      <article class="pn-v6-command-card">
+        <div class="pn-v6-command-copy">
+          <span>Command dashboard</span>
+          <h2>Know your next move before you waste energy.</h2>
+          <p>Accuracy, weak topics, recent activity, final exam averages, and saved notes guide the next session instead of leaving the student guessing.</p>
+          <button onclick="navigateTo('dashboard')" class="pn-v6-btn pn-v6-btn-primary">Open Dashboard</button>
+        </div>
+        <div class="pn-v6-command-visual">
+          <div><strong>82%</strong><span>Target readiness</span></div>
+          <div><strong>Weak</strong><span>Antibiotics interactions</span></div>
+          <div><strong>Next</strong><span>Retry wrong answers</span></div>
+        </div>
+      </article>
+      <aside class="pn-v6-activity-card">
+        <div class="pn-v6-activity-head">
+          <h2>Recent activity</h2>
+          <button onclick="navigateTo('dashboard')">View all</button>
+        </div>
+        <div class="pn-v6-timeline">
+          <article><b></b><div><h3>Completed: Antibiotics Set 1</h3><p>30 questions · progress saved locally</p><span>Today</span></div></article>
+          <article><b></b><div><h3>Saved: Dabigatran dosing</h3><p>Added to knowledge bank</p><span>Yesterday</span></div></article>
+          <article><b></b><div><h3>Added note: CYP450 rule</h3><p>Personal clinical insight saved</p><span>3 days ago</span></div></article>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="pn-v6-footer">
+      <p>Pharmacy Nexus</p>
+      <span>Built for pharmacy students · Structured practice · Local-first progress</span>
+      <button onclick="navigateTo('about')">About platform</button>
     </footer>
   </div>
 </div>
+
 
 <!-- ===================== PAGE: SUBJECTS ===================== -->
 <div id="page-subjects" class="page fade-in">
@@ -2206,7 +2324,6 @@ tailwind.config = {
 <script src="assets/js/app.js?v=28"></script>
 <script src="./assets/js/pn-global-home-v7.js"></script>
 <script src="./assets/js/pn-skill-tree-v17.js"></script>
-<script src="./assets/js/pn-home-story-v3.js"></script>
 
 <div id="pn-modal-root"></div>
 <div id="pn-toast-root" class="fixed top-5 right-5 z-[120] flex flex-col gap-3 pointer-events-none"></div>
