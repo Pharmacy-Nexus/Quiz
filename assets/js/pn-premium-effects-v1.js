@@ -1,6 +1,3 @@
-/* Pharmacy Nexus Premium Effects v1
-   Static-safe layer: no app logic changes, only UI motion and interactions.
-*/
 (function () {
   'use strict';
 
