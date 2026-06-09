@@ -462,11 +462,11 @@
       "section": "Protein",
       "sectionId": "protein",
       "difficultyBreakdown": {
-        "easy": 0,
-        "medium": 0,
+        "easy": 25,
+        "medium": 45,
         "hard": 20
       },
-      "questionsCount": 20,
+      "questionsCount": 90,
       "file": "data/bio-chemictry/ammonia-metabolism-urea-cycle.json"
     }
   ],
@@ -508,5 +508,5 @@
       "order": 6
     }
   ],
-  "updatedAt": "2026-06-09T20:42:22.629Z"
+  "updatedAt": "2026-06-09T20:45:58.120Z"
 }
