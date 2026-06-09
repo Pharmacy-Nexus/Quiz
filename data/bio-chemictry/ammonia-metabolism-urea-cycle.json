@@ -2,6 +2,347 @@
   "subjectId": "bio-chemictry",
   "topicId": "ammonia-metabolism-urea-cycle",
   "topicName": "Ammonia Metabolism & Urea Cycle",
-  "updatedAt": "2026-06-09T20:39:51.470Z",
-  "questions": []
+  "updatedAt": "2026-06-09T20:42:11.775Z",
+  "questions": [
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-001",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has CPS-I deficiency. Which process is most directly impaired?",
+      "options": [
+        "Formation of carbamoyl phosphate",
+        "Formation of fumarate from argininosuccinate",
+        "Cleavage of arginine to urea",
+        "Hydration of fumarate to malate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CPS-I catalyzes the first reaction of the urea cycle: carbamoyl phosphate formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-002",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A deficiency of N-acetylglutamate would directly reduce activity of:",
+      "options": [
+        "CPS-I",
+        "Arginase",
+        "Glutaminase",
+        "Argininosuccinate lyase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N-acetylglutamate is an essential activator of CPS-I.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-003",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in ornithine transcarbamoylase would most directly impair formation of:",
+      "options": [
+        "Citrulline",
+        "Arginine",
+        "Urea directly",
+        "Fumarate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ornithine transcarbamoylase forms citrulline from ornithine and carbamoyl phosphate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-004",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in argininosuccinate synthetase would impair:",
+      "options": [
+        "Citrulline condensation with aspartate",
+        "Carbamoyl phosphate formation",
+        "Arginine cleavage to urea",
+        "Glutamine formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Argininosuccinate synthetase forms argininosuccinate from citrulline and aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in argininosuccinate lyase would reduce formation of:",
+      "options": [
+        "Arginine and fumarate",
+        "Citrulline and ammonia",
+        "Urea and ornithine",
+        "Carbamoyl phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Argininosuccinate lyase cleaves argininosuccinate into arginine and fumarate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A defect in arginase would most directly impair formation of:",
+      "options": [
+        "Urea and ornithine",
+        "Citrulline",
+        "Carbamoyl phosphate",
+        "Argininosuccinate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginase catalyzes the final step of urea formation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-007",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which step produces the immediate precursor of urea?",
+      "options": [
+        "Argininosuccinate lyase producing arginine",
+        "CPS-I producing carbamoyl phosphate",
+        "OTC producing citrulline",
+        "Glutaminase producing glutamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arginine is the immediate precursor of urea and is produced from argininosuccinate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-008",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why urea cycle defects cause hyperammonemia?",
+      "options": [
+        "Nitrogen cannot be efficiently converted into urea",
+        "Ammonia is converted too rapidly into urea",
+        "Kidney excretes too much urea",
+        "Ammonia becomes completely nontoxic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If urea cycle enzymes are defective, ammonia accumulates because disposal is impaired.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which statement best explains why neurologic symptoms occur in hyperammonemia?",
+      "options": [
+        "Depletion of α-ketoglutarate reduces brain energy production",
+        "Ammonia directly forms excess ATP",
+        "Ammonia prevents all protein digestion",
+        "Ammonia forms cholesterol plaques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High ammonia consumes α-ketoglutarate to form glutamate, impairing TCA cycle ATP production in sensitive tissues like brain.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-010",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which pair provides the two nitrogen atoms of urea?",
+      "options": [
+        "Free ammonia and aspartate",
+        "Glutamate and alanine directly",
+        "CO₂ and fumarate",
+        "Ornithine and citrulline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One nitrogen comes from free ammonia and the other from aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-011",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule supplies carbon and oxygen atoms of urea?",
+      "options": [
+        "CO₂",
+        "Aspartate",
+        "Ornithine",
+        "Fumarate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CO₂ supplies the carbon and oxygen in urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-012",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule links the urea cycle to the TCA cycle?",
+      "options": [
+        "Fumarate",
+        "Urea",
+        "Ornithine",
+        "Ammonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fumarate produced in the urea cycle can be converted to malate and linked to TCA metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-013",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule links transamination to the urea cycle nitrogen supply?",
+      "options": [
+        "Aspartate",
+        "Cholesterol",
+        "Glycogen",
+        "Fatty acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspartate is formed by transamination and supplies one nitrogen atom to urea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-014",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which molecule links oxidative deamination to urea cycle nitrogen supply?",
+      "options": [
+        "Free ammonia",
+        "Fumarate",
+        "Citrulline",
+        "Ornithine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxidative deamination of glutamate releases free ammonia, which enters urea synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-015",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In kidney failure, why can hyperammonemia worsen?",
+      "options": [
+        "More urea enters intestine and bacterial urease produces ammonia",
+        "Less urea enters intestine and no ammonia forms",
+        "Kidney produces no ammonia from any source",
+        "Liver stops receiving amino acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elevated plasma urea increases intestinal urea transfer. Bacterial urease converts it to ammonia, which may be reabsorbed.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-016",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Why can oral neomycin help reduce ammonia load?",
+      "options": [
+        "It reduces intestinal bacteria that produce ammonia from urea",
+        "It activates arginase",
+        "It increases CPS-I activity directly",
+        "It converts ammonia to glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By reducing urease-producing intestinal bacteria, neomycin decreases ammonia production.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-017",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which sequence correctly summarizes the urea cycle?",
+      "options": [
+        "Carbamoyl phosphate → citrulline → argininosuccinate → arginine → urea + ornithine",
+        "Glucose → pyruvate → acetyl-CoA → urea",
+        "Ornithine → urea → glucose → citrate",
+        "Ammonia → glutamine → cholesterol → urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the correct order of urea cycle intermediates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-018",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which sequence correctly describes ammonia transport and disposal?",
+      "options": [
+        "Tissue NH₃ → glutamine → liver/kidney → NH₃ release → urea in liver or proton excretion in kidney",
+        "Tissue NH₃ → cholesterol → HDL → kidney",
+        "Tissue NH₃ → glucose → glycogen → bile",
+        "Tissue NH₃ → fatty acid → ketone body → urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamine safely transports ammonia to liver and kidney for disposal or acid-base handling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes glutamate’s role?",
+      "options": [
+        "Glutamate can release NH₃ by oxidative deamination and form aspartate by transamination, supplying both urea nitrogens indirectly",
+        "Glutamate forms urea directly without enzymes",
+        "Glutamate is unrelated to urea formation",
+        "Glutamate is only a cholesterol precursor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glutamate is central because it provides free ammonia and helps form aspartate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "bio-chemictry-ammonia-metabolism-urea-cycle-020",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which integrated statement best summarizes ammonia metabolism and urea cycle?",
+      "options": [
+        "Ammonia is toxic, transported safely as glutamine, detoxified mainly in liver by urea cycle, and urea is excreted by kidney; failure increases hyperammonemia risk",
+        "Ammonia is harmless and stored in adipose tissue",
+        "Urea cycle occurs entirely in RBCs",
+        "Urea contains nitrogen from glucose and carbon from aspartate only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the full high-yield summary: ammonia sources, safe transport, hepatic detoxification, renal excretion, and clinical toxicity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
