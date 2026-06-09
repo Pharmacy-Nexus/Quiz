@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T20:56:37.255Z",
+  "updatedAt": "2026-06-09T21:31:28.976Z",
   "subjects": [
     {
       "id": "pharmacology",
@@ -45,6 +45,17 @@
       "topicsCount": 33,
       "questionsCount": 3807,
       "file": "data/bio-chemictry/meta.json"
+    },
+    {
+      "id": "3",
+      "name": "Clinical Biochemistry",
+      "description": "Lab interpretation: LFT, KFT, glucose tests, lipid profile, electrolytes, ABG.",
+      "icon": "science",
+      "theme": "primary",
+      "order": 3,
+      "topicsCount": 0,
+      "questionsCount": 0,
+      "file": "data/3/meta.json"
     }
   ]
 }
