@@ -2,6 +2,857 @@
   "subjectId": "3",
   "topicId": "metabolic-syndrome",
   "topicName": "Metabolic Syndrome",
-  "updatedAt": "2026-06-09T21:41:46.523Z",
-  "questions": []
+  "updatedAt": "2026-06-09T21:42:35.093Z",
+  "questions": [
+    {
+      "id": "3-metabolic-syndrome-001",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Metabolic syndrome is best defined as:",
+      "options": [
+        "A single disease caused only by obesity",
+        "A clustering of metabolic abnormalities increasing risk of cardiovascular disease and diabetes",
+        "A genetic disorder affecting only HDL metabolism",
+        "A syndrome diagnosed only by fasting glucose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metabolic syndrome is a cluster of conditions, including obesity, dyslipidemia, hypertension, and hyperglycemia, associated with increased risk of cardiovascular disease and diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-002",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "According to the file, metabolic syndrome requires at least:",
+      "options": [
+        "One of five criteria",
+        "Two of five criteria",
+        "Three of five criteria",
+        "All five criteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file states that metabolic syndrome is diagnosed when at least three of five specified conditions are present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-003",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following is one of the five main components of metabolic syndrome?",
+      "options": [
+        "Elevated fasting plasma glucose",
+        "Low serum sodium",
+        "High serum albumin",
+        "Low blood urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elevated fasting plasma glucose is one of the diagnostic components of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-004",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which lipid abnormality is part of metabolic syndrome?",
+      "options": [
+        "High HDL cholesterol",
+        "Low HDL cholesterol",
+        "Low triglycerides",
+        "High albumin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low HDL cholesterol is one of the criteria of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-005",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "High serum triglycerides in metabolic syndrome mainly reflect abnormality in:",
+      "options": [
+        "Lipid metabolism",
+        "Calcium metabolism",
+        "Protein digestion",
+        "Hemoglobin synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elevated triglycerides are a lipid abnormality and are included among the metabolic syndrome criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-006",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main body-shape sign of metabolic syndrome is:",
+      "options": [
+        "Central obesity",
+        "Isolated lower limb edema",
+        "Muscle wasting only",
+        "Neck stiffness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file describes central obesity, also called visceral, male-pattern, or apple-shaped adiposity, as the main sign.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-007",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Central obesity refers mainly to fat accumulation around the:",
+      "options": [
+        "Waist and trunk",
+        "Hands and feet",
+        "Face only",
+        "Bone marrow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Central obesity means adipose tissue accumulation particularly around the waist and trunk.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-008",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Metabolic syndrome is associated with increased risk of:",
+      "options": [
+        "Cardiovascular disease and diabetes",
+        "Acute otitis media only",
+        "Hypocalcemia only",
+        "Vitamin C deficiency only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that metabolic syndrome is associated with risk of cardiovascular disease and diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-009",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which blood pressure abnormality is included in metabolic syndrome?",
+      "options": [
+        "Elevated blood pressure",
+        "Severe hypotension only",
+        "Normal blood pressure",
+        "Low pulse pressure only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elevated blood pressure is one of the five diagnostic components of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-010",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which glucose abnormality is included in metabolic syndrome?",
+      "options": [
+        "Elevated fasting plasma glucose",
+        "Low fasting glucose only",
+        "Low postprandial glucose only",
+        "Low Hb only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised fasting plasma glucose is a diagnostic criterion of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-011",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The syndrome is thought to involve an underlying disorder of:",
+      "options": [
+        "Energy utilization and storage",
+        "Oxygen binding only",
+        "Bile acid excretion only",
+        "Hemoglobin synthesis only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file describes metabolic syndrome as related to abnormal energy utilization and storage.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-012",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most patients with metabolic syndrome are described as:",
+      "options": [
+        "Older, obese, sedentary, and insulin resistant",
+        "Young, underweight, and highly active",
+        "Only children with no insulin resistance",
+        "Athletes with low body fat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states most patients are older, obese, sedentary, and have some degree of insulin resistance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-013",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Which of the following may contribute to metabolic syndrome?",
+      "options": [
+        "Sedentary behavior",
+        "Low triglyceride levels",
+        "High HDL level",
+        "Low blood pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sedentary behavior or low physical activity is listed as an important factor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-014",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Acanthosis nigricans may be associated with:",
+      "options": [
+        "Metabolic syndrome",
+        "Vitamin B12 deficiency only",
+        "Acute pancreatitis only",
+        "Hypothyroidism only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists acanthosis nigricans among associated conditions.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-015",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Fatty liver associated with obesity may progress to:",
+      "options": [
+        "Nonalcoholic fatty liver disease",
+        "Acute hemolysis",
+        "Hypoglycemia only",
+        "Iron deficiency anemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty liver, especially with concurrent obesity, may progress to nonalcoholic fatty liver disease.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-016",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which group contains only diagnostic features of metabolic syndrome?",
+      "options": [
+        "Central obesity, high triglycerides, low HDL",
+        "High HDL, low triglycerides, hypotension",
+        "Low glucose, high HDL, low BMI",
+        "Low LDL, high albumin, low BP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Central obesity, elevated triglycerides, and reduced HDL are components of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-017",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to the IDF criteria in the file, metabolic syndrome is diagnosed if how many listed criteria are true?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file states diagnosis is made if three of the listed criteria are present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-018",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "According to the file, BMI criterion for metabolic syndrome is:",
+      "options": [
+        "BMI >25",
+        "BMI >30",
+        "BMI >18.5",
+        "BMI <18.5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The IDF definition listed in the file includes BMI >30 as one of the criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-019",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Raised triglycerides are defined as:",
+      "options": [
+        ">100 mg/dL",
+        ">120 mg/dL",
+        ">150 mg/dL",
+        ">300 mg/dL only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Raised triglycerides are defined as >150 mg/dL, or treatment for this lipid abnormality.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-020",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Reduced HDL cholesterol in males is defined as:",
+      "options": [
+        "<40 mg/dL",
+        "<50 mg/dL",
+        ">60 mg/dL",
+        ">150 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In males, reduced HDL is defined as <40 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-021",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Reduced HDL cholesterol in females is defined as:",
+      "options": [
+        "<30 mg/dL",
+        "<40 mg/dL",
+        "<50 mg/dL",
+        ">100 mg/dL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In females, reduced HDL is defined as <50 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-022",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Raised blood pressure criterion is:",
+      "options": [
+        "Systolic BP >130 or diastolic BP >85 mmHg",
+        "Systolic BP <90 only",
+        "Diastolic BP <60 only",
+        "BP exactly 120/80"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised BP is systolic >130 or diastolic >85 mmHg, or treatment of previously diagnosed hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-023",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Raised fasting plasma glucose criterion is:",
+      "options": [
+        ">70 mg/dL",
+        ">90 mg/dL",
+        ">100 mg/dL",
+        ">200 mg/dL only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file lists fasting plasma glucose >100 mg/dL as a criterion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-024",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Specific treatment for triglyceride abnormality:",
+      "options": [
+        "Counts toward the triglyceride criterion",
+        "Excludes metabolic syndrome",
+        "Means HDL is normal",
+        "Replaces the BMI criterion only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised triglycerides criterion includes either TG >150 mg/dL or specific treatment for this lipid abnormality.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-025",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Treatment of previously diagnosed hypertension:",
+      "options": [
+        "Counts toward the blood pressure criterion",
+        "Excludes metabolic syndrome",
+        "Means triglycerides must be normal",
+        "Replaces glucose measurement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The blood pressure criterion includes raised BP or treatment of previously diagnosed hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-026",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Previously diagnosed type 2 diabetes:",
+      "options": [
+        "Counts toward the fasting glucose criterion",
+        "Excludes metabolic syndrome",
+        "Means HDL must be high",
+        "Means BMI is irrelevant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised fasting plasma glucose criterion includes FPG >100 mg/dL or previously diagnosed type 2 diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-027",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which associated condition is more specifically listed in women?",
+      "options": [
+        "Polycystic ovarian syndrome",
+        "Erectile dysfunction",
+        "Prostate disease",
+        "Hemophilia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PCOS is listed as an associated condition in women.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-028",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which associated condition is specifically listed in men?",
+      "options": [
+        "Erectile dysfunction",
+        "Polycystic ovarian syndrome",
+        "Endometriosis",
+        "Pregnancy-induced anemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Erectile dysfunction is listed as an associated condition in men.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-029",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which factor is listed as an important contributor to metabolic syndrome?",
+      "options": [
+        "Disrupted chronobiology/sleep",
+        "Low LDL only",
+        "High HDL only",
+        "Excessive exercise only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disrupted chronobiology or sleep is listed among important contributing factors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-030",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which dietary factor is specifically mentioned as important?",
+      "options": [
+        "Sugar-sweetened beverage consumption",
+        "Vitamin C intake only",
+        "Drinking plain water",
+        "Low sodium diet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diet, particularly sugar-sweetened beverage consumption, is mentioned as an important factor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-031",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which statement about the pathophysiology of metabolic syndrome is most accurate according to the file?",
+      "options": [
+        "It is complex and only partially elucidated",
+        "It is fully explained by one gene",
+        "It is unrelated to insulin resistance",
+        "It is caused only by infection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The exact mechanisms are under investigation, and the pathophysiology is complex and partially understood.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-032",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which cluster best reflects insulin-resistance-related metabolic syndrome?",
+      "options": [
+        "Central obesity, impaired fasting glucose, high TG, low HDL",
+        "Low BMI, low glucose, high HDL, low TG",
+        "Underweight, hypotension, low TG, high HDL",
+        "Low waist circumference, low BP, low glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Central obesity, impaired fasting glucose, hypertriglyceridemia, and low HDL fit the metabolic syndrome profile.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-033",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Hyperuricemia in metabolic syndrome is:",
+      "options": [
+        "An associated condition",
+        "One of the five main diagnostic criteria",
+        "Required in all patients",
+        "A sign of vitamin deficiency only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperuricemia is listed as an associated condition, not one of the five main diagnostic criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-034",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which of the following is NOT one of the five main criteria?",
+      "options": [
+        "Elevated triglycerides",
+        "Reduced HDL",
+        "Raised fasting plasma glucose",
+        "Low serum calcium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Low calcium is not listed as a criterion. The criteria include BMI/central obesity, TG, HDL, BP, and fasting glucose.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-035",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The prevalence of metabolic syndrome in the USA is estimated in some studies as approximately:",
+      "options": [
+        "5%",
+        "12%",
+        "34%",
+        "80%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The file states that some studies estimate prevalence in the USA at about 34% of the adult population.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-036",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has BMI 32 kg/m², triglycerides 170 mg/dL, HDL 38 mg/dL, BP 124/80 mmHg, and fasting glucose 92 mg/dL. Does he meet metabolic syndrome criteria?",
+      "options": [
+        "Yes, he has three criteria",
+        "No, he has only two criteria",
+        "No, all five criteria are required",
+        "Yes, because BMI alone is enough"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He has BMI >30, TG >150, and HDL <40. That makes three criteria, enough for metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-037",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A female patient has BMI 28 kg/m², TG 160 mg/dL, HDL 45 mg/dL, BP 138/86 mmHg, and fasting glucose 105 mg/dL. Does she meet criteria?",
+      "options": [
+        "Yes, three criteria are present",
+        "No, BMI must be >30 and is required",
+        "No, HDL is normal for females",
+        "No, fasting glucose must be >200"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TG >150, HDL <50 in female, BP >130/85, and FPG >100 are present. She meets at least three criteria even though BMI is not >30.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-038",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has BMI 29 kg/m², TG 140 mg/dL, HDL 42 mg/dL, BP 128/84 mmHg, and fasting glucose 98 mg/dL. Which interpretation is correct?",
+      "options": [
+        "Does not meet metabolic syndrome criteria",
+        "Meets criteria due to BMI alone",
+        "Meets criteria due to HDL only",
+        "Meets all five criteria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "None of the listed values cross the diagnostic thresholds, so he does not meet criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-039",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A female patient has BMI 31 kg/m², TG 145 mg/dL, HDL 48 mg/dL, BP 120/80 mmHg, and fasting glucose 90 mg/dL. Does she meet metabolic syndrome criteria?",
+      "options": [
+        "No, only BMI and low HDL are present",
+        "Yes, BMI alone is enough",
+        "Yes, TG is clearly raised",
+        "Yes, all five criteria are present"
+      ],
+      "correctAnswer": 0,
+      "explanation": "BMI >30 is one criterion, and HDL <50 in females is another. TG is not >150, BP is not raised, and glucose is not >100, so only two criteria are present.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-040",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient is on treatment for hypertension and has TG 180 mg/dL, HDL 45 mg/dL, BMI 27 kg/m², and fasting glucose 95 mg/dL. Does he meet criteria?",
+      "options": [
+        "No, only two criteria are present",
+        "Yes, three criteria are present",
+        "Yes, treatment for hypertension alone is enough",
+        "No, TG treatment is required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He has TG >150 and treatment for hypertension. HDL 45 is not low for a male because the cutoff is <40. He has only two criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-041",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has diagnosed type 2 diabetes, BP 132/84 mmHg, TG 151 mg/dL, HDL 50 mg/dL, and BMI 26 kg/m². Does he meet metabolic syndrome criteria?",
+      "options": [
+        "Yes, diabetes/FPG criterion + BP + TG = three criteria",
+        "No, BMI must be >30",
+        "No, HDL must be low",
+        "No, triglycerides must be >300"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Previously diagnosed type 2 diabetes counts for the glucose criterion. BP systolic >130 and TG >150 add two more criteria.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-042",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A female patient has HDL 49 mg/dL. Which interpretation is correct?",
+      "options": [
+        "It meets the reduced HDL criterion for females",
+        "It is normal because only <40 counts in females",
+        "It indicates high HDL",
+        "It excludes metabolic syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For females, reduced HDL is <50 mg/dL, so 49 mg/dL meets the criterion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-043",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A male patient has HDL 39 mg/dL. Which interpretation is correct?",
+      "options": [
+        "It meets the reduced HDL criterion for males",
+        "It is normal for males",
+        "It only counts in females",
+        "HDL is not part of metabolic syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In males, reduced HDL is <40 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-044",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has BP 128/88 mmHg. Does this meet the raised BP criterion?",
+      "options": [
+        "Yes, because diastolic BP is >85 mmHg",
+        "No, systolic must be >130 and diastolic must also be >85",
+        "No, BP must be >160/100",
+        "No, BP is normal by the file criteria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The criterion is systolic >130 OR diastolic >85. A diastolic pressure of 88 meets the criterion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-045",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has BP 132/82 mmHg. Does this meet the raised BP criterion?",
+      "options": [
+        "Yes, because systolic BP is >130 mmHg",
+        "No, diastolic must be >85",
+        "No, both systolic and diastolic must be raised",
+        "No, only treated hypertension counts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Systolic BP >130 is enough to meet the criterion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-046",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has fasting plasma glucose of 101 mg/dL. Which interpretation is correct?",
+      "options": [
+        "It meets the raised fasting glucose criterion",
+        "It is below the criterion",
+        "It excludes insulin resistance",
+        "It only counts if TG is normal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raised fasting plasma glucose is defined as >100 mg/dL.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-047",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A sedentary older obese patient with insulin resistance and central adiposity develops high TG and low HDL. Which mechanism-level statement best fits the file?",
+      "options": [
+        "Metabolic syndrome reflects disordered energy utilization/storage and is linked to insulin resistance",
+        "Metabolic syndrome is caused only by acute infection",
+        "Low HDL excludes metabolic syndrome",
+        "Central obesity is unrelated to metabolic risk"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file links metabolic syndrome to disturbed energy utilization/storage, obesity, sedentary behavior, and insulin resistance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-048",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with central obesity, acanthosis nigricans, impaired fasting glucose, and low HDL is being evaluated. Which associated mechanism is most likely?",
+      "options": [
+        "Insulin resistance",
+        "Hemolysis",
+        "Acute vitamin C deficiency",
+        "Hyperthyroidism only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acanthosis nigricans and impaired fasting glucose are commonly associated with insulin resistance and metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-049",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which patient most likely has metabolic syndrome?",
+      "options": [
+        "BMI 33, TG 180, HDL 35 male, BP 135/90, FPG 110",
+        "BMI 23, TG 90, HDL 65, BP 110/70, FPG 85",
+        "BMI 26, TG 120, HDL 55 female, BP 118/78, FPG 90",
+        "BMI 24, TG 100, HDL 50 male, BP 120/80, FPG 95"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Patient A meets all five criteria: BMI >30, TG >150, low HDL for male, raised BP, and FPG >100.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-metabolic-syndrome-050",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clinician sees an obese patient with fatty liver, hypertension, high TG, and prediabetes. Which conclusion is most appropriate?",
+      "options": [
+        "The patient should be evaluated for metabolic syndrome",
+        "These findings are unrelated",
+        "High TG excludes metabolic syndrome",
+        "Fatty liver prevents insulin resistance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatty liver is an associated condition, while hypertension, high TG, and prediabetes are core features of metabolic syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
