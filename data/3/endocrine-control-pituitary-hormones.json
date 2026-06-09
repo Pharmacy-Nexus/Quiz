@@ -2,6 +2,517 @@
   "subjectId": "3",
   "topicId": "endocrine-control-pituitary-hormones",
   "topicName": "Endocrine Control & Pituitary Hormones",
-  "updatedAt": "2026-06-09T21:54:06.137Z",
-  "questions": []
+  "updatedAt": "2026-06-09T21:54:20.609Z",
+  "questions": [
+    {
+      "id": "3-endocrine-control-pituitary-hormones-001",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient’s total thyroid hormone level is abnormal, but free hormone level is normal. Which principle explains why free hormone measurement may be more clinically relevant?",
+      "options": [
+        "Only free/unbound hormone is biologically active",
+        "Bound hormone is always more active",
+        "Thyroid hormones do not bind plasma proteins",
+        "Free hormones are never measured"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steroid and thyroid hormones bind plasma glycoproteins, but the free fraction is biologically active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-002",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A doctor measures one random GH level in a child and finds it very low. Why is this result not enough to diagnose GH deficiency?",
+      "options": [
+        "GH secretion is pulsatile and often low or undetectable between pulses",
+        "GH is constant throughout the day",
+        "GH cannot be stimulated",
+        "GH is not secreted by pituitary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH secretion is pulsatile, occurring several times daily, and basal levels may be very low, especially in children.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-003",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient is suspected of acromegaly. After oral glucose administration, GH fails to suppress. What is the best interpretation?",
+      "options": [
+        "Supports diagnosis of acromegaly",
+        "Excludes GH excess",
+        "Confirms diabetes insipidus",
+        "Confirms prolactinoma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lack of GH suppression in response to OGTT is diagnostic for acromegaly.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-004",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child has excessive linear growth before epiphyseal fusion and is later found to have GH excess. Which condition is most likely?",
+      "options": [
+        "Gigantism",
+        "Acromegaly",
+        "Diabetes insipidus",
+        "Hyperprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH excess before epiphyseal fusion causes gigantism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-005",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "An adult develops enlarged hands, jaw enlargement, facial changes, excessive hair growth, and impaired glucose tolerance. Which disorder best fits?",
+      "options": [
+        "Acromegaly",
+        "GH deficiency",
+        "Diabetes insipidus",
+        "Hypoprolactinemia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH excess after epiphyseal fusion causes acromegaly with soft tissue/bone enlargement and metabolic effects.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-006",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with acromegaly develops impaired glucose tolerance. Which biochemical action of GH explains this?",
+      "options": [
+        "GH antagonizes insulin and is hyperglycemic",
+        "GH lowers glucose like insulin",
+        "GH has no carbohydrate effect",
+        "GH destroys pancreatic beta cells directly in all cases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GH antagonizes insulin, so GH excess may impair glucose tolerance and contribute to diabetes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-007",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A child is evaluated for short stature. Clonidine test fails to stimulate GH secretion. What does this suggest?",
+      "options": [
+        "GH deficiency",
+        "GH excess",
+        "Hyperprolactinemia",
+        "Diabetes insipidus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clonidine is a GH stimulant; lack of GH response supports GH insufficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-008",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A woman has amenorrhea and galactorrhea. Which hormone excess is most likely?",
+      "options": [
+        "Prolactin",
+        "GH",
+        "ACTH",
+        "ADH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperprolactinemia in women may cause amenorrhea and galactorrhea.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-009",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A man presents with visual disturbance from a large pituitary tumor. Prolactinoma is suspected. Which statement fits the file?",
+      "options": [
+        "In men, a prolactinoma may first present when a large tumor interferes with optic nerves",
+        "Men always present first with galactorrhea",
+        "Prolactin is not secreted by pituitary",
+        "Prolactinoma always causes diabetes insipidus first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In men, the first indication of prolactinoma may be symptoms from tumor growth affecting the optic nerves.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-010",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has hyperprolactinemia with hypothyroidism. Which mechanism is given in the file?",
+      "options": [
+        "Raised TRH can stimulate prolactin",
+        "Low TSH directly stimulates ADH",
+        "Cortisol stimulates prolactin directly",
+        "GH blocks prolactin clearance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothyroidism may cause hyperprolactinemia because raised TRH stimulates prolactin secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-011",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Which drug group mentioned may cause hyperprolactinemia?",
+      "options": [
+        "Phenothiazines",
+        "Penicillins",
+        "Antacids",
+        "Oral rehydration salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Drugs such as estrogens and phenothiazines are listed causes of hyperprolactinemia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-012",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "ACTH stimulates adrenal steroid synthesis especially by increasing:",
+      "options": [
+        "Pregnenolone synthesis from cholesterol",
+        "Lactate conversion to pyruvate",
+        "ADH release from posterior pituitary",
+        "Insulin secretion directly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH stimulates adrenal steroid synthesis, especially cortisol, by increasing synthesis of pregnenolone from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-013",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Increased pigmentation in ACTH-driven Cushing’s syndrome is due to:",
+      "options": [
+        "ACTH stimulation of melanocytes to produce melanin",
+        "Reduced melanin synthesis",
+        "Excess ADH",
+        "Excess oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH can stimulate melanocytes, explaining increased pigmentation in ACTH-driven Cushing’s syndrome.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-014",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "The highest plasma ACTH concentration is expected between:",
+      "options": [
+        "6–8 A.M.",
+        "12–2 P.M. only",
+        "8–10 P.M. only",
+        "Midnight only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH concentration is highest between 6 and 8 A.M.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-015",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "FSH and LH are classified as:",
+      "options": [
+        "Glycoprotein hormones",
+        "Steroid hormones",
+        "Amino acid derivatives",
+        "Bile acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FSH and LH are glycoprotein hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-016",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "FSH and LH are necessary for:",
+      "options": [
+        "Proper maturation and function of gonads",
+        "Renal water reabsorption only",
+        "Milk ejection only",
+        "Melanin degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gonadotropins are required for gonadal maturation, gonadal hormone secretion, and reproduction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-017",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In ovulating females, FSH and LH:",
+      "options": [
+        "Rise sharply just before ovulation then rapidly fall",
+        "Remain absent throughout life",
+        "Are present only after menopause",
+        "Are posterior pituitary hormones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In ovulating women, FSH and LH rise sharply prior to ovulation and then rapidly fall.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-018",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "In women after menopause, plasma FSH and LH:",
+      "options": [
+        "Greatly increase",
+        "Become completely absent",
+        "Become identical to ADH",
+        "Are secreted by posterior pituitary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that plasma FSH and LH greatly increase after menopause.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-019",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "AVP/ADH is synthesized in:",
+      "options": [
+        "Hypothalamic neurons",
+        "Thyroid follicles",
+        "Adrenal cortex",
+        "Pancreatic beta cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothalamic neurons synthesize AVP and oxytocin, which are stored in the posterior pituitary.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-020",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "AVP is stored in:",
+      "options": [
+        "Posterior pituitary nerve terminals",
+        "Anterior pituitary secretory cells",
+        "Thyroid gland",
+        "Liver sinusoids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AVP travels down axons to the posterior pituitary, where it is stored in granules in nerve endings.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-021",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Primary physiological role of AVP is:",
+      "options": [
+        "Increase renal tubular water reabsorption",
+        "Stimulate milk secretion",
+        "Stimulate adrenal cortisol synthesis",
+        "Stimulate thyroid hormone release"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AVP/ADH increases water reabsorption by renal tubules.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-022",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "AVP is released in response to:",
+      "options": [
+        "Rise in plasma osmolality or fall in extracellular fluid volume",
+        "High HDL only",
+        "Increased milk production only",
+        "Low ACTH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AVP release is triggered by increased plasma osmolality or decreased extracellular fluid volume.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-023",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Deficiency of vasopressin causes:",
+      "options": [
+        "Diabetes insipidus",
+        "Acromegaly",
+        "Hyperprolactinemia",
+        "Cushing’s syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ADH deficiency causes diabetes insipidus.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-024",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Diabetes insipidus is characterized by:",
+      "options": [
+        "Passage of large volumes of dilute urine",
+        "Low urine volume with concentrated urine",
+        "Excess milk production",
+        "Excess melanin production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vasopressin deficiency leads to inability to concentrate urine, causing large volumes of dilute urine.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-025",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "According to the file, diagnosis of diabetes insipidus usually does not require:",
+      "options": [
+        "Measuring AVP concentration in blood",
+        "Clinical evidence",
+        "Evaluation of urine volume",
+        "Recognition of dilute urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states there is no need to measure blood hormone concentration because diagnosis is made upon clinical evidence.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-026",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Oxytocin is released in response to:",
+      "options": [
+        "Suckling of the breast",
+        "Hyperglycemia",
+        "High plasma osmolality",
+        "High ACTH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxytocin release occurs in response to suckling.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-027",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Oxytocin causes:",
+      "options": [
+        "Uterine contraction at onset of labor",
+        "Increased renal water reabsorption",
+        "Increased cortisol synthesis",
+        "Increased melanin production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxytocin causes uterine contraction during labor.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-028",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A lactating woman has milk present but poor milk ejection. Which posterior pituitary hormone is most directly involved in milk flow initiation?",
+      "options": [
+        "Oxytocin",
+        "Prolactin",
+        "ACTH",
+        "TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prolactin stimulates milk secretion, but oxytocin initiates milk flow/ejection.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-029",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A hormone is secreted by a specialized gland into blood and acts on distant cells. Which type of regulation is this?",
+      "options": [
+        "Endocrine",
+        "Paracrine",
+        "Autocrine",
+        "Intracrine only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Endocrine regulation involves secretion into blood to affect distant target cells.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-endocrine-control-pituitary-hormones-030",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A local factor is not secreted into circulation but acts on adjacent cells. Which type of regulation is this?",
+      "options": [
+        "Paracrine",
+        "Endocrine",
+        "Autocrine",
+        "Neural only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paracrine regulation involves local factors acting on adjacent cells without entering systemic circulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    }
+  ]
 }
