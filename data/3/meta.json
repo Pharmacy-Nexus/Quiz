@@ -64,6 +64,21 @@
       },
       "questionsCount": 90,
       "file": "data/3/endocrine-control-pituitary-hormones.json"
+    },
+    {
+      "id": "thyroid-adrenocortical-pathophysiology",
+      "name": "Thyroid & Adrenocortical Pathophysiology",
+      "description": "",
+      "order": 4,
+      "section": "",
+      "sectionId": "",
+      "difficultyBreakdown": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "questionsCount": 0,
+      "file": "data/3/thyroid-adrenocortical-pathophysiology.json"
     }
   ],
   "updatedAt": "2026-06-09T21:59:52.583Z"
