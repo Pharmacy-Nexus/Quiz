@@ -44,12 +44,12 @@
       "sectionId": "",
       "difficultyBreakdown": {
         "easy": 0,
-        "medium": 25,
+        "medium": 0,
         "hard": 20
       },
-      "questionsCount": 45,
+      "questionsCount": 20,
       "file": "data/3/metabolic-syndrome.json"
     }
   ],
-  "updatedAt": "2026-06-09T21:41:32.359Z"
+  "updatedAt": "2026-06-09T21:41:40.035Z"
 }
