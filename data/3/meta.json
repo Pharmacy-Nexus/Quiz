@@ -45,11 +45,11 @@
       "difficultyBreakdown": {
         "easy": 0,
         "medium": 0,
-        "hard": 20
+        "hard": 0
       },
-      "questionsCount": 20,
+      "questionsCount": 0,
       "file": "data/3/metabolic-syndrome.json"
     }
   ],
-  "updatedAt": "2026-06-09T21:41:40.035Z"
+  "updatedAt": "2026-06-09T21:41:48.026Z"
 }
