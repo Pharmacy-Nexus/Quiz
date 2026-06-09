@@ -2,7 +2,7 @@
   "subjectId": "3",
   "topicId": "thyroid-adrenocortical-pathophysiology",
   "topicName": "Thyroid & Adrenocortical Pathophysiology",
-  "updatedAt": "2026-06-09T22:01:39.101Z",
+  "updatedAt": "2026-06-09T22:05:44.594Z",
   "questions": [
     {
       "id": "3-thyroid-adrenocortical-pathophysiology-001",
@@ -510,6 +510,1536 @@
       ],
       "correctAnswer": 0,
       "explanation": "Glucocorticoids are conjugated in the liver with glucuronate and sulphate into water-soluble inactive metabolites for urinary excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-031",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The thyroid gland is located:",
+      "options": [
+        "In the abdomen near the kidney",
+        "In the neck around the trachea below the larynx",
+        "Inside the adrenal cortex",
+        "In the posterior pituitary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The thyroid is a small gland in the neck, wrapped around the trachea just below the larynx.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-032",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Thyroid hormones mainly:",
+      "options": [
+        "Decrease metabolic rate and oxygen consumption",
+        "Increase metabolic rate and oxygen consumption",
+        "Inhibit growth and development",
+        "Only regulate sodium balance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thyroid hormones increase metabolic rate and oxygen consumption and are essential for growth and development.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-033",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The thyroid gland also secretes:",
+      "options": [
+        "Calcitonin",
+        "Cortisol",
+        "Aldosterone",
+        "ACTH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thyroid secretes calcitonin, which participates in regulation of plasma calcium by inhibiting bone resorption.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-034",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Thyroid disease is more common in:",
+      "options": [
+        "Women",
+        "Men only",
+        "Children only",
+        "Athletes only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that thyroid disease is common in women, with community prevalence around 3-5%.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-035",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The two main thyroid hormones are:",
+      "options": [
+        "T4 and T3",
+        "Cortisol and aldosterone",
+        "ACTH and GH",
+        "Insulin and glucagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thyroxine, T4, and tri-iodothyronine, T3, are together known as thyroid hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-036",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The thyroid gland secretes mostly:",
+      "options": [
+        "T4",
+        "T3 only",
+        "Reverse T3 only",
+        "TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thyroid secretes mostly T4, with smaller amounts of T3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-037",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Most circulating T3 is produced by:",
+      "options": [
+        "Peripheral deiodination of T4",
+        "Direct secretion from adrenal cortex",
+        "Pituitary conversion of TSH",
+        "Renal secretion of calcitonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peripheral tissues, especially liver and kidney, convert T4 to the more biologically active T3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-038",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The thyroid hormone that mainly binds receptors and triggers end-organ effects is:",
+      "options": [
+        "T3",
+        "Reverse T3",
+        "Calcitonin",
+        "TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T3 binds receptors and mediates many end-organ effects of thyroid hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-039",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Reverse T3 is:",
+      "options": [
+        "Biologically inactive",
+        "More active than T3",
+        "Secreted by pituitary",
+        "A form of TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T4 can be metabolized to reverse T3, which is biologically inactive.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-040",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Thyroid hormones are essential for:",
+      "options": [
+        "Normal maturation and metabolism of body tissues",
+        "Only bone marrow destruction",
+        "Only urine concentration",
+        "Only adrenal androgen synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thyroid hormones are needed for normal tissue maturation and metabolism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-041",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Hypothyroidism may be associated with high serum cholesterol because of:",
+      "options": [
+        "Down-regulation of LDL receptors and reduced cholesterol metabolism",
+        "Increased LDL receptor activity",
+        "Complete absence of cholesterol synthesis",
+        "Increased sterol excretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothyroidism reduces cholesterol metabolism partly through down-regulation of hepatic LDL receptors.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-042",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "In plasma, most T4 is:",
+      "options": [
+        "Protein-bound",
+        "Free and unbound",
+        "Excreted immediately in urine",
+        "Bound only to hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "More than 99.95% of T4 circulates bound to plasma proteins.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-043",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The main binding protein carrying most T4 is:",
+      "options": [
+        "Thyroxine-binding globulin",
+        "Hemoglobin",
+        "Fibrinogen",
+        "Creatine kinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TBG carries about 70% of circulating T4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-044",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "The biologically important thyroid hormone fraction is:",
+      "options": [
+        "Free T4 and free T3",
+        "Bound T4 only",
+        "TBG-bound hormone only",
+        "Total protein-bound hormone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The free hormone concentrations are important for biological effects and feedback.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-045",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal total T4 range in the file is:",
+      "options": [
+        "70-150 nmol/L",
+        "1.2-2.8 nmol/L",
+        "10-27 pmol/L",
+        "0.3-5.0 mU/L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total T4 normal range is listed as 70-150 nmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-046",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal total T3 range in the file is:",
+      "options": [
+        "1.2-2.8 nmol/L",
+        "70-150 nmol/L",
+        "10-27 pmol/L",
+        "6-12 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total T3 normal range is 1.2-2.8 nmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-047",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Normal plasma TSH range in the file is:",
+      "options": [
+        "0.3-5.0 mU/L",
+        "70-150 nmol/L",
+        "3-9 pmol/L",
+        "6-12 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasma TSH normal range is 0.3-5.0 mU/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-048",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Primary hypothyroidism is usually indicated by:",
+      "options": [
+        "Elevated TSH",
+        "Suppressed TSH",
+        "High T4 and high T3",
+        "Normal TSH with high T4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In primary hypothyroidism, thyroid failure causes low hormone output, so TSH rises to stimulate the gland.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-049",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Primary hyperthyroidism is usually indicated by:",
+      "options": [
+        "High thyroid hormones with suppressed TSH",
+        "Low T4 with high TSH",
+        "Low T4 with low TSH",
+        "Normal T4 with normal TSH always"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In primary hyperthyroidism, excess thyroid hormone suppresses pituitary TSH release.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-050",
+      "type": "mcq",
+      "difficulty": "easy",
+      "questionText": "Cushing's syndrome is caused by excess circulating:",
+      "options": [
+        "Cortisol",
+        "TSH",
+        "Calcitonin",
+        "Aldosterone only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cushing's syndrome is caused by excess circulating cortisol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-051",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The plasma concentration of T4 is approximately:",
+      "options": [
+        "100 nmol/L",
+        "2 nmol/L",
+        "0.3 mU/L",
+        "6 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that plasma T4 concentration is around 100 nmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-052",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The plasma concentration of T3 is approximately:",
+      "options": [
+        "2 nmol/L",
+        "100 nmol/L",
+        "70 nmol/L",
+        "150 nmol/L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T3 is present at a lower concentration, around 2 nmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-053",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which tissues are especially important in converting T4 to T3?",
+      "options": [
+        "Liver and kidney",
+        "Skin and bone only",
+        "Pituitary and lung only",
+        "Red blood cells only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peripheral conversion of T4 to T3 occurs especially in the liver and kidney.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-054",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Approximately how much circulating T3 is produced by peripheral conversion of T4?",
+      "options": [
+        "Two-thirds",
+        "One-tenth",
+        "All of it exactly",
+        "None of it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peripheral tissues produce approximately two-thirds of circulating T3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-055",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Tissue conversion of T4 into either T3 or rT3 allows tissues to:",
+      "options": [
+        "Fine tune local thyroid status",
+        "Stop thyroid hormone transport completely",
+        "Produce TSH locally",
+        "Convert TSH into calcitonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By changing relative T3 and rT3 production, tissues can adjust local thyroid hormone activity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-056",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thyroid hormones influence:",
+      "options": [
+        "Protein and carbohydrate synthesis and catabolism",
+        "Only sodium excretion",
+        "Only hemoglobin synthesis",
+        "Only platelet aggregation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thyroid hormones influence both synthesis and breakdown of proteins and carbohydrates.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-057",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "T3 and T4 generally enhance:",
+      "options": [
+        "Protein synthesis and positive nitrogen balance",
+        "Protein breakdown only",
+        "Negative nitrogen balance always",
+        "Complete inhibition of GH gene transcription"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T3 and T4 enhance general protein synthesis and cause positive nitrogen balance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-058",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "T3 and glucocorticoids enhance transcription of:",
+      "options": [
+        "GH gene",
+        "Insulin gene only",
+        "ADH gene only",
+        "Calcitonin gene only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T3 and glucocorticoids enhance transcription of the GH gene.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-059",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which protein carries approximately 25% of T4?",
+      "options": [
+        "Albumin",
+        "TBG",
+        "Transthyretin",
+        "Hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Albumin carries approximately 25% of circulating T4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-060",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which protein carries approximately 5% of T4?",
+      "options": [
+        "Transthyretin",
+        "Albumin",
+        "TBG",
+        "Fibrinogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transthyretin, formerly prealbumin, carries around 5% of T4.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-061",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Changes in thyroid hormone binding proteins are important because they:",
+      "options": [
+        "Complicate interpretation of total thyroid hormone results",
+        "Always indicate hyperthyroidism",
+        "Always indicate hypothyroidism",
+        "Have no effect on total T4/T3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total hormone levels are strongly influenced by binding proteins, especially TBG.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-062",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Pregnancy can complicate thyroid test interpretation mainly because:",
+      "options": [
+        "Binding protein concentration may change",
+        "TSH cannot be measured",
+        "Thyroid hormones stop binding proteins",
+        "T3 becomes inactive only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Changes in binding protein concentration, such as in pregnancy, can alter total thyroid hormone levels.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-063",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Free T4 and free T3 are theoretically more reliable than total hormone levels because they are:",
+      "options": [
+        "Independent of TBG concentration and affinity",
+        "Always cheaper and easier to measure",
+        "Directly secreted by adrenal cortex",
+        "Not biologically active"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free hormone levels are not affected by changes in TBG concentration or affinity.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-064",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "A limitation of true free thyroxine assays is that they are:",
+      "options": [
+        "Technically difficult and expensive",
+        "Impossible to interpret in all cases",
+        "Not related to thyroid function",
+        "Only done in urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "True free T4 assays are technically difficult and expensive compared with total hormone assays.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-065",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Normal free T4 range in the file is:",
+      "options": [
+        "10-27 pmol/L",
+        "70-150 nmol/L",
+        "0.3-5.0 mU/L",
+        "6-12 mg/dL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free T4 normal range is 10-27 pmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-066",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Normal free T3 range in the file is:",
+      "options": [
+        "3-9 pmol/L",
+        "1.2-2.8 nmol/L",
+        "70-150 nmol/L",
+        "0.3-5.0 mU/L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free T3 normal range is 3-9 pmol/L.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-067",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "TSH is a very useful index for thyroid dysfunction because:",
+      "options": [
+        "Pituitary TSH secretion is very sensitive to free T4 changes",
+        "TSH is secreted by thyroid follicles",
+        "TSH directly measures TBG",
+        "TSH is unaffected by thyroid hormone levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TSH responds sensitively to changes in free T4, making it useful in thyroid dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-068",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Total T4 and T3 are usually measured by:",
+      "options": [
+        "RIA or enzyme immunoassay",
+        "Urine dipstick only",
+        "Blood film",
+        "ECG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file states that plasma T4 and T3 are usually measured by RIA or enzyme immunoassay.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-069",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Primary hypothyroidism means:",
+      "options": [
+        "Failure of the thyroid gland itself",
+        "Failure of pituitary only",
+        "Excess TSH secretion from pituitary",
+        "Excess thyroid hormone ingestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primary hypothyroidism is failure of the thyroid gland itself.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-070",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Secondary hypothyroidism is due to:",
+      "options": [
+        "Failure of pituitary to secrete TSH",
+        "Excess TSH secretion",
+        "Excess thyroid hormone synthesis",
+        "Increased TBG only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secondary hypothyroidism is caused by pituitary failure to secrete TSH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-071",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which clinical feature fits hypothyroidism?",
+      "options": [
+        "Cold intolerance",
+        "Heat intolerance",
+        "Weight loss with increased appetite",
+        "Diarrhea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothyroidism commonly causes cold intolerance, tiredness, weight gain, dry skin/hair, and bradycardia.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-072",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which feature is associated with hypothyroidism?",
+      "options": [
+        "Slow relaxation of tendon reflexes",
+        "Increased pulse rate",
+        "Excessive sweating",
+        "Nervousness and irritability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Slow relaxation of muscles and tendon reflexes is a listed feature of hypothyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-073",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Over 90% of hypothyroidism cases occur due to:",
+      "options": [
+        "Autoimmune thyroid destruction or treatment of hyperthyroidism",
+        "Excess iodine intake only",
+        "Pituitary tumors only",
+        "Adrenal carcinoma only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most hypothyroidism cases are due to Hashimoto disease or radioiodine/surgical treatment of hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-074",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thyrotoxicosis means:",
+      "options": [
+        "Tissues are exposed to high thyroid hormone levels",
+        "Thyroid hormone deficiency",
+        "Low TSH only with normal thyroid hormones always",
+        "Low calcitonin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thyrotoxicosis occurs when tissues are exposed to high levels of thyroid hormones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-075",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The term hyperthyroidism correctly refers to:",
+      "options": [
+        "Overactivity of the thyroid gland",
+        "Any cause of low thyroid hormone",
+        "Increased TBG only",
+        "Low TSH from pituitary failure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperthyroidism means overactivity of the thyroid gland, although thyrotoxicosis may have other causes.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-076",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Thyrotoxicosis can occur from:",
+      "options": [
+        "Ingestion of too much T4",
+        "Low thyroid hormone secretion",
+        "Low tissue exposure to T3",
+        "Calcitonin deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thyrotoxicosis may occur from excessive T4 ingestion, even if the thyroid gland is not overactive.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-077",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Which feature fits hyperthyroidism?",
+      "options": [
+        "Heat intolerance",
+        "Cold intolerance",
+        "Weight gain",
+        "Bradycardia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperthyroidism may cause heat intolerance, nervousness, sweating, weight loss, diarrhea, and increased pulse rate.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-078",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "T3 toxicosis refers to:",
+      "options": [
+        "Elevated T3 with total T4 within reference range and undetectable TSH",
+        "Low T3 with high TSH",
+        "High TSH with low T4",
+        "High TBG with normal free hormones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some hyperthyroid patients have normal total T4 but elevated T3 and undetectable TSH; this is T3 toxicosis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-079",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High T4 with low TSH in a clinically thyrotoxic patient suggests:",
+      "options": [
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism",
+        "Euthyroidism due to TBG excess"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High thyroid hormone suppresses TSH in primary hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-080",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High T4 with high TSH suggests:",
+      "options": [
+        "Secondary hyperthyroidism",
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "TBG deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High T4 with inappropriately high TSH suggests increased pituitary stimulation, or secondary hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-081",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "High T4 with normal TSH suggests:",
+      "options": [
+        "Euthyroidism with increased TBG concentration",
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High total T4 with normal TSH may reflect increased TBG rather than true thyroid dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-082",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Low T4 with high TSH suggests:",
+      "options": [
+        "Primary hypothyroidism",
+        "Primary hyperthyroidism",
+        "Secondary hyperthyroidism",
+        "TBG excess only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thyroid gland is failing, so pituitary TSH rises.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-083",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Low T4 with low TSH suggests:",
+      "options": [
+        "Secondary hypothyroidism",
+        "Primary hypothyroidism",
+        "Primary hyperthyroidism",
+        "T3 toxicosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low T4 with low TSH suggests pituitary or hypothalamic failure.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-084",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The adrenal cortex secretes hormones derived from:",
+      "options": [
+        "Cholesterol",
+        "Glucose",
+        "Glycogen",
+        "Hemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrenal cortical hormones are steroid hormones derived from cholesterol.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-085",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Zona glomerulosa secretes:",
+      "options": [
+        "Aldosterone",
+        "Cortisol only",
+        "Adrenal androgens only",
+        "Adrenaline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zona glomerulosa secretes aldosterone, a mineralocorticoid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-086",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Zona fasciculata and reticularis secrete mainly:",
+      "options": [
+        "Cortisol and adrenal androgens",
+        "Aldosterone only",
+        "Calcitonin",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These zones produce cortisol and adrenal androgens.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-087",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "The adrenal medulla secretes:",
+      "options": [
+        "Adrenaline",
+        "Aldosterone",
+        "T4",
+        "Calcitonin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adrenal medulla secretes adrenaline.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-088",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Cortisol and adrenal androgen synthesis are stimulated by:",
+      "options": [
+        "ACTH",
+        "TSH",
+        "Calcitonin",
+        "TBG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH from the anterior pituitary stimulates cortisol and adrenal androgen synthesis.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-089",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "Aldosterone synthesis is mainly controlled by:",
+      "options": [
+        "Renin-angiotensin system",
+        "TSH",
+        "TBG",
+        "Thyroid hormone feedback"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldosterone synthesis is controlled by the renin-angiotensin system and not normally by ACTH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-090",
+      "type": "mcq",
+      "difficulty": "medium",
+      "questionText": "At normal concentrations, physiologically active cortisol in plasma is mainly:",
+      "options": [
+        "The free unbound fraction",
+        "The CBG-bound fraction only",
+        "The albumin-bound fraction only",
+        "The urinary conjugated fraction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About 5% of cortisol is unbound and physiologically active.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-091",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has total T4 = 180 nmol/L, TSH = 2.5 mU/L, and free T4 = 16 pmol/L. Which interpretation is best?",
+      "options": [
+        "Euthyroidism with increased TBG effect",
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total T4 is high, but TSH and free T4 are normal. This pattern suggests altered binding protein, such as increased TBG, rather than true hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-092",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has T4 = 190 nmol/L and TSH = 0.05 mU/L with heat intolerance and tachycardia. What is the most likely diagnosis?",
+      "options": [
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism",
+        "Euthyroidism due to TBG excess"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High T4 with suppressed TSH and thyrotoxic symptoms indicates primary hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-093",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has T4 = 45 nmol/L and TSH = 18 mU/L. Which diagnosis is most consistent?",
+      "options": [
+        "Primary hypothyroidism",
+        "Secondary hypothyroidism",
+        "Primary hyperthyroidism",
+        "T3 toxicosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low T4 with high TSH suggests failure of the thyroid gland itself.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-094",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has T4 = 45 nmol/L and TSH = 0.1 mU/L. Which diagnosis is most likely?",
+      "options": [
+        "Secondary hypothyroidism",
+        "Primary hypothyroidism",
+        "Primary hyperthyroidism",
+        "Euthyroidism with increased TBG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low T4 with low TSH suggests pituitary or hypothalamic failure to stimulate the thyroid.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-095",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clinically thyrotoxic patient has total T4 within the reference range, undetectable TSH, and elevated T3. What is the best diagnosis?",
+      "options": [
+        "T3 toxicosis",
+        "Primary hypothyroidism",
+        "TBG deficiency",
+        "Secondary hypothyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T3 toxicosis occurs when T4 is normal but T3 is elevated with suppressed TSH in a hyperthyroid patient.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-096",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A pregnant woman has high total T4 but normal TSH and normal free T4. What is the best explanation?",
+      "options": [
+        "Increased binding protein concentration affecting total hormone",
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "T3 toxicosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pregnancy may change binding protein concentrations, especially TBG, which can raise total hormone levels without true thyroid dysfunction.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-097",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with lethargy, cold intolerance, weight gain, dry skin, constipation, and bradycardia is tested. Which lab pattern best fits?",
+      "options": [
+        "Low T4, high TSH",
+        "High T4, low TSH",
+        "High T4, high TSH",
+        "High T3, undetectable TSH only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are hypothyroid features. Primary hypothyroidism typically shows low thyroid hormone and elevated TSH.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-098",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with nervousness, sweating, heat intolerance, weight loss despite increased appetite, diarrhea, and rapid pulse is tested. Which pattern best confirms primary hyperthyroidism?",
+      "options": [
+        "High T4, suppressed TSH",
+        "Low T4, high TSH",
+        "Normal TSH with high total T4 only",
+        "Low T4, low TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperthyroid symptoms with high thyroid hormone and suppressed TSH confirm primary hyperthyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-099",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has high cholesterol and symptoms of hypothyroidism. Which mechanism from the file helps explain the lipid abnormality?",
+      "options": [
+        "Down-regulation of hepatic LDL receptors reduces cholesterol metabolism",
+        "Increased LDL receptors accelerate cholesterol clearance",
+        "T3 directly converts cholesterol to glucose",
+        "Calcitonin increases cholesterol synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothyroidism may cause high cholesterol due to reduced LDL receptor expression and impaired sterol excretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-100",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has low T4, low TSH, and other features suggesting pituitary disease. Which test may be included to evaluate the hypothalamic-pituitary-thyroid axis?",
+      "options": [
+        "TRH test",
+        "LDH isoenzyme test",
+        "CK-MB test",
+        "Oral glucose tolerance test for GH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In suspected secondary hypothyroidism or hypothalamic-pituitary disease, TRH testing may be included.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-101",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has total T4 = 60 nmol/L, free T4 = 18 pmol/L, and TSH = 2.0 mU/L. Which interpretation is most likely?",
+      "options": [
+        "Euthyroid state with possible reduced binding protein effect",
+        "Primary hypothyroidism",
+        "Primary hyperthyroidism",
+        "Secondary hyperthyroidism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total T4 is low, but free T4 and TSH are normal. This points toward altered binding protein rather than true hypothyroidism.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-102",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has T4 = 200 nmol/L and TSH = 8 mU/L. Which diagnosis is suggested by the file's thyroid function pattern?",
+      "options": [
+        "Secondary hyperthyroidism",
+        "Primary hyperthyroidism",
+        "Primary hypothyroidism",
+        "TBG deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High T4 with high TSH suggests secondary hyperthyroidism, usually due to increased pituitary stimulation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-103",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with hyperthyroid symptoms has T4 normal but T3 high. Why should T3 be checked in selected patients?",
+      "options": [
+        "Some patients have T3 toxicosis with normal T4",
+        "T3 is never abnormal in hyperthyroidism",
+        "T3 only reflects TBG deficiency",
+        "T3 cannot suppress TSH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file notes that some clinically hyperthyroid patients have normal T4 but elevated T3.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-104",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has round red moon face, truncal obesity, hypertension, hyperglycemia, muscle weakness, thin skin, and osteoporosis. Which disorder best fits?",
+      "options": [
+        "Cushing's syndrome",
+        "Primary hypothyroidism",
+        "T3 toxicosis",
+        "Addison's disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These features fit cortisol excess: central obesity, impaired glucose tolerance, protein catabolism, muscle wasting, thin skin, osteoporosis, and hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-105",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with suspected Cushing's syndrome has impaired glucose tolerance. Which action of cortisol explains this?",
+      "options": [
+        "Cortisol opposes insulin and stimulates gluconeogenesis",
+        "Cortisol acts exactly like insulin",
+        "Cortisol blocks gluconeogenesis",
+        "Cortisol lowers plasma glucose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol stimulates gluconeogenesis and opposes insulin, causing impaired glucose tolerance.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-106",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Muscle wasting, weakness, thin skin, and osteoporosis in Cushing's syndrome are mainly due to:",
+      "options": [
+        "Increased protein catabolism and negative nitrogen balance",
+        "Increased protein synthesis only",
+        "Excess calcitonin secretion",
+        "Increased thyroid binding proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol excess increases protein catabolism, producing negative nitrogen balance and tissue wasting.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-107",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Hypertension in Cushing's syndrome is partly explained by:",
+      "options": [
+        "Sodium and water retention due to mineralocorticoid effect of cortisol",
+        "Complete sodium loss",
+        "Low extracellular fluid volume always",
+        "Low cortisol effect on kidney"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol may exert mineralocorticoid effects, causing sodium and water retention and hypertension.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-108",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Greasy skin and acne in Cushing's syndrome may be related to:",
+      "options": [
+        "Androgen excess",
+        "Calcitonin deficiency",
+        "TBG excess",
+        "T4 deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file lists androgen excess as a contributor to greasy skin and acne.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-109",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Excess cortisol production may be due to all EXCEPT:",
+      "options": [
+        "ACTH from pituitary or ectopic source",
+        "Adrenal adenoma",
+        "Adrenal carcinoma",
+        "TBG deficiency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Causes of Cushing's include ACTH-driven adrenal stimulation and adrenal tumors, not TBG deficiency.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-110",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has adrenal cortex hyperfunction due to an adrenal adenoma. Which hormone excess is most directly expected in Cushing's syndrome?",
+      "options": [
+        "Cortisol",
+        "Calcitonin",
+        "TSH",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cushing's syndrome results from excess circulating cortisol, which may be produced by adrenal adenoma.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-111",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A stressed patient has sustained ACTH secretion despite normal feedback rhythms. Which principle explains this?",
+      "options": [
+        "Stress may override feedback and inherent rhythm mechanisms",
+        "Stress always suppresses ACTH completely",
+        "Stress only affects thyroid hormones",
+        "Stress blocks cortisol secretion permanently"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physical or mental stress can override normal feedback/rhythm control and cause sustained ACTH secretion.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-112",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A serum cortisol sample is taken at midnight and compared with a morning sample. Which result pattern is physiologically expected?",
+      "options": [
+        "Higher cortisol at 07:00-09:00 and lower at 23:00-04:00",
+        "Higher cortisol only at midnight",
+        "Cortisol has no diurnal rhythm",
+        "Cortisol is always undetectable in the morning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisol normally has a marked diurnal rhythm, high in the morning and low late night.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-113",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A clinician wants to diagnose adrenal disease using a single random serum cortisol measurement. What is the main problem?",
+      "options": [
+        "Cortisol fluctuates widely throughout the day",
+        "Cortisol is never present in serum",
+        "Cortisol is not protein-bound",
+        "Cortisol does not follow rhythms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Single cortisol measurements are of little value because cortisol secretion fluctuates and follows diurnal rhythm.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-114",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient has cortisol = 20 mg/dL, while the file's normal serum cortisol range is 6-12 mg/dL. Which statement is most appropriate?",
+      "options": [
+        "It is elevated, but timing and clinical context matter because cortisol fluctuates",
+        "It is normal",
+        "It proves Addison's disease",
+        "It proves TBG deficiency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The value is above the stated range, but cortisol interpretation depends strongly on time of day and clinical context.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-115",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A patient with suspected Addison's disease presents with shock and volume depletion. Which statement is best?",
+      "options": [
+        "This may represent adrenal crisis and needs urgent treatment",
+        "This is typical primary hyperthyroidism",
+        "This is caused by excess aldosterone",
+        "This excludes adrenal failure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The file describes shock with volume depletion as adrenal crisis requiring urgent treatment.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-116",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Addison's disease is caused by:",
+      "options": [
+        "Bilateral destruction of all zones of the adrenal cortex",
+        "Excess cortisol secretion",
+        "Isolated TBG deficiency",
+        "Overactive thyroid gland"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primary adrenocortical hypofunction, Addison's disease, results from bilateral destruction of adrenal cortical zones.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-117",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "A common cause of Addison's disease is:",
+      "options": [
+        "Autoimmune destruction of adrenal cortex",
+        "Excess TSH",
+        "TBG excess",
+        "High reverse T3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Addison's disease is usually due to autoimmune destruction; tuberculosis is also important in some countries.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-118",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Skin and buccal pigmentation in Addison's disease is mainly due to:",
+      "options": [
+        "High ACTH from lack of cortisol negative feedback",
+        "High TBG",
+        "Excess calcitonin",
+        "High aldosterone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loss of cortisol feedback increases ACTH, which can produce pigmentation.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-119",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Aldosterone output is not significantly reduced by isolated ACTH deficiency because:",
+      "options": [
+        "Aldosterone synthesis is controlled mainly by renin-angiotensin system",
+        "Aldosterone is controlled only by TSH",
+        "Aldosterone comes from thyroid gland",
+        "ACTH is the only regulator of aldosterone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ACTH helps maintain zona glomerulosa growth, but aldosterone synthesis is primarily regulated by the renin-angiotensin system.",
+      "summary": "",
+      "caseText": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "3-thyroid-adrenocortical-pathophysiology-120",
+      "type": "mcq",
+      "difficulty": "hard",
+      "questionText": "Cortisone is therapeutically useful only after:",
+      "options": [
+        "Conversion in vivo to cortisol/hydrocortisone",
+        "Conversion to TSH",
+        "Binding to TBG only",
+        "Excretion unchanged in urine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cortisone is biologically inactive until converted in vivo to cortisol, also called hydrocortisone.",
       "summary": "",
       "caseText": "",
       "imageUrl": ""
