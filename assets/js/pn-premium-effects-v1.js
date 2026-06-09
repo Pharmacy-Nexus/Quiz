@@ -32,7 +32,7 @@
     const title = qs('#pn-v6-title');
     if (!title || title.dataset.premiumSplit === 'true') return;
     const raw = title.textContent.trim();
-    const hotWords = new Set(['smarter.', 'faster.', 'ready.', 'pharmacy']);
+    const hotWords = new Set(['question', 'bank.', 'pharmacy', 'cockpit.', 'exam']);
     title.innerHTML = raw.split(/\s+/).map((word) => {
       const clean = word.toLowerCase();
       const rendered = hotWords.has(clean) ? `<em>${word}</em>` : word;
@@ -134,7 +134,7 @@
 
   function initTiltCards() {
     if (prefersReduced) return;
-    const cards = qsa('[data-tilt-card], .pn-v6-feature-card, .pn-v6-stat-strip article, .pn-v6-command-card, .pn-v6-activity-card, .pn-subjects-clean-card, .pn-subjects-clean-stat, .pn-topic-card');
+    const cards = qsa('[data-tilt-card], .pn-v6-feature-card, .pn-v6-stat-strip article, .pn-v6-command-card, .pn-v6-activity-card, .pn-subjects-clean-card, .pn-subjects-clean-stat, .pn-topic-card, .pn-r-story-grid article, .pn-r-feature-grid article, .pn-r-metrics article');
     cards.forEach((card) => {
       if (card.dataset.tiltReady === 'true') return;
       card.dataset.tiltReady = 'true';
@@ -165,7 +165,7 @@
 
   function initMagneticButtons() {
     if (prefersReduced || !window.matchMedia('(pointer:fine)').matches) return;
-    const buttons = qsa('.pn-v6-btn, .pn-subjects-clean-btn, .pn-topic-open-btn, #sidebar button');
+    const buttons = qsa('.pn-v6-btn, .pn-subjects-clean-btn, .pn-topic-open-btn, #sidebar button, .pn-r-console-main button');
     buttons.forEach((btn) => {
       if (btn.dataset.magneticReady === 'true') return;
       btn.dataset.magneticReady = 'true';
@@ -193,7 +193,7 @@
 
   function initCounters() {
     if (prefersReduced || !window.gsap || !window.ScrollTrigger) return;
-    const nodes = qsa('#pn-v6-accuracy-mirror, #pn-v6-saved-mirror, #pn-v6-notes-mirror, #pn-v6-exams-mirror, .pn-subjects-clean-stat strong');
+    const nodes = qsa('#pn-v6-accuracy-mirror, #pn-r-accuracy-mirror, #pn-v6-saved-mirror, #pn-v6-notes-mirror, #pn-v6-exams-mirror, .pn-subjects-clean-stat strong');
     nodes.forEach((node) => {
       if (node.dataset.counterReady === 'true') return;
       const text = node.textContent.trim();
@@ -232,6 +232,23 @@
     });
   }
 
+
+
+  function syncHomeMirrors() {
+    const pairs = [
+      ['home-accuracy', 'pn-v6-accuracy-mirror'],
+      ['home-accuracy', 'pn-r-accuracy-mirror'],
+      ['home-saved-count', 'pn-v6-saved-mirror'],
+      ['home-notes-count', 'pn-v6-notes-mirror'],
+      ['home-final-exams-count', 'pn-v6-exams-mirror']
+    ];
+    pairs.forEach(([from, to]) => {
+      const source = qs(`#${from}`);
+      const target = qs(`#${to}`);
+      if (source && target) target.textContent = source.textContent;
+    });
+  }
+
   function observeDynamicContent() {
     const run = () => {
       initTiltCards();
@@ -254,6 +271,8 @@
     initMagneticButtons();
     initCounters();
     initHeroParallax();
+    syncHomeMirrors();
+    setInterval(syncHomeMirrors, 900);
     observeDynamicContent();
   });
 })();
