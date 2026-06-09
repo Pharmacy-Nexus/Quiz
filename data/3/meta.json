@@ -1,0 +1,8 @@
+{
+  "id": "3",
+  "name": "Clinical Biochemistry",
+  "description": "Lab interpretation: LFT, KFT, glucose tests, lipid profile, electrolytes, ABG.",
+  "order": 3,
+  "sections": [],
+  "topics": []
+}
